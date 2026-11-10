@@ -1,16 +1,22 @@
 {
   "id": "./",
-  "name": "글자별나라 - 어린이 한글 놀이",
-  "short_name": "글자별나라",
-  "description": "광고와 로그인 없는 한글 놀이",
+  "name": "쪼이랜드 - 호랑이와 신나는 한글 모험",
+  "short_name": "쪼이랜드",
+  "description": "호랑이 쪼이와 함께하는 무료 한글·동물·자동차 놀이",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#e9e5ff",
-  "theme_color": "#6248C9",
+  "theme_color": "#7039c8",
   "lang": "ko-KR",
   "orientation": "any",
   "icons": [
+    {
+      "src": "./icon-tiger.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
     {
       "src": "./icon-192.png",
       "sizes": "192x192",
