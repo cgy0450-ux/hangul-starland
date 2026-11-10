@@ -1,5 +1,5 @@
-/* 글자별나라 오프라인 지원: 상대 경로만 캐시하며 외부 통신을 하지 않습니다. */
-const CACHE = 'hangul-starland-v5-20261111';
+/* 쪼이랜드 오프라인 지원: 상대 경로만 캐시하며 외부 통신을 하지 않습니다. */
+const CACHE = 'hangul-starland-v5-1-20261111';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-tiger.svg', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(CORE)).then(() => self.skipWaiting()));
