@@ -15,7 +15,7 @@
 </style></head><body><header><a href="./index.html?subject=hangul">⌂ 한글 홈</a><strong>📖 쪼이의 동화책</strong><button class="sound" id="audio-switch" aria-label="책 읽는 소리 끄기">🔊 읽기 켬</button></header><main><div class="intro" id="intro"><h1>오늘은 어떤 이야기를 들을까?</h1><p class="desc">10장으로 된 이야기 20편! 쪼이가 책장을 넘길 때마다 읽어줘요.</p></div><div class="shelf" id="shelf"></div><div class="reader" id="reader"><button class="back" id="back">‹ 책장으로</button><div class="paper" id="paper"><h2 id="booktitle"></h2><div class="scene illustration" id="scene" aria-hidden="true"></div><p class="storytext" id="storytext"></p><div class="progress" id="progress"></div><div class="pagecount" id="pagecount"></div><div class="bookcontrol"><button id="prev">◀ 이전</button><button class="speak" id="speak">🔊 읽어줘</button><button class="next" id="next">다음 ▶</button></div></div></div><p class="tiny">모든 동화는 어린이를 위해 새롭게 쓴 이야기입니다. 목소리는 기기의 한국어 음성을 사용해요.</p></main>
 <script src="./stories-data.js"></script><script>
 const BOOKS=window.JOY_STORIES||[];
-let current=-1,page=0,utterance=null,soundOn=true;
+let current=-1,page=0,utterance=null,soundOn=(()=>{try{return JSON.parse(localStorage.getItem("hangul-starland-v1")||"{}").sound!==false;}catch(e){return true;}})();
 const shelf=document.getElementById('shelf'),reader=document.getElementById('reader');
 function stop(){if('speechSynthesis'in window)window.speechSynthesis.cancel();}
 function speak(){stop();if(!soundOn||!('speechSynthesis'in window))return;const text=BOOKS[current].pages[page].text;const u=new SpeechSynthesisUtterance(text);u.lang='ko-KR';u.rate=.91;u.pitch=1.04;const voices=speechSynthesis.getVoices().filter(v=>v.lang.toLowerCase().startsWith('ko'));u.voice=voices.find(v=>/natural|neural|enhanced|premium|google/i.test(v.name))||voices[0]||null;utterance=u;speechSynthesis.speak(u);}
@@ -35,6 +35,6 @@ function goBack(){stop();current=-1;reader.classList.remove('active');shelf.clas
 shelf.innerHTML=BOOKS.map((b,i)=>'<button class="booktile" data-book="'+i+'" style="--bg:'+b.color+'"><span class="pic">'+b.emoji+'</span><strong>'+b.title+'</strong><small>읽어 주는 그림 동화</small></button>').join('');
 shelf.addEventListener('click',e=>{const t=e.target.closest('[data-book]');if(t)open(Number(t.dataset.book));});
 document.getElementById('back').onclick=goBack;document.getElementById('prev').onclick=()=>flip(-1);document.getElementById('next').onclick=()=>flip(1);document.getElementById('speak').onclick=speak;
-const audio=document.getElementById('audio-switch');audio.onclick=()=>{soundOn=!soundOn;audio.textContent=soundOn?'🔊 읽기 켬':'🔇 읽기 끔';audio.setAttribute('aria-label',soundOn?'책 읽는 소리 끄기':'책 읽는 소리 켜기');if(!soundOn)stop();else if(current>=0)speak();};
+const audio=document.getElementById('audio-switch');function updateAudioLabel(){audio.textContent=soundOn?'🔊 읽기 켬':'🔇 읽기 끔';audio.setAttribute('aria-label',soundOn?'책 읽는 소리 끄기':'책 읽는 소리 켜기');}updateAudioLabel();audio.onclick=()=>{soundOn=!soundOn;try{const st=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}');st.sound=soundOn;localStorage.setItem('hangul-starland-v1',JSON.stringify(st));}catch(e){}updateAudioLabel();if(!soundOn)stop();else if(current>=0)speak();};
 window.addEventListener('pagehide',stop);
 </script></body></html>
