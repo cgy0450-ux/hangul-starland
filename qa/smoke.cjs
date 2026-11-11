@@ -41,4 +41,31 @@ assert(academy.includes('name:"어떤 계절일까?"'),'ten science games missin
 assert(academy.includes('name:"영어 글자 찾기"'),'ten English games missing');
 assert(academy.includes('games.history=')&&academy.includes('games.coding='),'history and coding subjects missing');
 assert(sw.includes('academy.html')&&sw.includes('writing.html')&&sw.includes('stories-data.js'),'offline assets missing');
+
+/* Run the preschool question-bank model in a minimal DOM harness, not just a syntax check. */
+const source=academy.match(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi).find(x=>x.includes('var games='));
+assert(source,'academy game script missing');
+const body=source.replace(/^<script(?:\s[^>]*)?>/i,'').replace(/<\/script>$/i,'');
+const wrapped=body.replace(/menu\(\);\s*\}\)\(\);\s*$/,'window.__qa={games,generate,shuffled};})();');
+for(const sub of ['math','science','english','history','coding']){
+ const fakeEl=()=>({textContent:'',innerHTML:'',addEventListener(){},classList:{add(){},remove(){}},style:{}});
+ const sandbox={window:{addEventListener(){}},document:{title:'',getElementById:fakeEl},location:{search:'?subject='+sub},URLSearchParams,Date,Math};
+ vm.runInNewContext(wrapped,sandbox,{filename:'academy-harness.js'});
+ const {games,generate,shuffled}=sandbox.window.__qa;
+ assert.equal(games[sub].length,10,sub+' must offer 10 games');
+ for(let i=0;i<10;i++){
+   if(games[sub][i].route)continue;
+   const questions=generate(sub,i);
+   const signatures=new Set(questions.map(q=>q.visual+'|'+q.ask+'|'+q.answer));
+   assert(signatures.size>=5,sub+' game '+i+' has fewer than 5 distinct questions');
+   for(const q of questions){
+     assert(q.options.includes(q.answer),sub+' game '+i+' missing correct answer');
+     assert.equal(q.options.length,new Set(q.options).size,sub+' game '+i+' duplicates response choices');
+   }
+   const five=shuffled(questions).slice(0,5);
+   assert.equal(five.length,5);
+   assert.equal(new Set(five.map(q=>q.unique)).size,5,sub+' game '+i+' repeated a question');
+ }
+}
+
 console.log('PASS: '+compiled+' HTML scripts; 20 10-page stories; 5 subject groups; writing, daily decks, maze, audio and music removal.');
