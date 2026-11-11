@@ -16,6 +16,9 @@ const stories=fs.readFileSync('stories.html','utf8');
 const maze=fs.readFileSync('mazes.html','utf8');
 const sw=fs.readFileSync('sw.js','utf8');
 const data=fs.readFileSync('stories-data.js','utf8');
+const curated=fs.readFileSync('curated-questions.js','utf8');
+const checkData={window:{}};vm.runInNewContext(curated,checkData);
+for(const sub of ['history','coding']){const lessons=checkData.window.JOY_CURATED[sub];assert.equal(lessons.length,sub==='history'?10:9);for(const [i,rows] of lessons.entries()){assert(rows.length>=5,sub+' '+i+' has too few questions');for(const q of rows){assert.equal(q.length,6,'unreviewed question '+sub+i);assert.equal(new Set(q.slice(2)).size,4,'ambiguous or duplicate answer '+sub+i);assert(!q.slice(2).some(a=>['없어요','잘 모르겠어요','다른 것'].includes(a)),'vague distractor '+sub+i);}}}
 const sandbox={window:{}};vm.runInNewContext(data,sandbox);
 assert.equal(sandbox.window.JOY_STORIES.length,20,'exactly twenty stories expected');
 for(const b of sandbox.window.JOY_STORIES){
@@ -33,6 +36,10 @@ assert(!maze.includes('<script src="./bgm.js'),'background music must be removed
 assert(stories.includes('function scenePicture')&&stories.includes('window.JOY_STORIES'),'illustrated ten-page story renderer missing');
 assert(maze.includes('pointermove')&&maze.includes('trail.push(pos)'),'finger maze missing');
 assert(writing.includes('function drawGuide')&&writing.includes('function coverage')&&writing.includes('letters={'),'number and English finger writing missing');
+assert(writing.includes('groups=Array.from({length:10}')&&writing.includes('selection[index]'),'missing ten ten-number groups');
+assert(writing.includes('function glyphs(value)')&&writing.includes('part.scale*p.x')===false,'multi-digit rendering missing');
+assert(writing.includes('part.ox+part.scale*p.x')&&writing.includes('Math.min(...guidePaths.map'),'whole-number stroke coverage missing');
+for(const [char,pattern] of [['F','M109 78 L109 226'],['E','M105 78 L105 226'],['M','M87 78 L87 226'],['N','M104 78 L104 226'],['P','M105 78 L105 226'],['R','M105 78 L105 226'],['Y','M215 78 L155 150']])assert(writing.includes(pattern),'uppercase stroke starts in wrong direction: '+char);
 for(const x of [10,20,30,40,50,60,70,80,90,100])assert(writing.includes(String(x)),'ten-step writing target missing: '+x);
 assert(academy.includes('name:"숫자 듣고 찾기"')&&academy.includes('numbered(Number(answer))'),'spoken number game missing');
 assert(academy.includes('const bank=generate(subject,i)'),'non-repeating deck generation missing');
@@ -45,7 +52,7 @@ assert(!fs.existsSync('bgm.js'),'background music module must be deleted');
 const coding=fs.readFileSync('coding-lab.html','utf8');
 assert(coding.includes('function add(d)')&&coding.includes('async function run()'),'interactive block coding must execute arrows');
 assert(academy.includes('route:"./coding-lab.html"'),'coding hall must link to interactive lab');
-assert(academy.includes('data-hear')&&academy.includes('소리 켬'),'read-aloud answer buttons missing');
+assert(academy.includes('button.choice')&&academy.includes('data-hear')&&academy.includes('소리 켬'),'read-aloud answer buttons missing');
 assert(academy.includes('String.fromCharCode(92)+"n"'),'bear/tiger honey group separation missing');
 
 /* Run the preschool question-bank model in a minimal DOM harness, not just a syntax check. */
@@ -56,6 +63,7 @@ const wrapped=body.replace(/menu\(\);\s*\}\)\(\);\s*$/,'window.__qa={games,gener
 for(const sub of ['math','science','english','history','coding']){
  const fakeEl=()=>({textContent:'',innerHTML:'',addEventListener(){},classList:{add(){},remove(){}},style:{}});
  const sandbox={window:{addEventListener(){}},document:{title:'',getElementById:fakeEl},location:{search:'?subject='+sub},URLSearchParams,Date,Math};
+ vm.runInNewContext(curated,sandbox,{filename:'curated-questions.js'});
  vm.runInNewContext(wrapped,sandbox,{filename:'academy-harness.js'});
  const {games,generate,shuffled}=sandbox.window.__qa;
  assert.equal(games[sub].length,10,sub+' must offer 10 games');
@@ -74,4 +82,4 @@ for(const sub of ['math','science','english','history','coding']){
  }
 }
 
-console.log('PASS: '+compiled+' HTML scripts; 20 10-page stories; 5 subject groups; writing, daily decks, maze, audio and music removal.');
+console.log('PASS: '+compiled+' HTML scripts; reviewed history/coding decks; ten number-writing groups and whole-number glyphs; stroke checks; 20 long stories.');
