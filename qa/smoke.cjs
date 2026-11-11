@@ -37,7 +37,7 @@ assert(stories.includes('function scenePicture')&&stories.includes('window.JOY_S
 assert(maze.includes('pointermove')&&maze.includes('trail.push(pos)'),'finger maze missing');
 assert(writing.includes('function drawGuide')&&writing.includes('function coverage')&&writing.includes('letters={'),'number and English finger writing missing');
 assert(writing.includes('groups=Array.from({length:10}')&&writing.includes('selection[index]'),'missing ten ten-number groups');
-assert(writing.includes('function glyphs(value)')&&writing.includes('part.scale*p.x')===false,'multi-digit rendering missing');
+assert(writing.includes('function glyphs(value)')&&writing.includes('viewBox')&&writing.includes('part.ox+part.scale*p.x'),'multi-digit rendering missing');
 assert(writing.includes('part.ox+part.scale*p.x')&&writing.includes('Math.min(...guidePaths.map'),'whole-number stroke coverage missing');
 for(const [char,pattern] of [['F','M109 78 L109 226'],['E','M105 78 L105 226'],['M','M87 78 L87 226'],['N','M104 78 L104 226'],['P','M105 78 L105 226'],['R','M105 78 L105 226'],['Y','M215 78 L155 150']])assert(writing.includes(pattern),'uppercase stroke starts in wrong direction: '+char);
 for(const x of [10,20,30,40,50,60,70,80,90,100])assert(writing.includes(String(x)),'ten-step writing target missing: '+x);
