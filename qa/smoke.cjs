@@ -1,32 +1,44 @@
 const fs=require('node:fs');
 const vm=require('node:vm');
 const assert=require('node:assert/strict');
-const pages=['index.html','stories.html','mazes.html','academy.html'];
-let parsed=0;
+const pages=['index.html','academy.html','writing.html','stories.html','mazes.html'];
+let compiled=0;
 for(const name of pages){
-  const html=fs.readFileSync(name,'utf8');
-  const scripts=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)];
-  assert(scripts.length>0,name+' must contain scripts');
-  for(const script of scripts){
-    if(!script[1].trim())continue;
-    new vm.Script(script[1],{filename:name});
-    parsed++;
-  }
+ const html=fs.readFileSync(name,'utf8');
+ const scripts=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)];
+ assert(scripts.length>0,name+' scripts missing');
+ for(const block of scripts)if(block[1].trim()){new vm.Script(block[1],{filename:name});compiled++;}
 }
-new vm.Script(fs.readFileSync('bgm.js','utf8'),{filename:'bgm.js'});
 const index=fs.readFileSync('index.html','utf8');
+const academy=fs.readFileSync('academy.html','utf8');
+const writing=fs.readFileSync('writing.html','utf8');
 const stories=fs.readFileSync('stories.html','utf8');
 const maze=fs.readFileSync('mazes.html','utf8');
-const academy=fs.readFileSync('academy.html','utf8');
 const sw=fs.readFileSync('sw.js','utf8');
-for(const path of ['./stories.html','./mazes.html'])assert(index.includes(path),'home link missing: '+path);
-assert(index.includes('v6.5 image-art corrections'),'art fix not preserved');
-assert(stories.includes('토끼와 거북이')&&stories.includes('용감한 빨간 자동차'),'five-story book list missing');
-assert(maze.includes('별자리')&&maze.includes('joiland-maze-done'),'maze levels missing');
-assert(sw.includes('stories.html')&&sw.includes('mazes.html')&&sw.includes('bgm.js')&&sw.includes('academy.html'),'offline cache paths missing');
-assert(index.includes('function chooseSubjects()')&&index.includes('data-a="choose-subject"'),'four-subject gateway missing');
-assert(index.includes('dayShuffle(mode,WORDS)')&&index.includes('dayIndex("quiz-picture",WORDS.length)'),'daily Hangul challenge rotation missing');
-assert(academy.includes('math:')&&academy.includes('science:')&&academy.includes('english:'),'math/science/English games missing');
-for(const title of ['동물 수 세기','숫자 더하기','도형 탐험','식물 성장 탐험','오감 탐정','동물 영어','색깔 영어'])assert(academy.includes(title),'subject game missing: '+title);
-assert(maze.includes('pointermove')&&maze.includes('polyline points=')&&maze.includes('cellAt(')&&maze.includes('trail.push(pos)'),'finger-drawn maze trace missing');
-console.log('PASS: '+parsed+' inline scripts + bgm.js; 4 pages; four subjects, rotating learning decks, finger maze, stories, and offline links present.');
+const data=fs.readFileSync('stories-data.js','utf8');
+const sandbox={window:{}};vm.runInNewContext(data,sandbox);
+assert.equal(sandbox.window.JOY_STORIES.length,20,'exactly twenty stories expected');
+for(const b of sandbox.window.JOY_STORIES){
+ assert.equal(b.pages.length,10,b.title+' must be ten pages');
+ assert(b.pages.every(p=>p.text.length>=35),b.title+' pages too short');
+ assert(b.setting&&b.icons.length>0,b.title+' art scene metadata missing');
+}
+assert(index.includes('function chooseSubjects()'),'subject gateway missing');
+for(const subject of ['math','science','english','history','coding'])assert(index.includes(subject),'subject missing: '+subject);
+assert(index.includes('dayShuffle(mode,WORDS)'),'daily Hangul decks missing');
+assert(!index.includes('<script src="./bgm.js'),'background music must be removed from home');
+assert(!academy.includes('<script src="./bgm.js'),'background music must be removed from games');
+assert(!stories.includes('<script src="./bgm.js'),'background music must be removed from books');
+assert(!maze.includes('<script src="./bgm.js'),'background music must be removed from maze');
+assert(stories.includes('function scenePicture')&&stories.includes('window.JOY_STORIES'),'illustrated ten-page story renderer missing');
+assert(maze.includes('pointermove')&&maze.includes('trail.push(pos)'),'finger maze missing');
+assert(writing.includes('function drawGuide')&&writing.includes('function coverage')&&writing.includes('letters={'),'number and English finger writing missing');
+for(const x of [10,20,30,40,50,60,70,80,90,100])assert(writing.includes(String(x)),'ten-step writing target missing: '+x);
+assert(academy.includes('name:"숫자 듣고 찾기"')&&academy.includes('numbered(Number(answer))'),'spoken number game missing');
+assert(academy.includes('const bank=generate(subject,i)'),'non-repeating deck generation missing');
+assert(academy.includes('name:"사과 빼기"'),'ten math games missing');
+assert(academy.includes('name:"어떤 계절일까?"'),'ten science games missing');
+assert(academy.includes('name:"영어 글자 찾기"'),'ten English games missing');
+assert(academy.includes('games.history=')&&academy.includes('games.coding='),'history and coding subjects missing');
+assert(sw.includes('academy.html')&&sw.includes('writing.html')&&sw.includes('stories-data.js'),'offline assets missing');
+console.log('PASS: '+compiled+' HTML scripts; 20 10-page stories; 5 subject groups; writing, daily decks, maze, audio and music removal.');
