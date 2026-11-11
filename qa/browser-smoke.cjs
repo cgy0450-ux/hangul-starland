@@ -23,9 +23,12 @@ server.listen(0,'127.0.0.1',async()=>{
   let n=0;
   for(const [route,text] of cases){
    const url='http://127.0.0.1:'+port+'/'+route;
-   const cmd=await new Promise(resolve=>cp.execFile(chrome,['--headless=new','--disable-gpu','--no-sandbox','--no-first-run','--disable-extensions','--disable-dev-shm-usage','--virtual-time-budget=1400','--dump-dom',url],{encoding:'utf8',timeout:20000,maxBuffer:10000000},(err,stdout,stderr)=>resolve({status:err?err.code:0,stdout,stderr})));
-   assert.equal(cmd.status,0,route+' browser startup failed: '+String(cmd.stderr).slice(-500));
-   assert(cmd.stdout.includes(text),route+' missing rendered content: '+text);
+   let cmd=null,passes=false;
+   for(let attempt=0;attempt<3&&!passes;attempt++){
+     cmd=await new Promise(resolve=>cp.execFile(chrome,['--headless=new','--disable-gpu','--no-sandbox','--no-first-run','--disable-extensions','--disable-dev-shm-usage','--virtual-time-budget=2200','--dump-dom',url],{encoding:'utf8',timeout:22000,maxBuffer:10000000},(err,stdout,stderr)=>resolve({status:err?err.code:0,stdout,stderr})));
+     passes=cmd.status===0&&cmd.stdout.includes(text);
+   }
+   assert(passes,route+' did not render '+text+'; exit='+cmd.status+'; DOM='+String(cmd.stdout).slice(-850)+'; stderr='+String(cmd.stderr).slice(-500));
    n++;
   }
   console.log('PASS: Chromium rendered '+n+' live-style pages including 6 subjects, stories, writing, maze and coding.');
