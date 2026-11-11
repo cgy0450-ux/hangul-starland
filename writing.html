@@ -91,5 +91,12 @@ $('check').onclick=()=>{
  }
 };
 $('clear').onclick=resetCanvas;$('hear').onclick=()=>voice(mode==='english'?selection:koreanNum(Number(value())));$('back').onclick=()=>{$('practice').classList.remove('active');$('menu').classList.remove('hidden');};window.addEventListener('resize',()=>{if($('practice').classList.contains('active'))requestAnimationFrame(resetCanvas);});
+/* Optional direct lesson links, also used by browser regression tests. */
+if(mode==='numbers' && q.has('lesson')){
+ const group=Number(q.get('lesson')),step=Number(q.get('step')||'1');
+ if(Number.isInteger(group)&&group>=1&&group<=10&&Number.isInteger(step)&&step>=1&&step<=10){
+ selection=groups[group-1].values;index=step-1;show();
+ }
+}
 })();
 </script></body></html>
