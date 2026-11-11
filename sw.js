@@ -1,5 +1,5 @@
 /* 쪼이랜드 오프라인 지원: 상대 경로만 캐시하며 외부 통신을 하지 않습니다. */
-const CACHE = 'hangul-starland-v8-5-curated-final-20261112';
+const CACHE = 'hangul-starland-v8-6-verified-update-20261112';
 const CORE = ['./', './index.html', './stories.html', './mazes.html', './academy.html', './writing.html', './coding-lab.html', './curated-questions.js', './stories-data.js', './splash-poster.webp?v=6.2', './art-apple.webp?v=6.2', './art-letter-tiger.webp?v=6.2', './manifest.webmanifest?v=8.2', './icon-tiger.svg', './icon-192.png?v=6.0', './icon-512.png?v=6.0'];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(CORE)).then(() => self.skipWaiting()));
@@ -18,5 +18,13 @@ self.addEventListener('fetch', (event) => {
     }));
     return;
   }
-  event.respondWith(caches.match(req).then((cached) => cached || fetch(req)));
+  // Network-first prevents installed tablets from showing an older cached JS/HTML design.
+  // Cached resources remain usable when the tablet is offline.
+  event.respondWith(fetch(req).then((response) => {
+    if (response && response.ok) {
+      const copy = response.clone();
+      event.waitUntil(caches.open(CACHE).then(cache => cache.put(req, copy)).catch(() => {}));
+    }
+    return response;
+  }).catch(async () => (await caches.match(req)) || Response.error()));
 });
