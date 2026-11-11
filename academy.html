@@ -118,7 +118,7 @@ games.coding=[
 {name:"먼저 할 일",icon:"🌱",bg:"#fff0d8",edge:"#efc886",desc:"순서를 정해요"},
 {name:"조건 알아보기",icon:"🌧️",bg:"#e9ecff",edge:"#b3b7ef",desc:"비가 오면?"},
 {name:"블록 모양",icon:"🧩",bg:"#e5ffe8",edge:"#9bdba8",desc:"같은 모양 연결"},
-{name:"쪼이 길 찾기",icon:"🐯",bg:"#fce9ff",edge:"#d5a6eb",desc:"앞·뒤·왼쪽·오른쪽"}
+{name:"쪼이 블록 코딩",icon:"🤖",bg:"#fce9ff",edge:"#d5a6eb",desc:"화살표를 쌓아 움직여요",route:"./coding-lab.html"}
 ];
 function numbered(n){const a=['영','일','이','삼','사','오','육','칠','팔','구'];if(n===100)return '백';if(n<10)return a[n];const t=Math.floor(n/10),u=n%10;return(t===1?'':a[t])+'십'+(u?a[u]:'');}
 function rows(items,ask,read,hint){return items.map(v=>({visual:v[0],ask:typeof ask==='function'?ask(v):ask,answer:String(v[1]),options:[],speech:typeof read==='function'?read(v):read||ask,hint:hint||'그림을 보고 천천히 생각해 봐요.'}));}
