@@ -16,7 +16,7 @@ server.listen(0,'127.0.0.1',async()=>{
  ['academy.html?subject=math','data-i="9"'],['academy.html?subject=science','data-i="9"'],
  ['academy.html?subject=english','data-i="9"'],['academy.html?subject=history','data-i="9"'],
  ['academy.html?subject=coding','data-i="9"'],['stories.html','data-book="19"'],
- ['writing.html?mode=numbers','data-i="9"'],['writing.html?mode=english','data-i="11"'],
+ ['writing.html?mode=numbers','data-i="9"'],['writing.html?mode=numbers&lesson=1&step=10','id="target">10'],['writing.html?mode=numbers&lesson=10&step=10','id="target">100'],['writing.html?mode=english','data-i="11"'],
  ['mazes.html','data-index="19"'],['coding-lab.html','class="grid"']
  ];
  try{
