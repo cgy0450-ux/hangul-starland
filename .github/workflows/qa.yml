@@ -19,3 +19,5 @@ jobs:
           node-version: '22'
       - name: Check HTML scripts and app features
         run: node qa/smoke.cjs
+      - name: Browser rendered learning hall smoke test
+        run: node qa/browser-smoke.cjs
