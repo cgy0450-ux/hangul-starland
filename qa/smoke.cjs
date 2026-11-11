@@ -1,7 +1,7 @@
 const fs=require('node:fs');
 const vm=require('node:vm');
 const assert=require('node:assert/strict');
-const pages=['index.html','academy.html','writing.html','stories.html','mazes.html'];
+const pages=['index.html','academy.html','writing.html','stories.html','mazes.html','coding-lab.html'];
 let compiled=0;
 for(const name of pages){
  const html=fs.readFileSync(name,'utf8');
@@ -40,7 +40,13 @@ assert(academy.includes('name:"사과 빼기"'),'ten math games missing');
 assert(academy.includes('name:"어떤 계절일까?"'),'ten science games missing');
 assert(academy.includes('name:"영어 글자 찾기"'),'ten English games missing');
 assert(academy.includes('games.history=')&&academy.includes('games.coding='),'history and coding subjects missing');
-assert(sw.includes('academy.html')&&sw.includes('writing.html')&&sw.includes('stories-data.js'),'offline assets missing');
+assert(sw.includes('academy.html')&&sw.includes('writing.html')&&sw.includes('coding-lab.html')&&sw.includes('stories-data.js'),'offline assets missing');
+assert(!fs.existsSync('bgm.js'),'background music module must be deleted');
+const coding=fs.readFileSync('coding-lab.html','utf8');
+assert(coding.includes('function add(d)')&&coding.includes('async function run()'),'interactive block coding must execute arrows');
+assert(academy.includes('route:"./coding-lab.html"'),'coding hall must link to interactive lab');
+assert(academy.includes('data-hear')&&academy.includes('소리 켬'),'read-aloud answer buttons missing');
+assert(academy.includes('String.fromCharCode(92)+"n"'),'bear/tiger honey group separation missing');
 
 /* Run the preschool question-bank model in a minimal DOM harness, not just a syntax check. */
 const source=academy.match(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi).find(x=>x.includes('var games='));
