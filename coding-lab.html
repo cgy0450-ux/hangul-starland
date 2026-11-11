@@ -14,7 +14,7 @@ const L=[
 ],dir={U:[0,-1],D:[0,1],L:[-1,0],R:[1,0]},icons={U:"⬆️",D:"⬇️",L:"⬅️",R:"➡️"};
 let level=0,commands=[],at=[...L[0].start],busy=false,won=false;
 const $=id=>document.getElementById(id);
-function say(t){try{if(!("speechSynthesis"in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang="ko-KR";u.rate=.9;speechSynthesis.speak(u)}catch(e){}}
+function say(t){try{if(JSON.parse(localStorage.getItem("hangul-starland-v1")||"{}").sound===false)return;if(!("speechSynthesis"in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang="ko-KR";u.rate=.9;speechSynthesis.speak(u)}catch(e){}}
 function key(a){return a.join(",")}
 function render(){const v=L[level];$("level").textContent=(level+1)+" / "+L.length;$("steps").textContent=commands.length+"개 블록";$("route").innerHTML=commands.length?commands.map((d,i)=>'<span class="block" title="'+(i+1)+'번째 명령">'+icons[d]+'</span>').join(""):"여기에 명령 블록을 놓아 봐요 🧩";$("grid").innerHTML=Array.from({length:16},(_,i)=>{const x=i%4,y=Math.floor(i/4),here=at[0]===x&&at[1]===y,goal=v.goal[0]===x&&v.goal[1]===y,rock=v.walls.some(w=>w[0]===x&&w[1]===y);return '<div class="cell '+(here?'here ':'')+(goal?'goal ':'')+(rock?'rock ':'')+'">'+(here?'🐯':goal?'⭐':rock?'🪨':(i+level)%7===0?'🌼':'')+'</div>';}).join("");$("next").classList.toggle("hidden",!won);}
 function add(d){if(busy||won||commands.length>=12)return;commands.push(d);render();}
