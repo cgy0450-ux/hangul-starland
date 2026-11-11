@@ -1,0 +1,46 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#7f5bd5"/><title>쪼이랜드 동화책</title>
+<style>
+:root{font-family:"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;color:#403064;background:#f1edff}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 10% 10%,#fffcd6,transparent 33%),radial-gradient(circle at 80% 60%,#d8f8ff,transparent 40%),#f1edff;min-height:100dvh}button,a{font:inherit;touch-action:manipulation}button{cursor:pointer;border:0}header{display:flex;align-items:center;gap:12px;padding:12px 16px;max-width:1000px;margin:auto}header a{color:#6b4ab2;text-decoration:none;font-weight:900;background:#fff;border-radius:18px;padding:12px 14px;box-shadow:0 4px 0 #decdfb}header strong{font-size:clamp(21px,5vw,32px);color:#653cae}.sound{margin-left:auto;border-radius:18px;padding:11px 14px;background:#fff9d7;color:#775a21;font-weight:900}main{max-width:970px;margin:0 auto;padding:6px 16px 30px}h1{margin:8px 0;font-size:clamp(24px,5.5vw,39px)}.desc{font-size:14px;color:#6d6587;margin:4px 0 16px;font-weight:700}.shelf{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.booktile{border:5px solid white;box-shadow:0 9px 0 #d6c6ef,0 12px 20px #6a5ca022;border-radius:28px;padding:20px 8px 18px;background:var(--bg);color:#392f6a;min-height:175px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px}.booktile .pic{font-size:clamp(47px,13vw,82px);filter:drop-shadow(0 4px 1px #b9abbd33)}.booktile strong{font-size:clamp(17px,3vw,23px);letter-spacing:-.5px}.booktile small{color:#6b6287;font-weight:800}.reader{display:none}.reader.active{display:block}.shelf.hidden,.intro.hidden{display:none}.paper{height:min(74dvh,690px);min-height:425px;border:9px solid white;border-radius:34px;box-shadow:0 10px 0 #ddcdea,0 17px 35px #7961a82a;background:linear-gradient(160deg,var(--page),#fffdf5);padding:clamp(13px,3vw,28px);display:flex;flex-direction:column;position:relative;overflow:hidden}.paper:before{content:'✦';position:absolute;right:24px;top:11px;font-size:38px;color:#ffdf6a}.paper h2{margin:8px 0;font-size:clamp(22px,5vw,34px);text-align:center}.scene{flex:1;display:flex;align-items:center;justify-content:center;gap:10px;min-height:130px;font-size:clamp(58px,17vw,132px);background:radial-gradient(ellipse at 50% 80%,#9de8b955,transparent 65%);border-radius:28px;white-space:nowrap}.scene span{animation:bob 3s ease-in-out infinite}.scene span:nth-child(2){animation-delay:.5s}.scene span:nth-child(3){animation-delay:1s}@keyframes bob{50%{transform:translateY(-10px)}}.storytext{font-size:clamp(19px,4.5vw,29px);line-height:1.65;font-weight:900;text-align:center;color:#463a72;margin:14px auto;max-width:630px;min-height:75px;word-break:keep-all}.bookcontrol{display:flex;gap:8px;justify-content:center;align-items:center;margin-top:auto}.bookcontrol button{flex:1;min-height:50px;border-radius:17px;background:#fff;color:#5f4aa0;font-size:17px;font-weight:900;box-shadow:0 4px 0 #d6c7ed}.bookcontrol .speak{background:#ffc247;color:#744c13;box-shadow:0 4px 0 #df912d}.bookcontrol .next{background:#5fcbb6;color:#fff;box-shadow:0 4px 0 #359b87}.progress{display:flex;justify-content:center;gap:9px;margin:12px 0}.dot{width:13px;height:13px;background:#d8caec;border-radius:50%}.dot.on{background:#ffb942;transform:scale(1.2)}.back{margin:0 0 10px;padding:12px 17px;border-radius:15px;background:#fff;font-weight:900;color:#7751a8}.tiny{font-size:12px;text-align:center;color:#77708d;margin:14px}@media(min-width:720px){.shelf{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-height:650px){.paper{height:calc(100dvh - 102px);min-height:360px}.paper h2{margin:1px}.scene{font-size:clamp(50px,12vh,100px)}.storytext{font-size:17px;margin:5px}.bookcontrol button{min-height:44px}}
+</style></head><body><header><a href="./">⌂ 홈</a><strong>📖 쪼이의 동화책</strong><button class="sound" id="music">🎵 음악 켬</button></header><main><div class="intro" id="intro"><h1>오늘은 어떤 이야기를 들을까?</h1><p class="desc">책장을 넘기면 쪼이가 이야기를 읽어줘요. 광고도 없어요!</p></div><div class="shelf" id="shelf"></div><div class="reader" id="reader"><button class="back" id="back">‹ 책장으로</button><div class="paper" id="paper"><h2 id="booktitle"></h2><div class="scene" id="scene" aria-hidden="true"></div><p class="storytext" id="storytext"></p><div class="progress" id="progress"></div><div class="bookcontrol"><button id="prev">◀ 이전</button><button class="speak" id="speak">🔊 읽어줘</button><button class="next" id="next">다음 ▶</button></div></div></div><p class="tiny">모든 동화는 어린이를 위해 새롭게 쓴 이야기입니다. 목소리는 기기의 한국어 음성을 사용해요.</p></main>
+<script src="./bgm.js?v=1"></script><script>
+const BOOKS=[
+{title:"토끼와 거북이",emoji:"🐰🐢",color:"#e9f8df",pages:[
+["🐰","🌼","토끼는 달리기를 아주 잘했어요. 그래서 거북이에게 달리기 시합을 하자고 말했어요."],
+["🐇","💨","토끼는 쌩쌩 달렸어요. 거북이는 천천히, 하지만 쉬지 않고 걸었지요."],
+["🐰","💤","토끼는 나무 아래에서 잠깐 잠이 들었어요. 그동안 거북이는 한 걸음씩 나아갔어요."],
+["🐢","🏁","거북이가 먼저 도착했어요! 느려도 꾸준히 하면 해낼 수 있답니다."]]},
+{title:"사자와 생쥐",emoji:"🦁🐭",color:"#fff1d6",pages:[
+["🦁","🌳","숲속 사자가 낮잠을 자고 있었어요. 작은 생쥐가 사자 곁을 지나갔어요."],
+["🐭","💛","생쥐는 사자에게 말했어요. 언젠가 제가 꼭 도와드릴게요!"],
+["🦁","🪢","어느 날 사자가 그물에 걸렸어요. 아무리 힘을 써도 빠져나오지 못했지요."],
+["🐭","✨","생쥐는 이를 이용해 그물을 갉아 주었어요. 작은 친구도 큰 도움을 줄 수 있어요!"]]},
+{title:"해님과 바람",emoji:"☀️🌬️",color:"#ddf5ff",pages:[
+["🌬️","☀️","바람과 해님이 누가 더 힘이 센지 이야기하고 있었어요."],
+["🧍","🧥","길을 걷는 사람의 외투를 먼저 벗기는 쪽이 이기기로 했어요."],
+["🌬️","💨","바람이 세차게 불수록 사람은 외투를 더욱 꼭 여몄어요."],
+["☀️","🌻","해님이 따뜻하게 비추자 사람은 웃으며 외투를 벗었어요. 부드러운 마음이 큰 힘이 되기도 해요."]]},
+{title:"쪼이와 무지개 씨앗",emoji:"🐯🌈",color:"#f7e6ff",pages:[
+["🐯","🌱","쪼이는 정원에서 반짝이는 씨앗을 발견했어요. 무슨 꽃이 피어날까?"],
+["💧","☀️","쪼이는 씨앗에 물을 주고, 햇볕이 잘 드는 곳에 두었어요."],
+["🌧️","🐯","비가 오자 쪼이는 우산을 가져왔어요. 씨앗은 조금씩 자라고 있었어요."],
+["🌈","🌷","드디어 알록달록 꽃이 피었어요! 친구들은 함께 춤을 추었답니다."]]},
+{title:"용감한 빨간 자동차",emoji:"🚗🐻",color:"#ffe5e6",pages:[
+["🚗","🛣️","빨간 자동차 붕붕이는 친구들을 태우고 숲속으로 여행을 떠났어요."],
+["🐻","🌉","그런데 작은 다리 앞에서 곰 친구가 무서워했어요."],
+["🐯","🤝","쪼이가 말했어요. 함께 천천히 건너면 괜찮아! 우리 서로 도와주자."],
+["🚗","🌟","친구들은 안전하게 다리를 건넜어요. 붕붕이도 친구들도 정말 뿌듯했답니다."]]}
+];
+let current=-1,page=0,utterance=null;
+const shelf=document.getElementById('shelf'),reader=document.getElementById('reader');
+function stop(){if('speechSynthesis'in window)window.speechSynthesis.cancel();window.JoyBgm?.duck(false);}
+function speak(){stop();if(!('speechSynthesis'in window))return;const text=BOOKS[current].pages[page][2];const u=new SpeechSynthesisUtterance(text);u.lang='ko-KR';u.rate=.86;u.pitch=1.13;const voices=speechSynthesis.getVoices().filter(v=>v.lang.toLowerCase().startsWith('ko'));if(voices.length)u.voice=voices[0];u.onend=()=>window.JoyBgm?.duck(false);u.onerror=()=>window.JoyBgm?.duck(false);window.JoyBgm?.duck(true);utterance=u;speechSynthesis.speak(u);}
+function open(i){current=i;page=0;shelf.classList.add('hidden');document.getElementById('intro').classList.add('hidden');reader.classList.add('active');render(true);}
+function render(auto){const b=BOOKS[current],p=b.pages[page];document.getElementById('paper').style.setProperty('--page',b.color);document.getElementById('booktitle').textContent=b.title;document.getElementById('scene').innerHTML=p.slice(0,2).map(v=>'<span>'+v+'</span>').join('');document.getElementById('storytext').textContent=p[2];document.getElementById('progress').innerHTML=b.pages.map((_,i)=>'<span class="dot '+(i===page?'on':'')+'"></span>').join('');document.getElementById('prev').disabled=page===0;document.getElementById('next').textContent=page===b.pages.length-1?'끝! 🎉':'다음 ▶';stop();if(auto)speak();}
+function flip(n){if(current<0)return;const next=page+n;if(next<0)return;if(next>=BOOKS[current].pages.length){goBack();return;}page=next;render(true);}
+function goBack(){stop();current=-1;reader.classList.remove('active');shelf.classList.remove('hidden');document.getElementById('intro').classList.remove('hidden');}
+shelf.innerHTML=BOOKS.map((b,i)=>'<button class="booktile" data-book="'+i+'" style="--bg:'+b.color+'"><span class="pic">'+b.emoji+'</span><strong>'+b.title+'</strong><small>읽어 주는 그림 동화</small></button>').join('');
+shelf.addEventListener('click',e=>{const t=e.target.closest('[data-book]');if(t)open(Number(t.dataset.book));});
+document.getElementById('back').onclick=goBack;document.getElementById('prev').onclick=()=>flip(-1);document.getElementById('next').onclick=()=>flip(1);document.getElementById('speak').onclick=speak;
+const music=document.getElementById('music');function refreshMusic(){music.textContent=window.JoyBgm?.muted?'🎵 음악 끔':'🎵 음악 켬';}music.onclick=()=>{window.JoyBgm?.setMuted(!window.JoyBgm.muted);refreshMusic();};refreshMusic();
+window.addEventListener('pagehide',stop);
+</script></body></html>
