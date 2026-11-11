@@ -8,8 +8,9 @@ function chromeBinary(){for(const exe of ['google-chrome','google-chrome-stable'
 const chrome=chromeBinary();
 if(!chrome){console.log('SKIP: no Chromium/Chrome binary on runner (static functional QA still ran).');process.exit(0);}
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css','.png':'image/png','.svg':'image/svg+xml','.webp':'image/webp','.webmanifest':'application/manifest+json'};
+// Browser is asynchronous so the Node HTTP server can respond while Chrome loads each page.
 const server=http.createServer((req,res)=>{let url;try{url=new URL(req.url,'http://localhost');}catch{res.writeHead(400).end();return;}let rel=decodeURIComponent(url.pathname).replace(/^\/+/, '')||'index.html';const resolved=path.resolve(roots,rel);if(!(resolved===roots||resolved.startsWith(roots+path.sep))||!fs.existsSync(resolved)||fs.statSync(resolved).isDirectory()){res.writeHead(404).end('Not found');return;}res.writeHead(200,{'Content-Type':mime[path.extname(resolved)]||'application/octet-stream'});fs.createReadStream(resolved).pipe(res);});
-server.listen(0,'127.0.0.1',()=>{
+server.listen(0,'127.0.0.1',async()=>{
  const port=server.address().port, cases=[
  ['index.html','data-subject="coding"'],['index.html','data-subject="history"'],
  ['academy.html?subject=math','data-i="9"'],['academy.html?subject=science','data-i="9"'],
@@ -22,7 +23,7 @@ server.listen(0,'127.0.0.1',()=>{
   let n=0;
   for(const [route,text] of cases){
    const url='http://127.0.0.1:'+port+'/'+route;
-   const cmd=cp.spawnSync(chrome,['--headless=new','--disable-gpu','--no-sandbox','--no-first-run','--disable-extensions','--disable-dev-shm-usage','--virtual-time-budget=1400','--dump-dom',url],{encoding:'utf8',timeout:20000,maxBuffer:10000000});
+   const cmd=await new Promise(resolve=>cp.execFile(chrome,['--headless=new','--disable-gpu','--no-sandbox','--no-first-run','--disable-extensions','--disable-dev-shm-usage','--virtual-time-budget=1400','--dump-dom',url],{encoding:'utf8',timeout:20000,maxBuffer:10000000},(err,stdout,stderr)=>resolve({status:err?err.code:0,stdout,stderr})));
    assert.equal(cmd.status,0,route+' browser startup failed: '+String(cmd.stderr).slice(-500));
    assert(cmd.stdout.includes(text),route+' missing rendered content: '+text);
    n++;
