@@ -165,7 +165,7 @@ function render(){
  if(!q)return;
  $("visual").textContent=q.visual;$("question").textContent=q.question||q.hint||"어떤 것일까요?";
  $("hint").textContent="차근차근 생각하고 골라봐요";
- $("playMascot").src="./joyi-"+(["hello","read","explore","build","write","celebrate"][index%6])+".svg";
+ $("playMascot").src="./joyi-"+(index===run.questions.length-1?"celebrate":subject.id)+".svg";
  if(["tap","drag","pair","order","story"].includes(mode)){
    specialRender(q,mode);
  }else if(mode==="match"){
