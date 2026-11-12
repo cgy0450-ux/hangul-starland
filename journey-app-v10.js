@@ -84,7 +84,7 @@ function specialRender(q,mode){
    interaction={type:mode,step:0,seq};
    optionsRender(seq.map(x=>x.answer));$("visual").textContent="🚂 🎯";
    $("question").textContent="쪼이가 말하는 낱말을 차례로 골라요";
-   addInteractionText("첫 번째 소리를 듣고 찾아요 · 1 / 3");speak(seq[0].answer,locale());
+   addInteractionText("첫 번째 소리를 듣고 찾아요 · 1 / "+seq.length);speak(seq[0].answer,locale());
  } else if(mode==="story"){
    $("visual").textContent=q.visual;$("question").textContent="쪼이와 이야기 먼저 들어요";
    optionsRender(quizOptions(q));$("answers").classList.add("hidden");
@@ -124,7 +124,7 @@ function finishAnswer(ok,btn,elapsed){
  if(ok){score++;btn?.classList.add("good");$("feedback").textContent="🌟 잘했어! "+(A.profile().name||"이현")+"!";speak("우리 "+(A.profile().name||"이현")+" 정말 잘하네!")}
  else{btn?.classList.add("bad");$("feedback").textContent="💛 설명을 듣고 다시 배워봐요!";speak("다시 배워보자!")}
  if(run.type==="diagnostic")diagnosticResults.push({skill:q.skill,correct:ok,elapsed});
- else A.update(run.lesson.skill,ok,elapsed,run.lesson.mode);
+ else {A.update(run.lesson.skill,ok,elapsed,run.lesson.mode);A.recordQuestion(subject.id,run.module.id,q,ok)}
  $("explain").textContent=run.type==="diagnostic"?"정답은 "+q.answer+"예요.":q.explain;
  $("explain").classList.remove("hidden");$("next").classList.remove("hidden");
 }
@@ -152,7 +152,7 @@ function render(){
    if(mode==="explore"){$("explain").textContent=q.explain;$("explain").classList.remove("hidden")}
    phase="intro";
  }else if(mode==="listen"){
-   $("visual").classList.add("hidden");$("question").textContent="소리를 듣고 같은 글자를 골라요";$("hint").textContent="정답은 소리로만 알려줘요";speak(q.answer,locale());
+   $("visual").classList.add("hidden");$("question").textContent="소리를 듣고 알맞은 답을 골라요";$("hint").textContent="정답은 소리로만 알려줘요";speak(q.answer,locale());
  }else if(mode==="speak"){
    $("answerTitle").textContent=q.answer;$("answerTitle").classList.remove("hidden");$("answers").classList.add("hidden");
    $("repeat").classList.remove("hidden");$("question").textContent="듣고 입으로 따라 말해봐요";
