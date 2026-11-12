@@ -25,6 +25,23 @@ function catalog(){
  }
  card.append(head,grid);root.append(card);
  }
+ const external={
+ hangul:[["글자별 게임","legacy.html"],["숫자와 글자 쓰기","writing.html?mode=numbers"],["동화 그림책","stories.html"]],
+ math:[["수학 퀴즈 10종","academy.html?subject=math"],["숫자 따라 쓰기","writing.html?mode=numbers"],["블록 쌓기","requests.html"]],
+ english:[["영어 퀴즈 10종","academy.html?subject=english"],["알파벳·단어 쓰기","writing.html?mode=english"]],
+ science:[["과학 퀴즈 10종","academy.html?subject=science"],["동물 자동차 탐험","legacy.html"]],
+ history:[["역사 퀴즈 10종","academy.html?subject=history"],["위인과 전래동화","stories.html"]],
+ coding:[["코딩 퀴즈 10종","academy.html?subject=coding"],["진짜 블록 명령 코딩","coding-lab.html"],["손가락 미로","mazes.html"]],
+ finance:[["가게·저금통 체험 10종","finance.html"],["블록 놀이","requests.html"]],
+ reading:[["동화책 20편","stories.html"],["우리 가족 이름 쓰기","legacy.html"]],
+ life:[["동화로 감정 배우기","stories.html"],["사회성과 일상 놀이","legacy.html"]],
+ creativity:[["블록 탑과 자동차 다리","requests.html"],["손가락 색칠·글씨","legacy.html"]]
+ };
+ const extras=$("extras");extras.replaceChildren();
+ for(const [name,url] of (external[subject.id]||[])){
+ const a=el("a","tile"),badge=el("span","badge","🌟"),label=el("strong","",name);
+ a.href="./"+url;a.append(badge,label);extras.append(a);
+ }
 }
 function beginDiagnostic(){run={type:"diagnostic",lesson:{mode:"choose",subject:subject.id},questions:A.diagnose(subject.id)};diagnosticResults=[];index=0;score=0;enter()}
 function beginLesson(id){const lesson=C.lesson(id);if(!lesson||lesson.subject!==subject.id)return;run={type:"lesson",...A.session(id)};index=0;score=0;enter()}
