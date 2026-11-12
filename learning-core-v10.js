@@ -97,7 +97,8 @@ function markDone(lessonId,accuracy){const k=day();const m=data.missions[k]||{};
 function playedToday(){return Object.keys(data.missions[day()]||{}).length}
 function speak(text,lang="ko-KR"){
  if(!("speechSynthesis" in g))return false;
- try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(String(text));u.lang=lang;u.rate=.86;u.pitch=1.16;const voices=speechSynthesis.getVoices().filter(v=>v.lang.toLowerCase().startsWith(lang.slice(0,2).toLowerCase()));u.voice=voices.find(v=>/natural|enhanced|premium|google/i.test(v.name))||voices[0]||null;speechSynthesis.speak(u);return true}catch(e){return false}
+ try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(String(text));u.lang=lang;u.rate=.86;u.pitch=1.16;const voices=speechSynthesis.getVoices().filter(v=>v.lang.toLowerCase().startsWith(lang.slice(0,2).toLowerCase()));let preferred="";try{preferred=localStorage.getItem("joiland-voice-name")||""}catch(e){}
+ u.voice=voices.find(v=>v.name===preferred)||voices.find(v=>/natural|enhanced|premium|google/i.test(v.name))||voices[0]||null;speechSynthesis.speak(u);return true}catch(e){return false}
 }
 g.JOY_CORE={data:()=>data,profile,configure,day,stable,shuffle,session,recordQuestion,options,diagnose,finishDiagnosis,update,getSkill,mastery,recommend,review,report,markDone,playedToday,speak};
 })(window);
