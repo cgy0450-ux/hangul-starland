@@ -1,7 +1,7 @@
 (function(){"use strict";
 const C=window.JOY_CURRICULUM,A=window.JOY_CORE,$=id=>document.getElementById(id),params=new URLSearchParams(location.search);
 const subject=C.subject(params.get("subject")||"hangul")||C.subject("hangul");
-let run=null,index=0,score=0,answered=false,phase="quiz",shownAt=0,diagnosticResults=[],pictureOptions=null;
+let run=null,index=0,score=0,answered=false,phase="quiz",shownAt=0,diagnosticResults=[],pictureOptions=null,interaction=null;
 let soundOn=true;try{soundOn=JSON.parse(localStorage.getItem("hangul-starland-v1")||"{}").sound!==false}catch(e){}
 function speak(text,lang){if(soundOn)A.speak(text,lang||"ko-KR")}
 function setSound(){ $("sound").textContent=soundOn?"🔊 소리 켬":"🔇 소리 끔"}
@@ -18,10 +18,10 @@ function catalog(){
  const card=el("div","module"),head=el("div","module-title");let title=el("strong","",String(mi+1)+"단계 · "+m.title);
  const sk=A.getSkill(m.id);const small=el("small","",sk.attempts?("익힘 "+Math.round(100*A.mastery(m.id))+"% · "+sk.attempts+"회"):"처음 배우기");
  head.append(title,small);const grid=el("div","tile-grid");
- const symbols=["📖","🖐️","🔊","🧩","🌟","🎤"];
+ const symbols=["📖","🖐️","🔊","🧩","🌟","🎤","🔍","🧲","🎴","🚂","🎬"];
  for(const [i,lesson] of m.lessons.entries()){
  const btn=el("button","tile");btn.type="button";btn.dataset.lesson=lesson.id;
- const emoji=el("span","badge",symbols[i]);const span=el("span"),big=el("strong","",lesson.title),sub=el("small","",String(i+1)+" / 6 · 직접 해봐요");span.append(big,sub);btn.append(emoji,span);grid.append(btn)
+ const emoji=el("span","badge",symbols[i]);const span=el("span"),big=el("strong","",lesson.title),sub=el("small","",String(i+1)+" / "+m.lessons.length+" · 쪼이랑 놀아요");span.append(big,sub);btn.append(emoji,span);grid.append(btn)
  }
  card.append(head,grid);root.append(card);
  }
@@ -48,18 +48,97 @@ function beginLesson(id){const lesson=C.lesson(id);if(!lesson||lesson.subject!==
 function enter(){document.body.classList.add("playing");$("catalog").classList.add("hidden");$("play").classList.add("active");render()}
 function quizOptions(q){return q.choiceOptions||A.options(subject.id,q.module,q)}
 function optionsRender(options){const parent=$("answers");parent.replaceChildren();
- const distinct=[...new Set(options)];for(const [i,opt] of distinct.entries()){const b=el("button","choice",opt);b.type="button";b.dataset.opt=opt;b.style.setProperty("--choice",["#e6f7ff","#fff2d4","#f8e8ff","#e7ffe9"][i%4]);parent.append(b)}}
+ const distinct=[...new Set(options)];for(const [i,opt] of distinct.entries()){
+ const wrap=el("div","choice-wrap"),b=el("button","choice",opt),hear=el("button","choice-hear","🔊");
+ b.type="button";b.dataset.opt=opt;b.style.setProperty("--choice",["#e6f7ff","#fff2d4","#f8e8ff","#e7ffe9"][i%4]);
+ hear.type="button";hear.dataset.voice=opt;hear.setAttribute("aria-label","보기 소리 듣기");
+ wrap.append(b,hear);parent.append(wrap)
+}}
 function locale(){return subject.id==="english"?"en-US":"ko-KR"}
 function current(){return run.questions[index]}
+function freshRivals(q){return A.shuffle(run.module.items.filter(x=>x.answer!==q.answer&&x.visual!==q.visual),A.day()+q.answer).filter((x,i,a)=>a.findIndex(y=>y.answer===x.answer)===i).slice(0,2)}
+function addInteractionText(text){$("hint").textContent=text}
+function makeTouchTarget(){
+ const target=el("div","drop-target","📦 여기에 옮겨 놓아요");
+ target.tabIndex=0;target.setAttribute("role","button");target.setAttribute("aria-label","정답 넣기");
+ target.id="dropTarget";$("interaction").append(target);
+ target.onclick=()=>{if(!interaction||interaction.type!=="drag"||!interaction.selected)return;processAnswer(interaction.selected)};
+ target.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();target.click()}};
+ target.ondragover=e=>e.preventDefault();
+ target.ondrop=e=>{e.preventDefault();const value=e.dataTransfer?.getData("text/plain");if(value)processAnswer(value)}
+}
+function specialRender(q,mode){
+ const rivals=freshRivals(q),panel=$("interaction");panel.replaceChildren();panel.classList.remove("hidden");
+ if(mode==="tap"||mode==="pair"){
+   pictureOptions=A.shuffle([q,...rivals],q.answer+A.day()).map(x=>({visual:x.visual,answer:x.answer}));
+   optionsRender(pictureOptions.map(x=>x.visual));
+   $("visual").textContent="🐯 🔎";$("question").textContent=mode==="pair"?"첫 번째: 소리를 듣고 그림을 찾아요":"쪼이가 말하는 그림을 찾아요!";
+   addInteractionText("정답은 눈으로 찾고, 귀로 들어 봐요");interaction={type:mode,step:0};speak(q.answer,locale());
+ } else if(mode==="drag"){
+   optionsRender(quizOptions(q));$("question").textContent="맞는 말을 골라 상자에 넣어 봐요";
+   addInteractionText("보기를 누르고 상자를 누르거나, 끌어다 놓아요");
+   interaction={type:mode,selected:null};makeTouchTarget();speak(q.question,locale());
+   $("answers").querySelectorAll("[data-opt]").forEach(btn=>{btn.draggable=true;btn.ondragstart=e=>{e.dataTransfer.setData("text/plain",btn.dataset.opt)}});
+ } else if(mode==="order"){
+   const seq=A.shuffle([q,...rivals],q.answer+"order").slice(0,3);
+   interaction={type:mode,step:0,seq};
+   optionsRender(seq.map(x=>x.answer));$("visual").textContent="🚂 🎯";
+   $("question").textContent="쪼이가 말하는 낱말을 차례로 골라요";
+   addInteractionText("첫 번째 소리를 듣고 찾아요 · 1 / 3");speak(seq[0].answer,locale());
+ } else if(mode==="story"){
+   $("visual").textContent=q.visual;$("question").textContent="쪼이와 이야기 먼저 들어요";
+   optionsRender(quizOptions(q));$("answers").classList.add("hidden");
+   $("answerTitle").textContent="📖 "+q.explain;$("answerTitle").classList.remove("hidden");
+   $("ready").classList.remove("hidden");$("ready").textContent="이야기 듣고 퀴즈!";
+   interaction={type:mode,step:0};phase="intro";speak(q.explain,locale());
+ }
+}
+function processAnswer(chosen){
+ const q=current(),mode=run.type==="diagnostic"?"choose":run.lesson.mode;
+ if(!q||answered||phase!=="quiz")return;
+ if(mode==="drag"&&interaction){interaction.selected=chosen}
+ if(mode==="order"&&interaction){
+   const target=interaction.seq[interaction.step].answer;
+   if(chosen!==target){$("feedback").textContent="💛 다시 잘 들어봐요";speak(target,locale());return}
+   interaction.step++;
+   if(interaction.step<interaction.seq.length){
+      $("feedback").textContent="🌟 좋아요! 다음 소리를 들어요!";
+      $("hint").textContent=(interaction.step+1)+" / "+interaction.seq.length+" · 소리를 듣고 골라요";
+      speak(interaction.seq[interaction.step].answer,locale());return;
+   }
+ }
+ if(mode==="pair"&&interaction&&interaction.step===0){
+   const selected=(pictureOptions||[]).find(x=>x.visual===chosen);
+   if(!selected||selected.answer!==q.answer){$("feedback").textContent="💛 그림을 다시 찾아보자!";speak(q.answer,locale());return}
+   interaction.step=1;pictureOptions=null;optionsRender(quizOptions(q));
+   $("visual").textContent=q.visual;$("question").textContent="두 번째: 알맞은 말을 찾아요";
+   $("hint").textContent="그림과 말이 한 쌍이에요";speak(q.question||q.answer,locale());return;
+ }
+ const btn=Array.from($("answers").querySelectorAll("[data-opt]")).find(b=>b.dataset.opt===chosen);
+ const actual=pictureOptions?(pictureOptions.find(x=>x.visual===chosen)||{}).answer:chosen;
+ const correct=mode==="order"?true:actual===q.answer;
+ finishAnswer(correct,btn,performance.now()-shownAt);
+}
+function finishAnswer(ok,btn,elapsed){
+ const q=current();if(answered)return;answered=true;
+ if(ok){score++;btn?.classList.add("good");$("feedback").textContent="🌟 잘했어! "+(A.profile().name||"이현")+"!";speak("우리 "+(A.profile().name||"이현")+" 정말 잘하네!")}
+ else{btn?.classList.add("bad");$("feedback").textContent="💛 설명을 듣고 다시 배워봐요!";speak("다시 배워보자!")}
+ if(run.type==="diagnostic")diagnosticResults.push({skill:q.skill,correct:ok,elapsed});
+ else A.update(run.lesson.skill,ok,elapsed,run.lesson.mode);
+ $("explain").textContent=run.type==="diagnostic"?"정답은 "+q.answer+"예요.":q.explain;
+ $("explain").classList.remove("hidden");$("next").classList.remove("hidden");
+}
 function render(){
- answered=false;phase="quiz";pictureOptions=null;$("feedback").textContent="";$("explain").classList.add("hidden");$("answers").classList.remove("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("visual").classList.remove("hidden");$("hear").textContent="🔊 소리 듣기";
+ answered=false;phase="quiz";pictureOptions=null;interaction=null;$("interaction").replaceChildren();$("interaction").classList.add("hidden");$("feedback").textContent="";$("explain").classList.add("hidden");$("answers").classList.remove("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("visual").classList.remove("hidden");$("hear").textContent="🔊 소리 듣기";
  $("count").textContent=(index+1)+" / "+run.questions.length;$("stars").textContent="⭐ "+score;$("bar").style.width=(100*index/run.questions.length)+"%";
  const q=current(),mode=run.type==="diagnostic"?"choose":run.lesson.mode;
  if(!q)return;
  $("visual").textContent=q.visual;$("question").textContent=q.question||q.hint||"어떤 것일까요?";
  $("hint").textContent="차근차근 생각하고 골라봐요";
  $("playMascot").src="./joyi-"+(["hello","read","explore","build","write","celebrate"][index%6])+".svg";
- if(mode==="match"){
+ if(["tap","drag","pair","order","story"].includes(mode)){
+   specialRender(q,mode);
+ }else if(mode==="match"){
    const m=run.module;const rivals=m.items.filter(x=>x.answer!==q.answer&&x.visual!==q.visual);
    pictureOptions=A.shuffle([q,...A.shuffle(rivals,q.answer).slice(0,2)],q.answer+A.day()).map(x=>({visual:x.visual,answer:x.answer}));
    $("visual").textContent="🔍";$("question").textContent="'"+q.answer+"'에 해당하는 그림을 골라요";
@@ -84,19 +163,19 @@ function render(){
 }
 $("ready").onclick=()=>{if(phase!=="intro")return;let q=current(),mode=run.lesson.mode;phase="quiz";
  $("answers").classList.remove("hidden");$("ready").classList.add("hidden");$("explain").classList.add("hidden");$("answerTitle").classList.add("hidden");
- if(mode==="remember"){$("visual").textContent="❔";$("question").textContent="아까 본 그림의 이름은?"}else $("question").textContent=q.question||q.hint||"어떤 것일까요?";
+ if(mode==="remember"){$("visual").textContent="❔";$("question").textContent="아까 본 그림의 이름은?"}
+ else if(mode==="story"){$("question").textContent=q.question||"이야기를 잘 들었나요?";$("hint").textContent="이야기에 나왔던 답을 찾아요"}
+ else $("question").textContent=q.question||q.hint||"어떤 것일까요?";
  shownAt=performance.now()};
 $("repeat").onclick=()=>{if(phase!=="speaking")return;phase="quiz";$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("answers").classList.remove("hidden");$("question").textContent=current().question||current().hint||"어떤 것일까요?";shownAt=performance.now()};
 $("hear").onclick=()=>{const q=current();if(!q)return;const mode=run.type==="diagnostic"?"choose":run.lesson.mode;const answerMode=mode==="speak"||mode==="listen";speak(answerMode?q.answer:q.question||q.hint||q.answer,answerMode?locale():"ko-KR")};
 $("answers").onclick=e=>{
- const btn=e.target.closest("[data-opt]");if(!btn||answered||phase!=="quiz")return;
- const q=current(),chosen=btn.dataset.opt,actual=pictureOptions?(pictureOptions.find(x=>x.visual===chosen)||{}).answer:chosen,ok=actual===q.answer,elapsed=Math.max(0,performance.now()-shownAt);
- answered=true;
- if(ok){score++;btn.classList.add("good");$("feedback").textContent="🌟 잘했어! "+(A.profile().name||"이현")+"!";speak("잘했어! "+(A.profile().name||"이현")+"! 정말 멋져!")}
- else{btn.classList.add("bad");$("feedback").textContent="💛 다음엔 더 잘할 수 있어!";speak("괜찮아, 다시 배워보자!")}
- if(run.type==="diagnostic")diagnosticResults.push({skill:q.skill,correct:ok,elapsed});
- else A.update(run.lesson.skill,ok,elapsed,run.lesson.mode);
- $("explain").textContent=run.type==="diagnostic"?"정답은 "+q.answer+"예요.":q.explain;$("explain").classList.remove("hidden");$("next").classList.remove("hidden");
+ const hear=e.target.closest("[data-voice]");
+ if(hear){speak(hear.dataset.voice,locale());return}
+ const btn=e.target.closest("[data-opt]");if(!btn||answered)return;
+ const mode=run.type==="diagnostic"?"choose":run.lesson.mode;
+ if(mode==="drag"){interaction.selected=btn.dataset.opt;$("dropTarget").textContent="🧲 "+btn.dataset.opt+" → 상자를 눌러 넣어요";$("dropTarget").classList.add("selected");return}
+ processAnswer(btn.dataset.opt)
 };
 $("next").onclick=()=>{
  if(!answered)return;index++;if(index<run.questions.length){render();return}
