@@ -32,7 +32,7 @@ function session(lessonId,count=5){
  return {lesson,subject:sub,module:mod,questions:bank.map((item,i)=>({...item,choiceOptions:options(lesson.subject,lesson.module,item),seq:i}))};
 }
 function diagnose(subjectId){const sub=C.subject(subjectId);if(!sub)throw Error("Unknown subject");
- return sub.modules.flatMap((m,i)=>shuffle(m.items,subjectId+i+"diagnostic").slice(0,2).map(x=>({subject:subjectId,module:i,skill:m.id,answer:x.answer,visual:x.visual,hint:x.hint,choiceOptions:options(subjectId,i,x)})));
+ return sub.modules.flatMap((m,i)=>shuffle(m.items,subjectId+i+"diagnostic").slice(0,2).map(x=>({subject:subjectId,module:i,skill:m.id,answer:x.answer,visual:x.visual,question:x.question,explain:x.explain,hint:x.hint,choiceOptions:options(subjectId,i,x)})));
 }
 function finishDiagnosis(subjectId,records){
  const sums={};for(const r of records){const id=r.skill;if(!sums[id])sums[id]={correct:0,total:0};sums[id].total++;if(r.correct)sums[id].correct++;update(id,r.correct,r.elapsed||0,"diagnostic");}
