@@ -149,6 +149,14 @@ vm.runInNewContext(coreScript,coreVM,{filename:'learning-core-v10.js'});
 const curr=win.JOY_CURRICULUM,adaptive=win.JOY_CORE;
 assert.equal(curr.subjects.length,10,'there must be ten structured learning subjects');
 assert.equal(curr.lessons.length,440,'there must be 440 graded activities including 200 new tactile lessons');
+assert(home.includes('440개')&&!home.includes('240개'),'home must advertise the correct verified activity count');
+assert(fs.existsSync('joyi-adventure-world.svg')&&fs.existsSync('joiland-theme-v11.css'),'illustrated storybook design assets missing');
+assert(home.includes('joiland-theme-v11.css')&&journey.includes('joiland-theme-v11.css'),'unified storybook theme not linked');
+assert(journey.includes('id="recordVoice"')&&journey.includes('id="playVoice"'),'opt-in record-and-compare speech practice unavailable');
+assert(journeyScript.includes('getUserMedia({audio:true})')&&journeyScript.includes('getTracks().forEach(t=>t.stop())'),'microphone permission or privacy cleanup missing');
+assert(parent.includes('id="voiceChoice"')&&parent.includes('id="previewVoice"'),'parent must be able to select and preview TTS voices');
+assert(coreScript.includes('joiland-voice-name'),'child TTS must honor parent voice selection');
+
 assert(curr.subjects.every(s=>s.modules.length===4),'every subject needs four structured learning stages');
 assert(curr.subjects.every(s=>s.modules.every(m=>m.items.length>=5&&m.lessons.length===11)),'every module needs five facts and eleven interactive learning modes');
 for(const sub of curr.subjects)for(const mod of sub.modules)for(const x of mod.items){assert(x.question&&x.question.length>=9,'missing meaningful question: '+sub.id+'/'+mod.title);assert(x.explain&&x.explain.length>=11,'truncated teaching explanation: '+sub.id+'/'+mod.title);}
@@ -159,6 +167,10 @@ assert(journeyScript.includes('ondrop=e=>')&&journeyScript.includes('function ma
 assert(journeyScript.includes('interaction.step++')&&journeyScript.includes('interaction.seq'),'multi-step sequencing not implemented');
 assert(journeyScript.includes('pictureOptions=null;optionsRender(quizOptions(q))'),'image and word pairing not two-stage');
 assert(journey.includes('class="interaction hidden"')&&journey.includes('choice-hear'),'new touchscreen interaction or separate audio hearing button missing');
+
+assert(curr.subjects.every(sub=>sub.modules.every(m=>m.items.every(q=>!/[을은이]\(는\)|을\/를|은\/는|이\/가|과\/와/.test(q.question)))),'awkward Korean placeholder grammar in lesson prompts');
+assert(curr.subjects.every(sub=>sub.modules.every(m=>m.items.every(q=>q.question.length<=68&&q.explain.length<=150))),'overlong lesson question or feedback on small screens');
+assert(curr.subjects.reduce((n,sub)=>n+sub.modules.reduce((k,m)=>k+m.items.length,0),0)>=240,'subject concept bank unexpectedly small');
 
 const modes=new Set(curr.lessons.map(l=>l.mode));
 for(const k of ['explore','choose','listen','match','remember','speak','tap','drag','pair','order','story'])assert(modes.has(k),'missing learning type '+k);
@@ -183,6 +195,14 @@ adaptive.update('hangul-0',false,2400,'choose');
 adaptive.update('hangul-0',true,1300,'listen');
 assert.equal(adaptive.getSkill('hangul-0').attempts,before+2,'mastery attempts not tracked');
 assert(adaptive.recommend('hangul',2).length===2,'adaptive lesson planner failed');
+const one=curr.subject('hangul').modules[0].items[0];
+adaptive.recordQuestion('hangul','hangul-0',one,false);
+assert(adaptive.data().questionHistory['hangul/hangul-0'][one.answer+'|'+one.visual].wrong===1,'error-specific retraining item memory missing');
+const savedRun=adaptive.data().sessionRuns['hangul/hangul-0']||0;
+adaptive.session('hangul-0-drag');
+assert(adaptive.data().sessionRuns['hangul/hangul-0']===savedRun+1,'replaying the same lesson must offer a varied question set');
+
+
 const twoKind=curr.subject('finance').modules[0].items[0];assert.equal(adaptive.options('finance',0,twoKind).length,2,'two-category financial literacy must not show unrelated third choice');
 const diag=adaptive.diagnose('math');adaptive.finishDiagnosis('math',diag.map((q,i)=>({skill:q.skill,correct:i%2===0,elapsed:1800})));
 assert(adaptive.data().diagnostics.math,'per-subject initial diagnostic not saved');
@@ -190,4 +210,4 @@ assert(diag.every(q=>q.question&&q.question.length>=9),'subject diagnostic omitt
 assert(adaptive.report().subject.length===10,'parent analytics incomplete');
 assert(local['joiland-learning-v10'],'private on-device progress was not stored');
 
-console.log('PASS: '+compiled+' HTML scripts; reviewed history/coding and 10 money games plus two block-building games; ten number-writing groups and whole-number glyphs; stroke checks; 20 long stories; v10.3 440 graded lessons with 200 new play modes, local adaptive engine and parent dashboard.');
+console.log('PASS: '+compiled+' HTML scripts; reviewed history/coding and 10 money games plus two block-building games; ten number-writing groups and whole-number glyphs; stroke checks; 20 long stories; v10.4 440 graded lessons, new tiger scenery, voice playback and error-specific adaptive review with 200 new play modes, local adaptive engine and parent dashboard.');
