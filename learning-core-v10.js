@@ -23,7 +23,7 @@ function update(id,correct,elapsed,mode){
 function masteryFrom(s){return (s.correct+1)/(s.attempts+2)}
 function options(subjectId,moduleIdx,item){const sub=C.subject(subjectId),mod=sub.modules[moduleIdx];
  const wrong=shuffle([...new Set(mod.items.map(x=>x.answer).filter(x=>x!==item.answer))],day()+item.answer+moduleIdx);
- if(wrong.length<2){const all=[...new Set(sub.modules.flatMap(x=>x.items.map(t=>t.answer)))].filter(v=>v!==item.answer&&!wrong.includes(v));wrong.push(...shuffle(all,day()+item.answer).slice(0,2-wrong.length));}
+ // For two legitimate categories, two meaningful answers are better than a random third.
  return shuffle([item.answer,...wrong.slice(0,2)],item.answer+day());
 }
 function session(lessonId,count=5){
