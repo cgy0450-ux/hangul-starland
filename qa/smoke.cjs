@@ -151,6 +151,7 @@ assert.equal(curr.subjects.length,10,'there must be ten structured learning subj
 assert.equal(curr.lessons.length,240,'there must be 240 graded activities');
 assert(curr.subjects.every(s=>s.modules.length===4),'every subject needs four structured learning stages');
 assert(curr.subjects.every(s=>s.modules.every(m=>m.items.length>=5&&m.lessons.length===6)),'every module needs five facts and six interactive learning modes');
+for(const sub of curr.subjects)for(const mod of sub.modules)for(const x of mod.items){assert(x.question&&x.question.length>=9,'missing meaningful question: '+sub.id+'/'+mod.title);assert(x.explain&&x.explain.length>=11,'truncated teaching explanation: '+sub.id+'/'+mod.title);}
 assert.equal(new Set(curr.lessons.map(l=>l.id)).size,240,'lesson IDs must be unique');
 const modes=new Set(curr.lessons.map(l=>l.mode));
 for(const k of ['explore','choose','listen','match','remember','speak'])assert(modes.has(k),'missing learning type '+k);
@@ -177,6 +178,7 @@ assert.equal(adaptive.getSkill('hangul-0').attempts,before+2,'mastery attempts n
 assert(adaptive.recommend('hangul',2).length===2,'adaptive lesson planner failed');
 const diag=adaptive.diagnose('math');adaptive.finishDiagnosis('math',diag.map((q,i)=>({skill:q.skill,correct:i%2===0,elapsed:1800})));
 assert(adaptive.data().diagnostics.math,'per-subject initial diagnostic not saved');
+assert(diag.every(q=>q.question&&q.question.length>=9),'subject diagnostic omitted question wording');
 assert(adaptive.report().subject.length===10,'parent analytics incomplete');
 assert(local['joiland-learning-v10'],'private on-device progress was not stored');
 
