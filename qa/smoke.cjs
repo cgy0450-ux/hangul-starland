@@ -104,10 +104,13 @@ for(let i=0;i<money.length;i++){
  assert(g.items.length>=5,g.title+' has fewer than five puzzles');
  assert(g.title.length>=3&&g.desc.length>=5,g.title+' must explain learning objective');
  for(const item of g.items){
-  if(g.type==='quiz'||g.type==='jars'){
+  if(g.type==='quiz'){
     assert(item.length>=4,g.title+' incomplete answer options');
     assert(!item.slice(3).includes(item[2]),g.title+' correct answer also listed as wrong');
     assert.equal(new Set(item.slice(2)).size,item.length-2,g.title+' repeated answer choice');
+  }else if(g.type==='jars'){
+    assert.equal(item.length,3,'jar labels come from the three fixed money jars');
+    assert(['쓰는 돈','저금할 돈','나눌 돈'].includes(item[2]),'unrecognized jar label');
   }else if(g.type==='shop'){
     assert(typeof item[1]==='number'&&item[1]>=1&&item[1]<=5,g.title+' bad price');
   }else if(g.type==='save')assert(item>=3&&item<=8,g.title+' bad savings goal');
