@@ -12,12 +12,12 @@ const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=u
 const server=http.createServer((req,res)=>{let url;try{url=new URL(req.url,'http://localhost');}catch{res.writeHead(400).end();return;}let rel=decodeURIComponent(url.pathname).replace(/^\/+/, '')||'index.html';const resolved=path.resolve(roots,rel);if(!(resolved===roots||resolved.startsWith(roots+path.sep))||!fs.existsSync(resolved)||fs.statSync(resolved).isDirectory()){res.writeHead(404).end('Not found');return;}res.writeHead(200,{'Content-Type':mime[path.extname(resolved)]||'application/octet-stream'});fs.createReadStream(resolved).pipe(res);});
 server.listen(0,'127.0.0.1',async()=>{
  const port=server.address().port, cases=[
- ['index.html','data-subject="coding"'],['index.html','data-subject="history"'],
+ ['index.html','data-subject="coding"'],['index.html','data-subject="history"'],['index.html','data-subject="finance"'],['index.html','data-subject="requests"'],
  ['academy.html?subject=math','data-i="9"'],['academy.html?subject=science','data-i="9"'],
  ['academy.html?subject=english','data-i="9"'],['academy.html?subject=history','data-i="9"'],
  ['academy.html?subject=coding','data-i="9"'],['academy.html?subject=coding&game=5','class="direction-scene"'],['academy.html?subject=history&game=0','id="learn"'],['stories.html','data-book="19"'],
  ['writing.html?mode=numbers','data-i="9"'],['writing.html?mode=numbers&lesson=1&step=10','id="target">10'],['writing.html?mode=numbers&lesson=10&step=10','id="target">100'],['writing.html?mode=english','data-i="11"'],
- ['mazes.html','data-index="19"'],['coding-lab.html','class="grid"']
+ ['mazes.html','data-index="19"'],['coding-lab.html','class="grid"'],['finance.html','data-game="9"'],['finance.html?game=0','id="answers"'],['finance.html?game=2','🪙'],['finance.html?game=3','id="addcoin"'],['finance.html?game=4','class="jarrow"'],['finance.html?game=9','id="ask"'],['requests.html','data-game="tower"'],['requests.html?game=tower','data-color="red"'],['requests.html?game=bridge','data-part="support"']
  ];
  try{
   let n=0;
@@ -31,6 +31,6 @@ server.listen(0,'127.0.0.1',async()=>{
    assert(passes,route+' did not render '+text+'; exit='+cmd.status+'; DOM='+String(cmd.stdout).slice(-850)+'; stderr='+String(cmd.stderr).slice(-500));
    n++;
   }
-  console.log('PASS: Chromium rendered '+n+' live-style pages including 6 subjects, stories, writing, maze and coding.');
+  console.log('PASS: Chromium rendered '+n+' live-style pages including eight subject halls, ten money games, two block games, stories, writing, mazes and coding.');
  }catch(e){console.error('FAIL:',e.message);process.exitCode=1;}finally{server.close();}
 });
