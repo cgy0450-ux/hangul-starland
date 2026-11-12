@@ -158,7 +158,7 @@ function render(){
    $("repeat").classList.remove("hidden");$("question").textContent="듣고 입으로 따라 말해봐요";
    $("hint").textContent="직접 말한 다음 버튼을 누르세요. 발음 점수는 매기지 않아요.";
    phase="speaking";speak(q.answer,locale());
- }else speak($("question").textContent);
+ }else if(!["tap","drag","pair","order","story"].includes(mode))speak($("question").textContent);
  shownAt=performance.now();
 }
 $("ready").onclick=()=>{if(phase!=="intro")return;let q=current(),mode=run.lesson.mode;phase="quiz";
