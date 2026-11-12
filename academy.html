@@ -53,6 +53,29 @@ body.playing .game.kid-mode .answer-wrap:last-child:nth-child(odd){grid-column:s
 body.playing .game.kid-mode .choices{gap:10px}
 body.playing .game.kid-mode .iconbox{min-height:135px}
 @media(max-height:710px){.direction-scene{width:min(44vw,155px);height:min(44vw,155px)}body.playing .game.kid-mode .iconbox{min-height:100px}}
+
+/* Child-safe locked viewport only during a game, not in lesson selection */
+html:has(body.playing),body.playing{height:100%;overflow:hidden!important;overscroll-behavior:none}
+body.playing{height:100dvh;touch-action:manipulation;display:flex;flex-direction:column}
+body.playing header{flex:none;min-height:55px;padding:6px 9px;gap:6px}
+body.playing header a,body.playing header button{padding:7px 9px;box-shadow:0 3px 0 #dbccef;font-size:clamp(12px,3vw,18px)}
+body.playing header h1{font-size:clamp(17px,4.3vw,24px)}
+body.playing main{height:calc(100dvh - 58px);min-height:0;flex:1;padding:2px 9px;overflow:hidden}
+body.playing .game.active{min-height:0;height:100%;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+body.playing .toprow{flex:none;margin-bottom:5px}
+body.playing .toprow button{padding:7px 10px;font-size:clamp(13px,3vw,17px)}
+body.playing .panel{flex:0 1 auto;min-height:0;max-height:calc(100dvh - 122px);display:flex;flex-direction:column;justify-content:center;gap:0;overflow:hidden;padding:clamp(8px,1.6vh,17px)}
+body.playing .iconbox{min-height:clamp(72px,17dvh,142px);max-height:24dvh;flex:none}
+body.playing .prompt{font-size:clamp(18px,4.5vw,29px);margin:clamp(6px,1.5vh,12px) 0 5px}
+body.playing .hint{font-size:clamp(11px,2.5vw,14px);margin:2px 0 7px}
+body.playing .choice{min-height:clamp(42px,10.5dvh,76px);padding:7px 25px 7px 6px;font-size:clamp(14px,3.8vw,24px)}
+body.playing .hear-option{width:29px;height:34px;font-size:15px}
+body.playing .choices{gap:clamp(5px,1.2vh,10px)}
+body.playing .bottom{margin-top:clamp(5px,1.4vh,11px)}
+body.playing .bottom button{padding:clamp(7px,1.6vh,11px) 13px}
+body.playing .feedback{min-height:23px;margin:5px 0 0;font-size:clamp(13px,3vw,19px)}
+body.playing footer{display:none}
+@media(max-height:620px){body.playing .panel{padding:6px}body.playing .iconbox{min-height:53px;max-height:16dvh}body.playing .choice{min-height:37px}body.playing .prompt{font-size:18px;margin:3px 0}body.playing .toprow{margin:2px 0}}
 </style></head><body><header><a href="./index.html">⌂ 과목 선택</a><h1 id="top-title">🐯 쪼이랜드</h1><button id="voice" aria-label="읽어주기 끄기">🔊 소리 켬</button></header><main><section id="menu-screen"><div class="intro"><div class="intro-tiger"><img src="./icon-512.png?v=6.3" alt="호랑이 쪼이" /></div><div class="intro-message"><div class="intro-pill">🌟 쪼이랜드 오늘의 탐험</div><h2 id="heading">재미있는 놀이를 골라봐!</h2><p>하루에 조금씩 신나게! 오늘의 열 가지 놀이가 기다려요.</p></div><div class="intro-sparks" aria-hidden="true">✨</div></div><div id="menu" class="menu"></div></section><section class="game" id="game"><div class="toprow"><button id="back">‹ 놀이 선택</button><b class="count" id="counter"></b><span class="stars" id="score">⭐ 0</span></div><div class="panel"><div id="visual" class="iconbox"></div><h2 id="prompt" class="prompt"></h2><p id="hint" class="hint"></p><div class="choices" id="choices"></div><p class="feedback" id="feedback" role="status"></p><div class="bottom"><button id="listen" class="replay">🔊 다시 듣기</button><button id="learn" class="replay" hidden>🐯 쪼이 설명 듣기</button><button id="next" hidden>다음 문제 ➜</button></div></div></section></main><footer>🌈 5세 아이를 위한 천천히 놀이 · 정답은 한 번 더 생각해도 괜찮아요!</footer><script src="./curated-questions.js"></script><script>
 (function(){"use strict";
 var p=new URLSearchParams(location.search);var subject=p.get("subject");if(["math","science","english","history","coding"].indexOf(subject)<0)subject="math";
