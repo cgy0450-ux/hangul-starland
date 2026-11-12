@@ -52,6 +52,9 @@ assert(!fs.existsSync('bgm.js'),'background music module must be deleted');
 const coding=fs.readFileSync('coding-lab.html','utf8');
 assert(coding.includes('function add(d)')&&coding.includes('async function run()'),'interactive block coding must execute arrows');
 assert(academy.includes('route:"./coding-lab.html"'),'coding hall must link to interactive lab');
+assert(academy.includes('function directionMap(q)')&&academy.includes('direction-scene'),'coding map visualization missing');
+assert(academy.includes('const HISTORY_FACTS=')&&academy.includes('3') ,'history learning facts missing');
+
 assert(academy.includes('button.choice')&&academy.includes('data-hear')&&academy.includes('소리 켬'),'read-aloud answer buttons missing');
 assert(academy.includes('String.fromCharCode(92)+"n"'),'bear/tiger honey group separation missing');
 
@@ -75,6 +78,7 @@ for(const sub of ['math','science','english','history','coding']){
    for(const q of questions){
      assert(q.options.includes(q.answer),sub+' game '+i+' missing correct answer');
      assert.equal(q.options.length,new Set(q.options).size,sub+' game '+i+' duplicates response choices');
+     assert.equal(q.options.length,['history','coding'].includes(sub)?3:4,sub+' game '+i+' wrong choice count');
    }
    const five=shuffled(questions).slice(0,5);
    assert.equal(five.length,5);
