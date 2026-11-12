@@ -31,7 +31,7 @@ for(const b of sandbox.window.JOY_STORIES){
 assert(index.includes('function chooseSubjects()'),'subject gateway missing');
 for(const subject of ['math','science','english','history','coding','finance','requests'])assert(index.includes(subject),'subject missing: '+subject);
 assert(index.includes("./finance.html")&&index.includes("./requests.html"),'subject routing to finance or requests missing');
-assert(index.includes('🔊 소리 듣기')&&!index.includes('🔊 글자 소리 듣기'),'sound-only title should not reveal target');
+assert(index.includes('🔊 소리 듣기')&&!index.includes('🔊 글자 소리 듣기')&&!index.includes("우주선에 타자! '${item[0]}'"),'sound quiz must not reveal correct syllable in prompt');
 assert(index.includes('joy-playing')&&academy.includes('body.playing{height:100dvh'),'game-only page scroll lock missing');
 assert(index.includes('dayShuffle(mode,WORDS)'),'daily Hangul decks missing');
 assert(!index.includes('<script src="./bgm.js'),'background music must be removed from home');
