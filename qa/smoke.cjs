@@ -176,6 +176,7 @@ adaptive.update('hangul-0',false,2400,'choose');
 adaptive.update('hangul-0',true,1300,'listen');
 assert.equal(adaptive.getSkill('hangul-0').attempts,before+2,'mastery attempts not tracked');
 assert(adaptive.recommend('hangul',2).length===2,'adaptive lesson planner failed');
+const twoKind=curr.subject('finance').modules[0].items[0];assert.equal(adaptive.options('finance',0,twoKind).length,2,'two-category financial literacy must not show unrelated third choice');
 const diag=adaptive.diagnose('math');adaptive.finishDiagnosis('math',diag.map((q,i)=>({skill:q.skill,correct:i%2===0,elapsed:1800})));
 assert(adaptive.data().diagnostics.math,'per-subject initial diagnostic not saved');
 assert(diag.every(q=>q.question&&q.question.length>=9),'subject diagnostic omitted question wording');
