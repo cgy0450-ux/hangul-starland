@@ -48,7 +48,7 @@ function recommend(subjectId,limit=3){
  if(sk.attempts>=4&&s>=.78)priority-=55;
  if(lesson.mode==="speak"&&!sk.attempts)priority-=12;
  return {lesson,subject:sub,module:mod,skill:sk,priority};
- }))));
+ })));
  all.sort((a,b)=>b.priority-a.priority||stable(day()+a.lesson.id)-stable(day()+b.lesson.id));
  const picked=[],used={};for(const x of all){if(picked.length===limit)break;const id=x.lesson.skill;if(used[id]||picked.filter(a=>a.subject.id===x.subject.id).length>=2)continue;used[id]=true;picked.push(x);}
  return picked;
