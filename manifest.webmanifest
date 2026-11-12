@@ -2,7 +2,7 @@
   "id": "./",
   "name": "쪼이랜드",
   "short_name": "쪼이랜드",
-  "description": "쪼이 호랑이와 함께하는 10개 영역 240개 학습 활동, 초기 진단과 맞춤 복습, 부모 리포트",
+  "description": "쪼이 호랑이와 함께하는 10개 영역 440개 학습 활동, 첫 진단·개인별 맞춤 놀이·말하기·자동 복습",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
