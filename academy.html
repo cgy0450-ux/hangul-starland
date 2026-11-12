@@ -206,7 +206,7 @@ function menu(){el("voice").textContent=voiceOff?"🔇 소리 끔":"🔊 소리 
 function start(i){selected=i;const game=games[subject][i];if(game.route){location.href=game.route;return;}round=0;score=0;correct=false;seed=Number(dayKey.replace(/-/g,""))+(subject==="math"?11:subject==="science"?139:subject==="english"?1013:subject==="history"?2081:3209)+i*809;const bank=generate(subject,i);const distinct=shuffled(bank).filter((q,j,a)=>a.findIndex(x=>x.unique===q.unique)===j);deck=distinct.slice(0,5);if(deck.length<5)throw Error("Not enough unique questions: "+subject+" "+i);el("menu-screen").hidden=true;document.body.classList.add("playing");el("game").classList.add("active");render();}
 function directionMap(q){
  if(subject!=='coding'||selected!==5)return null;
- const tokens=q.visual.split(/\\s+/).filter(Boolean);
+ const tokens=q.visual.split(/\s+/).filter(Boolean);
  if(tokens.length!==3)return null;
  const dir={'⬆️':-5,'⬇️':5,'⬅️':-1,'➡️':1}[tokens[1]];
  if(!dir)return null;
