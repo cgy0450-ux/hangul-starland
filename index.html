@@ -200,6 +200,16 @@ body.joy-playing .space-ui{padding:2px}
 body.joy-playing .question-title{font-size:clamp(18px,4vw,27px)}
 body.joy-playing .break-banner{display:none}
 @media(max-height:650px){body.joy-playing .choice{min-height:40px}body.joy-playing .mainpanel{padding:5px}body.joy-playing .screenhead{margin:0}body.joy-playing .lesson-hero strong{font-size:28px}}
+
+body.joy-playing .learn-tabs{gap:5px;flex-shrink:0;margin:3px 0}
+body.joy-playing .learn-tabs button{min-height:40px;padding:6px;font-size:clamp(12px,2.7vw,16px)}
+body.joy-playing .letter-grid{gap:5px;margin:4px auto;flex-shrink:1;overflow:hidden}
+body.joy-playing .letter{min-height:clamp(38px,6.6dvh,64px);aspect-ratio:auto;height:clamp(38px,7dvh,64px);border-radius:12px;font-size:clamp(20px,5vw,40px)}
+body.joy-playing .detail-card{min-height:0;max-height:29dvh;margin:5px auto 0;padding:6px 9px;gap:12px}
+body.joy-playing .detail-glyph{font-size:clamp(42px,9vw,81px)}
+body.joy-playing .detail-ex{font-size:clamp(13px,3.4vw,21px)}
+body.joy-playing .detail-ex .exampleemoji{font-size:clamp(22px,5vw,37px);margin:1px}
+body.joy-playing .detail-ex button{padding:7px 9px}
 </style>
 </head>
 <body><div id="joy-splash" role="status" aria-label="쪼이랜드가 시작되고 있어요"></div><div id="app"></div>
@@ -312,7 +322,7 @@ function sayLetterExample(entry,tab){const first=tab==='consonants'?entry[1]:tab
 
 function alertToast(message){document.querySelector('.toast')?.remove();const d=document.createElement('div');d.className='toast';d.setAttribute('role','status');d.textContent=message;document.body.appendChild(d);clearTimeout(toastTimer);toastTimer=setTimeout(()=>d.remove(),2600);}
 function header(){return `<header class="topbar"><button class="brand" data-a="home" aria-label="쪼이랜드 처음 화면" style="border:0;background:none;padding:0"><span class="brand-buddy"><img src="./icon-512.png?v=6.3" alt="웃는 호랑이 쪼이"/></span><span class="brand-name">쪼이랜드<small>🐯 놀면서 자라요</small></span></button><button class="subject-return" data-a="subjects">📚 과목</button><div class="top-actions"><span class="pill star-pill" aria-label="오늘 별 ${todayStars()}개 누적 ${state.stars}개">⭐ <span id="star-number">${todayStars()}</span> / ${DAILY_STAR_CAP}<small>오늘의 별</small></span><button class="pill refresh-pill" data-a="refresh" title="최신 버전 새로고침" aria-label="최신 버전 업데이트 확인"><svg class="refresh-icon" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2 6"/><path d="M20 4v7h-7"/></svg><span>업데이트</span></button><button class="pill sound-pill" data-a="sound" aria-label="소리 ${state.sound?'끄기':'켜기'}">${state.sound?'🔊 소리 켬':'🔇 소리 끔'}</button></div></header>`;}
-function wrap(body){document.body.classList.toggle('joy-playing',['quiz','build','trace','color','space','safari','journey','family-write'].includes(view.mode));ROOT.innerHTML=`<div class="shell">${header()}<main class="mainpanel">${body}</main><footer class="footer"><span>🌈 천천히 해도 괜찮아! 차근차근 해보자.</span><button class="textbtn" data-a="parent">보호자</button></footer></div>`;}
+function wrap(body){document.body.classList.toggle('joy-playing',['learn','quiz','build','trace','color','space','safari','journey','family'].includes(view.mode));ROOT.innerHTML=`<div class="shell">${header()}<main class="mainpanel">${body}</main><footer class="footer"><span>🌈 천천히 해도 괜찮아! 차근차근 해보자.</span><button class="textbtn" data-a="parent">보호자</button></footer></div>`;}
 function progress(){return `<div class="progress" aria-label="${Math.min(view.round,5)} / 5"><span class="topright-status">${Math.min(view.round+1,5)}/5</span>${[0,1,2,3,4].map(i=>`<span class="progdot ${i<=view.round?'on':''}"></span>`).join('')}</div>`;}
 function screenHead(t,withProgress=true){return `<div class="screenhead"><button class="backbtn" data-a="home">⌂ 처음으로</button><h2>${t}</h2>${withProgress?progress():`<span class="topright-status">✨</span>`}</div>`;}
 function breakHtml(){return !breakDismissed&&(Date.now()-sessionStart>=10*60*1000)?`<div class="break-banner" role="status">🌿 10분 동안 멋지게 놀았어요! 눈과 몸을 잠깐 쉬어볼까요? <button class="small-action" data-a="break">알겠어요</button></div>`:'';}
