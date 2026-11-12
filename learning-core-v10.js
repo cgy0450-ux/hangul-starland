@@ -44,7 +44,12 @@ function recommend(subjectId,limit=3){
  let all=subjects.flatMap(sub=>sub.modules.flatMap(mod=>mod.lessons.map(lesson=>{
  const sk=getSkill(mod.id),s=mastery(mod.id),unseen=!sk.attempts,overdue=due(sk);
  let priority=(unseen?80:0)+(overdue?35:0)+(1-s)*22+(lesson.mode==="explore"?8:0);
- if(mod.level>1&&!getSkill(sub.modules[mod.level-2].id).attempts)priority-=28;
+ const targetLevel=Math.min(4,Math.max(1,(data.age||5)-3));
+ const previous=mod.level>1?getSkill(sub.modules[mod.level-2].id):null;
+ const predecessorReady=previous&&previous.attempts>=4&&(previous.correct+1)/(previous.attempts+2)>=.72;
+ if(mod.level>targetLevel&&!predecessorReady)priority-=70*(mod.level-targetLevel);
+ if(mod.level>1&&previous&&!previous.attempts)priority-=28;
+ if(data.missions[day()]&&data.missions[day()][lesson.id])priority-=65;
  if(sk.attempts>=4&&s>=.78)priority-=55;
  if(lesson.mode==="speak"&&!sk.attempts)priority-=12;
  return {lesson,subject:sub,module:mod,skill:sk,priority};
