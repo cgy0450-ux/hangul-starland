@@ -2,7 +2,7 @@
   "id": "./",
   "name": "쪼이랜드",
   "short_name": "쪼이랜드",
-  "description": "호랑이 쪼이와 함께하는 한글, 수학, 과학, 영어, 역사, 코딩 놀이 학습관",
+  "description": "5세 어린이를 위한 무료 한글·수학·과학·영어·역사·코딩·돈과 투자·요청 놀이 8개 학습관",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
