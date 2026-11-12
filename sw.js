@@ -1,6 +1,6 @@
 /* 쪼이랜드 오프라인 지원: 상대 경로만 캐시하며 외부 통신을 하지 않습니다. */
-const CACHE = 'hangul-starland-v8-7-kid-friendly-history-coding-20261112';
-const CORE = ['./', './index.html', './stories.html', './mazes.html', './academy.html', './writing.html', './coding-lab.html', './curated-questions.js', './stories-data.js', './splash-poster.webp?v=6.2', './art-apple.webp?v=6.2', './art-letter-tiger.webp?v=6.2', './manifest.webmanifest?v=8.2', './icon-tiger.svg', './icon-192.png?v=6.0', './icon-512.png?v=6.0'];
+const CACHE = 'hangul-starland-v9-0-finance-block-play-20261112';
+const CORE = ['./', './index.html', './stories.html', './mazes.html', './academy.html', './writing.html', './coding-lab.html', './finance.html', './requests.html', './curated-questions.js', './stories-data.js', './splash-poster.webp?v=6.2', './art-apple.webp?v=6.2', './art-letter-tiger.webp?v=6.2', './manifest.webmanifest?v=8.2', './icon-tiger.svg', './icon-192.png?v=6.0', './icon-512.png?v=6.0'];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(CORE)).then(() => self.skipWaiting()));
 });
