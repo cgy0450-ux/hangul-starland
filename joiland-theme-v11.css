@@ -1,0 +1,21 @@
+/* Joiland storybook design tokens — freely authored vector art and locally rendered mascot poses. */
+:root{--joyi-purple:#6244ae;--joyi-ink:#44316b;--joyi-peach:#ffe3ce;--joyi-lemon:#fff4b9;--joyi-mint:#d7f9e8;--joyi-blue:#d7f4ff;--joyi-shadow:#9a82be36}
+body{font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;letter-spacing:-.025em}
+header strong,header .logo{filter:drop-shadow(0 1px 0 #fff);letter-spacing:-.045em}
+button,a,svg,img{-webkit-tap-highlight-color:transparent}
+button{user-select:none;-webkit-user-select:none}
+button:focus-visible,a:focus-visible{outline:4px solid #ea9bff;outline-offset:3px}
+.subject,.tile,.card,.module,.paper,.sheet,.panel{box-shadow:0 7px 0 #d4b8e3,0 16px 25px var(--joyi-shadow)}
+.subject,.tile,.card{transition:transform .13s ease,filter .13s ease}
+.subject:active,.tile:active,.card:active{transform:translateY(4px)}
+.pill,.btn,.choice,.ans{box-shadow:0 4px 0 #bcaadb,0 7px 12px #6f52ad20}
+.hero,.intro{position:relative;isolation:isolate}
+body:not(.playing) .hero{background-image:linear-gradient(90deg,#fff8e9ed 0%,#fff3e1aa 50%,#ffffff11 85%),url("./joyi-adventure-world.svg");background-position:center;background-size:cover}
+body:not(.playing) .hero:after{content:"✦";position:absolute;top:12%;right:19%;font-size:30px;color:#fff6b0;animation:joyi-shine 3.6s infinite;pointer-events:none}
+.subject img,.tile img,.hero img{object-fit:contain;image-rendering:auto}
+.subject{background-image:radial-gradient(circle at 80% 15%,#ffffffbd 0 10px,transparent 11px),radial-gradient(circle at 7% 88%,#ffffff95 0 20px,transparent 21px),linear-gradient(152deg,var(--bg,#eaf7ff),#fffafc)!important}
+.subject:before{content:"✦";position:absolute;right:14px;bottom:57px;font-size:24px;color:#ffffffaa;pointer-events:none}
+.picture,.scene{background-image:linear-gradient(130deg,#fffcecdd,#e5f8ffcc),url("./joyi-adventure-world.svg");background-size:cover;background-position:center}
+@keyframes joyi-shine{50%{transform:rotate(17deg) scale(1.25);opacity:.42}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
+@media(max-width:420px){.subject{border-radius:22px}.hero{border-radius:26px}}
