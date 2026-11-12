@@ -1,7 +1,7 @@
 const fs=require('node:fs');
 const vm=require('node:vm');
 const assert=require('node:assert/strict');
-const pages=['index.html','academy.html','writing.html','stories.html','mazes.html','coding-lab.html','finance.html','requests.html'];
+const pages=['index.html','legacy.html','journey.html','parent.html','academy.html','writing.html','stories.html','mazes.html','coding-lab.html','finance.html','requests.html'];
 let compiled=0;
 for(const name of pages){
  const html=fs.readFileSync(name,'utf8');
@@ -9,7 +9,10 @@ for(const name of pages){
  assert(scripts.length>0,name+' scripts missing');
  for(const block of scripts)if(block[1].trim()){new vm.Script(block[1],{filename:name});compiled++;}
 }
-const index=fs.readFileSync('index.html','utf8');
+const home=fs.readFileSync('index.html','utf8');
+const index=fs.readFileSync('legacy.html','utf8');
+const journey=fs.readFileSync('journey.html','utf8');
+const parent=fs.readFileSync('parent.html','utf8');
 const academy=fs.readFileSync('academy.html','utf8');
 const writing=fs.readFileSync('writing.html','utf8');
 const stories=fs.readFileSync('stories.html','utf8');
@@ -130,4 +133,51 @@ assert(requests.includes('id="middle-support"')&&requests.includes('count>=3'),'
 assert(requests.includes('height:100dvh;overflow:hidden'),'requested play screen must be fixed-height');
 assert(sw.includes('finance.html')&&sw.includes('requests.html'),'offline app must cache both new play halls');
 
-console.log('PASS: '+compiled+' HTML scripts; reviewed history/coding and 10 money games plus two block-building games; ten number-writing groups and whole-number glyphs; stroke checks; 20 long stories.');
+
+/* v10 static and model tests: 240 lessons, six modes, new subject hub, subject diagnostics and adaptive review. */
+const curriculumScript=fs.readFileSync('curriculum-v10.js','utf8');
+const coreScript=fs.readFileSync('learning-core-v10.js','utf8');
+const journeyScript=fs.readFileSync('journey-app-v10.js','utf8');
+new vm.Script(curriculumScript,{filename:'curriculum-v10.js'});
+new vm.Script(coreScript,{filename:'learning-core-v10.js'});
+new vm.Script(journeyScript,{filename:'journey-app-v10.js'});
+const local={};
+const localStorage={getItem(k){return Object.prototype.hasOwnProperty.call(local,k)?local[k]:null},setItem(k,v){local[k]=String(v)},removeItem(k){delete local[k]}};
+const win={};const coreVM={window:win,localStorage,Date,Math,JSON,SpeechSynthesisUtterance:function(){},URLSearchParams};
+vm.runInNewContext(curriculumScript,coreVM,{filename:'curriculum-v10.js'});
+vm.runInNewContext(coreScript,coreVM,{filename:'learning-core-v10.js'});
+const curr=win.JOY_CURRICULUM,adaptive=win.JOY_CORE;
+assert.equal(curr.subjects.length,10,'there must be ten structured learning subjects');
+assert.equal(curr.lessons.length,240,'there must be 240 graded activities');
+assert(curr.subjects.every(s=>s.modules.length===4),'every subject needs four structured learning stages');
+assert(curr.subjects.every(s=>s.modules.every(m=>m.items.length>=5&&m.lessons.length===6)),'every module needs five facts and six interactive learning modes');
+assert.equal(new Set(curr.lessons.map(l=>l.id)).size,240,'lesson IDs must be unique');
+const modes=new Set(curr.lessons.map(l=>l.mode));
+for(const k of ['explore','choose','listen','match','remember','speak'])assert(modes.has(k),'missing learning type '+k);
+assert(home.includes('joyi-explore.svg')&&home.includes('id="recs"')&&home.includes('parent.html'),'new mascot led home/recommender/parent navigation absent');
+assert(home.includes('legacy.html')&&home.includes('journey.html'),'previous games or new lessons unavailable');
+for(const pose of ['hello','read','write','build','explore','celebrate'])assert(fs.existsSync('joyi-'+pose+'.svg'),'original mascot art missing '+pose);
+assert(journey.includes('id="startDiag"')&&journey.includes('id="repeat"')&&journey.includes('id="answers"'),'screen based initial diagnosis and speak-after-listen missing');
+assert(journey.includes('body.playing{height:100dvh')&&journeyScript.includes('classList.add("playing")'),'no-scroll child play screen missing');
+assert(parent.includes('id="review"')&&parent.includes('id="export"')&&parent.includes('id="childAge"'),'parent report must support review, age settings and backup');
+for(const sub of curr.subjects){
+ const diag=adaptive.diagnose(sub.id);assert.equal(diag.length,8,'each subject requires an 8-question screening');
+ for(const m of sub.modules){
+  const lesson=adaptive.session(m.lessons[0].id);
+  assert(lesson.questions.length===5,'lesson must contain five unique questions');
+  const distinct=new Set(lesson.questions.map(x=>x.visual+'|'+x.answer));
+  assert.equal(distinct.size,5,'daily lesson repeated same question');
+  for(const q of lesson.questions)assert(q.choiceOptions.includes(q.answer)&&new Set(q.choiceOptions).size===q.choiceOptions.length,'duplicate or missing quiz answers');
+ }
+}
+const before=adaptive.getSkill('hangul-0').attempts;
+adaptive.update('hangul-0',false,2400,'choose');
+adaptive.update('hangul-0',true,1300,'listen');
+assert.equal(adaptive.getSkill('hangul-0').attempts,before+2,'mastery attempts not tracked');
+assert(adaptive.recommend('hangul',2).length===2,'adaptive lesson planner failed');
+const diag=adaptive.diagnose('math');adaptive.finishDiagnosis('math',diag.map((q,i)=>({skill:q.skill,correct:i%2===0,elapsed:1800})));
+assert(adaptive.data().diagnostics.math,'per-subject initial diagnostic not saved');
+assert(adaptive.report().subject.length===10,'parent analytics incomplete');
+assert(local['joiland-learning-v10'],'private on-device progress was not stored');
+
+console.log('PASS: '+compiled+' HTML scripts; reviewed history/coding and 10 money games plus two block-building games; ten number-writing groups and whole-number glyphs; stroke checks; 20 long stories; v10 240 graded lessons, local adaptive engine and parent dashboard.');
