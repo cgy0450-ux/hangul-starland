@@ -116,8 +116,9 @@ for(let i=0;i<money.length;i++){
   }else if(g.type==='save')assert(item>=3&&item<=8,g.title+' bad savings goal');
  }
 }
-const stock=[1,3,2,5,1];const priceSet=money[2].items.map(x=>x[1]);
-assert(stock.some(x=>x<Math.max(...priceSet))&&stock.some(x=>x>=Math.min(...priceSet)),'pretend store must offer both decisions');
+const purchaseResults=money[2].items.slice(0,5).map((x,i)=>Math.max(0,x[1]+(i%2===0?-1:1))>=x[1]);
+assert(purchaseResults.some(x=>x)&&purchaseResults.some(x=>!x),'pretend store must offer both decisions');
+assert(finance.includes('data-hear')&&finance.includes('jar-hear'),'every new money choice needs an independent listening button');
 assert(finance.includes('body.playing{height:100dvh;overflow:hidden}'),'finance playable screen must be fixed-height');
 const reqScript=[...requests.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)].find(m=>m[1].includes('const towerLevels='))[1];
 const reqData=reqScript.slice(reqScript.indexOf('const towerLevels='),reqScript.indexOf(';let kind='));
