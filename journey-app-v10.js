@@ -9,8 +9,38 @@ setSound();$("sound").onclick=()=>{soundOn=!soundOn;setSound();try{const prev=JS
 $("topTitle").textContent=subject.name;$("subjectTitle").textContent=subject.name+" 탐험";$("heroMascot").src="./joyi-"+subject.pose+".svg";
 document.documentElement.style.setProperty("--subject-bg",subject.bg);
 function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e}
+let recorder=null,voiceStream=null,voiceUrl=null,voiceAudio=null,voiceTimeout=null;
+function clearVoice(){
+ if(voiceTimeout){clearTimeout(voiceTimeout);voiceTimeout=null}
+ if(recorder&&recorder.state!=="inactive"){try{recorder.stop()}catch(e){}}
+ if(voiceStream){voiceStream.getTracks().forEach(t=>t.stop());voiceStream=null}
+ if(voiceAudio){voiceAudio.pause();voiceAudio=null}
+ if(voiceUrl){URL.revokeObjectURL(voiceUrl);voiceUrl=null}
+ recorder=null;$("recordVoice").textContent="🎙️ 내 목소리 녹음";$("recordVoice").classList.remove("recording");$("playVoice").classList.add("hidden")
+}
+$("recordVoice").onclick=async()=>{
+ if(recorder&&recorder.state==="recording"){recorder.stop();return}
+ if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder){$("feedback").textContent="이 기기는 녹음 기능이 없어요. 그냥 따라 말해도 좋아요!";return}
+ try{
+  if("speechSynthesis"in window)speechSynthesis.cancel();
+  voiceStream=await navigator.mediaDevices.getUserMedia({audio:true});
+  const chunks=[],r=new MediaRecorder(voiceStream);recorder=r;
+  r.ondataavailable=e=>{if(e.data&&e.data.size)chunks.push(e.data)};
+  r.onstop=()=>{
+    if(voiceStream){voiceStream.getTracks().forEach(t=>t.stop());voiceStream=null}
+    if(voiceUrl)URL.revokeObjectURL(voiceUrl);
+    if(chunks.length){voiceUrl=URL.createObjectURL(new Blob(chunks,{type:r.mimeType||"audio/webm"}));$("playVoice").classList.remove("hidden")}
+    $("recordVoice").textContent="🎙️ 다시 녹음";$("recordVoice").classList.remove("recording");
+    if(voiceTimeout){clearTimeout(voiceTimeout);voiceTimeout=null}
+  };
+  r.start();$("recordVoice").textContent="⏹️ 녹음 끝내기";$("recordVoice").classList.add("recording");
+  $("feedback").textContent="🎤 이현이가 직접 말해 봐요! (최대 6초)";
+  voiceTimeout=setTimeout(()=>{if(r.state==="recording")r.stop()},6000)
+ }catch(e){$("feedback").textContent="마이크 허용 없이도 그냥 말하며 연습할 수 있어요!"}
+};
+$("playVoice").onclick=()=>{if(!voiceUrl)return;if(voiceAudio)voiceAudio.pause();voiceAudio=new Audio(voiceUrl);voiceAudio.play().catch(()=>{$("feedback").textContent="재생 버튼을 다시 눌러 주세요."})};
 function catalog(){
- try{speechSynthesis.cancel()}catch(e){}
+ clearVoice();try{speechSynthesis.cancel()}catch(e){}
  document.body.classList.remove("playing");$("play").classList.remove("active");$("catalog").classList.remove("hidden");run=null;
  $("diagnosis").classList.toggle("hidden",!!A.data().diagnostics[subject.id]);
  const root=$("modules");root.replaceChildren();
@@ -129,7 +159,7 @@ function finishAnswer(ok,btn,elapsed){
  $("explain").classList.remove("hidden");$("next").classList.remove("hidden");
 }
 function render(){
- answered=false;phase="quiz";pictureOptions=null;interaction=null;$("interaction").replaceChildren();$("interaction").classList.add("hidden");$("feedback").textContent="";$("explain").classList.add("hidden");$("answers").classList.remove("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("visual").classList.remove("hidden");$("hear").textContent="🔊 소리 듣기";
+ clearVoice();$("voicePractice").classList.add("hidden");answered=false;phase="quiz";pictureOptions=null;interaction=null;$("interaction").replaceChildren();$("interaction").classList.add("hidden");$("feedback").textContent="";$("explain").classList.add("hidden");$("answers").classList.remove("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("visual").classList.remove("hidden");$("hear").textContent="🔊 소리 듣기";
  $("count").textContent=(index+1)+" / "+run.questions.length;$("stars").textContent="⭐ "+score;$("bar").style.width=(100*index/run.questions.length)+"%";
  const q=current(),mode=run.type==="diagnostic"?"choose":run.lesson.mode;
  if(!q)return;
@@ -154,7 +184,7 @@ function render(){
  }else if(mode==="listen"){
    $("visual").classList.add("hidden");$("question").textContent="소리를 듣고 알맞은 답을 골라요";$("hint").textContent="정답은 소리로만 알려줘요";speak(q.answer,locale());
  }else if(mode==="speak"){
-   $("answerTitle").textContent=q.answer;$("answerTitle").classList.remove("hidden");$("answers").classList.add("hidden");
+   $("voicePractice").classList.remove("hidden");$("answerTitle").textContent=q.answer;$("answerTitle").classList.remove("hidden");$("answers").classList.add("hidden");
    $("repeat").classList.remove("hidden");$("question").textContent="듣고 입으로 따라 말해봐요";
    $("hint").textContent="직접 말한 다음 버튼을 누르세요. 발음 점수는 매기지 않아요.";
    phase="speaking";speak(q.answer,locale());
@@ -185,6 +215,6 @@ $("next").onclick=()=>{
 };
 $("back").onclick=catalog;$("startDiag").onclick=beginDiagnostic;
 $("modules").onclick=e=>{const btn=e.target.closest("[data-lesson]");if(btn)beginLesson(btn.dataset.lesson)};
-window.addEventListener("pagehide",()=>{try{speechSynthesis.cancel()}catch(e){}});
+window.addEventListener("pagehide",()=>{clearVoice();try{speechSynthesis.cancel()}catch(e){}});
 catalog();if(params.has("lesson")&&C.lesson(params.get("lesson"))?.subject===subject.id)beginLesson(params.get("lesson"));
 })();
