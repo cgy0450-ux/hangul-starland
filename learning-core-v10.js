@@ -41,7 +41,8 @@ function session(lessonId,count=5){
  const bank=mod.items.slice().sort((a,b)=>{
   const x=questionHistory[a.answer+"|"+a.visual]||{wrong:0,last:0};
   const y=questionHistory[b.answer+"|"+b.visual]||{wrong:0,last:0};
-  const p=(y.wrong*5-y.last)-(x.wrong*5-x.last);
+  const score=r=>((r.wrong||0)-(r.right||0))*6+(!r.last?3:0);
+  const p=score(y)-score(x);
   return p||stable(lessonId+day()+run+a.visual)-stable(lessonId+day()+run+b.visual)
  }).slice(0,Math.min(count,mod.items.length));
  save();
