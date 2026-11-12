@@ -2,7 +2,7 @@
 (function(g){"use strict";
 const C=g.JOY_CURRICULUM;if(!C)throw Error("Curriculum is required");
 const KEY="joiland-learning-v10";
-const defaults=()=>({version:10,created:Date.now(),name:"이현",age:5,dailyMinutes:12,diagnostics:{},skills:{},events:[],missions:{},voice:true});
+const defaults=()=>({version:10,created:Date.now(),name:"이현",age:5,dailyMinutes:12,diagnostics:{},skills:{},events:[],missions:{},voice:true,questionHistory:{},sessionRuns:{}});
 function load(){try{const o=JSON.parse(localStorage.getItem(KEY)||"null");return o&&o.version===10?Object.assign(defaults(),o):defaults()}catch(e){return defaults()}}
 let data=load();
 function save(){try{localStorage.setItem(KEY,JSON.stringify(data))}catch(e){}}
@@ -17,6 +17,7 @@ function update(id,correct,elapsed,mode){
  const plus=correct?Math.min(9,[0,1,2,4,7,9][Math.min(o.streak,5)]):1;
  const next=new Date();next.setDate(next.getDate()+plus);o.due=next.toLocaleDateString("en-CA",{timeZone:"Asia/Seoul"});data.skills[id]=o;
  data.events.push({date:day(),skill:id,correct:!!correct,mode:mode||"choose",duration:Math.min(120000,Math.max(0,elapsed||0))});
+ if(!o.modes)o.modes={};const stats=o.modes[mode||"choose"]||{attempts:0,correct:0};stats.attempts++;if(correct)stats.correct++;o.modes[mode||"choose"]=stats;
  if(data.events.length>1500)data.events=data.events.slice(-1200);
  save();return o;
 }
@@ -26,9 +27,24 @@ function options(subjectId,moduleIdx,item){const sub=C.subject(subjectId),mod=su
  // For two legitimate categories, two meaningful answers are better than a random third.
  return shuffle([item.answer,...wrong.slice(0,2)],item.answer+day());
 }
+function recordQuestion(subjectId,moduleId,item,correct){
+ const key=subjectId+"/"+moduleId;const bucket=data.questionHistory[key]||{};
+ const id=item.answer+"|"+item.visual,record=bucket[id]||{right:0,wrong:0,last:0};
+ if(correct)record.right++;else record.wrong++;
+ record.last=Date.now();bucket[id]=record;data.questionHistory[key]=bucket;save()
+}
 function session(lessonId,count=5){
  const lesson=C.lesson(lessonId);if(!lesson)throw Error("Unknown lesson");const sub=C.subject(lesson.subject),mod=sub.modules[lesson.module];
- const bank=shuffle(mod.items,lessonId+day()).slice(0,Math.min(count,mod.items.length));
+ const key=lesson.subject+"/"+mod.id,run=(data.sessionRuns[key]||0)+1;
+ data.sessionRuns[key]=run;
+ const questionHistory=data.questionHistory[key]||{};
+ const bank=mod.items.slice().sort((a,b)=>{
+  const x=questionHistory[a.answer+"|"+a.visual]||{wrong:0,last:0};
+  const y=questionHistory[b.answer+"|"+b.visual]||{wrong:0,last:0};
+  const p=(y.wrong*5-y.last)-(x.wrong*5-x.last);
+  return p||stable(lessonId+day()+run+a.visual)-stable(lessonId+day()+run+b.visual)
+ }).slice(0,Math.min(count,mod.items.length));
+ save();
  return {lesson,subject:sub,module:mod,questions:bank.map((item,i)=>({...item,choiceOptions:options(lesson.subject,lesson.module,item),seq:i}))};
 }
 function diagnose(subjectId){const sub=C.subject(subjectId);if(!sub)throw Error("Unknown subject");
@@ -36,14 +52,23 @@ function diagnose(subjectId){const sub=C.subject(subjectId);if(!sub)throw Error(
 }
 function finishDiagnosis(subjectId,records){
  const sums={};for(const r of records){const id=r.skill;if(!sums[id])sums[id]={correct:0,total:0};sums[id].total++;if(r.correct)sums[id].correct++;update(id,r.correct,r.elapsed||0,"diagnostic");}
- data.diagnostics[subjectId]={date:day(),summary:sums,method:"short screening, not a standardized test"};save();return data.diagnostics[subjectId];
+ const sub=C.subject(subjectId);
+ const levels=sub.modules.map((m,i)=>({level:i+1,correct:sums[m.id]?.correct||0,total:sums[m.id]?.total||0}));
+ const recommendedLevel=Math.max(1,Math.min(4,1+levels.filter(x=>x.total>0&&x.correct/x.total>=.75).length));
+ data.diagnostics[subjectId]={date:day(),summary:sums,recommendedLevel,levels,method:"short screening, not a standardized test"};save();return data.diagnostics[subjectId];
 }
 function due(s){return !s.due||s.due<=day()}
 function recommend(subjectId,limit=3){
  const subjects=subjectId?[C.subject(subjectId)].filter(Boolean):C.subjects;
  let all=subjects.flatMap(sub=>sub.modules.flatMap(mod=>mod.lessons.map(lesson=>{
  const sk=getSkill(mod.id),s=mastery(mod.id),unseen=!sk.attempts,overdue=due(sk);
- let priority=(unseen?80:0)+(overdue?35:0)+(1-s)*22+(lesson.mode==="explore"?8:0);
+ let priority=(unseen?80:0)+(overdue?35:0)+(1-s)*22;
+ const pedagogicOrder=["explore","tap","choose","listen","drag","match","pair","order","remember","story","speak"];
+ const stage=unseen?0:sk.attempts<3?1:sk.attempts<7?2:sk.attempts<12?3:Math.min(10,Math.floor(sk.attempts/3));
+ const preferred=pedagogicOrder[stage];
+ priority+=lesson.mode===preferred?170:pedagogicOrder.indexOf(lesson.mode)===stage+1?35:-20;
+ if(sk.modes&&sk.modes[lesson.mode]?.attempts>=3)priority-=24;
+ if(sk.attempts>0&&sk.correct/sk.attempts<.65&&["story","explore"].includes(lesson.mode))priority+=50;
  const targetLevel=Math.min(4,Math.max(1,(data.age||5)-3));
  const previous=mod.level>1?getSkill(sub.modules[mod.level-2].id):null;
  const predecessorReady=previous&&previous.attempts>=4&&(previous.correct+1)/(previous.attempts+2)>=.72;
@@ -73,5 +98,5 @@ function speak(text,lang="ko-KR"){
  if(!("speechSynthesis" in g))return false;
  try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(String(text));u.lang=lang;u.rate=.86;u.pitch=1.16;const voices=speechSynthesis.getVoices().filter(v=>v.lang.toLowerCase().startsWith(lang.slice(0,2).toLowerCase()));u.voice=voices.find(v=>/natural|enhanced|premium|google/i.test(v.name))||voices[0]||null;speechSynthesis.speak(u);return true}catch(e){return false}
 }
-g.JOY_CORE={data:()=>data,profile,configure,day,stable,shuffle,session,options,diagnose,finishDiagnosis,update,getSkill,mastery,recommend,review,report,markDone,playedToday,speak};
+g.JOY_CORE={data:()=>data,profile,configure,day,stable,shuffle,session,recordQuestion,options,diagnose,finishDiagnosis,update,getSkill,mastery,recommend,review,report,markDone,playedToday,speak};
 })(window);
