@@ -30,13 +30,13 @@ function choices(correct,others){const all=shuffled([correct,...others],cur*20+r
 function advance(win,explain=''){if(done)return;done=true;if(win){score++;$('message').textContent='🌟 잘했어요! '+explain;speak('우와! 정말 잘했어! '+explain)}else{$('message').textContent='💛 '+explain;speak(explain)}$('points').textContent='⭐ '+score;$('next').classList.remove('hidden')}
 function render(){done=false;saveCount=0;$('next').classList.add('hidden');$('message').textContent='';$('answers').classList.remove('hidden');$('interactive').classList.add('hidden');$('interactive').innerHTML='';$('counter').textContent=(round+1)+' / 5';$('points').textContent='⭐ '+score;const g=games[cur],q=items[round];let visual='',ask='',tip='소리를 듣고 골라 봐요',ans='';
  if(g.type==='quiz'||g.type==='jars'){visual=q[0];ask=q[1];ans=choices(q[2],q.slice(3));}
- if(g.type==='shop'){const stock=round+3,price=q[1];visual=q[0]+'  🪙'.repeat(stock);ask='동전 '+stock+'개가 있어요. '+q[0]+'은 '+price+'개예요. 살 수 있을까요?';ans=choices('살 수 있어요',['못 사요']);$('tip').textContent='장난감 동전으로 연습해요';}
+ if(g.type==='shop'){const stock=[1,3,2,5,1][round],price=q[1];visual=q[0]+'  🪙'.repeat(stock);ask='동전 '+stock+'개가 있어요. '+q[0]+'은 '+price+'개예요. 살 수 있을까요?';ans=choices('살 수 있어요',['못 사요']);$('tip').textContent='장난감 동전으로 연습해요';}
  if(g.type==='save'){const goal=q;visual='🐷  🪙';ask='동전 '+goal+'개를 모아 봐요!';tip='저금통을 눌러 동전을 하나씩 넣어요';$('answers').classList.add('hidden');$('interactive').classList.remove('hidden');$('interactive').innerHTML='<button class="jar" id="addcoin" style="width:62%;max-width:300px;font-size:36px">🐷<span>🪙 넣기</span></button><div class="progress"><div id="bar" style="width:0%"></div></div><strong id="savings">0 / '+goal+'</strong>';setTimeout(()=>{const btn=$('addcoin');if(btn)btn.onclick=()=>{if(done)return;saveCount++;$('bar').style.width=Math.min(100,100*saveCount/goal)+'%';$('savings').textContent=saveCount+' / '+goal;if(saveCount>=goal)advance(true,'저금통을 다 채웠어요!')}},0);}
  if(g.type==='jars'){$('answers').classList.add('hidden');$('interactive').classList.remove('hidden');$('interactive').innerHTML='<div class="jarrow">'+[['🛒','쓰는 돈'],['🐷','저금할 돈'],['💝','나눌 돈']].map(x=>'<button class="jar" data-answer="'+encodeURIComponent(x[1])+'"><span>'+x[0]+'</span>'+x[1]+'</button>').join('')+'</div>';}
  $('visual').textContent=visual;$('ask').textContent=ask;$('tip').textContent=tip;$('answers').innerHTML=ans;speak(ask);
 }
 function answer(str){if(done)return;const g=games[cur],q=items[round];let good=false;
- if(g.type==='shop')good=(str===(round+3>=q[1]?'살 수 있어요':'못 사요'));
+ if(g.type==='shop')good=(str===([1,3,2,5,1][round]>=q[1]?'살 수 있어요':'못 사요'));
  else good=str===q[2];
  if(good)advance(true,g.type==='jars'?'잘 골랐어요!':g.type==='shop'?'동전을 세어 봤구나!':'정답이에요!');
  else {$('message').textContent='💛 다시 생각해 볼까?';speak('다시 생각해 볼까?')}
