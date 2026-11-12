@@ -12,7 +12,7 @@ function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=
 let recorder=null,voiceStream=null,voiceUrl=null,voiceAudio=null,voiceTimeout=null;
 function clearVoice(){
  if(voiceTimeout){clearTimeout(voiceTimeout);voiceTimeout=null}
- if(recorder&&recorder.state!=="inactive"){try{recorder.stop()}catch(e){}}
+ if(recorder&&recorder.state!=="inactive"){try{recorder.onstop=null;recorder.stop()}catch(e){}}
  if(voiceStream){voiceStream.getTracks().forEach(t=>t.stop());voiceStream=null}
  if(voiceAudio){voiceAudio.pause();voiceAudio=null}
  if(voiceUrl){URL.revokeObjectURL(voiceUrl);voiceUrl=null}
@@ -107,7 +107,7 @@ function specialRender(q,mode){
  } else if(mode==="drag"){
    optionsRender(quizOptions(q));$("question").textContent="맞는 말을 골라 상자에 넣어 봐요";
    addInteractionText("보기를 누르고 상자를 누르거나, 끌어다 놓아요");
-   interaction={type:mode,selected:null};makeTouchTarget();speak(q.question,locale());
+   interaction={type:mode,selected:null};makeTouchTarget();speak(q.question,"ko-KR");
    $("answers").querySelectorAll("[data-opt]").forEach(btn=>{btn.draggable=true;btn.ondragstart=e=>{e.dataTransfer.setData("text/plain",btn.dataset.opt)}});
  } else if(mode==="order"){
    const seq=A.shuffle([q,...rivals],q.answer+"order").slice(0,3);
@@ -120,7 +120,7 @@ function specialRender(q,mode){
    optionsRender(quizOptions(q));$("answers").classList.add("hidden");
    $("answerTitle").textContent="📖 "+q.explain;$("answerTitle").classList.remove("hidden");
    $("ready").classList.remove("hidden");$("ready").textContent="이야기 듣고 퀴즈!";
-   interaction={type:mode,step:0};phase="intro";speak(q.explain,locale());
+   interaction={type:mode,step:0};phase="intro";speak(q.explain,"ko-KR");
  }
 }
 function processAnswer(chosen){
@@ -142,7 +142,7 @@ function processAnswer(chosen){
    if(!selected||selected.answer!==q.answer){$("feedback").textContent="💛 그림을 다시 찾아보자!";speak(q.answer,locale());return}
    interaction.step=1;pictureOptions=null;optionsRender(quizOptions(q));
    $("visual").textContent=q.visual;$("question").textContent="두 번째: 알맞은 말을 찾아요";
-   $("hint").textContent="그림과 말이 한 쌍이에요";speak(q.question||q.answer,locale());return;
+   $("hint").textContent="그림과 말이 한 쌍이에요";speak(q.question||q.answer,"ko-KR");return;
  }
  const btn=Array.from($("answers").querySelectorAll("[data-opt]")).find(b=>b.dataset.opt===chosen);
  const actual=pictureOptions?(pictureOptions.find(x=>x.visual===chosen)||{}).answer:chosen;
