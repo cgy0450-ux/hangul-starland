@@ -62,7 +62,7 @@ assert(academy.includes('String.fromCharCode(92)+"n"'),'bear/tiger honey group s
 const source=academy.match(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi).find(x=>x.includes('var games='));
 assert(source,'academy game script missing');
 const body=source.replace(/^<script(?:\s[^>]*)?>/i,'').replace(/<\/script>$/i,'');
-const wrapped=body.replace(/menu\(\);\s*\}\)\(\);\s*$/,'window.__qa={games,generate,shuffled};})();');
+const wrapped=body.slice(0,body.lastIndexOf('menu();'))+'window.__qa={games,generate,shuffled};})();';
 for(const sub of ['math','science','english','history','coding']){
  const fakeEl=()=>({textContent:'',innerHTML:'',addEventListener(){},classList:{add(){},remove(){}},style:{}});
  const sandbox={window:{addEventListener(){}},document:{title:'',getElementById:fakeEl},location:{search:'?subject='+sub},URLSearchParams,Date,Math};
