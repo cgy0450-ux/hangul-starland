@@ -44,4 +44,4 @@ $('sound').onclick=()=>{soundOn=!soundOn;updateUI();try{const o=JSON.parse(local
 window.addEventListener('resize',resize);document.addEventListener('visibilitychange',()=>{if(document.hidden&&running&&!paused){paused=true;cancelAnimationFrame(raf);showOverlay('⏸ 잠깐 쉬어요','돌아오면 계속할 수 있어요.','▶ 계속하기');updateUI()}});
 updateUI();requestAnimationFrame(resize);
 })();
-</script></body></html>
+</script><script src="./joiland-unified.js"></script></body></html>
