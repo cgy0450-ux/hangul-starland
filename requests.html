@@ -5,31 +5,54 @@
 .hidden{background:linear-gradient(145deg,#fef3b9,#d9f9ed)}.colors{background:linear-gradient(145deg,#ffdcef,#ddf6ff)}.shadows{background:linear-gradient(145deg,#d9ecff,#efe2ff)}.mole{background:linear-gradient(145deg,#d9ffc9,#fff1cd)}.differences{background:linear-gradient(145deg,#ffe6bd,#dbedff)}
 .dino{background:linear-gradient(145deg,#ffeeb8,#e4ffd8)}.space{background:linear-gradient(145deg,#e0e0ff,#d5efff)}.animal{background:linear-gradient(145deg,#ffe6dc,#e1fce5)}
 .hidden{background:linear-gradient(145deg,#fff0b9,#ccefe2)}.colors{background:linear-gradient(145deg,#f9e2ff,#fff0c7)}.shadows{background:linear-gradient(145deg,#e0e5ff,#d3f9f3)}.mole{background:linear-gradient(145deg,#e4ffc8,#ffe0cc)}.differences{background:linear-gradient(145deg,#ffe6da,#dce6ff)}
-</style><link rel="stylesheet" href="./joiland-theme-v11.css"></head>
+</style><link rel="stylesheet" href="./joiland-theme-v11.css"><style id="joyi-game-poster-style">
+:root{--j-ink:#26324e;--j-muted:#6f7c8f}
+body{background:radial-gradient(ellipse at 14% 12%,#fff4db,transparent 36%),radial-gradient(ellipse at 90% 80%,#d7f2ec,transparent 44%),#f5f2ed;color:var(--j-ink)}
+header{background:#ffffff9a;border-radius:23px;margin:12px auto 8px;padding:9px 14px!important;box-shadow:0 10px 28px #48567413}
+header h1{color:#293652;font-weight:950;letter-spacing:-.06em}
+.intro{background:linear-gradient(115deg,#d8eaf0,#fae8e0)!important;border:1px solid #ffffffcf!important;box-shadow:0 13px 27px #75819a18!important;border-radius:30px}
+.intro h2{color:#293652;letter-spacing:-.06em}
+.intro p{color:#68778a}
+.games{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.game-card{padding:0!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:start!important;min-height:0!important;border:1px solid #ffffff!important;background:#fff!important;border-radius:24px!important;overflow:hidden;box-shadow:0 10px 25px #3d51621c!important;color:#26324e!important;text-align:left!important;gap:0!important;transition:transform .18s ease,box-shadow .18s ease}
+.game-card:focus-visible{outline:4px solid #65bda6;outline-offset:3px}
+.game-card:hover{transform:translateY(-5px);box-shadow:0 17px 28px #3d516228!important}
+.game-card .illustration{display:block!important;width:100%!important;aspect-ratio:4/3;overflow:hidden;background:linear-gradient(130deg,#e9f5fa,#f6e9df);font-size:0!important;line-height:0!important}
+.game-card .illustration svg{display:block;width:100%;height:100%;object-fit:cover}
+.game-card .copy{display:flex;align-items:flex-start;flex-direction:column;gap:6px;padding:16px 17px 4px;min-height:112px;flex:1}
+.game-card .copy .card-count{font:800 10px system-ui,sans-serif;color:#8b9aa5;letter-spacing:.17em}
+.game-card .copy strong{font-size:clamp(19px,2.6vw,24px)!important;line-height:1.25;letter-spacing:-.065em;color:#253651}
+.game-card .copy small:not(.card-count){color:#6d7e8f;font-size:clamp(12px,1.6vw,14px)!important;line-height:1.5;font-weight:700}
+.game-card .play{display:inline-flex;background:#ebf5f1!important;color:#366a5e!important;align-items:center;justify-content:center;margin:12px 17px 18px auto;border:none!important;border-radius:14px!important;min-width:103px;font-size:13px!important;padding:11px!important;font-weight:950}
+.game-card .play:after{content:" ↗";padding-left:5px}
+@media(max-width:680px){
+ .games{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .game-card{display:flex!important;flex-direction:column!important;min-height:0!important}
+ .game-card .illustration{width:100%!important;aspect-ratio:1.35}
+ .game-card .copy{padding:11px 11px 3px;gap:4px;min-height:90px}
+ .game-card .copy strong{font-size:clamp(15px,4vw,20px)!important;word-break:keep-all}
+ .game-card .copy small:not(.card-count){font-size:11px!important}
+ .game-card .play{margin:9px 11px 13px auto;padding:8px!important;min-width:81px;font-size:12px!important}
+}
+@media(max-width:360px){.games{gap:7px}.game-card .copy{padding:9px 8px 2px}.game-card .copy strong{font-size:14px!important}.game-card .play{margin-right:8px}}
+</style></head>
 <body><header><a href="./index.html">🏠 홈</a><h1>🎮 이현이의 놀이터</h1><button id="sound">🔊</button></header>
 <main>
 <section class="intro"><h2>🐯 오늘은 어떤 모험?</h2><p>숨은그림·색깔·그림자·두더지·틀린그림까지 재미있게 놀아요!</p></section>
 <section class="games" aria-label="선택 가능한 놀이">
-<a class="game-card hidden" href="./mini-games.html?game=hidden"><span class="illustration">🔍🧸</span><span class="copy"><strong>숨은 그림 찾기</strong><small>풍경 속에서 특정 물건을 찾아요 · 단계별 글씨쓰기</small></span><span class="play">시작!</span></a>
-<a class="game-card colors" href="./mini-games.html?game=colors"><span class="illustration">🧺🌈</span><span class="copy"><strong>색깔 분류</strong><small>같은 색 물건을 바구니에 담아요 · 단계별 글씨쓰기</small></span><span class="play">시작!</span></a>
-<a class="game-card shadows" href="./mini-games.html?game=shadows"><span class="illustration">🐾👤</span><span class="copy"><strong>동물 그림자 연결</strong><small>동물과 똑같은 그림자를 이어 봐요 · 단계별 글씨쓰기</small></span><span class="play">시작!</span></a>
-<a class="game-card mole" href="./mini-games.html?game=mole"><span class="illustration">🐹💥</span><span class="copy"><strong>두더지 잡기</strong><small>굴에서 나온 두더지를 톡 눌러요 · 단계별 글씨쓰기</small></span><span class="play">시작!</span></a>
-<a class="game-card differences" href="./mini-games.html?game=differences"><span class="illustration">🖼️🔎</span><span class="copy"><strong>틀린 그림 찾기</strong><small>두 그림에서 다른 한 곳을 찾아요 · 단계별 글씨쓰기</small></span><span class="play">시작!</span></a>
-
-<a class="game-card hidden" href="./mini-games.html?game=hidden"><span class="illustration">🔎🌳</span><span class="copy"><strong>숨은그림 찾기</strong><small>그림 속 물건 찾기 · 단어 따라쓰기 · 5문제마다 글씨쓰기</small></span><span class="play">놀이!</span></a>
-<a class="game-card colors" href="./mini-games.html?game=colors"><span class="illustration">🧺🌈</span><span class="copy"><strong>색깔 바구니</strong><small>같은 색 물건 분류하기 · 5문제마다 글씨쓰기</small></span><span class="play">놀이!</span></a>
-<a class="game-card shadows" href="./mini-games.html?game=shadows"><span class="illustration">🐾🌚</span><span class="copy"><strong>동물 그림자 연결</strong><small>동물과 그림자 맞추기 · 5문제마다 글씨쓰기</small></span><span class="play">놀이!</span></a>
-<a class="game-card mole" href="./mini-games.html?game=mole"><span class="illustration">🐹🔨</span><span class="copy"><strong>두더지 잡기</strong><small>굴에서 나타나는 두더지 톡! · 5문제마다 글씨쓰기</small></span><span class="play">놀이!</span></a>
-<a class="game-card differences" href="./mini-games.html?game=differences"><span class="illustration">🖼️🔍</span><span class="copy"><strong>틀린그림 찾기</strong><small>두 장의 그림에서 다른 곳 찾기 · 5문제마다 글씨쓰기</small></span><span class="play">놀이!</span></a>
-
-<a class="game-card dino" href="./adventure.html?game=dino"><span class="illustration">🦖🥚</span><span class="copy"><strong>공룡 알 탐험</strong><small>알을 톡톡 열고 공룡 찾기 · 공룡 글씨쓰기</small></span><span class="play">탐험!</span></a>
-<a class="game-card space" href="./adventure.html?game=space"><span class="illustration">🚀🌠</span><span class="copy"><strong>반짝반짝 우주</strong><small>별과 행성 찾기 · 우주 글씨쓰기</small></span><span class="play">출발!</span></a>
-<a class="game-card animal" href="./adventure.html?game=animal"><span class="illustration">🐰🥕</span><span class="copy"><strong>동물 친구 돌보기</strong><small>친구에게 먹이 주기 · 동물 글씨쓰기</small></span><span class="play">돌보기!</span></a>
-<a class="game-card firetruck" href="./firetruck-rescue.html"><span class="illustration">🚒💦</span><span class="copy"><strong>출동! 소방차 구조대</strong><small>사이렌·헬리콥터·사다리 · 동물 구조 도감</small></span><span class="play">출동!</span></a>
-<a class="game-card collect" href="./car-collect.html"><span class="illustration">🚙💎</span><span class="copy"><strong>자동차 아이템 모으기</strong><small>별·보석 먹고 자동차를 모아요</small></span><span class="play">출발!</span></a>
-<a class="game-card dodge" href="./car-dodge.html"><span class="illustration">🚗💨</span><span class="copy"><strong>자동차 장애물 피하기</strong><small>차선을 옮겨 장애물을 피해요</small></span><span class="play">시작!</span></a>
+<a class="game-card hidden" href="./mini-games.html?game=hidden" aria-label="숨은 그림 찾기 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-hidden"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 01</small><strong>숨은 그림 찾기</strong><small>그림 속 보물을 직접 찾아요</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
+<a class="game-card colors" href="./mini-games.html?game=colors" aria-label="색깔 바구니 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-colors"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 02</small><strong>색깔 바구니</strong><small>같은 색깔 친구를 모아 봐요</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
+<a class="game-card shadows" href="./mini-games.html?game=shadows" aria-label="동물 그림자 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-shadows"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 03</small><strong>동물 그림자</strong><small>모양을 보고 같은 친구를 찾아요</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
+<a class="game-card mole" href="./mini-games.html?game=mole" aria-label="두더지 잡기 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-mole"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 04</small><strong>두더지 잡기</strong><small>숨어 있다 쏙! 손가락으로 톡</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
+<a class="game-card differences" href="./mini-games.html?game=differences" aria-label="틀린 그림 찾기 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-differences"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 05</small><strong>틀린 그림 찾기</strong><small>두 그림에서 다른 한 곳 찾기</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
+<a class="game-card dino" href="./adventure.html?game=dino" aria-label="공룡 알 탐험 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-dino"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 06</small><strong>공룡 알 탐험</strong><small>알을 열고 공룡 친구 만나기</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
+<a class="game-card space" href="./adventure.html?game=space" aria-label="우주 탐험 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-space"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 07</small><strong>우주 탐험</strong><small>우주를 여행하며 별 찾아보기</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
+<a class="game-card animal" href="./adventure.html?game=animal" aria-label="동물 돌보기 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-animal"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 08</small><strong>동물 돌보기</strong><small>동물 친구에게 밥을 줘요</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
+<a class="game-card firetruck" href="./firetruck-rescue.html" aria-label="소방차 구조대 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-firetruck"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 09</small><strong>소방차 구조대</strong><small>직접 물을 뿌리고 동물 구조하기</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
+<a class="game-card collect" href="./car-collect.html" aria-label="자동차 보물 모으기 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-collect"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 10</small><strong>자동차 보물 모으기</strong><small>보석을 모으고 멋진 자동차 타기</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
+<a class="game-card dodge" href="./car-dodge.html" aria-label="자동차 장애물 피하기 게임 시작"><span class="illustration" aria-hidden="true"><svg viewBox="0 0 240 180" role="img"><use href="./joyi-illustrations.svg#poster-dodge"></use></svg></span><span class="copy"><small class="card-count">ADVENTURE 11</small><strong>자동차 장애물 피하기</strong><small>차선을 바꿔 안전하게 달리기</small></span><span class="play" aria-hidden="true">놀이하기</span></a>
 </section>
-<div class="update">쪼이랜드 놀이 v11.7 <button id="forceUpdate">↻ 최신 게임 불러오기</button></div>
+<div class="update">쪼이랜드 놀이 v12.0 <button id="forceUpdate">↻ 최신 게임 불러오기</button></div>
 <p class="foot">한 놀이를 5분 동안 즐기면 트로피를 받아요! 🏆</p>
 </main>
 <script>
