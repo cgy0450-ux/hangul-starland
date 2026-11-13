@@ -10,6 +10,7 @@
 <div class="actions"><button id="pause">⏸ 잠깐 멈추기</button><button id="restart">↻ 다시 시작</button></div>
 <p class="hint">👆 좌우 버튼 · 도로 터치 · 손가락 좌우 움직이기로 보물을 모아요</p>
 </main>
+<script src="./word-gate.js"></script>
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id),canvas=$('road'),board=$('board'),ctx=canvas.getContext('2d');
@@ -18,7 +19,7 @@ const LEVELS=[40,100,200,350];
 const CARS=[{name:'파랑',color:'#4b91e5',price:0},{name:'분홍',color:'#f36d9e',price:15},{name:'초록',color:'#43bb89',price:40},{name:'황금',color:'#f0b52a',price:80}];
 const DIFFICULTY={easy:105,normal:145,fast:205};
 const FREQUENCY={many:.60,normal:1.0,few:1.5};
-let lifetime=0,selectedCar=0,difficulty='easy',frequency='many',particles=[],lastPraise=0,sessionElapsed=0,timedOut=false,audioCtx=null;let w=390,h=540,carLane=1,items=[],score=0,best=0,level=0,running=false,paused=false,last=0,spawnClock=0,roadOffset=0,raf=0,soundOn=true,catchFlash=0,catchLabel='',lastSpawnLane=-1,recordTimer=0;
+let waitingForWord=false,wordApproved=false;let lifetime=0,selectedCar=0,difficulty='easy',frequency='many',particles=[],lastPraise=0,sessionElapsed=0,timedOut=false,audioCtx=null;let w=390,h=540,carLane=1,items=[],score=0,best=0,level=0,running=false,paused=false,last=0,spawnClock=0,roadOffset=0,raf=0,soundOn=true,catchFlash=0,catchLabel='',lastSpawnLane=-1,recordTimer=0;
 try{best=Number(localStorage.getItem('joiland-car-collect-best')||0);lifetime=Number(localStorage.getItem('joiland-car-total')||0);selectedCar=Number(localStorage.getItem('joiland-car-selected')||0);difficulty=localStorage.getItem('joiland-car-difficulty')||'easy';frequency=localStorage.getItem('joiland-car-frequency')||'many'}catch(e){}
 if(!DIFFICULTY[difficulty])difficulty='easy';if(!FREQUENCY[frequency])frequency='many';
 if(!CARS[selectedCar]||lifetime<CARS[selectedCar].price)selectedCar=0;
@@ -64,10 +65,12 @@ function celebrate(kind){
 }
 function hideOverlay(){$('overlay').classList.add('hidden')}
 function showOverlay(title,msg,button){$('message-title').textContent=title;$('message').textContent=msg;$('start').textContent=button;$('overlay').classList.remove('hidden')}
-function reset(keepProgress=false){cancelAnimationFrame(raf);carLane=1;items=[];particles=[];if(!keepProgress){score=0;level=0;sessionElapsed=0;timedOut=false;}spawnClock=.7;roadOffset=0;catchFlash=0;lastSpawnLane=-1;running=true;paused=false;last=0;hideOverlay();updateUI();draw();raf=requestAnimationFrame(frame)}
+function reset(keepProgress=false){cancelAnimationFrame(raf);carLane=1;items=[];particles=[];if(!keepProgress){score=0;level=0;sessionElapsed=0;timedOut=false;}waitingForWord=false;wordApproved=false;spawnClock=.7;roadOffset=0;catchFlash=0;lastSpawnLane=-1;running=true;paused=false;last=0;hideOverlay();updateUI();draw();raf=requestAnimationFrame(frame)}
 function pauseGame(){if(!running||paused)return;paused=true;cancelAnimationFrame(raf);showOverlay('⏸ 잠깐 쉬어요','모은 점수는 그대로예요. 준비되면 계속해요!','▶ 계속하기');updateUI()}
 function resume(){if(!running)return;paused=false;last=0;hideOverlay();updateUI();raf=requestAnimationFrame(frame)}
-function win(){running=false;paused=false;cancelAnimationFrame(raf);updateUI();speak('와아! 이현이 성공!');showOverlay('🎉 '+(level+1)+'단계 성공!',level===LEVELS.length-1?'모든 단계를 완성했어요! 정말 멋져요!':'보물을 '+score+'점이나 모았어요! 다음 모험에 도전할까요?',level===LEVELS.length-1?'↻ 다시 출발':'▶ 다음 단계')}
+function win(){running=false;paused=false;cancelAnimationFrame(raf);waitingForWord=true;wordApproved=false;updateUI();speak('단계 성공! 자동차를 따라 써 보자!');openWordGate()}
+function openWordGate(){if(!window.JoyiWordGate){completeWord();return}window.JoyiWordGate.start('자동차',completeWord,{onCancel:()=>{showOverlay('✍️ 자동차 글씨 쓰기','자동차 세 글자를 쓰면 다음 단계가 열려요!','✍️ 글씨 쓰기')}})}
+function completeWord(){wordApproved=true;waitingForWord=false;updateUI();speak('와아! 이현이 성공!');showOverlay('🎉 '+(level+1)+'단계 성공!',level===LEVELS.length-1?'모든 단계를 완성했어요! 정말 멋져요!':'보물을 '+score+'점이나 모았어요! 다음 모험에 도전할까요?',level===LEVELS.length-1?'↻ 다시 출발':'▶ 다음 단계')}
 function move(dir){if(!running||paused)return;carLane=Math.max(0,Math.min(2,carLane+dir));draw()}
 function moveTo(x){if(!running||paused)return;const r=board.getBoundingClientRect();const px=(x-r.left-7)/Math.max(1,w);carLane=px<.36?0:px<.63?1:2;draw()}
 function spawn(){const choices=[0,1,2].filter(x=>x!==lastSpawnLane||Math.random()<.35);const lane=choices[Math.floor(Math.random()*choices.length)];lastSpawnLane=lane;const roll=Math.random();const kind=ITEMS[roll<.55?0:roll<.79?3:roll<.94?1:2];items.push({lane,y:-35,kind,got:false})}
@@ -82,7 +85,7 @@ function frame(t){
  }}
  items=items.filter(x=>!x.got&&x.y<h+40);for(const p of particles){p.x+=p.vx*dt;p.y+=p.vy*dt;p.life-=dt;}particles=particles.filter(p=>p.life>0);catchFlash=Math.max(0,catchFlash-dt);updateUI();draw();raf=requestAnimationFrame(frame)
 }
-$('start').onclick=()=>{if(timedOut){location.href='./requests.html';return}if(paused){resume();return}if(!running&&score>=target()&&score>0){if(level===LEVELS.length-1){reset();return;}level++;reset(true);return}reset()};
+$('start').onclick=()=>{if(waitingForWord){hideOverlay();openWordGate();return}if(timedOut){location.href='./requests.html';return}if(paused){resume();return}if(!running&&score>=target()&&score>0){if(level===LEVELS.length-1){reset();return;}level++;reset(true);return}reset()};
 $('left').onclick=()=>move(-1);$('right').onclick=()=>move(1);
 $('pause').onclick=()=>paused?resume():pauseGame();$('restart').onclick=reset;
 let startX=0;
