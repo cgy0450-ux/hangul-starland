@@ -2,9 +2,9 @@
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><meta name="theme-color" content="#674ab4"><title>쪼이랜드 · 자동차 아이템 모으기</title>
 <style>
 :root{font-family:system-ui,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;color:#45336e}*{box-sizing:border-box}html,body{margin:0;min-height:100%;overscroll-behavior:none}body{background:radial-gradient(circle at 10% 8%,#fff6bc,transparent 43%),radial-gradient(circle at 95% 90%,#bff9ff,transparent 48%),#eae4ff;display:flex;flex-direction:column;min-height:100dvh}header{display:flex;align-items:center;gap:9px;justify-content:space-between;padding:9px 12px;max-width:750px;width:100%;margin:0 auto}header a,header button{border:3px solid #fff;background:white;border-radius:15px;color:#60439f;padding:9px 11px;font-size:14px;font-weight:900;text-decoration:none}h1{font-size:clamp(17px,4vw,26px);margin:0;flex:1;text-align:center}main{max-width:750px;width:100%;margin:0 auto;padding:3px 11px 12px;flex:1;min-height:0;display:flex;flex-direction:column;align-items:stretch;gap:8px}.scorebar{display:flex;justify-content:space-between;gap:8px;align-items:center;font-size:clamp(14px,3vw,19px);font-weight:950}.scorebar span{background:#fff;border:3px solid white;border-radius:14px;padding:8px 12px}.board{position:relative;width:100%;max-width:510px;min-height:260px;flex:1;margin:auto;border:7px solid #fff;border-radius:26px;overflow:hidden;background:#b4eac7;box-shadow:0 8px 0 #c9b6e7;touch-action:none;user-select:none;max-height:72dvh}canvas{height:100%;width:100%;display:block;touch-action:none}.overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#201a5b99;padding:13px}.overlay.hidden{display:none}.modal{max-width:360px;background:#fff8e3;border:6px solid white;border-radius:25px;text-align:center;padding:17px;box-shadow:0 8px 0 #d3bc6c}.modal h2{font-size:clamp(23px,5vw,32px);margin:4px 0 8px}.modal p{font-size:15px;line-height:1.5}.modal button,.actions button,.steer button{border:0;background:#7455d5;border-radius:17px;padding:12px 19px;color:white;font-weight:950;font-size:18px;box-shadow:0 5px 0 #4e359a;touch-action:manipulation}.actions{display:flex;justify-content:center;gap:9px;align-items:center}.actions button{background:#fff;color:#6445a0;box-shadow:0 4px 0 #cdb9e4;padding:10px}.steer{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:min(450px,100%);margin:0 auto}.steer button{background:#f7e5ff;color:#523e91;border:4px solid white;min-height:63px;touch-action:none}.hint{text-align:center;font-size:12px;color:#72618d;margin:0}.modal button:focus-visible,.steer button:focus-visible{outline:4px solid #27bbcc}@media(max-height:700px){header{padding:4px}.board{min-height:190px;max-height:60dvh}.steer button{min-height:48px;padding:6px}.scorebar span{padding:4px 7px}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
-</style></head><body><header><a href="./requests.html">‹ 요청 놀이터</a><h1>🚙 자동차 아이템 모으기</h1><button id="sound" aria-label="소리 설정">🔊</button></header><main>
+.settings{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:7px;background:#ffffffb8;border:3px solid #fff;border-radius:16px;padding:7px;font-size:14px;font-weight:900}.settings select{background:#fff9dd;color:#503983;border:2px solid #dac6f4;border-radius:12px;padding:6px;font:inherit}.garage{background:#fff8e8;border:3px solid white;border-radius:18px;padding:8px;display:flex;gap:7px;align-items:center;justify-content:center;flex-wrap:wrap}.garage button{min-width:67px;border:3px solid #fff;border-radius:12px;background:#e3f8ff;padding:6px;font-weight:900;color:#4e397d}.garage button[disabled]{opacity:.56}.garage button.selected{outline:3px solid #ffc347}.garage small{width:100%;text-align:center;color:#755b99}.board{isolation:isolate}@media(max-height:740px){.garage{padding:3px;gap:3px}.garage button{padding:4px;min-width:57px}.settings{padding:3px}}</style></head><body><header><a href="./requests.html">‹ 요청 놀이터</a><h1>🚙 자동차 아이템 모으기</h1><button id="sound" aria-label="소리 설정">🔊</button></header><main>
 <div class="scorebar"><span id="score">⭐ 0점</span><span id="best">🏆 최고 0점</span><span id="goal">🎯 목표 15점</span></div>
-<div class="board" id="board"><canvas id="road" aria-label="차선을 이동하면서 별과 보석을 모으는 자동차 게임"></canvas>
+<div class="settings"><label for="difficulty">🚙 난이도</label><select id="difficulty"><option value="easy">쉬움 · 천천히</option><option value="normal">보통</option><option value="fast">빠르게</option></select><label for="frequency">⭐ 아이템</label><select id="frequency"><option value="many">많이</option><option value="normal">보통</option><option value="few">적게</option></select></div><div class="garage" id="garage" aria-label="자동차 차고"></div><div class="board" id="board"><canvas id="road" aria-label="차선을 이동하면서 별과 보석을 모으는 자동차 게임"></canvas>
 <div class="overlay" id="overlay"><div class="modal"><h2 id="message-title">🌟 쪼이의 보물 드라이브!</h2><p id="message">도로에 나타나는 별 ⭐, 보석 💎, 선물 🎁을 모아 보세요! 놓쳐도 괜찮아요. 15점을 모으면 성공!</p><button id="start">▶ 출발!</button></div></div></div>
 <div class="steer"><button id="left" aria-label="왼쪽으로 차선 변경">◀ 왼쪽</button><button id="right" aria-label="오른쪽으로 차선 변경">오른쪽 ▶</button></div>
 <div class="actions"><button id="pause">⏸ 잠깐 멈추기</button><button id="restart">↻ 다시 시작</button></div>
@@ -15,16 +15,28 @@
 const $=id=>document.getElementById(id),canvas=$('road'),board=$('board'),ctx=canvas.getContext('2d');
 const ITEMS=[{symbol:'⭐',point:1,name:'별'},{symbol:'💎',point:3,name:'보석'},{symbol:'🎁',point:5,name:'선물'},{symbol:'🍓',point:2,name:'딸기'}];
 const LEVELS=[15,25,40,60];
-let w=390,h=540,carLane=1,items=[],score=0,best=0,level=0,running=false,paused=false,last=0,spawnClock=0,roadOffset=0,raf=0,soundOn=true,catchFlash=0,catchLabel='',lastSpawnLane=-1,recordTimer=0;
-try{best=Number(localStorage.getItem('joiland-car-collect-best')||0)}catch(e){}
+const CARS=[{name:'파랑',color:'#4b91e5',price:0},{name:'분홍',color:'#f36d9e',price:15},{name:'초록',color:'#43bb89',price:40},{name:'황금',color:'#f0b52a',price:80}];
+const DIFFICULTY={easy:105,normal:145,fast:205};
+const FREQUENCY={many:.60,normal:1.0,few:1.5};
+let lifetime=0,selectedCar=0,difficulty='easy',frequency='many',particles=[],lastPraise=0;let w=390,h=540,carLane=1,items=[],score=0,best=0,level=0,running=false,paused=false,last=0,spawnClock=0,roadOffset=0,raf=0,soundOn=true,catchFlash=0,catchLabel='',lastSpawnLane=-1,recordTimer=0;
+try{best=Number(localStorage.getItem('joiland-car-collect-best')||0);lifetime=Number(localStorage.getItem('joiland-car-total')||0);selectedCar=Number(localStorage.getItem('joiland-car-selected')||0);difficulty=localStorage.getItem('joiland-car-difficulty')||'easy';frequency=localStorage.getItem('joiland-car-frequency')||'many'}catch(e){}
+if(!DIFFICULTY[difficulty])difficulty='easy';if(!FREQUENCY[frequency])frequency='many';
+if(!CARS[selectedCar]||lifetime<CARS[selectedCar].price)selectedCar=0;
+$('difficulty').value=difficulty;$('frequency').value=frequency;
 try{soundOn=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound!==false}catch(e){}
 function target(){return LEVELS[Math.min(level,LEVELS.length-1)]}
+function garage(){
+ $('garage').innerHTML=CARS.map((c,i)=>'<button type="button" data-car="'+i+'" '+(lifetime<c.price?'disabled':'')+' class="'+(selectedCar===i?'selected':'')+'" aria-label="'+c.name+' 자동차 '+(lifetime<c.price?'잠김':'선택')+'"><span style="color:'+c.color+'">🚗</span> '+c.name+(lifetime<c.price?' 🔒':' ✓')+'</button>').join('')+'<small>🎁 누적 '+lifetime+'점 · 15/40/80점에 새 자동차가 열려요!</small>';
+}
+$('garage').addEventListener('click',e=>{const b=e.target.closest('[data-car]');if(!b)return;const i=Number(b.dataset.car);if(lifetime<CARS[i].price)return;selectedCar=i;try{localStorage.setItem('joiland-car-selected',String(i))}catch(e){}garage();draw()});
+$('difficulty').addEventListener('change',e=>{difficulty=DIFFICULTY[e.target.value]?e.target.value:'easy';try{localStorage.setItem('joiland-car-difficulty',difficulty)}catch(e){}});
+$('frequency').addEventListener('change',e=>{frequency=FREQUENCY[e.target.value]?e.target.value:'many';try{localStorage.setItem('joiland-car-frequency',frequency)}catch(e){}});
 function updateUI(){$('score').textContent='⭐ '+score+'점';$('best').textContent='🏆 최고 '+best+'점';$('goal').textContent='🎯 '+(level+1)+'단계 '+target()+'점';$('sound').textContent=soundOn?'🔊':'🔇';$('pause').textContent=paused?'▶ 계속하기':'⏸ 잠깐 멈추기'}
 function speak(t){if(!soundOn||!('speechSynthesis'in window))return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ko-KR';u.rate=1.05;u.pitch=1.16;speechSynthesis.speak(u)}catch(e){}}
 function resize(){const r=board.getBoundingClientRect();w=Math.max(200,r.width-14);h=Math.max(220,r.height-14);const d=Math.min(2,window.devicePixelRatio||1);canvas.width=Math.round(w*d);canvas.height=Math.round(h*d);ctx.setTransform(d,0,0,d,0,0);draw()}
 function laneX(i){return w*(.23+i*.27)}
 function roundRect(x,y,width,height,r,color){ctx.fillStyle=color;ctx.beginPath();ctx.roundRect(x,y,width,height,r);ctx.fill()}
-function car(x,y){ctx.save();ctx.translate(x,y);const width=Math.max(37,Math.min(57,w*.13));roundRect(-width/2,-34,width,68,13,'#4b91e5');roundRect(-width*.37,-22,width*.74,24,7,'#dbf8ff');roundRect(-width*.38,11,width*.76,13,4,'#2869ac');roundRect(-width*.62,-18,8,20,3,'#42415b');roundRect(width*.48,-18,8,20,3,'#42415b');ctx.fillStyle='#fff3a1';ctx.fillRect(-width*.35,-33,10,6);ctx.fillRect(width*.35-10,-33,10,6);ctx.restore()}
+function car(x,y){ctx.save();ctx.translate(x,y);const width=Math.max(37,Math.min(57,w*.13));roundRect(-width/2,-34,width,68,13,CARS[selectedCar].color);roundRect(-width*.37,-22,width*.74,24,7,'#dbf8ff');roundRect(-width*.38,11,width*.76,13,4,'#2869ac');roundRect(-width*.62,-18,8,20,3,'#42415b');roundRect(width*.48,-18,8,20,3,'#42415b');ctx.fillStyle='#fff3a1';ctx.fillRect(-width*.35,-33,10,6);ctx.fillRect(width*.35-10,-33,10,6);ctx.restore()}
 function draw(){
  ctx.clearRect(0,0,w,h);ctx.fillStyle='#9fdfaa';ctx.fillRect(0,0,w,h);
  const left=w*.075,width=w*.85;roundRect(left,0,width,h,12,'#6c7688');
@@ -33,11 +45,18 @@ function draw(){
  ctx.textAlign='center';ctx.textBaseline='middle';ctx.font=Math.max(34,Math.min(54,w*.12))+'px sans-serif';
  for(const item of items)ctx.fillText(item.kind.symbol,laneX(item.lane),item.y);
  car(laneX(carLane),h-80);
+ for(const p of particles){ctx.save();ctx.globalAlpha=Math.max(0,p.life/.75);ctx.fillStyle=p.color;ctx.beginPath();ctx.arc(p.x,p.y,Math.max(2,p.radius*p.life/.75),0,Math.PI*2);ctx.fill();ctx.restore()}
  if(catchFlash>0){ctx.font='bold '+Math.max(22,Math.min(36,w*.075))+'px sans-serif';ctx.fillStyle='#fff8b4';ctx.shadowColor='#4f347d';ctx.shadowBlur=10;ctx.fillText(catchLabel,w/2,h*.32);ctx.shadowBlur=0}
+}
+function sparkle(lane){const colors=['#fff399','#ffdf6c','#b9f9ff','#ffb9eb'];for(let i=0;i<22;i++){const a=Math.PI*2*i/22;const speed=30+Math.random()*100;particles.push({x:laneX(lane),y:h-80,vx:Math.cos(a)*speed,vy:Math.sin(a)*speed,radius:2+Math.random()*4,color:colors[i%4],life:.75})}}
+function celebrate(kind){
+ const now=Date.now();if(now-lastPraise<2900)return;lastPraise=now;
+ const phrases=['좋았어!','멋지게 먹었네!','정말 잘했어!','야호! 보물이다!'];
+ speak(kind.point>=3?'와아! 멋진 보물이야!':phrases[Math.floor(Math.random()*phrases.length)]);
 }
 function hideOverlay(){$('overlay').classList.add('hidden')}
 function showOverlay(title,msg,button){$('message-title').textContent=title;$('message').textContent=msg;$('start').textContent=button;$('overlay').classList.remove('hidden')}
-function reset(keepProgress=false){cancelAnimationFrame(raf);carLane=1;items=[];if(!keepProgress){score=0;level=0;}spawnClock=.7;roadOffset=0;catchFlash=0;lastSpawnLane=-1;running=true;paused=false;last=0;hideOverlay();updateUI();draw();raf=requestAnimationFrame(frame)}
+function reset(keepProgress=false){cancelAnimationFrame(raf);carLane=1;items=[];particles=[];if(!keepProgress){score=0;level=0;}spawnClock=.7;roadOffset=0;catchFlash=0;lastSpawnLane=-1;running=true;paused=false;last=0;hideOverlay();updateUI();draw();raf=requestAnimationFrame(frame)}
 function pauseGame(){if(!running||paused)return;paused=true;cancelAnimationFrame(raf);showOverlay('⏸ 잠깐 쉬어요','모은 점수는 그대로예요. 준비되면 계속해요!','▶ 계속하기');updateUI()}
 function resume(){if(!running)return;paused=false;last=0;hideOverlay();updateUI();raf=requestAnimationFrame(frame)}
 function win(){running=false;paused=false;cancelAnimationFrame(raf);updateUI();speak('와아! 이현이 성공!');showOverlay('🎉 '+(level+1)+'단계 성공!',level===LEVELS.length-1?'모든 단계를 완성했어요! 정말 멋져요!':'보물을 '+score+'점이나 모았어요! 다음 모험에 도전할까요?',level===LEVELS.length-1?'↻ 다시 출발':'▶ 다음 단계')}
@@ -47,13 +66,13 @@ function spawn(){const choices=[0,1,2].filter(x=>x!==lastSpawnLane||Math.random(
 function frame(t){
  if(!running||paused)return;if(!last)last=t;
  const dt=Math.min(.05,(t-last)/1000);last=t;roadOffset+=dt*180;spawnClock+=dt;
- if(spawnClock>=1.0){spawnClock-=1.0;spawn()}
- for(const item of items){item.y+=dt*145;if(!item.got&&item.lane===carLane&&Math.abs(item.y-(h-80))<44){
- item.got=true;score+=item.kind.point;catchFlash=.8;catchLabel='+'+item.kind.point+' '+item.kind.symbol;
+ if(spawnClock>=FREQUENCY[frequency]){spawnClock-=FREQUENCY[frequency];spawn()}
+ for(const item of items){item.y+=dt*DIFFICULTY[difficulty];if(!item.got&&item.lane===carLane&&Math.abs(item.y-(h-80))<44){
+ item.got=true;score+=item.kind.point;lifetime+=item.kind.point;catchFlash=.8;catchLabel='+'+item.kind.point+' '+item.kind.symbol;sparkle(item.lane);celebrate(item.kind);try{localStorage.setItem('joiland-car-total',String(lifetime))}catch(e){}garage();
  if(score>best){best=score;try{localStorage.setItem('joiland-car-collect-best',String(best))}catch(e){}}
  if(score>=target()){draw();win();return}
  }}
- items=items.filter(x=>!x.got&&x.y<h+40);catchFlash=Math.max(0,catchFlash-dt);updateUI();draw();raf=requestAnimationFrame(frame)
+ items=items.filter(x=>!x.got&&x.y<h+40);for(const p of particles){p.x+=p.vx*dt;p.y+=p.vy*dt;p.life-=dt;}particles=particles.filter(p=>p.life>0);catchFlash=Math.max(0,catchFlash-dt);updateUI();draw();raf=requestAnimationFrame(frame)
 }
 $('start').onclick=()=>{if(paused){resume();return}if(!running&&score>=target()&&score>0){if(level===LEVELS.length-1){reset();return;}level++;reset(true);return}reset()};
 $('left').onclick=()=>move(-1);$('right').onclick=()=>move(1);
@@ -64,6 +83,6 @@ board.addEventListener('pointerup',e=>{if(e.target.closest('.overlay'))return;if
 window.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='a'){move(-1);e.preventDefault()}if(e.key==='ArrowRight'||e.key==='d'){move(1);e.preventDefault()}});
 $('sound').onclick=()=>{soundOn=!soundOn;updateUI();try{const o=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}');o.sound=soundOn;localStorage.setItem('hangul-starland-v1',JSON.stringify(o))}catch(e){}};
 document.addEventListener('visibilitychange',()=>{if(document.hidden)pauseGame()});window.addEventListener('pagehide',()=>{cancelAnimationFrame(raf);running=false});
-window.addEventListener('resize',resize);updateUI();requestAnimationFrame(resize);
+window.addEventListener('resize',resize);garage();updateUI();requestAnimationFrame(resize);
 })();
 </script></body></html>
