@@ -15,6 +15,8 @@ function goBack(){
  if(page==='journey.html'&&document.body.classList.contains('playing')){document.getElementById('back')?.click();return}
  if(page==='academy.html'&&document.body.classList.contains('playing')){document.getElementById('back')?.click();return}
  if(page==='requests.html'&&document.querySelector('#play.active')){document.getElementById('back')?.click();return}
+ if(page==='stories.html'&&document.querySelector('#reader.active')){document.getElementById('back')?.click();return}
+ if(page==='mazes.html'&&document.querySelector('#game.active')){document.getElementById('back')?.click();return}
  if(page==='legacy.html'){const back=document.querySelector('[data-a="trace-back"]');if(back){back.click();return}location.href='./index.html';return}
  if(['car-collect.html','car-dodge.html','firetruck-rescue.html'].includes(page)){location.href='./requests.html';return}
  location.href='./index.html';
@@ -25,7 +27,8 @@ const gameActive=()=>{
  if(page==='writing.html')return !!document.querySelector('#practice.active');
  if(page==='legacy.html')return document.body.classList.contains('joy-playing')&&!document.querySelector('.endboard');
  if(['journey.html','academy.html','finance.html','requests.html'].includes(page))return document.body.classList.contains('playing');
- if(page==='mazes.html'||page==='coding-lab.html')return true;
+ if(page==='mazes.html')return !!document.querySelector('#game.active');
+ if(page==='coding-lab.html')return true;
  return false;
 };
 let elapsed=0,ended=false,previous=performance.now(),wasPlaying=false,widget=null;
