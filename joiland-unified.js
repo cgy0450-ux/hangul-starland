@@ -25,7 +25,7 @@ const gameActive=()=>{
  if(page==='writing.html')return !!document.querySelector('#practice.active');
  if(page==='legacy.html')return document.body.classList.contains('joy-playing')&&!document.querySelector('.endboard');
  if(['journey.html','academy.html','finance.html','requests.html'].includes(page))return document.body.classList.contains('playing');
- if(page==='mazes.html')return document.body.classList.contains('playing');
+ if(page==='mazes.html'||page==='coding-lab.html')return true;
  return false;
 };
 let elapsed=0,ended=false,previous=performance.now(),wasPlaying=false,widget=null;
