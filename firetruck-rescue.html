@@ -67,8 +67,8 @@ function update(){
  $('waterLabel').textContent='💧 물 '+Math.round(water)+'%';$('waterFill').style.width=water+'%';
  $('waterHint').textContent=water<24?'⚠️ 물이 부족해요! 소화전을 눌러요!':'물이 부족하면 소화전으로 물을 채워요';
  $('helicopter').disabled=!active||helicopterUsed||paused;
- $('ladder').disabled=!active||paused||fires.some(f=>!f.done);
- $('ladder').textContent=fires.length&&fires.every(f=>f.done)?'🪜 친구 구조하기!':'🪜 불을 먼저 꺼요';
+ $('ladder').disabled=!active||paused||fires.some(f=>!f.done)||ladderReady;
+ $('ladder').textContent=ladderReady?'🪜 사다리 설치 완료':'🪜 구조 사다리 펼치기';
  book();
 }
 function makeScene(){fires=STAGES[stage].flames.map(([x,y])=>({x,y,health:0,done:false}));drops=[];splashes=[];confetti=[];spraying=false;aim={x:fires[0].x,y:fires[0].y};hasCompleted=false;hydrantUsed=false;helicopterUsed=false;ladderReady=false;boost=0;helicopterTime=0;water=100;waterCooldown=0;gateOpen=false;time=0;prev=0;update();$('status').textContent='🚨 '+STAGES[stage].name+'! 불꽃을 모두 꺼 보아요!';draw()}
@@ -86,10 +86,18 @@ function truck(){const x=38,y=441;rr(x,y-28,154,61,12,'#f75660');rr(x+93,y-18,56
 function flame(x,y,intensity,t){const scale=.7+.3*(1-intensity);ctx.save();ctx.translate(x,y);ctx.scale(scale,scale);const flicker=Math.sin(t*8+x)*4;poly([[-27,25],[-25,-12],[-9,-40],[2,-18],[12,-52],[24,-21],[30,19],[18,35],[-13,36]],'#ff784d');poly([[-14,24],[-11,-15],[2,-24],[6,-7],[14,-26],[20,22],[4,34]],'#ffb74f');poly([[-6,28],[-4,-4],[4,-10],[10,24]],'#fff4a5');circle(1,37,9,'#ffe7b7');ctx.restore();if(t%2<1.2){circle(x+29,y-40+Math.sin(t*2)*5,7,'#f9f8e4a8');circle(x+45,y-62+Math.sin(t*2)*8,10,'#f9f8e49c')}}
 function burst(x,y,n=18){for(let i=0;i<n;i++){let a=Math.random()*Math.PI*2,v=50+Math.random()*160;confetti.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v-50,life:1+Math.random()*.5,c:['#ffe47a','#67dfea','#ff97c3','#9ee59a','#beadff'][i%5]})}}
 function splash(x,y){for(let i=0;i<9;i++){const a=Math.random()*Math.PI*2;const v=22+Math.random()*110;splashes.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:.5})}}
+function drawRescueLadder(){
+ const b=STAGES[stage].buildings[0],fx=b.x+b.w*.5,fy=b.y+105;
+ ctx.save();ctx.strokeStyle='#efb757';ctx.lineWidth=7;ctx.lineCap='round';
+ ctx.beginPath();ctx.moveTo(fx-37,433);ctx.lineTo(fx-28,fy+20);ctx.moveTo(fx+16,433);ctx.lineTo(fx+27,fy+20);ctx.stroke();
+ ctx.strokeStyle='#fff2aa';ctx.lineWidth=4;
+ for(let k=0;k<7;k++){const t=k/6,ly=433+(fy+20-433)*t;ctx.beginPath();ctx.moveTo(fx-37+9*t,ly);ctx.lineTo(fx+16+11*t,ly);ctx.stroke()}
+ ctx.restore();
+}
 function drawFriendInWindow(){
  const b=STAGES[stage].buildings[0],fx=b.x+b.w*.5,fy=b.y+105;
  rr(fx-26,fy-32,52,64,12,'#fcfbfe');rr(fx-23,fy-29,46,58,10,'#b7e7ff');text(STAGES[stage].friend,fx,fy,37);
- rr(fx-58,fy-80,116,33,15,'#fffdf4');ctx.fillStyle='#5b4f92';ctx.font='900 12px system-ui';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('도와주세요! 🆘',fx,fy-63);
+ rr(fx-58,fy-80,116,33,15,'#fffdf4');ctx.fillStyle='#5b4f92';ctx.font='900 12px system-ui';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(fires.length&&fires.every(f=>f.done)?'👆 저를 눌러 줘!':'도와주세요! 🆘',fx,fy-63);if(fires.length&&fires.every(f=>f.done)){ctx.save();ctx.strokeStyle='#ffd26b';ctx.lineWidth=6;ctx.strokeRect(fx-26,fy-33,52,65);ctx.restore()}
 }
 function drawHelicopter(){
  ctx.save();ctx.translate(helicopterX,83+Math.sin(time*8)*3);
@@ -104,7 +112,7 @@ function drawHelicopter(){
  ctx.restore();
  const left=fires.filter(f=>!f.done);if(left.length){const f=left[0];ctx.save();ctx.strokeStyle='#6ddcf5';ctx.lineWidth=8;ctx.lineCap='round';ctx.globalAlpha=.73;ctx.beginPath();ctx.moveTo(helicopterX,122);ctx.lineTo(f.x,f.y);ctx.stroke();ctx.restore();}
 }
-function draw(){ctx.clearRect(0,0,W,H);sky();tree(20,380);tree(379,376);for(const b of STAGES[stage].buildings)building(b);drawFriendInWindow();for(const f of fires){if(f.done){text('✨',f.x,f.y,30);continue}flame(f.x,f.y,f.health,time);rr(f.x-27,f.y+44,54,9,4,'#ffffff');rr(f.x-24,f.y+46,Math.max(0,48*(1-f.health)),5,3,'#f08e7c')}truck();
+function draw(){ctx.clearRect(0,0,W,H);sky();tree(20,380);tree(379,376);for(const b of STAGES[stage].buildings)building(b);drawFriendInWindow();if(ladderReady)drawRescueLadder();for(const f of fires){if(f.done){text('✨',f.x,f.y,30);continue}flame(f.x,f.y,f.health,time);rr(f.x-27,f.y+44,54,9,4,'#ffffff');rr(f.x-24,f.y+46,Math.max(0,48*(1-f.health)),5,3,'#f08e7c')}truck();
  if(boost>0){text('🚰',40,445,37);ctx.fillStyle='#79dbff';ctx.fillRect(65,466,105,7)}
  if(helicopterTime>0)drawHelicopter();
  const nozzle={x:185,y:436};if(active&&!paused&&spraying&&water>0){ctx.save();ctx.strokeStyle='#d7f9ff';ctx.lineWidth=12;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(nozzle.x,nozzle.y);ctx.quadraticCurveTo((nozzle.x+aim.x)/2-30,(nozzle.y+aim.y)/2-52,aim.x,aim.y);ctx.stroke();ctx.strokeStyle='#63c9f3';ctx.lineWidth=5;ctx.stroke();ctx.restore();circle(aim.x,aim.y,16,'#bdf5ff78')}
@@ -114,7 +122,16 @@ function draw(){ctx.clearRect(0,0,W,H);sky();tree(20,380);tree(379,376);for(cons
 function coordinate(e){const r=canvas.getBoundingClientRect();return{x:clamp((e.clientX-r.left)/r.width*W,0,W),y:clamp((e.clientY-r.top)/r.height*H,0,H)}}
 function aimAt(e){aim=coordinate(e);if(active&&spraying){for(const f of fires)if(!f.done&&Math.hypot(f.x-aim.x,f.y-aim.y)<64)aim={x:f.x,y:f.y}}}
 function stopSpray(){spraying=false;draw()}
-canvas.addEventListener('pointerdown',e=>{if(!active||paused||water<=0)return;e.preventDefault();aimAt(e);spraying=true;canvas.setPointerCapture(e.pointerId)});
+canvas.addEventListener('pointerdown',e=>{
+ if(!active||paused||gateOpen)return;e.preventDefault();const p=coordinate(e);
+ if(fires.length&&fires.every(f=>f.done)){
+  const b=STAGES[stage].buildings[0],fx=b.x+b.w*.5,fy=b.y+105;
+  if(Math.abs(p.x-fx)<67&&Math.abs(p.y-fy)<92){rescueFriend();return}
+  $('status').textContent='👆 창문에 있는 동물 친구를 직접 눌러 주세요!';return;
+ }
+ if(water<=0){$('status').textContent='💧 물이 없어요! 소화전을 눌러 충전해요!';return}
+ aimAt(e);spraying=true;canvas.setPointerCapture(e.pointerId)
+});
 canvas.addEventListener('pointermove',e=>{if(!spraying||!active)return;e.preventDefault();aimAt(e)});
 canvas.addEventListener('pointerup',stopSpray);canvas.addEventListener('pointercancel',stopSpray);
 // 장비는 현장별 한 번씩 사용할 수 있습니다. 실패하거나 시간을 잃지 않습니다.
@@ -126,10 +143,18 @@ function playSiren(){
 function finishTime(){if(sessionFinished)return;sessionFinished=true;active=false;paused=false;spraying=false;cancelAnimationFrame(frameId);show('🏆 5분 탐험 완료!','이현이 소방관! 오늘도 정말 멋지게 구조했어! 다른 놀이도 만나볼까요?','🏠 다른 놀이 하기','🏆🚒✨');$('start').onclick=()=>location.href='./requests.html';voice('5분 탐험 성공! 트로피를 받았어!',true)}
 $('hydrant').onclick=()=>{if(!active||paused||waterCooldown>0||water>=99)return;water=100;waterCooldown=3;boost=3;splash(65,443);$('status').textContent='🚰 소화전 연결 성공! 물통 100% 충전!';voice('소화전 연결! 물을 가득 채웠어!');update()};
 $('helicopter').onclick=()=>{if(!active||paused||helicopterUsed)return;helicopterUsed=true;helicopterTime=2.8;const targets=fires.filter(f=>!f.done);if(targets.length){helicopterX=clamp(targets[0].x,115,280);for(const f of targets){f.health=Math.min(.9,f.health+.48);splash(f.x,f.y);burst(f.x,f.y,8)}}$('status').textContent='🚁 헬리콥터가 물을 뿌렸어요!';voice('헬리콥터 지원 도착!');update()};
-$('ladder').onclick=()=>{if(!active||paused||fires.some(f=>!f.done)||gateOpen)return;ladderReady=true;gateOpen=true;active=false;spraying=false;cancelAnimationFrame(frameId);burst(200,320,45);$('status').textContent='🪜 친구를 구했어요! 이제 소방차를 써 볼까요?';
- if(window.JoyiWordGate)window.JoyiWordGate.start('소방차',()=>{gateOpen=false;const completedStage=stage;win();if(completedStage<STAGES.length-1)setTimeout(()=>{if(stage===completedStage&&hasCompleted&&!sessionFinished)next()},1700)},{onCancel:()=>{gateOpen=false;active=true;prev=0;frameId=requestAnimationFrame(frame);update()}});
+function rescueFriend(){
+ if(!active||paused||gateOpen||fires.some(f=>!f.done))return;
+ gateOpen=true;active=false;spraying=false;cancelAnimationFrame(frameId);
+ burst(200,320,45);$('status').textContent='💖 친구 구조 성공! 소방차를 따라 써 볼까요?';
+ voice('동물 친구를 구했어! 소방차를 써 보자!');
+ if(window.JoyiWordGate)window.JoyiWordGate.start('소방차',()=>{
+  gateOpen=false;const currentStage=stage;win();
+  if(currentStage<STAGES.length-1)setTimeout(()=>{if(stage===currentStage&&hasCompleted&&!sessionFinished)next()},1700)
+ },{onCancel:()=>{gateOpen=false;active=true;prev=0;frameId=requestAnimationFrame(frame);update()}});
  else{gateOpen=false;win()}
-};
+}
+$('ladder').onclick=()=>{if(!active||paused||fires.some(f=>!f.done))return;ladderReady=true;$('status').textContent='🪜 사다리 준비 완료! 창문에 있는 친구를 눌러 주세요!';voice('이제 동물 친구를 눌러 구해 줘!');update();draw()};
 $('spray').addEventListener('pointerdown',e=>{if(!active||paused||water<=0)return;e.preventDefault();spraying=true});
 for(const k of ['pointerup','pointercancel','pointerleave'])$('spray').addEventListener(k,stopSpray);
 $('start').onclick=next;$('pause').onclick=()=>paused?resume():pause();$('restart').onclick=()=>{stage=0;score=0;start()};
@@ -139,7 +164,7 @@ function frame(ms){if(!active||paused)return;if(!prev)prev=ms;const dt=Math.min(
  if(spraying&&water>0){
   water=Math.max(0,water-27*dt);
   const near=fires.filter(f=>!f.done&&Math.hypot(f.x-aim.x,f.y-aim.y)<48);
-  for(const f of near){f.health=clamp(f.health+dt*(boost>0?1.03:.67),0,1);if(f.health>=1){f.done=true;score++;burst(f.x,f.y);splash(f.x,f.y);voice(['불을 껐어! 멋져!','좋았어, 이현이 소방관!','야호! 구조 성공!'][score%3]);$('status').textContent='💖 잘했어! 불꽃 '+score+'개를 껐어!';update();if(fires.every(v=>v.done)){$('status').textContent='🪜 불이 다 꺼졌어요! 구조 사다리로 친구를 구해요!';voice('불을 다 껐어! 사다리로 구조하자!');update();}}}
+  for(const f of near){f.health=clamp(f.health+dt*(boost>0?1.03:.67),0,1);if(f.health>=1){f.done=true;score++;burst(f.x,f.y);splash(f.x,f.y);voice(['불을 껐어! 멋져!','좋았어, 이현이 소방관!','야호! 구조 성공!'][score%3]);$('status').textContent='💖 잘했어! 불꽃 '+score+'개를 껐어!';update();if(fires.every(v=>v.done)){$('status').textContent='🐱 불을 다 껐어요! 창문에 있는 친구를 손가락으로 눌러 구해요!';voice('불을 다 껐어! 창문에 있는 동물 친구를 눌러 구해 줘!');ladderReady=true;update();}}}
   for(let i=0;i<2;i++)drops.push({x:185,y:436,r:2+Math.random()*3,age:0,endX:aim.x+(Math.random()-.5)*17,endY:aim.y+(Math.random()-.5)*17});
  }
  for(const p of drops){p.age+=dt*3.5;p.x+=(p.endX-p.x)*Math.min(1,dt*12);p.y+=(p.endY-p.y)*Math.min(1,dt*12)}drops=drops.filter(p=>p.age<1);
