@@ -127,7 +127,7 @@ function finishTime(){if(sessionFinished)return;sessionFinished=true;active=fals
 $('hydrant').onclick=()=>{if(!active||paused||waterCooldown>0||water>=99)return;water=100;waterCooldown=3;boost=3;splash(65,443);$('status').textContent='🚰 소화전 연결 성공! 물통 100% 충전!';voice('소화전 연결! 물을 가득 채웠어!');update()};
 $('helicopter').onclick=()=>{if(!active||paused||helicopterUsed)return;helicopterUsed=true;helicopterTime=2.8;const targets=fires.filter(f=>!f.done);if(targets.length){helicopterX=clamp(targets[0].x,115,280);for(const f of targets){f.health=Math.min(.9,f.health+.48);splash(f.x,f.y);burst(f.x,f.y,8)}}$('status').textContent='🚁 헬리콥터가 물을 뿌렸어요!';voice('헬리콥터 지원 도착!');update()};
 $('ladder').onclick=()=>{if(!active||paused||fires.some(f=>!f.done)||gateOpen)return;ladderReady=true;gateOpen=true;active=false;spraying=false;cancelAnimationFrame(frameId);burst(200,320,45);$('status').textContent='🪜 친구를 구했어요! 이제 소방차를 써 볼까요?';
- if(window.JoyiWordGate)window.JoyiWordGate.start('소방차',()=>{gateOpen=false;win()},{onCancel:()=>{gateOpen=false;active=true;prev=0;frameId=requestAnimationFrame(frame);update()}});
+ if(window.JoyiWordGate)window.JoyiWordGate.start('소방차',()=>{gateOpen=false;const completedStage=stage;win();if(completedStage<STAGES.length-1)setTimeout(()=>{if(stage===completedStage&&hasCompleted&&!sessionFinished)next()},1700)},{onCancel:()=>{gateOpen=false;active=true;prev=0;frameId=requestAnimationFrame(frame);update()}});
  else{gateOpen=false;win()}
 };
 $('spray').addEventListener('pointerdown',e=>{if(!active||paused||water<=0)return;e.preventDefault();spraying=true});
