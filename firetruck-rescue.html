@@ -56,7 +56,7 @@ function voice(t,force=false){if(!voiceOn||!('speechSynthesis'in window))return;
 function book(){const seen=[...new Set(rescuedFriends)];$('friends').textContent=seen.length?seen.join(' '):'아직 구조한 친구가 없어요'}
 function update(){
  $('level').textContent='🚨 현장 '+(stage+1)+' / '+STAGES.length;
- $('score').textContent='🌟 구조 '+score+'개';
+ $('score').textContent='🔥 끈 불꽃 '+score+'개';
  const n=fires.length-fires.filter(f=>f.done).length;
  $('progress').style.width=(fires.length?(fires.length-n)/fires.length*100:0)+'%';
  $('sound').textContent=voiceOn?'🔊':'🔇';
@@ -69,11 +69,11 @@ function update(){
 }
 function makeScene(){fires=STAGES[stage].flames.map(([x,y])=>({x,y,health:0,done:false}));drops=[];splashes=[];confetti=[];spraying=false;aim={x:fires[0].x,y:fires[0].y};hasCompleted=false;hydrantUsed=false;helicopterUsed=false;ladderReady=false;boost=0;helicopterTime=0;time=0;prev=0;update();$('status').textContent='🚨 '+STAGES[stage].name+'! 불꽃을 모두 꺼 보아요!';draw()}
 function start(){if(paused){resume();return}if(sessionFinished){location.href='./requests.html';return}active=true;paused=false;makeScene();$('overlay').classList.add('hidden');cancelAnimationFrame(frameId);frameId=requestAnimationFrame(frame);playSiren();setTimeout(()=>{if(active&&!paused)voice('사건발생! 사건발생! 화재가 발생했다! 소방차는 출동하라!',true)},1050)}
-function win(){if(hasCompleted)return;hasCompleted=true;const friend=STAGES[stage].friend;if(!rescuedFriends.includes(friend)){rescuedFriends.push(friend);try{localStorage.setItem('joiland-firetruck-friends',JSON.stringify(rescuedFriends))}catch(e){}}active=false;spraying=false;cancelAnimationFrame(frameId);totalSaved++;try{localStorage.setItem('joiland-firetruck-saved',String(totalSaved))}catch(e){}update();voice('야호! 모두 구했어! 정말 멋진 소방관이야!',true);burst(200,214,55);draw();show('🏆 구조 성공!','불을 모두 껐어요! '+STAGES[stage].friend+' 친구가 고마워하고 있어요.\\n구조한 현장 '+totalSaved+'개',stage===STAGES.length-1?'🔄 다시 출동하기':'🚒 다음 현장으로','🎉🐯💖')}
+function win(){if(hasCompleted)return;hasCompleted=true;const friend=STAGES[stage].friend;if(!rescuedFriends.includes(friend)){rescuedFriends.push(friend);try{localStorage.setItem('joiland-firetruck-friends',JSON.stringify(rescuedFriends))}catch(e){}}active=false;spraying=false;cancelAnimationFrame(frameId);totalSaved++;try{localStorage.setItem('joiland-firetruck-saved',String(totalSaved))}catch(e){}update();voice('야호! 모두 구했어! 정말 멋진 소방관이야!',true);burst(200,214,55);draw();show('🏆 구조 성공!','불을 모두 껐어요! '+STAGES[stage].friend+' 친구가 고마워하고 있어요.\\n구조한 현장 '+totalSaved+'개',stage===STAGES.length-1?'🏠 다른 놀이 하기':'🚒 다음 현장으로','🎉🐯💖')}
 function show(title,message,button,hero='🚒💦'){$('modalTitle').textContent=title;$('modalText').textContent=message;$('start').textContent=button;$('hero').textContent=hero;$('overlay').classList.remove('hidden')}
 function pause(){if(!active||paused)return;paused=true;spraying=false;cancelAnimationFrame(frameId);show('⏸ 잠깐 쉬어요','불꽃은 기다려 줘요. 준비되면 다시 출동해요!','▶ 계속하기','🚒☁️');update()}
 function resume(){if(!active)return;paused=false;prev=0;$('overlay').classList.add('hidden');update();frameId=requestAnimationFrame(frame)}
-function next(){if(paused){resume();return}if(hasCompleted){stage=(stage+1)%STAGES.length;start()}else start()}
+function next(){if(paused){resume();return}if(hasCompleted){if(stage===STAGES.length-1){location.href='./requests.html';return;}stage++;start()}else start()}
 function resize(){const r=scene.getBoundingClientRect(),d=Math.min(2,devicePixelRatio||1);canvas.width=Math.round(r.width*d);canvas.height=Math.round(r.height*d);ctx.setTransform(canvas.width/W,0,0,canvas.height/H,0,0);draw()}
 function sky(){const bg=ctx.createLinearGradient(0,0,0,460);bg.addColorStop(0,'#87cef8');bg.addColorStop(.75,'#d4f7ff');bg.addColorStop(1,'#f8f8e2');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);circle(338,60,28,'#ffe58b');for(const [x,y] of [[56,67],[213,112],[310,166]]){circle(x,y,20,'#fffdf5');circle(x+25,y-6,25,'#fffdf5');circle(x+51,y,18,'#fffdf5');rr(x-10,y,69,21,12,'#fffdf5')}ctx.fillStyle='#a8deb4';ctx.beginPath();ctx.ellipse(110,425,200,66,0,0,Math.PI*2);ctx.fill();ctx.beginPath();ctx.ellipse(310,425,220,55,0,0,Math.PI*2);ctx.fill();ctx.fillStyle='#7fcd98';ctx.fillRect(0,411,W,159);ctx.fillStyle='#686f8a';ctx.fillRect(0,481,W,89);ctx.fillStyle='#fffcce';for(let x=8;x<400;x+=76)rr(x,526,42,5,3,'#fff4bb')}
 function tree(x,y){rr(x-6,y-12,12,66,4,'#957756');circle(x,y-31,30,'#52b984');circle(x-20,y-25,24,'#61c78d');circle(x+22,y-24,24,'#60cc90');circle(x,y-53,23,'#66ce94')}
@@ -121,6 +121,7 @@ function frame(ms){if(!active||paused)return;if(!prev)prev=ms;const dt=Math.min(
  for(const p of confetti){p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=150*dt;p.life-=dt}confetti=confetti.filter(p=>p.life>0);
  draw();frameId=requestAnimationFrame(frame)
 }
+window.JOY_stopGame=()=>{active=false;paused=true;spraying=false;cancelAnimationFrame(frameId)};
 update();requestAnimationFrame(resize);
 })();
 </script><script src="./joiland-unified.js"></script></body></html>
