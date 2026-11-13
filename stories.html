@@ -37,4 +37,4 @@ shelf.addEventListener('click',e=>{const t=e.target.closest('[data-book]');if(t)
 document.getElementById('back').onclick=goBack;document.getElementById('prev').onclick=()=>flip(-1);document.getElementById('next').onclick=()=>flip(1);document.getElementById('speak').onclick=speak;
 const audio=document.getElementById('audio-switch');function updateAudioLabel(){audio.textContent=soundOn?'🔊 읽기 켬':'🔇 읽기 끔';audio.setAttribute('aria-label',soundOn?'책 읽는 소리 끄기':'책 읽는 소리 켜기');}updateAudioLabel();audio.onclick=()=>{soundOn=!soundOn;try{const st=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}');st.sound=soundOn;localStorage.setItem('hangul-starland-v1',JSON.stringify(st));}catch(e){}updateAudioLabel();if(!soundOn)stop();else if(current>=0)speak();};
 window.addEventListener('pagehide',stop);
-</script></body></html>
+</script><script src="./joiland-unified.js"></script></body></html>
