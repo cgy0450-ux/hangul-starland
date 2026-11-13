@@ -2,12 +2,14 @@
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><meta name="theme-color" content="#48a9dc"><title>쪼이랜드 · 출동! 소방차 구조대</title>
 <style>
 :root{color-scheme:light;font-family:system-ui,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;color:#42316d}*{box-sizing:border-box}body{margin:0;min-height:100dvh;background:radial-gradient(circle at 12% 9%,#fff5c6,transparent 42%),radial-gradient(circle at 91% 91%,#c6fbf2,transparent 46%),#e9e4ff;display:flex;flex-direction:column;overflow-x:hidden}button,a{font:inherit;touch-action:manipulation}button{border:0;cursor:pointer}header{width:min(100%,790px);margin:0 auto;padding:9px 11px;display:flex;align-items:center;gap:9px}header a,header button{background:#fff;color:#59429c;border:3px solid #fff;border-radius:15px;padding:9px 11px;text-decoration:none;font-size:14px;font-weight:900;box-shadow:0 3px 0 #d2c3ee}header h1{font-size:clamp(18px,4.4vw,27px);margin:0;flex:1;text-align:center}main{width:min(100%,790px);padding:2px 11px 14px;flex:1;margin:0 auto;display:flex;flex-direction:column;gap:9px;min-height:0}.info{display:grid;grid-template-columns:1fr 1fr;gap:8px}.pill{background:#fff;border:3px solid #fff;border-radius:17px;padding:8px 10px;text-align:center;font-size:clamp(13px,3vw,18px);font-weight:950}.status{padding:8px 12px;background:linear-gradient(115deg,#fff6d0,#f1e8ff);border:3px solid #fff;border-radius:17px;text-align:center;font-size:clamp(13px,3vw,18px);font-weight:900;min-height:42px}.progress{height:14px;background:#ffffffcf;border:3px solid #fff;border-radius:12px;overflow:hidden}.progress-fill{height:100%;width:0;background:linear-gradient(90deg,#65ddc0,#48a4ef);transition:width .25s}.scene{position:relative;margin:0 auto;width:min(100%,580px);flex:1;min-height:300px;max-height:min(67dvh,690px);border:7px solid #fff;border-radius:27px;overflow:hidden;background:#c6edfc;touch-action:none;box-shadow:0 8px 0 #c7b9ea;isolation:isolate;user-select:none}.scene canvas{width:100%;height:100%;display:block;touch-action:none}.overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:12px;background:#2732668f;backdrop-filter:blur(3px)}.overlay.hidden{display:none}.modal{width:min(100%,380px);text-align:center;border:6px solid #fff;border-radius:29px;background:linear-gradient(155deg,#fff6c5,#fff,#dcf8fd);padding:18px 14px;box-shadow:0 8px 0 #c7a9d8}.modal .hero{font-size:57px;display:block}.modal h2{font-size:clamp(23px,6vw,33px);margin:4px}.modal p{line-height:1.55;font-size:16px;white-space:pre-line}.modal button,.controls button{background:#6b57d6;border:3px solid #fff;border-radius:17px;color:white;padding:13px 18px;font-size:17px;font-weight:950;box-shadow:0 5px 0 #4c35a7}.controls{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;max-width:580px;width:100%;margin:0 auto}.controls button{padding:12px 6px;background:#fff;color:#6143a3;box-shadow:0 4px 0 #cab8e6;font-size:clamp(13px,3vw,17px)}.controls button#spray{background:#4cbbe0;color:#fff;box-shadow:0 4px 0 #2d93b4}.controls button:focus-visible,.modal button:focus-visible{outline:4px solid #faaf52;outline-offset:2px}.instructions{text-align:center;color:#64538e;font-size:13px;margin:0}@media(max-height:735px){header{padding:4px 8px}main{gap:5px;padding-bottom:7px}.scene{min-height:240px;max-height:58dvh}.status{min-height:34px;padding:6px}.pill{padding:5px}.controls button{padding:8px 4px}.instructions{font-size:11px}}@media(max-width:360px){.controls{gap:4px}.controls button{font-size:12px}.scene{min-height:270px}}
-</style></head><body>
+.rescue-tools{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;max-width:580px;width:100%;margin:0 auto}.rescue-tools button{background:linear-gradient(155deg,#e6faff,#fff3d7);color:#63449e;border:3px solid #fff;border-radius:15px;padding:9px 3px;font-weight:900;font-size:clamp(11px,2.9vw,15px);box-shadow:0 3px 0 #bdaedc}.rescue-tools button:disabled{opacity:.48}.rescue-book{max-width:580px;width:100%;margin:0 auto;display:flex;gap:7px;justify-content:space-between;align-items:center;background:#fff9dc;border:3px solid #fff;border-radius:15px;padding:7px 10px;font-size:clamp(11px,2.7vw,14px);font-weight:900}.rescue-book span{font-size:20px}@media(max-height:750px){.rescue-book{padding:3px 6px}.rescue-tools button{padding:6px 2px}.scene{max-height:52dvh}}</style></head><body>
 <header><a href="./requests.html" aria-label="요청 놀이터로 돌아가기">‹ 놀이터</a><h1>🚒 출동! 소방차 구조대</h1><button id="sound" aria-label="음성 켜기 또는 끄기">🔊</button></header>
 <main>
 <div class="info"><span class="pill" id="level">🚨 현장 1 / 5</span><span class="pill" id="score">🌟 구조 0개</span></div>
 <div class="status" id="status" role="status" aria-live="polite">불꽃을 손가락으로 누르면 물이 나와요!</div><div class="progress" aria-label="현재 현장 소화 진행도"><div class="progress-fill" id="progress"></div></div>
 <div class="scene" id="scene"><canvas id="game" aria-label="손가락으로 불꽃을 조준해서 소방차 물로 불을 끄는 게임"></canvas><div class="overlay" id="overlay"><div class="modal"><span class="hero" id="hero">🚒🐯🔥</span><h2 id="modalTitle">쪼이 소방대 출동!</h2><p id="modalText">불꽃을 손가락으로 누르고 있으면 소방차에서 물이 나와요. 모두 끄고 친구들을 구해 주세요!</p><button id="start">🚨 출동하기!</button></div></div></div>
+<div class="rescue-tools" aria-label="소방 구조 장비"><button id="hydrant">🚰 소화전 연결</button><button id="helicopter">🚁 헬리콥터 지원</button><button id="ladder">🪜 구조 사다리</button></div>
+<div class="rescue-book" id="book"><strong>📒 구조한 동물 친구</strong><span id="friends">아직 구조한 친구가 없어요</span></div>
 <div class="controls"><button id="pause">⏸ 잠깐 쉬기</button><button id="spray" aria-label="조준 중인 곳에 물 뿌리기">💦 물 뿌리기</button><button id="restart">↻ 다시 출동</button></div>
 <p class="instructions">👆 불꽃을 손가락으로 누른 채 움직여요! 불이 꺼져도 다시 나타나지 않아요.</p>
 </main>
@@ -22,8 +24,19 @@ const STAGES=[
  {name:'푸른 숲 마을',buildings:[{x:52,y:260,w:140,h:160,color:'#bfe2c8',roof:'#85b4a2'},{x:219,y:196,w:137,h:225,color:'#fad5cb',roof:'#e9a193'}],flames:[[112,263],[259,216],[308,318]],friend:'🦊'},
  {name:'큰 소방 구조 현장',buildings:[{x:40,y:197,w:154,h:227,color:'#c5c9f5',roof:'#8d9be7'},{x:215,y:180,w:145,h:244,color:'#bde9f8',roof:'#6cb4d2'}],flames:[[90,205],[149,295],[255,191],[310,287]],friend:'🐻'}
 ];
+const MORE_SCENES=[
+ {name:'해변 등대',buildings:[{x:54,y:220,w:135,h:200,color:'#e9edff',roof:'#8db9eb'},{x:236,y:180,w:106,h:245,color:'#ffd8b0',roof:'#f19a76'}],flames:[[102,235],[274,196],[305,293]],friend:'🐧'},
+ {name:'우주 과학관',buildings:[{x:39,y:210,w:318,h:215,color:'#c3d5fc',roof:'#8ea5ed'}],flames:[[102,233],[205,255],[301,236]],friend:'🐼'},
+ {name:'꽃밭 동물 병원',buildings:[{x:51,y:234,w:294,h:193,color:'#ffcfe1',roof:'#dc8eae'}],flames:[[105,250],[232,250],[305,317]],friend:'🐸'},
+ {name:'산속 캠핑장',buildings:[{x:39,y:255,w:146,h:170,color:'#ffdfad',roof:'#c0a4f1'},{x:209,y:219,w:145,h:205,color:'#c1ebd1',roof:'#77ba95'}],flames:[[91,268],[241,224],[300,312]],friend:'🦌'},
+ {name:'도서관 구조작전',buildings:[{x:49,y:207,w:304,h:220,color:'#e3dafb',roof:'#a0a6df'}],flames:[[95,230],[188,250],[300,230],[277,323]],friend:'🦉'},
+ {name:'비행장 구조작전',buildings:[{x:43,y:234,w:148,h:194,color:'#f2d6a9',roof:'#d49d83'},{x:213,y:205,w:139,h:220,color:'#c5e3f8',roof:'#8eb8e9'}],flames:[[99,244],[154,332],[260,218],[305,317]],friend:'🐨'},
+ {name:'큰 동물원',buildings:[{x:52,y:199,w:286,h:228,color:'#beeeda',roof:'#68bdb0'}],flames:[[104,209],[215,232],[305,320],[164,330]],friend:'🦁'}
+];
+STAGES.push(...MORE_SCENES);
+let hydrantUsed=false,helicopterUsed=false,ladderReady=false,boost=0,helicopterTime=0,helicopterX=200,rescuedFriends=[],sessionElapsed=0,sessionFinished=false;
 let stage=0,score=0,totalSaved=0,active=false,paused=false,spraying=false,aim={x:230,y:265},fires=[],drops=[],splashes=[],confetti=[],frameId=0,prev=0,time=0,voiceOn=true,voiceAt=0,hasCompleted=false;
-try{totalSaved=Number(localStorage.getItem('joiland-firetruck-saved')||0)}catch(e){}
+try{totalSaved=Number(localStorage.getItem('joiland-firetruck-saved')||0);rescuedFriends=JSON.parse(localStorage.getItem('joiland-firetruck-friends')||'[]');if(!Array.isArray(rescuedFriends))rescuedFriends=[]}catch(e){rescuedFriends=[]}
 try{voiceOn=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound!==false}catch(e){}
 function clamp(v,a,b){return Math.min(b,Math.max(a,v))}
 function rr(x,y,w,h,r,color){ctx.fillStyle=color;ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fill()}
@@ -31,6 +44,7 @@ function poly(points,color){ctx.beginPath();points.forEach(([x,y],i)=>i?ctx.line
 function circle(x,y,r,color){ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fillStyle=color;ctx.fill()}
 function text(t,x,y,size=22){ctx.font='900 '+size+'px system-ui,sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(t,x,y)}
 function voice(t,force=false){if(!voiceOn||!('speechSynthesis'in window))return;const now=Date.now();if(!force&&now-voiceAt<2100)return;voiceAt=now;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ko-KR';u.rate=.93;u.pitch=1.11;speechSynthesis.speak(u)}catch(e){}}
+function book(){const seen=[...new Set(rescuedFriends)];$('friends').textContent=seen.length?seen.join(' '):'아직 구조한 친구가 없어요'}
 function update(){
  $('level').textContent='🚨 현장 '+(stage+1)+' / '+STAGES.length;
  $('score').textContent='🌟 구조 '+score+'개';
@@ -38,10 +52,15 @@ function update(){
  $('progress').style.width=(fires.length?(fires.length-n)/fires.length*100:0)+'%';
  $('sound').textContent=voiceOn?'🔊':'🔇';
  $('pause').textContent=paused?'▶ 계속하기':'⏸ 잠깐 쉬기';
+ $('hydrant').disabled=!active||hydrantUsed||paused;
+ $('helicopter').disabled=!active||helicopterUsed||paused;
+ $('ladder').disabled=!active||paused||fires.some(f=>!f.done);
+ $('ladder').textContent=fires.length&&fires.every(f=>f.done)?'🪜 친구 구조하기!':'🪜 불을 먼저 꺼요';
+ book();
 }
-function makeScene(){fires=STAGES[stage].flames.map(([x,y])=>({x,y,health:0,done:false}));drops=[];splashes=[];confetti=[];spraying=false;aim={x:fires[0].x,y:fires[0].y};hasCompleted=false;time=0;prev=0;update();draw()}
-function start(){if(paused){resume();return}active=true;paused=false;makeScene();$('overlay').classList.add('hidden');cancelAnimationFrame(frameId);frameId=requestAnimationFrame(frame);voice('소방차 출동! 불을 꺼 보자!',true)}
-function win(){if(hasCompleted)return;hasCompleted=true;active=false;spraying=false;cancelAnimationFrame(frameId);totalSaved++;try{localStorage.setItem('joiland-firetruck-saved',String(totalSaved))}catch(e){}update();voice('야호! 모두 구했어! 정말 멋진 소방관이야!',true);burst(200,214,55);draw();show('🏆 구조 성공!','불을 모두 껐어요! '+STAGES[stage].friend+' 친구가 고마워하고 있어요.\\n구조한 현장 '+totalSaved+'개',stage===STAGES.length-1?'🔄 다시 출동하기':'🚒 다음 현장으로','🎉🐯💖')}
+function makeScene(){fires=STAGES[stage].flames.map(([x,y])=>({x,y,health:0,done:false}));drops=[];splashes=[];confetti=[];spraying=false;aim={x:fires[0].x,y:fires[0].y};hasCompleted=false;hydrantUsed=false;helicopterUsed=false;ladderReady=false;boost=0;helicopterTime=0;time=0;prev=0;update();$('status').textContent='🚨 '+STAGES[stage].name+'! 불꽃을 모두 꺼 보아요!';draw()}
+function start(){if(paused){resume();return}if(sessionFinished){location.href='./requests.html';return}active=true;paused=false;makeScene();$('overlay').classList.add('hidden');cancelAnimationFrame(frameId);frameId=requestAnimationFrame(frame);voice('사건발생! 사건발생! 화재가 발생했다! 소방차는 출동하라!',true);playSiren()}
+function win(){if(hasCompleted)return;hasCompleted=true;const friend=STAGES[stage].friend;if(!rescuedFriends.includes(friend)){rescuedFriends.push(friend);try{localStorage.setItem('joiland-firetruck-friends',JSON.stringify(rescuedFriends))}catch(e){}}active=false;spraying=false;cancelAnimationFrame(frameId);totalSaved++;try{localStorage.setItem('joiland-firetruck-saved',String(totalSaved))}catch(e){}update();voice('야호! 모두 구했어! 정말 멋진 소방관이야!',true);burst(200,214,55);draw();show('🏆 구조 성공!','불을 모두 껐어요! '+STAGES[stage].friend+' 친구가 고마워하고 있어요.\\n구조한 현장 '+totalSaved+'개',stage===STAGES.length-1?'🔄 다시 출동하기':'🚒 다음 현장으로','🎉🐯💖')}
 function show(title,message,button,hero='🚒💦'){$('modalTitle').textContent=title;$('modalText').textContent=message;$('start').textContent=button;$('hero').textContent=hero;$('overlay').classList.remove('hidden')}
 function pause(){if(!active||paused)return;paused=true;spraying=false;cancelAnimationFrame(frameId);show('⏸ 잠깐 쉬어요','불꽃은 기다려 줘요. 준비되면 다시 출동해요!','▶ 계속하기','🚒☁️');update()}
 function resume(){if(!active)return;paused=false;prev=0;$('overlay').classList.add('hidden');update();frameId=requestAnimationFrame(frame)}
@@ -55,6 +74,8 @@ function flame(x,y,intensity,t){const scale=.7+.3*(1-intensity);ctx.save();ctx.t
 function burst(x,y,n=18){for(let i=0;i<n;i++){let a=Math.random()*Math.PI*2,v=50+Math.random()*160;confetti.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v-50,life:1+Math.random()*.5,c:['#ffe47a','#67dfea','#ff97c3','#9ee59a','#beadff'][i%5]})}}
 function splash(x,y){for(let i=0;i<9;i++){const a=Math.random()*Math.PI*2;const v=22+Math.random()*110;splashes.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:.5})}}
 function draw(){ctx.clearRect(0,0,W,H);sky();tree(20,380);tree(379,376);for(const b of STAGES[stage].buildings)building(b);for(const f of fires){if(f.done){text('✨',f.x,f.y,30);continue}flame(f.x,f.y,f.health,time);rr(f.x-27,f.y+44,54,9,4,'#ffffff');rr(f.x-24,f.y+46,Math.max(0,48*(1-f.health)),5,3,'#f08e7c')}truck();
+ if(boost>0){text('🚰',40,445,37);ctx.fillStyle='#79dbff';ctx.fillRect(65,466,105,7)}
+ if(helicopterTime>0){text('🚁',helicopterX,84+Math.sin(time*7)*5,50);ctx.strokeStyle='#80e3ff';ctx.lineWidth=6;ctx.beginPath();ctx.moveTo(helicopterX,105);ctx.lineTo(helicopterX,325);ctx.stroke()}
  const nozzle={x:185,y:436};if(active&&!paused&&spraying){ctx.save();ctx.strokeStyle='#d7f9ff';ctx.lineWidth=12;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(nozzle.x,nozzle.y);ctx.quadraticCurveTo((nozzle.x+aim.x)/2-30,(nozzle.y+aim.y)/2-52,aim.x,aim.y);ctx.stroke();ctx.strokeStyle='#63c9f3';ctx.lineWidth=5;ctx.stroke();ctx.restore();circle(aim.x,aim.y,16,'#bdf5ff78')}
  for(const p of drops){circle(p.x,p.y,p.r,'#ffffffcc')}for(const p of splashes){circle(p.x,p.y,3,'#7bdafa')}for(const p of confetti){rr(p.x,p.y,6,9,2,p.c)}
  if(!active&&hasCompleted){text('🎉',190,114,49);text(STAGES[stage].friend,200,348,54)}
@@ -65,15 +86,25 @@ function stopSpray(){spraying=false;draw()}
 canvas.addEventListener('pointerdown',e=>{if(!active||paused)return;e.preventDefault();aimAt(e);spraying=true;canvas.setPointerCapture(e.pointerId)});
 canvas.addEventListener('pointermove',e=>{if(!spraying||!active)return;e.preventDefault();aimAt(e)});
 canvas.addEventListener('pointerup',stopSpray);canvas.addEventListener('pointercancel',stopSpray);
+// 장비는 현장별 한 번씩 사용할 수 있습니다. 실패하거나 시간을 잃지 않습니다.
+let sirenContext=null;
+function playSiren(){
+ if(!voiceOn)return;
+ try{const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;const ac=sirenContext||new AC();sirenContext=ac;if(ac.state==='suspended')ac.resume();let t=ac.currentTime+.03;for(let i=0;i<4;i++){const osc=ac.createOscillator(),gain=ac.createGain();osc.type='sine';osc.frequency.setValueAtTime(i%2?730:470,t+i*.23);osc.frequency.linearRampToValueAtTime(i%2?470:730,t+(i+1)*.23);gain.gain.setValueAtTime(.0001,t+i*.23);gain.gain.linearRampToValueAtTime(.045,t+i*.23+.06);gain.gain.linearRampToValueAtTime(.0001,t+(i+1)*.23);osc.connect(gain).connect(ac.destination);osc.start(t+i*.23);osc.stop(t+(i+1)*.23)} }catch(e){}
+}
+function finishTime(){if(sessionFinished)return;sessionFinished=true;active=false;paused=false;spraying=false;cancelAnimationFrame(frameId);show('🏆 5분 탐험 완료!','이현이 소방관! 오늘도 정말 멋지게 구조했어! 다른 놀이도 만나볼까요?','🏠 다른 놀이 하기','🏆🚒✨');$('start').onclick=()=>location.href='./requests.html';voice('5분 탐험 성공! 트로피를 받았어!',true)}
+$('hydrant').onclick=()=>{if(!active||paused||hydrantUsed)return;hydrantUsed=true;boost=16;splash(65,443);$('status').textContent='🚰 소화전 연결! 16초 동안 물줄기가 세져요!';voice('소화전 연결! 물이 더 세졌어!');update()};
+$('helicopter').onclick=()=>{if(!active||paused||helicopterUsed)return;helicopterUsed=true;helicopterTime=2.8;const targets=fires.filter(f=>!f.done);if(targets.length){helicopterX=targets[0].x;for(const f of targets){f.health=Math.min(.9,f.health+.48);splash(f.x,f.y);burst(f.x,f.y,8)}}$('status').textContent='🚁 헬리콥터가 물을 뿌렸어요!';voice('헬리콥터 지원 도착!');update()};
+$('ladder').onclick=()=>{if(!active||paused||fires.some(f=>!f.done))return;ladderReady=true;burst(200,320,45);$('status').textContent='🪜 구조 성공! 친구가 안전해요!';win()};
 $('spray').addEventListener('pointerdown',e=>{if(!active||paused)return;e.preventDefault();spraying=true});
 for(const k of ['pointerup','pointercancel','pointerleave'])$('spray').addEventListener(k,stopSpray);
 $('start').onclick=next;$('pause').onclick=()=>paused?resume():pause();$('restart').onclick=()=>{stage=0;score=0;start()};
 $('sound').onclick=()=>{voiceOn=!voiceOn;update();try{const o=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}');o.sound=voiceOn;localStorage.setItem('hangul-starland-v1',JSON.stringify(o))}catch(e){}if(!voiceOn)try{speechSynthesis.cancel()}catch(e){}};
 document.addEventListener('visibilitychange',()=>{if(document.hidden)pause()});window.addEventListener('pagehide',()=>{cancelAnimationFrame(frameId);active=false});window.addEventListener('resize',resize);
-function frame(ms){if(!active||paused)return;if(!prev)prev=ms;const dt=Math.min(.05,(ms-prev)/1000);prev=ms;time+=dt;
+function frame(ms){if(!active||paused)return;if(!prev)prev=ms;const dt=Math.min(.05,(ms-prev)/1000);prev=ms;time+=dt;sessionElapsed+=dt;if(sessionElapsed>=300){finishTime();return}boost=Math.max(0,boost-dt);helicopterTime=Math.max(0,helicopterTime-dt);
  if(spraying){
   const near=fires.filter(f=>!f.done&&Math.hypot(f.x-aim.x,f.y-aim.y)<48);
-  for(const f of near){f.health=clamp(f.health+dt*.73,0,1);if(f.health>=1){f.done=true;score++;burst(f.x,f.y);splash(f.x,f.y);voice(['불을 껐어! 멋져!','좋았어, 이현이 소방관!','야호! 구조 성공!'][score%3]);$('status').textContent='💖 잘했어! 불꽃 '+score+'개를 껐어!';update();if(fires.every(v=>v.done)){win();return}}}
+  for(const f of near){f.health=clamp(f.health+dt*(boost>0?1.32:.73),0,1);if(f.health>=1){f.done=true;score++;burst(f.x,f.y);splash(f.x,f.y);voice(['불을 껐어! 멋져!','좋았어, 이현이 소방관!','야호! 구조 성공!'][score%3]);$('status').textContent='💖 잘했어! 불꽃 '+score+'개를 껐어!';update();if(fires.every(v=>v.done)){$('status').textContent='🪜 불이 다 꺼졌어요! 구조 사다리로 친구를 구해요!';voice('불을 다 껐어! 사다리로 구조하자!');update();}}}
   for(let i=0;i<2;i++)drops.push({x:185,y:436,r:2+Math.random()*3,age:0,endX:aim.x+(Math.random()-.5)*17,endY:aim.y+(Math.random()-.5)*17});
  }
  for(const p of drops){p.age+=dt*3.5;p.x+=(p.endX-p.x)*Math.min(1,dt*12);p.y+=(p.endY-p.y)*Math.min(1,dt*12)}drops=drops.filter(p=>p.age<1);
