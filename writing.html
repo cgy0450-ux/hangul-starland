@@ -1,10 +1,10 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><meta name="theme-color" content="#8560cc"><title>쪼이랜드 쓰기 놀이터</title>
 <style>
-*{box-sizing:border-box}body{margin:0;min-height:100dvh;background:radial-gradient(circle at 10% 15%,#fff1ba,transparent 43%),radial-gradient(circle at 80% 90%,#d0fcff,transparent 50%),#f1ebff;color:#403068;font-family:"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;font-weight:850}button{cursor:pointer;touch-action:manipulation;font:inherit;border:0}header{max-width:920px;margin:auto;display:flex;align-items:center;gap:9px;padding:9px 12px}header a{background:#fff;padding:11px;border-radius:14px;text-decoration:none;color:#5f4b98;font-size:14px}h1{font-size:clamp(19px,4.5vw,29px);margin:0}main{margin:0 auto;max-width:890px;padding:4px 12px 25px}button:focus-visible{outline:3px solid #45a7cf;outline-offset:3px}.choices{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}.pick{min-height:65px;border:4px solid white;border-radius:20px;background:var(--col,#f8e5ff);box-shadow:0 5px 0 #d1c6e3;color:#463373;font-size:clamp(18px,4vw,27px);font-weight:950}.pick.word{font-size:clamp(15px,3vw,21px)}.pick.alphabet{grid-column:span 2;min-height:78px;font-size:clamp(14px,3vw,22px);background:linear-gradient(130deg,#ffedbb,#e6e2ff)}.pick.group{font-size:clamp(16px,3vw,24px)}.canvas-wrap.english{width:min(82vw,370px,43dvh);height:min(82vw,370px,43dvh)}.note{text-align:center;padding:12px;font-size:15px}.practice{display:none}.practice.active{display:flex;flex-direction:column;align-items:center;gap:9px}.practice-head{width:100%;display:flex;justify-content:space-between;align-items:center}.practice-head button,.action{background:#fff;border-radius:16px;padding:10px 14px;color:#5d4396;font-weight:950}.panel{background:linear-gradient(115deg,#fffdf7,#eafbff);border:6px solid #fff;border-radius:29px;box-shadow:0 9px 0 #d5c5e7;width:100%;padding:clamp(10px,3vw,22px);display:flex;flex-direction:column;align-items:center;gap:7px}.label{font-size:clamp(22px,5vw,33px);margin:5px}.reading{font-size:16px;color:#8263a6}.canvas-wrap{position:relative;touch-action:none;border:5px solid #f5d7a0;border-radius:24px;background:#fff;overflow:hidden;width:min(90vw,650px);height:min(45vw,300px,43dvh);min-width:245px;min-height:170px;box-shadow:0 7px 0 #e1bb81}.guide{width:100%;height:100%;position:absolute;inset:0;pointer-events:none}canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;display:block}.prompt{text-align:center;color:#7c6f9a;font-size:14px}.tools{display:flex;justify-content:center;gap:9px;flex-wrap:wrap}.tools button{border-radius:17px;padding:11px 14px;background:#f4e7ff;color:#593d9e;box-shadow:0 4px 0 #d4bbf0}.tools .check{background:#28bca7;color:#fff;box-shadow:0 4px 0 #159687}.feedback{font-size:16px;text-align:center;min-height:26px;color:#38896c}.hidden{display:none!important}.progress{padding:9px;background:#fff2b0;border-radius:18px}.more{display:flex;justify-content:center;margin:14px;gap:7px;flex-wrap:wrap}.more button{padding:12px;border-radius:16px;background:#fff;color:#5c4689}.first-panel{margin-bottom:18px;background:linear-gradient(120deg,#fff1bb,#ebdbff);padding:15px;border:5px solid white;border-radius:25px}.first-panel h2{margin:0}.first-panel p{margin:5px 0;color:#7c6991}@media(max-height:690px){header{padding:5px}.panel{padding:8px}.canvas-wrap{width:min(86vw,550px);height:min(39vw,240px,36dvh);min-width:220px;min-height:125px}.label{margin:0}.tools button{padding:7px}.prompt{font-size:12px}}
-html:has(#practice.active),body:has(#practice.active){height:100%;overflow:hidden!important;overscroll-behavior:none}body:has(#practice.active){height:100dvh;display:flex;flex-direction:column}body:has(#practice.active) header{flex:none;padding:5px 10px}body:has(#practice.active) main{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;padding:4px 8px}body:has(#practice.active) .practice.active{min-height:0;gap:5px}body:has(#practice.active) .panel{min-height:0;gap:3px;padding:8px}body:has(#practice.active) .canvas-wrap{max-height:34dvh;min-height:105px}body:has(#practice.active) .canvas-wrap.english{width:min(67vw,34dvh);height:min(67vw,34dvh)}body:has(#practice.active) .tools{gap:5px}body:has(#practice.active) .tools button{padding:8px 11px}body:has(#practice.active) .label{font-size:clamp(19px,4vw,27px);margin:3px}</style><link rel="stylesheet" href="./joiland-theme-v11.css"></head><body><header><a id="home" href="./academy.html?subject=math">⌂ 학습관</a><h1 id="title">✏️ 숫자 쓰기</h1></header><main><section id="menu"><div class="first-panel"><h2 id="headline">어떤 숫자를 써볼까?</h2><p>그림에 표시된 ① 출발점부터 화살표 방향으로 따라 써요. 한 획씩 천천히!</p></div><div class="choices" id="choices"></div><div class="note" id="note"></div></section><section class="practice" id="practice"><div class="practice-head"><button id="back">‹ 다른 글자</button><span class="progress" id="progress">1/1</span></div><div class="panel"><h2 class="label" id="target">1</h2><div class="reading" id="reading"></div><div class="canvas-wrap"><svg class="guide" id="guide" viewBox="0 0 600 300" preserveAspectRatio="none"></svg><canvas id="ink"></canvas></div><div class="prompt">🔴 ①부터 시작해서 점선과 화살표를 따라 써봐!</div><div class="tools"><button id="hear">🔊 읽어줘</button><button id="clear">↻ 다시 쓰기</button><button class="check" id="check">✓ 다 썼어요</button></div><div class="feedback" id="feedback" role="status"></div></div></section></main><script>
+*{box-sizing:border-box}body{margin:0;min-height:100dvh;background:radial-gradient(circle at 10% 15%,#fff1ba,transparent 43%),radial-gradient(circle at 80% 90%,#d0fcff,transparent 50%),#f1ebff;color:#403068;font-family:"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;font-weight:850}button{cursor:pointer;touch-action:manipulation;font:inherit;border:0}header{max-width:920px;margin:auto;display:flex;align-items:center;gap:9px;padding:9px 12px}header a{background:#fff;padding:11px;border-radius:14px;text-decoration:none;color:#5f4b98;font-size:14px}h1{font-size:clamp(19px,4.5vw,29px);margin:0}main{margin:0 auto;max-width:890px;padding:4px 12px 25px}button:focus-visible{outline:3px solid #45a7cf;outline-offset:3px}.choices{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}.pick{min-height:65px;border:4px solid white;border-radius:20px;background:var(--col,#f8e5ff);box-shadow:0 5px 0 #d1c6e3;color:#463373;font-size:clamp(18px,4vw,27px);font-weight:950}.pick.word{font-size:clamp(15px,3vw,21px)}.pick.alphabet{grid-column:span 2;min-height:78px;font-size:clamp(14px,3vw,22px);background:linear-gradient(130deg,#ffedbb,#e6e2ff)}.pick.group{font-size:clamp(16px,3vw,24px)}.canvas-wrap.english{width:min(82vw,370px,43dvh);height:min(82vw,370px,43dvh)}.canvas-wrap.english.word-whole{width:min(92vw,680px);height:min(45vw,270px,38dvh);min-width:245px}.note{text-align:center;padding:12px;font-size:15px}.practice{display:none}.practice.active{display:flex;flex-direction:column;align-items:center;gap:9px}.practice-head{width:100%;display:flex;justify-content:space-between;align-items:center}.practice-head button,.action{background:#fff;border-radius:16px;padding:10px 14px;color:#5d4396;font-weight:950}.panel{background:linear-gradient(115deg,#fffdf7,#eafbff);border:6px solid #fff;border-radius:29px;box-shadow:0 9px 0 #d5c5e7;width:100%;padding:clamp(10px,3vw,22px);display:flex;flex-direction:column;align-items:center;gap:7px}.label{font-size:clamp(22px,5vw,33px);margin:5px}.reading{font-size:16px;color:#8263a6}.canvas-wrap{position:relative;touch-action:none;border:5px solid #f5d7a0;border-radius:24px;background:#fff;overflow:hidden;width:min(90vw,650px);height:min(45vw,300px,43dvh);min-width:245px;min-height:170px;box-shadow:0 7px 0 #e1bb81}.guide{width:100%;height:100%;position:absolute;inset:0;pointer-events:none}canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;display:block}.prompt{text-align:center;color:#7c6f9a;font-size:14px}.tools{display:flex;justify-content:center;gap:9px;flex-wrap:wrap}.tools button{border-radius:17px;padding:11px 14px;background:#f4e7ff;color:#593d9e;box-shadow:0 4px 0 #d4bbf0}.tools .check{background:#28bca7;color:#fff;box-shadow:0 4px 0 #159687}.feedback{font-size:16px;text-align:center;min-height:26px;color:#38896c}.hidden{display:none!important}.progress{padding:9px;background:#fff2b0;border-radius:18px}.more{display:flex;justify-content:center;margin:14px;gap:7px;flex-wrap:wrap}.more button{padding:12px;border-radius:16px;background:#fff;color:#5c4689}.first-panel{margin-bottom:18px;background:linear-gradient(120deg,#fff1bb,#ebdbff);padding:15px;border:5px solid white;border-radius:25px}.first-panel h2{margin:0}.first-panel p{margin:5px 0;color:#7c6991}@media(max-height:690px){header{padding:5px}.panel{padding:8px}.canvas-wrap{width:min(86vw,550px);height:min(39vw,240px,36dvh);min-width:220px;min-height:125px}.label{margin:0}.tools button{padding:7px}.prompt{font-size:12px}}
+html:has(#practice.active),body:has(#practice.active){height:100%;overflow:hidden!important;overscroll-behavior:none}body:has(#practice.active){height:100dvh;display:flex;flex-direction:column}body:has(#practice.active) header{flex:none;padding:5px 10px}body:has(#practice.active) main{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;padding:4px 8px}body:has(#practice.active) .practice.active{min-height:0;gap:5px}body:has(#practice.active) .panel{min-height:0;gap:3px;padding:8px}body:has(#practice.active) .canvas-wrap{max-height:34dvh;min-height:105px}body:has(#practice.active) .canvas-wrap.english{width:min(67vw,34dvh);height:min(67vw,34dvh)}body:has(#practice.active) .canvas-wrap.english.word-whole{width:min(92vw,680px);height:min(40vw,270px,34dvh)}body:has(#practice.active) .tools{gap:5px}body:has(#practice.active) .tools button{padding:8px 11px}body:has(#practice.active) .label{font-size:clamp(19px,4vw,27px);margin:3px}</style><link rel="stylesheet" href="./joiland-theme-v11.css"></head><body><header><a id="home" href="./academy.html?subject=math">⌂ 학습관</a><h1 id="title">✏️ 숫자 쓰기</h1></header><main><section id="menu"><div class="first-panel"><h2 id="headline">어떤 숫자를 써볼까?</h2><p>그림에 표시된 ① 출발점부터 화살표 방향으로 따라 써요. 한 획씩 천천히!</p></div><div class="choices" id="choices"></div><div class="note" id="note"></div></section><section class="practice" id="practice"><div class="practice-head"><button id="back">‹ 다른 글자</button><span class="progress" id="progress">1/1</span></div><div class="panel"><h2 class="label" id="target">1</h2><div class="reading" id="reading"></div><div class="canvas-wrap"><svg class="guide" id="guide" viewBox="0 0 600 300" preserveAspectRatio="none"></svg><canvas id="ink"></canvas></div><div class="prompt" id="writing-prompt">🔴 ①부터 시작해서 점선과 화살표를 따라 써봐!</div><div class="tools"><button id="hear">🔊 읽어줘</button><button id="clear">↻ 다시 쓰기</button><button class="check" id="check">✓ 다 썼어요</button></div><div class="feedback" id="feedback" role="status"></div></div></section></main><script>
 (function(){'use strict';
 const q=new URLSearchParams(location.search),mode=q.get('mode')==='english'?'english':'numbers',words=['CAT','DOG','SUN','CAR','BUS','RED','BLUE','PEN','GO','HI','ONE','TWO'],upper='ABCDEFGHIJKLMNOPQRSTUVWXYZ',lower='abcdefghijklmnopqrstuvwxyz',groups=Array.from({length:10},(_,i)=>({label:(i*10+1)+'~'+((i+1)*10),values:Array.from({length:10},(_,j)=>i*10+j+1)}));const opts=mode==='english'?[{label:'🔠 대문자 A~Z',kind:'upper',value:upper},{label:'🔡 소문자 a~z',kind:'lower',value:lower},...words.map(value=>({label:value,kind:'word',value}))]:groups;
-document.getElementById('home').href='./academy.html?subject='+(mode==='english'?'english':'math');document.getElementById('title').textContent=mode==='english'?'🔤 영어 단어 쓰기':'🔢 숫자 쓰기';document.getElementById('headline').textContent=mode==='english'?'좋아하는 영어 단어를 써보자!':'숫자를 천천히 따라 써보자!';document.getElementById('note').textContent=mode==='english'?'대문자 A~Z · 소문자 a~z를 순서대로 따라 쓰고, 단어도 연습해요. 획순과 방향까지 확인해요.':'1~10부터 91~100까지, 10개씩 이어서 따라 써요.';
+document.getElementById('home').href='./academy.html?subject='+(mode==='english'?'english':'math');document.getElementById('title').textContent=mode==='english'?'🔤 영어 단어 쓰기':'🔢 숫자 쓰기';document.getElementById('headline').textContent=mode==='english'?'좋아하는 영어 단어를 써보자!':'숫자를 천천히 따라 써보자!';document.getElementById('note').textContent=mode==='english'?'대문자 A~Z · 소문자 a~z를 순서대로 따라 쓰고, 단어도 연습해요. 획수와 순서보다 글자 모양을 보고 칭찬해요.':'1~10부터 91~100까지, 10개씩 이어서 따라 써요.';
 const koreanNums=['영','일','이','삼','사','오','육','칠','팔','구','십'];function koreanNum(n){if(n<=10)return koreanNums[n];if(n===100)return'백';if(n%10===0)return(koreanNums[n/10]==='일'?'':koreanNums[n/10])+'십';const tens=Math.floor(n/10),units=n%10;return(tens===1?'':koreanNums[tens])+'십'+koreanNums[units];}
 function voice(t){try{if(JSON.parse(localStorage.getItem("hangul-starland-v1")||"{}").sound===false)return;}catch(e){}if(!('speechSynthesis'in window))return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang=mode==='english'?'en-US':'ko-KR';u.rate=.86;u.pitch=1.03;const v=speechSynthesis.getVoices().filter(x=>x.lang.startsWith(u.lang.slice(0,2)));u.voice=v.find(x=>/natural|neural|google/i.test(x.name))||v[0]||null;speechSynthesis.speak(u);}catch(e){}}
 const digit={
@@ -51,7 +51,7 @@ x:['M110 151 L204 225','M204 151 L110 225'],
 y:['M107 151 L153 225','M203 151 L150 257 Q137 270 113 262'],
 z:['M111 151 L207 151 L110 225 L208 225']
 };
-let selection=null,selectionKind='word',index=0,trace=[],drawn=[],down=false,last=null;const $=s=>document.getElementById(s);
+let selection=null,selectionKind='word',index=0,wholeWord=false,trace=[],drawn=[],down=false,last=null;const $=s=>document.getElementById(s);
 const svgNS='http://www.w3.org/2000/svg';function createSvg(tag,attrs){const e=document.createElementNS(svgNS,tag);for(const [k,v]of Object.entries(attrs))e.setAttribute(k,v);return e;}
 
 function glyphs(value){
@@ -61,9 +61,9 @@ function glyphs(value){
 }
 function drawGuide(value){
  const guide=$('guide');guide.innerHTML='';
- guide.setAttribute('viewBox',mode==='english'?'0 0 300 300':'0 0 600 300');
+ guide.setAttribute('viewBox',mode==='english'&&!wholeWord?'0 0 300 300':'0 0 600 300');
  let result=[],number=0;
- for(const g of mode==='english'?[{ox:0,scale:1,paths:letters[value]||smallLetters[value]||[]}]:glyphs(value)){
+ for(const g of mode==='english'&&!wholeWord?[{ox:0,scale:1,paths:letters[value]||smallLetters[value]||[]}]:glyphs(value)){
  const container=createSvg('g',{transform:'translate('+g.ox+' 0) scale('+g.scale+')'});guide.appendChild(container);
  for(const d of g.paths){
  number++;const path=createSvg('path',{d,fill:'none',stroke:'#b5b2cc','stroke-width':17,'stroke-linecap':'round','stroke-dasharray':'2 21'});
@@ -79,17 +79,17 @@ function drawGuide(value){
 }
 let guidePaths=[];function resetCanvas(){const canvas=$('ink'),rect=canvas.getBoundingClientRect(),scale=window.devicePixelRatio||1;canvas.width=Math.round(rect.width*scale);canvas.height=Math.round(rect.height*scale);const ctx=canvas.getContext('2d');ctx.scale(scale,scale);ctx.lineCap='round';ctx.lineJoin='round';ctx.lineWidth=Math.max(10,rect.width/21);ctx.strokeStyle='#5a64dc';trace=[];drawn=[];}
 
-function value(){return mode==='numbers'?selection[index]:[...String(selection)][index];}
+function value(){return mode==='numbers'?selection[index]:(wholeWord?selection:[...String(selection)][index]);}
 function show(){
  const v=value();$('menu').classList.add('hidden');$('practice').classList.add('active');
- $('target').textContent=v;$('reading').textContent=mode==='english'?(selectionKind==='upper'?'대문자 '+(index+1)+'/26':selectionKind==='lower'?'소문자 '+(index+1)+'/26':'영어 단어 '+selection):'숫자 읽기: '+koreanNum(Number(v));
- $('progress').textContent=(index+1)+' / '+(mode==='numbers'?selection.length:[...String(selection)].length);
- $('feedback').textContent='';
- $('ink').parentElement.classList.toggle('english',mode==='english');
+ $('target').textContent=v;$('reading').textContent=mode==='english'?(selectionKind==='upper'?'대문자 '+(index+1)+'/26':selectionKind==='lower'?'소문자 '+(index+1)+'/26':wholeWord?'이제 '+selection+'를 한 번에 이어서 써봐요!':'영어 단어 '+selection+' · 한 글자씩'):'숫자 읽기: '+koreanNum(Number(v));
+ $('progress').textContent=wholeWord?'단어 전체 쓰기':(index+1)+' / '+(mode==='numbers'?selection.length:[...String(selection)].length);
+ $('feedback').textContent='';$('writing-prompt').textContent=mode==='english'?'획수나 순서는 자유롭게! 점선 위에 글자 모양을 만들어 봐요.':'🔴 ①부터 시작해서 점선과 화살표를 따라 써봐!';
+ $('ink').parentElement.classList.toggle('english',mode==='english');$('ink').parentElement.classList.toggle('word-whole',wholeWord);
  guidePaths=drawGuide(String(v));requestAnimationFrame(resetCanvas);
  voice(mode==='english'?v:koreanNum(Number(v)));
 }
-function pick(v){selection=mode==='numbers'?v.values:v.value;selectionKind=mode==='numbers'?'numbers':v.kind;index=0;show();}
+function pick(v){selection=mode==='numbers'?v.values:v.value;selectionKind=mode==='numbers'?'numbers':v.kind;index=0;wholeWord=false;show();}
 $('choices').innerHTML=opts.map((v,i)=>'<button class="pick '+(mode==='english'?(v.kind==='word'?'word':'alphabet'):'group')+'" style="--col:'+['#fff1d6','#e5f8ff','#e9ffea','#fbeaff'][i%4]+'" data-i="'+i+'">'+(mode==='english'?v.label:v.label)+'</button>').join('');
 $('choices').onclick=e=>{const b=e.target.closest('[data-i]');if(b)pick(opts[+b.dataset.i]);};
 const canvas=$('ink');function toLocal(e){const r=canvas.getBoundingClientRect();return{x:(e.clientX-r.left),y:(e.clientY-r.top)};}
@@ -98,10 +98,10 @@ canvas.addEventListener('pointermove',e=>{if(!down)return;const p=toLocal(e),ctx
 canvas.addEventListener('pointerup',e=>{if(down&&drawn.length){drawn[drawn.length-1].push(toLocal(e));}down=false;});canvas.addEventListener('pointercancel',()=>{down=false;drawn.pop();});
 
 
-/* 획순·출발점·종료점·방향·선 일치도를 각각 검증합니다.
-   실제 작성한 한 획을 안내된 한 획과 1:1로 대응시키며 순서를 바꿀 수 없습니다. */
+/* 영어는 획수와 획순을 따지지 않고 전체 글자 형태를 비교합니다.
+   채점 기준: 안내 경로를 충분히 덮으면서, 엉뚱한 낙서로 넓게 벗어나지 않았는지.
+   시작/종료점이나 획이 분리된 여부는 채점하지 않습니다. */
 function evaluateWriting(){
- // 기존 숫자 연습은 원래 판정 방식으로 유지하여 범위 밖의 회귀를 방지합니다.
  if(mode==='numbers'){
   const rect=canvas.getBoundingClientRect(),points=drawn.flat();
   if(!points.length)return {ok:false,reason:'점선을 조금 더 따라 써봐요.'};
@@ -116,47 +116,48 @@ function evaluateWriting(){
   }));
   return {ok:ratio>=.43,reason:'점선을 조금 더 따라 써봐요.'};
  }
- const target=guidePaths,actual=drawn.filter(st=>st.length>=2);
- if(actual.length!==target.length)return {ok:false,reason:'①부터 순서대로, 안내된 '+target.length+'획을 각각 그려 봐요. (현재 '+actual.length+'획)'};
- const rect=canvas.getBoundingClientRect(),vw=mode==='english'?300:600;
- function pxy(p){return {x:p.x*vw/rect.width,y:p.y*300/rect.height};}
- for(let i=0;i<target.length;i++){
-  const g=target[i],stroke=actual[i].map(pxy),ref=[];
-  const samples=Math.max(14,Math.ceil(g.length/8));
-  for(let n=0;n<=samples;n++){
-   const p=g.path.getPointAtLength(g.length*n/samples);
-   ref.push({x:g.ox+g.scale*p.x,y:g.scale*p.y});
+ const width=wholeWord?600:300,rect=canvas.getBoundingClientRect();
+ if(!rect.width||!rect.height||!guidePaths.length)return {ok:false,reason:'글자를 다시 선택해 주세요.'};
+ const raw=drawn.flat();
+ if(raw.length<3)return {ok:false,reason:'글자를 따라 좀 더 그려 볼까요?'};
+ // 브라우저 이벤트 간격과 손가락 속도의 영향을 줄이도록 선분을 보간해 샘플링
+ const actual=[];
+ for(const stroke of drawn){
+  for(let i=0;i<stroke.length;i++){
+   const a=stroke[i],b=stroke[i+1]||a;
+   const d=Math.hypot(b.x-a.x,b.y-a.y),steps=Math.max(1,Math.ceil(d/3));
+   for(let j=0;j<steps;j++)actual.push({x:(a.x+(b.x-a.x)*j/steps)*width/rect.width,y:(a.y+(b.y-a.y)*j/steps)*300/rect.height});
   }
-  const gap=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
-  const allowance=Math.max(16,Math.min(24,18/g.scale));
-  if(gap(stroke[0],ref[0])>allowance)return {ok:false,reason:(i+1)+'번 획의 ① 출발점에서 시작해 봐요.'};
-  if(gap(stroke.at(-1),ref.at(-1))>allowance)return {ok:false,reason:(i+1)+'번 획의 마지막 지점까지 그려 봐요.'};
-  let covered=0,close=0;
-  for(const p of ref)if(stroke.some(q=>gap(p,q)<=allowance))covered++;
-  for(const p of stroke)if(ref.some(q=>gap(p,q)<=allowance*1.3))close++;
-  if(covered/ref.length<.83)return {ok:false,reason:(i+1)+'번 획의 점선을 끝까지 따라 써봐요.'};
-  if(close/stroke.length<.78)return {ok:false,reason:(i+1)+'번 획이 점선에서 벗어났어요. 다시 따라 써봐요.'};
-  // 안내 경로의 25%→50%→75% 지점을 실제 필기에서 같은 순서로 통과해야 합니다.
-  if(g.length*g.scale>=90){
-   let previous=-1;
-   for(const frac of [.25,.5,.75]){
-    const p=ref[Math.round(frac*samples)];
-    const index=stroke.findIndex((q,j)=>j>previous&&gap(p,q)<=Math.min(15,allowance));
-    if(index<0)return {ok:false,reason:(i+1)+'번 획은 화살표 방향대로 따라 써봐요.'};
-    previous=index;
-   }
-  }
-  let userLen=0;for(let k=1;k<stroke.length;k++)userLen+=gap(stroke[k-1],stroke[k]);
-  const expectedLen=g.length*g.scale;
-  if(expectedLen>=12&&(userLen<expectedLen*.72||userLen>expectedLen*2.2))return {ok:false,reason:(i+1)+'번 획을 한번에 천천히 따라 써봐요.'};
  }
+ if(actual.length<8)return {ok:false,reason:'점선을 조금 더 따라 써봐요.'};
+ const expected=[];for(const g of guidePaths){
+  const step=Math.max(1,Math.ceil(g.length/5));
+  for(let j=0;j<=step;j++){
+   const p=g.path.getPointAtLength(g.length*j/step);
+   expected.push({x:g.ox+g.scale*p.x,y:g.scale*p.y});
+  }
+ }
+ if(!expected.length)return {ok:false,reason:'글자 안내를 다시 불러와 주세요.'};
+ // 글자 전체가 빠짐없이 형성됐는지: 완전한 낙서/짧은 선은 통과하지 못함
+ const allowance=wholeWord?19:25;
+ const dist2=(a,b)=>{const x=a.x-b.x,y=a.y-b.y;return x*x+y*y};
+ const near=(p,points,tol)=>points.some(q=>dist2(p,q)<=tol*tol);
+ let covered=0;for(const p of expected)if(near(p,actual,allowance))covered++;
+ let onTrack=0;for(const p of actual)if(near(p,expected,allowance*1.55))onTrack++;
+ const coverage=covered/expected.length,precision=onTrack/actual.length;
+ const xs=actual.map(p=>p.x),ys=actual.map(p=>p.y),ex=expected.map(p=>p.x),ey=expected.map(p=>p.y);
+ const spreadX=(Math.max(...xs)-Math.min(...xs))/(Math.max(...ex)-Math.min(...ex)||1);
+ const spreadY=(Math.max(...ys)-Math.min(...ys))/(Math.max(...ey)-Math.min(...ey)||1);
+ if(coverage<.62||spreadX<.52||spreadY<.50)return {ok:false,reason:'글자의 위·아래·양쪽을 조금 더 채워 봐요.'};
+ if(precision<.60)return {ok:false,reason:'점선 주변으로 글자 모양을 만들어 봐요.'};
  return {ok:true};
 }
 $('check').onclick=()=>{
  const result=evaluateWriting();
  if(!result.ok){$('feedback').textContent=result.reason+' 💛';voice('점선과 화살표를 따라서 다시 써봐요.');return;}
  const total=mode==='numbers'?selection.length:[...String(selection)].length;
- if(index<total-1){index++;show();}
+ if(!wholeWord&&index<total-1){index++;show();}
+ else if(mode==='english'&&selectionKind==='word'&&!wholeWord){wholeWord=true;show();$('feedback').textContent='🌟 잘했어! 이제 단어 전체를 써보자!';}
  else{
  $('feedback').textContent='🌟 와아! 모두 잘 썼어요!';voice('참 잘했어요!');
  try{const key='joiland-writing-'+mode,prev=JSON.parse(localStorage.getItem(key)||'[]'),mark=mode==='numbers'?selection[0]+'-'+selection.at(-1):selectionKind+':'+selection;if(!prev.includes(mark)){prev.push(mark);localStorage.setItem(key,JSON.stringify(prev));}}catch(e){}
