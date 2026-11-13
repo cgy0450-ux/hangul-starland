@@ -101,6 +101,21 @@ canvas.addEventListener('pointerup',e=>{if(down&&drawn.length){drawn[drawn.lengt
 /* 획순·출발점·종료점·방향·선 일치도를 각각 검증합니다.
    실제 작성한 한 획을 안내된 한 획과 1:1로 대응시키며 순서를 바꿀 수 없습니다. */
 function evaluateWriting(){
+ // 기존 숫자 연습은 원래 판정 방식으로 유지하여 범위 밖의 회귀를 방지합니다.
+ if(mode==='numbers'){
+  const rect=canvas.getBoundingClientRect(),points=drawn.flat();
+  if(!points.length)return {ok:false,reason:'점선을 조금 더 따라 써봐요.'};
+  const ratio=Math.min(...guidePaths.map(part=>{
+   let hit=0,total=0;const steps=Math.max(1,Math.ceil(part.length/9));
+   for(let j=0;j<=steps;j++){
+    const p=part.path.getPointAtLength(part.length*j/steps);
+    const x=(part.ox+part.scale*p.x)*rect.width/600,y=part.scale*p.y*rect.height/300;
+    total++;if(points.some(q=>Math.hypot(x-q.x,y-q.y)<Math.max(15,rect.height*.10)))hit++;
+   }
+   return total?hit/total:0;
+  }));
+  return {ok:ratio>=.43,reason:'점선을 조금 더 따라 써봐요.'};
+ }
  const target=guidePaths,actual=drawn.filter(st=>st.length>=2);
  if(actual.length!==target.length)return {ok:false,reason:'①부터 순서대로, 안내된 '+target.length+'획을 각각 그려 봐요. (현재 '+actual.length+'획)'};
  const rect=canvas.getBoundingClientRect(),vw=mode==='english'?300:600;
