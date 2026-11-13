@@ -25,7 +25,10 @@ const requests=fs.readFileSync('requests.html','utf8');
 const collect=fs.readFileSync('car-collect.html','utf8');
 const dodge=fs.readFileSync('car-dodge.html','utf8');
 const firetruck=fs.readFileSync('firetruck-rescue.html','utf8');
-for(const [name,code] of [['car-collect.html',collect],['car-dodge.html',dodge],['firetruck-rescue.html',firetruck]]){
+const adventure=fs.readFileSync('adventure.html','utf8');
+const gate=fs.readFileSync('word-gate.js','utf8');
+new vm.Script(gate,{filename:'word-gate.js'});
+for(const [name,code] of [['car-collect.html',collect],['car-dodge.html',dodge],['firetruck-rescue.html',firetruck],['adventure.html',adventure]]){
  const script=code.match(/<script>([\s\S]*?)<\/script>/);
  assert(script,name+' must have executable game script');
  new vm.Script(script[1],{filename:name});
@@ -42,6 +45,19 @@ assert(firetruck.includes("localStorage.setItem('joiland-firetruck-saved'"),'fir
 assert(collect.includes('const LEVELS=[40,100,200,350]'),'collectible car pacing must use wider goals');
 assert(sw.includes('firetruck-rescue.html'),'offline manifest must cache firetruck');
 assert(firetruck.includes('const MORE_SCENES=')&&firetruck.includes('STAGES.push(...MORE_SCENES)'),'extended rescue missions missing');
+assert(firetruck.includes('function drawFriendInWindow()'),'rescued animal must visibly wait at a building window');
+assert(firetruck.includes('function drawHelicopter()')&&firetruck.includes("rr(-50,-17,96,38"),'large illustrated helicopter missing');
+assert(firetruck.includes('water=100')&&firetruck.includes('water-27*dt')&&firetruck.includes('waterCooldown'),'finite water supply or hydrant refill missing');
+assert(firetruck.includes("window.JoyiWordGate.start('소방차'"),'firetruck must require writing 소방차 before advancing');
+assert(collect.includes("window.JoyiWordGate.start('자동차'"),'car collectibles must require writing 자동차');
+assert(dodge.includes("window.JoyiWordGate.start('자동차'"),'car racing must require writing 자동차');
+assert(gate.includes('function good()')&&gate.includes('function start(word,success'),'child-friendly word handwriting evaluator missing');
+assert(adventure.includes('dino:')&&adventure.includes('space:')&&adventure.includes('animal:'),'all three new adventure types required');
+assert(adventure.includes('window.JoyiWordGate.start(config.word'),'new adventures must gate stages with their appropriate Hangul words');
+assert(['dino','space','animal'].every(x=>requests.includes('href="./adventure.html?game='+x+'"')),'adventures missing from requested games menu');
+assert(sw.includes('word-gate.js')&&sw.includes('adventure.html'),'PWA offline cache must include new adventures and writing');
+assert(shared.includes("if(page==='adventure.html')")&&shared.includes('if(wasPlaying)elapsed+='),'five-minute clock must span multiple stages');
+
 assert(firetruck.includes('사건발생! 사건발생! 화재가 발생했다! 소방차는 출동하라!'),'exact dispatch line missing');
 assert(['hydrant','helicopter','ladder'].every(x=>firetruck.includes('id="'+x+'"')),'rescue equipment missing');
 assert(firetruck.includes('joiland-firetruck-friends'),'animal rescue book missing');
