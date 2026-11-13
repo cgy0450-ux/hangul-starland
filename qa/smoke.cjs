@@ -48,6 +48,8 @@ assert(firetruck.includes('joiland-firetruck-friends'),'animal rescue book missi
 assert(collect.includes('function pickupSound('),'collectible pickup audio missing');
 const shared=fs.readFileSync('joiland-unified.js','utf8');new vm.Script(shared,{filename:'joiland-unified.js'});
 assert(shared.includes('5분 놀이 성공')&&shared.includes('joyi-nav-back'),'shared navigation or trophy absent');
+assert(shared.includes('function reconcileHeader()'),'shared navigation should remove duplicate Home links');
+assert(shared.includes('top:calc(env(safe-area-inset-top'),'trophy countdown must avoid mobile bottom actions');
 for(const p of ['legacy.html','journey.html','academy.html','writing.html','requests.html','car-collect.html','car-dodge.html','firetruck-rescue.html','stories.html','mazes.html','finance.html','coding-lab.html','parent.html'])assert(fs.readFileSync(p,'utf8').includes('src="./joiland-unified.js"'),'missing unified navigation on '+p);
 
 
@@ -67,6 +69,14 @@ assert(index.includes("./finance.html")&&index.includes("./requests.html"),'subj
 assert(index.includes('🔊 소리 듣기')&&!index.includes('🔊 글자 소리 듣기')&&!index.includes("우주선에 타자! '${item[0]}'"),'sound quiz must not reveal correct syllable in prompt');
 assert(index.includes('joy-playing')&&academy.includes('body.playing{height:100dvh'),'game-only page scroll lock missing');
 assert(index.includes('dayShuffle(mode,WORDS)'),'daily Hangul decks missing');
+assert(index.includes("'ㅈ':[[[16,23],[84,23]],[[51,23],[18,83]],[[51,23],[83,83]]]"),'ㅈ stroke geometry must have one horizontal and two separate diagonal strokes');
+assert(index.includes("'ㅊ':[[[32,12],[68,12]],[[17,35],[83,35]],[[51,35],[19,84]],[[51,35],[81,84]]]"),'ㅊ stroke geometry must have correct four strokes');
+assert(index.includes('body.joy-playing:has(.trace-layout) .mainpanel'),'handwriting screen must allow independent mobile scrolling');
+assert(index.includes('overflow-y:auto!important'),'handwriting area must scroll instead of clipping buttons');
+assert(index.includes('position:relative!important;bottom:auto!important'),'trace navigation must not overlap bottom instructions');
+assert(home.includes('id="quick-start-premium"'),'home needs refreshed touch-friendly buttons');
+assert(!firetruck.includes('친구가 고마워하고 있어요.\\\\n구조한 현장'),'rescue message must not display a literal backslash-n');
+
 assert(!index.includes('<script src="./bgm.js'),'background music must be removed from home');
 assert(!academy.includes('<script src="./bgm.js'),'background music must be removed from games');
 assert(!stories.includes('<script src="./bgm.js'),'background music must be removed from books');
