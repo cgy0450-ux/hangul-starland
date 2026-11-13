@@ -24,7 +24,8 @@ const finance=fs.readFileSync('finance.html','utf8');
 const requests=fs.readFileSync('requests.html','utf8');
 const collect=fs.readFileSync('car-collect.html','utf8');
 const dodge=fs.readFileSync('car-dodge.html','utf8');
-for(const [name,code] of [['car-collect.html',collect],['car-dodge.html',dodge]]){
+const firetruck=fs.readFileSync('firetruck-rescue.html','utf8');
+for(const [name,code] of [['car-collect.html',collect],['car-dodge.html',dodge],['firetruck-rescue.html',firetruck]]){
  const script=code.match(/<script>([\s\S]*?)<\/script>/);
  assert(script,name+' must have executable game script');
  new vm.Script(script[1],{filename:name});
@@ -33,6 +34,14 @@ assert(requests.includes('href="./car-collect.html"')&&requests.includes('href="
 assert(collect.includes('const CARS=')&&collect.includes('joiland-car-total')&&collect.includes('joiland-car-selected'),'unlockable cars missing');
 assert(collect.includes('const DIFFICULTY=')&&collect.includes('const FREQUENCY=')&&collect.includes('function sparkle(')&&collect.includes('function celebrate('),'difficulty, frequency or pickup rewards missing');
 assert(sw.includes('car-collect.html')&&sw.includes('car-dodge.html'),'offline manifest must cache both car games');
+assert(requests.includes('href="./firetruck-rescue.html"'),'firetruck missing from requests menu');
+assert(firetruck.includes('function frame(ms)')&&firetruck.includes('function win()')&&firetruck.includes('function makeScene()'),'firetruck game loop or round progression missing');
+assert(firetruck.includes('pointerdown')&&firetruck.includes('pointermove')&&firetruck.includes('pointercancel'),'firetruck touch aiming incomplete');
+assert(firetruck.includes('function burst(')&&firetruck.includes('function splash(')&&firetruck.includes('function voice('),'firetruck quality effects missing');
+assert(firetruck.includes("localStorage.setItem('joiland-firetruck-saved'"),'firetruck progress persistence missing');
+assert(collect.includes('const LEVELS=[40,100,200,350]'),'collectible car pacing must use wider goals');
+assert(sw.includes('firetruck-rescue.html'),'offline manifest must cache firetruck');
+
 
 const checkData={window:{}};vm.runInNewContext(curated,checkData);
 for(const sub of ['history','coding']){const lessons=checkData.window.JOY_CURATED[sub];assert.equal(lessons.length,sub==='history'?10:9);for(const [i,rows] of lessons.entries()){assert(rows.length>=5,sub+' '+i+' has too few questions');for(const q of rows){assert.equal(q.length,6,'unreviewed question '+sub+i);assert.equal(new Set(q.slice(2)).size,4,'ambiguous or duplicate answer '+sub+i);assert(!q.slice(2).some(a=>['없어요','잘 모르겠어요','다른 것'].includes(a)),'vague distractor '+sub+i);}}}
