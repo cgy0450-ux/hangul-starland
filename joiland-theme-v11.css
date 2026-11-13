@@ -19,3 +19,21 @@ body:not(.playing) .hero:after{content:"✦";position:absolute;top:12%;right:19%
 @keyframes joyi-shine{50%{transform:rotate(17deg) scale(1.25);opacity:.42}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
 @media(max-width:420px){.subject{border-radius:22px}.hero{border-radius:26px}}
+
+/* Joiland Studio v12 — a consistent original storybook interface. */
+:root{--joyi-purple:#50627e;--joyi-ink:#293a54;--joyi-peach:#f9e5da;--joyi-lemon:#f8edce;--joyi-mint:#ddf3eb;--joyi-blue:#d7ebf5;--joyi-shadow:#536d8420}
+body{background-color:#f4f4f0;letter-spacing:-.035em;accent-color:#71bfa7;color:var(--joyi-ink)}
+button,a{transition:box-shadow .16s ease,transform .16s ease}
+button:active,a:active{transform:translateY(2px)}
+button:focus-visible,a:focus-visible{outline:3px solid #66b8a4;outline-offset:3px}
+.subject,.tile,.card,.module,.paper,.sheet,.panel{box-shadow:0 13px 26px #506a7c17;border-color:#ffffffef}
+.subject,.tile,.card,.module{border-radius:23px}
+.subject:hover,.tile:hover,.card:hover{transform:translateY(-3px)}
+.pill,.btn,.choice,.ans{box-shadow:0 5px 12px #546b7e18}
+.hero,.intro{border-radius:28px}
+.subject{background:linear-gradient(142deg,#fff,#f3f8f6)!important}
+.subject::before{color:#bdd9d2}
+.subject strong,.tile strong,.module strong{color:#354660}
+.subject small,.tile small{color:#718498}
+header a,header button{box-shadow:0 4px 14px #60728217!important}
+@media(prefers-reduced-motion:reduce){button,a{transition:none}}
