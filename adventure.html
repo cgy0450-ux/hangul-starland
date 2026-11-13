@@ -18,18 +18,18 @@ dino:{heading:'🦖 공룡 알 탐험',title:'알에서 어떤 공룡이 나올�
 space:{heading:'🚀 반짝반짝 우주',title:'우주별 구조 탐험!',guide:'반짝이는 별을 찾아 눌러 보세요',word:'우주',scene:'🚀🌌',back:'#e3ddff'},
 animal:{heading:'🐰 동물 친구 돌보기',title:'아픈 동물 친구를 도와줘!',guide:'동물 친구에게 필요한 것을 찾아 주세요',word:'동물',scene:'🐶🐱',back:'#d8ffe9'}
 },config=OPTIONS[mode]||OPTIONS.dino;
-const DINOS=['🦖','🦕','🐉','🦎','🐢','🐊'],STARS=['⭐','🌟','💫','✨','🌠','🪐'],PATIENTS=[{animal:'🐰',item:'🥕',name:'토끼에게 당근을 주세요'},{animal:'🐶',item:'🦴',name:'강아지에게 뼈다귀를 주세요'},{animal:'🐱',item:'🐟',name:'고양이에게 생선을 주세요'},{animal:'🐻',item:'🍯',name:'곰에게 꿀을 주세요'},{animal:'🐵',item:'🍌',name:'원숭이에게 바나나를 주세요'},{animal:'🐘',item:'🍉',name:'코끼리에게 수박을 주세요'}];
-let stage=0,round=0,locked=false,total=0,target='',speech='',playing=true,soundOn=true,elapsed=0,finished=false,currentTask=null,raf=0,last=0;
+const DINOS=['🦖','🦕','🐉','🦎','🐢','🐊'],DINO_NAMES=['티라노사우루스','브라키오사우루스','아기 용','작은 공룡','거북 친구','악어 친구'],STARS=['⭐','🌟','💫','✨','🌠','🪐'],PATIENTS=[{animal:'🐰',item:'🥕',name:'토끼에게 당근을 주세요'},{animal:'🐶',item:'🦴',name:'강아지에게 뼈다귀를 주세요'},{animal:'🐱',item:'🐟',name:'고양이에게 생선을 주세요'},{animal:'🐻',item:'🍯',name:'곰에게 꿀을 주세요'},{animal:'🐵',item:'🍌',name:'원숭이에게 바나나를 주세요'},{animal:'🐘',item:'🍉',name:'코끼리에게 수박을 주세요'}];
+let stage=0,round=0,locked=false,total=0,target='',speech='',playing=true,soundOn=true,elapsed=0,finished=false,currentTask=null,raf=0,last=0,dinoChoice=-1,taskId=0;
 try{soundOn=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound!==false}catch(e){}
 $('heading').textContent=config.heading;$('subtitle').textContent=config.title;$('explain').textContent=config.guide;$('sound').textContent=soundOn?'🔊':'🔇';document.body.classList.add('playing');
 function say(t){if(!soundOn||!window.speechSynthesis)return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ko-KR';u.rate=.86;speechSynthesis.speak(u)}catch(e){}}
 function rand(items){return [...items].sort(()=>Math.random()-.5)}
 function newTask(){
- if(finished)return;locked=false;
+ if(finished)return;locked=false;dinoChoice=-1;taskId++;
  const n=(stage*5+round)%6;let options=[];
  if(mode==='animal'){currentTask=PATIENTS[n];target=currentTask.item;speech=currentTask.name;options=rand(['🥕','🦴','🐟','🍯','🍌','🍉']);$('scene').textContent=currentTask.animal+'💖';$('question').textContent=speech}
  else if(mode==='space'){target=STARS[n];speech=target==='🪐'?'행성을 찾아 보세요!':'반짝이는 '+target+' 별을 찾아 보세요!';options=rand(STARS);$('scene').textContent='🚀🌌';$('question').textContent=speech}
- else{target=DINOS[n];speech='알을 톡 눌러 '+(stage+1)+'번째 공룡을 찾아 볼까요?';options=['🥚','🥚','🥚','🥚','🥚','🥚'];$('scene').textContent='🥚🦕';$('question').textContent='🥚 신기한 알을 열어 보자!'}
+ else{target=DINOS[n];speech='어떤 공룡이 알에서 나올까? 알을 톡 눌러 봐!';options=['🥚','🥚','🥚','🥚','🥚','🥚'];$('scene').textContent='🥚❔';$('question').textContent='🥚 어떤 공룡이 숨어 있을까요?'}
  $('round').textContent='🌟 '+(round+1)+' / 5';$('level').textContent='🚀 '+(stage+1)+'단계 / 3';$('feedback').textContent='🐯 손가락으로 눌러 봐!';
  const board=$('tiles');board.replaceChildren();
  options.forEach((emoji,i)=>{const b=document.createElement('button');b.textContent=emoji;b.setAttribute('aria-label',mode==='dino'?'공룡 알 '+(i+1):emoji);b.onclick=()=>choose(b,emoji,i);board.append(b)});
@@ -39,11 +39,33 @@ function choose(button,emoji,i){
  if(locked)return;
  if(mode!=='dino'&&emoji!==target){button.classList.add('wrong');$('feedback').textContent='좋아! 다른 아이템을 찾아 볼까?';say('다른 친구도 찾아 보자!');setTimeout(()=>button.classList.remove('wrong'),500);return}
  locked=true;total++;
- button.textContent=mode==='dino'?DINOS[(stage*5+round+i)%DINOS.length]+'🌈':emoji+'💛';button.classList.add('correct');$('feedback').textContent='✨ 성공! 정말 멋져!';say('와아! 정말 잘했어!');
- setTimeout(()=>{if(!playing)return;if(++round<5){newTask();return}playing=false;document.body.classList.remove('playing');say('멋지게 성공! '+config.word+'를 써 볼까?');
- if(window.JoyiWordGate)window.JoyiWordGate.start(config.word,advance,{onCancel:()=>{playing=false;$('feedback').textContent='✍️ 다음 단계로 가려면 글씨 쓰기를 끝내 주세요!';$('repeat').textContent='✍️ 글씨 쓰기 계속';$('repeat').onclick=()=>window.JoyiWordGate.start(config.word,advance)}});
- else advance();
- },650)
+ if(mode==='dino'){
+  // Reveal a real dinosaur immediately at the place where the child tapped the egg.
+  const creatureIndex=(stage*5+round+i)%DINOS.length;
+  button.textContent=DINOS[creatureIndex];button.classList.add('correct');
+  dinoChoice=creatureIndex;
+  $('scene').textContent=DINOS[creatureIndex]+'🌈';
+  $('question').textContent='🎉 '+DINO_NAMES[creatureIndex]+' 발견!';
+  $('feedback').textContent='🦖 짜잔! 공룡이 나왔어요!';
+  // Other eggs remain tappable only on the next puzzle, not during reveal.
+  $('tiles').querySelectorAll('button').forEach(b=>{if(b!==button)b.style.opacity='.36';b.disabled=true});
+  say('짜잔! '+DINO_NAMES[creatureIndex]+'가 나왔어!');
+ }else{
+  button.textContent=emoji+'💛';button.classList.add('correct');
+  $('scene').textContent=mode==='animal'?currentTask.animal+' '+currentTask.item+' 💖':'🚀 '+target+' ✨';
+  $('feedback').textContent='✨ 성공! 정말 멋져!';
+  say('와아! 정말 잘했어!');
+ }
+ const completedTask=taskId;
+ setTimeout(()=>{if(!playing||taskId!==completedTask)return;if(++round<5){newTask();return}
+  playing=false;document.body.classList.remove('playing');
+  // Distinct words prevent repeating "공룡" at every single level.
+  const words=mode==='dino'?['알','공룡','화석']:mode==='space'?['별','우주','행성']:['먹이','동물','친구'];
+  const challenge=words[stage]||config.word;
+  say('멋지게 성공! '+challenge+'를 따라 써 볼까?');
+  if(window.JoyiWordGate)window.JoyiWordGate.start(challenge,advance,{onCancel:()=>{playing=false;$('feedback').textContent='✍️ 다음 단계로 가려면 글자를 따라 써 주세요.';$('repeat').textContent='✍️ 글씨 쓰기 계속';$('repeat').onclick=()=>window.JoyiWordGate.start(challenge,advance)}});
+  else advance();
+ },mode==='dino'?1500:750)
 }
 function advance(){
  if(stage>=2){finished=true;playing=false;document.body.classList.remove('playing');$('ending').classList.add('active');$('endtitle').textContent='🏆 '+config.word+' 탐험 성공!';say('트로피를 받았어! 축하해!');return}
