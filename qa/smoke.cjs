@@ -53,7 +53,15 @@ assert(collect.includes("window.JoyiWordGate.start('자동차'"),'car collectibl
 assert(dodge.includes("window.JoyiWordGate.start('자동차'"),'car racing must require writing 자동차');
 assert(gate.includes('function good()')&&gate.includes('function start(word,success'),'child-friendly word handwriting evaluator missing');
 assert(adventure.includes('dino:')&&adventure.includes('space:')&&adventure.includes('animal:'),'all three new adventure types required');
-assert(adventure.includes('window.JoyiWordGate.start(config.word'),'new adventures must gate stages with their appropriate Hangul words');
+assert(adventure.includes('window.JoyiWordGate.start(challenge'),'adventures must gate stages with their varied Hangul words');
+assert(adventure.includes('짜잔!')&&adventure.includes('DINO_NAMES')&&adventure.includes('button.textContent=DINOS[creatureIndex]'),'tapped egg must visibly hatch a dinosaur');
+assert(adventure.includes("['알','공룡','화석']"),'dinosaur word prompts must vary across levels');
+assert(adventure.includes("['별','우주','행성']")&&adventure.includes("['먹이','동물','친구']"),'other adventures need varied handwriting words');
+assert(gate.includes('function autoCheck()')&&gate.includes('autoTimer=setTimeout(autoCheck,220)'),'writing needs automatic letter completion after lifting finger');
+assert(!gate.includes('✅ 다 썼어요'),'writing must not require pressing a done button');
+assert(gate.includes('const SEG=')&&gate.includes('setLineDash([4,11])')&&gate.includes('ctx.fillText(String(i+1)'),'writing must draw numbered stroke starts, dotted paths and arrows');
+assert(firetruck.includes('function rescueFriend()')&&firetruck.includes('Math.abs(p.x-fx)<67'),'tap the animal in its window to rescue; do not rescue by ladder button');
+assert(firetruck.includes("if(fires.length&&fires.every(f=>f.done))"),'animal must become rescuable only after all fires are extinguished');
 assert(['dino','space','animal'].every(x=>requests.includes('href="./adventure.html?game='+x+'"')),'adventures missing from requested games menu');
 assert(sw.includes('word-gate.js')&&sw.includes('adventure.html'),'PWA offline cache must include new adventures and writing');
 
