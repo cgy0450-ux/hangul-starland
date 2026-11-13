@@ -44,28 +44,27 @@ function catalog(){
  document.body.classList.remove("playing");$("play").classList.remove("active");$("catalog").classList.remove("hidden");run=null;
  $("diagnosis").classList.toggle("hidden",!!A.data().diagnostics[subject.id]);
  const root=$("modules");root.replaceChildren();
- for(const [mi,m] of subject.modules.entries()){
- const card=el("div","module"),head=el("div","module-title");let title=el("strong","",String(mi+1)+"단계 · "+m.title);
- const sk=A.getSkill(m.id);const small=el("small","",sk.attempts?("익힘 "+Math.round(100*A.mastery(m.id))+"% · "+sk.attempts+"회"):"처음 배우기");
- head.append(title,small);const grid=el("div","tile-grid");
- const symbols=["📖","🖐️","🔊","🧩","🌟","🎤","🔍","🧲","🎴","🚂","🎬"];
+ let stage=0;try{stage=Math.max(0,Math.min(3,Number(localStorage.getItem('joiland-stage-'+subject.id)||0)))}catch(e){}
+ const m=subject.modules[stage],card=el("div","module"),head=el("div","module-title");
+ head.append(el("strong","","오늘의 "+subject.name+" 놀이"),el("small","",(stage+1)+"번째 배움 · 5문제를 풀면 다음 단계로!"));
+ const grid=el("div","tile-grid"),symbols=["📖","🖐️","🔊","🧩","🌟","🎤","🔍","🧲","🎴","🚂","🎬"];
  for(const [i,lesson] of m.lessons.entries()){
  const btn=el("button","tile");btn.type="button";btn.dataset.lesson=lesson.id;
- const emoji=el("span","badge",symbols[i]);const span=el("span"),big=el("strong","",lesson.title),sub=el("small","",String(i+1)+" / "+m.lessons.length+" · 쪼이랑 놀아요");span.append(big,sub);btn.append(emoji,span);grid.append(btn)
+ const span=el("span");span.append(el("strong","",lesson.title),el("small","","5문제씩 도전 · 다음 단계 선택"));
+ btn.append(el("span","badge",symbols[i]),span);grid.append(btn);
  }
  card.append(head,grid);root.append(card);
- }
  const external={
- hangul:[["글자별 게임","legacy.html"],["숫자와 글자 쓰기","writing.html?mode=numbers"],["동화 그림책","stories.html"]],
- math:[["수학 퀴즈 10종","academy.html?subject=math"],["숫자 따라 쓰기","writing.html?mode=numbers"],["블록 쌓기","requests.html"]],
+ hangul:[["한글 글씨 쓰기","legacy.html?game=trace"],["그림 낱말 놀이","legacy.html?game=quiz"],["동화 그림책","stories.html"]],
+ math:[["수학 퀴즈 10종","academy.html?subject=math"],["숫자 따라 쓰기","writing.html?mode=numbers"],["자동차·소방차 놀이","requests.html"]],
  english:[["영어 퀴즈 10종","academy.html?subject=english"],["알파벳·단어 쓰기","writing.html?mode=english"]],
  science:[["과학 퀴즈 10종","academy.html?subject=science"],["동물 자동차 탐험","legacy.html"]],
  history:[["역사 퀴즈 10종","academy.html?subject=history"],["위인과 전래동화","stories.html"]],
  coding:[["코딩 퀴즈 10종","academy.html?subject=coding"],["진짜 블록 명령 코딩","coding-lab.html"],["손가락 미로","mazes.html"]],
- finance:[["가게·저금통 체험 10종","finance.html"],["블록 놀이","requests.html"]],
- reading:[["동화책 20편","stories.html"],["우리 가족 이름 쓰기","legacy.html"]],
+ finance:[["가게·저금통 체험 10종","finance.html"],["자동차·소방차 놀이","requests.html"]],
+ reading:[["동화책 20편","stories.html"],["우리 가족 이름 쓰기","legacy.html?game=family"]],
  life:[["동화로 감정 배우기","stories.html"],["사회성과 일상 놀이","legacy.html"]],
- creativity:[["블록 탑과 자동차 다리","requests.html"],["손가락 색칠·글씨","legacy.html"]]
+ creativity:[["자동차·소방차 놀이","requests.html"],["손가락 색칠·글씨","legacy.html"]]
  };
  const extras=$("extras");extras.replaceChildren();
  for(const [name,url] of (external[subject.id]||[])){
@@ -74,7 +73,10 @@ function catalog(){
  }
 }
 function beginDiagnostic(){run={type:"diagnostic",lesson:{mode:"choose",subject:subject.id},questions:A.diagnose(subject.id)};diagnosticResults=[];index=0;score=0;enter()}
-function beginLesson(id){const lesson=C.lesson(id);if(!lesson||lesson.subject!==subject.id)return;run={type:"lesson",...A.session(id)};index=0;score=0;enter()}
+function beginLesson(id){const lesson=C.lesson(id);if(!lesson||lesson.subject!==subject.id)return;run={type:"lesson",...A.session(id)};
+ const bank=run.questions;for(let i=bank.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[bank[i],bank[j]]=[bank[j],bank[i]];}
+ try{const key='joiland-first-'+id,prev=localStorage.getItem(key);if(bank.length>1&&bank[0].answer===prev){let j=bank.findIndex(x=>x.answer!==prev);if(j>0)[bank[0],bank[j]]=[bank[j],bank[0]];}if(bank[0])localStorage.setItem(key,bank[0].answer)}catch(e){}
+ index=0;score=0;enter()}
 function enter(){document.body.classList.add("playing");$("catalog").classList.add("hidden");$("play").classList.add("active");render()}
 function quizOptions(q){return q.choiceOptions||A.options(subject.id,q.module,q)}
 function optionsRender(options){const parent=$("answers");parent.replaceChildren();
@@ -159,7 +161,7 @@ function finishAnswer(ok,btn,elapsed){
  $("explain").classList.remove("hidden");$("next").classList.remove("hidden");
 }
 function render(){
- clearVoice();$("voicePractice").classList.add("hidden");answered=false;phase="quiz";pictureOptions=null;interaction=null;$("interaction").replaceChildren();$("interaction").classList.add("hidden");$("feedback").textContent="";$("explain").classList.add("hidden");$("answers").classList.remove("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("visual").classList.remove("hidden");$("hear").textContent="🔊 소리 듣기";
+ clearVoice();document.getElementById('joyi-finish-actions')?.remove();$("voicePractice").classList.add("hidden");answered=false;phase="quiz";pictureOptions=null;interaction=null;$("interaction").replaceChildren();$("interaction").classList.add("hidden");$("feedback").textContent="";$("explain").classList.add("hidden");$("answers").classList.remove("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("visual").classList.remove("hidden");$("hear").textContent="🔊 소리 듣기";
  $("count").textContent=(index+1)+" / "+run.questions.length;$("stars").textContent="⭐ "+score;$("bar").style.width=(100*index/run.questions.length)+"%";
  const q=current(),mode=run.type==="diagnostic"?"choose":run.lesson.mode;
  if(!q)return;
@@ -180,7 +182,7 @@ function render(){
    $("question").textContent=mode==="remember"?"쪼이와 함께 기억해요":"먼저 그림과 뜻을 알아봐요";
    $("hint").textContent=mode==="remember"?"그림과 이름을 보고 머릿속에 기억해요":"쪼이 설명을 들은 뒤 골라 봐요";
    if(mode==="explore"){$("explain").textContent=q.explain;$("explain").classList.remove("hidden")}
-   phase="intro";
+   phase="intro";speak(mode==="remember"?"이름을 기억해 봐요. "+q.answer:q.explain,"ko-KR");
  }else if(mode==="listen"){
    $("visual").classList.add("hidden");$("question").textContent="소리를 듣고 알맞은 답을 골라요";$("hint").textContent="정답은 소리로만 알려줘요";speak(q.answer,locale());
  }else if(mode==="speak"){
@@ -196,7 +198,7 @@ $("ready").onclick=()=>{if(phase!=="intro")return;let q=current(),mode=run.lesso
  if(mode==="remember"){$("visual").textContent="❔";$("question").textContent="아까 본 그림의 이름은?"}
  else if(mode==="story"){$("question").textContent=q.question||"이야기를 잘 들었나요?";$("hint").textContent="이야기에 나왔던 답을 찾아요"}
  else $("question").textContent=q.question||q.hint||"어떤 것일까요?";
- shownAt=performance.now()};
+ speak($("question").textContent,"ko-KR");shownAt=performance.now()};
 $("repeat").onclick=()=>{if(phase!=="speaking")return;phase="quiz";$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("answers").classList.remove("hidden");$("question").textContent=current().question||current().hint||"어떤 것일까요?";shownAt=performance.now()};
 $("hear").onclick=()=>{const q=current();if(!q)return;const mode=run.type==="diagnostic"?"choose":run.lesson.mode;const answerMode=mode==="speak"||mode==="listen";speak(answerMode?q.answer:q.question||q.hint||q.answer,answerMode?locale():"ko-KR")};
 $("answers").onclick=e=>{
@@ -207,12 +209,22 @@ $("answers").onclick=e=>{
  if(mode==="drag"){interaction.selected=btn.dataset.opt;$("dropTarget").textContent="🧲 "+btn.dataset.opt+" → 상자를 눌러 넣어요";$("dropTarget").classList.add("selected");return}
  processAnswer(btn.dataset.opt)
 };
-$("next").onclick=()=>{
- if(!answered)return;index++;if(index<run.questions.length){render();return}
- if(run.type==="diagnostic"){A.finishDiagnosis(subject.id,diagnosticResults);speak("처음 진단 끝! 이제 쪼이랑 같이 배워요!")}
- else{A.markDone(run.lesson.id,Math.round(100*score/run.questions.length));speak("오늘의 탐험 성공! "+(A.profile().name||"이현")+"!")}
- $("feedback").textContent="🎉 탐험 완료!";$("bar").style.width="100%";setTimeout(catalog,950);
-};
+function finishFive(){
+ const diagnostic=run.type==="diagnostic",lesson=run.lesson;
+ if(diagnostic)A.finishDiagnosis(subject.id,diagnosticResults);
+ else A.markDone(lesson.id,Math.round(100*score/run.questions.length));
+ if(!diagnostic){try{localStorage.setItem('joiland-stage-'+subject.id,String(Math.min(3,lesson.module+1)))}catch(e){}}
+ $("bar").style.width="100%";$("visual").textContent="🏆🐯";$("question").textContent="다섯 문제 모두 성공!";$("hint").textContent="다음 단계 또는 다른 놀이를 선택해요!";
+ $("answers").classList.add("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("interaction").classList.add("hidden");$("explain").classList.add("hidden");
+ $("feedback").textContent="🌟 이현이 최고!";
+ document.getElementById('joyi-finish-actions')?.remove();
+ const actions=el("div","",undefined);actions.id="joyi-finish-actions";actions.style.cssText="display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin:10px";
+ const other=el("button","primary","🎨 다른 놀이 하기");other.onclick=catalog;actions.append(other);
+ if(!diagnostic){const nextStage=Math.min(3,lesson.module+1),nextLesson=subject.modules[nextStage]?.lessons.find(x=>x.mode===lesson.mode);
+ if(nextLesson){const nextBtn=el("button","primary",nextStage===lesson.module?"🔁 다시 도전":"🚀 다음 단계 5문제");nextBtn.onclick=()=>beginLesson(nextLesson.id);actions.prepend(nextBtn)}}
+ $("feedback").parentElement.append(actions);speak("다섯 문제 성공! 다음 단계 또는 다른 놀이를 골라 봐요!","ko-KR");
+}
+$("next").onclick=()=>{if(!answered)return;index++;if(index<run.questions.length){render();return}finishFive()};
 $("back").onclick=catalog;$("startDiag").onclick=beginDiagnostic;
 $("modules").onclick=e=>{const btn=e.target.closest("[data-lesson]");if(btn)beginLesson(btn.dataset.lesson)};
 window.addEventListener("pagehide",()=>{clearVoice();try{speechSynthesis.cancel()}catch(e){}});
