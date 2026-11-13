@@ -135,16 +135,57 @@ function start(word,success,opts={}){
  const stop=e=>{if(!drawing)return;drawing=false;points.at(-1).push(pos(e));paint();autoTimer=setTimeout(autoCheck,220)};c.addEventListener('pointerup',stop);c.addEventListener('pointercancel',stop);
 
  function good(){
- if(points.flat().length<6)return false;
- const test=document.createElement('canvas');test.width=300;test.height=300;let x=test.getContext('2d');x.lineWidth=29;x.lineCap='round';x.lineJoin='round';x.strokeStyle='black';
- for(const stroke of points){if(stroke.length<2)continue;x.beginPath();x.moveTo(...stroke[0]);for(const p of stroke.slice(1))x.lineTo(...p);x.stroke()}
- const a=x.getImageData(0,0,300,300).data,b=mask.getContext('2d').getImageData(0,0,300,300).data;
- let total=0,hit=0,used=0,correct=0,minX=12,maxX=0,minY=12,maxY=0;
- for(let gy=0;gy<12;gy++)for(let gx=0;gx<12;gx++){let g=false,w=false;
-  for(let yy=gy*25;yy<gy*25+25;yy+=4)for(let xx=gx*25;xx<gx*25+25;xx+=4){let i=(yy*300+xx)*4;if(b[i+3]>90)g=true;if(a[i+3]>90)w=true}
-  if(g){total++;if(w)hit++}if(w){used++;if(g)correct++;minX=Math.min(minX,gx);maxX=Math.max(maxX,gx);minY=Math.min(minY,gy);maxY=Math.max(maxY,gy)}
- }
- return total>4&&hit/total>=.42&&correct/Math.max(used,1)>=.40&&maxX-minX>=3&&maxY-minY>=3;
+  if(points.flat().length<8)return false;
+  // Match every Hangul component independently; completing only ㄷ of '두' or
+  // '두더지' must never be recognized as completing the entire syllable.
+  const ink=document.createElement('canvas');ink.width=300;ink.height=300;
+  const x=ink.getContext('2d');x.lineWidth=24;x.lineCap='round';x.lineJoin='round';x.strokeStyle='#000';
+  for(const stroke of points){if(stroke.length<2)continue;x.beginPath();x.moveTo(...stroke[0]);for(const p of stroke.slice(1))x.lineTo(...p);x.stroke()}
+  const a=x.getImageData(0,0,300,300).data;
+  const n=chars[index].codePointAt(0)-0xAC00;
+  if(n<0||n>=11172)return false;
+  const initial=CHO[Math.floor(n/588)],vowel=JUNG[Math.floor((n%588)/28)],final=JONG[n%28];
+  const componentLengths=[JAMO[initial]?.length||0,JAMO[vowel]?.length||0];
+  if(final)componentLengths.push(COMPLEX_FINAL[final]?(JAMO[COMPLEX_FINAL[final][0]].length+JAMO[COMPLEX_FINAL[final][1]].length):JAMO[final]?.length||0);
+  if(componentLengths.some(n=>!n))return false;
+  // Check all strokes within a component as one masked shape; this is much
+  // more child-friendly than enforcing exact stroke order or stroke count.
+  let start=0;let allGuide=0,allHit=0;
+  for(const count of componentLengths){
+    const component=guide.slice(start,start+count);start+=count;
+    const cv=document.createElement('canvas');cv.width=300;cv.height=300;const cx=cv.getContext('2d');
+    component.forEach(path=>pathStroke(cx,path,20,'#000'));
+    const b=cx.getImageData(0,0,300,300).data;
+    let total=0,hit=0;
+    for(let gy=0;gy<15;gy++)for(let gx=0;gx<15;gx++){
+      let target=false,drawn=false;
+      for(let yy=gy*20+2;yy<gy*20+20;yy+=4)for(let xx=gx*20+2;xx<gx*20+20;xx+=4){
+        const i=(yy*300+xx)*4;
+        if(b[i+3]>100)target=true;
+        if(a[i+3]>100)drawn=true;
+      }
+      if(target){total++;if(drawn)hit++}
+    }
+    if(total<2||hit/total<.48)return false;
+    allGuide+=total;allHit+=hit;
+  }
+  // A finger-drawn line crossing each component by chance should not count:
+  // require enough total overlap and area coverage as well.
+  const actual=mask.getContext('2d').getImageData(0,0,300,300).data;
+  let guideCells=0,overlap=0,inkCells=0,nearCells=0;
+  for(let gy=0;gy<15;gy++)for(let gx=0;gx<15;gx++){
+    let target=false,drawn=false;
+    for(let yy=gy*20+2;yy<gy*20+20;yy+=4)for(let xx=gx*20+2;xx<gx*20+20;xx+=4){
+      const i=(yy*300+xx)*4;
+      if(actual[i+3]>100)target=true;
+      if(a[i+3]>100)drawn=true;
+    }
+    if(target){guideCells++;if(drawn)overlap++}
+    if(drawn){inkCells++;if(target)nearCells++}
+  }
+  return allHit/Math.max(allGuide,1)>=.57&&
+    overlap/Math.max(guideCells,1)>=.54&&
+    nearCells/Math.max(inkCells,1)>=.40;
  }
  function autoCheck(){clearTimeout(autoTimer);if(!locked&&good()){advance();return}if(points.flat().length>=5){$('.jwg-info').textContent='좋아요! 나머지 점선도 따라 써 봐요.'}}
  function destroy(){clearTimeout(autoTimer);shade.remove();if(active?.destroy===destroy)active=null}
