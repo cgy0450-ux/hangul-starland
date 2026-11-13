@@ -3,8 +3,8 @@
 *{box-sizing:border-box}body{margin:0;min-height:100dvh;background:radial-gradient(circle at 10% 15%,#fff1ba,transparent 43%),radial-gradient(circle at 80% 90%,#d0fcff,transparent 50%),#f1ebff;color:#403068;font-family:"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;font-weight:850}button{cursor:pointer;touch-action:manipulation;font:inherit;border:0}header{max-width:920px;margin:auto;display:flex;align-items:center;gap:9px;padding:9px 12px}header a{background:#fff;padding:11px;border-radius:14px;text-decoration:none;color:#5f4b98;font-size:14px}h1{font-size:clamp(19px,4.5vw,29px);margin:0}main{margin:0 auto;max-width:890px;padding:4px 12px 25px}button:focus-visible{outline:3px solid #45a7cf;outline-offset:3px}.choices{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}.pick{min-height:65px;border:4px solid white;border-radius:20px;background:var(--col,#f8e5ff);box-shadow:0 5px 0 #d1c6e3;color:#463373;font-size:clamp(18px,4vw,27px);font-weight:950}.pick.word{font-size:clamp(15px,3vw,21px)}.pick.group{font-size:clamp(16px,3vw,24px)}.canvas-wrap.english{width:min(82vw,370px,43dvh);height:min(82vw,370px,43dvh)}.note{text-align:center;padding:12px;font-size:15px}.practice{display:none}.practice.active{display:flex;flex-direction:column;align-items:center;gap:9px}.practice-head{width:100%;display:flex;justify-content:space-between;align-items:center}.practice-head button,.action{background:#fff;border-radius:16px;padding:10px 14px;color:#5d4396;font-weight:950}.panel{background:linear-gradient(115deg,#fffdf7,#eafbff);border:6px solid #fff;border-radius:29px;box-shadow:0 9px 0 #d5c5e7;width:100%;padding:clamp(10px,3vw,22px);display:flex;flex-direction:column;align-items:center;gap:7px}.label{font-size:clamp(22px,5vw,33px);margin:5px}.reading{font-size:16px;color:#8263a6}.canvas-wrap{position:relative;touch-action:none;border:5px solid #f5d7a0;border-radius:24px;background:#fff;overflow:hidden;width:min(90vw,650px);height:min(45vw,300px,43dvh);min-width:245px;min-height:170px;box-shadow:0 7px 0 #e1bb81}.guide{width:100%;height:100%;position:absolute;inset:0;pointer-events:none}canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;display:block}.prompt{text-align:center;color:#7c6f9a;font-size:14px}.tools{display:flex;justify-content:center;gap:9px;flex-wrap:wrap}.tools button{border-radius:17px;padding:11px 14px;background:#f4e7ff;color:#593d9e;box-shadow:0 4px 0 #d4bbf0}.tools .check{background:#28bca7;color:#fff;box-shadow:0 4px 0 #159687}.feedback{font-size:16px;text-align:center;min-height:26px;color:#38896c}.hidden{display:none!important}.progress{padding:9px;background:#fff2b0;border-radius:18px}.more{display:flex;justify-content:center;margin:14px;gap:7px;flex-wrap:wrap}.more button{padding:12px;border-radius:16px;background:#fff;color:#5c4689}.first-panel{margin-bottom:18px;background:linear-gradient(120deg,#fff1bb,#ebdbff);padding:15px;border:5px solid white;border-radius:25px}.first-panel h2{margin:0}.first-panel p{margin:5px 0;color:#7c6991}@media(max-height:690px){header{padding:5px}.panel{padding:8px}.canvas-wrap{width:min(86vw,550px);height:min(39vw,240px,36dvh);min-width:220px;min-height:125px}.label{margin:0}.tools button{padding:7px}.prompt{font-size:12px}}
 html:has(#practice.active),body:has(#practice.active){height:100%;overflow:hidden!important;overscroll-behavior:none}body:has(#practice.active){height:100dvh;display:flex;flex-direction:column}body:has(#practice.active) header{flex:none;padding:5px 10px}body:has(#practice.active) main{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;padding:4px 8px}body:has(#practice.active) .practice.active{min-height:0;gap:5px}body:has(#practice.active) .panel{min-height:0;gap:3px;padding:8px}body:has(#practice.active) .canvas-wrap{max-height:34dvh;min-height:105px}body:has(#practice.active) .canvas-wrap.english{width:min(67vw,34dvh);height:min(67vw,34dvh)}body:has(#practice.active) .tools{gap:5px}body:has(#practice.active) .tools button{padding:8px 11px}body:has(#practice.active) .label{font-size:clamp(19px,4vw,27px);margin:3px}</style><link rel="stylesheet" href="./joiland-theme-v11.css"></head><body><header><a id="home" href="./academy.html?subject=math">⌂ 학습관</a><h1 id="title">✏️ 숫자 쓰기</h1></header><main><section id="menu"><div class="first-panel"><h2 id="headline">어떤 숫자를 써볼까?</h2><p>그림에 표시된 ① 출발점부터 화살표 방향으로 따라 써요. 한 획씩 천천히!</p></div><div class="choices" id="choices"></div><div class="note" id="note"></div></section><section class="practice" id="practice"><div class="practice-head"><button id="back">‹ 다른 글자</button><span class="progress" id="progress">1/1</span></div><div class="panel"><h2 class="label" id="target">1</h2><div class="reading" id="reading"></div><div class="canvas-wrap"><svg class="guide" id="guide" viewBox="0 0 600 300" preserveAspectRatio="none"></svg><canvas id="ink"></canvas></div><div class="prompt">🔴 ①부터 시작해서 점선과 화살표를 따라 써봐!</div><div class="tools"><button id="hear">🔊 읽어줘</button><button id="clear">↻ 다시 쓰기</button><button class="check" id="check">✓ 다 썼어요</button></div><div class="feedback" id="feedback" role="status"></div></div></section></main><script>
 (function(){'use strict';
-const q=new URLSearchParams(location.search),mode=q.get('mode')==='english'?'english':'numbers',words=['CAT','DOG','SUN','CAR','BUS','RED','BLUE','PEN','GO','HI','ONE','TWO'],groups=Array.from({length:10},(_,i)=>({label:(i*10+1)+'~'+((i+1)*10),values:Array.from({length:10},(_,j)=>i*10+j+1)}));const opts=mode==='english'?words:groups;
-document.getElementById('home').href='./academy.html?subject='+(mode==='english'?'english':'math');document.getElementById('title').textContent=mode==='english'?'🔤 영어 단어 쓰기':'🔢 숫자 쓰기';document.getElementById('headline').textContent=mode==='english'?'좋아하는 영어 단어를 써보자!':'숫자를 천천히 따라 써보자!';document.getElementById('note').textContent=mode==='english'?'짧은 영어 단어와 대문자부터 시작해요.':'1~10부터 91~100까지, 10개씩 이어서 따라 써요.';
+const q=new URLSearchParams(location.search),mode=q.get('mode')==='english'?'english':'numbers',words=['CAT','DOG','SUN','CAR','BUS','RED','BLUE','PEN','GO','HI','ONE','TWO'],upper='ABCDEFGHIJKLMNOPQRSTUVWXYZ',lower='abcdefghijklmnopqrstuvwxyz',groups=Array.from({length:10},(_,i)=>({label:(i*10+1)+'~'+((i+1)*10),values:Array.from({length:10},(_,j)=>i*10+j+1)}));const opts=mode==='english'?[{label:'🔠 대문자 A~Z',kind:'upper',value:upper},{label:'🔡 소문자 a~z',kind:'lower',value:lower},...words.map(value=>({label:value,kind:'word',value}))]:groups;
+document.getElementById('home').href='./academy.html?subject='+(mode==='english'?'english':'math');document.getElementById('title').textContent=mode==='english'?'🔤 영어 단어 쓰기':'🔢 숫자 쓰기';document.getElementById('headline').textContent=mode==='english'?'좋아하는 영어 단어를 써보자!':'숫자를 천천히 따라 써보자!';document.getElementById('note').textContent=mode==='english'?'대문자 A~Z · 소문자 a~z를 순서대로 따라 쓰고, 단어도 연습해요. 획순과 방향까지 확인해요.':'1~10부터 91~100까지, 10개씩 이어서 따라 써요.';
 const koreanNums=['영','일','이','삼','사','오','육','칠','팔','구','십'];function koreanNum(n){if(n<=10)return koreanNums[n];if(n===100)return'백';if(n%10===0)return(koreanNums[n/10]==='일'?'':koreanNums[n/10])+'십';const tens=Math.floor(n/10),units=n%10;return(tens===1?'':koreanNums[tens])+'십'+koreanNums[units];}
 function voice(t){try{if(JSON.parse(localStorage.getItem("hangul-starland-v1")||"{}").sound===false)return;}catch(e){}if(!('speechSynthesis'in window))return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang=mode==='english'?'en-US':'ko-KR';u.rate=.86;u.pitch=1.03;const v=speechSynthesis.getVoices().filter(x=>x.lang.startsWith(u.lang.slice(0,2)));u.voice=v.find(x=>/natural|neural|google/i.test(x.name))||v[0]||null;speechSynthesis.speak(u);}catch(e){}}
 const digit={
@@ -20,19 +20,50 @@ const digit={
 '9':[['M195 154 C160 192 103 166 106 122 C105 72 198 62 201 128 C207 168 190 207 117 232']]};
 const letters={
 A:['M148 77 L87 225','M148 77 L211 225','M108 174 L189 174'],B:['M108 78 L108 226','M109 78 Q224 69 208 135 Q201 153 110 153','M110 153 Q225 150 207 206 Q201 232 110 226'],C:['M208 95 Q153 49 107 96 Q75 128 99 194 Q147 247 207 207'],D:['M106 78 L106 226','M106 78 Q227 74 219 153 Q219 232 106 226'],E:['M105 78 L105 226','M105 78 L212 78','M105 153 L188 153','M105 226 L212 226'],F:['M109 78 L109 226','M109 78 L215 78','M109 153 L192 153'],G:['M209 101 Q157 56 107 102 Q73 147 108 201 Q143 250 209 211 L209 153 L161 153'],H:['M104 77 L104 226','M206 77 L206 226','M105 151 L204 151'],I:['M154 78 L154 227'],J:['M204 78 L204 194 Q196 241 117 208'],K:['M105 78 L105 226','M205 78 L106 153','M106 153 L216 226'],L:['M107 78 L107 226 L207 226'],M:['M87 78 L87 226','M87 78 L154 172','M221 78 L154 172','M221 78 L221 226'],N:['M104 78 L104 226','M104 78 L211 226','M211 78 L211 226'],O:['M154 77 C74 77 74 228 154 228 C234 228 234 77 154 77'],P:['M105 78 L105 226','M105 78 L165 78 Q236 82 212 132 Q194 161 105 157'],Q:['M154 77 C74 77 74 228 154 228 C234 228 234 77 154 77','M176 191 L224 237'],R:['M105 78 L105 226','M105 78 L165 78 Q235 80 208 136 Q194 157 105 157','M155 160 L215 226'],S:['M206 94 Q161 60 114 91 Q90 124 154 150 Q238 184 190 215 Q151 245 102 212'],T:['M89 78 L219 78','M154 78 L154 227'],U:['M101 79 L101 182 Q103 229 154 229 Q208 229 208 181 L208 79'],V:['M99 78 L154 229','M212 78 L154 229'],W:['M83 79 L113 227 L154 129 L191 227 L224 78'],X:['M100 78 L209 225','M209 78 L100 225'],Y:['M95 78 L155 150','M215 78 L155 150','M155 150 L155 226'],Z:['M99 78 L211 78 L101 226 L215 226']};
-let selection=null,index=0,trace=[],drawn=[],down=false,last=null;const $=s=>document.getElementById(s);
+
+// 인쇄체 소문자: 위→아래, 왼쪽→오른쪽 순서의 독립 획. 점도 한 획으로 검사합니다.
+// 글자별 300×300 좌표계 (x-height 145, baseline 225, ascender 78, descender 267).
+const smallLetters={
+a:['M193 156 C163 130 117 140 113 183 C108 226 160 245 194 214 C213 190 201 164 193 156','M199 151 L199 226'],
+b:['M110 78 L110 225','M111 164 C135 132 186 137 200 171 C220 220 153 244 111 211'],
+c:['M202 160 C166 131 117 145 111 183 C104 223 158 244 201 214'],
+d:['M193 159 C159 131 112 144 111 184 C109 226 162 245 193 213','M197 78 L197 226'],
+e:['M113 190 L204 190 C206 154 179 138 149 145 C104 152 99 217 151 225 C174 230 192 220 204 211'],
+f:['M192 91 C164 69 140 84 140 120 L140 226','M110 150 L183 150'],
+g:['M193 159 C159 130 113 145 112 184 C108 222 159 239 194 208','M197 151 L197 239 Q191 273 148 264 Q126 261 117 248'],
+h:['M112 78 L112 225','M113 175 Q134 140 170 145 Q202 148 201 185 L201 225'],
+i:['M150 109 L151 111','M151 151 L151 225'],
+j:['M179 109 L180 111','M180 150 L180 235 Q178 268 139 264 Q120 261 115 246'],
+k:['M113 78 L113 225','M205 146 L113 198','M155 179 L208 225'],
+l:['M149 78 L149 225'],
+m:['M95 151 L95 225','M95 178 Q109 144 132 145 Q155 146 155 181 L155 225','M155 177 Q175 143 198 145 Q222 147 222 182 L222 225'],
+n:['M109 151 L109 225','M110 178 Q133 140 173 146 Q202 152 202 185 L202 225'],
+o:['M154 145 C91 145 91 227 154 227 C217 227 217 145 154 145'],
+p:['M111 152 L111 267','M112 163 C143 135 189 140 201 177 C213 217 170 242 112 214'],
+q:['M193 162 C162 135 113 142 111 185 C109 225 163 244 194 211','M196 152 L196 267'],
+r:['M117 151 L117 225','M118 179 Q135 146 174 145'],
+s:['M200 156 Q156 133 124 157 Q105 177 155 188 Q221 202 189 219 Q155 239 115 213'],
+t:['M155 103 L155 206 Q154 229 186 223','M116 151 L189 151'],
+u:['M110 151 L110 194 Q109 228 153 226 Q180 225 199 195','M200 151 L200 226'],
+v:['M106 151 L152 226 L202 151'],
+w:['M88 151 L113 226 L153 170 L191 226 L219 151'],
+x:['M110 151 L204 225','M204 151 L110 225'],
+y:['M107 151 L153 225','M203 151 L150 257 Q137 270 113 262'],
+z:['M111 151 L207 151 L110 225 L208 225']
+};
+let selection=null,selectionKind='word',index=0,trace=[],drawn=[],down=false,last=null;const $=s=>document.getElementById(s);
 const svgNS='http://www.w3.org/2000/svg';function createSvg(tag,attrs){const e=document.createElementNS(svgNS,tag);for(const [k,v]of Object.entries(attrs))e.setAttribute(k,v);return e;}
 
 function glyphs(value){
  const chars=[...String(value)],len=chars.length,scale=len===1?1:len===2?.86:.59,span=len===1?0:len===2?215:157;
  const extent=span*(len-1)+210*scale,base=(600-extent)/2;
- return chars.map((c,i)=>({ox:base+i*span,scale,paths:mode==='english'?(letters[c]||letters.I):digit[c]}));
+ return chars.map((c,i)=>({ox:base+i*span,scale,paths:mode==='english'?(letters[c]||smallLetters[c]||[]):digit[c]}));
 }
 function drawGuide(value){
  const guide=$('guide');guide.innerHTML='';
  guide.setAttribute('viewBox',mode==='english'?'0 0 300 300':'0 0 600 300');
  let result=[],number=0;
- for(const g of mode==='english'?[{ox:0,scale:1,paths:letters[value]||letters.I}]:glyphs(value)){
+ for(const g of mode==='english'?[{ox:0,scale:1,paths:letters[value]||smallLetters[value]||[]}]:glyphs(value)){
  const container=createSvg('g',{transform:'translate('+g.ox+' 0) scale('+g.scale+')'});guide.appendChild(container);
  for(const d of g.paths){
  number++;const path=createSvg('path',{d,fill:'none',stroke:'#b5b2cc','stroke-width':17,'stroke-linecap':'round','stroke-dasharray':'2 21'});
@@ -40,7 +71,7 @@ function drawGuide(value){
  result.push({path,length,ox:g.ox,scale:g.scale});
  container.appendChild(createSvg('circle',{cx:first.x,cy:first.y,r:15,fill:'#fff09a',stroke:'#ec8d55','stroke-width':3}));
  const t=createSvg('text',{x:first.x,y:first.y+6,'text-anchor':'middle','font-size':19,'font-weight':900,fill:'#7a3e93'});t.textContent=number;container.appendChild(t);
- const angle=Math.atan2(ahead.y-first.y,ahead.x-first.x),x=first.x+40*Math.cos(angle),y=first.y+40*Math.sin(angle);
+ const angle=Math.atan2(ahead.y-first.y,ahead.x-first.x),x=first.x+Math.min(40,Math.max(12,length*.35))*Math.cos(angle),y=first.y+Math.min(40,Math.max(12,length*.35))*Math.sin(angle);
  container.appendChild(createSvg('path',{d:'M'+x+' '+y+' l'+(-14*Math.cos(angle-.4))+' '+(-14*Math.sin(angle-.4))+' M'+x+' '+y+' l'+(-14*Math.cos(angle+.4))+' '+(-14*Math.sin(angle+.4)),fill:'none',stroke:'#ed665b','stroke-width':5}));
  }
  }
@@ -51,47 +82,73 @@ let guidePaths=[];function resetCanvas(){const canvas=$('ink'),rect=canvas.getBo
 function value(){return mode==='numbers'?selection[index]:[...String(selection)][index];}
 function show(){
  const v=value();$('menu').classList.add('hidden');$('practice').classList.add('active');
- $('target').textContent=v;$('reading').textContent=(mode==='english'?'영어 단어':'숫자')+' 읽기: '+(mode==='english'?selection:koreanNum(Number(v)));
+ $('target').textContent=v;$('reading').textContent=mode==='english'?(selectionKind==='upper'?'대문자 '+(index+1)+'/26':selectionKind==='lower'?'소문자 '+(index+1)+'/26':'영어 단어 '+selection):'숫자 읽기: '+koreanNum(Number(v));
  $('progress').textContent=(index+1)+' / '+(mode==='numbers'?selection.length:[...String(selection)].length);
  $('feedback').textContent='';
  $('ink').parentElement.classList.toggle('english',mode==='english');
  guidePaths=drawGuide(String(v));requestAnimationFrame(resetCanvas);
- voice(mode==='english'?selection:koreanNum(Number(v)));
+ voice(mode==='english'?v:koreanNum(Number(v)));
 }
-function pick(v){selection=mode==='numbers'?v.values:v;index=0;show();}
-$('choices').innerHTML=opts.map((v,i)=>'<button class="pick '+(mode==='english'?'word':'group')+'" style="--col:'+['#fff1d6','#e5f8ff','#e9ffea','#fbeaff'][i%4]+'" data-i="'+i+'">'+(mode==='english'?v:v.label)+'</button>').join('');
+function pick(v){selection=mode==='numbers'?v.values:v.value;selectionKind=mode==='numbers'?'numbers':v.kind;index=0;show();}
+$('choices').innerHTML=opts.map((v,i)=>'<button class="pick '+(mode==='english'?'word':'group')+'" style="--col:'+['#fff1d6','#e5f8ff','#e9ffea','#fbeaff'][i%4]+'" data-i="'+i+'">'+(mode==='english'?v.label:v.label)+'</button>').join('');
 $('choices').onclick=e=>{const b=e.target.closest('[data-i]');if(b)pick(opts[+b.dataset.i]);};
 const canvas=$('ink');function toLocal(e){const r=canvas.getBoundingClientRect();return{x:(e.clientX-r.left),y:(e.clientY-r.top)};}
 canvas.addEventListener('pointerdown',e=>{down=true;last=toLocal(e);drawn.push([last]);canvas.setPointerCapture(e.pointerId);e.preventDefault();});
 canvas.addEventListener('pointermove',e=>{if(!down)return;const p=toLocal(e),ctx=canvas.getContext('2d');ctx.beginPath();ctx.moveTo(last.x,last.y);ctx.lineTo(p.x,p.y);ctx.stroke();drawn[drawn.length-1].push(p);last=p;e.preventDefault();});
-canvas.addEventListener('pointerup',()=>down=false);canvas.addEventListener('pointercancel',()=>down=false);
+canvas.addEventListener('pointerup',()=>down=false);canvas.addEventListener('pointercancel',()=>{down=false;drawn.pop();});
 
-function coverage(){
- const rect=canvas.getBoundingClientRect(),points=drawn.flat();
- if(!points.length)return 0;
- const vw=mode==='english'?300:600;
- return Math.min(...guidePaths.map(part=>{
- let hit=0,total=0;
- for(let j=0;j<=Math.ceil(part.length/9);j++){
- const p=part.path.getPointAtLength(part.length*j/Math.ceil(part.length/9));
- const x=(part.ox+part.scale*p.x)*rect.width/vw,y=part.scale*p.y*rect.height/300;total++;
- if(points.some(q=>Math.hypot(x-q.x,y-q.y)<Math.max(15,rect.height*.10)))hit++;
+
+/* 획순·출발점·종료점·방향·선 일치도를 각각 검증합니다.
+   실제 작성한 한 획을 안내된 한 획과 1:1로 대응시키며 순서를 바꿀 수 없습니다. */
+function evaluateWriting(){
+ const target=guidePaths,actual=drawn.filter(st=>st.length>=2);
+ if(actual.length!==target.length)return {ok:false,reason:'①부터 순서대로, 안내된 '+target.length+'획을 각각 그려 봐요. (현재 '+actual.length+'획)'};
+ const rect=canvas.getBoundingClientRect(),vw=mode==='english'?300:600;
+ function pxy(p){return {x:p.x*vw/rect.width,y:p.y*300/rect.height};}
+ for(let i=0;i<target.length;i++){
+  const g=target[i],stroke=actual[i].map(pxy),ref=[];
+  const samples=Math.max(14,Math.ceil(g.length/8));
+  for(let n=0;n<=samples;n++){
+   const p=g.path.getPointAtLength(g.length*n/samples);
+   ref.push({x:g.ox+g.scale*p.x,y:g.scale*p.y});
+  }
+  const gap=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
+  const allowance=Math.max(16,Math.min(24,18/g.scale));
+  if(gap(stroke[0],ref[0])>allowance)return {ok:false,reason:(i+1)+'번 획의 ① 출발점에서 시작해 봐요.'};
+  if(gap(stroke.at(-1),ref.at(-1))>allowance)return {ok:false,reason:(i+1)+'번 획의 마지막 지점까지 그려 봐요.'};
+  let covered=0,close=0;
+  for(const p of ref)if(stroke.some(q=>gap(p,q)<=allowance))covered++;
+  for(const p of stroke)if(ref.some(q=>gap(p,q)<=allowance*1.3))close++;
+  if(covered/ref.length<.83)return {ok:false,reason:(i+1)+'번 획의 점선을 끝까지 따라 써봐요.'};
+  if(close/stroke.length<.78)return {ok:false,reason:(i+1)+'번 획이 점선에서 벗어났어요. 다시 따라 써봐요.'};
+  // 안내 경로의 25%→50%→75% 지점을 실제 필기에서 같은 순서로 통과해야 합니다.
+  const checkpoints=[.25,.5,.75].map(frac=>{
+   const p=ref[Math.round(frac*samples)];
+   return stroke.findIndex(q=>gap(p,q)<=allowance);
+  });
+  if(checkpoints.some(j=>j<0)||checkpoints[0]>=checkpoints[1]||checkpoints[1]>=checkpoints[2]){
+   return {ok:false,reason:(i+1)+'번 획은 화살표 방향대로 그려야 해요.'};
+  }
+  let userLen=0;for(let k=1;k<stroke.length;k++)userLen+=gap(stroke[k-1],stroke[k]);
+  const expectedLen=g.length*g.scale;
+  if(userLen<expectedLen*.72||userLen>expectedLen*2.2)return {ok:false,reason:(i+1)+'번 획을 한번에 천천히 따라 써봐요.'};
  }
- return total?hit/total:0;
- }));
+ return {ok:true};
 }
 $('check').onclick=()=>{
- if(coverage()<.43){$('feedback').textContent='점선을 좀 더 따라 써볼까? 💛';voice('조금만 더 따라 써봐요.');return;}
+ const result=evaluateWriting();
+ if(!result.ok){$('feedback').textContent=result.reason+' 💛';voice('점선과 화살표를 따라서 다시 써봐요.');return;}
  const total=mode==='numbers'?selection.length:[...String(selection)].length;
  if(index<total-1){index++;show();}
  else{
  $('feedback').textContent='🌟 와아! 모두 잘 썼어요!';voice('참 잘했어요!');
- try{const key='joiland-writing-'+mode,prev=JSON.parse(localStorage.getItem(key)||'[]'),mark=mode==='numbers'?selection[0]+'-'+selection.at(-1):selection;if(!prev.includes(mark)){prev.push(mark);localStorage.setItem(key,JSON.stringify(prev));}}catch(e){}
+ try{const key='joiland-writing-'+mode,prev=JSON.parse(localStorage.getItem(key)||'[]'),mark=mode==='numbers'?selection[0]+'-'+selection.at(-1):selectionKind+':'+selection;if(!prev.includes(mark)){prev.push(mark);localStorage.setItem(key,JSON.stringify(prev));}}catch(e){}
  $('check').disabled=true;setTimeout(()=>{$('check').disabled=false;$('practice').classList.remove('active');$('menu').classList.remove('hidden');},1250);
  }
 };
-$('clear').onclick=resetCanvas;$('hear').onclick=()=>voice(mode==='english'?selection:koreanNum(Number(value())));$('back').onclick=()=>{$('practice').classList.remove('active');$('menu').classList.remove('hidden');};window.addEventListener('resize',()=>{if($('practice').classList.contains('active'))requestAnimationFrame(resetCanvas);});
+$('clear').onclick=resetCanvas;$('hear').onclick=()=>voice(mode==='english'?value():koreanNum(Number(value())));$('back').onclick=()=>{$('practice').classList.remove('active');$('menu').classList.remove('hidden');};window.addEventListener('resize',()=>{if($('practice').classList.contains('active'))requestAnimationFrame(resetCanvas);});
 /* Optional direct lesson links, also used by browser regression tests. */
+if(mode==='english' && q.has('case')){const c=q.get('case');if(c==='upper'||c==='lower'){pick({kind:c,value:c==='upper'?upper:lower});const step=Number(q.get('step')||1);if(Number.isInteger(step)&&step>=1&&step<=26){index=step-1;show();}}}
 if(mode==='numbers' && q.has('lesson')){
  const group=Number(q.get('lesson')),step=Number(q.get('step')||'1');
  if(Number.isInteger(group)&&group>=1&&group<=10&&Number.isInteger(step)&&step>=1&&step<=10){
