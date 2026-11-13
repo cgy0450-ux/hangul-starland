@@ -18,7 +18,7 @@ const LEVELS=[40,100,200,350];
 const CARS=[{name:'파랑',color:'#4b91e5',price:0},{name:'분홍',color:'#f36d9e',price:15},{name:'초록',color:'#43bb89',price:40},{name:'황금',color:'#f0b52a',price:80}];
 const DIFFICULTY={easy:105,normal:145,fast:205};
 const FREQUENCY={many:.60,normal:1.0,few:1.5};
-let lifetime=0,selectedCar=0,difficulty='easy',frequency='many',particles=[],lastPraise=0;let w=390,h=540,carLane=1,items=[],score=0,best=0,level=0,running=false,paused=false,last=0,spawnClock=0,roadOffset=0,raf=0,soundOn=true,catchFlash=0,catchLabel='',lastSpawnLane=-1,recordTimer=0;
+let lifetime=0,selectedCar=0,difficulty='easy',frequency='many',particles=[],lastPraise=0,sessionElapsed=0,timedOut=false,audioCtx=null;let w=390,h=540,carLane=1,items=[],score=0,best=0,level=0,running=false,paused=false,last=0,spawnClock=0,roadOffset=0,raf=0,soundOn=true,catchFlash=0,catchLabel='',lastSpawnLane=-1,recordTimer=0;
 try{best=Number(localStorage.getItem('joiland-car-collect-best')||0);lifetime=Number(localStorage.getItem('joiland-car-total')||0);selectedCar=Number(localStorage.getItem('joiland-car-selected')||0);difficulty=localStorage.getItem('joiland-car-difficulty')||'easy';frequency=localStorage.getItem('joiland-car-frequency')||'many'}catch(e){}
 if(!DIFFICULTY[difficulty])difficulty='easy';if(!FREQUENCY[frequency])frequency='many';
 if(!CARS[selectedCar]||lifetime<CARS[selectedCar].price)selectedCar=0;
@@ -49,6 +49,14 @@ function draw(){
  if(catchFlash>0){ctx.font='bold '+Math.max(22,Math.min(36,w*.075))+'px sans-serif';ctx.fillStyle='#fff8b4';ctx.shadowColor='#4f347d';ctx.shadowBlur=10;ctx.fillText(catchLabel,w/2,h*.32);ctx.shadowBlur=0}
 }
 function sparkle(lane){const colors=['#fff399','#ffdf6c','#b9f9ff','#ffb9eb'];for(let i=0;i<22;i++){const a=Math.PI*2*i/22;const speed=30+Math.random()*100;particles.push({x:laneX(lane),y:h-80,vx:Math.cos(a)*speed,vy:Math.sin(a)*speed,radius:2+Math.random()*4,color:colors[i%4],life:.75})}}
+function pickupSound(kind){
+ if(!soundOn)return;
+ try{const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;audioCtx=audioCtx||new AC();const ac=audioCtx;if(ac.state==='suspended')ac.resume();
+ const t=ac.currentTime,notes=kind.point>=3?[630,880,1150]:[540,760];
+ notes.forEach((hz,i)=>{const o=ac.createOscillator(),g=ac.createGain();o.type='sine';o.frequency.setValueAtTime(hz,t+i*.085);g.gain.setValueAtTime(.0001,t+i*.085);g.gain.exponentialRampToValueAtTime(.10,t+i*.085+.018);g.gain.exponentialRampToValueAtTime(.0001,t+i*.085+.15);o.connect(g).connect(ac.destination);o.start(t+i*.085);o.stop(t+i*.085+.16)});
+ }catch(e){}
+}
+function finishTime(){if(timedOut)return;timedOut=true;running=false;paused=false;cancelAnimationFrame(raf);showOverlay('🏆 5분 자동차 챔피언!','5분 동안 '+score+'점을 모았어요! 이현이 정말 잘했어요. 다른 놀이도 해 보자!','🏠 다른 놀이 하기');speak('이현이, 5분 자동차 챔피언! 트로피를 받았어!');updateUI();}
 function celebrate(kind){
  const now=Date.now();if(now-lastPraise<2900)return;lastPraise=now;
  const phrases=['좋았어!','멋지게 먹었네!','정말 잘했어!','야호! 보물이다!'];
@@ -56,7 +64,7 @@ function celebrate(kind){
 }
 function hideOverlay(){$('overlay').classList.add('hidden')}
 function showOverlay(title,msg,button){$('message-title').textContent=title;$('message').textContent=msg;$('start').textContent=button;$('overlay').classList.remove('hidden')}
-function reset(keepProgress=false){cancelAnimationFrame(raf);carLane=1;items=[];particles=[];if(!keepProgress){score=0;level=0;}spawnClock=.7;roadOffset=0;catchFlash=0;lastSpawnLane=-1;running=true;paused=false;last=0;hideOverlay();updateUI();draw();raf=requestAnimationFrame(frame)}
+function reset(keepProgress=false){cancelAnimationFrame(raf);carLane=1;items=[];particles=[];if(!keepProgress){score=0;level=0;sessionElapsed=0;timedOut=false;}spawnClock=.7;roadOffset=0;catchFlash=0;lastSpawnLane=-1;running=true;paused=false;last=0;hideOverlay();updateUI();draw();raf=requestAnimationFrame(frame)}
 function pauseGame(){if(!running||paused)return;paused=true;cancelAnimationFrame(raf);showOverlay('⏸ 잠깐 쉬어요','모은 점수는 그대로예요. 준비되면 계속해요!','▶ 계속하기');updateUI()}
 function resume(){if(!running)return;paused=false;last=0;hideOverlay();updateUI();raf=requestAnimationFrame(frame)}
 function win(){running=false;paused=false;cancelAnimationFrame(raf);updateUI();speak('와아! 이현이 성공!');showOverlay('🎉 '+(level+1)+'단계 성공!',level===LEVELS.length-1?'모든 단계를 완성했어요! 정말 멋져요!':'보물을 '+score+'점이나 모았어요! 다음 모험에 도전할까요?',level===LEVELS.length-1?'↻ 다시 출발':'▶ 다음 단계')}
@@ -65,16 +73,16 @@ function moveTo(x){if(!running||paused)return;const r=board.getBoundingClientRec
 function spawn(){const choices=[0,1,2].filter(x=>x!==lastSpawnLane||Math.random()<.35);const lane=choices[Math.floor(Math.random()*choices.length)];lastSpawnLane=lane;const roll=Math.random();const kind=ITEMS[roll<.55?0:roll<.79?3:roll<.94?1:2];items.push({lane,y:-35,kind,got:false})}
 function frame(t){
  if(!running||paused)return;if(!last)last=t;
- const dt=Math.min(.05,(t-last)/1000);last=t;roadOffset+=dt*180;spawnClock+=dt;
+ const dt=Math.min(.05,(t-last)/1000);last=t;sessionElapsed+=dt;if(sessionElapsed>=300){finishTime();return;}roadOffset+=dt*180;spawnClock+=dt;
  if(spawnClock>=FREQUENCY[frequency]){spawnClock-=FREQUENCY[frequency];spawn()}
  for(const item of items){item.y+=dt*DIFFICULTY[difficulty];if(!item.got&&item.lane===carLane&&Math.abs(item.y-(h-80))<44){
- item.got=true;score+=item.kind.point;lifetime+=item.kind.point;catchFlash=.8;catchLabel='+'+item.kind.point+' '+item.kind.symbol;sparkle(item.lane);celebrate(item.kind);try{localStorage.setItem('joiland-car-total',String(lifetime))}catch(e){}garage();
+ item.got=true;score+=item.kind.point;lifetime+=item.kind.point;catchFlash=.8;catchLabel='+'+item.kind.point+' '+item.kind.symbol;sparkle(item.lane);pickupSound(item.kind);celebrate(item.kind);try{localStorage.setItem('joiland-car-total',String(lifetime))}catch(e){}garage();
  if(score>best){best=score;try{localStorage.setItem('joiland-car-collect-best',String(best))}catch(e){}}
  if(score>=target()){draw();win();return}
  }}
  items=items.filter(x=>!x.got&&x.y<h+40);for(const p of particles){p.x+=p.vx*dt;p.y+=p.vy*dt;p.life-=dt;}particles=particles.filter(p=>p.life>0);catchFlash=Math.max(0,catchFlash-dt);updateUI();draw();raf=requestAnimationFrame(frame)
 }
-$('start').onclick=()=>{if(paused){resume();return}if(!running&&score>=target()&&score>0){if(level===LEVELS.length-1){reset();return;}level++;reset(true);return}reset()};
+$('start').onclick=()=>{if(timedOut){location.href='./requests.html';return}if(paused){resume();return}if(!running&&score>=target()&&score>0){if(level===LEVELS.length-1){reset();return;}level++;reset(true);return}reset()};
 $('left').onclick=()=>move(-1);$('right').onclick=()=>move(1);
 $('pause').onclick=()=>paused?resume():pauseGame();$('restart').onclick=reset;
 let startX=0;
