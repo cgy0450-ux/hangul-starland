@@ -74,7 +74,7 @@ assert(mini.includes("stage>=2")&&mini.includes("stage++;round=0"),'three mini-g
 assert(mini.includes('className=\'hiddenworld\'')&&mini.includes('className=\'molefield\''),'hidden search and mole game must have real playing fields');
 assert(mini.includes("className='shadowboard'")&&mini.includes("function link(leftButton,rightButton)"),'animal-to-shadow links must be drawn');
 assert(mini.includes("const b=btn('🧺','basket '+c.id)"),'color game must have selectable collection baskets');
-assert(mini.includes("className='diffboard'")&&mini.includes("const [normal,changed]=DIFFS"),'spot-difference game must show a pair of differing images');
+assert(mini.includes("className='diffboard'")&&mini.includes("const plain=shuffle(")&&mini.includes("changed[slot]=uniquePair[1]"),'spot-difference game must show two nine-object pictures with one real difference');
 assert(sw.includes('mini-games.html'),'new mini-games must be available offline');
 
 assert(sw.includes('word-gate.js')&&sw.includes('adventure.html'),'PWA offline cache must include new adventures and writing');
