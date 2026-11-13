@@ -56,13 +56,13 @@ assert(adventure.includes('dino:')&&adventure.includes('space:')&&adventure.incl
 assert(adventure.includes('window.JoyiWordGate.start(config.word'),'new adventures must gate stages with their appropriate Hangul words');
 assert(['dino','space','animal'].every(x=>requests.includes('href="./adventure.html?game='+x+'"')),'adventures missing from requested games menu');
 assert(sw.includes('word-gate.js')&&sw.includes('adventure.html'),'PWA offline cache must include new adventures and writing');
-assert(shared.includes("if(page==='adventure.html')")&&shared.includes('if(wasPlaying)elapsed+='),'five-minute clock must span multiple stages');
 
 assert(firetruck.includes('사건발생! 사건발생! 화재가 발생했다! 소방차는 출동하라!'),'exact dispatch line missing');
 assert(['hydrant','helicopter','ladder'].every(x=>firetruck.includes('id="'+x+'"')),'rescue equipment missing');
 assert(firetruck.includes('joiland-firetruck-friends'),'animal rescue book missing');
 assert(collect.includes('function pickupSound('),'collectible pickup audio missing');
 const shared=fs.readFileSync('joiland-unified.js','utf8');new vm.Script(shared,{filename:'joiland-unified.js'});
+assert(shared.includes("if(page==='adventure.html')")&&shared.includes('if(wasPlaying)elapsed+='),'five-minute clock must span multiple stages');
 assert(shared.includes('5분 놀이 성공')&&shared.includes('joyi-nav-back'),'shared navigation or trophy absent');
 assert(shared.includes('function reconcileHeader()'),'shared navigation should remove duplicate Home links');
 assert(shared.includes('top:calc(env(safe-area-inset-top'),'trophy countdown must avoid mobile bottom actions');
