@@ -1,0 +1,19 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body data-trace-probe="pending"><script src="../word-gate.js"></script><script>
+(async()=>{
+try{
+ localStorage.setItem('hangul-starland-v1',JSON.stringify({sound:false}));
+ const query=new URLSearchParams(location.search),character=query.get('letter')||'두',mode=query.get('mode')||'partial';
+ let done=false;window.JoyiWordGate.start(character,()=>{done=true});
+ const canvas=document.querySelector('.jwg-sheet canvas');
+ if(!canvas||!window.JoyiHangulGuide)throw Error('missing gate');
+ const guide=window.JoyiHangulGuide.pathsForHangul(character);
+ if(!guide)throw Error('missing glyph');
+ const n=character.charCodeAt(0)-0xAC00,initial='ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ'[Math.floor(n/588)];
+ // The expected number of first-jamo strokes for the reference ㄷ test is two.
+ const strokes=mode==='partial'?guide.slice(0,2):guide;
+ function event(type,x,y){const r=canvas.getBoundingClientRect();canvas.dispatchEvent(new PointerEvent(type,{bubbles:true,cancelable:true,pointerId:1,isPrimary:true,pointerType:'touch',clientX:r.left+x*r.width/300,clientY:r.top+y*r.height/300}))}
+ for(const stroke of strokes){event('pointerdown',...stroke[0]);for(let i=1;i<stroke.length;i++){const a=stroke[i-1],b=stroke[i];for(let k=1;k<=12;k++){const t=k/12;event('pointermove',a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t)}}event('pointerup',...stroke.at(-1))}
+ setTimeout(()=>{document.body.dataset.traceProbe=(mode==='partial'?!done:done)?'pass':'fail';document.body.dataset.checkedCharacter=character},1100);
+}catch(e){document.body.dataset.traceProbe='error';document.body.textContent=e.message}
+})();
+</script></body></html>
