@@ -50,7 +50,7 @@ function advance(){
  stage++;round=0;playing=true;document.body.classList.add('playing');$('repeat').textContent='🔊 다시 듣기';$('repeat').onclick=()=>say(speech);newTask();
 }
 $('repeat').onclick=()=>say(speech);$('other').onclick=()=>location.href='./requests.html';
-$('sound').onclick=()=>{soundOn=!soundOn;$('sound').textContent=soundOn?'🔊':'🔇';if(!soundOn)speechSynthesis?.cancel();try{const o=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}');o.sound=soundOn;localStorage.setItem('hangul-starland-v1',JSON.stringify(o))}catch(e){}};
+$('sound').onclick=()=>{soundOn=!soundOn;$('sound').textContent=soundOn?'🔊':'🔇';if(!soundOn)window.speechSynthesis?.cancel();try{const o=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}');o.sound=soundOn;localStorage.setItem('hangul-starland-v1',JSON.stringify(o))}catch(e){}};
 window.JOY_stopGame=()=>{playing=false;finished=true;document.body.classList.remove('playing');try{speechSynthesis.cancel()}catch(e){}};
 newTask();
 })();
