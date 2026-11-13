@@ -23,4 +23,4 @@ function reset(){commands=[];at=[...L[level].start];busy=false;won=false;$("msg"
 document.querySelectorAll("[data-dir]").forEach(b=>b.onclick=()=>add(b.dataset.dir));
 $("undo").onclick=()=>{if(busy||won)return;commands.pop();render()};$("clear").onclick=reset;$("run").onclick=run;$("next").onclick=()=>{level=(level+1)%L.length;reset();};render();
 })();
-</script></body></html>
+</script><script src="./joiland-unified.js"></script></body></html>
