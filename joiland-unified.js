@@ -28,13 +28,14 @@ function goBack(){
  if(page==='stories.html'&&document.querySelector('#reader.active')){document.getElementById('back')?.click();return}
  if(page==='mazes.html'&&document.querySelector('#game.active')){document.getElementById('back')?.click();return}
  if(page==='legacy.html'){const back=document.querySelector('[data-a="trace-back"]');if(back){back.click();return}location.href='./index.html';return}
- if(['car-collect.html','car-dodge.html','firetruck-rescue.html'].includes(page)){location.href='./requests.html';return}
+ if(['car-collect.html','car-dodge.html','firetruck-rescue.html','mini-games.html'].includes(page)){location.href='./requests.html';return}
  location.href='./index.html';
 }
 nav.querySelector('button').onclick=goBack;
 const gameActive=()=>{
  if(window.JoyiWordGate?.isOpen?.())return false;
  if(page==='adventure.html')return document.body.classList.contains('playing');
+ if(page==='mini-games.html')return document.body.classList.contains('playing');
  if(page==='mini-games.html')return document.body.classList.contains('playing');
  if(['car-collect.html','car-dodge.html','firetruck-rescue.html'].includes(page))return !!document.querySelector('#overlay.hidden');
  if(page==='writing.html')return !!document.querySelector('#practice.active');
