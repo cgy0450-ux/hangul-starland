@@ -17,11 +17,33 @@
 .diffboard{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:9px;max-width:660px}.diffpanel{position:relative;aspect-ratio:3/4;border:5px solid #fff;border-radius:23px;overflow:hidden;background:linear-gradient(#bdeaff 0 55%,#bde8b4 56%);box-shadow:0 6px 0 #d7c5e9}.diffpanel strong{position:absolute;top:8px;left:9px;background:#ffffffbb;border-radius:12px;padding:4px 7px;font-size:12px;color:#67538d}.diff-decor{position:absolute;font-size:clamp(23px,6vw,48px);transform:translate(-50%,-50%);pointer-events:none}.diff-target{position:absolute;transform:translate(-50%,-50%);border:none;background:transparent;font-size:clamp(34px,8vw,61px);width:clamp(50px,13vw,86px);height:clamp(50px,13vw,86px);border-radius:50%;display:grid;place-items:center}.diff-target:focus-visible{outline:3px solid #e994a8}.diff-target.found{outline:5px solid #ffdb6b;background:#fff7be6b}.diff-label{font-size:13px;font-weight:850;color:#745e98}
 @media(max-width:450px){.playarea{padding:9px;min-height:335px}.hero{padding:10px}.hole{border-width:3px}.basket{min-height:95px}.hiddenworld{min-height:260px}}
 @media(max-height:730px){main{gap:6px}.playarea{min-height:265px;max-height:57dvh}.hero{padding:7px}.hole{max-height:95px}.baskets .basket{min-height:75px}.sort-item{min-height:100px}.shadowcol button{min-height:62px}.diffpanel{aspect-ratio:4/3}}
+</style><style id="joyi-original-game-design">
+body{background:radial-gradient(ellipse at 8% 4%,#faf2e4,transparent 38%),radial-gradient(ellipse at 90% 83%,#daeae8,transparent 42%),#f1f2f2;color:#293750!important}
+header{margin:12px auto 5px;background:#ffffffcd;border:1px solid #fff;border-radius:21px;padding:9px!important;box-shadow:0 10px 26px #53627813}
+header h1{color:#293750;letter-spacing:-.06em;font-weight:950}
+.hero{background:linear-gradient(115deg,#e7edf6,#f9e5d8)!important;border:1px solid #fff!important;box-shadow:0 10px 23px #56647a18!important;border-radius:24px}
+.hero h2{color:#293750;letter-spacing:-.055em}
+.hero p{color:#66788d}
+.progress span{border:1px solid #fff!important;box-shadow:0 5px 17px #63727b11;color:#3d5872}
+.playarea{background:linear-gradient(145deg,#f8fcff,#eef7f5)!important;border:1px solid #fff!important;box-shadow:0 16px 30px #51677a24!important;border-radius:30px}
+.hiddenworld{background:linear-gradient(#d4ebf7 0 49%,#a9d7b6 50% 100%)!important;border:1px solid #fff!important}
+.hidden-object{padding:0!important;background:#ffffff20;border:2px solid #ffffff9c!important;border-radius:22px!important;filter:none!important;overflow:visible}
+.hidden-object.found{background:#fff8cf}
+.shadowcol button,.sort-item,.basket,.diffpanel{box-shadow:0 11px 21px #51677b19!important;border:1px solid #fff!important;border-radius:22px!important}
+.shadowcol button .joyi-vector,.sort-item .joyi-vector{width:100%;height:100%}
+.shadowcol button{height:90px}.shadowcol button.shadow{background:#d8e1ed!important}
+.basket{color:#354865!important}.basket .joyi-vector{width:90px;height:75px;display:block;margin:auto}
+.hole{background:radial-gradient(ellipse at 50% 75%,#695b56 0 38%,#ac886b 41% 48%,#a9d8ad 49%)!important;border:2px solid #fff!important;box-shadow:0 8px 15px #5b725521!important}
+.hole.hit{background:#ffefb5!important}
+.diffpanel{background:linear-gradient(#d2ebf5 0 55%,#b7d6b4 56%)!important;overflow:hidden}
+.diff-target{padding:0!important}.diff-target .joyi-vector{width:100%;height:100%}
+.controlbar button{background:#fff!important;border:1px solid #e1eaf0!important;box-shadow:0 6px 14px #465b7718}
+.stageend section{background:linear-gradient(130deg,#fdf5e5,#e5f4f1)!important;border:2px solid #fff!important;box-shadow:0 18px 30px #243b5760!important}
 </style></head><body>
 <header><a href="./requests.html">‹ 놀이터</a><h1 id="title">🐯 새로운 놀이</h1><button id="sound" aria-label="소리 설정">🔊</button></header>
 <main><section class="hero"><h2 id="headline">어떤 놀이를 할까?</h2><p id="prompt" aria-live="polite">찾아 보자!</p></section><div class="progress"><span id="round">⭐ 문제 1 / 5</span><span id="stage">🚀 1단계 / 3</span></div><section class="playarea" id="playarea" aria-label="놀이 화면"></section><div class="message" id="message" role="status"></div><div class="controlbar"><button id="repeat">🔊 다시 듣기</button><button id="other">🎮 다른 놀이</button></div></main>
 <div class="stageend" id="ending"><section><div style="font-size:70px">🏆🐯🎉</div><h2>멋진 탐험 성공!</h2><p>세 단계를 모두 완료했어요. 오늘의 트로피를 받았어요!</p><a href="./requests.html">다른 놀이 고르기</a></section></div>
-<script src="./word-gate.js"></script><script>
+<script src="./joyi-art-renderer.js"></script><script src="./word-gate.js"></script><script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id);
 const params=new URLSearchParams(location.search),game=params.get('game')||'hidden';
@@ -32,10 +54,14 @@ const GAMES={
  mole:{name:'🐹 두더지 잡기',title:'쏙! 올라온 두더지를 톡 눌러요!',words:['두','두더지','친구']},
  differences:{name:'🖼️ 틀린그림 찾기',title:'양쪽 그림에서 달라진 곳을 찾아요!',words:['그림','다른','틀린그림']}
 },cfg=GAMES[game]||GAMES.hidden;
-const ICONS=['🍎','🧸','⭐','🚗','🦕','🐱','🌻','🍄','🎈','🐤','🐰','🦋','🍓','🎁','🚀','🍌','🐟','🐝'];
-const ANIMALS=['🐱','🐶','🐰','🐻','🦊','🐸','🐵','🐼','🦁','🐧'];
-const COLORS=[{id:'red',name:'빨강',icons:['🍎','🍓','🍒','❤️','🌹']},{id:'blue',name:'파랑',icons:['💙','🫐','🐳','🧢','🦋']},{id:'yellow',name:'노랑',icons:['🍌','🌻','⭐','🧀','🐤']}];
-const DIFFS=[['🍎','🍐'],['🌼','🌺'],['🦋','🐝'],['🚗','🚕'],['🐱','🐶'],['🍓','🍒'],['⭐','🌙'],['🌈','☀️'],['🎈','🎁'],['🐰','🐻']];
+const ICONS=['🍎','⭐','🚗','🦕','🐱','🌻','🎈','🐰','🐸','🎁','🐶','🐵','🌳','🍓','💎','🦋','🍌'];
+const ANIMALS=['🐱','🐶','🐰','🐻','🐸','🐵'];
+const COLORS=[
+ {id:'red',name:'빨강',icons:['🍎','🍓','🎈']},
+ {id:'blue',name:'파랑',icons:['💎','🦋','🔵']},
+ {id:'yellow',name:'노랑',icons:['🍌','🍋','🐤']}
+];
+const DIFFS=[['🍎','🍐'],['🌼','🌺'],['🐱','🐶'],['🍓','🍌'],['⭐','☀️'],['🎈','🎁'],['🐰','🐻'],['🦋','🐝']];
 let stage=0,round=0,locked=false,finished=false,spoken='',currentMole=-1,moleTimer=0,gameTimer=0,gameSerial=0,soundOn=true,choice=null,shadowMatch=null,selectedAnimal=-1,shadowIds=[],resizeListener=null;
 try{soundOn=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound!==false}catch(e){}
 $('title').textContent=cfg.name;$('headline').textContent=cfg.title;$('sound').textContent=soundOn?'🔊':'🔇';document.body.classList.add('playing');
@@ -43,7 +69,7 @@ const shuffle=items=>{const a=[...items];for(let i=a.length-1;i>0;i--){const j=M
 let taskOrder=shuffle([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]);
 function voice(t){spoken=t;if(!soundOn||!window.speechSynthesis)return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ko-KR';u.rate=.89;u.pitch=1.13;speechSynthesis.speak(u)}catch(e){}}
 function announce(t){$('prompt').textContent=t;voice(t)}
-function btn(label,cls=''){let x=document.createElement('button');x.type='button';x.className=cls;x.textContent=label;return x}
+function btn(label,cls=''){let x=document.createElement('button');x.type='button';x.className=cls;x.textContent=label;if(JoyiArt.MAP[label])JoyiArt.replace(x,label);return x}
 function progress(){$('round').textContent='⭐ 문제 '+(round+1)+' / 5';$('stage').textContent='🚀 '+(stage+1)+'단계 / 3'}
 function sayGood(){const txt=['와아! 잘 찾았어!','정말 멋져!','이현이 최고!','잘했어! 다음 문제!'];$('message').textContent='✨ '+txt[(stage*5+round)%txt.length];voice(txt[(stage*5+round)%txt.length])}
 function finishRound(){if(locked||finished)return;locked=true;gameSerial++;clearTimeout(moleTimer);sayGood();gameTimer=setTimeout(()=>{
@@ -70,15 +96,15 @@ function hidden(area,n){
  let target=ICONS[n%ICONS.length];const pool=shuffle(ICONS.filter(x=>x!==target)).slice(0,11);const objects=shuffle([target,...pool]);
  announce('그림 속에 숨은 '+target+' 물건을 찾아 볼까?');
  const world=document.createElement('div');world.className='hiddenworld';
- const deco=document.createElement('div');deco.className='scenery';deco.innerHTML='<span style="left:3%;top:10%">☁️</span><span style="left:59%;top:7%">☁️</span><span style="left:78%;top:46%">🌳</span><span style="left:3%;top:53%">🌲</span><span style="left:40%;top:46%">🏡</span><span style="left:66%;top:75%">🌿</span>';world.append(deco);
+ const deco=document.createElement('div');deco.className='scenery';[['☁️',3,10],['☁️',59,7],['🌳',78,46],['🌳',3,53],['🎁',40,46],['🌿',66,75]].forEach(([icon,x,y])=>{const span=document.createElement('span');span.style.cssText='left:'+x+'%;top:'+y+'%;width:20%;height:20%';JoyiArt.replace(span,icon);deco.append(span)});world.append(deco);
  const spots=shuffle([[10,23],[33,18],[54,30],[80,18],[21,43],[53,54],[86,49],[10,72],[31,75],[52,81],[77,79],[92,66]]);
  objects.forEach((icon,i)=>{const b=btn(icon,'hidden-object');b.style.left=spots[i][0]+'%';b.style.top=spots[i][1]+'%';b.setAttribute('aria-label',icon+' 물건');b.onclick=()=>{if(locked)return;if(icon===target)completeSingle(b);else{$('message').textContent='이건 '+icon+'! '+target+'을 찾아 보자!';voice('다른 물건을 찾아 볼까?')}};world.append(b)});
  area.append(world);
 }
 function colors(area,n){
  const color=COLORS[n%3],item=color.icons[(n+stage+round)%color.icons.length];announce(item+'과 같은 색깔의 바구니에 담아 볼까?');
- const object=document.createElement('div');object.className='sort-item';object.textContent=item;object.setAttribute('role','button');object.setAttribute('aria-label',item+' 잡아 바구니에 담기');object.style.touchAction='none';area.append(object);
- const baskets=document.createElement('div');baskets.className='baskets';shuffle(COLORS).forEach(c=>{const b=btn('🧺','basket '+c.id);const tag=document.createElement('span');tag.textContent=c.name;b.append(tag);b.setAttribute('aria-label',c.name+' 바구니');b.onclick=()=>{if(locked)return;if(c.id===color.id){b.textContent='✨ '+item;b.append(tag);completeSingle(b)}else{$('message').textContent='다른 색깔이야! 다시 골라 봐요.';voice('다른 색깔의 바구니야!')}};baskets.append(b)});area.append(baskets);
+ const object=document.createElement('div');object.className='sort-item';JoyiArt.replace(object,item);object.setAttribute('role','button');object.setAttribute('aria-label',item+' 잡아 바구니에 담기');object.style.touchAction='none';area.append(object);
+ const baskets=document.createElement('div');baskets.className='baskets';shuffle(COLORS).forEach(c=>{const b=btn('🧺','basket '+c.id);const tag=document.createElement('span');tag.textContent=c.name;b.append(tag);b.setAttribute('aria-label',c.name+' 바구니');b.onclick=()=>{if(locked)return;if(c.id===color.id){JoyiArt.replace(b,item);b.append(tag);completeSingle(b)}else{$('message').textContent='다른 색깔이야! 다시 골라 봐요.';voice('다른 색깔의 바구니야!')}};baskets.append(b)});area.append(baskets);
  // Tap the matching basket, or drag the toy into it using a finger.
  let dragging=false,fromX=0,fromY=0;
  object.addEventListener('pointerdown',e=>{if(locked)return;dragging=true;fromX=e.clientX;fromY=e.clientY;object.style.transform='scale(1.07)';try{object.setPointerCapture(e.pointerId)}catch(_){}e.preventDefault()});
@@ -96,14 +122,14 @@ function shadows(area,n){
  let selected=null;
  const choices=shuffle(animals);
  animals.forEach(an=>{const b=btn(an);b.setAttribute('aria-label',an+' 동물');b.onclick=()=>{if(locked)return;left.querySelectorAll('button').forEach(x=>x.classList.remove('selected'));selected=an;b.classList.add('selected');$('message').textContent='이제 오른쪽 그림자를 골라 보세요!';voice('그림자를 골라 볼까?')};left.append(b)});
- choices.forEach(an=>{const b=btn('','shadow');b.setAttribute('aria-label','그림자 '+(choices.indexOf(an)+1));const span=document.createElement('span');span.textContent=an;b.append(span);b.onclick=()=>{if(locked)return;if(!selected){$('message').textContent='먼저 왼쪽 동물을 눌러 주세요!';voice('동물을 먼저 골라 볼까?');return}if(selected===an){b.classList.add('correct');const source=[...left.querySelectorAll('button')].find(x=>x.textContent===an);if(source)link(source,b);$('message').textContent='🌟 그림자가 똑같아요!';if(selected===correct)finishRound();else{selected=null;left.querySelectorAll('button').forEach(x=>x.classList.remove('selected'));b.disabled=true;voice('잘했어! 다른 동물도 연결해 보자!')}}else{$('message').textContent='그림자 모양이 다른 것 같아!';voice('다른 그림자를 찾아 보자!')}};right.append(b)});
+ choices.forEach(an=>{const b=btn('','shadow');b.setAttribute('aria-label','그림자 '+(choices.indexOf(an)+1));const span=document.createElement('span');JoyiArt.replace(span,an);b.append(span);b.onclick=()=>{if(locked)return;if(!selected){$('message').textContent='먼저 왼쪽 동물을 눌러 주세요!';voice('동물을 먼저 골라 볼까?');return}if(selected===an){b.classList.add('correct');const source=[...left.querySelectorAll('button')].find(x=>x.textContent===an);if(source)link(source,b);$('message').textContent='🌟 그림자가 똑같아요!';if(selected===correct)finishRound();else{selected=null;left.querySelectorAll('button').forEach(x=>x.classList.remove('selected'));b.disabled=true;voice('잘했어! 다른 동물도 연결해 보자!')}}else{$('message').textContent='그림자 모양이 다른 것 같아!';voice('다른 그림자를 찾아 보자!')}};right.append(b)});
  board.append(left,right);area.append(board);const hint=document.createElement('div');hint.className='diff-label';hint.textContent='왼쪽 동물 → 오른쪽 검은 그림자';area.append(hint);
  // The intended target changes by question; completed correct matches trigger the next task.
 }
 function mole(area,n){
  announce('두더지가 나타나면 빠르게 톡! 눌러 봐요!');const field=document.createElement('div');field.className='molefield';
- let holes=[];for(let i=0;i<9;i++){const b=btn('','hole');b.setAttribute('aria-label','두더지 굴 '+(i+1));b.onclick=()=>{if(locked)return;if(i!==currentMole){$('message').textContent='쏙! 두더지가 다른 굴에 있어요!';return}b.textContent='💫';b.classList.add('hit');currentMole=-1;completeSingle(b)};holes.push(b);field.append(b)}area.append(field);
- const id=gameSerial;function pop(){if(locked||finished||id!==gameSerial)return;holes.forEach(x=>{x.classList.remove('active');x.textContent=''});currentMole=Math.floor(Math.random()*9);holes[currentMole].textContent='🐹';holes[currentMole].classList.add('active');moleTimer=setTimeout(pop,stage===0?1750:stage===1?1450:1150)}pop();
+ let holes=[];for(let i=0;i<9;i++){const b=btn('','hole');b.setAttribute('aria-label','두더지 굴 '+(i+1));b.onclick=()=>{if(locked)return;if(i!==currentMole){$('message').textContent='쏙! 두더지가 다른 굴에 있어요!';return}b.classList.add('hit');JoyiArt.replace(b,'⭐');currentMole=-1;completeSingle(b)};holes.push(b);field.append(b)}area.append(field);
+ const id=gameSerial;function pop(){if(locked||finished||id!==gameSerial)return;holes.forEach(x=>{x.classList.remove('active');x.textContent=''});currentMole=Math.floor(Math.random()*9);JoyiArt.replace(holes[currentMole],'🐹');holes[currentMole].classList.add('active');moleTimer=setTimeout(pop,stage===0?1750:stage===1?1450:1150)}pop();
 }
 function differences(area,n){
  // Both pictures share nine meaningful objects and exactly one differs.
