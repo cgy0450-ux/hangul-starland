@@ -62,7 +62,24 @@ assert(adventure.includes("['알','공룡','화석']"),'dinosaur word prompts mu
 assert(adventure.includes("['별','우주','행성']")&&adventure.includes("['먹이','동물','친구']"),'other adventures need varied handwriting words');
 assert(gate.includes('function autoCheck()')&&gate.includes('autoTimer=setTimeout(autoCheck,220)'),'writing needs automatic letter completion after lifting finger');
 assert(!gate.includes('✅ 다 썼어요'),'writing must not require pressing a done button');
-assert(gate.includes('const SEG=')&&gate.includes('setLineDash([4,11])')&&gate.includes('ctx.fillText(String(i+1)'),'writing must draw numbered stroke starts, dotted paths and arrows');
+assert(!gate.includes('const SEG='),'distorted manually authored syllable templates must be removed');
+assert(gate.includes('function pathsForHangul(')&&gate.includes('const CHO=')&&gate.includes('const JUNG=')&&gate.includes('const JONG='),'Korean syllables must be generated from initial/medial/final jamo');
+assert(gate.includes("ctx.fillText(String(i+1),labelX,labelY)")&&gate.includes('setLineDash([4,11])'),'writing guides must have non-overlapping numbered starts and dotted arrows');
+const pathStart=gate.indexOf(' const CHO='),pathEnd=gate.indexOf(' function pathStroke(',pathStart);
+assert(pathStart>0&&pathEnd>pathStart,'cannot extract pure Hangul glyph geometry');
+const getGlyph=new Function('window',gate.slice(pathStart,pathEnd)+';return window.JoyiHangulGuide.pathsForHangul');
+const glyph=getGlyph({});
+const expectedStrokeCounts={'소':4,'방':7,'차':6,'자':5,'동':5,'알':5,'별':9};
+for(const [character,n] of Object.entries(expectedStrokeCounts)){
+ const strokes=glyph(character);assert(strokes&&strokes.length===n,character+' must have correct jamo and stroke count');
+}
+const practiceWords=['소방차','자동차','알','별','공룡','그림','친구','바구니','색깔','두더지','그림자','동물','화석','행성','토끼','먹이','우주'];
+for(const ch of new Set([...practiceWords.join('')])){
+ const strokes=glyph(ch);assert(strokes?.length>0,'missing Hangul shape: '+ch);
+ for(const stroke of strokes){assert(stroke.length>=2,'invalid trace: '+ch);
+  for(const [x,y] of stroke)assert(x>=0&&x<=300&&y>=0&&y<=300,'out-of-bounds trace '+ch+': '+x+','+y);
+ }
+}
 assert(firetruck.includes('function rescueFriend()')&&firetruck.includes('Math.abs(p.x-fx)<67'),'tap the animal in its window to rescue; do not rescue by ladder button');
 assert(firetruck.includes("if(fires.length&&fires.every(f=>f.done))"),'animal must become rescuable only after all fires are extinguished');
 assert(['dino','space','animal'].every(x=>requests.includes('href="./adventure.html?game='+x+'"')),'adventures missing from requested games menu');
