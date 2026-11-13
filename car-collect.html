@@ -37,10 +37,10 @@ function draw(){
 }
 function hideOverlay(){$('overlay').classList.add('hidden')}
 function showOverlay(title,msg,button){$('message-title').textContent=title;$('message').textContent=msg;$('start').textContent=button;$('overlay').classList.remove('hidden')}
-function reset(){cancelAnimationFrame(raf);carLane=1;items=[];score=0;level=0;spawnClock=.7;roadOffset=0;catchFlash=0;lastSpawnLane=-1;running=true;paused=false;last=0;hideOverlay();updateUI();draw();raf=requestAnimationFrame(frame)}
+function reset(keepProgress=false){cancelAnimationFrame(raf);carLane=1;items=[];if(!keepProgress){score=0;level=0;}spawnClock=.7;roadOffset=0;catchFlash=0;lastSpawnLane=-1;running=true;paused=false;last=0;hideOverlay();updateUI();draw();raf=requestAnimationFrame(frame)}
 function pauseGame(){if(!running||paused)return;paused=true;cancelAnimationFrame(raf);showOverlay('⏸ 잠깐 쉬어요','모은 점수는 그대로예요. 준비되면 계속해요!','▶ 계속하기');updateUI()}
 function resume(){if(!running)return;paused=false;last=0;hideOverlay();updateUI();raf=requestAnimationFrame(frame)}
-function win(){running=false;paused=false;cancelAnimationFrame(raf);updateUI();speak('와아! 이현이 성공!');showOverlay('🎉 '+(level+1)+'단계 성공!','보물을 '+score+'점이나 모았어요! 다음 모험에 도전할까요?','▶ 다음 단계')}
+function win(){running=false;paused=false;cancelAnimationFrame(raf);updateUI();speak('와아! 이현이 성공!');showOverlay('🎉 '+(level+1)+'단계 성공!',level===LEVELS.length-1?'모든 단계를 완성했어요! 정말 멋져요!':'보물을 '+score+'점이나 모았어요! 다음 모험에 도전할까요?',level===LEVELS.length-1?'↻ 다시 출발':'▶ 다음 단계')}
 function move(dir){if(!running||paused)return;carLane=Math.max(0,Math.min(2,carLane+dir));draw()}
 function moveTo(x){if(!running||paused)return;const r=board.getBoundingClientRect();const px=(x-r.left-7)/Math.max(1,w);carLane=px<.36?0:px<.63?1:2;draw()}
 function spawn(){const choices=[0,1,2].filter(x=>x!==lastSpawnLane||Math.random()<.35);const lane=choices[Math.floor(Math.random()*choices.length)];lastSpawnLane=lane;const roll=Math.random();const kind=ITEMS[roll<.55?0:roll<.79?3:roll<.94?1:2];items.push({lane,y:-35,kind,got:false})}
@@ -55,7 +55,7 @@ function frame(t){
  }}
  items=items.filter(x=>!x.got&&x.y<h+40);catchFlash=Math.max(0,catchFlash-dt);updateUI();draw();raf=requestAnimationFrame(frame)
 }
-$('start').onclick=()=>{if(paused){resume();return}if(!running&&score>=target()&&score>0){level=Math.min(level+1,LEVELS.length-1);const prevScore=score;reset();score=prevScore;updateUI();return}reset()};
+$('start').onclick=()=>{if(paused){resume();return}if(!running&&score>=target()&&score>0){if(level===LEVELS.length-1){reset();return;}level++;reset(true);return}reset()};
 $('left').onclick=()=>move(-1);$('right').onclick=()=>move(1);
 $('pause').onclick=()=>paused?resume():pauseGame();$('restart').onclick=reset;
 let startX=0;
