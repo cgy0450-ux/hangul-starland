@@ -77,18 +77,26 @@ function hidden(area,n){
 }
 function colors(area,n){
  const color=COLORS[n%3],item=color.icons[(n+stage+round)%color.icons.length];announce(item+'과 같은 색깔의 바구니에 담아 볼까?');
- const object=document.createElement('div');object.className='sort-item';object.textContent=item;area.append(object);
+ const object=document.createElement('div');object.className='sort-item';object.textContent=item;object.setAttribute('role','button');object.setAttribute('aria-label',item+' 잡아 바구니에 담기');object.style.touchAction='none';area.append(object);
  const baskets=document.createElement('div');baskets.className='baskets';shuffle(COLORS).forEach(c=>{const b=btn('🧺','basket '+c.id);const tag=document.createElement('span');tag.textContent=c.name;b.append(tag);b.setAttribute('aria-label',c.name+' 바구니');b.onclick=()=>{if(locked)return;if(c.id===color.id){b.textContent='✨ '+item;b.append(tag);completeSingle(b)}else{$('message').textContent='다른 색깔이야! 다시 골라 봐요.';voice('다른 색깔의 바구니야!')}};baskets.append(b)});area.append(baskets);
+ // Tap the matching basket, or drag the toy into it using a finger.
+ let dragging=false,fromX=0,fromY=0;
+ object.addEventListener('pointerdown',e=>{if(locked)return;dragging=true;fromX=e.clientX;fromY=e.clientY;object.style.transform='scale(1.07)';try{object.setPointerCapture(e.pointerId)}catch(_){}e.preventDefault()});
+ object.addEventListener('pointerup',e=>{if(!dragging||locked)return;dragging=false;object.style.transform='';const basketsNow=[...baskets.querySelectorAll('button')];const chosen=basketsNow.find(x=>{const r=x.getBoundingClientRect();return e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom});if(chosen)chosen.click();else{$('message').textContent='🧺 같은 색 바구니를 눌러 봐요!'};e.preventDefault()});
+ object.addEventListener('pointercancel',()=>{dragging=false;object.style.transform=''});
+
 }
 function shadows(area,n){
  const animals=shuffle(ANIMALS).slice(0,3),correct=animals[n%3];
  announce(correct+' 친구와 똑같은 그림자를 찾아 연결해 봐요.');
  const board=document.createElement('div');board.className='shadowboard';
+ const lines=document.createElementNS('http://www.w3.org/2000/svg','svg');lines.classList.add('shadow-line');board.append(lines);
+ function link(leftButton,rightButton){const bounds=board.getBoundingClientRect(),l=leftButton.getBoundingClientRect(),r=rightButton.getBoundingClientRect();const path=document.createElementNS('http://www.w3.org/2000/svg','line');path.setAttribute('x1',String(l.right-bounds.left));path.setAttribute('y1',String(l.top+l.height/2-bounds.top));path.setAttribute('x2',String(r.left-bounds.left));path.setAttribute('y2',String(r.top+r.height/2-bounds.top));path.setAttribute('stroke','#55c3a7');path.setAttribute('stroke-width','7');path.setAttribute('stroke-linecap','round');lines.append(path)}
  const left=document.createElement('div'),right=document.createElement('div');left.className='shadowcol';right.className='shadowcol';
  let selected=null;
  const choices=shuffle(animals);
  animals.forEach(an=>{const b=btn(an);b.setAttribute('aria-label',an+' 동물');b.onclick=()=>{if(locked)return;left.querySelectorAll('button').forEach(x=>x.classList.remove('selected'));selected=an;b.classList.add('selected');$('message').textContent='이제 오른쪽 그림자를 골라 보세요!';voice('그림자를 골라 볼까?')};left.append(b)});
- choices.forEach(an=>{const b=btn('','shadow');b.setAttribute('aria-label','그림자 '+(choices.indexOf(an)+1));const span=document.createElement('span');span.textContent=an;b.append(span);b.onclick=()=>{if(locked)return;if(!selected){$('message').textContent='먼저 왼쪽 동물을 눌러 주세요!';voice('동물을 먼저 골라 볼까?');return}if(selected===an){b.classList.add('correct');$('message').textContent='🌟 그림자가 똑같아요!';if(selected===correct)finishRound();else{selected=null;left.querySelectorAll('button').forEach(x=>x.classList.remove('selected'));b.disabled=true;voice('잘했어! 다른 동물도 연결해 보자!')}}else{$('message').textContent='그림자 모양이 다른 것 같아!';voice('다른 그림자를 찾아 보자!')}};right.append(b)});
+ choices.forEach(an=>{const b=btn('','shadow');b.setAttribute('aria-label','그림자 '+(choices.indexOf(an)+1));const span=document.createElement('span');span.textContent=an;b.append(span);b.onclick=()=>{if(locked)return;if(!selected){$('message').textContent='먼저 왼쪽 동물을 눌러 주세요!';voice('동물을 먼저 골라 볼까?');return}if(selected===an){b.classList.add('correct');const source=[...left.querySelectorAll('button')].find(x=>x.textContent===an);if(source)link(source,b);$('message').textContent='🌟 그림자가 똑같아요!';if(selected===correct)finishRound();else{selected=null;left.querySelectorAll('button').forEach(x=>x.classList.remove('selected'));b.disabled=true;voice('잘했어! 다른 동물도 연결해 보자!')}}else{$('message').textContent='그림자 모양이 다른 것 같아!';voice('다른 그림자를 찾아 보자!')}};right.append(b)});
  board.append(left,right);area.append(board);const hint=document.createElement('div');hint.className='diff-label';hint.textContent='왼쪽 동물 → 오른쪽 검은 그림자';area.append(hint);
  // The intended target changes by question; completed correct matches trigger the next task.
 }
