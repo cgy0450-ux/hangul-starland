@@ -203,6 +203,23 @@ body.joy-playing .spacebg{min-height:0}
 body.joy-playing .space-ui{padding:2px}
 body.joy-playing .question-title{font-size:clamp(18px,4vw,27px)}
 body.joy-playing .break-banner{display:none}
+/* 글씨 쓰기는 세로로 길 수 있으므로 작은 휴대전화에서도 아래 버튼까지 스크롤됩니다.
+   다른 퀴즈의 한 화면 레이아웃은 유지합니다. */
+body.joy-playing:has(.trace-layout) .mainpanel{
+ overflow-y:auto!important;overflow-x:hidden!important;justify-content:flex-start!important;
+ overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;
+ padding-bottom:38px!important;
+}
+body.joy-playing:has(.trace-layout) .trace-layout{flex-shrink:0;width:100%}
+body.joy-playing:has(.trace-layout) .trace-hint,
+body.joy-playing:has(.trace-layout) .trace-nav-actions{flex-shrink:0}
+body.joy-playing:has(.trace-layout) .trace-nav-actions{position:relative!important;bottom:auto!important;z-index:1}
+@media(max-width:720px){
+ body.joy-playing:has(.trace-layout) .trace-pad{width:min(78vw,340px);max-width:100%}
+ body.joy-playing:has(.trace-layout) .writing-top{padding:12px}
+ body.joy-playing:has(.trace-layout) .writing-top p{font-size:clamp(13px,3vw,16px)}
+}
+
 @media(max-height:650px){body.joy-playing .choice{min-height:40px}body.joy-playing .mainpanel{padding:5px}body.joy-playing .screenhead{margin:0}body.joy-playing .lesson-hero strong{font-size:28px}}
 
 body.joy-playing .learn-tabs{gap:5px;flex-shrink:0;margin:3px 0}
