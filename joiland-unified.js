@@ -4,12 +4,22 @@ const page=(location.pathname.split('/').pop()||'index.html');
 if(page==='index.html')return;
 const header=document.querySelector('header');if(!header)return;
 const css=document.createElement('style');
-css.textContent='.joyi-unified-nav{display:flex;gap:5px;align-items:center;flex:none}.joyi-unified-nav a,.joyi-unified-nav button{font-family:inherit;font-size:clamp(12px,2.6vw,15px)!important;font-weight:900!important;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;background:#fff!important;color:#584296!important;border:2px solid #fff!important;border-radius:13px!important;padding:7px 9px!important;box-shadow:0 3px 0 #cfc1e9!important;min-width:48px}.joyi-unified-nav button{cursor:pointer}.joyi-time-badge{position:fixed;bottom:6px;right:7px;z-index:120;background:#fff9d9;color:#604698;border:2px solid white;border-radius:13px;padding:5px 9px;font-size:12px;font-weight:900;box-shadow:0 2px 8px #46358933;pointer-events:none}.joyi-trophy-shade{position:fixed;inset:0;z-index:99999;display:flex;justify-content:center;align-items:center;padding:20px;background:#2c2465bb}.joyi-trophy-content{background:linear-gradient(145deg,#fff6c7,#fff,#d9f8ed);border:6px solid #fff;border-radius:30px;max-width:430px;width:100%;padding:23px;text-align:center;color:#5e438e;box-shadow:0 12px 0 #9b8eb4}.joyi-trophy-content h2{font-size:clamp(27px,6vw,36px);margin:8px 0}.joyi-trophy-content p{font-size:17px}.joyi-trophy-content a{display:inline-flex;text-decoration:none;padding:14px 19px;background:#7459d3;color:white;border:4px solid white;border-radius:19px;font-weight:900;font-size:17px}@media(max-width:720px){.joyi-unified-nav{gap:3px}.joyi-unified-nav a,.joyi-unified-nav button{padding:6px!important;min-width:43px}header{gap:5px!important}}';
+css.textContent='.joyi-unified-nav{display:flex;gap:5px;align-items:center;flex:none}.joyi-unified-nav a,.joyi-unified-nav button{font-family:inherit;font-size:clamp(12px,2.6vw,15px)!important;font-weight:900!important;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;background:#fff!important;color:#584296!important;border:2px solid #fff!important;border-radius:13px!important;padding:7px 9px!important;box-shadow:0 3px 0 #cfc1e9!important;min-width:48px}.joyi-unified-nav button{cursor:pointer}.joyi-time-badge{position:fixed;top:calc(env(safe-area-inset-top, 0px) + 68px);bottom:auto;right:8px;z-index:120;background:#fff9d9;color:#604698;border:2px solid white;border-radius:13px;padding:5px 9px;font-size:12px;font-weight:900;box-shadow:0 2px 8px #46358933;pointer-events:none}.joyi-trophy-shade{position:fixed;inset:0;z-index:99999;display:flex;justify-content:center;align-items:center;padding:20px;background:#2c2465bb}.joyi-trophy-content{background:linear-gradient(145deg,#fff6c7,#fff,#d9f8ed);border:6px solid #fff;border-radius:30px;max-width:430px;width:100%;padding:23px;text-align:center;color:#5e438e;box-shadow:0 12px 0 #9b8eb4}.joyi-trophy-content h2{font-size:clamp(27px,6vw,36px);margin:8px 0}.joyi-trophy-content p{font-size:17px}.joyi-trophy-content a{display:inline-flex;text-decoration:none;padding:14px 19px;background:#7459d3;color:white;border:4px solid white;border-radius:19px;font-weight:900;font-size:17px}@media(max-width:720px){.joyi-unified-nav{gap:3px}.joyi-unified-nav a,.joyi-unified-nav button{padding:6px!important;min-width:43px}header{gap:5px!important}}';
 document.head.append(css);
 const nav=document.createElement('nav');nav.className='joyi-unified-nav';nav.setAttribute('aria-label','공통 화면 이동');
 nav.innerHTML='<button type="button" id="joyi-nav-back" aria-label="이전 화면으로 돌아가기">‹ 뒤로</button><a href="./index.html" aria-label="쪼이랜드 홈으로 이동">🏠 홈</a>';header.prepend(nav);
-const navObserver=new MutationObserver(()=>{const current=document.querySelector('header');if(current&&!current.querySelector('.joyi-unified-nav'))current.prepend(nav)});
+function reconcileHeader(){
+ const current=document.querySelector('header');if(!current)return;
+ if(!current.querySelector('.joyi-unified-nav'))current.prepend(nav);
+ // Hide a pre-existing top-level Home control; the shared Home link is canonical.
+ for(const a of [...current.children]){if(a===nav||a.tagName!=='A')continue;
+ const href=a.getAttribute('href')||'',label=(a.textContent||'')+' '+(a.getAttribute('aria-label')||'');
+ if((/\bindex\.html(?:\?|$)/.test(href)||href==='./')&&/홈|처음으로/.test(label))a.style.display='none';
+ }
+}
+const navObserver=new MutationObserver(()=>{reconcileHeader()});
 navObserver.observe(document.body,{subtree:true,childList:true});
+reconcileHeader();
 function goBack(){
  if(page==='writing.html'&&document.querySelector('#practice.active')){document.getElementById('back')?.click();return}
  if(page==='journey.html'&&document.body.classList.contains('playing')){document.getElementById('back')?.click();return}
