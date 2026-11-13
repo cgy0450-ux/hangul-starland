@@ -472,12 +472,12 @@ function parent(){stopSpeech();view.mode='parent';const entries=MODES.map(m=>`<d
 아이패드: 사파리 공유 버튼 → <b>홈 화면에 추가</b></p>
 <p>설치 버튼에서 별도 창이 나타나지 않으면 위의 브라우저 메뉴를 이용해 주세요. 파일(file://)로 연 경우는 홈 화면 앱 설치가 지원되지 않을 수 있습니다.</p>
 </div><button class="danger star-reset" data-a="reset-stars">⭐ 별만 초기화 (가족 이름·학습 진도 유지)</button><div style="height:12px"></div><button class="danger" data-a="reset">모든 학습 기록 초기화</button><div style="height:16px"></div><button class="largebtn white" data-a="home">돌아가기</button></div>`);refreshVoices();}
-function handle(action,el){if(action==='subjects'){chooseSubjects();return;}if(action==='choose-subject'){const sub=el.dataset.subject;if(sub==='hangul'){home();return;}if(sub==='finance'){location.href='./finance.html';return;}if(sub==='requests'){location.href='./requests.html';return;}if(['math','science','english','history','coding'].includes(sub)){location.href='./academy.html?subject='+encodeURIComponent(sub);return;}}
+function handle(action,el){if(action==='subjects'){location.href='./index.html';return;}if(action==='choose-subject'){const sub=el.dataset.subject;if(sub==='hangul'){home();return;}if(sub==='finance'){location.href='./finance.html';return;}if(sub==='requests'){location.href='./requests.html';return;}if(['math','science','english','history','coding'].includes(sub)){location.href='./academy.html?subject='+encodeURIComponent(sub);return;}}
 if(action==='refresh'){refreshApp();return;}if(action==='reset-stars'){resetStarsOnly();return;}if(action==='stickers'){stickerBook();return;}
 if(action==='family-choose'){startFamily(el.dataset.person);return;}
 if(action==='race-hear'){say(view.deck[view.round].name);return;}
 if(action==='race-pick'){if(view.answered)return;const pick=view.q[+el.dataset.index];if(pick.name!==view.deck[view.round].name){view.wrong=+el.dataset.index;animalRace();say('다시 들어 볼까?');return;}view.answered=true;gain('safari',view.deck[view.round].name);animalRace();sayPraise();return;}
-if(action==='trace-back'){clearTraceAdvance();if(view.mode==='trace'&&view.round>0){view.round--;view.answered=false;view.traceLetter=0;view.traceDone=[];view.traceColors=[];guidedWrite();}else home();return;}
+if(action==='trace-back'){clearTraceAdvance();if(view.mode==='trace'&&view.round>0){view.round--;view.answered=false;view.traceLetter=0;view.traceDone=[];view.traceColors=[];guidedWrite();}else location.href='./index.html';return;}
 if(action==='trace-demo'){revealStrokeDemo();return;}
 if(action==='trace-undo'){view.traceDone=view.traceDone||[];view.traceDone.pop();view.answered=false;guidedWrite();return;}
 if(action==='trace-clear'){view.traceDone=[];view.answered=false;guidedWrite();return;}
@@ -496,7 +496,7 @@ ROOT.addEventListener('click',e=>{const b=e.target.closest('[data-a]');if(b)hand
 ROOT.addEventListener('change',e=>{if(e.target?.id==='voice-choice'){state.voiceKey=e.target.value;persist();sayPraise();}});
 window.addEventListener('resize',()=>{if((view.mode==='trace'||view.mode==='color')&&!view.answered)renderMode();});
 if('serviceWorker' in navigator && /^https?:$/.test(location.protocol)){window.addEventListener('load',()=>{navigator.serviceWorker.register('./sw.js').catch(()=>{});});}
-const directMode=new URLSearchParams(location.search).get('game');if(MODES.some(m=>m.id===directMode))start(directMode);else if(new URLSearchParams(location.search).get('subject')==='hangul')home();else chooseSubjects();
+const directMode=new URLSearchParams(location.search).get('game');if(MODES.some(m=>m.id===directMode))start(directMode);else location.replace('./index.html');
 // Reveal the ready app only after the full-screen welcome scene has been visible briefly.
 (function dismissWelcome(){const splash=document.getElementById('joy-splash');if(!splash)return;setTimeout(()=>{splash.classList.add('is-hiding');setTimeout(()=>splash.remove(),560);},1050);})();
 window.HANGUL_QA={state:()=>JSON.parse(JSON.stringify(state)),go:start,view:()=>({mode:view.mode,round:view.round,lesson:view.lesson,answered:view.answered,chosen:view.chosen.slice()}),journey:(n)=>startJourney(n),voices:()=>availableKoreanVoices().map(v=>v.name),speakParts,glyphStrokes,traceEvaluation,family:()=>familyData(),reset:()=>{state=initialState();persist();home();}};
