@@ -33,6 +33,8 @@ function goBack(){
 }
 nav.querySelector('button').onclick=goBack;
 const gameActive=()=>{
+ if(window.JoyiWordGate?.isOpen?.())return false;
+ if(page==='adventure.html')return document.body.classList.contains('playing');
  if(['car-collect.html','car-dodge.html','firetruck-rescue.html'].includes(page))return !!document.querySelector('#overlay.hidden');
  if(page==='writing.html')return !!document.querySelector('#practice.active');
  if(page==='legacy.html')return document.body.classList.contains('joy-playing')&&!document.querySelector('.endboard');
@@ -50,8 +52,8 @@ function trophy(){
 }
 function tick(now){
  const active=gameActive();
- if(!active&&wasPlaying){elapsed=0;ended=false;widget?.remove();widget=null}
- if(active&&!ended){if(!wasPlaying)elapsed=0;else elapsed+=Math.min(1.25,(now-previous)/1000);
+ if(!active&&wasPlaying){widget?.remove();widget=null}
+ if(active&&!ended){if(wasPlaying)elapsed+=Math.min(1.25,(now-previous)/1000);
   if(!widget){widget=document.createElement('div');widget.className='joyi-time-badge';document.body.append(widget)}
   widget.textContent='🏆 '+Math.max(0,Math.ceil(300-elapsed))+'초 후 트로피';
   if(elapsed>=300)trophy();
