@@ -22,6 +22,18 @@ const data=fs.readFileSync('stories-data.js','utf8');
 const curated=fs.readFileSync('curated-questions.js','utf8');
 const finance=fs.readFileSync('finance.html','utf8');
 const requests=fs.readFileSync('requests.html','utf8');
+const collect=fs.readFileSync('car-collect.html','utf8');
+const dodge=fs.readFileSync('car-dodge.html','utf8');
+for(const [name,code] of [['car-collect.html',collect],['car-dodge.html',dodge]]){
+ const script=code.match(/<script>([\s\S]*?)<\/script>/);
+ assert(script,name+' must have executable game script');
+ new vm.Script(script[1],{filename:name});
+}
+assert(requests.includes('href="./car-collect.html"')&&requests.includes('href="./car-dodge.html"'),'requested playground must link both car games');
+assert(collect.includes('const CARS=')&&collect.includes('joiland-car-total')&&collect.includes('joiland-car-selected'),'unlockable cars missing');
+assert(collect.includes('const DIFFICULTY=')&&collect.includes('const FREQUENCY=')&&collect.includes('function sparkle(')&&collect.includes('function celebrate('),'difficulty, frequency or pickup rewards missing');
+assert(sw.includes('car-collect.html')&&sw.includes('car-dodge.html'),'offline manifest must cache both car games');
+
 const checkData={window:{}};vm.runInNewContext(curated,checkData);
 for(const sub of ['history','coding']){const lessons=checkData.window.JOY_CURATED[sub];assert.equal(lessons.length,sub==='history'?10:9);for(const [i,rows] of lessons.entries()){assert(rows.length>=5,sub+' '+i+' has too few questions');for(const q of rows){assert.equal(q.length,6,'unreviewed question '+sub+i);assert.equal(new Set(q.slice(2)).size,4,'ambiguous or duplicate answer '+sub+i);assert(!q.slice(2).some(a=>['없어요','잘 모르겠어요','다른 것'].includes(a)),'vague distractor '+sub+i);}}}
 const sandbox={window:{}};vm.runInNewContext(data,sandbox);
@@ -43,7 +55,7 @@ assert(!stories.includes('<script src="./bgm.js'),'background music must be remo
 assert(!maze.includes('<script src="./bgm.js'),'background music must be removed from maze');
 assert(stories.includes('function scenePicture')&&stories.includes('window.JOY_STORIES'),'illustrated ten-page story renderer missing');
 assert(maze.includes('pointermove')&&maze.includes('trail.push(pos)'),'finger maze missing');
-assert(writing.includes('function drawGuide')&&writing.includes('function coverage')&&writing.includes('letters={'),'number and English finger writing missing');
+assert(writing.includes('function drawGuide')&&writing.includes('function evaluateWriting')&&writing.includes('letters={'),'number and English finger writing missing');
 assert(writing.includes('groups=Array.from({length:10}')&&writing.includes('selection[index]'),'missing ten ten-number groups');
 assert(writing.includes('function glyphs(value)')&&writing.includes('viewBox')&&writing.includes('part.ox+part.scale*p.x'),'multi-digit rendering missing');
 assert(writing.includes('part.ox+part.scale*p.x')&&writing.includes('Math.min(...guidePaths.map'),'whole-number stroke coverage missing');
