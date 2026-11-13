@@ -35,6 +35,7 @@ nav.querySelector('button').onclick=goBack;
 const gameActive=()=>{
  if(window.JoyiWordGate?.isOpen?.())return false;
  if(page==='adventure.html')return document.body.classList.contains('playing');
+ if(page==='mini-games.html')return document.body.classList.contains('playing');
  if(['car-collect.html','car-dodge.html','firetruck-rescue.html'].includes(page))return !!document.querySelector('#overlay.hidden');
  if(page==='writing.html')return !!document.querySelector('#practice.active');
  if(page==='legacy.html')return document.body.classList.contains('joy-playing')&&!document.querySelector('.endboard');
