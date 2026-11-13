@@ -58,13 +58,13 @@ function catalog(){
  hangul:[["한글 글씨 쓰기","legacy.html?game=trace"],["그림 낱말 놀이","legacy.html?game=quiz"],["동화 그림책","stories.html"]],
  math:[["수학 퀴즈 10종","academy.html?subject=math"],["숫자 따라 쓰기","writing.html?mode=numbers"],["자동차·소방차 놀이","requests.html"]],
  english:[["영어 퀴즈 10종","academy.html?subject=english"],["알파벳·단어 쓰기","writing.html?mode=english"]],
- science:[["과학 퀴즈 10종","academy.html?subject=science"],["동물 자동차 탐험","legacy.html"]],
+ science:[["과학 퀴즈 10종","academy.html?subject=science"],["동물 자동차 탐험","legacy.html?game=safari"]],
  history:[["역사 퀴즈 10종","academy.html?subject=history"],["위인과 전래동화","stories.html"]],
  coding:[["코딩 퀴즈 10종","academy.html?subject=coding"],["진짜 블록 명령 코딩","coding-lab.html"],["손가락 미로","mazes.html"]],
  finance:[["가게·저금통 체험 10종","finance.html"],["자동차·소방차 놀이","requests.html"]],
  reading:[["동화책 20편","stories.html"],["우리 가족 이름 쓰기","legacy.html?game=family"]],
- life:[["동화로 감정 배우기","stories.html"],["사회성과 일상 놀이","legacy.html"]],
- creativity:[["자동차·소방차 놀이","requests.html"],["손가락 색칠·글씨","legacy.html"]]
+ life:[["동화로 감정 배우기","stories.html"],["그림 낱말 놀이","legacy.html?game=quiz"]],
+ creativity:[["자동차·소방차 놀이","requests.html"],["손가락 색칠·글씨","legacy.html?game=color"]]
  };
  const extras=$("extras");extras.replaceChildren();
  for(const [name,url] of (external[subject.id]||[])){
