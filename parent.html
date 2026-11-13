@@ -23,4 +23,4 @@ $("save").onclick=()=>{A.configure({name:$("childName").value,age:$("childAge").
 $("export").onclick=()=>{const blob=new Blob([JSON.stringify({exported:new Date().toISOString(),profile:A.profile()},null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="joiland-learning-backup.json";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),5000)};
 $("reset").onclick=()=>{const word=prompt("새 학습 기록을 지우려면 '초기화'라고 입력해 주세요. 기존 클래식 놀이의 기록은 유지됩니다.");if(word!=="초기화")return;localStorage.removeItem("joiland-learning-v10");location.reload()};
 })();
-</script></body></html>
+</script><script src="./joiland-unified.js"></script></body></html>
