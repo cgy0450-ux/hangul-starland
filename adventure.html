@@ -1,0 +1,57 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#7860cf"><title>쪼이랜드 새 모험</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100dvh;display:flex;flex-direction:column;background:radial-gradient(circle at 15% 8%,#fff2aa,transparent 40%),radial-gradient(circle at 88% 92%,#d0faff,transparent 47%),#f2eaff;color:#4c397c;font-family:system-ui,"Malgun Gothic",sans-serif}
+header{max-width:820px;width:100%;margin:auto auto 0;display:flex;align-items:center;justify-content:space-between;padding:10px;gap:8px}header a,header button{padding:10px;background:white;border:3px solid white;border-radius:14px;text-decoration:none;color:#6446a0;font-weight:900;font-size:14px}header h1{font-size:clamp(18px,4.8vw,26px);margin:0;text-align:center;flex:1}
+main{max-width:790px;width:100%;margin:0 auto auto;padding:9px;display:flex;flex-direction:column;gap:13px;flex:1}
+.headline{border:5px solid #fff;border-radius:25px;background:linear-gradient(110deg,#ffedb7,#e2e5ff,#d9f8f2);padding:15px;text-align:center;box-shadow:0 6px 0 #d8c8e7}
+.headline h2{margin:0 0 8px;font-size:clamp(20px,6vw,32px)}.headline p{margin:3px;font-size:15px;font-weight:750}.status{display:flex;gap:8px;justify-content:space-between;font-size:clamp(13px,3.5vw,17px);font-weight:950}.status span{background:#fff;border:3px solid #fff;border-radius:14px;padding:8px 12px}.stage{flex:1;min-height:330px;max-height:67dvh;background:linear-gradient(170deg,#fdfefd,#e8faff);border:7px solid white;border-radius:28px;padding:18px 11px;box-shadow:0 9px 0 #d9c4ee;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;overflow:hidden}.scene{font-size:clamp(53px,11vw,90px);line-height:1.2;filter:drop-shadow(0 8px 4px #b3b2ce66);animation:float 3s ease-in-out infinite}.question{font-size:clamp(18px,5vw,26px);font-weight:950;text-align:center;line-height:1.45;color:#553b8c}.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:100%;max-width:530px}.tiles button{display:grid;place-items:center;min-height:95px;border:5px solid #fff;border-radius:24px;background:linear-gradient(140deg,#fff4cb,#e4f7ff);box-shadow:0 6px 0 #d4c0ec;color:#62439b;font-size:clamp(44px,9vw,64px);cursor:pointer;transition:transform .12s}.tiles button:active{transform:scale(.94)}.tiles button:focus-visible{outline:5px solid #49caba}.tiles button.correct{background:#d6fbe8;transform:scale(1.06)}.tiles button.wrong{animation:wobble .28s}.feedback{text-align:center;font-size:clamp(16px,4vw,23px);font-weight:950;min-height:30px;color:#269889}.controls{display:flex;gap:8px;justify-content:space-around}.controls button{background:#fff;border:3px solid white;border-radius:16px;padding:10px 12px;color:#6949a7;font-weight:900;font-size:15px}.end{display:none;position:fixed;inset:0;z-index:20;background:#302562a8;padding:18px;align-items:center;justify-content:center}.end.active{display:flex}.end section{max-width:390px;background:linear-gradient(120deg,#fff2bf,#fff,#daf9ef);border:6px solid white;border-radius:27px;padding:20px;text-align:center;box-shadow:0 10px 0 #c9b6ea}.end h2{font-size:28px}.end a,.end button{display:inline-block;background:#7356ca;padding:13px;color:#fff;font-weight:950;text-decoration:none;border:3px solid white;border-radius:17px}
+@keyframes float{50%{transform:translateY(-8px)}}@keyframes wobble{50%{transform:rotate(-5deg)}}@media(max-width:420px){.stage{min-height:300px;padding:10px 7px;gap:11px}.tiles button{min-height:78px}.scene{font-size:58px}}@media(max-height:700px){.stage{min-height:250px;max-height:54dvh}.tiles button{min-height:60px;font-size:40px}}
+</style></head><body>
+<header><a href="./requests.html">‹ 놀이터</a><h1 id="heading">🐯 새 모험</h1><button id="sound" aria-label="소리 켜기">🔊</button></header>
+<main><div class="headline"><h2 id="subtitle">모험 시작!</h2><p id="explain">마음에 드는 걸 찾아 눌러 보세요</p></div><div class="status"><span id="round">🌟 1 / 5</span><span id="level">🚀 1단계 / 3</span></div><section class="stage"><div class="scene" id="scene">🦕</div><div class="question" id="question">찾아 보자!</div><div class="tiles" id="tiles"></div><div class="feedback" id="feedback" role="status">🐯 준비됐어?</div></section><div class="controls"><button id="repeat">🔊 다시 듣기</button><button id="other">🎮 다른 놀이</button></div></main>
+<div class="end" id="ending" role="dialog" aria-modal="true"><section><div style="font-size:72px">🏆🐯✨</div><h2 id="endtitle">모험 성공!</h2><p>정말 잘했어! 새로운 모험을 골라 보자.</p><a href="./requests.html">🎮 다른 놀이 하기</a></section></div>
+<script src="./word-gate.js"></script><script>
+(()=>{'use strict';
+const $=id=>document.getElementById(id),mode=new URLSearchParams(location.search).get('game')||'dino';
+const OPTIONS={
+dino:{heading:'🦖 공룡 알 탐험',title:'알에서 어떤 공룡이 나올까?',guide:'알을 톡! 눌러서 공룡을 찾아 보세요',word:'공룡',scene:'🦕🥚',back:'#fff0c6'},
+space:{heading:'🚀 반짝반짝 우주',title:'우주별 구조 탐험!',guide:'반짝이는 별을 찾아 눌러 보세요',word:'우주',scene:'🚀🌌',back:'#e3ddff'},
+animal:{heading:'🐰 동물 친구 돌보기',title:'아픈 동물 친구를 도와줘!',guide:'동물 친구에게 필요한 것을 찾아 주세요',word:'동물',scene:'🐶🐱',back:'#d8ffe9'}
+},config=OPTIONS[mode]||OPTIONS.dino;
+const DINOS=['🦖','🦕','🐉','🦎','🐢','🐊'],STARS=['⭐','🌟','💫','✨','🌠','🪐'],PATIENTS=[{animal:'🐰',item:'🥕',name:'토끼에게 당근을 주세요'},{animal:'🐶',item:'🦴',name:'강아지에게 뼈다귀를 주세요'},{animal:'🐱',item:'🐟',name:'고양이에게 생선을 주세요'},{animal:'🐻',item:'🍯',name:'곰에게 꿀을 주세요'},{animal:'🐵',item:'🍌',name:'원숭이에게 바나나를 주세요'},{animal:'🐘',item:'🍉',name:'코끼리에게 수박을 주세요'}];
+let stage=0,round=0,locked=false,total=0,target='',speech='',playing=true,soundOn=true,elapsed=0,finished=false,currentTask=null,raf=0,last=0;
+try{soundOn=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound!==false}catch(e){}
+$('heading').textContent=config.heading;$('subtitle').textContent=config.title;$('explain').textContent=config.guide;$('sound').textContent=soundOn?'🔊':'🔇';document.body.classList.add('playing');
+function say(t){if(!soundOn||!window.speechSynthesis)return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ko-KR';u.rate=.86;speechSynthesis.speak(u)}catch(e){}}
+function rand(items){return [...items].sort(()=>Math.random()-.5)}
+function newTask(){
+ if(finished)return;locked=false;
+ const n=(stage*5+round)%6;let options=[];
+ if(mode==='animal'){currentTask=PATIENTS[n];target=currentTask.item;speech=currentTask.name;options=rand(['🥕','🦴','🐟','🍯','🍌','🍉']);$('scene').textContent=currentTask.animal+'💖';$('question').textContent=speech}
+ else if(mode==='space'){target=STARS[n];speech=target==='🪐'?'행성을 찾아 보세요!':'반짝이는 '+target+' 별을 찾아 보세요!';options=rand(STARS);$('scene').textContent='🚀🌌';$('question').textContent=speech}
+ else{target=DINOS[n];speech='알을 톡 눌러 '+(stage+1)+'번째 공룡을 찾아 볼까요?';options=['🥚','🥚','🥚','🥚','🥚','🥚'];$('scene').textContent='🥚🦕';$('question').textContent='🥚 신기한 알을 열어 보자!'}
+ $('round').textContent='🌟 '+(round+1)+' / 5';$('level').textContent='🚀 '+(stage+1)+'단계 / 3';$('feedback').textContent='🐯 손가락으로 눌러 봐!';
+ const board=$('tiles');board.replaceChildren();
+ options.forEach((emoji,i)=>{const b=document.createElement('button');b.textContent=emoji;b.setAttribute('aria-label',mode==='dino'?'공룡 알 '+(i+1):emoji);b.onclick=()=>choose(b,emoji,i);board.append(b)});
+ say(speech)
+}
+function choose(button,emoji,i){
+ if(locked)return;
+ if(mode!=='dino'&&emoji!==target){button.classList.add('wrong');$('feedback').textContent='좋아! 다른 아이템을 찾아 볼까?';say('다른 친구도 찾아 보자!');setTimeout(()=>button.classList.remove('wrong'),500);return}
+ locked=true;total++;
+ button.textContent=mode==='dino'?DINOS[(stage*5+round+i)%DINOS.length]+'🌈':emoji+'💛';button.classList.add('correct');$('feedback').textContent='✨ 성공! 정말 멋져!';say('와아! 정말 잘했어!');
+ setTimeout(()=>{if(!playing)return;if(++round<5){newTask();return}playing=false;document.body.classList.remove('playing');say('멋지게 성공! '+config.word+'를 써 볼까?');
+ if(window.JoyiWordGate)window.JoyiWordGate.start(config.word,advance,{onCancel:()=>{playing=false;$('feedback').textContent='✍️ 다음 단계로 가려면 글씨 쓰기를 끝내 주세요!';$('repeat').textContent='✍️ 글씨 쓰기 계속';$('repeat').onclick=()=>window.JoyiWordGate.start(config.word,advance)}});
+ else advance();
+ },650)
+}
+function advance(){
+ if(stage>=2){finished=true;playing=false;document.body.classList.remove('playing');$('ending').classList.add('active');$('endtitle').textContent='🏆 '+config.word+' 탐험 성공!';say('트로피를 받았어! 축하해!');return}
+ stage++;round=0;playing=true;document.body.classList.add('playing');$('repeat').textContent='🔊 다시 듣기';$('repeat').onclick=()=>say(speech);newTask();
+}
+$('repeat').onclick=()=>say(speech);$('other').onclick=()=>location.href='./requests.html';
+$('sound').onclick=()=>{soundOn=!soundOn;$('sound').textContent=soundOn?'🔊':'🔇';if(!soundOn)speechSynthesis?.cancel();try{const o=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}');o.sound=soundOn;localStorage.setItem('hangul-starland-v1',JSON.stringify(o))}catch(e){}};
+window.JOY_stopGame=()=>{playing=false;finished=true;document.body.classList.remove('playing');try{speechSynthesis.cancel()}catch(e){}};
+newTask();
+})();
+</script><script src="./joiland-unified.js"></script></body></html>
