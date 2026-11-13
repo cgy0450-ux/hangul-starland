@@ -26,6 +26,9 @@ const collect=fs.readFileSync('car-collect.html','utf8');
 const dodge=fs.readFileSync('car-dodge.html','utf8');
 const firetruck=fs.readFileSync('firetruck-rescue.html','utf8');
 const adventure=fs.readFileSync('adventure.html','utf8');
+const mini=fs.readFileSync('mini-games.html','utf8');
+const miniScript=mini.match(/<script>([\s\S]*?)<\/script>/);
+assert(miniScript,'mini-games main JavaScript is missing');new vm.Script(miniScript[1],{filename:'mini-games.html'});
 const gate=fs.readFileSync('word-gate.js','utf8');
 new vm.Script(gate,{filename:'word-gate.js'});
 for(const [name,code] of [['car-collect.html',collect],['car-dodge.html',dodge],['firetruck-rescue.html',firetruck],['adventure.html',adventure]]){
@@ -63,6 +66,17 @@ assert(gate.includes('const SEG=')&&gate.includes('setLineDash([4,11])')&&gate.i
 assert(firetruck.includes('function rescueFriend()')&&firetruck.includes('Math.abs(p.x-fx)<67'),'tap the animal in its window to rescue; do not rescue by ladder button');
 assert(firetruck.includes("if(fires.length&&fires.every(f=>f.done))"),'animal must become rescuable only after all fires are extinguished');
 assert(['dino','space','animal'].every(x=>requests.includes('href="./adventure.html?game='+x+'"')),'adventures missing from requested games menu');
+assert(['hidden','colors','shadows','mole','differences'].every(x=>requests.includes('href="./mini-games.html?game='+x+'"')),'all five mini-games must be accessible in playground');
+assert(['function hidden(area,n)','function colors(area,n)','function shadows(area,n)','function mole(area,n)','function differences(area,n)'].every(x=>mini.includes(x)),'all five games need interactive play logic');
+assert(mini.includes('window.JoyiWordGate.start(word,advance'),'all five games must require stage word writing');
+assert(mini.includes("if(round<5){render();return}"),'mini-games should present five questions per stage');
+assert(mini.includes("stage>=2")&&mini.includes("stage++;round=0"),'three mini-game stages must complete and advance');
+assert(mini.includes('className=\'hiddenworld\'')&&mini.includes('className=\'molefield\''),'hidden search and mole game must have real playing fields');
+assert(mini.includes("className='shadowboard'")&&mini.includes("function link(leftButton,rightButton)"),'animal-to-shadow links must be drawn');
+assert(mini.includes("const b=btn('🧺','basket '+c.id)"),'color game must have selectable collection baskets');
+assert(mini.includes("className='diffboard'")&&mini.includes("const [normal,changed]=DIFFS"),'spot-difference game must show a pair of differing images');
+assert(sw.includes('mini-games.html'),'new mini-games must be available offline');
+
 assert(sw.includes('word-gate.js')&&sw.includes('adventure.html'),'PWA offline cache must include new adventures and writing');
 
 assert(firetruck.includes('사건발생! 사건발생! 화재가 발생했다! 소방차는 출동하라!'),'exact dispatch line missing');
@@ -71,6 +85,7 @@ assert(firetruck.includes('joiland-firetruck-friends'),'animal rescue book missi
 assert(collect.includes('function pickupSound('),'collectible pickup audio missing');
 const shared=fs.readFileSync('joiland-unified.js','utf8');new vm.Script(shared,{filename:'joiland-unified.js'});
 assert(shared.includes("if(page==='adventure.html')")&&shared.includes('if(wasPlaying)elapsed+='),'five-minute clock must span multiple stages');
+assert(shared.includes("if(page==='mini-games.html')"),'five-minute trophy timer missing for mini-games');
 assert(shared.includes('5분 놀이 성공')&&shared.includes('joyi-nav-back'),'shared navigation or trophy absent');
 assert(shared.includes('function reconcileHeader()'),'shared navigation should remove duplicate Home links');
 assert(shared.includes('top:calc(env(safe-area-inset-top'),'trophy countdown must avoid mobile bottom actions');
