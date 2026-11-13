@@ -8,6 +8,8 @@ css.textContent='.joyi-unified-nav{display:flex;gap:5px;align-items:center;flex:
 document.head.append(css);
 const nav=document.createElement('nav');nav.className='joyi-unified-nav';nav.setAttribute('aria-label','공통 화면 이동');
 nav.innerHTML='<button type="button" id="joyi-nav-back" aria-label="이전 화면으로 돌아가기">‹ 뒤로</button><a href="./index.html" aria-label="쪼이랜드 홈으로 이동">🏠 홈</a>';header.prepend(nav);
+const navObserver=new MutationObserver(()=>{const current=document.querySelector('header');if(current&&!current.querySelector('.joyi-unified-nav'))current.prepend(nav)});
+navObserver.observe(document.body,{subtree:true,childList:true});
 function goBack(){
  if(page==='writing.html'&&document.querySelector('#practice.active')){document.getElementById('back')?.click();return}
  if(page==='journey.html'&&document.body.classList.contains('playing')){document.getElementById('back')?.click();return}
