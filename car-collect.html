@@ -91,6 +91,7 @@ board.addEventListener('pointerup',e=>{if(e.target.closest('.overlay'))return;if
 window.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='a'){move(-1);e.preventDefault()}if(e.key==='ArrowRight'||e.key==='d'){move(1);e.preventDefault()}});
 $('sound').onclick=()=>{soundOn=!soundOn;updateUI();try{const o=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}');o.sound=soundOn;localStorage.setItem('hangul-starland-v1',JSON.stringify(o))}catch(e){}};
 document.addEventListener('visibilitychange',()=>{if(document.hidden)pauseGame()});window.addEventListener('pagehide',()=>{cancelAnimationFrame(raf);running=false});
+window.JOY_stopGame=()=>{running=false;paused=true;cancelAnimationFrame(raf)};
 window.addEventListener('resize',resize);garage();updateUI();requestAnimationFrame(resize);
 })();
 </script><script src="./joiland-unified.js"></script></body></html>
