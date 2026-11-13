@@ -106,14 +106,40 @@ function mole(area,n){
  const id=gameSerial;function pop(){if(locked||finished||id!==gameSerial)return;holes.forEach(x=>{x.classList.remove('active');x.textContent=''});currentMole=Math.floor(Math.random()*9);holes[currentMole].textContent='🐹';holes[currentMole].classList.add('active');moleTimer=setTimeout(pop,stage===0?1750:stage===1?1450:1150)}pop();
 }
 function differences(area,n){
- const [normal,changed]=DIFFS[n%DIFFS.length];const coords=[[21,28],[68,24],[30,64],[74,68],[48,42]];
- const targetPos=coords[(n+stage+round)%coords.length];announce('오른쪽 그림에서 왼쪽과 다른 곳 하나를 찾아 봐요.');
+ // Both pictures share nine meaningful objects and exactly one differs.
+ // Any position may be touched, so tapping the only visible object never gives a free answer.
+ const pairs=shuffle([['🍎','🍐'],['🌼','🌺'],['🦋','🐝'],['🚗','🚕'],['🐱','🐶'],['🍓','🍒'],['⭐','🌙'],['🎈','🎁'],['🐰','🐻']]);
+ const uniquePair=pairs[(stage*5+round)%pairs.length],slot=Math.floor(Math.random()*9);
+ const plain=shuffle(['🏡','🌻','🌳','☁️','🌈','🐟','🎀','🍄','🚲','🍉','🧸','⚽','🍌','🐸','🪁']).slice(0,9);
+ // Keep unchanged objects distinct from both change variants.
+ for(let k=0;k<plain.length;k++)if(plain[k]===uniquePair[0]||plain[k]===uniquePair[1])plain[k]='🌿';
+ plain[slot]=uniquePair[0];const changed=[...plain];changed[slot]=uniquePair[1];
+ const positions=[[19,18],[50,18],[81,18],[19,50],[50,50],[81,50],[19,81],[50,81],[81,81]];
+ announce('두 그림을 잘 비교해서 달라진 곳을 찾아 보세요!');
  const board=document.createElement('div');board.className='diffboard';
- for(let side=0;side<2;side++){const panel=document.createElement('div');panel.className='diffpanel';const title=document.createElement('strong');title.textContent=side?'오른쪽':'왼쪽';panel.append(title);
- const background=[['☁️',13,16],['🌳',82,44],['🌻',20,79],['🏠',56,71],['🌈',67,13]];
- background.forEach(([icon,x,y])=>{const e=document.createElement('span');e.className='diff-decor';e.textContent=icon;e.style.left=x+'%';e.style.top=y+'%';panel.append(e)});
- const b=btn(side?changed:normal,'diff-target');b.style.left=targetPos[0]+'%';b.style.top=targetPos[1]+'%';b.setAttribute('aria-label',side?'다른 그림':'기준 그림');b.onclick=()=>{if(locked)return;if(side){completeSingle(b);$('message').textContent='⭕ 다른 그림을 발견했어!'}else{$('message').textContent='오른쪽에서 달라진 곳을 찾아 봐요!';voice('오른쪽을 눌러 봐!')}};panel.append(b);board.append(panel)}
+ for(let side=0;side<2;side++){
+  const panel=document.createElement('div');panel.className='diffpanel';
+  const title=document.createElement('strong');title.textContent=side?'오른쪽 그림':'왼쪽 그림';panel.append(title);
+  const entries=side?changed:plain;
+  entries.forEach((symbol,i)=>{
+   const el=btn(symbol,'diff-target');
+   el.style.left=positions[i][0]+'%';el.style.top=positions[i][1]+'%';
+   el.style.width='31%';el.style.height='31%';el.style.fontSize='clamp(22px,5.5vw,43px)';
+   el.setAttribute('aria-label',(side?'오른쪽':'왼쪽')+' 그림 '+(i+1)+'번');
+   el.onclick=()=>{if(locked)return;
+    if(i!==slot){$('message').textContent='이곳은 똑같아요! 다른 곳을 찾아 보자!';voice('똑같은 곳이야! 다른 곳을 찾아 보자!');return}
+    el.classList.add('found');
+    const sibling=board.querySelectorAll('.diffpanel')[1-side]?.querySelectorAll('.diff-target')[i];
+    sibling?.classList.add('found');
+    $('message').textContent='⭕ 서로 다른 그림을 발견했어요!';
+    finishRound();
+   };
+   panel.append(el);
+  });
+  board.append(panel);
+ }
  area.append(board);
+ const hint=document.createElement('div');hint.className='diff-label';hint.textContent='👀 양쪽을 비교해 한 군데만 다른 그림을 눌러요';area.append(hint)
 }
 $('repeat').onclick=()=>voice(spoken);$('other').onclick=()=>location.href='./requests.html';
 $('sound').onclick=()=>{soundOn=!soundOn;$('sound').textContent=soundOn?'🔊':'🔇';try{const x=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}');x.sound=soundOn;localStorage.setItem('hangul-starland-v1',JSON.stringify(x))}catch(e){}if(!soundOn)try{speechSynthesis.cancel()}catch(e){}};
