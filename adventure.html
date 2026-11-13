@@ -6,11 +6,25 @@ main{max-width:790px;width:100%;margin:0 auto auto;padding:9px;display:flex;flex
 .headline{border:5px solid #fff;border-radius:25px;background:linear-gradient(110deg,#ffedb7,#e2e5ff,#d9f8f2);padding:15px;text-align:center;box-shadow:0 6px 0 #d8c8e7}
 .headline h2{margin:0 0 8px;font-size:clamp(20px,6vw,32px)}.headline p{margin:3px;font-size:15px;font-weight:750}.status{display:flex;gap:8px;justify-content:space-between;font-size:clamp(13px,3.5vw,17px);font-weight:950}.status span{background:#fff;border:3px solid #fff;border-radius:14px;padding:8px 12px}.stage{flex:1;min-height:330px;max-height:67dvh;background:linear-gradient(170deg,#fdfefd,#e8faff);border:7px solid white;border-radius:28px;padding:18px 11px;box-shadow:0 9px 0 #d9c4ee;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;overflow:hidden}.scene{font-size:clamp(53px,11vw,90px);line-height:1.2;filter:drop-shadow(0 8px 4px #b3b2ce66);animation:float 3s ease-in-out infinite}.question{font-size:clamp(18px,5vw,26px);font-weight:950;text-align:center;line-height:1.45;color:#553b8c}.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:100%;max-width:530px}.tiles button{display:grid;place-items:center;min-height:95px;border:5px solid #fff;border-radius:24px;background:linear-gradient(140deg,#fff4cb,#e4f7ff);box-shadow:0 6px 0 #d4c0ec;color:#62439b;font-size:clamp(44px,9vw,64px);cursor:pointer;transition:transform .12s}.tiles button:active{transform:scale(.94)}.tiles button:focus-visible{outline:5px solid #49caba}.tiles button.correct{background:#d6fbe8;transform:scale(1.06)}.tiles button.wrong{animation:wobble .28s}.feedback{text-align:center;font-size:clamp(16px,4vw,23px);font-weight:950;min-height:30px;color:#269889}.controls{display:flex;gap:8px;justify-content:space-around}.controls button{background:#fff;border:3px solid white;border-radius:16px;padding:10px 12px;color:#6949a7;font-weight:900;font-size:15px}.end{display:none;position:fixed;inset:0;z-index:20;background:#302562a8;padding:18px;align-items:center;justify-content:center}.end.active{display:flex}.end section{max-width:390px;background:linear-gradient(120deg,#fff2bf,#fff,#daf9ef);border:6px solid white;border-radius:27px;padding:20px;text-align:center;box-shadow:0 10px 0 #c9b6ea}.end h2{font-size:28px}.end a,.end button{display:inline-block;background:#7356ca;padding:13px;color:#fff;font-weight:950;text-decoration:none;border:3px solid white;border-radius:17px}
 @keyframes float{50%{transform:translateY(-8px)}}@keyframes wobble{50%{transform:rotate(-5deg)}}@media(max-width:420px){.stage{min-height:300px;padding:10px 7px;gap:11px}.tiles button{min-height:78px}.scene{font-size:58px}}@media(max-height:700px){.stage{min-height:250px;max-height:54dvh}.tiles button{min-height:60px;font-size:40px}}
+</style><style id="adventure-original-illustrations">
+body{background:radial-gradient(ellipse at 15% 8%,#fdf0dd,transparent 38%),radial-gradient(ellipse at 88% 88%,#dcefeb,transparent 42%),#f1f3f2;color:#2b3d55}
+header{background:#ffffffa8;border-radius:22px;margin-top:10px}
+header h1{color:#293a51;letter-spacing:-.06em}
+.headline{background:linear-gradient(120deg,#d5e9f4,#f9e4d7)!important;border:1px solid #fff!important;box-shadow:0 9px 23px #53647b17!important;border-radius:25px}
+.headline h2{color:#293c56}
+.stage{background:linear-gradient(155deg,#f7fbfd,#edf5f1)!important;border:1px solid #fff!important;box-shadow:0 16px 30px #4f63791b!important;border-radius:28px}
+.scene.joyi-illustrated-scene{display:flex;justify-content:center;align-items:center;gap:6px;min-height:125px;max-height:220px;height:clamp(125px,23dvh,220px);width:100%;filter:none;animation:none}
+.scene.joyi-illustrated-scene>.joyi-vector{width:min(40%,180px);height:100%;max-height:215px;filter:drop-shadow(0 9px 5px #63758c20)}
+.tiles button{font-size:0!important;background:#fff!important;box-shadow:0 9px 18px #5e6d831a!important;border:1px solid #f5f5f5!important;min-height:95px}
+.tiles button>.joyi-vector{height:92px;max-height:100%;max-width:100%}
+.tiles button.correct{background:#def4e7!important;border-color:#80d2af!important}
+.controls button{background:#fff!important;border:1px solid #fff!important;color:#384d69}
+@media(max-height:690px){.scene.joyi-illustrated-scene{height:115px;min-height:100px}.tiles button{min-height:65px}.tiles button>.joyi-vector{height:65px}}
 </style></head><body>
 <header><a href="./requests.html">‹ 놀이터</a><h1 id="heading">🐯 새 모험</h1><button id="sound" aria-label="소리 켜기">🔊</button></header>
 <main><div class="headline"><h2 id="subtitle">모험 시작!</h2><p id="explain">마음에 드는 걸 찾아 눌러 보세요</p></div><div class="status"><span id="round">🌟 1 / 5</span><span id="level">🚀 1단계 / 3</span></div><section class="stage"><div class="scene" id="scene">🦕</div><div class="question" id="question">찾아 보자!</div><div class="tiles" id="tiles"></div><div class="feedback" id="feedback" role="status">🐯 준비됐어?</div></section><div class="controls"><button id="repeat">🔊 다시 듣기</button><button id="other">🎮 다른 놀이</button></div></main>
 <div class="end" id="ending" role="dialog" aria-modal="true"><section><div style="font-size:72px">🏆🐯✨</div><h2 id="endtitle">모험 성공!</h2><p>정말 잘했어! 새로운 모험을 골라 보자.</p><a href="./requests.html">🎮 다른 놀이 하기</a></section></div>
-<script src="./word-gate.js"></script><script>
+<script src="./joyi-art-renderer.js"></script><script src="./word-gate.js"></script><script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id),mode=new URLSearchParams(location.search).get('game')||'dino';
 const OPTIONS={
@@ -24,15 +38,16 @@ try{soundOn=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound!=
 $('heading').textContent=config.heading;$('subtitle').textContent=config.title;$('explain').textContent=config.guide;$('sound').textContent=soundOn?'🔊':'🔇';document.body.classList.add('playing');
 function say(t){if(!soundOn||!window.speechSynthesis)return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ko-KR';u.rate=.86;speechSynthesis.speak(u)}catch(e){}}
 function rand(items){return [...items].sort(()=>Math.random()-.5)}
+function showScene(...icons){const target=$('scene');target.replaceChildren();target.classList.add('joyi-illustrated-scene');icons.forEach(icon=>{const art=JoyiArt.svg(icon);if(art)target.append(art)})}
 function newTask(){
  if(finished)return;locked=false;dinoChoice=-1;taskId++;
  const n=(stage*5+round)%6;let options=[];
- if(mode==='animal'){currentTask=PATIENTS[n];target=currentTask.item;speech=currentTask.name;options=rand(['🥕','🦴','🐟','🍯','🍌','🍉']);$('scene').textContent=currentTask.animal+'💖';$('question').textContent=speech}
- else if(mode==='space'){target=STARS[n];speech=target==='🪐'?'행성을 찾아 보세요!':'반짝이는 '+target+' 별을 찾아 보세요!';options=rand(STARS);$('scene').textContent='🚀🌌';$('question').textContent=speech}
- else{target=DINOS[n];speech='어떤 공룡이 알에서 나올까? 알을 톡 눌러 봐!';options=['🥚','🥚','🥚','🥚','🥚','🥚'];$('scene').textContent='🥚❔';$('question').textContent='🥚 어떤 공룡이 숨어 있을까요?'}
+ if(mode==='animal'){currentTask=PATIENTS[n];target=currentTask.item;speech=currentTask.name;options=rand(['🥕','🦴','🐟','🍯','🍌','🍉']);showScene(currentTask.animal);$('question').textContent=speech}
+ else if(mode==='space'){target=STARS[n];speech=target==='🪐'?'행성을 찾아 보세요!':'반짝이는 '+target+' 별을 찾아 보세요!';options=rand(STARS);showScene('🚀','🪐');$('question').textContent=speech}
+ else{target=DINOS[n];speech='어떤 공룡이 알에서 나올까? 알을 톡 눌러 봐!';options=['🥚','🥚','🥚','🥚','🥚','🥚'];showScene('🥚');$('question').textContent='🥚 어떤 공룡이 숨어 있을까요?'}
  $('round').textContent='🌟 '+(round+1)+' / 5';$('level').textContent='🚀 '+(stage+1)+'단계 / 3';$('feedback').textContent='🐯 손가락으로 눌러 봐!';
  const board=$('tiles');board.replaceChildren();
- options.forEach((emoji,i)=>{const b=document.createElement('button');b.textContent=emoji;b.setAttribute('aria-label',mode==='dino'?'공룡 알 '+(i+1):emoji);b.onclick=()=>choose(b,emoji,i);board.append(b)});
+ options.forEach((emoji,i)=>{const b=document.createElement('button');JoyiArt.replace(b,emoji);b.setAttribute('aria-label',mode==='dino'?'공룡 알 '+(i+1):emoji);b.onclick=()=>choose(b,emoji,i);board.append(b)});
  say(speech)
 }
 function choose(button,emoji,i){
@@ -42,17 +57,17 @@ function choose(button,emoji,i){
  if(mode==='dino'){
   // Reveal a real dinosaur immediately at the place where the child tapped the egg.
   const creatureIndex=(stage*5+round+i)%DINOS.length;
-  button.textContent=DINOS[creatureIndex];button.classList.add('correct');
+  JoyiArt.replace(button,DINOS[creatureIndex]);button.classList.add('correct');
   dinoChoice=creatureIndex;
-  $('scene').textContent=DINOS[creatureIndex]+'🌈';
+  showScene(DINOS[creatureIndex]);
   $('question').textContent='🎉 '+DINO_NAMES[creatureIndex]+' 발견!';
   $('feedback').textContent='🦖 짜잔! 공룡이 나왔어요!';
   // Other eggs remain tappable only on the next puzzle, not during reveal.
   $('tiles').querySelectorAll('button').forEach(b=>{if(b!==button)b.style.opacity='.36';b.disabled=true});
   say('짜잔! '+DINO_NAMES[creatureIndex]+'가 나왔어!');
  }else{
-  button.textContent=emoji+'💛';button.classList.add('correct');
-  $('scene').textContent=mode==='animal'?currentTask.animal+' '+currentTask.item+' 💖':'🚀 '+target+' ✨';
+  JoyiArt.replace(button,emoji);button.classList.add('correct');
+  mode==='animal'?showScene(currentTask.animal,currentTask.item):showScene('🚀',target);
   $('feedback').textContent='✨ 성공! 정말 멋져!';
   say('와아! 정말 잘했어!');
  }
