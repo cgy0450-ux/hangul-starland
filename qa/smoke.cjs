@@ -41,6 +41,15 @@ assert(firetruck.includes('function burst(')&&firetruck.includes('function splas
 assert(firetruck.includes("localStorage.setItem('joiland-firetruck-saved'"),'firetruck progress persistence missing');
 assert(collect.includes('const LEVELS=[40,100,200,350]'),'collectible car pacing must use wider goals');
 assert(sw.includes('firetruck-rescue.html'),'offline manifest must cache firetruck');
+assert(firetruck.includes('const MORE_SCENES=')&&firetruck.includes('STAGES.push(...MORE_SCENES)'),'extended rescue missions missing');
+assert(firetruck.includes('사건발생! 사건발생! 화재가 발생했다! 소방차는 출동하라!'),'exact dispatch line missing');
+assert(['hydrant','helicopter','ladder'].every(x=>firetruck.includes('id="'+x+'"')),'rescue equipment missing');
+assert(firetruck.includes('joiland-firetruck-friends'),'animal rescue book missing');
+assert(collect.includes('function pickupSound('),'collectible pickup audio missing');
+const shared=fs.readFileSync('joiland-unified.js','utf8');new vm.Script(shared,{filename:'joiland-unified.js'});
+assert(shared.includes('5분 놀이 성공')&&shared.includes('joyi-nav-back'),'shared navigation or trophy absent');
+for(const p of ['legacy.html','journey.html','academy.html','writing.html','requests.html','car-collect.html','car-dodge.html','firetruck-rescue.html','stories.html','mazes.html','finance.html','coding-lab.html','parent.html'])assert(fs.readFileSync(p,'utf8').includes('src="./joiland-unified.js"'),'missing unified navigation on '+p);
+
 
 
 const checkData={window:{}};vm.runInNewContext(curated,checkData);
@@ -144,14 +153,9 @@ const purchaseResults=money[2].items.slice(0,5).map((x,i)=>Math.max(0,x[1]+(i%2=
 assert(purchaseResults.some(x=>x)&&purchaseResults.some(x=>!x),'pretend store must offer both decisions');
 assert(finance.includes('data-hear')&&finance.includes('jar-hear'),'every new money choice needs an independent listening button');
 assert(finance.includes('body.playing{height:100dvh;overflow:hidden}'),'finance playable screen must be fixed-height');
-const reqScript=[...requests.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)].find(m=>m[1].includes('const towerLevels='))[1];
-const reqData=reqScript.slice(reqScript.indexOf('const towerLevels='),reqScript.indexOf(';let kind='));
-const blockSandbox={};vm.runInNewContext(reqData+';this._tower=towerLevels;this._bridge=bridgeLevels;',blockSandbox);
-assert.equal(blockSandbox._tower.length,5,'rainbow tower needs 5 levels');
-assert.equal(blockSandbox._bridge.length,5,'bridge building needs 5 levels');
-assert(blockSandbox._tower.every(x=>x.length>=3&&x.length<=5),'rainbow tower levels not age appropriate');
-assert(requests.includes('id="middle-support"')&&requests.includes('count>=3'),'3-support bridge stage not rendered');
-assert(requests.includes('height:100dvh;overflow:hidden'),'requested play screen must be fixed-height');
+assert(requests.includes('href="./firetruck-rescue.html"')&&requests.includes('href="./car-collect.html"')&&requests.includes('href="./car-dodge.html"'),'new playground needs three working games');
+assert(!requests.includes('data-game="tower"')&&!requests.includes('data-game="bridge"'),'retired rainbow tower and bridge must be removed');
+assert(requests.includes('id="forceUpdate"'),'game update control is missing');
 assert(sw.includes('finance.html')&&sw.includes('requests.html'),'offline app must cache both new play halls');
 
 
