@@ -122,7 +122,7 @@ function specialRender(q,mode){
    optionsRender(quizOptions(q));$("answers").classList.add("hidden");
    $("answerTitle").textContent="📖 "+q.explain;$("answerTitle").classList.remove("hidden");
    $("ready").classList.remove("hidden");$("ready").textContent="이야기 듣고 퀴즈!";
-   interaction={type:mode,step:0};phase="intro";speak(q.explain,"ko-KR");
+   interaction={type:mode,step:0};phase="intro";speak(q.explain+" "+(q.question||"이 이야기에서 무엇을 배웠을까요?"),"ko-KR");
  }
 }
 function processAnswer(chosen){
@@ -200,7 +200,7 @@ $("ready").onclick=()=>{if(phase!=="intro")return;let q=current(),mode=run.lesso
  else $("question").textContent=q.question||q.hint||"어떤 것일까요?";
  speak($("question").textContent,"ko-KR");shownAt=performance.now()};
 $("repeat").onclick=()=>{if(phase!=="speaking")return;phase="quiz";$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("answers").classList.remove("hidden");$("question").textContent=current().question||current().hint||"어떤 것일까요?";shownAt=performance.now()};
-$("hear").onclick=()=>{const q=current();if(!q)return;const mode=run.type==="diagnostic"?"choose":run.lesson.mode;const answerMode=mode==="speak"||mode==="listen";speak(answerMode?q.answer:q.question||q.hint||q.answer,answerMode?locale():"ko-KR")};
+$("hear").onclick=()=>{const q=current();if(!q)return;const mode=run.type==="diagnostic"?"choose":run.lesson.mode;const answerMode=mode==="speak"||mode==="listen"||mode==="tap"||mode==="pair"||mode==="order";speak(answerMode?q.answer:q.question||q.hint||q.answer,answerMode?locale():"ko-KR")};
 $("answers").onclick=e=>{
  const hear=e.target.closest("[data-voice]");
  if(hear){speak(hear.dataset.voice,locale());return}
