@@ -13,7 +13,7 @@
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id),canvas=$('road'),board=$('board'),ctx=canvas.getContext('2d');
-let w=400,h=570,carLane=1,obstacles=[],score=0,lives=3,best=0,running=false,paused=false,last=0,spawnClock=0,roadOffset=0,invulnerable=0,raf=0,started=false,soundOn=true;
+let playElapsed=0,timedOut=false;let w=400,h=570,carLane=1,obstacles=[],score=0,lives=3,best=0,running=false,paused=false,last=0,spawnClock=0,roadOffset=0,invulnerable=0,raf=0,started=false,soundOn=true;
 try{best=Number(localStorage.getItem('joiland-car-best')||0)}catch(e){}
 try{soundOn=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound!==false}catch(e){}
 function updateUI(){$('score').textContent='⭐ '+score+'점';$('best').textContent='🏆 최고 '+best+'점';$('lives').textContent='💛'.repeat(lives)+'🤍'.repeat(3-lives);$('sound').textContent=soundOn?'🔊':'🔇';$('pause').textContent=paused?'▶ 계속하기':'⏸ 잠깐 멈추기'}
@@ -25,15 +25,16 @@ function car(x,y,bad=false){ctx.save();ctx.translate(x,y);const width=Math.max(3
 function draw(){ctx.clearRect(0,0,w,h);ctx.fillStyle='#a1e4a6';ctx.fillRect(0,0,w,h);const roadLeft=w*.075,roadWidth=w*.85;roundRect(roadLeft,0,roadWidth,h,12,'#626c7e');ctx.fillStyle='#f7edbb';ctx.fillRect(roadLeft+6,0,5,h);ctx.fillRect(roadLeft+roadWidth-11,0,5,h);ctx.fillStyle='#eaf6ff';for(let i=1;i<3;i++){const x=roadLeft+roadWidth*i/3;for(let y=(roadOffset%72)-72;y<h;y+=72)ctx.fillRect(x-3,y,6,36)}ctx.font=Math.max(20,Math.min(34,w*.075))+'px sans-serif';for(const o of obstacles){const y=o.y; if(o.type==='cone'){ctx.textAlign='center';ctx.fillText('🚧',laneX(o.lane),y+10)}else car(laneX(o.lane),y,true)}if(invulnerable<=0||Math.floor(invulnerable*8)%2===0)car(laneX(carLane),h-80,false)}
 function hideOverlay(){$('overlay').classList.add('hidden')}
 function showOverlay(title,msg,button){$('message-title').textContent=title;$('message').textContent=msg;$('start').textContent=button;$('overlay').classList.remove('hidden')}
-function reset(){carLane=1;obstacles=[];score=0;lives=3;spawnClock=0;roadOffset=0;invulnerable=0;running=true;paused=false;started=true;last=0;hideOverlay();updateUI();cancelAnimationFrame(raf);raf=requestAnimationFrame(frame)}
+function reset(){playElapsed=0;timedOut=false;carLane=1;obstacles=[];score=0;lives=3;spawnClock=0;roadOffset=0;invulnerable=0;running=true;paused=false;started=true;last=0;hideOverlay();updateUI();cancelAnimationFrame(raf);raf=requestAnimationFrame(frame)}
+function finishTime(){if(timedOut)return;timedOut=true;running=false;paused=false;started=false;cancelAnimationFrame(raf);showOverlay('🏆 5분 자동차 챔피언!','5분 동안 장애물 사이를 멋지게 달렸어요! 트로피를 받았어요!','🏠 다른 놀이 하기');updateUI()}
 function end(){running=false;paused=false;started=false;cancelAnimationFrame(raf);showOverlay('🎉 '+score+'점! 잘했어!','다시 도전해서 장애물을 더 많이 피할 수 있어요.','↻ 다시 출발');updateUI()}
 function shift(n){if(!running||paused)return;carLane=Math.max(0,Math.min(2,carLane+n));draw()}
 function setLane(x){if(!running||paused)return;const r=board.getBoundingClientRect(),px=(x-r.left-7)/Math.max(1,w);carLane=px<.36?0:px<.63?1:2;draw()}
-function frame(time){if(!running||paused)return;if(!last)last=time;const dt=Math.min(.055,(time-last)/1000);last=time;roadOffset+=dt*(240+score*2);spawnClock+=dt;const interval=Math.max(.95,1.6-score*.012);if(spawnClock>=interval){spawnClock=0;const lane=Math.floor(Math.random()*3);obstacles.push({lane,y:-50,type:Math.random()<.6?'cone':'car',passed:false})}
+function frame(time){if(!running||paused)return;if(!last)last=time;const dt=Math.min(.055,(time-last)/1000);last=time;playElapsed+=dt;if(playElapsed>=300){finishTime();return}roadOffset+=dt*(240+score*2);spawnClock+=dt;const interval=Math.max(.95,1.6-score*.012);if(spawnClock>=interval){spawnClock=0;const lane=Math.floor(Math.random()*3);obstacles.push({lane,y:-50,type:Math.random()<.6?'cone':'car',passed:false})}
 const speed=Math.min(370,185+score*4);invulnerable=Math.max(0,invulnerable-dt);
 for(const o of obstacles){o.y+=speed*dt;if(!o.passed&&o.y>h-15){o.passed=true;score++;if(score>best){best=score;try{localStorage.setItem('joiland-car-best',String(best))}catch(e){}}}if(invulnerable===0&&o.lane===carLane&&Math.abs(o.y-(h-80))<47){lives--;invulnerable=1.5;o.passed=true;o.y=h+100;beep();if(lives<=0){updateUI();draw();end();return}}}
 obstacles=obstacles.filter(o=>o.y<h+90);updateUI();draw();raf=requestAnimationFrame(frame)}
-$('start').onclick=()=>{if(paused){paused=false;hideOverlay();last=0;raf=requestAnimationFrame(frame)}else reset()};
+$('start').onclick=()=>{if(timedOut){location.href='./requests.html';return}if(paused){paused=false;hideOverlay();last=0;raf=requestAnimationFrame(frame)}else reset()};
 $('left').onclick=()=>shift(-1);$('right').onclick=()=>shift(1);
 $('pause').onclick=()=>{if(!running)return;if(paused){paused=false;hideOverlay();last=0;raf=requestAnimationFrame(frame)}else{paused=true;cancelAnimationFrame(raf);showOverlay('⏸ 잠깐 쉬어요','준비되면 계속하기를 눌러 주세요.','▶ 계속하기')}updateUI()};
 $('restart').onclick=reset;
