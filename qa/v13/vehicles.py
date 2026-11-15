@@ -3,8 +3,8 @@ import io,json,re
 from pathlib import Path
 from PIL import Image
 from playwright.sync_api import sync_playwright
-ROOT=Path(__file__).resolve().parents[2];out=ROOT/'docs/v13/fixes/vehicles';out.mkdir(parents=True,exist_ok=True);results=[]
-INIT="""localStorage.setItem('hangul-starland-v1',JSON.stringify({sound:false}));localStorage.setItem('joiland-car-total','42');localStorage.setItem('joiland-car-selected','2');Math.random=()=>0;window.__time=0;window.__frames=new Map();window.__id=0;window.requestAnimationFrame=fn=>{const id=++window.__id;window.__frames.set(id,fn);return id};window.cancelAnimationFrame=id=>window.__frames.delete(id);window.__runFrames=n=>{for(let i=0;i<n;i++){window.__time+=50;const frames=[...window.__frames.values()];window.__frames.clear();for(const fn of frames)fn(window.__time)}}"""
+ROOT=Path(__file__).resolve().parents[2];out=ROOT/'docs/v13/vehicle-refresh/regression';out.mkdir(parents=True,exist_ok=True);results=[]
+from drive_fixture import INIT
 def snap(page,name):Image.open(io.BytesIO(page.screenshot(full_page=True,animations='disabled'))).convert('RGB').save(out/name,quality=84)
 with sync_playwright() as p:
  b=p.chromium.launch(executable_path='/workspace/joiland-tools/bin/google-chrome',args=['--no-sandbox'])

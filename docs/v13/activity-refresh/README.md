@@ -1,0 +1,7 @@
+# v13.6 — illustrated learning activity selection
+
+Replaced the eleven emoji badges and repeated instructions with eleven dedicated 3D storybook activity illustrations: reading, choosing, listening, linking, memory, speaking, picture hunting, dragging shapes, matching pairs, ordering a train and storytelling. A twelfth atelier illustration is used in the section heading. Original JoYi identity retained; all twelve real generated atlas cells viewed, cropped and registered. Source `/workspace/generated_images/exec-ae66c477-f556-4ec1-81bc-531e44587141.png` retained. No new paid API or stock image service.
+
+Each card has a large picture, title, short distinct action cue and five-question chip. Layout: two columns on phone, three on tablet, four on desktop. Extra activity links also use relevant existing registered illustrations. All 440 curriculum lessons, IDs, stage selection and interaction handlers are preserved.
+
+`qa/v13/activity_cards.py`: PASS 40 subject/viewport combinations, eleven unique decoded images and eleven unique actual lesson links each; phone/tablet/landscape screenshots, actual lesson entry and return. This is 440 rendered card links across screen sizes, not a claim that every question in all 440 lessons was played. Existing browser smoke covers eleven lesson interaction modes. Offline images checked with production service worker. Actual mobile and tablet screenshots inspected; no physical-device claim.

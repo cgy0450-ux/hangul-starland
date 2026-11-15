@@ -47,11 +47,13 @@ function catalog(){
  let stage=0;try{stage=Math.max(0,Math.min(3,Number(localStorage.getItem('joiland-stage-'+subject.id)||0)))}catch(e){}
  const m=subject.modules[stage],card=el("div","module"),head=el("div","module-title");
  head.append(el("strong","","오늘의 "+subject.name+" 놀이"),el("small","",(stage+1)+"번째 배움 · 5문제를 풀면 다음 단계로!"));
- const grid=el("div","tile-grid"),symbols=["📖","🖐️","🔊","🧩","🌟","🎤","🔍","🧲","🎴","🚂","🎬"];
+ const banner=new Image();banner.src='./assets/v13/activity.atelier.webp';banner.alt='쪼이의 배움 공방';banner.className='activity-banner';head.prepend(banner);
+ const descriptions={explore:'이야기 속으로 출발!',choose:'살펴보고 콕 골라요',listen:'귀 기울여 들어요',match:'그림과 말을 이어요',remember:'꼭꼭 기억해 봐요',speak:'쪼이와 함께 말해요',tap:'꼭꼭 숨은 그림 찾기',drag:'손가락으로 쏙 옮겨요',pair:'어울리는 짝을 찾아요',order:'차근차근 순서대로',story:'이야기의 주인공이 돼요'};
+ const grid=el('div','tile-grid');
  for(const [i,lesson] of m.lessons.entries()){
  const btn=el("button","tile");btn.type="button";btn.dataset.lesson=lesson.id;
- const span=el("span");span.append(el("strong","",lesson.title),el("small","","5문제씩 도전 · 다음 단계 선택"));
- btn.append(el("span","badge",symbols[i]),span);grid.append(btn);
+ btn.classList.add('activity-card');const image=new Image();image.src='./assets/v13/activity.'+lesson.mode+'.webp';image.alt='';image.className='activity-art';image.loading=i<4?'eager':'lazy';image.width=480;image.height=480;
+ const span=el('span','activity-copy');span.append(el('strong','',lesson.title),el('small','',descriptions[lesson.mode]));const chip=el('span','activity-chip','5문제');btn.append(image,chip,span);grid.append(btn);
  }
  card.append(head,grid);root.append(card);
  const external={
@@ -68,7 +70,7 @@ function catalog(){
  };
  const extras=$("extras");extras.replaceChildren();
  for(const [name,url] of (external[subject.id]||[])){
- const a=el("a","tile"),badge=el("span","badge","🌟"),label=el("strong","",name);
+ const a=el('a','tile'),badge=new Image(),label=el('strong','',name);badge.alt='';badge.className='extra-art';badge.src=url.includes('requests')?'./assets/v13/game.firetruck.webp':url.includes('stories')?'./assets/v13/activity.explore.webp':url.includes('safari')?'./assets/v13/game.animal.webp':url.includes('maze')?'./assets/v13/subject.coding.webp':url.includes('writing')||url.includes('trace')||url.includes('color')?'./assets/v13/activity.drag.webp':url.includes('quiz')?'./assets/v13/activity.choose.webp':'./assets/v13/subject.'+subject.id+'.webp';
  a.href="./"+url;a.append(badge,label);extras.append(a);
  }
 }

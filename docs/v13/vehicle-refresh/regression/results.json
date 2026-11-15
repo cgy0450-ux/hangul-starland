@@ -1,0 +1,58 @@
+[
+  {
+    "view": "narrow",
+    "route": "car-collect.html",
+    "steeringAndPhysics": "PASS",
+    "startVisibleWithoutScroll": true,
+    "pageErrors": []
+  },
+  {
+    "view": "narrow",
+    "route": "car-dodge.html",
+    "steeringAndPhysics": "PASS",
+    "startVisibleWithoutScroll": true,
+    "pageErrors": []
+  },
+  {
+    "view": "mobile",
+    "route": "car-collect.html",
+    "steeringAndPhysics": "PASS",
+    "startVisibleWithoutScroll": true,
+    "pageErrors": []
+  },
+  {
+    "view": "mobile",
+    "route": "car-dodge.html",
+    "steeringAndPhysics": "PASS",
+    "startVisibleWithoutScroll": true,
+    "pageErrors": []
+  },
+  {
+    "view": "tablet",
+    "route": "car-collect.html",
+    "steeringAndPhysics": "PASS",
+    "startVisibleWithoutScroll": true,
+    "pageErrors": []
+  },
+  {
+    "view": "tablet",
+    "route": "car-dodge.html",
+    "steeringAndPhysics": "PASS",
+    "startVisibleWithoutScroll": true,
+    "pageErrors": []
+  },
+  {
+    "view": "landscape",
+    "route": "car-collect.html",
+    "steeringAndPhysics": "PASS",
+    "startVisibleWithoutScroll": true,
+    "pageErrors": []
+  },
+  {
+    "view": "landscape",
+    "route": "car-dodge.html",
+    "steeringAndPhysics": "PASS",
+    "startVisibleWithoutScroll": true,
+    "pageErrors": []
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "route": "car-collect.html",
+    "view": "mobile",
+    "choices": 5,
+    "canvasBodyAndRotor": true,
+    "pausedStateExact": true,
+    "resumePreservesState": true,
+    "persisted": true,
+    "fiveMinuteLimitAfterSwitch": true
+  },
+  {
+    "route": "car-dodge.html",
+    "view": "mobile",
+    "choices": 5,
+    "canvasBodyAndRotor": true,
+    "pausedStateExact": true,
+    "resumePreservesState": true,
+    "persisted": true,
+    "fiveMinuteLimitAfterSwitch": true
+  },
+  {
+    "route": "car-collect.html",
+    "view": "tablet",
+    "choices": 5,
+    "canvasBodyAndRotor": true,
+    "pausedStateExact": true,
+    "resumePreservesState": true,
+    "persisted": true,
+    "fiveMinuteLimitAfterSwitch": true
+  },
+  {
+    "route": "car-dodge.html",
+    "view": "tablet",
+    "choices": 5,
+    "canvasBodyAndRotor": true,
+    "pausedStateExact": true,
+    "resumePreservesState": true,
+    "persisted": true,
+    "fiveMinuteLimitAfterSwitch": true
+  },
+  {
+    "route": "car-collect.html",
+    "view": "landscape",
+    "choices": 5,
+    "canvasBodyAndRotor": true,
+    "pausedStateExact": true,
+    "resumePreservesState": true,
+    "persisted": true,
+    "fiveMinuteLimitAfterSwitch": true
+  },
+  {
+    "route": "car-dodge.html",
+    "view": "landscape",
+    "choices": 5,
+    "canvasBodyAndRotor": true,
+    "pausedStateExact": true,
+    "resumePreservesState": true,
+    "persisted": true,
+    "fiveMinuteLimitAfterSwitch": true
+  }
+]

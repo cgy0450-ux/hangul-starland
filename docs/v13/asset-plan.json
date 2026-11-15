@@ -7910,6 +7910,216 @@
       "provenance": "Built-in user-authorized image_gen; actual source exec-7ea9c4a2-e1a3-4c46-8f04-03ad48018b19.png; alpha cleanup exec-963c82c9-c74f-4eea-88bc-183935b901f9.png retained; technical crop/pad/WebP export only. Original JoYi reference used for shrug identity.",
       "reviewNote": "Actual generated source and alpha correction inspected. Semantic baby/baseball/cooking/shrug/carriage/cards replace unresolved lesson tokens; mobile space composition preserves visible scenery.",
       "sha256": "ebdf4bce6d28747e734a2b9a8363663fc29cb1983d8ddbeaa05c45427df3ed5a"
+    },
+    {
+      "id": "vehicle-preview.helicopter",
+      "alt": "쪼이 헬리콥터 preview",
+      "status": "approved",
+      "path": "assets/v13/vehicle-preview.helicopter.webp",
+      "provenance": "Built-in ChatGPT image_gen; original source exec-7165f118-a163-4271-a3bd-00fedf4f1d53.png",
+      "reviewed": true,
+      "dimensions": [
+        579,
+        604
+      ],
+      "reviewNote": "Viewed actual generated sheet; original goggles/scarf tiger, matching turquoise yellow helicopter, separate overhead body and rotor.",
+      "sha256": "16853f3eafa588ab21282cecf2116f21543ae3671dfa0c4a9ea0c84254085282"
+    },
+    {
+      "id": "vehicle-top.helicopter",
+      "alt": "쪼이 헬리콥터 top",
+      "status": "approved",
+      "path": "assets/v13/vehicle-top.helicopter.webp",
+      "provenance": "Built-in ChatGPT image_gen; original source exec-7165f118-a163-4271-a3bd-00fedf4f1d53.png",
+      "reviewed": true,
+      "dimensions": [
+        286,
+        604
+      ],
+      "reviewNote": "Viewed actual generated sheet; original goggles/scarf tiger, matching turquoise yellow helicopter, separate overhead body and rotor.",
+      "sha256": "696ffa63d7e43c2b3dc4bf4d4c68a887d23b6c087f0c880bff9f8c1062670cfc"
+    },
+    {
+      "id": "vehicle-rotor.helicopter",
+      "alt": "쪼이 헬리콥터 rotor",
+      "status": "approved",
+      "path": "assets/v13/vehicle-rotor.helicopter.webp",
+      "provenance": "Built-in ChatGPT image_gen; original source exec-7165f118-a163-4271-a3bd-00fedf4f1d53.png",
+      "reviewed": true,
+      "dimensions": [
+        604,
+        599
+      ],
+      "reviewNote": "Viewed actual generated sheet; original goggles/scarf tiger, matching turquoise yellow helicopter, separate overhead body and rotor.",
+      "sha256": "9bdbb25bb9301ee5cde43d4260bfd4799a74db12f5d25649065aeb3599d84d31"
+    },
+    {
+      "id": "activity.explore",
+      "alt": "쪼이 배움 놀이 explore",
+      "path": "assets/v13/activity.explore.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "19371470f15779c74d6e42b3f3131d83950965e2592fac64a676f64b176027d8"
+    },
+    {
+      "id": "activity.choose",
+      "alt": "쪼이 배움 놀이 choose",
+      "path": "assets/v13/activity.choose.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "55da63ff29d5019b9933a15a9393abcf169b6b5943fdcc8682083fc0ebeace61"
+    },
+    {
+      "id": "activity.listen",
+      "alt": "쪼이 배움 놀이 listen",
+      "path": "assets/v13/activity.listen.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "0061a5e1343658a6642f696d08bfd7691c7df699a8417d42522608b83bd41998"
+    },
+    {
+      "id": "activity.match",
+      "alt": "쪼이 배움 놀이 match",
+      "path": "assets/v13/activity.match.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "33b347f2afeb0eea39b98daf62011091b56624cd0e9b2acb9b9b4d0a628f6eff"
+    },
+    {
+      "id": "activity.remember",
+      "alt": "쪼이 배움 놀이 remember",
+      "path": "assets/v13/activity.remember.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "697209d2c8030f7d0f2e55030ef9c561b8a3461bf4a703cc4bc1bcdd829adb4c"
+    },
+    {
+      "id": "activity.speak",
+      "alt": "쪼이 배움 놀이 speak",
+      "path": "assets/v13/activity.speak.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "a804037acb5a09a86b5faa224eee515c01f68f3049b1314db65e16e12f34e7ee"
+    },
+    {
+      "id": "activity.tap",
+      "alt": "쪼이 배움 놀이 tap",
+      "path": "assets/v13/activity.tap.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "1cdd273430ea2c3da4287890480387e0c345fc6485a8f3f506419865c0e43f8b"
+    },
+    {
+      "id": "activity.drag",
+      "alt": "쪼이 배움 놀이 drag",
+      "path": "assets/v13/activity.drag.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "a80e9ef23b770386400e56e07b41a11f14e57455f9d99ecb40891800931065e7"
+    },
+    {
+      "id": "activity.pair",
+      "alt": "쪼이 배움 놀이 pair",
+      "path": "assets/v13/activity.pair.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "03ac75ecb0a27cda14d2d93500cb77b6203389643b58ffcdbb936223ea58733b"
+    },
+    {
+      "id": "activity.order",
+      "alt": "쪼이 배움 놀이 order",
+      "path": "assets/v13/activity.order.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "53b1666dcdb99b2a45bf20e50acbbb5ce73b4ca31ed0431af2dfe7c05990c6c6"
+    },
+    {
+      "id": "activity.story",
+      "alt": "쪼이 배움 놀이 story",
+      "path": "assets/v13/activity.story.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "a3c3b0039f4b16ead31142458d0025eb61706f9d968a37ae49666389705ec0de"
+    },
+    {
+      "id": "activity.atelier",
+      "alt": "쪼이 배움 놀이 atelier",
+      "path": "assets/v13/activity.atelier.webp",
+      "status": "approved",
+      "provenance": "Built-in ChatGPT image_gen, original JoYi reference; source exec-ae66c477-f556-4ec1-81bc-531e44587141.png",
+      "reviewed": true,
+      "dimensions": [
+        480,
+        480
+      ],
+      "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
+      "sha256": "2eec3fde1422111c483bc925cdb1d378a07ea6bffa3c3c20d4508e88f896566d"
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"
