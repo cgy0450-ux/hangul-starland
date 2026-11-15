@@ -1,5 +1,6 @@
 {
-  "cachedRequests": 1256,
+  "offlineQuizNativeVoiceCalls": 0,
+  "cachedRequests": 1313,
   "offlineActualMp3Playback": "PASS: book 20, two consecutive pages",
   "rangeRequests": {
     "status": 206,

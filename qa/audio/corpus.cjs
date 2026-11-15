@@ -9,4 +9,7 @@ for(const file of ['mini-games.html','adventure.html','car-collect.html','car-do
 const mini=fs.readFileSync('mini-games.html','utf8');for(const [id,prefix,suffix] of [['ICONS','그림 속에서 ',' 찾기!'],['ANIMALS','',' 친구와 똑같은 그림자를 찾아 연결해 봐요.']]){const list=vm.runInNewContext(mini.match(new RegExp('const '+id+'=(\\[.*?\\]);'))[1]);for(const icon of list)add(prefix+c.window.JoyiAudioNames[icon]+suffix,'guide')}
 for(const name of ['사과','딸기','빨간 풍선','해바라기','별','바나나','파란 보석','파란 나비','파란 공'])add(name+'과 같은 색깔의 바구니에 담아 볼까?','guide');
 for(const t of ['과 같은 색깔의 바구니에 담아 볼까?','와아! 잘 찾았어!','정말 멋져!','이현이 최고!','잘했어! 다음 문제!','멋지게 성공! 알를 따라 써 볼까?','토끼에게 당근을 주세요','강아지에게 뼈다귀를 주세요','고양이에게 생선을 주세요','곰에게 꿀을 주세요','원숭이에게 바나나를 주세요','코끼리에게 수박을 주세요'])add(t,'guide');
+for(const t of ['이 그림의 이름은 무엇일까요?','그림을 보고 낱말을 만들어 볼까요?','좋아하는 색으로 글자를 써 볼까요?'])add(t,'guide');
+const praise=vm.runInNewContext(legacy.match(/const PRAISE_VARIANTS=(\[[\s\S]*?\n\]);/)[1]);for(const f of praise){const t=f('친구');add(t,'praise');const parts=t.match(/^([^!！]+[!！])\s*(.*)$/);if(parts&&parts[2]){add(parts[1],'praise');add(parts[2],'praise')}}
+for(const w of words)add(w.w+' 글자를 손가락으로 따라 써 봐요!','guide');
 fs.writeFileSync('docs/v13/audio/corpus.json',JSON.stringify([...rows.values()],null,2));console.log(rows.size,'phrases', [...rows.values()].reduce((a,x)=>a+x.text.length,0),'characters');

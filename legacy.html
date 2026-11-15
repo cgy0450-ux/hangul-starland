@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="ko">
-<head><script src="./audio-normalize.js?v=13.4-audio"></script><script src="./audio-manifest.js?v=13.4-audio"></script><script src="./prerecorded-audio.js?v=13.4-audio"></script><script src="./voice-quality.js?v=13.4-audio"></script>
+<head><script src="./audio-normalize.js?v=13.4.1-quiz-voice"></script><script src="./audio-manifest.js?v=13.4.1-quiz-voice"></script><script src="./prerecorded-audio.js?v=13.4.1-quiz-voice"></script><script src="./voice-quality.js?v=13.4.1-quiz-voice"></script>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"/>
   <meta name="theme-color" content="#2398F2"/>
@@ -294,9 +294,9 @@ const PRAISE_VARIANTS=[
 ];
 let lastPraise=-1,lastPraiseText='';
 function childNickname(){const name=String(state.family?.kid||'');const chars=[...name];return chars.length>=2?chars.slice(-2).join('')+'이':'친구';}
-function praiseText(){if(view.praise)return view.praise;let n=Math.floor(Math.random()*PRAISE_VARIANTS.length);if(n===lastPraise)n=(n+1+Math.floor(Math.random()*(PRAISE_VARIANTS.length-1)))%PRAISE_VARIANTS.length;lastPraise=n;return view.praise=lastPraiseText=PRAISE_VARIANTS[n](childNickname());}
+function praiseText(){if(view.praise)return view.praise;let n=Math.floor(Math.random()*PRAISE_VARIANTS.length);if(n===lastPraise)n=(n+1+Math.floor(Math.random()*(PRAISE_VARIANTS.length-1)))%PRAISE_VARIANTS.length;lastPraise=n;view.praiseVoice=PRAISE_VARIANTS[n]('친구');return view.praise=lastPraiseText=PRAISE_VARIANTS[n](childNickname());}
 function playJoyChime(){if(!state.sound)return;try{const Context=window.AudioContext||window.webkitAudioContext;if(!Context)return;const ctx=new Context();const now=ctx.currentTime;[523,659,784,1047].forEach((hz,i)=>{const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.setValueAtTime(hz,now+i*.082);g.gain.setValueAtTime(.0001,now+i*.082);g.gain.exponentialRampToValueAtTime(.075,now+i*.082+.015);g.gain.exponentialRampToValueAtTime(.0001,now+i*.082+.21);o.connect(g).connect(ctx.destination);o.start(now+i*.082);o.stop(now+i*.082+.22);});setTimeout(()=>ctx.close().catch(()=>{}),1200);}catch(e){}}
-function sayPraise(){const phrase=praiseText();playJoyChime();if(!state.sound)return;const p=phrase.match(/^([^!！]+[!！])\s*(.*)$/);if(p&&p[2])speakParts([p[1],p[2]],230,true);else speakParts([phrase],500,true);}
+function sayPraise(){const personal=praiseText(),phrase=window.JoyiRecordedVoice?.enabled()?(view.praiseVoice||personal):personal;playJoyChime();if(!state.sound)return;const p=phrase.match(/^([^!！]+[!！])\s*(.*)$/);if(p&&p[2])speakParts([p[1],p[2]],230,true);else speakParts([phrase],500,true);}
 const TONES={warm:{label:'🌷 다정하게',rate:.88,pitch:1.05},bright:{label:'🌟 밝게',rate:.99,pitch:1.27},bouncy:{label:'🐯 신나게',rate:.94,pitch:1.37},slow:{label:'🐢 또박또박',rate:.76,pitch:.96}};
 let installPrompt=null;window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;});
 const DAILY_STAR_CAP=5,STEPS_PER_STAR=3;

@@ -3,7 +3,7 @@
   "plannedApproved": 221,
   "supportingArtwork": 255,
   "artworkBytes": 42489402,
-  "offlineCoreRequests": 1256,
+  "offlineCoreRequests": 1313,
   "duplicateArtworkHashes": 0,
   "missingOfflineFiles": [],
   "exportOptimization": {
@@ -16,6 +16,6 @@
     "Payload measured from actual files; no claim of real mobile network or device voice-quality benchmarking",
     "Some supporting props are retained for reuse; 221 primary scenes are all linked to actual screens"
   ],
-  "generatedAudioFiles": 693,
-  "generatedAudioBytes": 20681244
+  "generatedAudioFiles": 746,
+  "generatedAudioBytes": 21835384
 }

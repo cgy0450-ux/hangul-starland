@@ -6,10 +6,10 @@
   "language": "ko",
   "numSteps": 8,
   "speed": 1.05,
-  "clips": 693,
+  "clips": 746,
   "storyScenes": 200,
-  "bytes": 20681244,
-  "durationSeconds": 2564.712,
+  "bytes": 21835384,
+  "durationSeconds": 2707.416,
   "items": [
     {
       "text": "햇살이 숲길을 간질였어요. 달리기 좋아하는 토끼가 폴짝 뛰었지요. “오늘도 내가 제일 빠를걸!”",
@@ -5554,6 +5554,430 @@
       "duration": 3.288,
       "bytes": 26540,
       "sha256": "374001ca046e00a5c1fc4ca70176485a9c27355e4b8fbc2844178bccb7883af1"
+    },
+    {
+      "text": "이 그림의 이름은 무엇일까요?",
+      "kind": "guide",
+      "path": "assets/audio/2ad4660c0c4f86479ee0.mp3",
+      "duration": 2.328,
+      "bytes": 18860,
+      "sha256": "b9dbe4e9e762ab57a75ad5fa1b2036c9c02540d66e4a8a1fb1c16654cfca3237"
+    },
+    {
+      "text": "그림을 보고 낱말을 만들어 볼까요?",
+      "kind": "guide",
+      "path": "assets/audio/69ac5ca7bf95cbb96a04.mp3",
+      "duration": 2.64,
+      "bytes": 21356,
+      "sha256": "ec334fa9e8ee77de7ec0ff4dfaff2b2b9cc0d360c6c3f96909e8d62d21ec2820"
+    },
+    {
+      "text": "좋아하는 색으로 글자를 써 볼까요?",
+      "kind": "guide",
+      "path": "assets/audio/ee2e7ad8491fe8293fbe.mp3",
+      "duration": 2.64,
+      "bytes": 21356,
+      "sha256": "f74f5e6cc97b905fd8ac55628577af9eb86796b5350e685c2e2f7b8694883fdd"
+    },
+    {
+      "text": "우와! 우리 친구, 정말 멋지다!",
+      "kind": "praise",
+      "path": "assets/audio/03eae01ee2ad4bf8e7c9.mp3",
+      "duration": 3.384,
+      "bytes": 27308,
+      "sha256": "f1165599f468912e666987cbe00673f69e5caf132ec06aa46d17d317d2edeefc"
+    },
+    {
+      "text": "우와!",
+      "kind": "praise",
+      "path": "assets/audio/dc3a48f17718822ed5da.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "0720ef7358addbee7a7ce071ed202356c8e1b501a37ee5891d9cc233fd6fceba"
+    },
+    {
+      "text": "우리 친구, 정말 멋지다!",
+      "kind": "praise",
+      "path": "assets/audio/91da6fedd33c590c70ed.mp3",
+      "duration": 2.256,
+      "bytes": 18284,
+      "sha256": "56692d0c31c691951e58fd8e6794ace887d30b349d4d08fa044f22551a023b9c"
+    },
+    {
+      "text": "친구, 참 잘했어요!",
+      "kind": "praise",
+      "path": "assets/audio/664df1d9865e541baf87.mp3",
+      "duration": 1.92,
+      "bytes": 15596,
+      "sha256": "4e1e3e473e89b283b05a46b1f641c1dfd5072cfdc69d69a9a9dcc9fd74ddcdcd"
+    },
+    {
+      "text": "최고야! 우리 친구!",
+      "kind": "praise",
+      "path": "assets/audio/30630801cda0b70fc6ff.mp3",
+      "duration": 2.232,
+      "bytes": 18092,
+      "sha256": "5b8cfece8956926428eaac71400e2de5b2945fa907b826c298aae32b3f8ef3ad"
+    },
+    {
+      "text": "최고야!",
+      "kind": "praise",
+      "path": "assets/audio/edd6189476dd905d0619.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "a10f05b723c080c2248c2e4e06b045840f45bb3af785200659b414ffd6e46384"
+    },
+    {
+      "text": "우리 친구!",
+      "kind": "praise",
+      "path": "assets/audio/38beab94b536bb91cd6c.mp3",
+      "duration": 1.392,
+      "bytes": 11372,
+      "sha256": "0cddd0858fa16cac6bac0c93e871445ef81d187be06a7f763fbf3c7590a8ebcc"
+    },
+    {
+      "text": "짝짝짝! 친구, 정말 잘했어!",
+      "kind": "praise",
+      "path": "assets/audio/7eecefc6e58e3ee78a72.mp3",
+      "duration": 3.384,
+      "bytes": 27308,
+      "sha256": "49ae9ff2ed9a631c04cd215a1672fbe99f8a48bab11849972f6fba99602d7b01"
+    },
+    {
+      "text": "짝짝짝!",
+      "kind": "praise",
+      "path": "assets/audio/c79e9b3734c100cf7759.mp3",
+      "duration": 1.392,
+      "bytes": 11372,
+      "sha256": "614f08b7a61ee55fe0a2906f4dc83c24ec4a0ba59f467dac426fc03205d25c29"
+    },
+    {
+      "text": "친구, 정말 잘했어!",
+      "kind": "praise",
+      "path": "assets/audio/285a805aa12f982511e6.mp3",
+      "duration": 1.92,
+      "bytes": 15596,
+      "sha256": "75fdba6cfae06d9b196202d607a6d50b0e9337eb8c1eb6cd359fbb2f489152a1"
+    },
+    {
+      "text": "해냈다! 우리 친구!",
+      "kind": "praise",
+      "path": "assets/audio/8bc77dde3dd11df93dce.mp3",
+      "duration": 2.232,
+      "bytes": 18092,
+      "sha256": "f53004d53a18322ad121e41bd1244d98183630f6ffdd7078af9d3a5c17c90c31"
+    },
+    {
+      "text": "해냈다!",
+      "kind": "praise",
+      "path": "assets/audio/b434905e3b70b913fa9d.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "b821fc701ee95e7d10059427d527d67e4a7f0ffd7418c79a648db55330177d33"
+    },
+    {
+      "text": "우리 친구, 대단해!",
+      "kind": "praise",
+      "path": "assets/audio/4b0e07c2375affd55a9b.mp3",
+      "duration": 1.848,
+      "bytes": 15020,
+      "sha256": "02f6d701ace7250fc50bdf8b4e73481e9d3af307dcfe4f1ebdfe36827721a02f"
+    },
+    {
+      "text": "반짝반짝! 친구의 실력이 빛나네!",
+      "kind": "praise",
+      "path": "assets/audio/d1d08984b5fdb5f6be3d.mp3",
+      "duration": 3.888,
+      "bytes": 31340,
+      "sha256": "6e0c6d2be2a6ba2267618fe05811229c72302280f5d72014cfc0a4b7df5d5ce8"
+    },
+    {
+      "text": "반짝반짝!",
+      "kind": "praise",
+      "path": "assets/audio/bdc38368b38c27117609.mp3",
+      "duration": 1.488,
+      "bytes": 12140,
+      "sha256": "1e2dfff30233954160ce68e96ad777b62dc82cfa56f0e8a6698de261fb206627"
+    },
+    {
+      "text": "친구의 실력이 빛나네!",
+      "kind": "praise",
+      "path": "assets/audio/ddea955084aff79ebfe9.mp3",
+      "duration": 2.208,
+      "bytes": 17900,
+      "sha256": "0f106d27fe1482aa4f7d4b890f4f726c8880d003eb85b7b75f79865164587256"
+    },
+    {
+      "text": "야호! 친구, 한 번 더 멋지게 성공!",
+      "kind": "praise",
+      "path": "assets/audio/ae72a367c43d94076f09.mp3",
+      "duration": 3.528,
+      "bytes": 28460,
+      "sha256": "eec822c30aa661b1b1e9f143f7a3bb0a8c61c078b6d44839fe6b3c760be1868e"
+    },
+    {
+      "text": "야호!",
+      "kind": "praise",
+      "path": "assets/audio/890ff8dd065bcaf16a03.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "2567cffc6a47913f93d303bb11f1c223e6f679996a26724384f3895da237e3b6"
+    },
+    {
+      "text": "친구, 한 번 더 멋지게 성공!",
+      "kind": "praise",
+      "path": "assets/audio/25549c8334c9ec4134e9.mp3",
+      "duration": 2.496,
+      "bytes": 20204,
+      "sha256": "e001a149d2942e2be942283695c69ab77a1a116026754b3fe96f655dc723e5ad"
+    },
+    {
+      "text": "우리 친구, 오늘도 쑥쑥 자라고 있네!",
+      "kind": "praise",
+      "path": "assets/audio/8ee5fc19000fb3e4afc1.mp3",
+      "duration": 3.192,
+      "bytes": 25772,
+      "sha256": "787d938cb4a2400fecc49fc77c74b28b39f5f898842d93cec9a2e8c105a9e903"
+    },
+    {
+      "text": "와아! 친구, 도전하는 모습이 최고야!",
+      "kind": "praise",
+      "path": "assets/audio/e3f1b5862c35b82fc904.mp3",
+      "duration": 3.648,
+      "bytes": 29420,
+      "sha256": "b6c7a1e8915faad5381487e489e7e7d4ca177ee2b396f5e2d71b276269122e71"
+    },
+    {
+      "text": "와아!",
+      "kind": "praise",
+      "path": "assets/audio/1a8af3068aebad2ea324.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "85ef6181c10a7d8e4526583e1685a123cc98a2b0a73e5c249de8fddd8fa812e1"
+    },
+    {
+      "text": "친구, 도전하는 모습이 최고야!",
+      "kind": "praise",
+      "path": "assets/audio/db424bdaf82df3e8044d.mp3",
+      "duration": 2.472,
+      "bytes": 20012,
+      "sha256": "7311a5c9d3f1e30eb57b56a1ebe0be6d42d83ea2ad4c113bea9dd6d33c0e6ad2"
+    },
+    {
+      "text": "나무 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/0469ea6d675d1bc77cb1.mp3",
+      "duration": 3.072,
+      "bytes": 24812,
+      "sha256": "d3740cdb1c6979d30d3e8e9a33110ef9387a5d400a1e92851633be452af842d8"
+    },
+    {
+      "text": "사과 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/b1c9a4f2ff73e70f7f55.mp3",
+      "duration": 3.144,
+      "bytes": 25388,
+      "sha256": "a51f90a929d4c3be7343971ad7b2cc83ff5f96ba335876e9af697164cc27e550"
+    },
+    {
+      "text": "우유 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/fad975363914d670ed35.mp3",
+      "duration": 3.096,
+      "bytes": 25004,
+      "sha256": "53f75c73d6c4853d7b239f4d1349c004e81a20e7dbd7d7307419a32c118ab2d8"
+    },
+    {
+      "text": "토끼 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/2ee589a1757023d3f467.mp3",
+      "duration": 3.12,
+      "bytes": 25196,
+      "sha256": "45cf7499f116ac013ec8fee9e20bd38b0a1470bc9e7bafd72d21eceab0083fa6"
+    },
+    {
+      "text": "바나나 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/c04d767586f0c50eb06b.mp3",
+      "duration": 3.312,
+      "bytes": 26732,
+      "sha256": "96a032c9db476b3b2fcafb72bc249ecb09d541355ab9a0767cfb588adaa7288f"
+    },
+    {
+      "text": "고래 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/7ddf1d32689f0704c9f1.mp3",
+      "duration": 3.048,
+      "bytes": 24620,
+      "sha256": "9bc2384008d614f4396b56a2be17cb0f60f54cbd229a6b58ec2f80d968587c25"
+    },
+    {
+      "text": "오리 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/bc7921dc322923d162eb.mp3",
+      "duration": 3.072,
+      "bytes": 24812,
+      "sha256": "772f891e7014471111bae90f4ae189dffaf45baaab51790002f57fefa2acd623"
+    },
+    {
+      "text": "하마 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/33532938e7a2be05c2fd.mp3",
+      "duration": 3.12,
+      "bytes": 25196,
+      "sha256": "3016acd9fed0234937ca1fc17331a10f7591a6cb55e4d8607a3767faf50db896"
+    },
+    {
+      "text": "기차 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/ce0193df3450548ce22c.mp3",
+      "duration": 3.072,
+      "bytes": 24812,
+      "sha256": "cbf9a85567b1c688163762fe55433891c5cdb9a542a52477d3d2641d025738d0"
+    },
+    {
+      "text": "포도 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/ff368b3c1866fef48664.mp3",
+      "duration": 3.024,
+      "bytes": 24428,
+      "sha256": "f7d530693003631fca929a0ed1702648d7270bb977c2ac3c1e715d00a5744cc5"
+    },
+    {
+      "text": "나비 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/0b77a0f14cd4d38060e5.mp3",
+      "duration": 3.072,
+      "bytes": 24812,
+      "sha256": "e589a31dada57aaf1bf18e6347d47c0486790f8adf5e4a363b6618e747f07bc6"
+    },
+    {
+      "text": "수박 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/921bfc0f3631577fc06a.mp3",
+      "duration": 3.12,
+      "bytes": 25196,
+      "sha256": "2fd8b0abf3a59277639639d49667d7f41ca766d2f571cde1c0fe6ef48f89ef2c"
+    },
+    {
+      "text": "모자 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/debff96531fb7d562365.mp3",
+      "duration": 3.12,
+      "bytes": 25196,
+      "sha256": "fe542b153999c4591b677d31663a49917b4c3553e65922ff4bb6684e453f13e8"
+    },
+    {
+      "text": "바다 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/cb256c41e72250c716d9.mp3",
+      "duration": 3.12,
+      "bytes": 25196,
+      "sha256": "383d0aa6a2438fc6ec468ef5b95c3a0b11e8fdec5f99565db6e0770a0370a573"
+    },
+    {
+      "text": "고양이 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/b829e96a399a3a3450e1.mp3",
+      "duration": 3.216,
+      "bytes": 25964,
+      "sha256": "cec0e81a4abec74edf72918a67f9f1a85e09a0ae784fb418dcfd75c668b272ec"
+    },
+    {
+      "text": "풍선 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/2d62b815745a118a213e.mp3",
+      "duration": 3.12,
+      "bytes": 25196,
+      "sha256": "18e378346df22ab2f80f3fe4b1c1930cb75f60e13df8eab227d2e1cdee5b40de"
+    },
+    {
+      "text": "가방 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/bc0579145aa6c66231cd.mp3",
+      "duration": 3.096,
+      "bytes": 25004,
+      "sha256": "6e081c0c06073bf3c9f2b65cfcca85f0eccc0b64e88941da2fca51427158ee70"
+    },
+    {
+      "text": "우산 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/6311df25fe91371aa637.mp3",
+      "duration": 3.12,
+      "bytes": 25196,
+      "sha256": "ffd40cd8f14a109e0ebecf02c5138f91f1736c0368137d93b7211f6767fa67d4"
+    },
+    {
+      "text": "해 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/d76a52ea4c952ef2985b.mp3",
+      "duration": 2.88,
+      "bytes": 23276,
+      "sha256": "9afa3925ba5179f2239834a53fbd1828b63bc82af9151919f9c895f723125423"
+    },
+    {
+      "text": "눈 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/b531be521dcc22188d6c.mp3",
+      "duration": 2.928,
+      "bytes": 23660,
+      "sha256": "a45c45fda5a96730b0db2f0a4a086b666ff93a35336b6dc2f5431bdbd5f2de4e"
+    },
+    {
+      "text": "돼지 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/2758016c99d29c08700c.mp3",
+      "duration": 3.072,
+      "bytes": 24812,
+      "sha256": "5a3ba1dfb4cc513666164653ccaccd824e5d93969e24795f0b8b8f18d29e865f"
+    },
+    {
+      "text": "자동차 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/1b65936eec595647b3ee.mp3",
+      "duration": 3.36,
+      "bytes": 27116,
+      "sha256": "bc0aacddc204374cf1e6cab9c1218799025a29bf5e432c0fe416819cf1a1a210"
+    },
+    {
+      "text": "딸기 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/d2a36abbd8d1c38bb13c.mp3",
+      "duration": 3.072,
+      "bytes": 24812,
+      "sha256": "d0cc9a4a6968c26c0f1c139fe9056972eb677effc2b536cf7ec7642b357d7274"
+    },
+    {
+      "text": "비행기 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/34bb2d2e848fd47aa12c.mp3",
+      "duration": 3.12,
+      "bytes": 25196,
+      "sha256": "3b9a311c492ebfd23e3d1ab0f74964848285f2f500ed6cabaf6f49f8ff1689f2"
+    },
+    {
+      "text": "기린 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/60b4bc3242ab6d016fa9.mp3",
+      "duration": 2.976,
+      "bytes": 24044,
+      "sha256": "2025dfd95ed60956d9c876244e307265732f3678038eeb98694222db23344cf0"
+    },
+    {
+      "text": "호랑이 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/4c4ac9495510c81fa27b.mp3",
+      "duration": 3.192,
+      "bytes": 25772,
+      "sha256": "b7eb16ca620dd80bd4b49882dad4deb5f3e5d6ea9306d568f51a233b8f7ad403"
+    },
+    {
+      "text": "거북이 글자를 손가락으로 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/6bfba537868f38fe2bdc.mp3",
+      "duration": 3.24,
+      "bytes": 26156,
+      "sha256": "80cc8d3e40c8d196ab48989a9766c5e6f028601a0892dfb7992b8db104b5240d"
     }
   ],
   "limitations": [

@@ -320,3 +320,4 @@ console.log('PASS: '+compiled+' HTML scripts; reviewed history/coding and 10 mon
 for(const file of ['coloring.js','coloring-data.js','vehicles.js','play-settings.js'])new vm.Script(fs.readFileSync(file,'utf8'),{filename:file});
 
 require('./audio/integrity.cjs');
+require('./audio/autoplay.cjs');
