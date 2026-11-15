@@ -50,13 +50,13 @@ assert(sw.includes('firetruck-rescue.html'),'offline manifest must cache firetru
 assert(firetruck.includes('const MORE_SCENES=')&&firetruck.includes('STAGES.push(...MORE_SCENES)'),'extended rescue missions missing');
 assert(firetruck.includes('function drawFriendInWindow()'),'rescued animal must visibly wait at a building window');
 assert(firetruck.includes('function drawHelicopter()')&&firetruck.includes("rr(-50,-17,96,38"),'large illustrated helicopter missing');
-assert(firetruck.includes('water=100')&&firetruck.includes('water-27*dt')&&firetruck.includes('waterCooldown'),'finite water supply or hydrant refill missing');
+assert(firetruck.includes('water=100')&&firetruck.includes('water-12*dt')&&firetruck.includes('waterCooldown'),'finite water supply or hydrant refill missing');
 assert(firetruck.includes("window.JoyiWordGate.start('소방차'"),'firetruck must require writing 소방차 before advancing');
 assert(collect.includes("window.JoyiWordGate.start('자동차'"),'car collectibles must require writing 자동차');
 assert(dodge.includes("window.JoyiWordGate.start('자동차'"),'car racing must require writing 자동차');
 assert(gate.includes('function good()')&&gate.includes('function start(word,success'),'child-friendly word handwriting evaluator missing');
-assert(gate.includes('const componentLengths=')&&gate.includes("if(total<2||hit/total<.48)return false"),'writing must reject missing vowels/final consonants, including a lone ㄷ in 두');
-assert(gate.includes('allHit/Math.max(allGuide,1)>=.57'),'writing must cover entire glyph, not only the initial consonant');
+assert(gate.includes('done.length===guide.length')&&gate.includes('function traceEvaluation(points,expected)'),'all strokes must pass legacy evaluator');
+assert(gate.includes('done.length!==guide.length'),'incomplete character cannot advance');
 const art=fs.readFileSync('joyi-illustrations.svg','utf8');
 const renderer=fs.readFileSync('joyi-art-renderer.js','utf8');new vm.Script(renderer,{filename:'joyi-art-renderer.js'});
 const posterIds=['hidden','colors','shadows','mole','differences','dino','space','animal','firetruck','collect','dodge'];
@@ -72,7 +72,7 @@ assert(adventure.includes('window.JoyiWordGate.start(challenge'),'adventures mus
 assert(adventure.includes('짜잔!')&&adventure.includes('DINO_NAMES')&&adventure.includes('JoyiArt.replace(button,DINOS[creatureIndex])'),'tapped egg must visibly hatch a dinosaur');
 assert(adventure.includes("['알','공룡','화석']"),'dinosaur word prompts must vary across levels');
 assert(adventure.includes("['별','우주','행성']")&&adventure.includes("['먹이','동물','친구']"),'other adventures need varied handwriting words');
-assert(gate.includes('function autoCheck()')&&gate.includes('autoTimer=setTimeout(autoCheck,220)'),'writing needs automatic letter completion after lifting finger');
+assert(gate.includes('function autoCheck()')&&gate.includes('pointer=null;autoCheck()'),'writing needs automatic letter completion after lifting finger');
 assert(!gate.includes('✅ 다 썼어요'),'writing must not require pressing a done button');
 assert(!gate.includes('const SEG='),'distorted manually authored syllable templates must be removed');
 assert(gate.includes('function pathsForHangul(')&&gate.includes('const CHO=')&&gate.includes('const JUNG=')&&gate.includes('const JONG='),'Korean syllables must be generated from initial/medial/final jamo');
@@ -81,7 +81,7 @@ const pathStart=gate.indexOf(' const CHO='),pathEnd=gate.indexOf(' function path
 assert(pathStart>0&&pathEnd>pathStart,'cannot extract pure Hangul glyph geometry');
 const getGlyph=new Function('window',gate.slice(pathStart,pathEnd)+';return window.JoyiHangulGuide.pathsForHangul');
 const glyph=getGlyph({});
-const expectedStrokeCounts={'소':4,'방':7,'차':6,'자':5,'동':5,'알':5,'별':9};
+const expectedStrokeCounts={'소':4,'방':7,'차':6,'자':5,'동':5,'알':6,'별':10};
 for(const [character,n] of Object.entries(expectedStrokeCounts)){
  const strokes=glyph(character);assert(strokes&&strokes.length===n,character+' must have correct jamo and stroke count');
 }
