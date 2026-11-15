@@ -10,10 +10,10 @@ try{
  if(!guide)throw Error('missing glyph');
  const n=character.charCodeAt(0)-0xAC00,initial='ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ'[Math.floor(n/588)];
  // The expected number of first-jamo strokes for the reference ㄷ test is two.
- const strokes=mode==='partial'?guide.slice(0,2):guide;
+ const strokes=mode==='partial'?guide.slice(0,2):mode==='missing-last'?guide.slice(0,-1):guide;
  function event(type,x,y){const r=canvas.getBoundingClientRect();canvas.dispatchEvent(new PointerEvent(type,{bubbles:true,cancelable:true,pointerId:1,isPrimary:true,pointerType:'touch',clientX:r.left+x*r.width/300,clientY:r.top+y*r.height/300}))}
  for(const stroke of strokes){event('pointerdown',...stroke[0]);for(let i=1;i<stroke.length;i++){const a=stroke[i-1],b=stroke[i];for(let k=1;k<=12;k++){const t=k/12;event('pointermove',a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t)}}event('pointerup',...stroke.at(-1))}
- setTimeout(()=>{document.body.dataset.traceProbe=(mode==='partial'?!done:done)?'pass':'fail';document.body.dataset.checkedCharacter=character},1100);
+ setTimeout(()=>{document.body.dataset.traceProbe=(mode==='full'?done:!done)?'pass':'fail';document.body.dataset.checkedCharacter=character},1100);
 }catch(e){document.body.dataset.traceProbe='error';document.body.textContent=e.message}
 })();
 </script></body></html>
