@@ -24,7 +24,7 @@ def inventory():
 
 def validate(data):
     errors=[]; seen={}
-    for item in data['planned']:
+    for item in data['planned']+data.get('supporting',[]):
         if item['id'] in seen:errors.append('Duplicate semantic ID '+item['id'])
         seen[item['id']]=True
         if item['status']=='pending':

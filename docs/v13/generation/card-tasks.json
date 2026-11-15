@@ -1,0 +1,86 @@
+[
+  {
+    "id": "subject.hangul",
+    "brief": "Hangul writing classroom, JoYi writes with stylus, three wooden jamo blocks \u3131 \u3134 \u314f, forest classroom"
+  },
+  {
+    "id": "subject.math",
+    "brief": "Counting garden: JoYi arranging exactly five round oranges in a row on a wooden counting tray, playful wooden number shapes and abacus"
+  },
+  {
+    "id": "subject.english",
+    "brief": "English alphabet picnic: JoYi reading a chunky picture book with clear capital A B C blocks, apples and a soft toy bear"
+  },
+  {
+    "id": "subject.science",
+    "brief": "Nature discovery lab: JoYi looking through magnifying glass at a real ladybug on a green leaf, seedling, safe wooden toy microscope, no chemicals"
+  },
+  {
+    "id": "subject.history",
+    "brief": "Korean heritage: JoYi wearing his original goggles and red scarf exploring a miniature Korean hanok courtyard with clay roof tiles, wooden Korean turtle ship model, no inaccurate foreign costume"
+  },
+  {
+    "id": "subject.coding",
+    "brief": "Coding path: JoYi guides a small friendly toy robot along a wooden tile path with directional arrow tiles, no screens or binary text"
+  },
+  {
+    "id": "subject.finance",
+    "brief": "Tiny woodland market: JoYi placing round plain golden tokens into a clear savings jar beside a wooden fruit stall, no currency symbols or text"
+  },
+  {
+    "id": "subject.reading",
+    "brief": "Cozy reading treehouse: JoYi cuddled in a teal cushion chair reading a thick open illustrated book, warm lantern, bookshelves, rain outside"
+  },
+  {
+    "id": "subject.life",
+    "brief": "Daily life skills: JoYi gently watering a seedling beside neatly arranged shoes and a folded tiny jacket, cozy woodland cottage entry"
+  },
+  {
+    "id": "subject.creativity",
+    "brief": "Art atelier: JoYi painting a colorful abstract rainbow on paper at a wooden easel, safe chunky crayons and clay animals, clean joyful studio"
+  },
+  {
+    "id": "game.hidden",
+    "brief": "Hidden object garden: immersive miniature woodland picnic with clearly visible red apple, yellow butterfly, blue watering can, brown teddy bear, friendly JoYi peeking from tree, rich but uncluttered treasure hunt scene"
+  },
+  {
+    "id": "game.colors",
+    "brief": "Color sorting: three woven baskets with unmistakable red, yellow and blue cloth liners, red apple, yellow lemon and blue toy ball sorted into corresponding baskets, JoYi helping"
+  },
+  {
+    "id": "game.shadows",
+    "brief": "Animal silhouette matching: lovely fluffy rabbit, cat and bear figurines each standing in front of their own matching dark silhouette board with recognizable long rabbit ears and cat pointed ears, not mismatched shadows"
+  },
+  {
+    "id": "game.mole",
+    "brief": "Whack-a-mole garden: cute rounded brown mole with tiny pink nose popping out of soft earth burrow, other empty burrows in green lawn, garden flowers, JoYi laughing gently, no hammer or weapon"
+  },
+  {
+    "id": "game.differences",
+    "brief": "Spot the difference: a beautifully detailed cozy garden picnic with red teapot, blue cup, yellow butterfly, apples and a teddy bear, clear distinct objects for observation, no split image or text"
+  },
+  {
+    "id": "game.dino",
+    "brief": "Dinosaur egg discovery: scientifically recognizable friendly baby triceratops hatching from large speckled egg, correct three short horns and frill, lush fern valley, JoYi explorer with original goggles and scarf, no dragons"
+  },
+  {
+    "id": "game.space",
+    "brief": "Space discovery: JoYi in childlike safe astronaut suit with original face visible and goggles above helmet, small rounded orange-white rocket, Earth in distance, luminous stars and ringed Saturn, friendly space diorama, no flames in space"
+  },
+  {
+    "id": "game.animal",
+    "brief": "Animal care: JoYi gently offers a fresh carrot to a cute white rabbit beside small water bowl and straw-lined cottage shelter, warm gentle pastoral scene"
+  },
+  {
+    "id": "game.firetruck",
+    "brief": "Fire rescue: bright red friendly rounded detailed fire engine with realistic four black wheels, silver ladder and blue beacon, JoYi firefighter wearing red scarf/goggles with helmet above, spraying clean arc of water toward small distant smoky wooden cottage, rescued rabbit safely nearby, no danger or suffering"
+  },
+  {
+    "id": "game.collect",
+    "brief": "Treasure driving: lovely rounded turquoise compact car driven by JoYi on a winding sunlit forest road collecting distinct blue gems on the road ahead, soft hills and tiny houses, premium playful 3D scene"
+  },
+  {
+    "id": "game.dodge",
+    "brief": "Safe driving: cheerful rounded yellow compact car driven by JoYi on three lane woodland road, a few large clearly separated orange traffic cones, bright blue sky, safe slow-speed playful driving scene"
+  }
+]

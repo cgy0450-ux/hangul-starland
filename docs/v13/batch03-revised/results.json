@@ -1,0 +1,162 @@
+[
+  {
+    "view": "mobile",
+    "route": "index.html",
+    "screenshot": "mobile-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "requests.html",
+    "screenshot": "mobile-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "journey.html?subject=hangul",
+    "screenshot": "mobile-2.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "mini-games.html?game=colors",
+    "screenshot": "mobile-3.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "mini-games.html?game=shadows",
+    "screenshot": "mobile-4.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "mini-games.html?game=hidden",
+    "screenshot": "mobile-5.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "adventure.html?game=dino",
+    "screenshot": "mobile-6.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "firetruck-rescue.html",
+    "screenshot": "mobile-7.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "car-collect.html",
+    "screenshot": "mobile-8.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "car-dodge.html",
+    "screenshot": "mobile-9.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "index.html",
+    "screenshot": "tablet-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "requests.html",
+    "screenshot": "tablet-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=hangul",
+    "screenshot": "tablet-2.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html?game=colors",
+    "screenshot": "tablet-3.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html?game=shadows",
+    "screenshot": "tablet-4.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html?game=hidden",
+    "screenshot": "tablet-5.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "adventure.html?game=dino",
+    "screenshot": "tablet-6.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "firetruck-rescue.html",
+    "screenshot": "tablet-7.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "car-collect.html",
+    "screenshot": "tablet-8.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "car-dodge.html",
+    "screenshot": "tablet-9.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  }
+]

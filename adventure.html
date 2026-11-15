@@ -20,7 +20,7 @@ header h1{color:#293a51;letter-spacing:-.06em}
 .tiles button.correct{background:#def4e7!important;border-color:#80d2af!important}
 .controls button{background:#fff!important;border:1px solid #fff!important;color:#384d69}
 @media(max-height:690px){.scene.joyi-illustrated-scene{height:115px;min-height:100px}.tiles button{min-height:65px}.tiles button>.joyi-vector{height:65px}}
-</style></head><body>
+</style><link rel="stylesheet" href="./joiland-v13.css"></head><body>
 <header><a href="./requests.html">‹ 놀이터</a><h1 id="heading">🐯 새 모험</h1><button id="sound" aria-label="소리 켜기">🔊</button></header>
 <main><div class="headline"><h2 id="subtitle">모험 시작!</h2><p id="explain">마음에 드는 걸 찾아 눌러 보세요</p></div><div class="status"><span id="round">🌟 1 / 5</span><span id="level">🚀 1단계 / 3</span></div><section class="stage"><div class="scene" id="scene">🦕</div><div class="question" id="question">찾아 보자!</div><div class="tiles" id="tiles"></div><div class="feedback" id="feedback" role="status">🐯 준비됐어?</div></section><div class="controls"><button id="repeat">🔊 다시 듣기</button><button id="other">🎮 다른 놀이</button></div></main>
 <div class="end" id="ending" role="dialog" aria-modal="true"><section><div style="font-size:72px">🏆🐯✨</div><h2 id="endtitle">모험 성공!</h2><p>정말 잘했어! 새로운 모험을 골라 보자.</p><a href="./requests.html">🎮 다른 놀이 하기</a></section></div>
@@ -32,7 +32,7 @@ dino:{heading:'🦖 공룡 알 탐험',title:'알에서 어떤 공룡이 나올�
 space:{heading:'🚀 반짝반짝 우주',title:'우주별 구조 탐험!',guide:'반짝이는 별을 찾아 눌러 보세요',word:'우주',scene:'🚀🌌',back:'#e3ddff'},
 animal:{heading:'🐰 동물 친구 돌보기',title:'아픈 동물 친구를 도와줘!',guide:'동물 친구에게 필요한 것을 찾아 주세요',word:'동물',scene:'🐶🐱',back:'#d8ffe9'}
 },config=OPTIONS[mode]||OPTIONS.dino;
-const DINOS=['🦖','🦕','🐉','🦎','🐢','🐊'],DINO_NAMES=['티라노사우루스','브라키오사우루스','아기 용','작은 공룡','거북 친구','악어 친구'],STARS=['⭐','🌟','💫','✨','🌠','🪐'],PATIENTS=[{animal:'🐰',item:'🥕',name:'토끼에게 당근을 주세요'},{animal:'🐶',item:'🦴',name:'강아지에게 뼈다귀를 주세요'},{animal:'🐱',item:'🐟',name:'고양이에게 생선을 주세요'},{animal:'🐻',item:'🍯',name:'곰에게 꿀을 주세요'},{animal:'🐵',item:'🍌',name:'원숭이에게 바나나를 주세요'},{animal:'🐘',item:'🍉',name:'코끼리에게 수박을 주세요'}];
+const DINOS=['dinosaur-trex','dinosaur-croc','dinosaur-dragon','dinosaur-lizard','dinosaur-turtle','dinosaur'],DINO_NAMES=['티라노사우루스','디플로도쿠스','스테고사우루스','파라사우롤로푸스','안킬로사우루스','트리케라톱스'],STARS=['⭐','🌙','🪐','🌍','☄️','🚀'],PATIENTS=[{animal:'🐰',item:'🥕',name:'토끼에게 당근을 주세요'},{animal:'🐶',item:'🦴',name:'강아지에게 뼈다귀를 주세요'},{animal:'🐱',item:'🐟',name:'고양이에게 생선을 주세요'},{animal:'🐻',item:'🍯',name:'곰에게 꿀을 주세요'},{animal:'🐵',item:'🍌',name:'원숭이에게 바나나를 주세요'},{animal:'🐘',item:'🍉',name:'코끼리에게 수박을 주세요'}];
 let stage=0,round=0,locked=false,total=0,target='',speech='',playing=true,soundOn=true,elapsed=0,finished=false,currentTask=null,raf=0,last=0,dinoChoice=-1,taskId=0;
 try{soundOn=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound!==false}catch(e){}
 $('heading').textContent=config.heading;$('subtitle').textContent=config.title;$('explain').textContent=config.guide;$('sound').textContent=soundOn?'🔊':'🔇';document.body.classList.add('playing');
@@ -41,9 +41,9 @@ function rand(items){return [...items].sort(()=>Math.random()-.5)}
 function showScene(...icons){const target=$('scene');target.replaceChildren();target.classList.add('joyi-illustrated-scene');icons.forEach(icon=>{const art=JoyiArt.svg(icon);if(art)target.append(art)})}
 function newTask(){
  if(finished)return;locked=false;dinoChoice=-1;taskId++;
- const n=(stage*5+round)%6;let options=[];
+ const n=(stage*5+round)%6;document.body.dataset.world=mode;let options=[];
  if(mode==='animal'){currentTask=PATIENTS[n];target=currentTask.item;speech=currentTask.name;options=rand(['🥕','🦴','🐟','🍯','🍌','🍉']);showScene(currentTask.animal);$('question').textContent=speech}
- else if(mode==='space'){target=STARS[n];speech=target==='🪐'?'행성을 찾아 보세요!':'반짝이는 '+target+' 별을 찾아 보세요!';options=rand(STARS);showScene('🚀','🪐');$('question').textContent=speech}
+ else if(mode==='space'){target=STARS[n];speech=(JoyiArt.NAME[target]||target)+'을 찾아 보세요!';options=rand(STARS);showScene('🚀','🪐');$('question').textContent=speech}
  else{target=DINOS[n];speech='어떤 공룡이 알에서 나올까? 알을 톡 눌러 봐!';options=['🥚','🥚','🥚','🥚','🥚','🥚'];showScene('🥚');$('question').textContent='🥚 어떤 공룡이 숨어 있을까요?'}
  $('round').textContent='🌟 '+(round+1)+' / 5';$('level').textContent='🚀 '+(stage+1)+'단계 / 3';$('feedback').textContent='🐯 손가락으로 눌러 봐!';
  const board=$('tiles');board.replaceChildren();

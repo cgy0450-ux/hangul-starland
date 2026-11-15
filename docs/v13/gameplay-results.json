@@ -1,0 +1,17 @@
+{
+  "passed": [
+    "wrong color does not advance",
+    "five correct rounds open required writing",
+    "partial strokes blocked",
+    "missing final stroke blocked",
+    "all strokes advance to next stage",
+    "nine paired objects, one difference, wrong and correct hotspot behavior",
+    "six distinguishable space target artworks",
+    "finite water drains and hydrant refills instantly twice",
+    "unchanged frame loop ends at five simulated minutes"
+  ],
+  "limitations": [
+    "Synthetic pointer/frame input; real touch-device and Korean voice listening still require device review",
+    "Not a full completion of every game"
+  ]
+}

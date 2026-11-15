@@ -11,7 +11,7 @@
  .controls{grid-column:2;grid-row:6}.instructions{display:none}
  .rescue-tools button,.controls button{min-height:38px;padding:5px 2px;font-size:12px}
  .rescue-book span{font-size:16px}.pill{font-size:12px}
-}.water-panel{display:flex;gap:8px;align-items:center;justify-content:center;background:#ffffffdc;border:3px solid #fff;border-radius:16px;padding:6px;font-weight:900;font-size:13px;flex-wrap:wrap}.water-track{width:120px;max-width:32vw;height:16px;background:#dce4f6;border:2px solid #fff;border-radius:15px;overflow:hidden}.water-track>div{width:100%;height:100%;background:linear-gradient(90deg,#47b3f5,#70efff);transition:width .15s}.water-panel small{width:100%;text-align:center;color:#4e81a6;font-size:11px}@media(max-height:750px){.water-panel{padding:3px}.water-panel small{display:none}}</style></head><body>
+}.water-panel{display:flex;gap:8px;align-items:center;justify-content:center;background:#ffffffdc;border:3px solid #fff;border-radius:16px;padding:6px;font-weight:900;font-size:13px;flex-wrap:wrap}.water-track{width:120px;max-width:32vw;height:16px;background:#dce4f6;border:2px solid #fff;border-radius:15px;overflow:hidden}.water-track>div{width:100%;height:100%;background:linear-gradient(90deg,#47b3f5,#70efff);transition:width .15s}.water-panel small{width:100%;text-align:center;color:#4e81a6;font-size:11px}@media(max-height:750px){.water-panel{padding:3px}.water-panel small{display:none}}</style><link rel="stylesheet" href="./joiland-v13.css"></head><body><script src="./joyi-art-renderer.js"></script>
 <header><a href="./requests.html" aria-label="요청 놀이터로 돌아가기">‹ 놀이터</a><h1>🚒 출동! 소방차 구조대</h1><button id="sound" aria-label="음성 켜기 또는 끄기">🔊</button></header>
 <main>
 <div class="info"><span class="pill" id="level">🚨 현장 1 / 5</span><span class="pill" id="score">🌟 구조 0개</span></div>
@@ -64,13 +64,13 @@ function update(){
  $('pause').textContent=paused?'▶ 계속하기':'⏸ 잠깐 쉬기';
  $('hydrant').disabled=!active||paused;
  $('hydrant').textContent='소화전 물 채우기';
- $('waterLabel').textContent='💧 물 '+Math.round(water)+'%';$('waterFill').style.width=water+'%';
- $('waterHint').textContent=water<24?'⚠️ 물이 부족해요! 소화전을 눌러요!':'물이 부족하면 소화전으로 물을 채워요';
+ updateWater();
  $('helicopter').disabled=!active||helicopterUsed||paused;
  $('ladder').disabled=!active||paused||fires.some(f=>!f.done)||ladderReady;
  $('ladder').textContent=ladderReady?'🪜 사다리 설치 완료':'🪜 구조 사다리 펼치기';
  book();
 }
+function updateWater(){ $('waterLabel').textContent='💧 물 '+Math.round(water)+'%';$('waterFill').style.width=water+'%';$('waterHint').textContent=water<24?'⚠️ 물이 부족해요! 소화전을 눌러요!':'물이 부족하면 소화전으로 물을 채워요';}
 function makeScene(){fires=STAGES[stage].flames.map(([x,y])=>({x,y,health:0,done:false}));drops=[];splashes=[];confetti=[];spraying=false;aim={x:fires[0].x,y:fires[0].y};hasCompleted=false;hydrantUsed=false;helicopterUsed=false;ladderReady=false;boost=0;helicopterTime=0;water=100;waterCooldown=0;gateOpen=false;time=0;prev=0;update();$('status').textContent='🚨 '+STAGES[stage].name+'! 불꽃을 모두 꺼 보아요!';draw()}
 function start(){if(paused){resume();return}if(sessionFinished){location.href='./requests.html';return}active=true;paused=false;makeScene();$('overlay').classList.add('hidden');cancelAnimationFrame(frameId);frameId=requestAnimationFrame(frame);playSiren();setTimeout(()=>{if(active&&!paused)voice('사건발생! 사건발생! 화재가 발생했다! 소방차는 출동하라!',true)},1050)}
 function win(){if(hasCompleted)return;hasCompleted=true;const friend=STAGES[stage].friend;if(!rescuedFriends.includes(friend)){rescuedFriends.push(friend);try{localStorage.setItem('joiland-firetruck-friends',JSON.stringify(rescuedFriends))}catch(e){}}active=false;spraying=false;cancelAnimationFrame(frameId);totalSaved++;try{localStorage.setItem('joiland-firetruck-saved',String(totalSaved))}catch(e){}update();voice('야호! 모두 구했어! 정말 멋진 소방관이야!',true);burst(200,214,55);draw();show('🏆 구조 성공!','불을 모두 껐어요! '+STAGES[stage].friend+' 친구가 고마워하고 있어요. 구조한 현장 '+totalSaved+'개',stage===STAGES.length-1?'🏠 다른 놀이 하기':'🚒 다음 현장으로','🎉🐯💖')}
@@ -79,11 +79,12 @@ function pause(){if(!active||paused)return;paused=true;spraying=false;cancelAnim
 function resume(){if(!active)return;paused=false;prev=0;$('overlay').classList.add('hidden');update();frameId=requestAnimationFrame(frame)}
 function next(){if(paused){resume();return}if(hasCompleted){if(stage===STAGES.length-1){location.href='./requests.html';return;}stage++;start()}else start()}
 function resize(){const r=scene.getBoundingClientRect(),d=Math.min(2,devicePixelRatio||1);canvas.width=Math.round(r.width*d);canvas.height=Math.round(r.height*d);ctx.setTransform(canvas.width/W,0,0,canvas.height/H,0,0);draw()}
-function sky(){const bg=ctx.createLinearGradient(0,0,0,460);bg.addColorStop(0,'#87cef8');bg.addColorStop(.75,'#d4f7ff');bg.addColorStop(1,'#f8f8e2');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);circle(338,60,28,'#ffe58b');for(const [x,y] of [[56,67],[213,112],[310,166]]){circle(x,y,20,'#fffdf5');circle(x+25,y-6,25,'#fffdf5');circle(x+51,y,18,'#fffdf5');rr(x-10,y,69,21,12,'#fffdf5')}ctx.fillStyle='#a8deb4';ctx.beginPath();ctx.ellipse(110,425,200,66,0,0,Math.PI*2);ctx.fill();ctx.beginPath();ctx.ellipse(310,425,220,55,0,0,Math.PI*2);ctx.fill();ctx.fillStyle='#7fcd98';ctx.fillRect(0,411,W,159);ctx.fillStyle='#686f8a';ctx.fillRect(0,481,W,89);ctx.fillStyle='#fffcce';for(let x=8;x<400;x+=76)rr(x,526,42,5,3,'#fff4bb')}
+window.addEventListener('joyi-art-ready',()=>draw());
+function sky(){if(window.JoyiArt?.draw(ctx,'background.rescue',0,0,W,H))return;const bg=ctx.createLinearGradient(0,0,0,460);bg.addColorStop(0,'#87cef8');bg.addColorStop(.75,'#d4f7ff');bg.addColorStop(1,'#f8f8e2');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);circle(338,60,28,'#ffe58b');for(const [x,y] of [[56,67],[213,112],[310,166]]){circle(x,y,20,'#fffdf5');circle(x+25,y-6,25,'#fffdf5');circle(x+51,y,18,'#fffdf5');rr(x-10,y,69,21,12,'#fffdf5')}ctx.fillStyle='#a8deb4';ctx.beginPath();ctx.ellipse(110,425,200,66,0,0,Math.PI*2);ctx.fill();ctx.beginPath();ctx.ellipse(310,425,220,55,0,0,Math.PI*2);ctx.fill();ctx.fillStyle='#7fcd98';ctx.fillRect(0,411,W,159);ctx.fillStyle='#686f8a';ctx.fillRect(0,481,W,89);ctx.fillStyle='#fffcce';for(let x=8;x<400;x+=76)rr(x,526,42,5,3,'#fff4bb')}
 function tree(x,y){rr(x-6,y-12,12,66,4,'#957756');circle(x,y-31,30,'#52b984');circle(x-20,y-25,24,'#61c78d');circle(x+22,y-24,24,'#60cc90');circle(x,y-53,23,'#66ce94')}
-function building(b){const x=b.x,y=b.y,w=b.w,h=b.h;rr(x,y,w,h,11,b.color);poly([[x-12,y+9],[x+w/2,y-44],[x+w+12,y+9]],b.roof);rr(x+5,y+h-7,w-10,12,4,'#ffffff8c');for(let row=0;row<2;row++)for(let col=0;col<Math.min(3,Math.floor(w/64)+1);col++){const bx=x+21+col*(w-42)/(Math.min(3,Math.floor(w/64)+1)-1||1),by=y+31+row*65;rr(bx-13,by,27,33,5,'#fbfdff');rr(bx-9,by+4,19,25,3,'#9bd5ed');ctx.strokeStyle='#fff';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(bx,by+4);ctx.lineTo(bx,by+29);ctx.stroke()}rr(x+w/2-15,y+h-53,30,53,5,'#9b7e9e');circle(x+w/2+10,y+h-25,3,'#ffe8b7')}
-function truck(){const x=38,y=441;rr(x,y-28,154,61,12,'#f75660');rr(x+93,y-18,56,42,9,'#e94357');rr(x+105,y-15,31,19,5,'#c3f4ff');rr(x+5,y-14,76,7,4,'#ffced1');rr(x+5,y+9,76,7,4,'#ffb4b8');rr(x+7,y-39,92,12,4,'#e8f3ff');ctx.fillStyle='#e9c86b';ctx.fillRect(x+18,y-46,9,8);ctx.fillRect(x+90,y-46,9,8);for(const wx of [x+37,x+126]){circle(wx,y+33,20,'#373850');circle(wx,y+33,10,'#d6e5ef')}rr(x+144,y+8,14,13,4,'#ffeb96');circle(x+88,y-48,9,'#74cbfa');text('🚒',x+75,y-7,16)}
-function flame(x,y,intensity,t){const scale=.7+.3*(1-intensity);ctx.save();ctx.translate(x,y);ctx.scale(scale,scale);const flicker=Math.sin(t*8+x)*4;poly([[-27,25],[-25,-12],[-9,-40],[2,-18],[12,-52],[24,-21],[30,19],[18,35],[-13,36]],'#ff784d');poly([[-14,24],[-11,-15],[2,-24],[6,-7],[14,-26],[20,22],[4,34]],'#ffb74f');poly([[-6,28],[-4,-4],[4,-10],[10,24]],'#fff4a5');circle(1,37,9,'#ffe7b7');ctx.restore();if(t%2<1.2){circle(x+29,y-40+Math.sin(t*2)*5,7,'#f9f8e4a8');circle(x+45,y-62+Math.sin(t*2)*8,10,'#f9f8e49c')}}
+function building(b){const x=b.x,y=b.y,w=b.w,h=b.h;if(window.JoyiArt?.draw(ctx,'house',x-12,y-44,w+24,h+44))return;rr(x,y,w,h,11,b.color);poly([[x-12,y+9],[x+w/2,y-44],[x+w+12,y+9]],b.roof);rr(x+5,y+h-7,w-10,12,4,'#ffffff8c');for(let row=0;row<2;row++)for(let col=0;col<Math.min(3,Math.floor(w/64)+1);col++){const bx=x+21+col*(w-42)/(Math.min(3,Math.floor(w/64)+1)-1||1),by=y+31+row*65;rr(bx-13,by,27,33,5,'#fbfdff');rr(bx-9,by+4,19,25,3,'#9bd5ed');ctx.strokeStyle='#fff';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(bx,by+4);ctx.lineTo(bx,by+29);ctx.stroke()}rr(x+w/2-15,y+h-53,30,53,5,'#9b7e9e');circle(x+w/2+10,y+h-25,3,'#ffe8b7')}
+function truck(){if(window.JoyiArt?.draw(ctx,'firetruck',22,391,184,108))return;const x=38,y=441;rr(x,y-28,154,61,12,'#f75660');rr(x+93,y-18,56,42,9,'#e94357');rr(x+105,y-15,31,19,5,'#c3f4ff');rr(x+5,y-14,76,7,4,'#ffced1');rr(x+5,y+9,76,7,4,'#ffb4b8');rr(x+7,y-39,92,12,4,'#e8f3ff');ctx.fillStyle='#e9c86b';ctx.fillRect(x+18,y-46,9,8);ctx.fillRect(x+90,y-46,9,8);for(const wx of [x+37,x+126]){circle(wx,y+33,20,'#373850');circle(wx,y+33,10,'#d6e5ef')}rr(x+144,y+8,14,13,4,'#ffeb96');circle(x+88,y-48,9,'#74cbfa');text('🚒',x+75,y-7,16)}
+function flame(x,y,intensity,t){const fw=67+Math.sin(t*8+x)*4;if(window.JoyiArt?.draw(ctx,'flame',x-fw/2,y-54,fw,99*(1-.2*intensity)))return;const scale=.7+.3*(1-intensity);ctx.save();ctx.translate(x,y);ctx.scale(scale,scale);const flicker=Math.sin(t*8+x)*4;poly([[-27,25],[-25,-12],[-9,-40],[2,-18],[12,-52],[24,-21],[30,19],[18,35],[-13,36]],'#ff784d');poly([[-14,24],[-11,-15],[2,-24],[6,-7],[14,-26],[20,22],[4,34]],'#ffb74f');poly([[-6,28],[-4,-4],[4,-10],[10,24]],'#fff4a5');circle(1,37,9,'#ffe7b7');ctx.restore();if(t%2<1.2){circle(x+29,y-40+Math.sin(t*2)*5,7,'#f9f8e4a8');circle(x+45,y-62+Math.sin(t*2)*8,10,'#f9f8e49c')}}
 function burst(x,y,n=18){for(let i=0;i<n;i++){let a=Math.random()*Math.PI*2,v=50+Math.random()*160;confetti.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v-50,life:1+Math.random()*.5,c:['#ffe47a','#67dfea','#ff97c3','#9ee59a','#beadff'][i%5]})}}
 function splash(x,y){for(let i=0;i<9;i++){const a=Math.random()*Math.PI*2;const v=22+Math.random()*110;splashes.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:.5})}}
 function drawRescueLadder(){
@@ -95,6 +96,7 @@ function drawRescueLadder(){
  ctx.restore();
 }
 function drawAnimalFriend(x,y,who,scale=1){
+ if(window.JoyiArt?.draw(ctx,who,x-35*scale,y-35*scale,70*scale,70*scale))return;
  ctx.save();ctx.translate(x,y);ctx.scale(scale,scale);
  const rabbit=who==='🐰',frog=who==='🐸',bear=['🐻','🐼','🐨'].includes(who),cat=['🐱','🦊','🐯','🦁'].includes(who);
  const fur=frog?'#79cb95':rabbit?'#fff4e9':bear?'#b88a69':cat?'#f3b56c':'#d6a27c';
@@ -118,6 +120,7 @@ function drawFriendInWindow(){
 }
 function drawHelicopter(){
  ctx.save();ctx.translate(helicopterX,83+Math.sin(time*8)*3);
+ if(!window.JoyiArt?.draw(ctx,'helicopter',-90,-50,180,105)){
  ctx.shadowColor='#305e8690';ctx.shadowBlur=12;ctx.shadowOffsetY=5;
  rr(-50,-17,96,38,19,'#ffbb45');rr(20,-11,26,20,8,'#ee875a');
  ctx.fillStyle='#74d6ff';ctx.beginPath();ctx.ellipse(15,0,23,13,0,0,Math.PI*2);ctx.fill();
@@ -126,11 +129,12 @@ function drawHelicopter(){
  ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(-85,-39+Math.sin(time*42)*2);ctx.lineTo(78,-47-Math.sin(time*42)*2);ctx.stroke();
  ctx.strokeStyle='#344b72';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(-17,22);ctx.lineTo(-17,33);ctx.moveTo(29,22);ctx.lineTo(29,33);ctx.moveTo(-38,34);ctx.lineTo(48,34);ctx.stroke();
  ctx.fillStyle='#fff';ctx.font='900 21px sans-serif';ctx.fillText('✚',-12,3);
+ }
  ctx.restore();
  const left=fires.filter(f=>!f.done);if(left.length){const f=left[0];ctx.save();ctx.strokeStyle='#6ddcf5';ctx.lineWidth=8;ctx.lineCap='round';ctx.globalAlpha=.73;ctx.beginPath();ctx.moveTo(helicopterX,122);ctx.lineTo(f.x,f.y);ctx.stroke();ctx.restore();}
 }
 function draw(){ctx.clearRect(0,0,W,H);sky();tree(20,380);tree(379,376);for(const b of STAGES[stage].buildings)building(b);drawFriendInWindow();if(ladderReady)drawRescueLadder();for(const f of fires){if(f.done){text('✨',f.x,f.y,30);continue}flame(f.x,f.y,f.health,time);rr(f.x-27,f.y+44,54,9,4,'#ffffff');rr(f.x-24,f.y+46,Math.max(0,48*(1-f.health)),5,3,'#f08e7c')}truck();
- if(boost>0){text('🚰',40,445,37);ctx.fillStyle='#79dbff';ctx.fillRect(65,466,105,7)}
+ if(boost>0){if(!window.JoyiArt?.draw(ctx,'hydrant',15,413,53,65))text('🚰',40,445,37);ctx.fillStyle='#79dbff';ctx.fillRect(65,466,105,7)}
  if(helicopterTime>0)drawHelicopter();
  const nozzle={x:185,y:436};if(active&&!paused&&spraying&&water>0){ctx.save();ctx.strokeStyle='#d7f9ff';ctx.lineWidth=12;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(nozzle.x,nozzle.y);ctx.quadraticCurveTo((nozzle.x+aim.x)/2-30,(nozzle.y+aim.y)/2-52,aim.x,aim.y);ctx.stroke();ctx.strokeStyle='#63c9f3';ctx.lineWidth=5;ctx.stroke();ctx.restore();circle(aim.x,aim.y,16,'#bdf5ff78')}
  for(const p of drops){circle(p.x,p.y,p.r,'#ffffffcc')}for(const p of splashes){circle(p.x,p.y,3,'#7bdafa')}for(const p of confetti){rr(p.x,p.y,6,9,2,p.c)}
@@ -187,9 +191,9 @@ function frame(ms){if(!active||paused)return;if(!prev)prev=ms;const dt=Math.min(
  for(const p of drops){p.age+=dt*3.5;p.x+=(p.endX-p.x)*Math.min(1,dt*12);p.y+=(p.endY-p.y)*Math.min(1,dt*12)}drops=drops.filter(p=>p.age<1);
  for(const p of splashes){p.x+=p.vx*dt;p.y+=p.vy*dt;p.life-=dt}splashes=splashes.filter(p=>p.life>0);
  for(const p of confetti){p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=150*dt;p.life-=dt}confetti=confetti.filter(p=>p.life>0);
- draw();frameId=requestAnimationFrame(frame)
+ updateWater();draw();frameId=requestAnimationFrame(frame)
 }
 window.JOY_stopGame=()=>{active=false;paused=true;spraying=false;cancelAnimationFrame(frameId)};
 update();requestAnimationFrame(resize);
 })();
-</script><script src="./joiland-unified.js"></script></body></html>
+</script><script src="./joiland-unified.js"></script><script src="./v13-game-ui.js"></script></body></html>

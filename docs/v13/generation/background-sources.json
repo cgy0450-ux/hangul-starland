@@ -1,0 +1,18 @@
+[
+  {
+    "id": "home.hero",
+    "source": "/workspace/generated_images/exec-f658bd2c-4341-4771-95ed-06df9978816d.png"
+  },
+  {
+    "id": "background.garden",
+    "source": "/workspace/generated_images/exec-8117a90b-0ff2-48cb-ae71-dfc786b812de.png"
+  },
+  {
+    "id": "background.meadow",
+    "source": "/workspace/generated_images/exec-01773480-f4c4-4248-ba21-623c49277cd0.png"
+  },
+  {
+    "id": "background.rescue",
+    "source": "/workspace/generated_images/exec-5fa63cae-93c3-4a4c-8189-367e3cc5355b.png"
+  }
+]

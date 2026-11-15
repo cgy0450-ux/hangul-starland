@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "source": "/workspace/generated_images/exec-4dedb03e-2961-4276-adfe-ac85aa9559c1.png",
+    "ids": [
+      "cat",
+      "dog",
+      "rabbit",
+      "bear",
+      "frog",
+      "monkey"
+    ]
+  },
+  {
+    "index": 1,
+    "source": "/workspace/generated_images/exec-00c881d0-c3c9-4309-9281-aaacd6369d00.png",
+    "ids": [
+      "mole",
+      "fox",
+      "elephant",
+      "duck",
+      "pig",
+      "cow"
+    ]
+  },
+  {
+    "index": 2,
+    "source": "/workspace/generated_images/exec-612e67ac-7add-47cd-92d8-0c2fbe10e8c6.png",
+    "ids": [
+      "apple",
+      "strawberry",
+      "cherry",
+      "banana",
+      "lemon",
+      "pear"
+    ]
+  },
+  {
+    "index": 3,
+    "source": "/workspace/generated_images/exec-3f8fc619-134a-4001-b796-c9f0ab396077.png",
+    "ids": [
+      "carrot",
+      "fish",
+      "bone",
+      "honey",
+      "watermelon",
+      "corn"
+    ]
+  },
+  {
+    "index": 4,
+    "source": "/workspace/generated_images/exec-f2ac6e23-840b-4446-bd4e-d673fcbcfa0a.png",
+    "ids": [
+      "star",
+      "blueball",
+      "gem",
+      "butterfly",
+      "bee",
+      "balloon"
+    ]
+  },
+  {
+    "index": 5,
+    "source": "/workspace/generated_images/exec-fdf36b39-fd7a-4c4c-b9e4-ee3bb266bb7f.png",
+    "ids": [
+      "flower",
+      "daisy",
+      "hibiscus",
+      "tree",
+      "cloud",
+      "sun"
+    ]
+  },
+  {
+    "index": 6,
+    "source": "/workspace/generated_images/exec-ba49b230-170e-4f18-bedf-6a0070e67874.png",
+    "ids": [
+      "basket",
+      "gift",
+      "egg",
+      "rocket",
+      "moon",
+      "house"
+    ]
+  },
+  {
+    "index": 7,
+    "source": "/workspace/generated_images/exec-23cda544-14a4-4009-a142-f63b717a972f.png",
+    "ids": [
+      "dinosaur",
+      "dinosaur-dragon",
+      "dinosaur-lizard",
+      "dinosaur-turtle",
+      "dinosaur-croc",
+      "saturn"
+    ]
+  },
+  {
+    "index": 8,
+    "source": "/workspace/generated_images/exec-64c10298-fb45-4b2e-94df-afaab84168bc.png",
+    "ids": [
+      "car",
+      "taxi",
+      "firetruck",
+      "helicopter",
+      "cone",
+      "bicycle"
+    ]
+  },
+  {
+    "index": 9,
+    "source": "/workspace/generated_images/exec-84ab863c-dd9d-40cb-9ce5-784ddab7e27d.png",
+    "ids": [
+      "panda",
+      "koala",
+      "lion",
+      "tiger",
+      "turtle",
+      "ball"
+    ]
+  }
+]

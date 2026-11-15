@@ -6,7 +6,7 @@ let soundOn=true;try{soundOn=JSON.parse(localStorage.getItem("hangul-starland-v1
 function speak(text,lang){if(soundOn)A.speak(text,lang||"ko-KR")}
 function setSound(){ $("sound").textContent=soundOn?"🔊 소리 켬":"🔇 소리 끔"}
 setSound();$("sound").onclick=()=>{soundOn=!soundOn;setSound();try{const prev=JSON.parse(localStorage.getItem("hangul-starland-v1")||"{}");prev.sound=soundOn;localStorage.setItem("hangul-starland-v1",JSON.stringify(prev))}catch(e){}if(!soundOn&&"speechSynthesis"in window)speechSynthesis.cancel()};
-$("topTitle").textContent=subject.name;$("subjectTitle").textContent=subject.name+" 탐험";$("heroMascot").src="./joyi-"+subject.pose+".svg";
+$("topTitle").textContent=subject.name;$("subjectTitle").textContent=subject.name+" 탐험";$("heroMascot").src="./assets/v13/subject."+subject.id+".webp";$("heroMascot").alt=subject.name+"을 배우는 쪼이의 동화 속 교실";
 document.documentElement.style.setProperty("--subject-bg",subject.bg);
 function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e}
 let recorder=null,voiceStream=null,voiceUrl=null,voiceAudio=null,voiceTimeout=null;

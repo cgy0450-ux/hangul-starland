@@ -39,7 +39,7 @@ header h1{color:#293750;letter-spacing:-.06em;font-weight:950}
 .diff-target{padding:0!important}.diff-target .joyi-vector{width:100%;height:100%}
 .controlbar button{background:#fff!important;border:1px solid #e1eaf0!important;box-shadow:0 6px 14px #465b7718}
 .stageend section{background:linear-gradient(130deg,#fdf5e5,#e5f4f1)!important;border:2px solid #fff!important;box-shadow:0 18px 30px #243b5760!important}
-</style></head><body>
+</style><link rel="stylesheet" href="./joiland-v13.css"></head><body>
 <header><a href="./requests.html">‹ 놀이터</a><h1 id="title">🐯 새로운 놀이</h1><button id="sound" aria-label="소리 설정">🔊</button></header>
 <main><section class="hero"><h2 id="headline">어떤 놀이를 할까?</h2><p id="prompt" aria-live="polite">찾아 보자!</p></section><div class="progress"><span id="round">⭐ 문제 1 / 5</span><span id="stage">🚀 1단계 / 3</span></div><section class="playarea" id="playarea" aria-label="놀이 화면"></section><div class="message" id="message" role="status"></div><div class="controlbar"><button id="repeat">🔊 다시 듣기</button><button id="other">🎮 다른 놀이</button></div></main>
 <div class="stageend" id="ending"><section><div style="font-size:70px">🏆🐯🎉</div><h2>멋진 탐험 성공!</h2><p>세 단계를 모두 완료했어요. 오늘의 트로피를 받았어요!</p><a href="./requests.html">다른 놀이 고르기</a></section></div>
@@ -64,7 +64,7 @@ const COLORS=[
 const DIFFS=[['🍎','🍐'],['🌼','🌺'],['🐱','🐶'],['🍓','🍌'],['⭐','☀️'],['🎈','🎁'],['🐰','🐻'],['🦋','🐝']];
 let stage=0,round=0,locked=false,finished=false,spoken='',currentMole=-1,moleTimer=0,gameTimer=0,gameSerial=0,soundOn=true,choice=null,shadowMatch=null,selectedAnimal=-1,shadowIds=[],resizeListener=null;
 try{soundOn=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound!==false}catch(e){}
-$('title').textContent=cfg.name;$('headline').textContent=cfg.title;$('sound').textContent=soundOn?'🔊':'🔇';document.body.classList.add('playing');
+document.body.dataset.world=game;$('title').textContent=cfg.name;$('headline').textContent=cfg.title;$('sound').textContent=soundOn?'🔊':'🔇';document.body.classList.add('playing');
 const shuffle=items=>{const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 let taskOrder=shuffle([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]);
 function voice(t){spoken=t;if(!soundOn||!window.speechSynthesis)return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ko-KR';u.rate=.89;u.pitch=1.13;speechSynthesis.speak(u)}catch(e){}}

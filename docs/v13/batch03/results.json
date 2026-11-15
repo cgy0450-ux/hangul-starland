@@ -1,0 +1,66 @@
+[
+  {
+    "view": "mobile",
+    "route": "index.html",
+    "screenshot": "mobile-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "requests.html",
+    "screenshot": "mobile-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "journey.html?subject=hangul",
+    "screenshot": "mobile-2.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "journey.html?subject=science",
+    "screenshot": "mobile-3.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "index.html",
+    "screenshot": "tablet-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "requests.html",
+    "screenshot": "tablet-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=hangul",
+    "screenshot": "tablet-2.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=science",
+    "screenshot": "tablet-3.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  }
+]

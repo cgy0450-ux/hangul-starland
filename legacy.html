@@ -232,8 +232,8 @@ body.joy-playing .detail-ex{font-size:clamp(13px,3.4vw,21px)}
 body.joy-playing .detail-ex .exampleemoji{font-size:clamp(22px,5vw,37px);margin:1px}
 body.joy-playing .detail-ex button{padding:7px 9px}
 </style>
-</head>
-<body><div id="joy-splash" role="status" aria-label="쪼이랜드가 시작되고 있어요"></div><div id="app"></div>
+<link rel="stylesheet" href="./joiland-v13.css"></head>
+<body><script src="./joyi-art-renderer.js"></script><div id="joy-splash" role="status" aria-label="쪼이랜드가 시작되고 있어요"></div><div id="app"></div>
 <script>/* Startup fallback if application initialization throws. */(function(){var closeSplash=function(){var el=document.getElementById('joy-splash');if(el){el.classList.add('is-hiding');el.style.pointerEvents='none';setTimeout(function(){el.remove();},500);}};window.addEventListener('error',closeSplash);window.addEventListener('unhandledrejection',closeSplash);setTimeout(closeSplash,3800);})();</script>
 <script>
 (()=>{'use strict';
@@ -520,4 +520,4 @@ window.HANGUL_QA={state:()=>JSON.parse(JSON.stringify(state)),go:start,view:()=>
 })();
 </script>
 
-<script src="./joiland-unified.js"></script></body></html>
+<script src="./joiland-unified.js"></script><script src="./v13-screen-art.js"></script></body></html>

@@ -63,8 +63,8 @@ const posterIds=['hidden','colors','shadows','mole','differences','dino','space'
 assert(posterIds.every(id=>art.includes('id="poster-'+id+'"')),'every playground game must have its own authored vector illustration');
 const uniqueGameLinks=[...requests.matchAll(/<a class="game-card[^"]*" href="([^"]+)"/g)].map(m=>m[1]);
 assert(uniqueGameLinks.length===11&&new Set(uniqueGameLinks).size===11,'playground cannot show duplicate game cards');
-assert(requests.includes('joyi-illustrations.svg#poster-')&&!requests.includes('<span class="illustration">'),'playground must use custom vector scene art, not stock emoji');
-assert(home.includes('joyi-card-illustration')&&home.includes('joyi-illustrations.svg#poster-write'),'main learning cards must use authored art');
+for(const id of posterIds)assert(requests.includes('assets/v13/game.'+id+'.webp')&&fs.existsSync('assets/v13/game.'+id+'.webp'),'playground must render its distinct generated raster scene: '+id);
+assert(home.includes('joyi-card-illustration')&&home.includes('assets/v13/subject.hangul.webp'),'main writing card must use its generated JoYi classroom art');
 assert(mini.includes('joyi-art-renderer.js')&&mini.includes('JoyiArt.replace(holes[currentMole]'),'moles and animal games must use custom SVG instead of system emoji');
 assert(adventure.includes('joyi-art-renderer.js')&&adventure.includes("showScene(DINOS[creatureIndex])"),'dinosaurs must appear as custom illustrations');
 assert(adventure.includes('dino:')&&adventure.includes('space:')&&adventure.includes('animal:'),'all three new adventure types required');

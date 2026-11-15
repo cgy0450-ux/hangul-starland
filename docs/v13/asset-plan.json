@@ -5,190 +5,295 @@
       "id": "game.hidden",
       "alt": "숨은그림 찾기 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.hidden.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-a9cf826f-afc2-4b50-b10f-9991894cbd6c.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "game.colors",
       "alt": "색깔 바구니 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.colors.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-fe87e8f4-d111-44fa-b909-d121ed20690e.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "game.shadows",
       "alt": "동물 그림자 연결 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.shadows.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-9ff69f19-758e-46c6-9683-a783d318adbb.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "game.mole",
       "alt": "두더지 잡기 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.mole.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-0e662722-0486-4e28-92a1-620648f17a54.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "game.differences",
       "alt": "틀린그림 찾기 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.differences.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-3b6d549c-a177-4ea5-81cf-5e4eb9abf97e.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "game.dino",
       "alt": "공룡 알 탐험 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.dino.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-be8d5188-938d-4650-8f7c-187557092bd3.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "game.space",
       "alt": "우주 탐험 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.space.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-ca65a7dd-76b8-4978-b0bb-1fdd54df1e6c.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "game.animal",
       "alt": "동물 돌보기 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.animal.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-78801266-181d-471c-9d27-bf20b3c9c937.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "game.firetruck",
       "alt": "소방 구조 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.firetruck.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-cb807c56-9c4f-4266-8770-744b55dce2af.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "game.collect",
       "alt": "자동차 모으기 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.collect.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-5f0e7d57-9097-4efb-9b6a-88f8328a5063.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "game.dodge",
       "alt": "자동차 피하기 놀이 장면",
       "brief": "전용 장면, 게임의 실제 규칙과 물체를 표현. 기존 쪼이 호랑이 정체성 유지. 글자·이모지 포함 금지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/game.dodge.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-df54dee0-c52d-4636-aad3-addd3333d936.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "subject.hangul",
       "alt": "한글 학습 장면",
       "brief": "과목에 맞는 구체적인 활동과 정확한 물체. 원본 쪼이 비율·줄무늬·표정 기준 유지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/subject.hangul.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-82f12df4-a2a0-489e-a923-651793ac950b.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "subject.math",
       "alt": "수학 학습 장면",
       "brief": "과목에 맞는 구체적인 활동과 정확한 물체. 원본 쪼이 비율·줄무늬·표정 기준 유지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/subject.math.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-89261e89-8547-4399-ab78-e777e40477d7.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "subject.english",
       "alt": "영어 학습 장면",
       "brief": "과목에 맞는 구체적인 활동과 정확한 물체. 원본 쪼이 비율·줄무늬·표정 기준 유지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/subject.english.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-75d018a6-2dc2-4cf4-aa06-8d3799d1f55e.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "subject.science",
       "alt": "과학 학습 장면",
       "brief": "과목에 맞는 구체적인 활동과 정확한 물체. 원본 쪼이 비율·줄무늬·표정 기준 유지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/subject.science.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-f3f0070f-5e68-4f47-b563-20521197a26f.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "subject.history",
       "alt": "역사 학습 장면",
       "brief": "과목에 맞는 구체적인 활동과 정확한 물체. 원본 쪼이 비율·줄무늬·표정 기준 유지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/subject.history.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-81472fe3-df32-4dbd-b106-a6a131601e19.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "subject.coding",
       "alt": "코딩 학습 장면",
       "brief": "과목에 맞는 구체적인 활동과 정확한 물체. 원본 쪼이 비율·줄무늬·표정 기준 유지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/subject.coding.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-00ed5ea4-dc77-4869-ae9a-921cbe694e82.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "subject.finance",
       "alt": "금융 학습 장면",
       "brief": "과목에 맞는 구체적인 활동과 정확한 물체. 원본 쪼이 비율·줄무늬·표정 기준 유지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/subject.finance.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-e29dc6cf-bd99-4d57-a017-e910532181c5.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "subject.reading",
       "alt": "읽기 학습 장면",
       "brief": "과목에 맞는 구체적인 활동과 정확한 물체. 원본 쪼이 비율·줄무늬·표정 기준 유지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/subject.reading.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-2980d6f1-6414-4604-b5d9-eb2e4e7a1fa9.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "subject.life",
       "alt": "생활 학습 장면",
       "brief": "과목에 맞는 구체적인 활동과 정확한 물체. 원본 쪼이 비율·줄무늬·표정 기준 유지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/subject.life.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-5d80d87c-388d-4803-96c0-68e2b22aa34b.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "subject.creativity",
       "alt": "창의력 학습 장면",
       "brief": "과목에 맞는 구체적인 활동과 정확한 물체. 원본 쪼이 비율·줄무늬·표정 기준 유지.",
-      "status": "pending",
-      "path": null,
-      "provenance": null,
-      "reviewed": false
+      "status": "approved",
+      "path": "assets/v13/subject.creativity.webp",
+      "provenance": "Generated using built-in ChatGPT image_gen on 2026-11-15; user-authorized original JoYi reference. Original output: exec-0708d2de-058d-4e69-bdb4-ddc878a7a560.png",
+      "reviewed": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reviewNote": "Compared all 21 subject/game scenes on actual generated contact sheet against original JoYi reference; scene intent, face, palette and distinct subject matter checked. Gameplay objects need separate sprite production."
     },
     {
       "id": "story.00.00",
@@ -1989,6 +2094,1542 @@
       "path": null,
       "provenance": null,
       "reviewed": false
+    }
+  ],
+  "supporting": [
+    {
+      "id": "background.garden",
+      "path": "assets/v13/background.garden.webp",
+      "status": "approved",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "background garden",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "background.meadow",
+      "path": "assets/v13/background.meadow.webp",
+      "status": "approved",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "background meadow",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "background.rescue",
+      "path": "assets/v13/background.rescue.webp",
+      "status": "approved",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alt": "background rescue",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "home.hero",
+      "path": "assets/v13/home.hero.webp",
+      "status": "approved",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "home hero",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.apple",
+      "path": "assets/v13/sprite.apple.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        565
+      ],
+      "alt": "apple",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.ball",
+      "path": "assets/v13/sprite.ball.webp",
+      "status": "approved",
+      "dimensions": [
+        562,
+        574
+      ],
+      "alt": "ball",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.balloon",
+      "path": "assets/v13/sprite.balloon.webp",
+      "status": "approved",
+      "dimensions": [
+        564,
+        574
+      ],
+      "alt": "balloon",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.banana",
+      "path": "assets/v13/sprite.banana.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        571
+      ],
+      "alt": "banana",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.basket",
+      "path": "assets/v13/sprite.basket.webp",
+      "status": "approved",
+      "dimensions": [
+        564,
+        574
+      ],
+      "alt": "basket",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.bear",
+      "path": "assets/v13/sprite.bear.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "bear",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.bee",
+      "path": "assets/v13/sprite.bee.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "bee",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.bicycle",
+      "path": "assets/v13/sprite.bicycle.webp",
+      "status": "approved",
+      "dimensions": [
+        562,
+        574
+      ],
+      "alt": "bicycle",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.blocks",
+      "path": "assets/v13/sprite.blocks.webp",
+      "status": "approved",
+      "dimensions": [
+        490,
+        465
+      ],
+      "alt": "blocks",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.blueball",
+      "path": "assets/v13/sprite.blueball.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "blueball",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.blueberry",
+      "path": "assets/v13/sprite.blueberry.webp",
+      "status": "approved",
+      "dimensions": [
+        556,
+        556
+      ],
+      "alt": "blueberry",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.blueheart",
+      "path": "assets/v13/sprite.blueheart.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "blueheart",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.bone",
+      "path": "assets/v13/sprite.bone.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "bone",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.book",
+      "path": "assets/v13/sprite.book.webp",
+      "status": "approved",
+      "dimensions": [
+        560,
+        574
+      ],
+      "alt": "book",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.bow",
+      "path": "assets/v13/sprite.bow.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "bow",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.broccoli",
+      "path": "assets/v13/sprite.broccoli.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "broccoli",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.butterfly",
+      "path": "assets/v13/sprite.butterfly.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "butterfly",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.cake",
+      "path": "assets/v13/sprite.cake.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "cake",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.cap",
+      "path": "assets/v13/sprite.cap.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "cap",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.car-top-blue",
+      "path": "assets/v13/sprite.car-top-blue.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        551
+      ],
+      "alt": "car-top-blue",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.car-top-green",
+      "path": "assets/v13/sprite.car-top-green.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        555
+      ],
+      "alt": "car-top-green",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.car-top-orange",
+      "path": "assets/v13/sprite.car-top-orange.webp",
+      "status": "approved",
+      "dimensions": [
+        569,
+        573
+      ],
+      "alt": "car-top-orange",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.car-top-pink",
+      "path": "assets/v13/sprite.car-top-pink.webp",
+      "status": "approved",
+      "dimensions": [
+        533,
+        574
+      ],
+      "alt": "car-top-pink",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.car-top-purple",
+      "path": "assets/v13/sprite.car-top-purple.webp",
+      "status": "approved",
+      "dimensions": [
+        551,
+        559
+      ],
+      "alt": "car-top-purple",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.car-top-red",
+      "path": "assets/v13/sprite.car-top-red.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        571
+      ],
+      "alt": "car-top-red",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.car-top-teal",
+      "path": "assets/v13/sprite.car-top-teal.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "car-top-teal",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.car-top-yellow",
+      "path": "assets/v13/sprite.car-top-yellow.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "car-top-yellow",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.car",
+      "path": "assets/v13/sprite.car.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "car",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.carrot",
+      "path": "assets/v13/sprite.carrot.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "carrot",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.cat",
+      "path": "assets/v13/sprite.cat.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "cat",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.cheese",
+      "path": "assets/v13/sprite.cheese.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "cheese",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.cherry",
+      "path": "assets/v13/sprite.cherry.webp",
+      "status": "approved",
+      "dimensions": [
+        573,
+        571
+      ],
+      "alt": "cherry",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.chick",
+      "path": "assets/v13/sprite.chick.webp",
+      "status": "approved",
+      "dimensions": [
+        571,
+        574
+      ],
+      "alt": "chick",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.cloud",
+      "path": "assets/v13/sprite.cloud.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        556
+      ],
+      "alt": "cloud",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.clover",
+      "path": "assets/v13/sprite.clover.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "clover",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.coin",
+      "path": "assets/v13/sprite.coin.webp",
+      "status": "approved",
+      "dimensions": [
+        536,
+        536
+      ],
+      "alt": "coin",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.comet",
+      "path": "assets/v13/sprite.comet.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "comet",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.cone",
+      "path": "assets/v13/sprite.cone.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "cone",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.corn",
+      "path": "assets/v13/sprite.corn.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        547
+      ],
+      "alt": "corn",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.cow",
+      "path": "assets/v13/sprite.cow.webp",
+      "status": "approved",
+      "dimensions": [
+        567,
+        574
+      ],
+      "alt": "cow",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.cucumber",
+      "path": "assets/v13/sprite.cucumber.webp",
+      "status": "approved",
+      "dimensions": [
+        564,
+        574
+      ],
+      "alt": "cucumber",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.cupcake",
+      "path": "assets/v13/sprite.cupcake.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "cupcake",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.daisy",
+      "path": "assets/v13/sprite.daisy.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "daisy",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.deer",
+      "path": "assets/v13/sprite.deer.webp",
+      "status": "approved",
+      "dimensions": [
+        536,
+        536
+      ],
+      "alt": "deer",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.dinosaur-croc",
+      "path": "assets/v13/sprite.dinosaur-croc.webp",
+      "status": "approved",
+      "dimensions": [
+        573,
+        574
+      ],
+      "alt": "dinosaur-croc",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.dinosaur-dragon",
+      "path": "assets/v13/sprite.dinosaur-dragon.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        567
+      ],
+      "alt": "dinosaur-dragon",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.dinosaur-lizard",
+      "path": "assets/v13/sprite.dinosaur-lizard.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "dinosaur-lizard",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.dinosaur-trex",
+      "path": "assets/v13/sprite.dinosaur-trex.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "dinosaur-trex",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.dinosaur-turtle",
+      "path": "assets/v13/sprite.dinosaur-turtle.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "dinosaur-turtle",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.dinosaur",
+      "path": "assets/v13/sprite.dinosaur.webp",
+      "status": "approved",
+      "dimensions": [
+        553,
+        574
+      ],
+      "alt": "dinosaur",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.dog",
+      "path": "assets/v13/sprite.dog.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "dog",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.duck",
+      "path": "assets/v13/sprite.duck.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "duck",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.earth",
+      "path": "assets/v13/sprite.earth.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "earth",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.egg",
+      "path": "assets/v13/sprite.egg.webp",
+      "status": "approved",
+      "dimensions": [
+        561,
+        555
+      ],
+      "alt": "egg",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.elephant",
+      "path": "assets/v13/sprite.elephant.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "elephant",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.firetruck",
+      "path": "assets/v13/sprite.firetruck.webp",
+      "status": "approved",
+      "dimensions": [
+        573,
+        574
+      ],
+      "alt": "firetruck",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.fish",
+      "path": "assets/v13/sprite.fish.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "fish",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.flame",
+      "path": "assets/v13/sprite.flame.webp",
+      "status": "approved",
+      "dimensions": [
+        536,
+        536
+      ],
+      "alt": "flame",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.flower",
+      "path": "assets/v13/sprite.flower.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "flower",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.fox",
+      "path": "assets/v13/sprite.fox.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "fox",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.frog",
+      "path": "assets/v13/sprite.frog.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "frog",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.gem",
+      "path": "assets/v13/sprite.gem.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "gem",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.gift",
+      "path": "assets/v13/sprite.gift.webp",
+      "status": "approved",
+      "dimensions": [
+        573,
+        557
+      ],
+      "alt": "gift",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.grapes",
+      "path": "assets/v13/sprite.grapes.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "grapes",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.greenball",
+      "path": "assets/v13/sprite.greenball.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "greenball",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.hand",
+      "path": "assets/v13/sprite.hand.webp",
+      "status": "approved",
+      "dimensions": [
+        499,
+        498
+      ],
+      "alt": "hand",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.heart",
+      "path": "assets/v13/sprite.heart.webp",
+      "status": "approved",
+      "dimensions": [
+        533,
+        574
+      ],
+      "alt": "heart",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.helicopter",
+      "path": "assets/v13/sprite.helicopter.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "helicopter",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.hibiscus",
+      "path": "assets/v13/sprite.hibiscus.webp",
+      "status": "approved",
+      "dimensions": [
+        564,
+        574
+      ],
+      "alt": "hibiscus",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.honey",
+      "path": "assets/v13/sprite.honey.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "honey",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.hose",
+      "path": "assets/v13/sprite.hose.webp",
+      "status": "approved",
+      "dimensions": [
+        536,
+        536
+      ],
+      "alt": "hose",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.house",
+      "path": "assets/v13/sprite.house.webp",
+      "status": "approved",
+      "dimensions": [
+        541,
+        573
+      ],
+      "alt": "house",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.hydrant",
+      "path": "assets/v13/sprite.hydrant.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        550
+      ],
+      "alt": "hydrant",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.kite",
+      "path": "assets/v13/sprite.kite.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "kite",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.koala",
+      "path": "assets/v13/sprite.koala.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "koala",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.leaf",
+      "path": "assets/v13/sprite.leaf.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "leaf",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.lemon",
+      "path": "assets/v13/sprite.lemon.webp",
+      "status": "approved",
+      "dimensions": [
+        573,
+        574
+      ],
+      "alt": "lemon",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.lion",
+      "path": "assets/v13/sprite.lion.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "lion",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.magnifier",
+      "path": "assets/v13/sprite.magnifier.webp",
+      "status": "approved",
+      "dimensions": [
+        535,
+        519
+      ],
+      "alt": "magnifier",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.melon",
+      "path": "assets/v13/sprite.melon.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "melon",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.microphone",
+      "path": "assets/v13/sprite.microphone.webp",
+      "status": "approved",
+      "dimensions": [
+        442,
+        487
+      ],
+      "alt": "microphone",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.mole",
+      "path": "assets/v13/sprite.mole.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "mole",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.monkey",
+      "path": "assets/v13/sprite.monkey.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "monkey",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.moon",
+      "path": "assets/v13/sprite.moon.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        571
+      ],
+      "alt": "moon",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.mushroom",
+      "path": "assets/v13/sprite.mushroom.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "mushroom",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.owl",
+      "path": "assets/v13/sprite.owl.webp",
+      "status": "approved",
+      "dimensions": [
+        536,
+        536
+      ],
+      "alt": "owl",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.panda",
+      "path": "assets/v13/sprite.panda.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "panda",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.pear",
+      "path": "assets/v13/sprite.pear.webp",
+      "status": "approved",
+      "dimensions": [
+        555,
+        541
+      ],
+      "alt": "pear",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.penguin",
+      "path": "assets/v13/sprite.penguin.webp",
+      "status": "approved",
+      "dimensions": [
+        485,
+        510
+      ],
+      "alt": "penguin",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.pig",
+      "path": "assets/v13/sprite.pig.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "pig",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.pine",
+      "path": "assets/v13/sprite.pine.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        565
+      ],
+      "alt": "pine",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.pineapple",
+      "path": "assets/v13/sprite.pineapple.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "pineapple",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.puzzle",
+      "path": "assets/v13/sprite.puzzle.webp",
+      "status": "approved",
+      "dimensions": [
+        560,
+        571
+      ],
+      "alt": "puzzle",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.rabbit",
+      "path": "assets/v13/sprite.rabbit.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "rabbit",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.rainbow",
+      "path": "assets/v13/sprite.rainbow.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "rainbow",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.rocket",
+      "path": "assets/v13/sprite.rocket.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        552
+      ],
+      "alt": "rocket",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.rose",
+      "path": "assets/v13/sprite.rose.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "rose",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.saturn",
+      "path": "assets/v13/sprite.saturn.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "saturn",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.scooter",
+      "path": "assets/v13/sprite.scooter.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "scooter",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.star",
+      "path": "assets/v13/sprite.star.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "star",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.strawberry",
+      "path": "assets/v13/sprite.strawberry.webp",
+      "status": "approved",
+      "dimensions": [
+        573,
+        565
+      ],
+      "alt": "strawberry",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.sun",
+      "path": "assets/v13/sprite.sun.webp",
+      "status": "approved",
+      "dimensions": [
+        560,
+        574
+      ],
+      "alt": "sun",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.taxi",
+      "path": "assets/v13/sprite.taxi.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "taxi",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.teddy",
+      "path": "assets/v13/sprite.teddy.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "teddy",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.tiger",
+      "path": "assets/v13/sprite.tiger.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "tiger",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.tomato",
+      "path": "assets/v13/sprite.tomato.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "tomato",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.tree",
+      "path": "assets/v13/sprite.tree.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "tree",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.trophy",
+      "path": "assets/v13/sprite.trophy.webp",
+      "status": "approved",
+      "dimensions": [
+        489,
+        506
+      ],
+      "alt": "trophy",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.turtle",
+      "path": "assets/v13/sprite.turtle.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "turtle",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.waterbowl",
+      "path": "assets/v13/sprite.waterbowl.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "waterbowl",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.waterdrop",
+      "path": "assets/v13/sprite.waterdrop.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "waterdrop",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.watermelon",
+      "path": "assets/v13/sprite.watermelon.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "watermelon",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.whale",
+      "path": "assets/v13/sprite.whale.webp",
+      "status": "approved",
+      "dimensions": [
+        574,
+        574
+      ],
+      "alt": "whale",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
+    },
+    {
+      "id": "sprite.wheel",
+      "path": "assets/v13/sprite.wheel.webp",
+      "status": "approved",
+      "dimensions": [
+        536,
+        536
+      ],
+      "alt": "wheel",
+      "provenance": "Generated by built-in ChatGPT image_gen with user authorization on 2026-11-15; source output and semantic IDs in docs/v13/generation. Atlas cells exported separately; transparent padding trimmed; no stock/emoji substitute.",
+      "reviewed": true,
+      "reviewNote": "Actual generated object contact sheet inspected; UI alpha issue re-edited with image_gen and checked. Canvas sprites preserve existing hitboxes. Backgrounds are intentional shared scenery, never labeled as target objects."
     }
   ]
 }
