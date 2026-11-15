@@ -1,23 +1,23 @@
 {
-  "commit": "b083eb8195daac5520ae0a087b0641a951dee954",
-  "release": "v13.4",
+  "commit": "b03c113626d3d45cbdb99a3074f384671f39f653",
+  "release": "v13.4.1",
   "branch": "main",
   "user_authorization": "User requested live reflection and continued autonomous implementation; latest shared backlog incorporated on existing development branch.",
   "published_site": "https://cgy0450-ux.github.io/hangul-starland/",
   "pages": {
-    "run_id": 43690053790,
-    "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43690053790",
+    "run_id": 43692459871,
+    "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43692459871",
     "status": "success",
-    "duration": "50s"
+    "duration": "43s"
   },
   "qa": {
-    "run_id": 43690053847,
-    "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43690053847",
+    "run_id": 43692460176,
+    "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43692460176",
     "status": "success",
-    "duration": "1m 5s"
+    "duration": "1m 1s"
   },
-  "verified_at_utc": "2026-11-15T07:30:47.744440+00:00",
-  "verification": "Remote main push; GitHub completed-success workflow states; Pages run title b083eb8 and public output URL. Direct public-site access remains cloud-policy blocked; no human listening approval claimed.",
+  "verified_at_utc": "2026-11-15T08:02:27.291872+00:00",
+  "verification": "Remote main push and completed-success GitHub workflow states. Pages run title confirms b03c113. Direct public-site listening/physical-device validation is not claimed.",
   "live_http_check": {
     "result": "blocked by cloud environment destination allowlist",
     "stage": "HTTP CONNECT proxy",
@@ -45,7 +45,12 @@
       "commit": "7af238cc41c1f03552d81fed059737e4e6920ac2",
       "pages": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43686360666",
       "qa": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43686360770"
+    },
+    {
+      "commit": "b083eb8195daac5520ae0a087b0641a951dee954",
+      "pages": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43690053790",
+      "qa": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43690053847"
     }
   ],
-  "preview": "https://cgy0450-ux.github.io/hangul-starland/voice-preview.html?v=13.4"
+  "preview": "https://cgy0450-ux.github.io/hangul-starland/legacy.html?game=quiz&v=13.4.1"
 }
