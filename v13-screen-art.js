@@ -2,7 +2,7 @@
 (()=>{'use strict';if(!window.JoyiArt)return;
 if(!Intl.Segmenter)return;const A=window.JoyiArt,segmenter=new Intl.Segmenter('ko',{granularity:'grapheme'});
 function artOnly(node){
- const portraits={'신사임당':'saimdang','세종대왕':'sejong','이순신':'yisunshin','장영실':'jang','허준':'heojun','유관순':'yugwansun'};
+ const portraits={'신사임당':'saimdang','세종대왕':'sejong','이순신':'yisunshin','장영실':'jang','허준':'heojun','유관순':'yugwansun','김구':'kimgu','한복':'hanbok','물레':'spinning','측우기':'raingauge','훈민정음':'hangulbook','장독':'onggi'};
  const person=node.dataset.historyAnswer;
  if(portraits[person]&&node.id==='visual'&&!['🔍','🐯 🔎','🚂 🎯','❔'].includes(node.textContent.trim())){
   const src='./assets/v13/history.'+portraits[person]+'.webp';

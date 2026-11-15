@@ -844,10 +844,6 @@
     "kind": "guide"
   },
   {
-    "text": "우와! 정말 잘했어!",
-    "kind": "guide"
-  },
-  {
     "text": "다시 생각해 볼까?",
     "kind": "guide"
   },
@@ -892,7 +888,7 @@
     "kind": "guide"
   },
   {
-    "text": "우리",
+    "text": "우리 친구 정말 잘하네!",
     "kind": "guide"
   },
   {
@@ -980,11 +976,10215 @@
     "kind": "guide"
   },
   {
-    "text": "안녕! 나는 쪼이야. 오늘은 어떤 재미있는 놀이를 해 볼까?",
-    "kind": "guide"
+    "text": "읽어주기 끄기",
+    "kind": "application"
+  },
+  {
+    "text": "호랑이 쪼이",
+    "kind": "application"
+  },
+  {
+    "text": "우리 위인 이야기",
+    "kind": "application"
+  },
+  {
+    "text": "🇰🇷 역사 탐험",
+    "kind": "application"
+  },
+  {
+    "text": "옛날이야기와 위인을 만나요",
+    "kind": "application"
+  },
+  {
+    "text": "쪼이 코딩 탐험",
+    "kind": "application"
+  },
+  {
+    "text": "코딩 놀이터",
+    "kind": "application"
+  },
+  {
+    "text": "순서와 규칙을 익혀요",
+    "kind": "application"
+  },
+  {
+    "text": "수학 놀이터",
+    "kind": "application"
+  },
+  {
+    "text": "수학 모험",
+    "kind": "application"
+  },
+  {
+    "text": "수, 모양, 규칙을 만나요",
+    "kind": "application"
+  },
+  {
+    "text": "과학 탐험",
+    "kind": "application"
+  },
+  {
+    "text": "관찰하고 생각해 봐요",
+    "kind": "application"
+  },
+  {
+    "text": "영어 친구들",
+    "kind": "application"
+  },
+  {
+    "text": "영어 모험",
+    "kind": "application"
+  },
+  {
+    "text": "그림과 소리로 익혀요",
+    "kind": "application"
+  },
+  {
+    "text": "쪼이랜드 ·",
+    "kind": "application"
+  },
+  {
+    "text": "그림을 잘 보고 골라요!",
+    "kind": "application"
+  },
+  {
+    "text": "동물 수 세기",
+    "kind": "application"
+  },
+  {
+    "text": "1부터 10까지",
+    "kind": "application"
+  },
+  {
+    "text": "몇 개일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "하나씩 세어볼까? 몇 개일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "숫자 더하기",
+    "kind": "application"
+  },
+  {
+    "text": "함께 모으면?",
+    "kind": "application"
+  },
+  {
+    "text": "개와",
+    "kind": "application"
+  },
+  {
+    "text": "개를 합치면?",
+    "kind": "application"
+  },
+  {
+    "text": "사과를 모두 세어볼까?",
+    "kind": "application"
+  },
+  {
+    "text": "도형 탐험",
+    "kind": "application"
+  },
+  {
+    "text": "동그라미와 세모",
+    "kind": "application"
+  },
+  {
+    "text": "동그라미",
+    "kind": "application"
+  },
+  {
+    "text": "세모",
+    "kind": "application"
+  },
+  {
+    "text": "네모",
+    "kind": "application"
+  },
+  {
+    "text": "별",
+    "kind": "application"
+  },
+  {
+    "text": "이 모양의 이름은?",
+    "kind": "application"
+  },
+  {
+    "text": "어떤 모양일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "다음 규칙",
+    "kind": "application"
+  },
+  {
+    "text": "규칙을 찾아요",
+    "kind": "application"
+  },
+  {
+    "text": "다음에 올 그림은?",
+    "kind": "application"
+  },
+  {
+    "text": "차례대로 반복되는 규칙을 찾아보자!",
+    "kind": "application"
+  },
+  {
+    "text": "누가 더 많을까?",
+    "kind": "application"
+  },
+  {
+    "text": "많고 적음 비교",
+    "kind": "application"
+  },
+  {
+    "text": "꿀이 더 많은 친구는?",
+    "kind": "application"
+  },
+  {
+    "text": "곰",
+    "kind": "application"
+  },
+  {
+    "text": "호랑이",
+    "kind": "application"
+  },
+  {
+    "text": "똑같아요",
+    "kind": "application"
+  },
+  {
+    "text": "아무도 없어요",
+    "kind": "application"
+  },
+  {
+    "text": "누가 꿀을 더 많이 가지고 있을까?",
+    "kind": "application"
+  },
+  {
+    "text": "동물의 집",
+    "kind": "application"
+  },
+  {
+    "text": "어디에서 살까?",
+    "kind": "application"
+  },
+  {
+    "text": "물속",
+    "kind": "application"
+  },
+  {
+    "text": "숲",
+    "kind": "application"
+  },
+  {
+    "text": "하늘",
+    "kind": "application"
+  },
+  {
+    "text": "사막",
+    "kind": "application"
+  },
+  {
+    "text": "풀밭",
+    "kind": "application"
+  },
+  {
+    "text": "바다",
+    "kind": "application"
+  },
+  {
+    "text": "추운 곳",
+    "kind": "application"
+  },
+  {
+    "text": "뜨거운 숲",
+    "kind": "application"
+  },
+  {
+    "text": "화산",
+    "kind": "application"
+  },
+  {
+    "text": "얼음",
+    "kind": "application"
+  },
+  {
+    "text": "나무가 많은 숲",
+    "kind": "application"
+  },
+  {
+    "text": "우주",
+    "kind": "application"
+  },
+  {
+    "text": "이 친구가 사는 곳은?",
+    "kind": "application"
+  },
+  {
+    "text": "이 동물은 어디에 살까요?",
+    "kind": "application"
+  },
+  {
+    "text": "동물이 사는 곳을 생각해 보자.",
+    "kind": "application"
+  },
+  {
+    "text": "식물 성장 탐험",
+    "kind": "application"
+  },
+  {
+    "text": "씨앗이 자라요",
+    "kind": "application"
+  },
+  {
+    "text": "씨앗",
+    "kind": "application"
+  },
+  {
+    "text": "꽃",
+    "kind": "application"
+  },
+  {
+    "text": "나무",
+    "kind": "application"
+  },
+  {
+    "text": "열매",
+    "kind": "application"
+  },
+  {
+    "text": "새싹",
+    "kind": "application"
+  },
+  {
+    "text": "달",
+    "kind": "application"
+  },
+  {
+    "text": "돌",
+    "kind": "application"
+  },
+  {
+    "text": "컵",
+    "kind": "application"
+  },
+  {
+    "text": "비",
+    "kind": "application"
+  },
+  {
+    "text": "모래",
+    "kind": "application"
+  },
+  {
+    "text": "이것은 무엇일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "식물 관찰! 무엇이 보이나요?",
+    "kind": "application"
+  },
+  {
+    "text": "날씨 연구소",
+    "kind": "application"
+  },
+  {
+    "text": "날씨와 옷차림",
+    "kind": "application"
+  },
+  {
+    "text": "우산",
+    "kind": "application"
+  },
+  {
+    "text": "선글라스",
+    "kind": "application"
+  },
+  {
+    "text": "수영복",
+    "kind": "application"
+  },
+  {
+    "text": "장갑",
+    "kind": "application"
+  },
+  {
+    "text": "두꺼운 외투",
+    "kind": "application"
+  },
+  {
+    "text": "반팔만",
+    "kind": "application"
+  },
+  {
+    "text": "샌들",
+    "kind": "application"
+  },
+  {
+    "text": "모자",
+    "kind": "application"
+  },
+  {
+    "text": "목도리",
+    "kind": "application"
+  },
+  {
+    "text": "두꺼운 털모자",
+    "kind": "application"
+  },
+  {
+    "text": "이 날씨에 필요한 것은?",
+    "kind": "application"
+  },
+  {
+    "text": "날씨를 관찰하고 골라 보자!",
+    "kind": "application"
+  },
+  {
+    "text": "오감 탐정",
+    "kind": "application"
+  },
+  {
+    "text": "눈·귀·코 탐험",
+    "kind": "application"
+  },
+  {
+    "text": "코",
+    "kind": "application"
+  },
+  {
+    "text": "귀",
+    "kind": "application"
+  },
+  {
+    "text": "발",
+    "kind": "application"
+  },
+  {
+    "text": "손",
+    "kind": "application"
+  },
+  {
+    "text": "배",
+    "kind": "application"
+  },
+  {
+    "text": "눈",
+    "kind": "application"
+  },
+  {
+    "text": "혀",
+    "kind": "application"
+  },
+  {
+    "text": "어디로 느낄까요?",
+    "kind": "application"
+  },
+  {
+    "text": "우리 몸의 감각을 찾아보자!",
+    "kind": "application"
+  },
+  {
+    "text": "같은 친구 찾기",
+    "kind": "application"
+  },
+  {
+    "text": "관찰하고 분류",
+    "kind": "application"
+  },
+  {
+    "text": "동물",
+    "kind": "application"
+  },
+  {
+    "text": "자동차",
+    "kind": "application"
+  },
+  {
+    "text": "과일",
+    "kind": "application"
+  },
+  {
+    "text": "장난감",
+    "kind": "application"
+  },
+  {
+    "text": "비행기",
+    "kind": "application"
+  },
+  {
+    "text": "집",
+    "kind": "application"
+  },
+  {
+    "text": "식물",
+    "kind": "application"
+  },
+  {
+    "text": "연필",
+    "kind": "application"
+  },
+  {
+    "text": "모두 어떤 친구일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "공통점을 찾아보자!",
+    "kind": "application"
+  },
+  {
+    "text": "동물 영어",
+    "kind": "application"
+  },
+  {
+    "text": "동물 이름 듣기",
+    "kind": "application"
+  },
+  {
+    "text": "영어로 무엇일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "영어 소리를 들어보세요.",
+    "kind": "application"
+  },
+  {
+    "text": "색깔 영어",
+    "kind": "application"
+  },
+  {
+    "text": "색깔 이름 듣기",
+    "kind": "application"
+  },
+  {
+    "text": "어떤 색깔 영어일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "색깔을 듣고 골라요.",
+    "kind": "application"
+  },
+  {
+    "text": "숫자 영어",
+    "kind": "application"
+  },
+  {
+    "text": "영어 숫자는?",
+    "kind": "application"
+  },
+  {
+    "text": "별을 세어보고 소리를 들어봐요.",
+    "kind": "application"
+  },
+  {
+    "text": "탈것 영어",
+    "kind": "application"
+  },
+  {
+    "text": "좋아하는 자동차",
+    "kind": "application"
+  },
+  {
+    "text": "영어 이름을 찾아요!",
+    "kind": "application"
+  },
+  {
+    "text": "탈것의 영어 이름을 들어봐요.",
+    "kind": "application"
+  },
+  {
+    "text": "인사 영어",
+    "kind": "application"
+  },
+  {
+    "text": "이럴 때 하는 인사는?",
+    "kind": "application"
+  },
+  {
+    "text": "영어 인사를 들어봐요.",
+    "kind": "application"
+  },
+  {
+    "text": "숫자 따라 쓰기",
+    "kind": "application"
+  },
+  {
+    "text": "1부터 100까지 획순",
+    "kind": "application"
+  },
+  {
+    "text": "숫자 듣고 찾기",
+    "kind": "application"
+  },
+  {
+    "text": "사십삼은 몇일까?",
+    "kind": "application"
+  },
+  {
+    "text": "빠진 숫자 찾기",
+    "kind": "application"
+  },
+  {
+    "text": "같은 수 연결",
+    "kind": "application"
+  },
+  {
+    "text": "그림 개수와 숫자",
+    "kind": "application"
+  },
+  {
+    "text": "사과 빼기",
+    "kind": "application"
+  },
+  {
+    "text": "한 개씩 덜어 내요",
+    "kind": "application"
+  },
+  {
+    "text": "자석이 붙을까?",
+    "kind": "application"
+  },
+  {
+    "text": "물건의 성질을 찾아요",
+    "kind": "application"
+  },
+  {
+    "text": "물에 뜰까?",
+    "kind": "application"
+  },
+  {
+    "text": "뜨고 가라앉기",
+    "kind": "application"
+  },
+  {
+    "text": "하늘의 친구",
+    "kind": "application"
+  },
+  {
+    "text": "해, 달, 별을 찾아요",
+    "kind": "application"
+  },
+  {
+    "text": "동물의 아기",
+    "kind": "application"
+  },
+  {
+    "text": "엄마와 아기 짝꿍",
+    "kind": "application"
+  },
+  {
+    "text": "어떤 계절일까?",
+    "kind": "application"
+  },
+  {
+    "text": "봄 여름 가을 겨울",
+    "kind": "application"
+  },
+  {
+    "text": "영어 단어 쓰기",
+    "kind": "application"
+  },
+  {
+    "text": "CAT, DOG부터 써봐요",
+    "kind": "application"
+  },
+  {
+    "text": "첫 소리 찾기",
+    "kind": "application"
+  },
+  {
+    "text": "과일 영어",
+    "kind": "application"
+  },
+  {
+    "text": "몸 영어",
+    "kind": "application"
+  },
+  {
+    "text": "영어 글자 찾기",
+    "kind": "application"
+  },
+  {
+    "text": "세종대왕",
+    "kind": "application"
+  },
+  {
+    "text": "한글을 만든 임금님",
+    "kind": "application"
+  },
+  {
+    "text": "한글",
+    "kind": "application"
+  },
+  {
+    "text": "이순신",
+    "kind": "application"
+  },
+  {
+    "text": "우리 바다를 지킨 장군",
+    "kind": "application"
+  },
+  {
+    "text": "거북선",
+    "kind": "application"
+  },
+  {
+    "text": "장영실",
+    "kind": "application"
+  },
+  {
+    "text": "발명품을 만든 과학자",
+    "kind": "application"
+  },
+  {
+    "text": "측우기",
+    "kind": "application"
+  },
+  {
+    "text": "신사임당",
+    "kind": "application"
+  },
+  {
+    "text": "그림을 잘 그렸던 화가",
+    "kind": "application"
+  },
+  {
+    "text": "그림",
+    "kind": "application"
+  },
+  {
+    "text": "김구",
+    "kind": "application"
+  },
+  {
+    "text": "나라의 독립을 위해 힘쓴 사람",
+    "kind": "application"
+  },
+  {
+    "text": "독립",
+    "kind": "application"
+  },
+  {
+    "text": "유관순",
+    "kind": "application"
+  },
+  {
+    "text": "독립 만세를 외친 사람",
+    "kind": "application"
+  },
+  {
+    "text": "태극기",
+    "kind": "application"
+  },
+  {
+    "text": "허준",
+    "kind": "application"
+  },
+  {
+    "text": "사람들을 치료한 의사",
+    "kind": "application"
+  },
+  {
+    "text": "의학",
+    "kind": "application"
+  },
+  {
+    "text": "위인 만나기",
+    "kind": "application"
+  },
+  {
+    "text": "세종대왕·이순신",
+    "kind": "application"
+  },
+  {
+    "text": "옛날 물건 찾기",
+    "kind": "application"
+  },
+  {
+    "text": "거북선·측우기",
+    "kind": "application"
+  },
+  {
+    "text": "한글을 만든 사람",
+    "kind": "application"
+  },
+  {
+    "text": "세종대왕 이야기",
+    "kind": "application"
+  },
+  {
+    "text": "우리나라의 상징",
+    "kind": "application"
+  },
+  {
+    "text": "태극기와 무궁화",
+    "kind": "application"
+  },
+  {
+    "text": "옛날과 지금",
+    "kind": "application"
+  },
+  {
+    "text": "옛날 물건을 골라요",
+    "kind": "application"
+  },
+  {
+    "text": "나라를 지킨 장군",
+    "kind": "application"
+  },
+  {
+    "text": "이순신과 거북선",
+    "kind": "application"
+  },
+  {
+    "text": "위인의 직업",
+    "kind": "application"
+  },
+  {
+    "text": "화가·과학자·의사",
+    "kind": "application"
+  },
+  {
+    "text": "전통놀이 친구",
+    "kind": "application"
+  },
+  {
+    "text": "팽이·연",
+    "kind": "application"
+  },
+  {
+    "text": "한복과 옷",
+    "kind": "application"
+  },
+  {
+    "text": "우리 옷 알아보기",
+    "kind": "application"
+  },
+  {
+    "text": "옛 이야기 맞히기",
+    "kind": "application"
+  },
+  {
+    "text": "옛날 옛적에",
+    "kind": "application"
+  },
+  {
+    "text": "로봇 한 칸",
+    "kind": "application"
+  },
+  {
+    "text": "방향을 찾아요",
+    "kind": "application"
+  },
+  {
+    "text": "어느 길로 갈까?",
+    "kind": "application"
+  },
+  {
+    "text": "길 순서 생각하기",
+    "kind": "application"
+  },
+  {
+    "text": "같은 순서",
+    "kind": "application"
+  },
+  {
+    "text": "차례대로 따라가기",
+    "kind": "application"
+  },
+  {
+    "text": "반복 블록",
+    "kind": "application"
+  },
+  {
+    "text": "반복되는 동작",
+    "kind": "application"
+  },
+  {
+    "text": "오류를 찾아라",
+    "kind": "application"
+  },
+  {
+    "text": "다른 그림 찾기",
+    "kind": "application"
+  },
+  {
+    "text": "로봇 목적지",
+    "kind": "application"
+  },
+  {
+    "text": "어느 쪽으로 이동?",
+    "kind": "application"
+  },
+  {
+    "text": "먼저 할 일",
+    "kind": "application"
+  },
+  {
+    "text": "순서를 정해요",
+    "kind": "application"
+  },
+  {
+    "text": "조건 알아보기",
+    "kind": "application"
+  },
+  {
+    "text": "비가 오면?",
+    "kind": "application"
+  },
+  {
+    "text": "블록 모양",
+    "kind": "application"
+  },
+  {
+    "text": "같은 모양 연결",
+    "kind": "application"
+  },
+  {
+    "text": "쪼이 블록 코딩",
+    "kind": "application"
+  },
+  {
+    "text": "화살표를 쌓아 움직여요",
+    "kind": "application"
+  },
+  {
+    "text": "영",
+    "kind": "application"
+  },
+  {
+    "text": "일",
+    "kind": "application"
+  },
+  {
+    "text": "이",
+    "kind": "application"
+  },
+  {
+    "text": "삼",
+    "kind": "application"
+  },
+  {
+    "text": "사",
+    "kind": "application"
+  },
+  {
+    "text": "오",
+    "kind": "application"
+  },
+  {
+    "text": "육",
+    "kind": "application"
+  },
+  {
+    "text": "칠",
+    "kind": "application"
+  },
+  {
+    "text": "팔",
+    "kind": "application"
+  },
+  {
+    "text": "구",
+    "kind": "application"
+  },
+  {
+    "text": "백",
+    "kind": "application"
+  },
+  {
+    "text": "십",
+    "kind": "application"
+  },
+  {
+    "text": "그림을 보고 천천히 생각해 봐요.",
+    "kind": "application"
+  },
+  {
+    "text": "설명을 듣고 천천히 골라요!",
+    "kind": "application"
+  },
+  {
+    "text": "화살표와 그림을 차근차근 살펴봐요!",
+    "kind": "application"
+  },
+  {
+    "text": "어떤 걸까요?",
+    "kind": "application"
+  },
+  {
+    "text": "잘 살펴보고 골라요!",
+    "kind": "application"
+  },
+  {
+    "text": "모두 몇 개일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "하나씩 세어볼까요?",
+    "kind": "application"
+  },
+  {
+    "text": "사과가 모두 몇 개일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "더하기 문제를 풀어볼까?",
+    "kind": "application"
+  },
+  {
+    "text": "마름모",
+    "kind": "application"
+  },
+  {
+    "text": "하트",
+    "kind": "application"
+  },
+  {
+    "text": "타원",
+    "kind": "application"
+  },
+  {
+    "text": "곰 곰의 꿀",
+    "kind": "application"
+  },
+  {
+    "text": "\\n 호랑이의 꿀",
+    "kind": "application"
+  },
+  {
+    "text": "누가 꿀이 더 많을까요?",
+    "kind": "application"
+  },
+  {
+    "text": "숫자 소리를 들어봐요",
+    "kind": "application"
+  },
+  {
+    "text": "들리는 숫자를 찾아봐!",
+    "kind": "application"
+  },
+  {
+    "text": "다음 숫자는?",
+    "kind": "application"
+  },
+  {
+    "text": "그림과 같은 숫자는?",
+    "kind": "application"
+  },
+  {
+    "text": "남은 사과는 몇 개일까?",
+    "kind": "application"
+  },
+  {
+    "text": "바닷가",
+    "kind": "application"
+  },
+  {
+    "text": "북극",
+    "kind": "application"
+  },
+  {
+    "text": "연못",
+    "kind": "application"
+  },
+  {
+    "text": "해바라기",
+    "kind": "application"
+  },
+  {
+    "text": "잎",
+    "kind": "application"
+  },
+  {
+    "text": "튤립",
+    "kind": "application"
+  },
+  {
+    "text": "외투",
+    "kind": "application"
+  },
+  {
+    "text": "장화",
+    "kind": "application"
+  },
+  {
+    "text": "물",
+    "kind": "application"
+  },
+  {
+    "text": "바람막이",
+    "kind": "application"
+  },
+  {
+    "text": "도형",
+    "kind": "application"
+  },
+  {
+    "text": "바다 친구",
+    "kind": "application"
+  },
+  {
+    "text": "학용품",
+    "kind": "application"
+  },
+  {
+    "text": "가구",
+    "kind": "application"
+  },
+  {
+    "text": "붙어요",
+    "kind": "application"
+  },
+  {
+    "text": "안 붙어요",
+    "kind": "application"
+  },
+  {
+    "text": "붙을 수도 있어요",
+    "kind": "application"
+  },
+  {
+    "text": "가라앉아요",
+    "kind": "application"
+  },
+  {
+    "text": "떠요",
+    "kind": "application"
+  },
+  {
+    "text": "재료에 따라 달라요",
+    "kind": "application"
+  },
+  {
+    "text": "해",
+    "kind": "application"
+  },
+  {
+    "text": "무지개",
+    "kind": "application"
+  },
+  {
+    "text": "구름",
+    "kind": "application"
+  },
+  {
+    "text": "번개",
+    "kind": "application"
+  },
+  {
+    "text": "병아리",
+    "kind": "application"
+  },
+  {
+    "text": "새끼 사자",
+    "kind": "application"
+  },
+  {
+    "text": "망아지",
+    "kind": "application"
+  },
+  {
+    "text": "강아지",
+    "kind": "application"
+  },
+  {
+    "text": "아기 고양이",
+    "kind": "application"
+  },
+  {
+    "text": "아기 곰",
+    "kind": "application"
+  },
+  {
+    "text": "올챙이",
+    "kind": "application"
+  },
+  {
+    "text": "아기 오리",
+    "kind": "application"
+  },
+  {
+    "text": "봄",
+    "kind": "application"
+  },
+  {
+    "text": "여름",
+    "kind": "application"
+  },
+  {
+    "text": "가을",
+    "kind": "application"
+  },
+  {
+    "text": "겨울",
+    "kind": "application"
+  },
+  {
+    "text": "이 친구는 어디에서 살까요?",
+    "kind": "application"
+  },
+  {
+    "text": "무엇이 보이나요?",
+    "kind": "application"
+  },
+  {
+    "text": "날씨에 필요한 것은?",
+    "kind": "application"
+  },
+  {
+    "text": "같은 친구들의 이름은?",
+    "kind": "application"
+  },
+  {
+    "text": "자석에 붙을까요?",
+    "kind": "application"
+  },
+  {
+    "text": "물에 넣으면 어떻게 될까?",
+    "kind": "application"
+  },
+  {
+    "text": "하늘에서 무엇이 보이나요?",
+    "kind": "application"
+  },
+  {
+    "text": "어떤 아기 동물일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "어느 계절일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "영어 색깔은?",
+    "kind": "application"
+  },
+  {
+    "text": "숫자 영어를 골라요",
+    "kind": "application"
+  },
+  {
+    "text": "탈것의 영어 이름은?",
+    "kind": "application"
+  },
+  {
+    "text": "어떤 영어 인사일까?",
+    "kind": "application"
+  },
+  {
+    "text": "첫 영어 글자는?",
+    "kind": "application"
+  },
+  {
+    "text": "과일 영어는?",
+    "kind": "application"
+  },
+  {
+    "text": "몸의 영어 이름은?",
+    "kind": "application"
+  },
+  {
+    "text": "영어 글자를 찾아요",
+    "kind": "application"
+  },
+  {
+    "text": "다른 것",
+    "kind": "application"
+  },
+  {
+    "text": "잘 모르겠어요",
+    "kind": "application"
+  },
+  {
+    "text": "없어요",
+    "kind": "application"
+  },
+  {
+    "text": "소리 끔",
+    "kind": "application"
+  },
+  {
+    "text": "소리 켬",
+    "kind": "application"
+  },
+  {
+    "text": "세종대왕은 백성이 쉽게 읽고 쓰도록 한글을 만들었어요.",
+    "kind": "application"
+  },
+  {
+    "text": "이순신 장군은 바다에서 우리나라를 지켰어요.",
+    "kind": "application"
+  },
+  {
+    "text": "장영실은 옛날에 과학 기구를 만드는 데 큰 역할을 했어요.",
+    "kind": "application"
+  },
+  {
+    "text": "신사임당은 그림을 잘 그린 화가예요.",
+    "kind": "application"
+  },
+  {
+    "text": "허준은 사람의 병을 치료하는 방법을 담은 동의보감을 엮었어요.",
+    "kind": "application"
+  },
+  {
+    "text": "유관순은 우리나라 독립을 외쳤어요.",
+    "kind": "application"
+  },
+  {
+    "text": "김구는 우리나라의 독립을 위해 애썼어요.",
+    "kind": "application"
+  },
+  {
+    "text": "훈민정음",
+    "kind": "application"
+  },
+  {
+    "text": "훈민정음은 세종대왕이 새 글자를 알린 책이에요.",
+    "kind": "application"
+  },
+  {
+    "text": "측우기는 빗물이 얼마나 왔는지 재던 통이에요.",
+    "kind": "application"
+  },
+  {
+    "text": "거북선은 이순신 장군과 관련된 전투 배예요.",
+    "kind": "application"
+  },
+  {
+    "text": "무궁화",
+    "kind": "application"
+  },
+  {
+    "text": "무궁화는 우리나라의 나라꽃이에요.",
+    "kind": "application"
+  },
+  {
+    "text": "태극기는 우리나라 국기예요.",
+    "kind": "application"
+  },
+  {
+    "text": "애국가",
+    "kind": "application"
+  },
+  {
+    "text": "애국가는 우리나라를 대표하는 노래예요.",
+    "kind": "application"
+  },
+  {
+    "text": "한복",
+    "kind": "application"
+  },
+  {
+    "text": "한복은 우리나라의 전통 옷이에요.",
+    "kind": "application"
+  },
+  {
+    "text": "야호! 정말 잘했어요!",
+    "kind": "application"
+  },
+  {
+    "text": "딩동댕! 멋진 탐험이야!",
+    "kind": "application"
+  },
+  {
+    "text": "대단해! 반짝반짝!",
+    "kind": "application"
+  },
+  {
+    "text": "맞아요!",
+    "kind": "application"
+  },
+  {
+    "text": "예요.",
+    "kind": "application"
+  },
+  {
+    "text": "정답! 정말 잘했어요!",
+    "kind": "application"
+  },
+  {
+    "text": "조금만 더 생각해 볼까?",
+    "kind": "application"
+  },
+  {
+    "text": "다섯 문제 모두 성공! 원하는 놀이를 골라요!",
+    "kind": "application"
+  },
+  {
+    "text": "로켓 다음 5문제 도전",
+    "kind": "application"
+  },
+  {
+    "text": "다른 놀이 선택",
+    "kind": "application"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은",
+    "kind": "application"
+  },
+  {
+    "text": "! 이제 천천히 골라볼까?",
+    "kind": "application"
+  },
+  {
+    "text": "읽어주기 켜기",
+    "kind": "application"
+  },
+  {
+    "text": "필요해요? 갖고 싶어요?",
+    "kind": "application"
+  },
+  {
+    "text": "필요한 것과 원하는 것 구분",
+    "kind": "application"
+  },
+  {
+    "text": "배고플 때 먹는 밥은?",
+    "kind": "application"
+  },
+  {
+    "text": "필요한 것",
+    "kind": "application"
+  },
+  {
+    "text": "갖고 싶은 것",
+    "kind": "application"
+  },
+  {
+    "text": "귀여운 인형은?",
+    "kind": "application"
+  },
+  {
+    "text": "마실 물은?",
+    "kind": "application"
+  },
+  {
+    "text": "새 게임기는?",
+    "kind": "application"
+  },
+  {
+    "text": "추운 날 입는 외투는?",
+    "kind": "application"
+  },
+  {
+    "text": "달콤한 사탕은?",
+    "kind": "application"
+  },
+  {
+    "text": "비와 추위를 피할 집은?",
+    "kind": "application"
+  },
+  {
+    "text": "돈 모양 찾기",
+    "kind": "application"
+  },
+  {
+    "text": "동전과 지폐 구분",
+    "kind": "application"
+  },
+  {
+    "text": "이 동그란 돈의 이름은?",
+    "kind": "application"
+  },
+  {
+    "text": "동전",
+    "kind": "application"
+  },
+  {
+    "text": "지폐",
+    "kind": "application"
+  },
+  {
+    "text": "돌멩이",
+    "kind": "application"
+  },
+  {
+    "text": "종이처럼 생긴 돈은?",
+    "kind": "application"
+  },
+  {
+    "text": "동전은 몇 개일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "2개",
+    "kind": "application"
+  },
+  {
+    "text": "1개",
+    "kind": "application"
+  },
+  {
+    "text": "3개",
+    "kind": "application"
+  },
+  {
+    "text": "지폐 그림은 몇 장일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "3장",
+    "kind": "application"
+  },
+  {
+    "text": "2장",
+    "kind": "application"
+  },
+  {
+    "text": "4장",
+    "kind": "application"
+  },
+  {
+    "text": "둥글고 작은 돈은 무엇일까요?",
+    "kind": "application"
+  },
+  {
+    "text": "책",
+    "kind": "application"
+  },
+  {
+    "text": "4개",
+    "kind": "application"
+  },
+  {
+    "text": "쪼이 가게",
+    "kind": "application"
+  },
+  {
+    "text": "장난감 동전으로 물건 사기",
+    "kind": "application"
+  },
+  {
+    "text": "저금통 채우기",
+    "kind": "application"
+  },
+  {
+    "text": "조금씩 모아 목표 채우기",
+    "kind": "application"
+  },
+  {
+    "text": "세 개의 돈 항아리",
+    "kind": "application"
+  },
+  {
+    "text": "쓰기·저금·나눔 구분",
+    "kind": "application"
+  },
+  {
+    "text": "지금 빵을 살 때",
+    "kind": "application"
+  },
+  {
+    "text": "쓰는 돈",
+    "kind": "application"
+  },
+  {
+    "text": "나중에 장난감 차를 사려고 모을 때",
+    "kind": "application"
+  },
+  {
+    "text": "저금할 돈",
+    "kind": "application"
+  },
+  {
+    "text": "친구를 도와주고 싶을 때",
+    "kind": "application"
+  },
+  {
+    "text": "나눌 돈",
+    "kind": "application"
+  },
+  {
+    "text": "오늘 장난감을 살 때",
+    "kind": "application"
+  },
+  {
+    "text": "다음 달을 위해 남겨 둘 때",
+    "kind": "application"
+  },
+  {
+    "text": "친구 생일 선물을 준비할 때",
+    "kind": "application"
+  },
+  {
+    "text": "누가 일할까요?",
+    "kind": "application"
+  },
+  {
+    "text": "일과 돈의 관계",
+    "kind": "application"
+  },
+  {
+    "text": "요리사는 무슨 일을 할까요?",
+    "kind": "application"
+  },
+  {
+    "text": "요리해요",
+    "kind": "application"
+  },
+  {
+    "text": "운전해요",
+    "kind": "application"
+  },
+  {
+    "text": "집을 지어요",
+    "kind": "application"
+  },
+  {
+    "text": "의사는 무슨 일을 할까요?",
+    "kind": "application"
+  },
+  {
+    "text": "아픈 사람을 도와요",
+    "kind": "application"
+  },
+  {
+    "text": "빵을 구워요",
+    "kind": "application"
+  },
+  {
+    "text": "버스를 몰아요",
+    "kind": "application"
+  },
+  {
+    "text": "농부는 무슨 일을 할까요?",
+    "kind": "application"
+  },
+  {
+    "text": "작물을 길러요",
+    "kind": "application"
+  },
+  {
+    "text": "우주선을 조종해요",
+    "kind": "application"
+  },
+  {
+    "text": "집을 페인트칠해요",
+    "kind": "application"
+  },
+  {
+    "text": "버스 운전사는 무슨 일을 할까요?",
+    "kind": "application"
+  },
+  {
+    "text": "버스를 운전해요",
+    "kind": "application"
+  },
+  {
+    "text": "머리를 잘라요",
+    "kind": "application"
+  },
+  {
+    "text": "선생님은 무슨 일을 할까요?",
+    "kind": "application"
+  },
+  {
+    "text": "아이들을 가르쳐요",
+    "kind": "application"
+  },
+  {
+    "text": "비행기를 몰아요",
+    "kind": "application"
+  },
+  {
+    "text": "가구를 만들어요",
+    "kind": "application"
+  },
+  {
+    "text": "정비사는 무슨 일을 할까요?",
+    "kind": "application"
+  },
+  {
+    "text": "고장 난 차를 고쳐요",
+    "kind": "application"
+  },
+  {
+    "text": "책을 써요",
+    "kind": "application"
+  },
+  {
+    "text": "빵을 팔아요",
+    "kind": "application"
+  },
+  {
+    "text": "잠깐 기다려요",
+    "kind": "application"
+  },
+  {
+    "text": "기다림과 선택 배우기",
+    "kind": "application"
+  },
+  {
+    "text": "지금 사탕 1개, 잠깐 기다리면 2개. 두 개를 받고 싶다면?",
+    "kind": "application"
+  },
+  {
+    "text": "기다려요",
+    "kind": "application"
+  },
+  {
+    "text": "지금 먹어요",
+    "kind": "application"
+  },
+  {
+    "text": "장난감을 사려는데 동전이 모자라면?",
+    "kind": "application"
+  },
+  {
+    "text": "조금 더 모아요",
+    "kind": "application"
+  },
+  {
+    "text": "돈이 없어도 가져와요",
+    "kind": "application"
+  },
+  {
+    "text": "저금통을 채우는 방법은?",
+    "kind": "application"
+  },
+  {
+    "text": "조금씩 모아요",
+    "kind": "application"
+  },
+  {
+    "text": "매번 다 써요",
+    "kind": "application"
+  },
+  {
+    "text": "씨앗을 심은 다음에는?",
+    "kind": "application"
+  },
+  {
+    "text": "자라기를 기다려요",
+    "kind": "application"
+  },
+  {
+    "text": "바로 꽃을 따요",
+    "kind": "application"
+  },
+  {
+    "text": "가게에 원하는 게 두 개인데 동전은 하나뿐이에요.",
+    "kind": "application"
+  },
+  {
+    "text": "하나를 골라요",
+    "kind": "application"
+  },
+  {
+    "text": "둘 다 그냥 가져가요",
+    "kind": "application"
+  },
+  {
+    "text": "큰 장난감을 위해 저금하는 중이에요.",
+    "kind": "application"
+  },
+  {
+    "text": "목표를 기억해요",
+    "kind": "application"
+  },
+  {
+    "text": "저금통을 버려요",
+    "kind": "application"
+  },
+  {
+    "text": "어느 쪽을 살까?",
+    "kind": "application"
+  },
+  {
+    "text": "가격·수량 비교하기",
+    "kind": "application"
+  },
+  {
+    "text": "사과 두 개를 같은 동전 두 개로 살 수 있어요. 사과는 몇 개?",
+    "kind": "application"
+  },
+  {
+    "text": "동전 한 개로 살 수 있는 것은?",
+    "kind": "application"
+  },
+  {
+    "text": "바나나",
+    "kind": "application"
+  },
+  {
+    "text": "딸기",
+    "kind": "application"
+  },
+  {
+    "text": "과자는 몇 개 있을까요?",
+    "kind": "application"
+  },
+  {
+    "text": "동전 세 개 중 한 개를 쓰면 남는 동전은?",
+    "kind": "application"
+  },
+  {
+    "text": "동전 하나가 있을 때 살 수 있는 것은?",
+    "kind": "application"
+  },
+  {
+    "text": "사과",
+    "kind": "application"
+  },
+  {
+    "text": "빵",
+    "kind": "application"
+  },
+  {
+    "text": "동전 네 개를 둘씩 나누면 몇 묶음?",
+    "kind": "application"
+  },
+  {
+    "text": "2묶음",
+    "kind": "application"
+  },
+  {
+    "text": "1묶음",
+    "kind": "application"
+  },
+  {
+    "text": "3묶음",
+    "kind": "application"
+  },
+  {
+    "text": "우리 같이 나눠요",
+    "kind": "application"
+  },
+  {
+    "text": "도움·선물·나눔 이야기",
+    "kind": "application"
+  },
+  {
+    "text": "과자가 두 개예요. 친구와 하나씩 나누면?",
+    "kind": "application"
+  },
+  {
+    "text": "둘 다 하나씩",
+    "kind": "application"
+  },
+  {
+    "text": "쪼이가 두 개 다",
+    "kind": "application"
+  },
+  {
+    "text": "친구 생일에 선물을 준다면?",
+    "kind": "application"
+  },
+  {
+    "text": "친구가 기뻐요",
+    "kind": "application"
+  },
+  {
+    "text": "친구가 사라져요",
+    "kind": "application"
+  },
+  {
+    "text": "사과가 두 개예요. 두 명이 하나씩 나눌 수 있나요?",
+    "kind": "application"
+  },
+  {
+    "text": "네",
+    "kind": "application"
+  },
+  {
+    "text": "아니요",
+    "kind": "application"
+  },
+  {
+    "text": "도움을 받은 친구가 고맙다고 말해요. 어떻게 할까요?",
+    "kind": "application"
+  },
+  {
+    "text": "함께 웃어요",
+    "kind": "application"
+  },
+  {
+    "text": "혼내요",
+    "kind": "application"
+  },
+  {
+    "text": "배고픈 강아지에게 보호자와 함께 먹이를 준다면?",
+    "kind": "application"
+  },
+  {
+    "text": "도움이 돼요",
+    "kind": "application"
+  },
+  {
+    "text": "장난이에요",
+    "kind": "application"
+  },
+  {
+    "text": "나눔 항아리에 돈을 모으는 까닭은?",
+    "kind": "application"
+  },
+  {
+    "text": "다른 사람을 돕기 위해",
+    "kind": "application"
+  },
+  {
+    "text": "돈을 숨기기 위해",
+    "kind": "application"
+  },
+  {
+    "text": "미래의 씨앗",
+    "kind": "application"
+  },
+  {
+    "text": "시간·성장·위험을 천천히",
+    "kind": "application"
+  },
+  {
+    "text": "씨앗이 나무가 되려면?",
+    "kind": "application"
+  },
+  {
+    "text": "시간과 돌봄이 필요해요",
+    "kind": "application"
+  },
+  {
+    "text": "눈을 감으면 바로 돼요",
+    "kind": "application"
+  },
+  {
+    "text": "저금은 언제 도움이 될까요?",
+    "kind": "application"
+  },
+  {
+    "text": "나중에 필요할 때",
+    "kind": "application"
+  },
+  {
+    "text": "돈을 잃어버릴 때",
+    "kind": "application"
+  },
+  {
+    "text": "결과를 미리 알 수 없는 게임은?",
+    "kind": "application"
+  },
+  {
+    "text": "결과가 달라질 수 있어요",
+    "kind": "application"
+  },
+  {
+    "text": "항상 똑같이 이겨요",
+    "kind": "application"
+  },
+  {
+    "text": "씨앗을 심어도 날씨가 나쁘면?",
+    "kind": "application"
+  },
+  {
+    "text": "잘 자라지 않을 수도 있어요",
+    "kind": "application"
+  },
+  {
+    "text": "무조건 큰 나무가 돼요",
+    "kind": "application"
+  },
+  {
+    "text": "한 과일만 담기보다 여러 과일을 담으면?",
+    "kind": "application"
+  },
+  {
+    "text": "골고루 먹을 수 있어요",
+    "kind": "application"
+  },
+  {
+    "text": "과일이 모두 사라져요",
+    "kind": "application"
+  },
+  {
+    "text": "나무가 자랄 때 계속 도움이 되는 것은?",
+    "kind": "application"
+  },
+  {
+    "text": "돌보기",
+    "kind": "application"
+  },
+  {
+    "text": "잊어버리기",
+    "kind": "application"
+  },
+  {
+    "text": "잘했어요!",
+    "kind": "application"
+  },
+  {
+    "text": "우와! 정말 잘했어!",
+    "kind": "application"
+  },
+  {
+    "text": "소리를 듣고 골라 봐요",
+    "kind": "application"
+  },
+  {
+    "text": "개가 있어요.",
+    "kind": "application"
+  },
+  {
+    "text": "은",
+    "kind": "application"
+  },
+  {
+    "text": "개예요. 살 수 있을까요?",
+    "kind": "application"
+  },
+  {
+    "text": "살 수 있어요",
+    "kind": "application"
+  },
+  {
+    "text": "못 사요",
+    "kind": "application"
+  },
+  {
+    "text": "장난감 동전으로 연습해요",
+    "kind": "application"
+  },
+  {
+    "text": "개를 모아 봐요!",
+    "kind": "application"
+  },
+  {
+    "text": "저금통을 눌러 동전을 하나씩 넣어요",
+    "kind": "application"
+  },
+  {
+    "text": "저금통을 다 채웠어요!",
+    "kind": "application"
+  },
+  {
+    "text": "잘 골랐어요!",
+    "kind": "application"
+  },
+  {
+    "text": "동전을 세어 봤구나!",
+    "kind": "application"
+  },
+  {
+    "text": "정답이에요!",
+    "kind": "application"
+  },
+  {
+    "text": "저금통을 눌러 동전을 모아요!",
+    "kind": "application"
+  },
+  {
+    "text": "오늘의 다섯 문제 끝!",
+    "kind": "application"
+  },
+  {
+    "text": "로켓 다음 5문제",
+    "kind": "application"
+  },
+  {
+    "text": "다른 놀이",
+    "kind": "application"
+  },
+  {
+    "text": "개 블록",
+    "kind": "application"
+  },
+  {
+    "text": "여기에 명령 블록을 놓아 봐요",
+    "kind": "application"
+  },
+  {
+    "text": "화살표를 먼저 골라 봐요!",
+    "kind": "application"
+  },
+  {
+    "text": "앗! 바위나 가장자리에 막혔어. 블록을 바꿔 볼까?",
+    "kind": "application"
+  },
+  {
+    "text": "쪼이가 별에 도착했어요! 정말 잘했어!",
+    "kind": "application"
+  },
+  {
+    "text": "별이 조금 더 멀리 있네. 화살표를 더 놓아 보자!",
+    "kind": "application"
+  },
+  {
+    "text": "화살표를 놓고 실행해 보자!",
+    "kind": "application"
+  },
+  {
+    "text": "대문자 A~Z",
+    "kind": "application"
+  },
+  {
+    "text": "소문자 a~z",
+    "kind": "application"
+  },
+  {
+    "text": "숫자 쓰기",
+    "kind": "application"
+  },
+  {
+    "text": "좋아하는 영어 단어를 써보자!",
+    "kind": "application"
+  },
+  {
+    "text": "숫자를 천천히 따라 써보자!",
+    "kind": "application"
+  },
+  {
+    "text": "대문자 A~Z · 소문자 a~z를 순서대로 따라 쓰고, 단어도 연습해요. 획수와 순서보다 글자 모양을 보고 칭찬해요.",
+    "kind": "application"
+  },
+  {
+    "text": "1~10부터 91~100까지, 10개씩 이어서 따라 써요.",
+    "kind": "application"
+  },
+  {
+    "text": "대문자",
+    "kind": "application"
+  },
+  {
+    "text": "소문자",
+    "kind": "application"
+  },
+  {
+    "text": "이제",
+    "kind": "application"
+  },
+  {
+    "text": "를 한 번에 이어서 써봐요!",
+    "kind": "application"
+  },
+  {
+    "text": "영어 단어",
+    "kind": "application"
+  },
+  {
+    "text": "· 한 글자씩",
+    "kind": "application"
+  },
+  {
+    "text": "숫자 읽기:",
+    "kind": "application"
+  },
+  {
+    "text": "단어 전체 쓰기",
+    "kind": "application"
+  },
+  {
+    "text": "획수나 순서는 자유롭게! 점선 위에 글자 모양을 만들어 봐요.",
+    "kind": "application"
+  },
+  {
+    "text": "①부터 시작해서 점선과 화살표를 따라 써봐!",
+    "kind": "application"
+  },
+  {
+    "text": "고양이",
+    "kind": "application"
+  },
+  {
+    "text": "버스",
+    "kind": "application"
+  },
+  {
+    "text": "빨간색",
+    "kind": "application"
+  },
+  {
+    "text": "파란색",
+    "kind": "application"
+  },
+  {
+    "text": "펜",
+    "kind": "application"
+  },
+  {
+    "text": "출발",
+    "kind": "application"
+  },
+  {
+    "text": "안녕",
+    "kind": "application"
+  },
+  {
+    "text": "사과 한 개",
+    "kind": "application"
+  },
+  {
+    "text": "사과 두 개",
+    "kind": "application"
+  },
+  {
+    "text": "점선을 조금 더 따라 써봐요.",
+    "kind": "application"
+  },
+  {
+    "text": "글자를 다시 선택해 주세요.",
+    "kind": "application"
+  },
+  {
+    "text": "글자를 따라 좀 더 그려 볼까요?",
+    "kind": "application"
+  },
+  {
+    "text": "글자 안내를 다시 불러와 주세요.",
+    "kind": "application"
+  },
+  {
+    "text": "글자의 위·아래·양쪽을 조금 더 채워 봐요.",
+    "kind": "application"
+  },
+  {
+    "text": "점선 주변으로 글자 모양을 만들어 봐요.",
+    "kind": "application"
+  },
+  {
+    "text": "잘했어! 이제 단어 전체를 써보자!",
+    "kind": "application"
+  },
+  {
+    "text": "와아! 모두 잘 썼어요!",
+    "kind": "application"
+  },
+  {
+    "text": "공통 화면 이동",
+    "kind": "application"
+  },
+  {
+    "text": "5분 놀이 완료",
+    "kind": "application"
+  },
+  {
+    "text": "와아! 5분 놀이 성공! 이현이 트로피를 받았어!",
+    "kind": "application"
+  },
+  {
+    "text": "초 후 트로피",
+    "kind": "application"
+  },
+  {
+    "text": "시작점부터 차근차근 그어 보자!",
+    "kind": "application"
+  },
+  {
+    "text": "분홍색 시작점부터 시작해 보자!",
+    "kind": "application"
+  },
+  {
+    "text": "화살표 끝까지 이어서 써 볼까?",
+    "kind": "application"
+  },
+  {
+    "text": "화살표를 따라 천천히 한 번 더 해 보자!",
+    "kind": "application"
+  },
+  {
+    "text": "글자 ·",
+    "kind": "application"
+  },
+  {
+    "text": "획",
+    "kind": "application"
+  },
+  {
+    "text": "분홍색 1번부터 화살표를 따라 써요!",
+    "kind": "application"
+  },
+  {
+    "text": "한 획씩 따라 써요!",
+    "kind": "application"
+  },
+  {
+    "text": "번 시작점에서 화살표를 따라 써요!",
+    "kind": "application"
+  },
+  {
+    "text": "잘했어!",
+    "kind": "application"
+  },
+  {
+    "text": "따라 써 볼까?",
+    "kind": "application"
+  },
+  {
+    "text": "분홍색 ①에서 시작하고, 화살표 끝까지 따라 써요.",
+    "kind": "application"
+  },
+  {
+    "text": "따라 쓰기",
+    "kind": "application"
+  },
+  {
+    "text": "①부터 다시 써 볼까요?",
+    "kind": "application"
+  },
+  {
+    "text": "따라 써 봐요!",
+    "kind": "application"
+  },
+  {
+    "text": "손가락으로 길을 그리는 미로. 방향키로도 이동할 수 있어요.",
+    "kind": "application"
+  },
+  {
+    "text": "나비",
+    "kind": "application"
+  },
+  {
+    "text": "물고기",
+    "kind": "application"
+  },
+  {
+    "text": "토끼",
+    "kind": "application"
+  },
+  {
+    "text": "별자리",
+    "kind": "application"
+  },
+  {
+    "text": "찾으러 가요!",
+    "kind": "application"
+  },
+  {
+    "text": "호랑이부터 손가락으로 길을 그려봐!",
+    "kind": "application"
+  },
+  {
+    "text": "도착! 잘했어! 정말 멋진 탐험이야!",
+    "kind": "application"
+  },
+  {
+    "text": "쉬움",
+    "kind": "application"
+  },
+  {
+    "text": "보통",
+    "kind": "application"
+  },
+  {
+    "text": "어려움",
+    "kind": "application"
+  },
+  {
+    "text": "도전",
+    "kind": "application"
+  },
+  {
+    "text": "· 별 완료",
+    "kind": "application"
+  },
+  {
+    "text": "책 읽는 호랑이 쪼이",
+    "kind": "application"
+  },
+  {
+    "text": "이현",
+    "kind": "application"
   },
   {
     "text": "안녕, 우리 이현이! 오늘도 쪼이랑 신나게 놀자!",
+    "kind": "application"
+  },
+  {
+    "text": "이의 배움 리포트",
+    "kind": "application"
+  },
+  {
+    "text": "총",
+    "kind": "application"
+  },
+  {
+    "text": "문제 · 정답률",
+    "kind": "application"
+  },
+  {
+    "text": "아직 시작하지 않았어요",
+    "kind": "application"
+  },
+  {
+    "text": "처음 배울 개념을 고를 수 있어요",
+    "kind": "application"
+  },
+  {
+    "text": "아직 복습할 기록이 없어요. 한 과목의 첫 진단부터 시작해 봐요.",
+    "kind": "application"
+  },
+  {
+    "text": "다시 배워보기 ➜",
+    "kind": "application"
+  },
+  {
+    "text": "설정이 저장됐어요. 이름을 부를 때 사용합니다.",
+    "kind": "application"
+  },
+  {
+    "text": "새 학습 기록을 지우려면 '초기화'라고 입력해 주세요. 기존 클래식 놀이의 기록은 유지됩니다.",
+    "kind": "application"
+  },
+  {
+    "text": "초기화",
+    "kind": "application"
+  },
+  {
+    "text": "ㅎ",
+    "kind": "learning"
+  },
+  {
+    "text": "‘호랑이’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘호랑이’은 ㅎ 소리로 시작해요. ㅎ, ㅎ. 다시 들으며 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘호랑이’은 ㅎ 소리로 시작해요. ㅎ, ㅎ. 다시 들으며 찾아봐요. ‘호랑이’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. ㅎ",
+    "kind": "learning"
+  },
+  {
+    "text": "'ㅎ'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "ㄱ",
+    "kind": "learning"
+  },
+  {
+    "text": "‘곰’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘곰’은 ㄱ 소리로 시작해요. ㄱ, ㄱ. 다시 들으며 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘곰’은 ㄱ 소리로 시작해요. ㄱ, ㄱ. 다시 들으며 찾아봐요. ‘곰’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. ㄱ",
+    "kind": "learning"
+  },
+  {
+    "text": "'ㄱ'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "ㅌ",
+    "kind": "learning"
+  },
+  {
+    "text": "‘토끼’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘토끼’은 ㅌ 소리로 시작해요. ㅌ, ㅌ. 다시 들으며 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘토끼’은 ㅌ 소리로 시작해요. ㅌ, ㅌ. 다시 들으며 찾아봐요. ‘토끼’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. ㅌ",
+    "kind": "learning"
+  },
+  {
+    "text": "'ㅌ'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "ㅂ",
+    "kind": "learning"
+  },
+  {
+    "text": "‘바나나’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘바나나’은 ㅂ 소리로 시작해요. ㅂ, ㅂ. 다시 들으며 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘바나나’은 ㅂ 소리로 시작해요. ㅂ, ㅂ. 다시 들으며 찾아봐요. ‘바나나’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. ㅂ",
+    "kind": "learning"
+  },
+  {
+    "text": "'ㅂ'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "ㅅ",
+    "kind": "learning"
+  },
+  {
+    "text": "‘사과’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘사과’은 ㅅ 소리로 시작해요. ㅅ, ㅅ. 다시 들으며 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘사과’은 ㅅ 소리로 시작해요. ㅅ, ㅅ. 다시 들으며 찾아봐요. ‘사과’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. ㅅ",
+    "kind": "learning"
+  },
+  {
+    "text": "'ㅅ'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "ㄴ",
+    "kind": "learning"
+  },
+  {
+    "text": "‘나무’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘나무’은 ㄴ 소리로 시작해요. ㄴ, ㄴ. 다시 들으며 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘나무’은 ㄴ 소리로 시작해요. ㄴ, ㄴ. 다시 들으며 찾아봐요. ‘나무’의 첫 자음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. ㄴ",
+    "kind": "learning"
+  },
+  {
+    "text": "'ㄴ'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "아",
+    "kind": "learning"
+  },
+  {
+    "text": "이 글자를 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘아’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘아’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요. 이 글자를 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 아",
+    "kind": "learning"
+  },
+  {
+    "text": "'아'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "‘오’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘오’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요. 이 글자를 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 오",
+    "kind": "learning"
+  },
+  {
+    "text": "'오'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "우",
+    "kind": "learning"
+  },
+  {
+    "text": "‘우’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘우’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요. 이 글자를 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 우",
+    "kind": "learning"
+  },
+  {
+    "text": "'우'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "‘이’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘이’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요. 이 글자를 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 이",
+    "kind": "learning"
+  },
+  {
+    "text": "'이'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "어",
+    "kind": "learning"
+  },
+  {
+    "text": "‘어’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘어’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요. 이 글자를 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 어",
+    "kind": "learning"
+  },
+  {
+    "text": "'어'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "에",
+    "kind": "learning"
+  },
+  {
+    "text": "‘에’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘에’는 이렇게 읽어요. 입 모양을 생각하며 천천히 말해 봐요. 이 글자를 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 에",
+    "kind": "learning"
+  },
+  {
+    "text": "'에'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "파란 나비",
+    "kind": "learning"
+  },
+  {
+    "text": "이 그림의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘나비’예요. 소리를 듣고 글자를 하나씩 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘나비’예요. 소리를 듣고 글자를 하나씩 살펴봐요. 이 그림의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 나비",
+    "kind": "learning"
+  },
+  {
+    "text": "'나비'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘바다’예요. 소리를 듣고 글자를 하나씩 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘바다’예요. 소리를 듣고 글자를 하나씩 살펴봐요. 이 그림의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 바다",
+    "kind": "learning"
+  },
+  {
+    "text": "'바다'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘나무’예요. 소리를 듣고 글자를 하나씩 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘나무’예요. 소리를 듣고 글자를 하나씩 살펴봐요. 이 그림의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 나무",
+    "kind": "learning"
+  },
+  {
+    "text": "'나무'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘바나나’예요. 소리를 듣고 글자를 하나씩 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘바나나’예요. 소리를 듣고 글자를 하나씩 살펴봐요. 이 그림의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 바나나",
+    "kind": "learning"
+  },
+  {
+    "text": "'바나나'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "라디오",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘라디오’예요. 소리를 듣고 글자를 하나씩 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘라디오’예요. 소리를 듣고 글자를 하나씩 살펴봐요. 이 그림의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 라디오",
+    "kind": "learning"
+  },
+  {
+    "text": "'라디오'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "우유",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘우유’예요. 소리를 듣고 글자를 하나씩 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 낱말은 ‘우유’예요. 소리를 듣고 글자를 하나씩 살펴봐요. 이 그림의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 우유",
+    "kind": "learning"
+  },
+  {
+    "text": "'우유'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "이 동물의 이름을 찾아볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘호랑이’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘호랑이’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요. 이 동물의 이름을 찾아볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 호랑이",
+    "kind": "learning"
+  },
+  {
+    "text": "'호랑이'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "기린",
+    "kind": "learning"
+  },
+  {
+    "text": "‘기린’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘기린’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요. 이 동물의 이름을 찾아볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 기린",
+    "kind": "learning"
+  },
+  {
+    "text": "'기린'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "거북이",
+    "kind": "learning"
+  },
+  {
+    "text": "‘거북이’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘거북이’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요. 이 동물의 이름을 찾아볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 거북이",
+    "kind": "learning"
+  },
+  {
+    "text": "'거북이'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "‘곰’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘곰’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요. 이 동물의 이름을 찾아볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 곰",
+    "kind": "learning"
+  },
+  {
+    "text": "'곰'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "코끼리",
+    "kind": "learning"
+  },
+  {
+    "text": "‘코끼리’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘코끼리’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요. 이 동물의 이름을 찾아볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 코끼리",
+    "kind": "learning"
+  },
+  {
+    "text": "'코끼리'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "‘강아지’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘강아지’ 천천히 읽어 봐요. 글자의 첫소리와 받침을 살펴봐요. 이 동물의 이름을 찾아볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 강아지",
+    "kind": "learning"
+  },
+  {
+    "text": "'강아지'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "1",
+    "kind": "learning"
+  },
+  {
+    "text": "사과 하나",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 세면 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 1개예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 1개예요. 그림을 세면 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 1",
+    "kind": "learning"
+  },
+  {
+    "text": "'1'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "사과사과",
+    "kind": "learning"
+  },
+  {
+    "text": "2",
+    "kind": "learning"
+  },
+  {
+    "text": "사과 둘",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 2개예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 2개예요. 그림을 세면 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 2",
+    "kind": "learning"
+  },
+  {
+    "text": "'2'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "사과사과사과",
+    "kind": "learning"
+  },
+  {
+    "text": "3",
+    "kind": "learning"
+  },
+  {
+    "text": "사과 셋",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 3개예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 3개예요. 그림을 세면 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 3",
+    "kind": "learning"
+  },
+  {
+    "text": "'3'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "별별별별",
+    "kind": "learning"
+  },
+  {
+    "text": "4",
+    "kind": "learning"
+  },
+  {
+    "text": "별 넷",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 4개예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 4개예요. 그림을 세면 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 4",
+    "kind": "learning"
+  },
+  {
+    "text": "'4'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "생선생선생선생선생선",
+    "kind": "learning"
+  },
+  {
+    "text": "5",
+    "kind": "learning"
+  },
+  {
+    "text": "물고기 다섯",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 5개예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 5개예요. 그림을 세면 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 5",
+    "kind": "learning"
+  },
+  {
+    "text": "'5'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "곰 인형 둘",
+    "kind": "learning"
+  },
+  {
+    "text": "사과사과사과사과사과사과",
+    "kind": "learning"
+  },
+  {
+    "text": "6",
+    "kind": "learning"
+  },
+  {
+    "text": "사과 여섯",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 6개예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 6개예요. 그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 6",
+    "kind": "learning"
+  },
+  {
+    "text": "'6'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "별별별별별별별",
+    "kind": "learning"
+  },
+  {
+    "text": "7",
+    "kind": "learning"
+  },
+  {
+    "text": "별 일곱",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 7개예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 7개예요. 그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 7",
+    "kind": "learning"
+  },
+  {
+    "text": "'7'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "생선생선생선생선생선생선생선생선",
+    "kind": "learning"
+  },
+  {
+    "text": "8",
+    "kind": "learning"
+  },
+  {
+    "text": "물고기 여덟",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 8개예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 8개예요. 그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 8",
+    "kind": "learning"
+  },
+  {
+    "text": "'8'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "9",
+    "kind": "learning"
+  },
+  {
+    "text": "사탕 아홉",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 9개예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 9개예요. 그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 9",
+    "kind": "learning"
+  },
+  {
+    "text": "'9'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "10",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 열",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 10개예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩 손가락으로 짚으며 세면 모두 10개예요. 그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 10",
+    "kind": "learning"
+  },
+  {
+    "text": "'10'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "꽃 여섯",
+    "kind": "learning"
+  },
+  {
+    "text": "2+1",
+    "kind": "learning"
+  },
+  {
+    "text": "둘 더하기 하나",
+    "kind": "learning"
+  },
+  {
+    "text": "2개와 1개를 모으면 모두 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 2+1 손가락이나 블록으로 세어 보면 답은 3예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 2+1 손가락이나 블록으로 세어 보면 답은 3예요. 2개와 1개를 모으면 모두 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "1+3",
+    "kind": "learning"
+  },
+  {
+    "text": "하나 더하기 셋",
+    "kind": "learning"
+  },
+  {
+    "text": "1개와 3개를 모으면 모두 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 1+3 손가락이나 블록으로 세어 보면 답은 4예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 1+3 손가락이나 블록으로 세어 보면 답은 4예요. 1개와 3개를 모으면 모두 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "2+2",
+    "kind": "learning"
+  },
+  {
+    "text": "둘 더하기 둘",
+    "kind": "learning"
+  },
+  {
+    "text": "2개와 2개를 모으면 모두 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 2+2 손가락이나 블록으로 세어 보면 답은 4예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 2+2 손가락이나 블록으로 세어 보면 답은 4예요. 2개와 2개를 모으면 모두 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "3+2",
+    "kind": "learning"
+  },
+  {
+    "text": "셋 더하기 둘",
+    "kind": "learning"
+  },
+  {
+    "text": "3개와 2개를 모으면 모두 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 3+2 손가락이나 블록으로 세어 보면 답은 5예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 3+2 손가락이나 블록으로 세어 보면 답은 5예요. 3개와 2개를 모으면 모두 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "1+1",
+    "kind": "learning"
+  },
+  {
+    "text": "하나 더하기 하나",
+    "kind": "learning"
+  },
+  {
+    "text": "1개와 1개를 모으면 모두 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 1+1 손가락이나 블록으로 세어 보면 답은 2예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 1+1 손가락이나 블록으로 세어 보면 답은 2예요. 1개와 1개를 모으면 모두 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "4-1",
+    "kind": "learning"
+  },
+  {
+    "text": "넷 빼기 하나",
+    "kind": "learning"
+  },
+  {
+    "text": "4개 중에 1개를 빼면 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 4-1 손가락이나 블록으로 세어 보면 답은 3예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 식 4-1 손가락이나 블록으로 세어 보면 답은 3예요. 4개 중에 1개를 빼면 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "꼭짓점 세 개",
+    "kind": "learning"
+  },
+  {
+    "text": "이 도형의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 세모예요. 다른 모양과도 비교해 보세요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 세모예요. 다른 모양과도 비교해 보세요. 이 도형의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 세모",
+    "kind": "learning"
+  },
+  {
+    "text": "'세모'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "네 변",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 네모예요. 다른 모양과도 비교해 보세요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 네모예요. 다른 모양과도 비교해 보세요. 이 도형의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 네모",
+    "kind": "learning"
+  },
+  {
+    "text": "'네모'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "파란 공",
+    "kind": "learning"
+  },
+  {
+    "text": "둥근 모양",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 동그라미예요. 다른 모양과도 비교해 보세요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 동그라미예요. 다른 모양과도 비교해 보세요. 이 도형의 이름은 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 동그라미",
+    "kind": "learning"
+  },
+  {
+    "text": "'동그라미'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "위",
+    "kind": "learning"
+  },
+  {
+    "text": "위쪽",
+    "kind": "learning"
+  },
+  {
+    "text": "화살표가 가리키는 방향은?",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 위예요. 다른 모양과도 비교해 보세요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 위예요. 다른 모양과도 비교해 보세요. 화살표가 가리키는 방향은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 위",
+    "kind": "learning"
+  },
+  {
+    "text": "'위'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "아래",
+    "kind": "learning"
+  },
+  {
+    "text": "아래쪽",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 아래예요. 다른 모양과도 비교해 보세요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 아래예요. 다른 모양과도 비교해 보세요. 화살표가 가리키는 방향은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 아래",
+    "kind": "learning"
+  },
+  {
+    "text": "'아래'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "오른쪽",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 오른쪽예요. 다른 모양과도 비교해 보세요.",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 살펴보면 정답은 오른쪽예요. 다른 모양과도 비교해 보세요. 화살표가 가리키는 방향은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 오른쪽",
+    "kind": "learning"
+  },
+  {
+    "text": "'오른쪽'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "에이",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 A예요. 영어 소리를 듣고 천천히 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 A예요. 영어 소리를 듣고 천천히 따라해 봐요. 쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. A",
+    "kind": "learning"
+  },
+  {
+    "text": "'A'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 B예요. 영어 소리를 듣고 천천히 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 B예요. 영어 소리를 듣고 천천히 따라해 봐요. 쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. B",
+    "kind": "learning"
+  },
+  {
+    "text": "'B'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "씨",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 C예요. 영어 소리를 듣고 천천히 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 C예요. 영어 소리를 듣고 천천히 따라해 봐요. 쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. C",
+    "kind": "learning"
+  },
+  {
+    "text": "'C'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "디",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 D예요. 영어 소리를 듣고 천천히 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 D예요. 영어 소리를 듣고 천천히 따라해 봐요. 쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. D",
+    "kind": "learning"
+  },
+  {
+    "text": "'D'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 E예요. 영어 소리를 듣고 천천히 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 E예요. 영어 소리를 듣고 천천히 따라해 봐요. 쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. E",
+    "kind": "learning"
+  },
+  {
+    "text": "'E'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "에프",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 F예요. 영어 소리를 듣고 천천히 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "알파벳 F예요. 영어 소리를 듣고 천천히 따라해 봐요. 쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. F",
+    "kind": "learning"
+  },
+  {
+    "text": "'F'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "‘고양이’를 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘고양이’는 영어로 CAT예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘고양이’는 영어로 CAT예요. 소리를 듣고 입으로 따라해 봐요. ‘고양이’를 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. CAT",
+    "kind": "learning"
+  },
+  {
+    "text": "'CAT'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "‘강아지’를 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘강아지’는 영어로 DOG예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘강아지’는 영어로 DOG예요. 소리를 듣고 입으로 따라해 봐요. ‘강아지’를 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. DOG",
+    "kind": "learning"
+  },
+  {
+    "text": "'DOG'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "돼지",
+    "kind": "learning"
+  },
+  {
+    "text": "‘돼지’를 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘돼지’는 영어로 PIG예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘돼지’는 영어로 PIG예요. 소리를 듣고 입으로 따라해 봐요. ‘돼지’를 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. PIG",
+    "kind": "learning"
+  },
+  {
+    "text": "'PIG'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "소",
+    "kind": "learning"
+  },
+  {
+    "text": "‘소’를 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘소’는 영어로 COW예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘소’는 영어로 COW예요. 소리를 듣고 입으로 따라해 봐요. ‘소’를 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. COW",
+    "kind": "learning"
+  },
+  {
+    "text": "'COW'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "‘곰’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘곰’는 영어로 BEAR예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘곰’는 영어로 BEAR예요. 소리를 듣고 입으로 따라해 봐요. ‘곰’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. BEAR",
+    "kind": "learning"
+  },
+  {
+    "text": "'BEAR'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "사자",
+    "kind": "learning"
+  },
+  {
+    "text": "‘사자’를 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘사자’는 영어로 LION예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘사자’는 영어로 LION예요. 소리를 듣고 입으로 따라해 봐요. ‘사자’를 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. LION",
+    "kind": "learning"
+  },
+  {
+    "text": "'LION'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "빨강",
+    "kind": "learning"
+  },
+  {
+    "text": "‘빨강’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘빨강’는 영어로 RED예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘빨강’는 영어로 RED예요. 소리를 듣고 입으로 따라해 봐요. ‘빨강’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. RED",
+    "kind": "learning"
+  },
+  {
+    "text": "'RED'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "파랑",
+    "kind": "learning"
+  },
+  {
+    "text": "‘파랑’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘파랑’는 영어로 BLUE예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘파랑’는 영어로 BLUE예요. 소리를 듣고 입으로 따라해 봐요. ‘파랑’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. BLUE",
+    "kind": "learning"
+  },
+  {
+    "text": "'BLUE'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "노랑",
+    "kind": "learning"
+  },
+  {
+    "text": "‘노랑’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘노랑’는 영어로 YELLOW예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘노랑’는 영어로 YELLOW예요. 소리를 듣고 입으로 따라해 봐요. ‘노랑’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. YELLOW",
+    "kind": "learning"
+  },
+  {
+    "text": "'YELLOW'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "초록",
+    "kind": "learning"
+  },
+  {
+    "text": "‘초록’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘초록’는 영어로 GREEN예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘초록’는 영어로 GREEN예요. 소리를 듣고 입으로 따라해 봐요. ‘초록’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. GREEN",
+    "kind": "learning"
+  },
+  {
+    "text": "'GREEN'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "흰색",
+    "kind": "learning"
+  },
+  {
+    "text": "‘흰색’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘흰색’는 영어로 WHITE예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘흰색’는 영어로 WHITE예요. 소리를 듣고 입으로 따라해 봐요. ‘흰색’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. WHITE",
+    "kind": "learning"
+  },
+  {
+    "text": "'WHITE'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "검정",
+    "kind": "learning"
+  },
+  {
+    "text": "‘검정’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘검정’는 영어로 BLACK예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘검정’는 영어로 BLACK예요. 소리를 듣고 입으로 따라해 봐요. ‘검정’을 영어로 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. BLACK",
+    "kind": "learning"
+  },
+  {
+    "text": "'BLACK'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "안녕하세요",
+    "kind": "learning"
+  },
+  {
+    "text": "인사할 때 ‘안녕!’은 영어로?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘안녕하세요’는 영어로 HELLO예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘안녕하세요’는 영어로 HELLO예요. 소리를 듣고 입으로 따라해 봐요. 인사할 때 ‘안녕!’은 영어로?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. HELLO",
+    "kind": "learning"
+  },
+  {
+    "text": "'HELLO'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "고마워요",
+    "kind": "learning"
+  },
+  {
+    "text": "‘고마워!’는 영어로 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘고마워요’는 영어로 THANK YOU예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘고마워요’는 영어로 THANK YOU예요. 소리를 듣고 입으로 따라해 봐요. ‘고마워!’는 영어로 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. THANK YOU",
+    "kind": "learning"
+  },
+  {
+    "text": "'THANK YOU'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "잘 가요",
+    "kind": "learning"
+  },
+  {
+    "text": "헤어질 때 ‘잘 가!’는 영어로?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘잘 가요’는 영어로 BYE예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘잘 가요’는 영어로 BYE예요. 소리를 듣고 입으로 따라해 봐요. 헤어질 때 ‘잘 가!’는 영어로?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. BYE",
+    "kind": "learning"
+  },
+  {
+    "text": "'BYE'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "영어로 ‘네!’라고 대답할 때는?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘네’는 영어로 YES예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘네’는 영어로 YES예요. 소리를 듣고 입으로 따라해 봐요. 영어로 ‘네!’라고 대답할 때는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. YES",
+    "kind": "learning"
+  },
+  {
+    "text": "'YES'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "영어로 ‘아니요!’라고 할 때는?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘아니요’는 영어로 NO예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘아니요’는 영어로 NO예요. 소리를 듣고 입으로 따라해 봐요. 영어로 ‘아니요!’라고 할 때는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. NO",
+    "kind": "learning"
+  },
+  {
+    "text": "'NO'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "좋은 아침",
+    "kind": "learning"
+  },
+  {
+    "text": "영어로 ‘좋은 아침!’을 말하면?",
+    "kind": "learning"
+  },
+  {
+    "text": "‘좋은 아침’는 영어로 GOOD MORNING예요. 소리를 듣고 입으로 따라해 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "‘좋은 아침’는 영어로 GOOD MORNING예요. 소리를 듣고 입으로 따라해 봐요. 영어로 ‘좋은 아침!’을 말하면?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. GOOD MORNING",
+    "kind": "learning"
+  },
+  {
+    "text": "'GOOD MORNING'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "생선",
+    "kind": "learning"
+  },
+  {
+    "text": "물고기가 사는 곳은 어디일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "물고기는 물속에서 헤엄치며 살아요.",
+    "kind": "learning"
+  },
+  {
+    "text": "물고기는 물속에서 헤엄치며 살아요. 물고기가 사는 곳은 어디일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 물",
+    "kind": "learning"
+  },
+  {
+    "text": "'물'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "새 둥지",
+    "kind": "learning"
+  },
+  {
+    "text": "새가 둥지를 만들 수 있는 곳은?",
+    "kind": "learning"
+  },
+  {
+    "text": "새는 가지와 풀 등을 모아 나무 위에 둥지를 만들기도 해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "새는 가지와 풀 등을 모아 나무 위에 둥지를 만들기도 해요. 새가 둥지를 만들 수 있는 곳은?",
+    "kind": "learning"
+  },
+  {
+    "text": "곰이 사는 자연환경은 어디일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "곰은 종류에 따라 숲과 산 등 다양한 환경에서 살아요.",
+    "kind": "learning"
+  },
+  {
+    "text": "곰은 종류에 따라 숲과 산 등 다양한 환경에서 살아요. 곰이 사는 자연환경은 어디일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 숲",
+    "kind": "learning"
+  },
+  {
+    "text": "'숲'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "낙타",
+    "kind": "learning"
+  },
+  {
+    "text": "낙타가 잘 적응한 건조한 곳은?",
+    "kind": "learning"
+  },
+  {
+    "text": "낙타는 건조한 사막 환경에 적응해 살 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "낙타는 건조한 사막 환경에 적응해 살 수 있어요. 낙타가 잘 적응한 건조한 곳은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 사막",
+    "kind": "learning"
+  },
+  {
+    "text": "'사막'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "남극",
+    "kind": "learning"
+  },
+  {
+    "text": "일부 펭귄",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 펭귄이 사는 차가운 대륙은?",
+    "kind": "learning"
+  },
+  {
+    "text": "펭귄은 종류에 따라 사는 곳이 달라요. 남극에 사는 펭귄도 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "펭귄은 종류에 따라 사는 곳이 달라요. 남극에 사는 펭귄도 있어요. 그림 속 펭귄이 사는 차가운 대륙은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 남극",
+    "kind": "learning"
+  },
+  {
+    "text": "'남극'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "개구리",
+    "kind": "learning"
+  },
+  {
+    "text": "개구리가 살기 좋은 물가 장소는?",
+    "kind": "learning"
+  },
+  {
+    "text": "개구리는 연못과 같은 물가에서 만날 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "개구리는 연못과 같은 물가에서 만날 수 있어요. 개구리가 살기 좋은 물가 장소는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 연못",
+    "kind": "learning"
+  },
+  {
+    "text": "'연못'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "식물이 마셔요",
+    "kind": "learning"
+  },
+  {
+    "text": "시들어 가는 화분에 무엇을 줄까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "식물은 자라기 위해 물이 필요해요. 화분에 물을 알맞게 줘요.",
+    "kind": "learning"
+  },
+  {
+    "text": "식물은 자라기 위해 물이 필요해요. 화분에 물을 알맞게 줘요. 시들어 가는 화분에 무엇을 줄까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "햇빛",
+    "kind": "learning"
+  },
+  {
+    "text": "빛을 받아요",
+    "kind": "learning"
+  },
+  {
+    "text": "식물이 밝은 곳에서 받는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "대부분의 식물은 햇빛을 이용해 자라는 데 필요한 양분을 만들어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "대부분의 식물은 햇빛을 이용해 자라는 데 필요한 양분을 만들어요. 식물이 밝은 곳에서 받는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 햇빛",
+    "kind": "learning"
+  },
+  {
+    "text": "'햇빛'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "씨앗에서 나요",
+    "kind": "learning"
+  },
+  {
+    "text": "씨앗에서 처음 돋아나는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "씨앗에서 처음 돋아나는 작고 어린 식물을 새싹이라고 해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "씨앗에서 처음 돋아나는 작고 어린 식물을 새싹이라고 해요. 씨앗에서 처음 돋아나는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 새싹",
+    "kind": "learning"
+  },
+  {
+    "text": "'새싹'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "꽃 이름",
+    "kind": "learning"
+  },
+  {
+    "text": "그림 속 분홍색 꽃의 이름은?",
+    "kind": "learning"
+  },
+  {
+    "text": "튤립은 봄에 피는 꽃으로 여러 가지 색이 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "튤립은 봄에 피는 꽃으로 여러 가지 색이 있어요. 그림 속 분홍색 꽃의 이름은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 튤립",
+    "kind": "learning"
+  },
+  {
+    "text": "'튤립'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "나무사과",
+    "kind": "learning"
+  },
+  {
+    "text": "나무 열매",
+    "kind": "learning"
+  },
+  {
+    "text": "사과나무에서 자라는 열매는?",
+    "kind": "learning"
+  },
+  {
+    "text": "사과나무에는 사과라는 열매가 열려요.",
+    "kind": "learning"
+  },
+  {
+    "text": "사과나무에는 사과라는 열매가 열려요. 사과나무에서 자라는 열매는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 사과",
+    "kind": "learning"
+  },
+  {
+    "text": "'사과'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "바람에 흔들려요",
+    "kind": "learning"
+  },
+  {
+    "text": "바람에 흔들리는 나무의 초록 부분은?",
+    "kind": "learning"
+  },
+  {
+    "text": "나무의 잎은 햇빛을 받고 바람에 흔들리기도 해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "나무의 잎은 햇빛을 받고 바람에 흔들리기도 해요. 바람에 흔들리는 나무의 초록 부분은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 잎",
+    "kind": "learning"
+  },
+  {
+    "text": "'잎'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "구름에서 내려요",
+    "kind": "learning"
+  },
+  {
+    "text": "구름에서 물방울이 떨어져요. 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "구름 속 물방울이 커져 떨어지면 비가 와요.",
+    "kind": "learning"
+  },
+  {
+    "text": "구름 속 물방울이 커져 떨어지면 비가 와요. 구름에서 물방울이 떨어져요. 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 비",
+    "kind": "learning"
+  },
+  {
+    "text": "'비'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "겨울에 내려요",
+    "kind": "learning"
+  },
+  {
+    "text": "겨울에 하늘에서 하얗게 내려요. 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "하늘에서 얼음 결정이 내려오면 눈이 올 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "하늘에서 얼음 결정이 내려오면 눈이 올 수 있어요. 겨울에 하늘에서 하얗게 내려요. 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 눈",
+    "kind": "learning"
+  },
+  {
+    "text": "'눈'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "더운 계절",
+    "kind": "learning"
+  },
+  {
+    "text": "햇볕이 강하고 더운 계절은?",
+    "kind": "learning"
+  },
+  {
+    "text": "여름은 대체로 기온이 높고 더운 계절이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "여름은 대체로 기온이 높고 더운 계절이에요. 햇볕이 강하고 더운 계절은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 여름",
+    "kind": "learning"
+  },
+  {
+    "text": "'여름'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "단풍 계절",
+    "kind": "learning"
+  },
+  {
+    "text": "나뭇잎 색깔이 변하고 떨어지는 계절은?",
+    "kind": "learning"
+  },
+  {
+    "text": "가을이 되면 나무의 잎이 노랗거나 붉게 변하기도 해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "가을이 되면 나무의 잎이 노랗거나 붉게 변하기도 해요. 나뭇잎 색깔이 변하고 떨어지는 계절은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 가을",
+    "kind": "learning"
+  },
+  {
+    "text": "'가을'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "꽃 피는 계절",
+    "kind": "learning"
+  },
+  {
+    "text": "꽃이 많이 피기 시작하는 계절은?",
+    "kind": "learning"
+  },
+  {
+    "text": "봄이 되면 날씨가 따뜻해지고 꽃이 피기 시작해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "봄이 되면 날씨가 따뜻해지고 꽃이 피기 시작해요. 꽃이 많이 피기 시작하는 계절은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 봄",
+    "kind": "learning"
+  },
+  {
+    "text": "'봄'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "추운 계절",
+    "kind": "learning"
+  },
+  {
+    "text": "춥고 눈이 내리기도 하는 계절은?",
+    "kind": "learning"
+  },
+  {
+    "text": "겨울은 기온이 낮고 추운 계절이에요. 눈이 올 수도 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "겨울은 기온이 낮고 추운 계절이에요. 눈이 올 수도 있어요. 춥고 눈이 내리기도 하는 계절은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 겨울",
+    "kind": "learning"
+  },
+  {
+    "text": "'겨울'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "얼음이 녹으면",
+    "kind": "learning"
+  },
+  {
+    "text": "얼음이 녹으면 무엇으로 변할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "얼음이 따뜻해지면 녹아서 물이 돼요.",
+    "kind": "learning"
+  },
+  {
+    "text": "얼음이 따뜻해지면 녹아서 물이 돼요. 얼음이 녹으면 무엇으로 변할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "물이 얼면",
+    "kind": "learning"
+  },
+  {
+    "text": "물이 꽁꽁 얼면 무엇이 될까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "물이 충분히 차가워지면 얼음으로 변할 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "물이 충분히 차가워지면 얼음으로 변할 수 있어요. 물이 꽁꽁 얼면 무엇이 될까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 얼음",
+    "kind": "learning"
+  },
+  {
+    "text": "'얼음'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "빨간 풍선",
+    "kind": "learning"
+  },
+  {
+    "text": "공기",
+    "kind": "learning"
+  },
+  {
+    "text": "풍선 속",
+    "kind": "learning"
+  },
+  {
+    "text": "풍선 안을 채우는 보이지 않는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "풍선 속에는 공기가 들어 있어요. 공기는 보이지 않아도 공간을 차지해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "풍선 속에는 공기가 들어 있어요. 공기는 보이지 않아도 공간을 차지해요. 풍선 안을 채우는 보이지 않는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 공기",
+    "kind": "learning"
+  },
+  {
+    "text": "'공기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "철",
+    "kind": "learning"
+  },
+  {
+    "text": "자석에 붙어요",
+    "kind": "learning"
+  },
+  {
+    "text": "자석이 붙기 쉬운 재료는 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "자석은 철로 된 물건을 끌어당길 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "자석은 철로 된 물건을 끌어당길 수 있어요. 자석이 붙기 쉬운 재료는 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 철",
+    "kind": "learning"
+  },
+  {
+    "text": "'철'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "손전등",
+    "kind": "learning"
+  },
+  {
+    "text": "어둠을 밝혀요",
+    "kind": "learning"
+  },
+  {
+    "text": "어두운 곳을 비춰 주는 물건은?",
+    "kind": "learning"
+  },
+  {
+    "text": "손전등은 빛을 내어 어두운 곳을 비춰 줘요.",
+    "kind": "learning"
+  },
+  {
+    "text": "손전등은 빛을 내어 어두운 곳을 비춰 줘요. 어두운 곳을 비춰 주는 물건은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 손전등",
+    "kind": "learning"
+  },
+  {
+    "text": "'손전등'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "물결",
+    "kind": "learning"
+  },
+  {
+    "text": "물을 저으면",
+    "kind": "learning"
+  },
+  {
+    "text": "물에 숟가락을 넣고 저으면 생기는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "물에 숟가락을 넣고 움직이면 물결이 생겨요.",
+    "kind": "learning"
+  },
+  {
+    "text": "물에 숟가락을 넣고 움직이면 물결이 생겨요. 물에 숟가락을 넣고 저으면 생기는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 물결",
+    "kind": "learning"
+  },
+  {
+    "text": "'물결'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "ㄱㄴ",
+    "kind": "learning"
+  },
+  {
+    "text": "한글 만든 왕",
+    "kind": "learning"
+  },
+  {
+    "text": "백성이 쉽게 글을 쓰도록 한글을 만든 왕은?",
+    "kind": "learning"
+  },
+  {
+    "text": "세종대왕은 백성이 글을 쉽게 배울 수 있도록 훈민정음을 만들었어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "세종대왕은 백성이 글을 쉽게 배울 수 있도록 훈민정음을 만들었어요. 백성이 쉽게 글을 쓰도록 한글을 만든 왕은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 세종대왕",
+    "kind": "learning"
+  },
+  {
+    "text": "'세종대왕'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "바다 지킨 장군",
+    "kind": "learning"
+  },
+  {
+    "text": "바다에서 우리나라를 지킨 장군은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이순신 장군은 조선 시대 바다에서 나라를 지키는 데 큰 역할을 했어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "이순신 장군은 조선 시대 바다에서 나라를 지키는 데 큰 역할을 했어요. 바다에서 우리나라를 지킨 장군은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 이순신",
+    "kind": "learning"
+  },
+  {
+    "text": "'이순신'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "과학 기구",
+    "kind": "learning"
+  },
+  {
+    "text": "과학 기구를 만드는 데 큰 역할을 한 사람은?",
+    "kind": "learning"
+  },
+  {
+    "text": "장영실은 세종대왕 때 천문·시간·기상 관측 기구 제작에 참여했어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "장영실은 세종대왕 때 천문·시간·기상 관측 기구 제작에 참여했어요. 과학 기구를 만드는 데 큰 역할을 한 사람은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 장영실",
+    "kind": "learning"
+  },
+  {
+    "text": "'장영실'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "동의보감",
+    "kind": "learning"
+  },
+  {
+    "text": "옛날 의학책 ‘동의보감’을 엮은 사람은?",
+    "kind": "learning"
+  },
+  {
+    "text": "허준은 병을 치료하는 지식을 모은 의학책 동의보감을 편찬했어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "허준은 병을 치료하는 지식을 모은 의학책 동의보감을 편찬했어요. 옛날 의학책 ‘동의보감’을 엮은 사람은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 허준",
+    "kind": "learning"
+  },
+  {
+    "text": "'허준'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "독립 만세",
+    "kind": "learning"
+  },
+  {
+    "text": "우리나라의 독립을 외친 여성 독립운동가는?",
+    "kind": "learning"
+  },
+  {
+    "text": "유관순은 일제강점기에 독립 만세를 외치며 독립운동에 참여했어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "유관순은 일제강점기에 독립 만세를 외치며 독립운동에 참여했어요. 우리나라의 독립을 외친 여성 독립운동가는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 유관순",
+    "kind": "learning"
+  },
+  {
+    "text": "'유관순'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "화가",
+    "kind": "learning"
+  },
+  {
+    "text": "그림을 잘 그린 조선 시대 인물은?",
+    "kind": "learning"
+  },
+  {
+    "text": "신사임당은 식물과 곤충 등의 그림으로 알려진 조선 시대 화가예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "신사임당은 식물과 곤충 등의 그림으로 알려진 조선 시대 화가예요. 그림을 잘 그린 조선 시대 인물은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 신사임당",
+    "kind": "learning"
+  },
+  {
+    "text": "'신사임당'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "비의 양 재기",
+    "kind": "learning"
+  },
+  {
+    "text": "내린 비의 양을 재던 옛 도구는?",
+    "kind": "learning"
+  },
+  {
+    "text": "측우기는 내린 비가 얼마나 되는지 재는 옛날 도구예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "측우기는 내린 비가 얼마나 되는지 재는 옛날 도구예요. 내린 비의 양을 재던 옛 도구는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 측우기",
+    "kind": "learning"
+  },
+  {
+    "text": "'측우기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "조선 전투 배",
+    "kind": "learning"
+  },
+  {
+    "text": "거북처럼 생긴 조선의 전투 배는?",
+    "kind": "learning"
+  },
+  {
+    "text": "거북선은 조선 수군이 사용한 특별한 전투 배예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "거북선은 조선 수군이 사용한 특별한 전투 배예요. 거북처럼 생긴 조선의 전투 배는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 거북선",
+    "kind": "learning"
+  },
+  {
+    "text": "'거북선'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "부채",
+    "kind": "learning"
+  },
+  {
+    "text": "바람 만들기",
+    "kind": "learning"
+  },
+  {
+    "text": "손으로 흔들어 시원한 바람을 만드는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "부채를 손으로 흔들면 바람이 만들어져요.",
+    "kind": "learning"
+  },
+  {
+    "text": "부채를 손으로 흔들면 바람이 만들어져요. 손으로 흔들어 시원한 바람을 만드는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 부채",
+    "kind": "learning"
+  },
+  {
+    "text": "'부채'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "갓",
+    "kind": "learning"
+  },
+  {
+    "text": "옛날 모자",
+    "kind": "learning"
+  },
+  {
+    "text": "옛날 선비가 머리에 쓰던 모자는?",
+    "kind": "learning"
+  },
+  {
+    "text": "갓은 조선 시대에 사람들이 머리에 쓰던 전통 모자예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "갓은 조선 시대에 사람들이 머리에 쓰던 전통 모자예요. 옛날 선비가 머리에 쓰던 모자는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 갓",
+    "kind": "learning"
+  },
+  {
+    "text": "'갓'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "절구",
+    "kind": "learning"
+  },
+  {
+    "text": "곡식 찧기",
+    "kind": "learning"
+  },
+  {
+    "text": "곡식을 찧을 때 쓰던 물건은?",
+    "kind": "learning"
+  },
+  {
+    "text": "절구는 곡식이나 재료를 찧는 데 사용하는 도구예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "절구는 곡식이나 재료를 찧는 데 사용하는 도구예요. 곡식을 찧을 때 쓰던 물건은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 절구",
+    "kind": "learning"
+  },
+  {
+    "text": "'절구'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "물레",
+    "kind": "learning"
+  },
+  {
+    "text": "실 잣기",
+    "kind": "learning"
+  },
+  {
+    "text": "솜이나 섬유로 실을 뽑는 옛 도구는?",
+    "kind": "learning"
+  },
+  {
+    "text": "물레는 솜이나 섬유로 실을 만들 때 사용하는 도구예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "물레는 솜이나 섬유로 실을 만들 때 사용하는 도구예요. 솜이나 섬유로 실을 뽑는 옛 도구는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 물레",
+    "kind": "learning"
+  },
+  {
+    "text": "'물레'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "우리 국기",
+    "kind": "learning"
+  },
+  {
+    "text": "우리나라 국기의 이름은?",
+    "kind": "learning"
+  },
+  {
+    "text": "태극기는 우리나라의 국기예요. 가운데 태극 문양과 네 모서리의 괘가 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "태극기는 우리나라의 국기예요. 가운데 태극 문양과 네 모서리의 괘가 있어요. 우리나라 국기의 이름은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 태극기",
+    "kind": "learning"
+  },
+  {
+    "text": "'태극기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "나라꽃",
+    "kind": "learning"
+  },
+  {
+    "text": "우리나라를 대표하는 꽃은?",
+    "kind": "learning"
+  },
+  {
+    "text": "무궁화는 우리나라의 나라꽃이에요. 우리나라를 대표하는 꽃은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 무궁화",
+    "kind": "learning"
+  },
+  {
+    "text": "'무궁화'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "우리 국가",
+    "kind": "learning"
+  },
+  {
+    "text": "우리나라를 대표하는 노래는?",
+    "kind": "learning"
+  },
+  {
+    "text": "애국가는 우리나라를 대표하는 노래예요. 우리나라를 대표하는 노래는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 애국가",
+    "kind": "learning"
+  },
+  {
+    "text": "'애국가'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "ㄱㄴㄷ",
+    "kind": "learning"
+  },
+  {
+    "text": "우리 글자",
+    "kind": "learning"
+  },
+  {
+    "text": "우리나라 글자는 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "한글은 우리가 읽고 쓰는 우리나라 글자예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "한글은 우리가 읽고 쓰는 우리나라 글자예요. 우리나라 글자는 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 한글",
+    "kind": "learning"
+  },
+  {
+    "text": "'한글'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "전통 옷",
+    "kind": "learning"
+  },
+  {
+    "text": "우리나라 전통 옷의 이름은?",
+    "kind": "learning"
+  },
+  {
+    "text": "한복은 우리나라 전통 옷이에요. 색과 모양이 다양해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "한복은 우리나라 전통 옷이에요. 색과 모양이 다양해요. 우리나라 전통 옷의 이름은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 한복",
+    "kind": "learning"
+  },
+  {
+    "text": "'한복'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "새 글자 알린 책",
+    "kind": "learning"
+  },
+  {
+    "text": "세종대왕이 새 글자를 알린 책은?",
+    "kind": "learning"
+  },
+  {
+    "text": "훈민정음은 세종대왕이 만든 새 글자를 설명하고 알린 책이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "훈민정음은 세종대왕이 만든 새 글자를 설명하고 알린 책이에요. 세종대왕이 새 글자를 알린 책은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 훈민정음",
+    "kind": "learning"
+  },
+  {
+    "text": "'훈민정음'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "항아리",
+    "kind": "learning"
+  },
+  {
+    "text": "옛날 그릇",
+    "kind": "learning"
+  },
+  {
+    "text": "옛날에 곡식이나 음식을 담던 큰 그릇은?",
+    "kind": "learning"
+  },
+  {
+    "text": "항아리는 곡식이나 음식을 보관하는 데 사용하던 그릇이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "항아리는 곡식이나 음식을 보관하는 데 사용하던 그릇이에요. 옛날에 곡식이나 음식을 담던 큰 그릇은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 항아리",
+    "kind": "learning"
+  },
+  {
+    "text": "'항아리'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "등잔",
+    "kind": "learning"
+  },
+  {
+    "text": "옛날 불빛",
+    "kind": "learning"
+  },
+  {
+    "text": "전기가 없을 때 불을 밝혀 주던 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "등잔은 옛날에 기름과 심지로 불빛을 내던 물건이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "등잔은 옛날에 기름과 심지로 불빛을 내던 물건이에요. 전기가 없을 때 불을 밝혀 주던 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 등잔",
+    "kind": "learning"
+  },
+  {
+    "text": "'등잔'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "연날리기",
+    "kind": "learning"
+  },
+  {
+    "text": "연 띄우기",
+    "kind": "learning"
+  },
+  {
+    "text": "바람에 연을 띄우는 놀이는?",
+    "kind": "learning"
+  },
+  {
+    "text": "연날리기는 바람을 이용해 하늘에 연을 띄우는 놀이예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "연날리기는 바람을 이용해 하늘에 연을 띄우는 놀이예요. 바람에 연을 띄우는 놀이는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 연날리기",
+    "kind": "learning"
+  },
+  {
+    "text": "'연날리기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "윷놀이",
+    "kind": "learning"
+  },
+  {
+    "text": "윷 던지기",
+    "kind": "learning"
+  },
+  {
+    "text": "나무 막대 네 개를 던지는 놀이는?",
+    "kind": "learning"
+  },
+  {
+    "text": "윷놀이는 윷가락 네 개를 던져 나온 결과에 따라 말을 움직이는 놀이예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "윷놀이는 윷가락 네 개를 던져 나온 결과에 따라 말을 움직이는 놀이예요. 나무 막대 네 개를 던지는 놀이는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 윷놀이",
+    "kind": "learning"
+  },
+  {
+    "text": "'윷놀이'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "씨름",
+    "kind": "learning"
+  },
+  {
+    "text": "모래판 겨루기",
+    "kind": "learning"
+  },
+  {
+    "text": "모래판에서 힘을 겨루는 놀이는?",
+    "kind": "learning"
+  },
+  {
+    "text": "씨름은 모래판에서 상대와 힘과 기술을 겨루는 전통 경기예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "씨름은 모래판에서 상대와 힘과 기술을 겨루는 전통 경기예요. 모래판에서 힘을 겨루는 놀이는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 씨름",
+    "kind": "learning"
+  },
+  {
+    "text": "'씨름'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "제기차기",
+    "kind": "learning"
+  },
+  {
+    "text": "발로 차기",
+    "kind": "learning"
+  },
+  {
+    "text": "제기를 발로 차는 전통놀이는?",
+    "kind": "learning"
+  },
+  {
+    "text": "제기차기는 제기가 땅에 떨어지지 않도록 발로 차는 놀이예요.",
+    "kind": "learning"
+  },
+  {
+    "text": "제기차기는 제기가 땅에 떨어지지 않도록 발로 차는 놀이예요. 제기를 발로 차는 전통놀이는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 제기차기",
+    "kind": "learning"
+  },
+  {
+    "text": "'제기차기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이가 화살표를 따라 어디로 갈까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "위쪽 화살표는 위로 한 칸 움직이라는 뜻이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "위쪽 화살표는 위로 한 칸 움직이라는 뜻이에요. 쪼이가 화살표를 따라 어디로 갈까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "아래쪽 화살표는 아래로 한 칸 움직이라는 뜻이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "아래쪽 화살표는 아래로 한 칸 움직이라는 뜻이에요. 쪼이가 화살표를 따라 어디로 갈까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "왼쪽",
+    "kind": "learning"
+  },
+  {
+    "text": "왼쪽 화살표를 따라가면 왼쪽으로 움직여요.",
+    "kind": "learning"
+  },
+  {
+    "text": "왼쪽 화살표를 따라가면 왼쪽으로 움직여요. 쪼이가 화살표를 따라 어디로 갈까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 왼쪽",
+    "kind": "learning"
+  },
+  {
+    "text": "'왼쪽'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "오른쪽 화살표를 따라가면 오른쪽으로 움직여요.",
+    "kind": "learning"
+  },
+  {
+    "text": "오른쪽 화살표를 따라가면 오른쪽으로 움직여요. 쪼이가 화살표를 따라 어디로 갈까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "위 두 칸",
+    "kind": "learning"
+  },
+  {
+    "text": "두 칸",
+    "kind": "learning"
+  },
+  {
+    "text": "위 화살표가 두 번 나왔어요. 어떻게 갈까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "위 화살표를 두 번 사용하면 위로 두 칸 움직여요.",
+    "kind": "learning"
+  },
+  {
+    "text": "위 화살표를 두 번 사용하면 위로 두 칸 움직여요. 위 화살표가 두 번 나왔어요. 어떻게 갈까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 위 두 칸",
+    "kind": "learning"
+  },
+  {
+    "text": "'위 두 칸'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "오른쪽 두 칸",
+    "kind": "learning"
+  },
+  {
+    "text": "오른쪽 화살표가 두 번 나왔어요. 어떻게 갈까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "오른쪽 화살표를 두 번 사용하면 오른쪽으로 두 칸 움직여요.",
+    "kind": "learning"
+  },
+  {
+    "text": "오른쪽 화살표를 두 번 사용하면 오른쪽으로 두 칸 움직여요. 오른쪽 화살표가 두 번 나왔어요. 어떻게 갈까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 오른쪽 두 칸",
+    "kind": "learning"
+  },
+  {
+    "text": "'오른쪽 두 칸'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "파란 공파란 공",
+    "kind": "learning"
+  },
+  {
+    "text": "색 규칙",
+    "kind": "learning"
+  },
+  {
+    "text": "빨강·파랑이 반복돼요. 다음 색은?",
+    "kind": "learning"
+  },
+  {
+    "text": "빨강 다음 파랑이 반복되니 다음에는 빨강이 와요.",
+    "kind": "learning"
+  },
+  {
+    "text": "빨강 다음 파랑이 반복되니 다음에는 빨강이 와요. 빨강·파랑이 반복돼요. 다음 색은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 빨강",
+    "kind": "learning"
+  },
+  {
+    "text": "'빨강'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "별달별달",
+    "kind": "learning"
+  },
+  {
+    "text": "하늘 규칙",
+    "kind": "learning"
+  },
+  {
+    "text": "별·달이 반복돼요. 다음 그림은?",
+    "kind": "learning"
+  },
+  {
+    "text": "별 다음 달이 반복되니 다음에는 별이 와요.",
+    "kind": "learning"
+  },
+  {
+    "text": "별 다음 달이 반복되니 다음에는 별이 와요. 별·달이 반복돼요. 다음 그림은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 별",
+    "kind": "learning"
+  },
+  {
+    "text": "'별'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "토끼토끼",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 규칙",
+    "kind": "learning"
+  },
+  {
+    "text": "토끼·호랑이가 번갈아 나와요. 다음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "토끼 다음 호랑이가 반복되니 다음에는 토끼가 와요.",
+    "kind": "learning"
+  },
+  {
+    "text": "토끼 다음 호랑이가 반복되니 다음에는 토끼가 와요. 토끼·호랑이가 번갈아 나와요. 다음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 토끼",
+    "kind": "learning"
+  },
+  {
+    "text": "'토끼'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "모양 규칙",
+    "kind": "learning"
+  },
+  {
+    "text": "세모·네모가 반복돼요. 다음 도형은?",
+    "kind": "learning"
+  },
+  {
+    "text": "세모 다음 네모가 반복되니 다음에는 세모가 와요.",
+    "kind": "learning"
+  },
+  {
+    "text": "세모 다음 네모가 반복되니 다음에는 세모가 와요. 세모·네모가 반복돼요. 다음 도형은?",
+    "kind": "learning"
+  },
+  {
+    "text": "사과바나나사과바나나",
+    "kind": "learning"
+  },
+  {
+    "text": "과일 규칙",
+    "kind": "learning"
+  },
+  {
+    "text": "사과·바나나가 번갈아 나와요. 다음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "사과 다음 바나나가 반복되니 다음에는 사과가 와요.",
+    "kind": "learning"
+  },
+  {
+    "text": "사과 다음 바나나가 반복되니 다음에는 사과가 와요. 사과·바나나가 번갈아 나와요. 다음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "방향 규칙",
+    "kind": "learning"
+  },
+  {
+    "text": "위·오른쪽이 반복돼요. 다음 방향은?",
+    "kind": "learning"
+  },
+  {
+    "text": "위 다음 오른쪽이 반복되니 다음에는 위쪽이 와요.",
+    "kind": "learning"
+  },
+  {
+    "text": "위 다음 오른쪽이 반복되니 다음에는 위쪽이 와요. 위·오른쪽이 반복돼요. 다음 방향은?",
+    "kind": "learning"
+  },
+  {
+    "text": "물과 비누",
+    "kind": "learning"
+  },
+  {
+    "text": "손 씻기",
+    "kind": "learning"
+  },
+  {
+    "text": "손을 깨끗이 씻을 때 필요한 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "손을 씻을 때는 손에 물을 묻히고 비누로 문질러 헹궈요.",
+    "kind": "learning"
+  },
+  {
+    "text": "손을 씻을 때는 손에 물을 묻히고 비누로 문질러 헹궈요. 손을 깨끗이 씻을 때 필요한 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 물과 비누",
+    "kind": "learning"
+  },
+  {
+    "text": "'물과 비누'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "칫솔",
+    "kind": "learning"
+  },
+  {
+    "text": "양치하기",
+    "kind": "learning"
+  },
+  {
+    "text": "이를 닦을 때 필요한 물건은?",
+    "kind": "learning"
+  },
+  {
+    "text": "양치할 때는 칫솔로 치아를 골고루 닦아요.",
+    "kind": "learning"
+  },
+  {
+    "text": "양치할 때는 칫솔로 치아를 골고루 닦아요. 이를 닦을 때 필요한 물건은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 칫솔",
+    "kind": "learning"
+  },
+  {
+    "text": "'칫솔'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "식물 돌보기",
+    "kind": "learning"
+  },
+  {
+    "text": "식물을 돌보려면 무엇을 줄까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "식물을 돌볼 때는 물을 알맞게 주고 햇빛도 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "식물을 돌볼 때는 물을 알맞게 주고 햇빛도 살펴봐요. 식물을 돌보려면 무엇을 줄까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "신발",
+    "kind": "learning"
+  },
+  {
+    "text": "밖에 나가기",
+    "kind": "learning"
+  },
+  {
+    "text": "밖에 나갈 때 발에 신는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "밖에 나가기 전에 발에 신발을 신어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "밖에 나가기 전에 발에 신발을 신어요. 밖에 나갈 때 발에 신는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 신발",
+    "kind": "learning"
+  },
+  {
+    "text": "'신발'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "읽기",
+    "kind": "learning"
+  },
+  {
+    "text": "이야기를 읽고 싶을 때 필요한 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "책을 보려면 펼치고 글과 그림을 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "책을 보려면 펼치고 글과 그림을 살펴봐요. 이야기를 읽고 싶을 때 필요한 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 책",
+    "kind": "learning"
+  },
+  {
+    "text": "'책'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "바닥 블록",
+    "kind": "learning"
+  },
+  {
+    "text": "집 쌓기",
+    "kind": "learning"
+  },
+  {
+    "text": "집 블록을 쌓을 때 아래에 놓는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "블록으로 집을 쌓을 때 바닥 블록을 먼저 튼튼하게 놓아요.",
+    "kind": "learning"
+  },
+  {
+    "text": "블록으로 집을 쌓을 때 바닥 블록을 먼저 튼튼하게 놓아요. 집 블록을 쌓을 때 아래에 놓는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 바닥 블록",
+    "kind": "learning"
+  },
+  {
+    "text": "'바닥 블록'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "비 오면",
+    "kind": "learning"
+  },
+  {
+    "text": "비가 오면 무엇을 준비할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "비가 오면 우산을 준비해요. 비가 그치면 필요하지 않을 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "비가 오면 우산을 준비해요. 비가 그치면 필요하지 않을 수 있어요. 비가 오면 무엇을 준비할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 우산",
+    "kind": "learning"
+  },
+  {
+    "text": "'우산'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "햇볕 강하면",
+    "kind": "learning"
+  },
+  {
+    "text": "햇볕이 강할 때 머리에 쓸 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "햇볕이 강할 때는 모자를 쓰면 도움이 돼요.",
+    "kind": "learning"
+  },
+  {
+    "text": "햇볕이 강할 때는 모자를 쓰면 도움이 돼요. 햇볕이 강할 때 머리에 쓸 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 모자",
+    "kind": "learning"
+  },
+  {
+    "text": "'모자'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "멈춤",
+    "kind": "learning"
+  },
+  {
+    "text": "빨간 신호",
+    "kind": "learning"
+  },
+  {
+    "text": "빨간 보행 신호일 때 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "보행 신호가 빨간색이면 멈춰서 기다려요.",
+    "kind": "learning"
+  },
+  {
+    "text": "보행 신호가 빨간색이면 멈춰서 기다려요. 빨간 보행 신호일 때 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 멈춤",
+    "kind": "learning"
+  },
+  {
+    "text": "'멈춤'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "조심히 건너기",
+    "kind": "learning"
+  },
+  {
+    "text": "초록 보행 신호",
+    "kind": "learning"
+  },
+  {
+    "text": "초록 보행 신호일 때 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "초록 보행 신호라도 좌우를 살피고 안전하게 건너요.",
+    "kind": "learning"
+  },
+  {
+    "text": "초록 보행 신호라도 좌우를 살피고 안전하게 건너요. 초록 보행 신호일 때 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 조심히 건너기",
+    "kind": "learning"
+  },
+  {
+    "text": "'조심히 건너기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "추운 날",
+    "kind": "learning"
+  },
+  {
+    "text": "추운 날 밖에 나갈 때 입는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "날씨가 추우면 따뜻한 외투를 입어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "날씨가 추우면 따뜻한 외투를 입어요. 추운 날 밖에 나갈 때 입는 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 외투",
+    "kind": "learning"
+  },
+  {
+    "text": "'외투'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "길 따라가기",
+    "kind": "learning"
+  },
+  {
+    "text": "집으로",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이가 집에 가고 싶어요. 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이가 집에 가려면 길을 따라 안전하게 움직여야 해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이가 집에 가려면 길을 따라 안전하게 움직여야 해요. 쪼이가 집에 가고 싶어요. 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 길 따라가기",
+    "kind": "learning"
+  },
+  {
+    "text": "'길 따라가기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "밥",
+    "kind": "learning"
+  },
+  {
+    "text": "밥은 꼭 필요한 것일까요, 갖고 싶은 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "밥은 배고픔을 해결하는 데 필요한 음식이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "밥은 배고픔을 해결하는 데 필요한 음식이에요. 밥은 꼭 필요한 것일까요, 갖고 싶은 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 필요한 것",
+    "kind": "learning"
+  },
+  {
+    "text": "'필요한 것'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "마실 물은 꼭 필요한 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "마실 물은 우리 몸에 꼭 필요해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "마실 물은 우리 몸에 꼭 필요해요. 마실 물은 꼭 필요한 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "추운 날 외투",
+    "kind": "learning"
+  },
+  {
+    "text": "추운 날 외투는 꼭 필요한 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "추울 때 몸을 따뜻하게 해 주는 외투는 필요해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "추울 때 몸을 따뜻하게 해 주는 외투는 필요해요. 추운 날 외투는 꼭 필요한 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "인형",
+    "kind": "learning"
+  },
+  {
+    "text": "예쁜 인형은 꼭 필요한 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "새 인형은 꼭 필요하지 않아도 가지고 싶을 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "새 인형은 꼭 필요하지 않아도 가지고 싶을 수 있어요. 예쁜 인형은 꼭 필요한 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 갖고 싶은 것",
+    "kind": "learning"
+  },
+  {
+    "text": "'갖고 싶은 것'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "사탕",
+    "kind": "learning"
+  },
+  {
+    "text": "사탕은 꼭 필요한 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "사탕은 맛있지만 생활에 꼭 필요한 물건은 아니에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "사탕은 맛있지만 생활에 꼭 필요한 물건은 아니에요. 사탕은 꼭 필요한 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "게임기",
+    "kind": "learning"
+  },
+  {
+    "text": "새 게임기는 꼭 필요한 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "게임기는 즐겁지만 없어도 살아갈 수 있는 물건이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "게임기는 즐겁지만 없어도 살아갈 수 있는 물건이에요. 새 게임기는 꼭 필요한 것일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "음식",
+    "kind": "learning"
+  },
+  {
+    "text": "요리사",
+    "kind": "learning"
+  },
+  {
+    "text": "요리사는 어떤 것을 만들까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "요리사는 음식을 만들어 사람들에게 제공해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "요리사는 음식을 만들어 사람들에게 제공해요. 요리사는 어떤 것을 만들까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 음식",
+    "kind": "learning"
+  },
+  {
+    "text": "'음식'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "작물",
+    "kind": "learning"
+  },
+  {
+    "text": "농부",
+    "kind": "learning"
+  },
+  {
+    "text": "농부는 무엇을 기를까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "농부는 밭에서 채소나 곡식을 기르기도 해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "농부는 밭에서 채소나 곡식을 기르기도 해요. 농부는 무엇을 기를까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 작물",
+    "kind": "learning"
+  },
+  {
+    "text": "'작물'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "배움",
+    "kind": "learning"
+  },
+  {
+    "text": "선생님",
+    "kind": "learning"
+  },
+  {
+    "text": "선생님은 어떤 일을 도울까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "선생님은 새로운 것을 배우도록 도와줘요.",
+    "kind": "learning"
+  },
+  {
+    "text": "선생님은 새로운 것을 배우도록 도와줘요. 선생님은 어떤 일을 도울까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 배움",
+    "kind": "learning"
+  },
+  {
+    "text": "'배움'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "건강",
+    "kind": "learning"
+  },
+  {
+    "text": "의사",
+    "kind": "learning"
+  },
+  {
+    "text": "의사는 무엇을 돌볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "의사는 아픈 사람을 살피고 건강을 돌보는 일을 해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "의사는 아픈 사람을 살피고 건강을 돌보는 일을 해요. 의사는 무엇을 돌볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 건강",
+    "kind": "learning"
+  },
+  {
+    "text": "'건강'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "정비사",
+    "kind": "learning"
+  },
+  {
+    "text": "정비사는 무엇을 고칠까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "정비사는 자동차가 잘 움직이도록 고치고 점검해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "정비사는 자동차가 잘 움직이도록 고치고 점검해요. 정비사는 무엇을 고칠까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 자동차",
+    "kind": "learning"
+  },
+  {
+    "text": "'자동차'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "운전사",
+    "kind": "learning"
+  },
+  {
+    "text": "버스 운전사는 무엇을 운전할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "버스 운전사는 버스를 운전해 사람들을 목적지로 데려다줘요.",
+    "kind": "learning"
+  },
+  {
+    "text": "버스 운전사는 버스를 운전해 사람들을 목적지로 데려다줘요. 버스 운전사는 무엇을 운전할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 버스",
+    "kind": "learning"
+  },
+  {
+    "text": "'버스'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "물건 구매",
+    "kind": "learning"
+  },
+  {
+    "text": "오늘 물건을 살 때 돈을 어디에 둘까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "물건을 사는 데 쓰는 돈은 ‘쓰는 돈’ 항아리에 담아 생각해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "물건을 사는 데 쓰는 돈은 ‘쓰는 돈’ 항아리에 담아 생각해요. 오늘 물건을 살 때 돈을 어디에 둘까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 쓰는 돈",
+    "kind": "learning"
+  },
+  {
+    "text": "'쓰는 돈'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "미래 저금",
+    "kind": "learning"
+  },
+  {
+    "text": "나중을 위해 돈을 모을 때는?",
+    "kind": "learning"
+  },
+  {
+    "text": "나중에 필요한 것을 위해 모아 두는 돈은 ‘저금할 돈’이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "나중에 필요한 것을 위해 모아 두는 돈은 ‘저금할 돈’이에요. 나중을 위해 돈을 모을 때는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 저금할 돈",
+    "kind": "learning"
+  },
+  {
+    "text": "'저금할 돈'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "도움주기",
+    "kind": "learning"
+  },
+  {
+    "text": "어려운 이웃을 돕고 싶을 때는?",
+    "kind": "learning"
+  },
+  {
+    "text": "다른 사람을 돕기 위한 돈은 ‘나눌 돈’으로 모을 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "다른 사람을 돕기 위한 돈은 ‘나눌 돈’으로 모을 수 있어요. 어려운 이웃을 돕고 싶을 때는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 나눌 돈",
+    "kind": "learning"
+  },
+  {
+    "text": "'나눌 돈'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "오늘 빵",
+    "kind": "learning"
+  },
+  {
+    "text": "지금 빵을 사는 돈은 어느 항아리에?",
+    "kind": "learning"
+  },
+  {
+    "text": "지금 빵을 사는 돈은 ‘쓰는 돈’이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "지금 빵을 사는 돈은 ‘쓰는 돈’이에요. 지금 빵을 사는 돈은 어느 항아리에?",
+    "kind": "learning"
+  },
+  {
+    "text": "미래 장난감",
+    "kind": "learning"
+  },
+  {
+    "text": "나중에 자동차 장난감을 사려고 모으는 돈은?",
+    "kind": "learning"
+  },
+  {
+    "text": "나중에 장난감 자동차를 사려고 모으는 것은 저금이에요.",
+    "kind": "learning"
+  },
+  {
+    "text": "나중에 장난감 자동차를 사려고 모으는 것은 저금이에요. 나중에 자동차 장난감을 사려고 모으는 돈은?",
+    "kind": "learning"
+  },
+  {
+    "text": "선물",
+    "kind": "learning"
+  },
+  {
+    "text": "누군가에게 선물하려고 모으는 돈은?",
+    "kind": "learning"
+  },
+  {
+    "text": "다른 사람에게 선물을 준비하는 것은 나누는 마음과 관련돼요.",
+    "kind": "learning"
+  },
+  {
+    "text": "다른 사람에게 선물을 준비하는 것은 나누는 마음과 관련돼요. 누군가에게 선물하려고 모으는 돈은?",
+    "kind": "learning"
+  },
+  {
+    "text": "시간",
+    "kind": "learning"
+  },
+  {
+    "text": "씨앗 성장",
+    "kind": "learning"
+  },
+  {
+    "text": "작은 씨앗이 자라려면 무엇이 필요할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "씨앗이 자라 나무가 되려면 시간이 필요해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "씨앗이 자라 나무가 되려면 시간이 필요해요. 작은 씨앗이 자라려면 무엇이 필요할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 시간",
+    "kind": "learning"
+  },
+  {
+    "text": "'시간'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "조금씩 모으기",
+    "kind": "learning"
+  },
+  {
+    "text": "저금",
+    "kind": "learning"
+  },
+  {
+    "text": "저금통에 돈을 모으는 좋은 방법은?",
+    "kind": "learning"
+  },
+  {
+    "text": "동전을 조금씩 모으면 저금통이 차곡차곡 채워져요.",
+    "kind": "learning"
+  },
+  {
+    "text": "동전을 조금씩 모으면 저금통이 차곡차곡 채워져요. 저금통에 돈을 모으는 좋은 방법은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 조금씩 모으기",
+    "kind": "learning"
+  },
+  {
+    "text": "'조금씩 모으기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "기다렸다 사기",
+    "kind": "learning"
+  },
+  {
+    "text": "돈 부족",
+    "kind": "learning"
+  },
+  {
+    "text": "동전이 부족하면 어떻게 하는 게 좋을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "돈이 모자라면 필요한 만큼 모은 뒤 사는 방법이 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "돈이 모자라면 필요한 만큼 모은 뒤 사는 방법이 있어요. 동전이 부족하면 어떻게 하는 게 좋을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 기다렸다 사기",
+    "kind": "learning"
+  },
+  {
+    "text": "'기다렸다 사기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "달라질 수 있어요",
+    "kind": "learning"
+  },
+  {
+    "text": "주사위",
+    "kind": "learning"
+  },
+  {
+    "text": "주사위를 던지면 어떤 숫자가 나올까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "주사위는 던질 때마다 다른 숫자가 나올 수 있어요. 결과를 미리 알 수 없어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "주사위는 던질 때마다 다른 숫자가 나올 수 있어요. 결과를 미리 알 수 없어요. 주사위를 던지면 어떤 숫자가 나올까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 달라질 수 있어요",
+    "kind": "learning"
+  },
+  {
+    "text": "'달라질 수 있어요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "하나씩",
+    "kind": "learning"
+  },
+  {
+    "text": "두 명에게 분배",
+    "kind": "learning"
+  },
+  {
+    "text": "과자 두 개를 두 친구에게 나누려면?",
+    "kind": "learning"
+  },
+  {
+    "text": "과자 두 개를 친구 두 명에게 나누면 하나씩 받을 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "과자 두 개를 친구 두 명에게 나누면 하나씩 받을 수 있어요. 과자 두 개를 두 친구에게 나누려면?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 하나씩",
+    "kind": "learning"
+  },
+  {
+    "text": "'하나씩'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "잘 자라지 않을 수 있어요",
+    "kind": "learning"
+  },
+  {
+    "text": "비가 너무 많이 오면",
+    "kind": "learning"
+  },
+  {
+    "text": "비가 너무 많이 오면 식물은 어떻게 될까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "비가 너무 많이 오면 식물이 잘 자라지 못할 수도 있어요. 미래의 결과는 항상 같지 않아요.",
+    "kind": "learning"
+  },
+  {
+    "text": "비가 너무 많이 오면 식물이 잘 자라지 못할 수도 있어요. 미래의 결과는 항상 같지 않아요. 비가 너무 많이 오면 식물은 어떻게 될까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 잘 자라지 않을 수 있어요",
+    "kind": "learning"
+  },
+  {
+    "text": "'잘 자라지 않을 수 있어요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "토끼당근",
+    "kind": "learning"
+  },
+  {
+    "text": "당근",
+    "kind": "learning"
+  },
+  {
+    "text": "토끼 먹이",
+    "kind": "learning"
+  },
+  {
+    "text": "토끼가 배고파서 음식을 찾아요. 무엇을 먹을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 당근예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 당근예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 토끼가 배고파서 음식을 찾아요. 무엇을 먹을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 당근",
+    "kind": "learning"
+  },
+  {
+    "text": "'당근'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "곰꿀",
+    "kind": "learning"
+  },
+  {
+    "text": "꿀",
+    "kind": "learning"
+  },
+  {
+    "text": "곰이 찾은 것",
+    "kind": "learning"
+  },
+  {
+    "text": "곰이 달콤한 음식을 발견했어요. 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 꿀예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 꿀예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 곰이 달콤한 음식을 발견했어요. 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 꿀",
+    "kind": "learning"
+  },
+  {
+    "text": "'꿀'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "로켓",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이가 탄 것",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이가 우주로 떠났어요. 무엇을 탔을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 로켓예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 로켓예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 쪼이가 우주로 떠났어요. 무엇을 탔을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 로켓",
+    "kind": "learning"
+  },
+  {
+    "text": "'로켓'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "토끼와 경주",
+    "kind": "learning"
+  },
+  {
+    "text": "토끼와 경주한 느린 친구는 누구일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 거북이예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 거북이예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 토끼와 경주한 느린 친구는 누구일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "강아지가 찾는 곳",
+    "kind": "learning"
+  },
+  {
+    "text": "강아지가 쉬러 돌아가는 곳은 어디일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 집예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 집예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 강아지가 쉬러 돌아가는 곳은 어디일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 집",
+    "kind": "learning"
+  },
+  {
+    "text": "'집'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "고양이달",
+    "kind": "learning"
+  },
+  {
+    "text": "밤에 본 것",
+    "kind": "learning"
+  },
+  {
+    "text": "고양이가 밤하늘에서 둥근 것을 봤어요. 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 달예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 달예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 고양이가 밤하늘에서 둥근 것을 봤어요. 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 달",
+    "kind": "learning"
+  },
+  {
+    "text": "'달'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "씨앗 다음",
+    "kind": "learning"
+  },
+  {
+    "text": "씨앗에서 싹이 나고 자라면 무엇이 필까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 꽃예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 꽃예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 씨앗에서 싹이 나고 자라면 무엇이 필까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 꽃",
+    "kind": "learning"
+  },
+  {
+    "text": "'꽃'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "알",
+    "kind": "learning"
+  },
+  {
+    "text": "달걀 다음",
+    "kind": "learning"
+  },
+  {
+    "text": "달걀에서 알을 깨고 나오는 새끼는?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 병아리예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 병아리예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 달걀에서 알을 깨고 나오는 새끼는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 병아리",
+    "kind": "learning"
+  },
+  {
+    "text": "'병아리'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "비 다음",
+    "kind": "learning"
+  },
+  {
+    "text": "비가 그치고 해가 비치면 무엇이 보일 수도 있나요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 무지개예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 무지개예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 비가 그치고 해가 비치면 무엇이 보일 수도 있나요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 무지개",
+    "kind": "learning"
+  },
+  {
+    "text": "'무지개'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "샌드위치",
+    "kind": "learning"
+  },
+  {
+    "text": "빵 요리",
+    "kind": "learning"
+  },
+  {
+    "text": "빵으로 맛있는 음식을 만들었어요. 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 샌드위치예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 샌드위치예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 빵으로 맛있는 음식을 만들었어요. 무엇일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 샌드위치",
+    "kind": "learning"
+  },
+  {
+    "text": "'샌드위치'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "얼음 다음",
+    "kind": "learning"
+  },
+  {
+    "text": "얼음이 녹으면 무엇이 될까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 물예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 물예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 얼음이 녹으면 무엇이 될까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "밤",
+    "kind": "learning"
+  },
+  {
+    "text": "낮 다음",
+    "kind": "learning"
+  },
+  {
+    "text": "낮이 지나고 어두워지면 언제일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 밤예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 밤예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 낮이 지나고 어두워지면 언제일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 밤",
+    "kind": "learning"
+  },
+  {
+    "text": "'밤'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "기쁨",
+    "kind": "learning"
+  },
+  {
+    "text": "선물 받기",
+    "kind": "learning"
+  },
+  {
+    "text": "선물을 받아 즐거운 친구의 마음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 기쁨예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 기쁨예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 선물을 받아 즐거운 친구의 마음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 기쁨",
+    "kind": "learning"
+  },
+  {
+    "text": "'기쁨'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "슬픔",
+    "kind": "learning"
+  },
+  {
+    "text": "인형 잃기",
+    "kind": "learning"
+  },
+  {
+    "text": "좋아하는 인형을 잃어버린 마음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 슬픔예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 슬픔예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 좋아하는 인형을 잃어버린 마음은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 슬픔",
+    "kind": "learning"
+  },
+  {
+    "text": "'슬픔'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "놀람",
+    "kind": "learning"
+  },
+  {
+    "text": "큰 소리",
+    "kind": "learning"
+  },
+  {
+    "text": "갑자기 큰 소리가 나면 어떤 기분일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 놀람예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 놀람예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 갑자기 큰 소리가 나면 어떤 기분일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 놀람",
+    "kind": "learning"
+  },
+  {
+    "text": "'놀람'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "화남",
+    "kind": "learning"
+  },
+  {
+    "text": "장난감 뺏김",
+    "kind": "learning"
+  },
+  {
+    "text": "장난감을 빼앗겼을 때 어떤 마음일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 화남예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 화남예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 장난감을 빼앗겼을 때 어떤 마음일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 화남",
+    "kind": "learning"
+  },
+  {
+    "text": "'화남'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "편안함",
+    "kind": "learning"
+  },
+  {
+    "text": "이불 속",
+    "kind": "learning"
+  },
+  {
+    "text": "포근한 이불 속에서 느끼는 기분은?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 편안함예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 편안함예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 포근한 이불 속에서 느끼는 기분은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 편안함",
+    "kind": "learning"
+  },
+  {
+    "text": "'편안함'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "기대",
+    "kind": "learning"
+  },
+  {
+    "text": "놀이공원",
+    "kind": "learning"
+  },
+  {
+    "text": "내일 놀이공원에 갈 생각을 하면 어떤 기분일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 기대예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 기대예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 내일 놀이공원에 갈 생각을 하면 어떤 기분일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 기대",
+    "kind": "learning"
+  },
+  {
+    "text": "'기대'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "먹어요",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이는 사과를 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 먹어요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 먹어요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 쪼이는 사과를 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 먹어요",
+    "kind": "learning"
+  },
+  {
+    "text": "'먹어요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "달려요",
+    "kind": "learning"
+  },
+  {
+    "text": "강아지는 잔디밭에서 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 달려요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 달려요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 강아지는 잔디밭에서 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 달려요",
+    "kind": "learning"
+  },
+  {
+    "text": "'달려요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "자요",
+    "kind": "learning"
+  },
+  {
+    "text": "고양이는 졸릴 때 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 자요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 자요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 고양이는 졸릴 때 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 자요",
+    "kind": "learning"
+  },
+  {
+    "text": "'자요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "노래해요",
+    "kind": "learning"
+  },
+  {
+    "text": "새",
+    "kind": "learning"
+  },
+  {
+    "text": "새는 나뭇가지에서 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 노래해요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 노래해요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 새는 나뭇가지에서 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 노래해요",
+    "kind": "learning"
+  },
+  {
+    "text": "'노래해요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "헤엄쳐요",
+    "kind": "learning"
+  },
+  {
+    "text": "물고기는 물에서 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 헤엄쳐요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 헤엄쳐요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 물고기는 물에서 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 헤엄쳐요",
+    "kind": "learning"
+  },
+  {
+    "text": "'헤엄쳐요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "토끼는 당근을 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "쪼이 이야기의 답은 먹어요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요. 토끼는 당근을 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "멈춰요",
+    "kind": "learning"
+  },
+  {
+    "text": "보행 신호가 빨간색이에요. 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "빨간 보행 신호에서는 도로에 들어가지 않고 기다려요.",
+    "kind": "learning"
+  },
+  {
+    "text": "빨간 보행 신호에서는 도로에 들어가지 않고 기다려요. 보행 신호가 빨간색이에요. 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 멈춰요",
+    "kind": "learning"
+  },
+  {
+    "text": "'멈춰요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "좌우 살피고 건너요",
+    "kind": "learning"
+  },
+  {
+    "text": "초록 신호",
+    "kind": "learning"
+  },
+  {
+    "text": "초록 보행 신호예요. 어떻게 건널까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "초록 보행 신호에도 차가 오는지 살피고 안전하게 건너요.",
+    "kind": "learning"
+  },
+  {
+    "text": "초록 보행 신호에도 차가 오는지 살피고 안전하게 건너요. 초록 보행 신호예요. 어떻게 건널까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 좌우 살피고 건너요",
+    "kind": "learning"
+  },
+  {
+    "text": "'좌우 살피고 건너요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "손대지 않아요",
+    "kind": "learning"
+  },
+  {
+    "text": "뜨거운 냄비",
+    "kind": "learning"
+  },
+  {
+    "text": "냄비가 뜨거워요. 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "뜨거운 냄비를 만지면 화상을 입을 수 있어요. 어른에게 부탁해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "뜨거운 냄비를 만지면 화상을 입을 수 있어요. 어른에게 부탁해요. 냄비가 뜨거워요. 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 손대지 않아요",
+    "kind": "learning"
+  },
+  {
+    "text": "'손대지 않아요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "넣지 않아요",
+    "kind": "learning"
+  },
+  {
+    "text": "콘센트",
+    "kind": "learning"
+  },
+  {
+    "text": "콘센트에 장난감을 넣어도 될까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "콘센트에는 장난감이나 손가락을 넣지 않아요. 위험할 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "콘센트에는 장난감이나 손가락을 넣지 않아요. 위험할 수 있어요. 콘센트에 장난감을 넣어도 될까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 넣지 않아요",
+    "kind": "learning"
+  },
+  {
+    "text": "'넣지 않아요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "안전벨트",
+    "kind": "learning"
+  },
+  {
+    "text": "차에 탔어요. 안전을 위해 무엇을 맬까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "자동차에 탈 때는 몸에 맞는 안전벨트를 꼭 매요.",
+    "kind": "learning"
+  },
+  {
+    "text": "자동차에 탈 때는 몸에 맞는 안전벨트를 꼭 매요. 차에 탔어요. 안전을 위해 무엇을 맬까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 안전벨트",
+    "kind": "learning"
+  },
+  {
+    "text": "'안전벨트'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "보호자",
+    "kind": "learning"
+  },
+  {
+    "text": "물놀이",
+    "kind": "learning"
+  },
+  {
+    "text": "물놀이할 때 누구와 함께해야 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "물놀이는 보호자와 함께 안전한 장소에서 해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "물놀이는 보호자와 함께 안전한 장소에서 해요. 물놀이할 때 누구와 함께해야 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 보호자",
+    "kind": "learning"
+  },
+  {
+    "text": "'보호자'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "양치",
+    "kind": "learning"
+  },
+  {
+    "text": "이를 닦을 때 사용하는 물건은?",
+    "kind": "learning"
+  },
+  {
+    "text": "칫솔에 치약을 알맞게 묻히고 이를 골고루 닦아요.",
+    "kind": "learning"
+  },
+  {
+    "text": "칫솔에 치약을 알맞게 묻히고 이를 골고루 닦아요. 이를 닦을 때 사용하는 물건은?",
+    "kind": "learning"
+  },
+  {
+    "text": "비누",
+    "kind": "learning"
+  },
+  {
+    "text": "밖에서 돌아와 손을 씻을 때 필요한 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "손은 비누와 물로 문질러 깨끗이 씻어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "손은 비누와 물로 문질러 깨끗이 씻어요. 밖에서 돌아와 손을 씻을 때 필요한 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 비누",
+    "kind": "learning"
+  },
+  {
+    "text": "'비누'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "잠자기",
+    "kind": "learning"
+  },
+  {
+    "text": "피곤함",
+    "kind": "learning"
+  },
+  {
+    "text": "몸이 피곤해요. 어떻게 쉬면 좋을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "몸이 피곤할 때는 잠을 충분히 자며 쉬어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "몸이 피곤할 때는 잠을 충분히 자며 쉬어요. 몸이 피곤해요. 어떻게 쉬면 좋을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 잠자기",
+    "kind": "learning"
+  },
+  {
+    "text": "'잠자기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "골고루 먹어요",
+    "kind": "learning"
+  },
+  {
+    "text": "건강한 음식",
+    "kind": "learning"
+  },
+  {
+    "text": "몸을 건강하게 하려면 음식을 어떻게 먹을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "채소와 과일 등 다양한 음식을 골고루 먹어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "채소와 과일 등 다양한 음식을 골고루 먹어요. 몸을 건강하게 하려면 음식을 어떻게 먹을까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 골고루 먹어요",
+    "kind": "learning"
+  },
+  {
+    "text": "'골고루 먹어요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "목마름",
+    "kind": "learning"
+  },
+  {
+    "text": "목이 마를 때 마시면 좋은 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "목이 마를 때는 물을 마셔요.",
+    "kind": "learning"
+  },
+  {
+    "text": "목이 마를 때는 물을 마셔요. 목이 마를 때 마시면 좋은 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "몸 움직이기",
+    "kind": "learning"
+  },
+  {
+    "text": "운동",
+    "kind": "learning"
+  },
+  {
+    "text": "튼튼해지려면 몸을 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "걷기와 뛰기 등 즐겁게 몸을 움직이며 운동해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "걷기와 뛰기 등 즐겁게 몸을 움직이며 운동해요. 튼튼해지려면 몸을 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 몸 움직이기",
+    "kind": "learning"
+  },
+  {
+    "text": "'몸 움직이기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "웃는 마음",
+    "kind": "learning"
+  },
+  {
+    "text": "즐거워서 웃고 있어요. 어떤 마음일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "즐겁고 기분이 좋을 때 웃음이 나기도 해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "즐겁고 기분이 좋을 때 웃음이 나기도 해요. 즐거워서 웃고 있어요. 어떤 마음일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "눈물",
+    "kind": "learning"
+  },
+  {
+    "text": "눈물이 나요. 어떤 마음일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "소중한 것을 잃어버리면 슬플 수 있어요. 그 마음도 괜찮아요.",
+    "kind": "learning"
+  },
+  {
+    "text": "소중한 것을 잃어버리면 슬플 수 있어요. 그 마음도 괜찮아요. 눈물이 나요. 어떤 마음일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "천천히 말해요",
+    "kind": "learning"
+  },
+  {
+    "text": "화가 날 때 친구에게 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "화가 날 때는 마음을 말로 차분하게 표현해 볼 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "화가 날 때는 마음을 말로 차분하게 표현해 볼 수 있어요. 화가 날 때 친구에게 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 천천히 말해요",
+    "kind": "learning"
+  },
+  {
+    "text": "'천천히 말해요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "믿을 수 있는 어른",
+    "kind": "learning"
+  },
+  {
+    "text": "도움 요청",
+    "kind": "learning"
+  },
+  {
+    "text": "무섭거나 위험할 때 누구에게 도움을 청할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "위험하거나 무서우면 믿을 수 있는 어른에게 도움을 요청해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "위험하거나 무서우면 믿을 수 있는 어른에게 도움을 요청해요. 무섭거나 위험할 때 누구에게 도움을 청할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 믿을 수 있는 어른",
+    "kind": "learning"
+  },
+  {
+    "text": "'믿을 수 있는 어른'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "쉬기",
+    "kind": "learning"
+  },
+  {
+    "text": "몸과 마음이 피곤할 때는 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "몸과 마음이 피곤하면 쉬는 시간이 필요해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "몸과 마음이 피곤하면 쉬는 시간이 필요해요. 몸과 마음이 피곤할 때는 무엇을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 쉬기",
+    "kind": "learning"
+  },
+  {
+    "text": "'쉬기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "괜찮아?",
+    "kind": "learning"
+  },
+  {
+    "text": "슬픈 친구",
+    "kind": "learning"
+  },
+  {
+    "text": "친구가 슬퍼해요. 어떻게 다정하게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "슬픈 친구에게 ‘괜찮아?’라고 다정하게 물어볼 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "슬픈 친구에게 ‘괜찮아?’라고 다정하게 물어볼 수 있어요. 친구가 슬퍼해요. 어떻게 다정하게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 괜찮아?",
+    "kind": "learning"
+  },
+  {
+    "text": "'괜찮아?'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "빌려줘라고 말해요",
+    "kind": "learning"
+  },
+  {
+    "text": "친구 장난감",
+    "kind": "learning"
+  },
+  {
+    "text": "친구 장난감을 쓰고 싶을 때 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "친구의 장난감을 쓰고 싶으면 먼저 빌려 달라고 말해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "친구의 장난감을 쓰고 싶으면 먼저 빌려 달라고 말해요. 친구 장난감을 쓰고 싶을 때 어떻게 말할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 빌려줘라고 말해요",
+    "kind": "learning"
+  },
+  {
+    "text": "'빌려줘라고 말해요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "안녕이라고 해요",
+    "kind": "learning"
+  },
+  {
+    "text": "인사",
+    "kind": "learning"
+  },
+  {
+    "text": "친구를 만나면 어떻게 인사할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "친구를 만나면 웃으며 안녕이라고 인사해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "친구를 만나면 웃으며 안녕이라고 인사해요. 친구를 만나면 어떻게 인사할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 안녕이라고 해요",
+    "kind": "learning"
+  },
+  {
+    "text": "'안녕이라고 해요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "고맙다고 해요",
+    "kind": "learning"
+  },
+  {
+    "text": "선물을 받으면 무슨 말을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "선물을 받으면 고맙다고 말해 볼 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "선물을 받으면 고맙다고 말해 볼 수 있어요. 선물을 받으면 무슨 말을 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 고맙다고 해요",
+    "kind": "learning"
+  },
+  {
+    "text": "'고맙다고 해요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "함께 먹어요",
+    "kind": "learning"
+  },
+  {
+    "text": "나누기",
+    "kind": "learning"
+  },
+  {
+    "text": "과자가 두 개예요. 친구와 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "친구와 과자를 나누며 함께 즐길 수 있어요.",
+    "kind": "learning"
+  },
+  {
+    "text": "친구와 과자를 나누며 함께 즐길 수 있어요. 과자가 두 개예요. 친구와 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 함께 먹어요",
+    "kind": "learning"
+  },
+  {
+    "text": "'함께 먹어요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "마음을 말해요",
+    "kind": "learning"
+  },
+  {
+    "text": "갈등",
+    "kind": "learning"
+  },
+  {
+    "text": "친구와 의견이 다를 때 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "생각이 다를 때도 내 마음을 차분하게 말해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "생각이 다를 때도 내 마음을 차분하게 말해요. 친구와 의견이 다를 때 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 마음을 말해요",
+    "kind": "learning"
+  },
+  {
+    "text": "'마음을 말해요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "들어줘요",
+    "kind": "learning"
+  },
+  {
+    "text": "친구 말",
+    "kind": "learning"
+  },
+  {
+    "text": "친구가 이야기하고 있어요. 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "친구가 이야기할 때는 말을 끝낼 때까지 들어줘요.",
+    "kind": "learning"
+  },
+  {
+    "text": "친구가 이야기할 때는 말을 끝낼 때까지 들어줘요. 친구가 이야기하고 있어요. 어떻게 할까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 들어줘요",
+    "kind": "learning"
+  },
+  {
+    "text": "'들어줘요'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "이 동그라미는 무슨 색일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 빨강이에요. 주변에서 같은 색 물건을 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 빨강이에요. 주변에서 같은 색 물건을 찾아봐요. 이 동그라미는 무슨 색일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 파랑이에요. 주변에서 같은 색 물건을 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 파랑이에요. 주변에서 같은 색 물건을 찾아봐요. 이 동그라미는 무슨 색일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 파랑",
+    "kind": "learning"
+  },
+  {
+    "text": "'파랑'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "노란색",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 노랑이에요. 주변에서 같은 색 물건을 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 노랑이에요. 주변에서 같은 색 물건을 찾아봐요. 이 동그라미는 무슨 색일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 노랑",
+    "kind": "learning"
+  },
+  {
+    "text": "'노랑'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "초록색",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 초록이에요. 주변에서 같은 색 물건을 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 초록이에요. 주변에서 같은 색 물건을 찾아봐요. 이 동그라미는 무슨 색일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 초록",
+    "kind": "learning"
+  },
+  {
+    "text": "'초록'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "보라",
+    "kind": "learning"
+  },
+  {
+    "text": "보라색",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 보라이에요. 주변에서 같은 색 물건을 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 보라이에요. 주변에서 같은 색 물건을 찾아봐요. 이 동그라미는 무슨 색일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 보라",
+    "kind": "learning"
+  },
+  {
+    "text": "'보라'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "주황",
+    "kind": "learning"
+  },
+  {
+    "text": "주황색",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 주황이에요. 주변에서 같은 색 물건을 찾아봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "색깔은 주황이에요. 주변에서 같은 색 물건을 찾아봐요. 이 동그라미는 무슨 색일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 주황",
+    "kind": "learning"
+  },
+  {
+    "text": "'주황'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "세 꼭짓점",
+    "kind": "learning"
+  },
+  {
+    "text": "세 개의 꼭짓점이 있는 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 세모이에요. 손가락으로 모양의 테두리를 따라 그려 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 세모이에요. 손가락으로 모양의 테두리를 따라 그려 봐요. 세 개의 꼭짓점이 있는 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "네 개의 변이 있는 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 네모이에요. 손가락으로 모양의 테두리를 따라 그려 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 네모이에요. 손가락으로 모양의 테두리를 따라 그려 봐요. 네 개의 변이 있는 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "둥글게",
+    "kind": "learning"
+  },
+  {
+    "text": "둥글게 생긴 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 동그라미이에요. 손가락으로 모양의 테두리를 따라 그려 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 동그라미이에요. 손가락으로 모양의 테두리를 따라 그려 봐요. 둥글게 생긴 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "반짝",
+    "kind": "learning"
+  },
+  {
+    "text": "반짝이는 뾰족한 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 별이에요. 손가락으로 모양의 테두리를 따라 그려 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 별이에요. 손가락으로 모양의 테두리를 따라 그려 봐요. 반짝이는 뾰족한 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "사랑",
+    "kind": "learning"
+  },
+  {
+    "text": "사랑을 나타내는 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 하트이에요. 손가락으로 모양의 테두리를 따라 그려 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 하트이에요. 손가락으로 모양의 테두리를 따라 그려 봐요. 사랑을 나타내는 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 하트",
+    "kind": "learning"
+  },
+  {
+    "text": "'하트'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "초승달",
+    "kind": "learning"
+  },
+  {
+    "text": "구부러진 달",
+    "kind": "learning"
+  },
+  {
+    "text": "밤하늘의 가느다란 달 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 초승달이에요. 손가락으로 모양의 테두리를 따라 그려 봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "모양은 초승달이에요. 손가락으로 모양의 테두리를 따라 그려 봐요. 밤하늘의 가느다란 달 모양은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 초승달",
+    "kind": "learning"
+  },
+  {
+    "text": "'초승달'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "북",
+    "kind": "learning"
+  },
+  {
+    "text": "두드리기",
+    "kind": "learning"
+  },
+  {
+    "text": "두드려서 쿵쿵 소리를 내는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "북 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "북 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요. 두드려서 쿵쿵 소리를 내는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 북",
+    "kind": "learning"
+  },
+  {
+    "text": "'북'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "피아노",
+    "kind": "learning"
+  },
+  {
+    "text": "건반",
+    "kind": "learning"
+  },
+  {
+    "text": "건반을 눌러 연주하는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "피아노 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "피아노 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요. 건반을 눌러 연주하는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 피아노",
+    "kind": "learning"
+  },
+  {
+    "text": "'피아노'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "기타",
+    "kind": "learning"
+  },
+  {
+    "text": "줄",
+    "kind": "learning"
+  },
+  {
+    "text": "줄을 튕기며 연주하는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "기타 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "기타 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요. 줄을 튕기며 연주하는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 기타",
+    "kind": "learning"
+  },
+  {
+    "text": "'기타'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "바이올린",
+    "kind": "learning"
+  },
+  {
+    "text": "활",
+    "kind": "learning"
+  },
+  {
+    "text": "활로 줄을 문질러 소리 내는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "바이올린 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "바이올린 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요. 활로 줄을 문질러 소리 내는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 바이올린",
+    "kind": "learning"
+  },
+  {
+    "text": "'바이올린'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "트럼펫",
+    "kind": "learning"
+  },
+  {
+    "text": "바람",
+    "kind": "learning"
+  },
+  {
+    "text": "입으로 불어 소리 내는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "트럼펫 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "트럼펫 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요. 입으로 불어 소리 내는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 트럼펫",
+    "kind": "learning"
+  },
+  {
+    "text": "'트럼펫'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "종",
+    "kind": "learning"
+  },
+  {
+    "text": "맑은 소리",
+    "kind": "learning"
+  },
+  {
+    "text": "흔들거나 치면 땡땡 울리는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "종 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요.",
+    "kind": "learning"
+  },
+  {
+    "text": "종 소리가 나는 악기예요. 실제 소리를 듣고 흉내 내봐요. 흔들거나 치면 땡땡 울리는 악기는?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 종",
+    "kind": "learning"
+  },
+  {
+    "text": "'종'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "바닥",
+    "kind": "learning"
+  },
+  {
+    "text": "집쌓기",
+    "kind": "learning"
+  },
+  {
+    "text": "블록으로 집을 만들 때 맨 아래 필요한 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 바닥 생각해 봤어요. 직접 만들면서 확인해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 바닥 생각해 봤어요. 직접 만들면서 확인해요. 블록으로 집을 만들 때 맨 아래 필요한 것은?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 바닥",
+    "kind": "learning"
+  },
+  {
+    "text": "'바닥'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "다리",
+    "kind": "learning"
+  },
+  {
+    "text": "자동차가 물 위를 건너도록 만들려면?",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 다리 생각해 봤어요. 직접 만들면서 확인해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 다리 생각해 봤어요. 직접 만들면서 확인해요. 자동차가 물 위를 건너도록 만들려면?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 다리",
+    "kind": "learning"
+  },
+  {
+    "text": "'다리'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 세기",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 두 개에 한 개를 더하면 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 3개 생각해 봤어요. 직접 만들면서 확인해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 3개 생각해 봤어요. 직접 만들면서 확인해요. 블록 두 개에 한 개를 더하면 몇 개일까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 3개",
+    "kind": "learning"
+  },
+  {
+    "text": "'3개'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "노랑·파랑이 반복돼요. 다음 색깔은?",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 노랑 생각해 봤어요. 직접 만들면서 확인해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 노랑 생각해 봤어요. 직접 만들면서 확인해요. 노랑·파랑이 반복돼요. 다음 색깔은?",
+    "kind": "learning"
+  },
+  {
+    "text": "바닥 넓히기",
+    "kind": "learning"
+  },
+  {
+    "text": "탑 안정",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 탑이 넘어지지 않게 하려면?",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 바닥 넓히기 생각해 봤어요. 직접 만들면서 확인해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 바닥 넓히기 생각해 봤어요. 직접 만들면서 확인해요. 블록 탑이 넘어지지 않게 하려면?",
+    "kind": "learning"
+  },
+  {
+    "text": "이름을 기억해 봐요. 바닥 넓히기",
+    "kind": "learning"
+  },
+  {
+    "text": "'바닥 넓히기'에 해당하는 그림을 골라요",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 만들기",
+    "kind": "learning"
+  },
+  {
+    "text": "블록으로 어떤 모양을 만들어 볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 집 생각해 봤어요. 직접 만들면서 확인해요.",
+    "kind": "learning"
+  },
+  {
+    "text": "블록 놀이에서 집 생각해 봤어요. 직접 만들면서 확인해요. 블록으로 어떤 모양을 만들어 볼까요?",
+    "kind": "learning"
+  },
+  {
+    "text": "아까 본 그림의 이름은?",
+    "kind": "learning"
+  },
+  {
+    "text": "더하기",
+    "kind": "learning"
+  },
+  {
+    "text": "한글을 만든 임금님은 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 세종대왕예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 세종대왕! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "우리 바다를 지킨 장군은 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 이순신예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 이순신! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "옛날에 과학 기구를 만든 사람은 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 장영실예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 장영실! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "그림으로 유명한 조선 시대 화가는 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 신사임당예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 신사임당! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "사람의 병을 치료하는 의학책을 남긴 사람은 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 허준예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 허준! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "독립 만세 운동에 참여한 여성은 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 유관순예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 유관순! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "우리나라의 독립을 위해 힘쓴 사람은 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 김구예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 김구! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "옛날에 내린 비의 양을 재던 물건은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 측우기예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 측우기! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "거북처럼 생긴 옛날 전투 배는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "가마",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 거북선예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 거북선! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "옛날부터 입어 온 우리나라 전통 옷은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "장독",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 한복예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 한복! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "옛날 선비가 머리에 쓰던 모자는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 갓예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 갓! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "손으로 흔들어 바람을 일으키는 물건은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 부채예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 부채! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "두드려 소리를 내는 옛날 악기는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 북예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 북! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "곡식을 빻을 때 쓰던 물건은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 절구예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 절구! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "우리가 지금 읽고 쓰는 이 글자는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "영어",
+    "kind": "academy"
+  },
+  {
+    "text": "숫자",
+    "kind": "academy"
+  },
+  {
+    "text": "한자",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 한글예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 한글! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "세종대왕이 처음 만든 글자를 알린 책 이름은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "삼국사기",
+    "kind": "academy"
+  },
+  {
+    "text": "난중일기",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 훈민정음예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 훈민정음! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "글자를 만들어 주신 덕분에 할 수 있는 일은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "글 읽기",
+    "kind": "academy"
+  },
+  {
+    "text": "수영하기",
+    "kind": "academy"
+  },
+  {
+    "text": "달리기",
+    "kind": "academy"
+  },
+  {
+    "text": "그림 접기",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 글 읽기예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 글 읽기! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "세종대왕이 백성에게 쉽게 쓰게 하려 한 것은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "새로운 글자",
+    "kind": "academy"
+  },
+  {
+    "text": "새로운 자동차",
+    "kind": "academy"
+  },
+  {
+    "text": "새로운 비행기",
+    "kind": "academy"
+  },
+  {
+    "text": "새로운 로봇",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 새로운 글자예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 새로운 글자! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "한글은 어느 나라의 글자일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "우리나라",
+    "kind": "academy"
+  },
+  {
+    "text": "영국",
+    "kind": "academy"
+  },
+  {
+    "text": "미국",
+    "kind": "academy"
+  },
+  {
+    "text": "프랑스",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 우리나라예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 우리나라! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "우리나라 국기는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 태극기예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 태극기! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "우리나라를 대표하는 꽃은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "장미",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 무궁화예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 무궁화! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "우리나라 국가(나라를 대표하는 노래)는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "동요",
+    "kind": "academy"
+  },
+  {
+    "text": "자장가",
+    "kind": "academy"
+  },
+  {
+    "text": "생일 노래",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 애국가예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 애국가! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "알파벳",
+    "kind": "academy"
+  },
+  {
+    "text": "로마 숫자",
+    "kind": "academy"
+  },
+  {
+    "text": "우리나라 전통 옷의 이름은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "교복",
+    "kind": "academy"
+  },
+  {
+    "text": "우주복",
+    "kind": "academy"
+  },
+  {
+    "text": "잠옷",
+    "kind": "academy"
+  },
+  {
+    "text": "우리 글자 한글을 만든 임금님은 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "측우기는 무엇을 재는 물건일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "비의 양",
+    "kind": "academy"
+  },
+  {
+    "text": "바람의 냄새",
+    "kind": "academy"
+  },
+  {
+    "text": "동물의 키",
+    "kind": "academy"
+  },
+  {
+    "text": "자동차 속도",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 비의 양예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 비의 양! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "옛날 부채는 무엇을 하려고 사용했을까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "바람 일으키기",
+    "kind": "academy"
+  },
+  {
+    "text": "글씨 지우기",
+    "kind": "academy"
+  },
+  {
+    "text": "땅 파기",
+    "kind": "academy"
+  },
+  {
+    "text": "배 젓기",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 바람 일으키기예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 바람 일으키기! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "절구로 곡식을 어떻게 할까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "찧기",
+    "kind": "academy"
+  },
+  {
+    "text": "비추기",
+    "kind": "academy"
+  },
+  {
+    "text": "날리기",
+    "kind": "academy"
+  },
+  {
+    "text": "묶기",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 찧기예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 찧기! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "물레는 무엇을 만드는 데 쓰일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "실",
+    "kind": "academy"
+  },
+  {
+    "text": "그릇",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 실예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 실! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "옛날 우물에서 두레박으로 무엇을 길었을까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "불",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 물예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 물! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "옛날 밤에 등잔은 무엇을 해 주었을까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "밝혀 주기",
+    "kind": "academy"
+  },
+  {
+    "text": "노래 부르기",
+    "kind": "academy"
+  },
+  {
+    "text": "비 내리기",
+    "kind": "academy"
+  },
+  {
+    "text": "밥 만들기",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 밝혀 주기예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 밝혀 주기! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "여름에 시원해지려고 옛날 사람들이 쓰던 것은?",
+    "kind": "academy"
+  },
+  {
+    "text": "손난로",
+    "kind": "academy"
+  },
+  {
+    "text": "바다에서 나라를 지킨 장군님은 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "이순신 장군과 관련된 거북 모양 배는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "열기구",
+    "kind": "academy"
+  },
+  {
+    "text": "기차",
+    "kind": "academy"
+  },
+  {
+    "text": "우주선",
+    "kind": "academy"
+  },
+  {
+    "text": "배가 다니는 넓고 푸른 곳은 어디일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "산꼭대기",
+    "kind": "academy"
+  },
+  {
+    "text": "운동장",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 바다예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 바다! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "노를 저으면 배가 어떻게 될까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "앞으로 가요",
+    "kind": "academy"
+  },
+  {
+    "text": "하늘을 날아요",
+    "kind": "academy"
+  },
+  {
+    "text": "땅을 파요",
+    "kind": "academy"
+  },
+  {
+    "text": "사라져요",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 앞으로 가요예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 앞으로 가요! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "돛은 무엇의 힘을 받아 배를 움직일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "전기",
+    "kind": "academy"
+  },
+  {
+    "text": "흙",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 바람예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 바람! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "배가 한곳에 머물도록 물에 내리는 물건은?",
+    "kind": "academy"
+  },
+  {
+    "text": "닻",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 닻예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 닻! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "한글을 만든 임금님은?",
+    "kind": "academy"
+  },
+  {
+    "text": "의학책을 남긴 의사는?",
+    "kind": "academy"
+  },
+  {
+    "text": "그림으로 유명한 화가는?",
+    "kind": "academy"
+  },
+  {
+    "text": "옛날 과학기구를 만든 사람은?",
+    "kind": "academy"
+  },
+  {
+    "text": "바다를 지킨 장군은?",
+    "kind": "academy"
+  },
+  {
+    "text": "독립 만세를 외친 사람은?",
+    "kind": "academy"
+  },
+  {
+    "text": "바람에 연을 띄우는 전통놀이는?",
+    "kind": "academy"
+  },
+  {
+    "text": "공기놀이",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 연날리기예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 연날리기! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "나무 막대 넷을 던져 하는 놀이는?",
+    "kind": "academy"
+  },
+  {
+    "text": "줄넘기",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 윷놀이예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 윷놀이! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "모래판에서 힘을 겨루는 전통놀이는?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 씨름예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 씨름! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "작은 돌 다섯 개를 가지고 노는 놀이는?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 공기놀이예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 공기놀이! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "발로 제기를 차는 놀이는?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 제기차기예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 제기차기! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "항아리 안에 화살을 던지는 놀이는?",
+    "kind": "academy"
+  },
+  {
+    "text": "투호",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 투호예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 투호! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "명절에 입기도 하는 우리 전통 옷은?",
+    "kind": "academy"
+  },
+  {
+    "text": "옛날 선비가 쓰던 검은 모자는?",
+    "kind": "academy"
+  },
+  {
+    "text": "안전모",
+    "kind": "academy"
+  },
+  {
+    "text": "왕관",
+    "kind": "academy"
+  },
+  {
+    "text": "야구모자",
+    "kind": "academy"
+  },
+  {
+    "text": "더울 때 바람을 일으키는 물건은?",
+    "kind": "academy"
+  },
+  {
+    "text": "옛날에 짚으로 엮어 만든 신발은?",
+    "kind": "academy"
+  },
+  {
+    "text": "짚신",
+    "kind": "academy"
+  },
+  {
+    "text": "운동화",
+    "kind": "academy"
+  },
+  {
+    "text": "스케이트",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 짚신예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 짚신! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "왕이 머리에 쓰던 것은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "헬멧",
+    "kind": "academy"
+  },
+  {
+    "text": "밀짚모자",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 왕관예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 왕관! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "옷을 만드는 데 쓰는 것은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "천",
+    "kind": "academy"
+  },
+  {
+    "text": "나무토막",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 천예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 천! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "느린 거북이와 빠른 토끼의 시합 이야기는?",
+    "kind": "academy"
+  },
+  {
+    "text": "토끼와 거북이",
+    "kind": "academy"
+  },
+  {
+    "text": "해님과 바람",
+    "kind": "academy"
+  },
+  {
+    "text": "흥부와 놀부",
+    "kind": "academy"
+  },
+  {
+    "text": "금도끼 은도끼",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 토끼와 거북이예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 토끼와 거북이! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "나무꾼이 물에 빠뜨린 도끼 이야기의 이름은?",
+    "kind": "academy"
+  },
+  {
+    "text": "혹부리 영감",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 금도끼 은도끼예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 금도끼 은도끼! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "외투를 벗기는 시합을 하는 이야기는?",
+    "kind": "academy"
+  },
+  {
+    "text": "사자와 생쥐",
+    "kind": "academy"
+  },
+  {
+    "text": "콩쥐 팥쥐",
+    "kind": "academy"
+  },
+  {
+    "text": "의좋은 형제",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 해님과 바람예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 해님과 바람! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "제비가 박씨를 가져다준 이야기는?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 흥부와 놀부예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 흥부와 놀부! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "작은 생쥐가 사자를 도와주는 이야기는?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 사자와 생쥐예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 사자와 생쥐! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "두꺼비가 물독을 도와주는 이야기는?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 콩쥐 팥쥐예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 콩쥐 팥쥐! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "이 화살표는 어느 쪽을 가리킬까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 위예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 위! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 아래예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 아래! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 왼쪽예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 왼쪽! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 오른쪽예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 오른쪽! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 화살표를 따라 어느 쪽으로 갈까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "로봇이 화살표를 따라 어느 쪽으로 갈까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "자동차가 화살표를 따라 어디로 갈까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "택시가 화살표를 따라 어디로 갈까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "파란 자동차가 화살표를 따라 어디로 갈까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다음에는 어떤 색 동그라미가 올까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다음에 올 그림은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다음에 올 동물은 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다음에 올 자동차는 어떤 모양일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "택시",
+    "kind": "academy"
+  },
+  {
+    "text": "다음에 올 과일은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다음에 올 방향은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "박수를 몇 번 치는 명령일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "두 번",
+    "kind": "academy"
+  },
+  {
+    "text": "한 번",
+    "kind": "academy"
+  },
+  {
+    "text": "세 번",
+    "kind": "academy"
+  },
+  {
+    "text": "네 번",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 두 번예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 두 번! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 세 번예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 세 번! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "위로 몇 칸 움직일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "네 칸",
+    "kind": "academy"
+  },
+  {
+    "text": "한 칸",
+    "kind": "academy"
+  },
+  {
+    "text": "세 칸",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 네 칸예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 네 칸! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "오른쪽으로 몇 칸 움직일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 세 칸예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 세 칸! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "별 블록이 몇 개 있을까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다섯 개",
+    "kind": "academy"
+  },
+  {
+    "text": "세 개",
+    "kind": "academy"
+  },
+  {
+    "text": "네 개",
+    "kind": "academy"
+  },
+  {
+    "text": "두 개",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 다섯 개예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 다섯 개! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "호랑이 그림이 몇 번 반복될까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "서로 다른 색 동그라미는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다른 동물 하나는 누구일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다른 방향 하나는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다른 과일 하나는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다른 하늘 그림 하나는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "다른 탈것 하나는 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "로봇이 화살표를 따라가면 무엇을 만날까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "풍선",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 나무예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 나무! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 별예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 별! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 집예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 집! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 풍선예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 풍선! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 화살표를 따라가면 무엇을 만날까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 꽃예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 꽃! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 무지개예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 무지개! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "씨앗을 심은 다음 꽃이 자라도록 무엇을 줄까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "손을 씻을 때 손에 바르는 것은?",
+    "kind": "academy"
+  },
+  {
+    "text": "공책",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 비누예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 비누! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "이를 닦을 때 쓰는 물건은 무엇일까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "숟가락",
+    "kind": "academy"
+  },
+  {
+    "text": "빗",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 칫솔예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 칫솔! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "밖에 나가기 전에 발에 신는 것은?",
+    "kind": "academy"
+  },
+  {
+    "text": "수건",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 신발예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 신발! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "밥을 먹을 때 사용하는 물건은?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 숟가락예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 숟가락! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "책을 읽을 때 사용하는 몸의 부분은?",
+    "kind": "academy"
+  },
+  {
+    "text": "무릎",
+    "kind": "academy"
+  },
+  {
+    "text": "팔꿈치",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 눈예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 눈! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "비가 오면 무엇을 챙겨야 할까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "물총",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 우산예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 우산! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "햇빛이 강할 때 머리에 쓰는 것은?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 모자예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 모자! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "눈이 오고 추울 때 입는 옷은?",
+    "kind": "academy"
+  },
+  {
+    "text": "반팔 티",
+    "kind": "academy"
+  },
+  {
+    "text": "슬리퍼",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 외투예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 외투! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "졸릴 때 쉬기 좋은 곳은?",
+    "kind": "academy"
+  },
+  {
+    "text": "침대",
+    "kind": "academy"
+  },
+  {
+    "text": "수영장",
+    "kind": "academy"
+  },
+  {
+    "text": "도로",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 침대예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 침대! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "손에 비누를 묻힌 다음 무엇으로 씻을까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "휴지",
+    "kind": "academy"
+  },
+  {
+    "text": "신호등이 빨간색일 때 어떻게 할까요?",
+    "kind": "academy"
+  },
+  {
+    "text": "뛰어요",
+    "kind": "academy"
+  },
+  {
+    "text": "건너요",
+    "kind": "academy"
+  },
+  {
+    "text": "춤춰요",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 멈춰요예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 멈춰요! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "이 블록의 모양 이름은?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 세모예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 세모! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 네모예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 네모! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 동그라미예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 동그라미! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 하트예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 하트! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "맞아요! 마름모예요.",
+    "kind": "academy"
+  },
+  {
+    "text": "쪼이가 알려줄게! 이번 문제의 답은 마름모! 이제 천천히 골라볼까?",
+    "kind": "academy"
+  },
+  {
+    "text": "0",
+    "kind": "number"
+  },
+  {
+    "text": "11",
+    "kind": "number"
+  },
+  {
+    "text": "십일",
+    "kind": "number"
+  },
+  {
+    "text": "12",
+    "kind": "number"
+  },
+  {
+    "text": "십이",
+    "kind": "number"
+  },
+  {
+    "text": "13",
+    "kind": "number"
+  },
+  {
+    "text": "십삼",
+    "kind": "number"
+  },
+  {
+    "text": "14",
+    "kind": "number"
+  },
+  {
+    "text": "십사",
+    "kind": "number"
+  },
+  {
+    "text": "15",
+    "kind": "number"
+  },
+  {
+    "text": "십오",
+    "kind": "number"
+  },
+  {
+    "text": "16",
+    "kind": "number"
+  },
+  {
+    "text": "십육",
+    "kind": "number"
+  },
+  {
+    "text": "17",
+    "kind": "number"
+  },
+  {
+    "text": "십칠",
+    "kind": "number"
+  },
+  {
+    "text": "18",
+    "kind": "number"
+  },
+  {
+    "text": "십팔",
+    "kind": "number"
+  },
+  {
+    "text": "19",
+    "kind": "number"
+  },
+  {
+    "text": "십구",
+    "kind": "number"
+  },
+  {
+    "text": "20",
+    "kind": "number"
+  },
+  {
+    "text": "이십",
+    "kind": "number"
+  },
+  {
+    "text": "21",
+    "kind": "number"
+  },
+  {
+    "text": "이십일",
+    "kind": "number"
+  },
+  {
+    "text": "22",
+    "kind": "number"
+  },
+  {
+    "text": "이십이",
+    "kind": "number"
+  },
+  {
+    "text": "23",
+    "kind": "number"
+  },
+  {
+    "text": "이십삼",
+    "kind": "number"
+  },
+  {
+    "text": "24",
+    "kind": "number"
+  },
+  {
+    "text": "이십사",
+    "kind": "number"
+  },
+  {
+    "text": "25",
+    "kind": "number"
+  },
+  {
+    "text": "이십오",
+    "kind": "number"
+  },
+  {
+    "text": "26",
+    "kind": "number"
+  },
+  {
+    "text": "이십육",
+    "kind": "number"
+  },
+  {
+    "text": "27",
+    "kind": "number"
+  },
+  {
+    "text": "이십칠",
+    "kind": "number"
+  },
+  {
+    "text": "28",
+    "kind": "number"
+  },
+  {
+    "text": "이십팔",
+    "kind": "number"
+  },
+  {
+    "text": "29",
+    "kind": "number"
+  },
+  {
+    "text": "이십구",
+    "kind": "number"
+  },
+  {
+    "text": "30",
+    "kind": "number"
+  },
+  {
+    "text": "삼십",
+    "kind": "number"
+  },
+  {
+    "text": "31",
+    "kind": "number"
+  },
+  {
+    "text": "삼십일",
+    "kind": "number"
+  },
+  {
+    "text": "32",
+    "kind": "number"
+  },
+  {
+    "text": "삼십이",
+    "kind": "number"
+  },
+  {
+    "text": "33",
+    "kind": "number"
+  },
+  {
+    "text": "삼십삼",
+    "kind": "number"
+  },
+  {
+    "text": "34",
+    "kind": "number"
+  },
+  {
+    "text": "삼십사",
+    "kind": "number"
+  },
+  {
+    "text": "35",
+    "kind": "number"
+  },
+  {
+    "text": "삼십오",
+    "kind": "number"
+  },
+  {
+    "text": "36",
+    "kind": "number"
+  },
+  {
+    "text": "삼십육",
+    "kind": "number"
+  },
+  {
+    "text": "37",
+    "kind": "number"
+  },
+  {
+    "text": "삼십칠",
+    "kind": "number"
+  },
+  {
+    "text": "38",
+    "kind": "number"
+  },
+  {
+    "text": "삼십팔",
+    "kind": "number"
+  },
+  {
+    "text": "39",
+    "kind": "number"
+  },
+  {
+    "text": "삼십구",
+    "kind": "number"
+  },
+  {
+    "text": "40",
+    "kind": "number"
+  },
+  {
+    "text": "사십",
+    "kind": "number"
+  },
+  {
+    "text": "41",
+    "kind": "number"
+  },
+  {
+    "text": "사십일",
+    "kind": "number"
+  },
+  {
+    "text": "42",
+    "kind": "number"
+  },
+  {
+    "text": "사십이",
+    "kind": "number"
+  },
+  {
+    "text": "43",
+    "kind": "number"
+  },
+  {
+    "text": "사십삼",
+    "kind": "number"
+  },
+  {
+    "text": "44",
+    "kind": "number"
+  },
+  {
+    "text": "사십사",
+    "kind": "number"
+  },
+  {
+    "text": "45",
+    "kind": "number"
+  },
+  {
+    "text": "사십오",
+    "kind": "number"
+  },
+  {
+    "text": "46",
+    "kind": "number"
+  },
+  {
+    "text": "사십육",
+    "kind": "number"
+  },
+  {
+    "text": "47",
+    "kind": "number"
+  },
+  {
+    "text": "사십칠",
+    "kind": "number"
+  },
+  {
+    "text": "48",
+    "kind": "number"
+  },
+  {
+    "text": "사십팔",
+    "kind": "number"
+  },
+  {
+    "text": "49",
+    "kind": "number"
+  },
+  {
+    "text": "사십구",
+    "kind": "number"
+  },
+  {
+    "text": "50",
+    "kind": "number"
+  },
+  {
+    "text": "오십",
+    "kind": "number"
+  },
+  {
+    "text": "51",
+    "kind": "number"
+  },
+  {
+    "text": "오십일",
+    "kind": "number"
+  },
+  {
+    "text": "52",
+    "kind": "number"
+  },
+  {
+    "text": "오십이",
+    "kind": "number"
+  },
+  {
+    "text": "53",
+    "kind": "number"
+  },
+  {
+    "text": "오십삼",
+    "kind": "number"
+  },
+  {
+    "text": "54",
+    "kind": "number"
+  },
+  {
+    "text": "오십사",
+    "kind": "number"
+  },
+  {
+    "text": "55",
+    "kind": "number"
+  },
+  {
+    "text": "오십오",
+    "kind": "number"
+  },
+  {
+    "text": "56",
+    "kind": "number"
+  },
+  {
+    "text": "오십육",
+    "kind": "number"
+  },
+  {
+    "text": "57",
+    "kind": "number"
+  },
+  {
+    "text": "오십칠",
+    "kind": "number"
+  },
+  {
+    "text": "58",
+    "kind": "number"
+  },
+  {
+    "text": "오십팔",
+    "kind": "number"
+  },
+  {
+    "text": "59",
+    "kind": "number"
+  },
+  {
+    "text": "오십구",
+    "kind": "number"
+  },
+  {
+    "text": "60",
+    "kind": "number"
+  },
+  {
+    "text": "육십",
+    "kind": "number"
+  },
+  {
+    "text": "61",
+    "kind": "number"
+  },
+  {
+    "text": "육십일",
+    "kind": "number"
+  },
+  {
+    "text": "62",
+    "kind": "number"
+  },
+  {
+    "text": "육십이",
+    "kind": "number"
+  },
+  {
+    "text": "63",
+    "kind": "number"
+  },
+  {
+    "text": "육십삼",
+    "kind": "number"
+  },
+  {
+    "text": "64",
+    "kind": "number"
+  },
+  {
+    "text": "육십사",
+    "kind": "number"
+  },
+  {
+    "text": "65",
+    "kind": "number"
+  },
+  {
+    "text": "육십오",
+    "kind": "number"
+  },
+  {
+    "text": "66",
+    "kind": "number"
+  },
+  {
+    "text": "육십육",
+    "kind": "number"
+  },
+  {
+    "text": "67",
+    "kind": "number"
+  },
+  {
+    "text": "육십칠",
+    "kind": "number"
+  },
+  {
+    "text": "68",
+    "kind": "number"
+  },
+  {
+    "text": "육십팔",
+    "kind": "number"
+  },
+  {
+    "text": "69",
+    "kind": "number"
+  },
+  {
+    "text": "육십구",
+    "kind": "number"
+  },
+  {
+    "text": "70",
+    "kind": "number"
+  },
+  {
+    "text": "칠십",
+    "kind": "number"
+  },
+  {
+    "text": "71",
+    "kind": "number"
+  },
+  {
+    "text": "칠십일",
+    "kind": "number"
+  },
+  {
+    "text": "72",
+    "kind": "number"
+  },
+  {
+    "text": "칠십이",
+    "kind": "number"
+  },
+  {
+    "text": "73",
+    "kind": "number"
+  },
+  {
+    "text": "칠십삼",
+    "kind": "number"
+  },
+  {
+    "text": "74",
+    "kind": "number"
+  },
+  {
+    "text": "칠십사",
+    "kind": "number"
+  },
+  {
+    "text": "75",
+    "kind": "number"
+  },
+  {
+    "text": "칠십오",
+    "kind": "number"
+  },
+  {
+    "text": "76",
+    "kind": "number"
+  },
+  {
+    "text": "칠십육",
+    "kind": "number"
+  },
+  {
+    "text": "77",
+    "kind": "number"
+  },
+  {
+    "text": "칠십칠",
+    "kind": "number"
+  },
+  {
+    "text": "78",
+    "kind": "number"
+  },
+  {
+    "text": "칠십팔",
+    "kind": "number"
+  },
+  {
+    "text": "79",
+    "kind": "number"
+  },
+  {
+    "text": "칠십구",
+    "kind": "number"
+  },
+  {
+    "text": "80",
+    "kind": "number"
+  },
+  {
+    "text": "팔십",
+    "kind": "number"
+  },
+  {
+    "text": "81",
+    "kind": "number"
+  },
+  {
+    "text": "팔십일",
+    "kind": "number"
+  },
+  {
+    "text": "82",
+    "kind": "number"
+  },
+  {
+    "text": "팔십이",
+    "kind": "number"
+  },
+  {
+    "text": "83",
+    "kind": "number"
+  },
+  {
+    "text": "팔십삼",
+    "kind": "number"
+  },
+  {
+    "text": "84",
+    "kind": "number"
+  },
+  {
+    "text": "팔십사",
+    "kind": "number"
+  },
+  {
+    "text": "85",
+    "kind": "number"
+  },
+  {
+    "text": "팔십오",
+    "kind": "number"
+  },
+  {
+    "text": "86",
+    "kind": "number"
+  },
+  {
+    "text": "팔십육",
+    "kind": "number"
+  },
+  {
+    "text": "87",
+    "kind": "number"
+  },
+  {
+    "text": "팔십칠",
+    "kind": "number"
+  },
+  {
+    "text": "88",
+    "kind": "number"
+  },
+  {
+    "text": "팔십팔",
+    "kind": "number"
+  },
+  {
+    "text": "89",
+    "kind": "number"
+  },
+  {
+    "text": "팔십구",
+    "kind": "number"
+  },
+  {
+    "text": "90",
+    "kind": "number"
+  },
+  {
+    "text": "구십",
+    "kind": "number"
+  },
+  {
+    "text": "91",
+    "kind": "number"
+  },
+  {
+    "text": "구십일",
+    "kind": "number"
+  },
+  {
+    "text": "92",
+    "kind": "number"
+  },
+  {
+    "text": "구십이",
+    "kind": "number"
+  },
+  {
+    "text": "93",
+    "kind": "number"
+  },
+  {
+    "text": "구십삼",
+    "kind": "number"
+  },
+  {
+    "text": "94",
+    "kind": "number"
+  },
+  {
+    "text": "구십사",
+    "kind": "number"
+  },
+  {
+    "text": "95",
+    "kind": "number"
+  },
+  {
+    "text": "구십오",
+    "kind": "number"
+  },
+  {
+    "text": "96",
+    "kind": "number"
+  },
+  {
+    "text": "구십육",
+    "kind": "number"
+  },
+  {
+    "text": "97",
+    "kind": "number"
+  },
+  {
+    "text": "구십칠",
+    "kind": "number"
+  },
+  {
+    "text": "98",
+    "kind": "number"
+  },
+  {
+    "text": "구십팔",
+    "kind": "number"
+  },
+  {
+    "text": "99",
+    "kind": "number"
+  },
+  {
+    "text": "구십구",
+    "kind": "number"
+  },
+  {
+    "text": "100",
+    "kind": "number"
+  },
+  {
+    "text": "동전 1개가 있어요. 사과은 2개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 3개가 있어요. 사과은 2개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 0개가 있어요. 바나나은 1개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 2개가 있어요. 바나나은 1개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 2개가 있어요. 당근은 3개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 4개가 있어요. 당근은 3개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 3개가 있어요. 딸기은 4개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 5개가 있어요. 딸기은 4개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 1개가 있어요. 은 2개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 3개가 있어요. 은 2개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 2개가 있어요. 은 3개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 4개가 있어요. 은 3개예요. 살 수 있을까요?",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 3개를 모아 봐요!",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 4개를 모아 봐요!",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 5개를 모아 봐요!",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 6개를 모아 봐요!",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 7개를 모아 봐요!",
+    "kind": "finance"
+  },
+  {
+    "text": "동전 8개를 모아 봐요!",
+    "kind": "finance"
+  },
+  {
+    "text": "사과 사과",
+    "kind": "finance"
+  },
+  {
+    "text": "바나나 딸기",
+    "kind": "finance"
+  },
+  {
+    "text": "바구니 사과바나나",
+    "kind": "finance"
+  },
+  {
+    "text": "안녕! 나는 쪼이야. 오늘은 어떤 재미있는 놀이를 해 볼까?",
     "kind": "guide"
   },
   {
@@ -1096,26 +11296,6 @@
     "kind": "guide"
   },
   {
-    "text": "나무",
-    "kind": "word"
-  },
-  {
-    "text": "사과",
-    "kind": "word"
-  },
-  {
-    "text": "우유",
-    "kind": "word"
-  },
-  {
-    "text": "토끼",
-    "kind": "word"
-  },
-  {
-    "text": "바나나",
-    "kind": "word"
-  },
-  {
     "text": "고래",
     "kind": "word"
   },
@@ -1128,15 +11308,7 @@
     "kind": "word"
   },
   {
-    "text": "기차",
-    "kind": "word"
-  },
-  {
     "text": "포도",
-    "kind": "word"
-  },
-  {
-    "text": "나비",
     "kind": "word"
   },
   {
@@ -1144,63 +11316,7 @@
     "kind": "word"
   },
   {
-    "text": "모자",
-    "kind": "word"
-  },
-  {
-    "text": "바다",
-    "kind": "word"
-  },
-  {
-    "text": "고양이",
-    "kind": "word"
-  },
-  {
-    "text": "풍선",
-    "kind": "word"
-  },
-  {
     "text": "가방",
-    "kind": "word"
-  },
-  {
-    "text": "우산",
-    "kind": "word"
-  },
-  {
-    "text": "해",
-    "kind": "word"
-  },
-  {
-    "text": "눈",
-    "kind": "word"
-  },
-  {
-    "text": "돼지",
-    "kind": "word"
-  },
-  {
-    "text": "자동차",
-    "kind": "word"
-  },
-  {
-    "text": "딸기",
-    "kind": "word"
-  },
-  {
-    "text": "비행기",
-    "kind": "word"
-  },
-  {
-    "text": "기린",
-    "kind": "word"
-  },
-  {
-    "text": "호랑이",
-    "kind": "word"
-  },
-  {
-    "text": "거북이",
     "kind": "word"
   },
   {
@@ -1284,10 +11400,6 @@
     "kind": "guide"
   },
   {
-    "text": "알",
-    "kind": "word"
-  },
-  {
     "text": "알! 알 따라 써 봐요!",
     "kind": "guide"
   },
@@ -1324,10 +11436,6 @@
     "kind": "guide"
   },
   {
-    "text": "별",
-    "kind": "word"
-  },
-  {
     "text": "별! 별 따라 써 봐요!",
     "kind": "guide"
   },
@@ -1338,10 +11446,6 @@
   {
     "text": "별 따라 써 볼까?",
     "kind": "guide"
-  },
-  {
-    "text": "우주",
-    "kind": "word"
   },
   {
     "text": "우주! 우 따라 써 봐요!",
@@ -1410,10 +11514,6 @@
   {
     "text": "이 따라 써 볼까?",
     "kind": "guide"
-  },
-  {
-    "text": "동물",
-    "kind": "word"
   },
   {
     "text": "동물! 동 따라 써 봐요!",
@@ -1644,10 +11744,6 @@
     "kind": "guide"
   },
   {
-    "text": "그림",
-    "kind": "guide"
-  },
-  {
     "text": "두더지 두더지 잡기",
     "kind": "guide"
   },
@@ -1680,26 +11776,6 @@
     "kind": "guide"
   },
   {
-    "text": "해바라기",
-    "kind": "guide"
-  },
-  {
-    "text": "빨간 풍선",
-    "kind": "guide"
-  },
-  {
-    "text": "개구리",
-    "kind": "guide"
-  },
-  {
-    "text": "선물",
-    "kind": "guide"
-  },
-  {
-    "text": "강아지",
-    "kind": "guide"
-  },
-  {
     "text": "원숭이",
     "kind": "guide"
   },
@@ -1708,35 +11784,7 @@
     "kind": "guide"
   },
   {
-    "text": "파란 나비",
-    "kind": "guide"
-  },
-  {
-    "text": "곰",
-    "kind": "guide"
-  },
-  {
-    "text": "빨강",
-    "kind": "guide"
-  },
-  {
-    "text": "파랑",
-    "kind": "guide"
-  },
-  {
-    "text": "파란 공",
-    "kind": "guide"
-  },
-  {
-    "text": "노랑",
-    "kind": "guide"
-  },
-  {
     "text": "레몬",
-    "kind": "guide"
-  },
-  {
-    "text": "배",
     "kind": "guide"
   },
   {
@@ -1745,10 +11793,6 @@
   },
   {
     "text": "별 문제",
-    "kind": "guide"
-  },
-  {
-    "text": "로켓",
     "kind": "guide"
   },
   {
@@ -1856,19 +11900,7 @@
     "kind": "guide"
   },
   {
-    "text": "택시",
-    "kind": "guide"
-  },
-  {
     "text": "체리",
-    "kind": "guide"
-  },
-  {
-    "text": "달",
-    "kind": "guide"
-  },
-  {
-    "text": "생선",
     "kind": "guide"
   },
   {
@@ -1881,14 +11913,6 @@
   },
   {
     "text": "왼쪽 그림",
-    "kind": "guide"
-  },
-  {
-    "text": "오른쪽",
-    "kind": "guide"
-  },
-  {
-    "text": "왼쪽",
     "kind": "guide"
   },
   {
@@ -1988,10 +12012,6 @@
     "kind": "guide"
   },
   {
-    "text": "당근",
-    "kind": "guide"
-  },
-  {
     "text": "토끼에게 당근을 주세요",
     "kind": "guide"
   },
@@ -2005,10 +12025,6 @@
   },
   {
     "text": "고양이에게 생선을 주세요",
-    "kind": "guide"
-  },
-  {
-    "text": "꿀",
     "kind": "guide"
   },
   {
@@ -2140,15 +12156,11 @@
     "kind": "guide"
   },
   {
-    "text": "초록",
-    "kind": "guide"
-  },
-  {
     "text": "황금",
     "kind": "guide"
   },
   {
-    "text": "· 차 바꾸기",
+    "text": "· 탈것 바꾸기",
     "kind": "guide"
   },
   {
@@ -2360,6 +12372,10 @@
     "kind": "guide"
   },
   {
+    "text": "900",
+    "kind": "guide"
+  },
+  {
     "text": "아직 구조한 친구가 없어요",
     "kind": "guide"
   },
@@ -2389,10 +12405,6 @@
   },
   {
     "text": "구조 사다리 펼치기",
-    "kind": "guide"
-  },
-  {
-    "text": "물",
     "kind": "guide"
   },
   {
@@ -2496,14 +12508,6 @@
     "kind": "guide"
   },
   {
-    "text": "주황",
-    "kind": "guide"
-  },
-  {
-    "text": "보라",
-    "kind": "guide"
-  },
-  {
     "text": "갈색",
     "kind": "guide"
   },
@@ -2576,10 +12580,6 @@
     "kind": "guide"
   },
   {
-    "text": "보통",
-    "kind": "guide"
-  },
-  {
     "text": "굵게",
     "kind": "guide"
   },
@@ -2616,14 +12616,6 @@
     "kind": "guide"
   },
   {
-    "text": "소리 켬",
-    "kind": "guide"
-  },
-  {
-    "text": "소리 끔",
-    "kind": "guide"
-  },
-  {
     "text": "소리 끄기",
     "kind": "guide"
   },
@@ -2633,10 +12625,6 @@
   },
   {
     "text": "새로운 색칠 이야기를 시작해요!",
-    "kind": "guide"
-  },
-  {
-    "text": "초 후 트로피",
     "kind": "guide"
   },
   {
@@ -2769,10 +12757,6 @@
   },
   {
     "text": "멋지게 성공! 알를 따라 써 볼까?",
-    "kind": "guide"
-  },
-  {
-    "text": "이 그림의 이름은 무엇일까요?",
     "kind": "guide"
   },
   {
@@ -3036,10 +13020,6 @@
     "kind": "learning"
   },
   {
-    "text": "코끼리",
-    "kind": "learning"
-  },
-  {
     "text": "티읕",
     "kind": "learning"
   },
@@ -3049,10 +13029,6 @@
   },
   {
     "text": "히읗",
-    "kind": "learning"
-  },
-  {
-    "text": "아",
     "kind": "learning"
   },
   {
@@ -3068,10 +13044,6 @@
     "kind": "learning"
   },
   {
-    "text": "어",
-    "kind": "learning"
-  },
-  {
     "text": "어항",
     "kind": "learning"
   },
@@ -3084,19 +13056,11 @@
     "kind": "learning"
   },
   {
-    "text": "오",
-    "kind": "learning"
-  },
-  {
     "text": "요",
     "kind": "learning"
   },
   {
     "text": "요리",
-    "kind": "learning"
-  },
-  {
-    "text": "우",
     "kind": "learning"
   },
   {
@@ -3109,10 +13073,6 @@
   },
   {
     "text": "으쓱",
-    "kind": "learning"
-  },
-  {
-    "text": "이",
     "kind": "learning"
   },
   {
@@ -3132,15 +13092,7 @@
     "kind": "learning"
   },
   {
-    "text": "다리",
-    "kind": "learning"
-  },
-  {
     "text": "라",
-    "kind": "learning"
-  },
-  {
-    "text": "라디오",
     "kind": "learning"
   },
   {
@@ -3153,10 +13105,6 @@
   },
   {
     "text": "바",
-    "kind": "learning"
-  },
-  {
-    "text": "사",
     "kind": "learning"
   },
   {
@@ -3273,10 +13221,6 @@
   },
   {
     "text": "동물 친구를 찾아 봐요. 돼지",
-    "kind": "learning"
-  },
-  {
-    "text": "사자",
     "kind": "learning"
   },
   {

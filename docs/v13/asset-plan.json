@@ -8204,6 +8204,90 @@
       "sha256": "0a8fa08d40ad2e35a1e0e06129db111aca2cb45b2fc4e4009e893fa73fc37e0e",
       "provenance": "Built-in image_gen source exec-130acc8a-59df-4425-be1d-68142e41774f.png",
       "reviewNote": "Viewed complete generated atlas: full relevant historical activities, no emoji placeholders. Interpretive storybook depiction, not verified portrait likeness."
+    },
+    {
+      "id": "history.kimgu",
+      "path": "assets/v13/history.kimgu.webp",
+      "alt": "역사 인물과 생활 활동 장면 kimgu",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "72f5a7a036ca78806bbf028629c295da394e3c393377834c732a0a561dc442e7",
+      "provenance": "Built-in image_gen original exec-990fd786-1a4f-4936-8a09-e13a511e03b1.png; reviewed correction exec-ed8aed32-80b8-4f3d-ac83-d3ad5b2d86b8.png",
+      "reviewNote": "Viewed actual corrected atlas. Relevant full scenes; Hangul manuscript contains legible correct consonants/vowels. Interpretive history illustration."
+    },
+    {
+      "id": "history.hanbok",
+      "path": "assets/v13/history.hanbok.webp",
+      "alt": "역사 인물과 생활 활동 장면 hanbok",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "05a5846a0b6b1f97606f54a5ebb0af1f5e3ca5211d76bb52250e486943aba0ca",
+      "provenance": "Built-in image_gen original exec-990fd786-1a4f-4936-8a09-e13a511e03b1.png; reviewed correction exec-ed8aed32-80b8-4f3d-ac83-d3ad5b2d86b8.png",
+      "reviewNote": "Viewed actual corrected atlas. Relevant full scenes; Hangul manuscript contains legible correct consonants/vowels. Interpretive history illustration."
+    },
+    {
+      "id": "history.spinning",
+      "path": "assets/v13/history.spinning.webp",
+      "alt": "역사 인물과 생활 활동 장면 spinning",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "1010ab677a616aaf8b1bbce988df0327217921dab0e887603706f3e167093a8f",
+      "provenance": "Built-in image_gen original exec-990fd786-1a4f-4936-8a09-e13a511e03b1.png; reviewed correction exec-ed8aed32-80b8-4f3d-ac83-d3ad5b2d86b8.png",
+      "reviewNote": "Viewed actual corrected atlas. Relevant full scenes; Hangul manuscript contains legible correct consonants/vowels. Interpretive history illustration."
+    },
+    {
+      "id": "history.raingauge",
+      "path": "assets/v13/history.raingauge.webp",
+      "alt": "역사 인물과 생활 활동 장면 raingauge",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "e7f9b0101818429fc03836783df785d28f6ad20391369ebe6494585f7268b5d4",
+      "provenance": "Built-in image_gen original exec-990fd786-1a4f-4936-8a09-e13a511e03b1.png; reviewed correction exec-ed8aed32-80b8-4f3d-ac83-d3ad5b2d86b8.png",
+      "reviewNote": "Viewed actual corrected atlas. Relevant full scenes; Hangul manuscript contains legible correct consonants/vowels. Interpretive history illustration."
+    },
+    {
+      "id": "history.hangulbook",
+      "path": "assets/v13/history.hangulbook.webp",
+      "alt": "역사 인물과 생활 활동 장면 hangulbook",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "a78c36bd4a1a68ad034a80fff41323bb24b60b7fe533262c4b73345f670811dc",
+      "provenance": "Built-in image_gen original exec-990fd786-1a4f-4936-8a09-e13a511e03b1.png; reviewed correction exec-ed8aed32-80b8-4f3d-ac83-d3ad5b2d86b8.png",
+      "reviewNote": "Viewed actual corrected atlas. Relevant full scenes; Hangul manuscript contains legible correct consonants/vowels. Interpretive history illustration."
+    },
+    {
+      "id": "history.onggi",
+      "path": "assets/v13/history.onggi.webp",
+      "alt": "역사 인물과 생활 활동 장면 onggi",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "1eaa1473e8467ab212eaa687c79366dd03fb0814998b1fa2122a7e020b465c68",
+      "provenance": "Built-in image_gen original exec-990fd786-1a4f-4936-8a09-e13a511e03b1.png; reviewed correction exec-ed8aed32-80b8-4f3d-ac83-d3ad5b2d86b8.png",
+      "reviewNote": "Viewed actual corrected atlas. Relevant full scenes; Hangul manuscript contains legible correct consonants/vowels. Interpretive history illustration."
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"

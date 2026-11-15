@@ -1,6 +1,6 @@
 [
   "mobile: actual MP3 playback, no device TTS, pause/resume, page cancellation race, auto-turn, mute and exit",
-  "mobile: recorded voice audition and persisted mode toggle",
+  "mobile: fixed recorded Korean voice audition with zero device Korean calls",
   "tablet: actual MP3 playback, no device TTS, pause/resume, page cancellation race, auto-turn, mute and exit",
-  "tablet: recorded voice audition and persisted mode toggle"
+  "tablet: fixed recorded Korean voice audition with zero device Korean calls"
 ]

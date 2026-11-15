@@ -155,7 +155,7 @@ function processAnswer(chosen){
 }
 function finishAnswer(ok,btn,elapsed){
  const q=current();if(answered)return;answered=true;
- if(ok){score++;btn?.classList.add("good");$("feedback").textContent="🌟 잘했어! "+(A.profile().name||"이현")+"!";speak("우리 "+(A.profile().name||"이현")+" 정말 잘하네!")}
+ if(ok){score++;btn?.classList.add("good");$("feedback").textContent="🌟 잘했어! "+(A.profile().name||"이현")+"!";speak("우리 친구 정말 잘하네!")}
  else{btn?.classList.add("bad");$("feedback").textContent="💛 설명을 듣고 다시 배워봐요!";speak("다시 배워보자!")}
  if(run.type==="diagnostic")diagnosticResults.push({skill:q.skill,correct:ok,elapsed});
  else {A.update(run.lesson.skill,ok,elapsed,run.lesson.mode);A.recordQuestion(subject.id,run.module.id,q,ok)}
@@ -167,7 +167,7 @@ function render(){
  $("count").textContent=(index+1)+" / "+run.questions.length;$("stars").textContent="⭐ "+score;$("bar").style.width=(100*index/run.questions.length)+"%";
  const q=current(),mode=run.type==="diagnostic"?"choose":run.lesson.mode;
  if(!q)return;
- $("visual").textContent=q.visual;$("question").textContent=q.question||q.hint||"어떤 것일까요?";
+ $("visual").dataset.historyAnswer=subject.id==='history'?q.answer:'';$("visual").textContent=q.visual;$("question").textContent=q.question||q.hint||"어떤 것일까요?";
  $("hint").textContent="차근차근 생각하고 골라봐요";
  $("playMascot").src="./joyi-"+(index===run.questions.length-1?"celebrate":subject.id)+".svg";
  if(["tap","drag","pair","order","story"].includes(mode)){

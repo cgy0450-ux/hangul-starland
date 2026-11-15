@@ -1,0 +1,21 @@
+{
+  "recognizer": "Whisper tiny int8, CPU, Korean",
+  "results": [
+    {
+      "expected": "강아지가 쉬러 돌아가는 곳은 어디일까요?",
+      "recognized": "강아지가 싫어 돌아가는 곳은 어딜일까요?",
+      "path": "./assets/audio/bb477433928fda98b078.mp3"
+    },
+    {
+      "expected": "신사임당은 식물과 곤충 등의 그림으로 알려진 조선 시대 화가예요.",
+      "recognized": "신사임당은 식물과 공충 등의 그림으로 알려진 조선시대화가에요",
+      "path": "./assets/audio/f6c386040d0176026385.mp3"
+    },
+    {
+      "expected": "그림을 잘 그린 조선 시대 인물은?",
+      "recognized": "그림을 잘 그린 조선시대 잊무를",
+      "path": "./assets/audio/0cab29bf71ea51b0c4fd.mp3"
+    }
+  ],
+  "limit": "Machine transcription only; no human listening or subjective naturalness claim."
+}
