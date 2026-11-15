@@ -1,0 +1,40 @@
+{
+  "commit": "d5a33075dda52445922aa2bd44e258ea511399f3",
+  "release": "v13.2",
+  "branch": "main",
+  "user_authorization": "User requested live reflection and continued autonomous implementation; latest shared backlog incorporated on existing development branch.",
+  "published_site": "https://cgy0450-ux.github.io/hangul-starland/",
+  "pages": {
+    "run_id": 43685313011,
+    "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43685313011",
+    "status": "success",
+    "duration": "45s"
+  },
+  "qa": {
+    "run_id": 43685313235,
+    "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43685313235",
+    "status": "success",
+    "duration": "47s"
+  },
+  "verified_at_utc": "2026-11-15T06:27:20.733301+00:00",
+  "verification": "Native Git remote main SHA; GitHub embedded workflow summary completed/success; Pages run title identifies d5a3307 and successful deployment output includes public URL.",
+  "live_http_check": {
+    "result": "blocked by cloud environment destination allowlist",
+    "stage": "HTTP CONNECT proxy",
+    "response": 403,
+    "note": "This is a cloud egress restriction, not an observed error from the deployed website. No live-site visual verification claimed."
+  },
+  "environment_publication": "No cloud environment configuration publication performed.",
+  "previousDeployments": [
+    {
+      "commit": "1743c1e6edaa6fb88e74202638f621d04da13bc7",
+      "pages": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43674334795",
+      "qa": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43674334878"
+    },
+    {
+      "commit": "7d816a350841424c7553de4cfcaf47417f3b5ee9",
+      "pages": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43683574712",
+      "qa": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43683575173"
+    }
+  ]
+}
