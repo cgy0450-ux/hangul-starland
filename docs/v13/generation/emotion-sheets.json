@@ -1,0 +1,89 @@
+[
+  {
+    "source": "/workspace/generated_images/exec-f84fd1c6-de0b-4a19-bcf8-2cc80bb7a716.png",
+    "items": [
+      [
+        "emotion-happy",
+        "JoYi original tiger face HAPPY smiling, goggles blue lenses on forehead red scarf visible"
+      ],
+      [
+        "emotion-sad",
+        "JoYi original tiger face SAD one small tear, goggles and red scarf"
+      ],
+      [
+        "emotion-scared",
+        "JoYi original tiger face WORRIED/SCARED gentle reassuring not terrified, goggles and red scarf"
+      ],
+      [
+        "emotion-angry",
+        "JoYi original tiger face ANGRY brows gently lowered no aggression, goggles and red scarf"
+      ],
+      [
+        "emotion-calm",
+        "JoYi original tiger face CALM relaxed eyes soft smile, goggles and red scarf"
+      ],
+      [
+        "emotion-sleepy",
+        "JoYi original tiger face SLEEPY peacefully closed eyes, goggles and red scarf"
+      ]
+    ]
+  },
+  {
+    "source": "/workspace/generated_images/exec-e1dd17ef-437d-4450-8680-4309a67ef9f9.png",
+    "items": [
+      [
+        "chef",
+        "friendly adult Korean chef in white toque and white chef coat holding wooden spoon"
+      ],
+      [
+        "farmer",
+        "friendly adult Korean farmer wearing straw hat green overalls holding seedling"
+      ],
+      [
+        "teacher",
+        "friendly adult Korean woman teacher in mint cardigan holding picture book"
+      ],
+      [
+        "mechanic",
+        "friendly adult Korean mechanic in blue work overalls holding wrench"
+      ],
+      [
+        "runner",
+        "JoYi exact original tiger with goggles red scarf backpack RUNNING joyfully full body"
+      ],
+      [
+        "emotion-hot",
+        "JoYi exact original tiger face feeling HOT warm rosy cheeks and one sweat drop, goggles and red scarf"
+      ]
+    ]
+  },
+  {
+    "source": "/workspace/generated_images/exec-863bab04-cc21-4c82-9049-4ece50b5416d.png",
+    "items": [
+      [
+        "wavehand",
+        "small open human hand waving, five anatomically correct fingers"
+      ],
+      [
+        "thankyou",
+        "two human hands palms together in gentle gratitude gesture"
+      ],
+      [
+        "noarms",
+        "friendly adult Korean woman crossing her arms in front of chest to say NO, kind firm expression"
+      ],
+      [
+        "fist",
+        "small human hand closed into a gentle fist"
+      ],
+      [
+        "openhands",
+        "pair of open human hands with palms upward"
+      ],
+      [
+        "eyes",
+        "pair of warm brown cartoon eyes looking attentively, no face"
+      ]
+    ]
+  }
+]

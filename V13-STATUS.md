@@ -1,8 +1,8 @@
 # v13 progress checkpoint
 As of 2026-11-15: planning and environment handoff only. Existing v12.1 QA and Pages success verified at 32d8b8c99a06e2449c1f5b91963161495d1bfb22. No v13 production graphics deployment claimed.
-- [ ] 01 inventory and visual baseline
-- [ ] 02 asset pipeline and image generation capability validation
-- [ ] 03 home and learning cards
+- [x] 01 inventory and visual baseline (baseline screenshots and source inventories retained)
+- [x] 02 asset pipeline and image generation capability validation (actual generated assets and rejection checks)
+- [x] 03 home and learning cards (21 primary scenes integrated)
 - [ ] 04 action games
 - [ ] 05 mini games and adventures
 - [ ] 06 learning illustrations
@@ -48,3 +48,23 @@ Branch: continuing `v13/02-offline-query-navigation` as explicitly requested. Co
 - PASS original smoke and 67 rendered browser cases. PASS 9 real interaction checks in `qa/v13/gameplay.py`: wrong color blocked, five rounds→writing, partial/missing-last stroke blocked, full strokes→stage 2, exactly one of nine spot-difference objects, six space art choices, finite water/two refills, five simulated minutes. Evidence `docs/v13/gameplay-results.json`. Original `word-gate.js` untouched.
 - The refill test exposed an existing gauge defect (water display only changed when another UI update fired). Added `updateWater()` each frame; consumption, refill and acceptance conditions unchanged. RAF test harness also needed to retain multiple callbacks rather than overwrite them; no app assertions or stroke thresholds were weakened.
 - Story production continues separately: 200 scene-art target, updated openings/endings, comprehension and narration UI are in progress and NOT marked complete in this checkpoint. Main/production/environment publication unchanged.
+
+## 2026-11-15 / batch 04 — 221 planned illustrations implemented, twenty illustrated books
+Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoint `417b1e5` pushed. Commit: this checkpoint (`git log -- V13-STATUS.md`).
+- Actual approved main art: **221/221** = 11 game scenes + 10 subject scenes + 200 distinct story scene files, all linked to actual screens. Generated with built-in user-authorized image tool, never an external paid API. Some scenes were generated as multi-panel sheets and technically extracted; do not misreport file count as call count.
+- Additional actual art: 232 supporting exports (228 sprites/facades + 4 welcome/playfield backgrounds), total **453 unique WebP exports**. Some supporting props are deliberately retained for later reuse. Source outputs and generation/correction records retained. Original JoYi SVGs and `word-gate.js` unchanged.
+- All 20 stories have revised openings/endings, scene-specific images and three-choice comprehension with feedback/replay. Added narration pause/resume/repeat, optional auto-turn, parent voice selection and cancellation guards, using device Korean speech only. Book order/links and existing storage format preserved.
+- Every ten-scene book contact was visually inspected. Re-generated transformed-ox panels to remove simultaneous human/ox, including the epilogue; re-generated car ending so rescued puppy stays with family. Adjusted text where scene meaning differed. Retained original and corrected source references.
+- PASS 400 actual story renders (200 pages × mobile/tablet), text/image consistency and all 20 comprehension activities in both sizes. PASS 68 route/size screenshots with no observed page errors, image failures or horizontal overflow; 20 additional size checks covered 360×800, 390×844, 800×1280 and 1280×800. Actual running-game/reading/learning screenshots also inspected. Snapshot folders identify their respective stages; source-art contact sheets are not presented as app screenshots.
+- Actual screen review prompted another fix: learning images inherited mascot absolute positioning and were tiny in a corner; corrected to central image layout. Removed washed-out fade and made captures wait for final animation state. Moved timer into header flow to stop covering scores. Replaced remaining flat rescue trees and generic buildings with stage-appropriate 3D facades.
+- PASS 13 interaction scenarios, including full positive rescue: extinguish fires → tap animal → finish every stroke of 소방차 → persist one rescue. Partial/missing-final strokes remain blocked. Finite water, repeated instant refills and five simulated minutes passed. PASS narration state/race fixtures; actual audible Korean device quality remains unverified.
+- PASS 453 actual WebP files, unique content, SHA-256 and offline inclusion. Actual raster decode/dimensions and six rejection cases checked. Existing Node smoke now includes CI-compatible image integrity validation. PASS original 67 rendered cases. Offline/cache upgrade evidence records 507 core requests and successful v12→new worker transition.
+- One-time deployment export optimization saved **9,067,636 bytes** while retaining original PNG outputs. Added a guard against repeated lossy recompression. Current exact payload and counts: `docs/v13/artifact-results.json`.
+- Remaining: real iPad/Android touch and audible voice checks, exhaustive completion of every lesson/game state, PR review and production deployment. No claim these have passed. No main merge, Pages deploy or environment publication.
+
+### Final local verification and reproducibility
+- Cold-run gameplay helper now derives stage coordinates from the repository rather than depending on a temporary file. A quoting error in that helper was corrected; the final self-contained run passed all 13 scenarios. No app acceptance criterion was reduced.
+- Final Node smoke, 453-file image integrity check, Python decode/metadata validation and six rejection cases pass. Final Chrome suite: 67 rendered cases pass. Final story evidence contains 400 unique mobile/tablet page records; corrected books were recaptured.
+- Final offline run also opens all ten pages of book 19 and decodes their scene images with networking disabled. 507 cached core requests and v12-to-current worker upgrade pass. Narration fixtures pass; audible physical-device quality remains explicitly unverified.
+- Actual artwork payload is approximately 40 MB (exact bytes in artifact-results.json). This includes the complete offline story library; it is not a mobile network speed measurement.
+- Review summary and actual screenshot links rewritten in PR-DRAFT.md around the implemented result. Native Git push is used; no blocked PR API retry, main merge or environment publication.

@@ -7,8 +7,12 @@
     "all strokes advance to next stage",
     "nine paired objects, one difference, wrong and correct hotspot behavior",
     "six distinguishable space target artworks",
+    "actual mole tap advances one question",
+    "egg tap actually reveals named dinosaur raster",
+    "animal care wrong food blocked and correct carrot advances",
     "finite water drains and hydrant refills instantly twice",
-    "unchanged frame loop ends at five simulated minutes"
+    "unchanged frame loop ends at five simulated minutes",
+    "animal cannot be rescued before extinguishing; tap after all fires requires complete 소방차 writing before saving rescue"
   ],
   "limitations": [
     "Synthetic pointer/frame input; real touch-device and Korean voice listening still require device review",

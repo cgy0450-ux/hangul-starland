@@ -1,0 +1,368 @@
+[
+  {
+    "book": 0,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-9b238e7d-4245-48bb-b1b6-6d22826d658f.png"
+  },
+  {
+    "book": 0,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-80bf919f-a6a3-4fef-bd30-2a6917d85897.png"
+  },
+  {
+    "book": 0,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-22674967-d8ac-41da-81c0-38b88d2a5ef0.png"
+  },
+  {
+    "book": 1,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-6fbe99d3-ced9-4cfd-8977-e2f7c0dd831e.png"
+  },
+  {
+    "book": 1,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-3f868756-3695-49f5-892a-65af53641ed9.png"
+  },
+  {
+    "book": 1,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-4c668c9c-6911-4bd5-b232-c3db2302cb0b.png"
+  },
+  {
+    "book": 2,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-4fba37a2-e5aa-44ec-87d3-a757e73c30c2.png"
+  },
+  {
+    "book": 2,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-01290acf-7c78-491e-9644-656e63429a92.png"
+  },
+  {
+    "book": 2,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-6dce6451-1d8b-409e-992b-bce306d322f5.png"
+  },
+  {
+    "book": 3,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-50c95668-f8ee-47e8-ad6d-096b50e21cca.png"
+  },
+  {
+    "book": 3,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-d09a7ecf-1748-4a78-9c67-cc0e0496223c.png"
+  },
+  {
+    "book": 3,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-d7a62cfa-b979-4872-9084-ad606a0c6f2f.png"
+  },
+  {
+    "book": 4,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-23f08056-57be-4473-a44b-97fb59b85c12.png"
+  },
+  {
+    "book": 4,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-749bf4fe-10f1-4f63-878f-07842a110f89.png"
+  },
+  {
+    "book": 4,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-8b7b9c8a-d030-420f-9f71-ce9fcdd4ad3f.png"
+  },
+  {
+    "book": 5,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-e4925b4d-6ffb-4da9-bafb-cdea805fa010.png"
+  },
+  {
+    "book": 5,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-dcad691a-67a9-4da5-b137-94bd75424475.png"
+  },
+  {
+    "book": 5,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-f9c76c04-aecd-4e19-91b8-084ad1f57b53.png"
+  },
+  {
+    "book": 6,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-b3b256d4-836e-47a7-b93f-efd47a8ad194.png"
+  },
+  {
+    "book": 6,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-3a1f5935-9640-4d7a-9767-9994b6f73620.png"
+  },
+  {
+    "book": 6,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-10d9cec0-6dd7-440a-8ce0-f47cf50a453f.png"
+  },
+  {
+    "book": 7,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-ad71087e-9170-4ba9-aa1e-0808d4862655.png"
+  },
+  {
+    "book": 7,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-31f4b115-f3fe-4f2c-9da2-c3423ed0c7b8.png"
+  },
+  {
+    "book": 7,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-680cea9e-1466-423f-a19c-9a7347da4523.png"
+  },
+  {
+    "book": 8,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-49cfd407-59ef-4317-b00e-a5fa8db09657.png"
+  },
+  {
+    "book": 8,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-0ac6829a-a657-4149-bc5c-537f64a6d8ae.png"
+  },
+  {
+    "book": 8,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-cd9d6ff7-a982-4551-a6b8-b20cff1cb42d.png"
+  },
+  {
+    "book": 9,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-f0237558-dfa9-4a9a-b41f-bea4ac7d4ccd.png"
+  },
+  {
+    "book": 9,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-324ac9c9-877b-4d4a-aa1b-ea5fb4fbbc67.png"
+  },
+  {
+    "book": 9,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-a155ef73-72d8-451d-b851-45563f885122.png"
+  },
+  {
+    "book": 10,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-55b5d294-7205-48fb-a7c3-fde46f389963.png"
+  },
+  {
+    "book": 10,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-832158e5-41f5-4c41-a261-a19aaf5ad27f.png"
+  },
+  {
+    "book": 10,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-2adbd152-9a9a-4a0f-a217-8119791875d9.png"
+  },
+  {
+    "book": 11,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-cbd47cc8-bc55-437a-b874-33109399f3a7.png"
+  },
+  {
+    "book": 11,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-962a527c-169e-4b14-81ce-db8ba3364aa1.png"
+  },
+  {
+    "book": 11,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-f68d7972-b6d0-4a5e-8854-effcb924194a.png"
+  },
+  {
+    "book": 12,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-7c730fa3-7c6c-4e1b-adcb-d3694b737102.png"
+  },
+  {
+    "book": 12,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-64a2af35-bdc4-4a19-a9d9-117d90f8b644.png"
+  },
+  {
+    "book": 12,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-8b97f6e8-2b39-4d40-a0ef-7bdc03e277ad.png"
+  },
+  {
+    "book": 13,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-a09e5530-fde1-4a18-b7cd-1fd61848d2b4.png"
+  },
+  {
+    "book": 13,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-ac8b691e-e65b-4890-9651-67aff374a762.png"
+  },
+  {
+    "book": 13,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-c2f37e43-a1bf-4080-adbf-5ffc16ae3277.png"
+  },
+  {
+    "book": 14,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-d1391a2c-edba-491a-a59f-36dc236bfbc0.png"
+  },
+  {
+    "book": 14,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-bf2e6061-e378-49f9-81ff-7d6b1c3c73a0.png"
+  },
+  {
+    "book": 14,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-b99a204f-9f25-486c-b606-7772bba031a2.png"
+  },
+  {
+    "book": 15,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-64984a4b-d789-404c-919c-ba6aa6599ace.png"
+  },
+  {
+    "book": 15,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-55a73c66-fedb-4994-a662-d7fe8c514b4c.png"
+  },
+  {
+    "book": 15,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-03e68697-0a48-4423-bfbe-091898296f29.png"
+  },
+  {
+    "book": 16,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-9e9abb47-8f55-4a79-831f-b5b19c8e5948.png"
+  },
+  {
+    "book": 16,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-8bebfa1d-b49f-45ee-ac79-01a91b34d6ba.png",
+    "previousSource": "/workspace/generated_images/exec-945ba99b-c284-49fe-a661-b2c7330a0e91.png",
+    "correction": "Removed simultaneous human/ox protagonist from transformed scenes"
+  },
+  {
+    "book": 16,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-f2c34b96-4a3b-490c-87f0-34bf74882a0f.png",
+    "previousSource": "/workspace/generated_images/exec-84c91d13-7cb4-4d4f-81ec-e863b29f9a56.png",
+    "correction": "No duplicate living ox after protagonist returns to human"
+  },
+  {
+    "book": 17,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-9b30ab2e-d4c0-4cf8-860d-54472ae7f5d3.png"
+  },
+  {
+    "book": 17,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-a1758b3a-67e6-4225-bd59-89dd1ea91514.png"
+  },
+  {
+    "book": 17,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-abe66eea-5391-4a97-95a8-3c08e26adb64.png"
+  },
+  {
+    "book": 18,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-28b53c6e-047c-4f3d-a3be-c8a218c53e56.png"
+  },
+  {
+    "book": 18,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-c393f2e2-ff7e-47ae-b3bb-155b95f0adcd.png"
+  },
+  {
+    "book": 18,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-9c3c4a43-911d-41ab-8d8c-59f2486875b2.png"
+  },
+  {
+    "book": 19,
+    "start": 0,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-1b70a175-5bbc-4a03-99a2-c91418797f95.png"
+  },
+  {
+    "book": 19,
+    "start": 4,
+    "count": 4,
+    "source": "/workspace/generated_images/exec-7b3f7c9f-f871-4f23-8a24-401b8a549724.png"
+  },
+  {
+    "book": 19,
+    "start": 8,
+    "count": 2,
+    "source": "/workspace/generated_images/exec-44e07ce6-20fd-4b31-9b54-074bd253d1c3.png",
+    "previousSource": "/workspace/generated_images/exec-b2301835-58a7-4ef6-88bb-83ceb1769671.png",
+    "correction": "Puppy stays with family; JoYi departs alone in car"
+  }
+]

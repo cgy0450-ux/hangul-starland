@@ -1,0 +1,114 @@
+[
+  {
+    "view": "mobile",
+    "route": "index.html",
+    "screenshot": "mobile-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "requests.html",
+    "screenshot": "mobile-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "stories.html",
+    "screenshot": "mobile-2.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "journey.html?subject=hangul&lesson=hangul-0-choose",
+    "screenshot": "mobile-3.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "journey.html?subject=life&lesson=life-0-explore",
+    "screenshot": "mobile-4.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "academy.html?subject=history",
+    "screenshot": "mobile-5.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "firetruck-rescue.html",
+    "screenshot": "mobile-6.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "index.html",
+    "screenshot": "tablet-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "requests.html",
+    "screenshot": "tablet-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "screenshot": "tablet-2.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=hangul&lesson=hangul-0-choose",
+    "screenshot": "tablet-3.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=life&lesson=life-0-explore",
+    "screenshot": "tablet-4.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "academy.html?subject=history",
+    "screenshot": "tablet-5.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "firetruck-rescue.html",
+    "screenshot": "tablet-6.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  }
+]

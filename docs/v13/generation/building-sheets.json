@@ -1,0 +1,60 @@
+[
+  {
+    "source": "/workspace/generated_images/exec-61acee72-660f-43e4-b080-845630e8d52d.png",
+    "items": [
+      [
+        "building-house",
+        "two-story warm cream neighborhood house with terracotta roof and large front windows"
+      ],
+      [
+        "building-animalhome",
+        "cozy small woodland animal cottage with round front door and large window, no animals"
+      ],
+      [
+        "building-kindergarten",
+        "cheerful pastel kindergarten with rounded mint door and colorful wide classroom windows, no text"
+      ],
+      [
+        "building-forest",
+        "timber woodland house with moss-green roof and large windows"
+      ],
+      [
+        "building-apartment",
+        "small friendly three-story apartment building with many large windows"
+      ],
+      [
+        "building-lighthouse",
+        "white seaside lighthouse with blue stripes and little attached keeper house, large front window"
+      ]
+    ]
+  },
+  {
+    "source": "/workspace/generated_images/exec-6e3cb005-af09-40d6-be13-6de5446955a0.png",
+    "items": [
+      [
+        "building-science",
+        "small space science museum with glass planetarium dome and planet emblem, no text"
+      ],
+      [
+        "building-hospital",
+        "gentle pastel pink animal hospital with simple red cross emblem and large windows, no animals"
+      ],
+      [
+        "building-camp",
+        "cozy forest camping lodge with timber walls green roof and large windows"
+      ],
+      [
+        "building-library",
+        "warm town library with arched windows and a small open-book emblem, no text"
+      ],
+      [
+        "building-airport",
+        "small cheerful airport terminal with glass front and rooftop control tower, no planes"
+      ],
+      [
+        "building-zoo",
+        "friendly zoo animal care pavilion with rounded green roof and large arched windows, no animals"
+      ]
+    ]
+  }
+]

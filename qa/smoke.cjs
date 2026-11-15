@@ -313,4 +313,5 @@ assert(diag.every(q=>q.question&&q.question.length>=9),'subject diagnostic omitt
 assert(adaptive.report().subject.length===10,'parent analytics incomplete');
 assert(local['joiland-learning-v10'],'private on-device progress was not stored');
 
+require('./v13/assets.cjs');
 console.log('PASS: '+compiled+' HTML scripts; reviewed history/coding and 10 money games plus two block-building games; ten number-writing groups and whole-number glyphs; stroke checks; 20 long stories; v10.4 440 graded lessons, new tiger scenery, voice playback and error-specific adaptive review with 200 new play modes, local adaptive engine and parent dashboard.');

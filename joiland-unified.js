@@ -56,7 +56,7 @@ function tick(now){
  const active=gameActive();
  if(!active&&wasPlaying){widget?.remove();widget=null}
  if(active&&!ended){if(wasPlaying)elapsed+=Math.min(1.25,(now-previous)/1000);
-  if(!widget){widget=document.createElement('div');widget.className='joyi-time-badge';document.body.append(widget)}
+  if(!widget){widget=document.createElement('div');widget.className='joyi-time-badge';header.append(widget)}
   widget.textContent='🏆 '+Math.max(0,Math.ceil(300-elapsed))+'초 후 트로피';
   if(elapsed>=300)trophy();
  }

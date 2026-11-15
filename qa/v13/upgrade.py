@@ -1,10 +1,11 @@
 """Verify real v12 service-worker upgrade without modifying checkout files."""
-import functools, http.server, json, subprocess, threading
+import functools, http.server, json, subprocess, threading, re
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[2]
 old=subprocess.check_output(['git','show','1c24aeb:sw.js'],cwd=ROOT)
 state={'upgrade':False}
+expected_cache=re.search(r"const CACHE = '([^']+)'",(ROOT/'sw.js').read_text()).group(1)
 class Handler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path=='/sw.js':
@@ -24,7 +25,7 @@ try:
         page.evaluate("navigator.serviceWorker.addEventListener('controllerchange',()=>window.didUpgrade=true)")
         state['upgrade']=True
         page.evaluate('''async()=>{const r=await navigator.serviceWorker.getRegistration();await r.update()}''')
-        page.wait_for_function("caches.keys().then(ks=>ks.some(k=>k.includes('v13-offline-query')) && !ks.some(k=>k.includes('v12-1')))")
+        page.wait_for_function("expected=>caches.keys().then(ks=>ks.includes(expected) && !ks.some(k=>k.includes('v12-1')))",arg=expected_cache)
         page.wait_for_function('window.didUpgrade === true')
         context.set_offline(True);page.goto(base+'/journey.html?subject=math')
         assert page.locator('[data-lesson="math-0-choose"]').count()>0

@@ -1,0 +1,3202 @@
+[
+  {
+    "view": "mobile",
+    "book": 0,
+    "page": 0,
+    "screenshot": "mobile-00-00.webp",
+    "image": "./assets/v13/story.00.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 0,
+    "page": 1,
+    "screenshot": "mobile-00-01.webp",
+    "image": "./assets/v13/story.00.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 0,
+    "page": 2,
+    "screenshot": "mobile-00-02.webp",
+    "image": "./assets/v13/story.00.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 0,
+    "page": 3,
+    "screenshot": "mobile-00-03.webp",
+    "image": "./assets/v13/story.00.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 0,
+    "page": 4,
+    "screenshot": "mobile-00-04.webp",
+    "image": "./assets/v13/story.00.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 0,
+    "page": 5,
+    "screenshot": "mobile-00-05.webp",
+    "image": "./assets/v13/story.00.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 0,
+    "page": 6,
+    "screenshot": "mobile-00-06.webp",
+    "image": "./assets/v13/story.00.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 0,
+    "page": 7,
+    "screenshot": "mobile-00-07.webp",
+    "image": "./assets/v13/story.00.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 0,
+    "page": 8,
+    "screenshot": "mobile-00-08.webp",
+    "image": "./assets/v13/story.00.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 0,
+    "page": 9,
+    "screenshot": "mobile-00-09.webp",
+    "image": "./assets/v13/story.00.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 1,
+    "page": 0,
+    "screenshot": "mobile-01-00.webp",
+    "image": "./assets/v13/story.01.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 1,
+    "page": 1,
+    "screenshot": "mobile-01-01.webp",
+    "image": "./assets/v13/story.01.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 1,
+    "page": 2,
+    "screenshot": "mobile-01-02.webp",
+    "image": "./assets/v13/story.01.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 1,
+    "page": 3,
+    "screenshot": "mobile-01-03.webp",
+    "image": "./assets/v13/story.01.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 1,
+    "page": 4,
+    "screenshot": "mobile-01-04.webp",
+    "image": "./assets/v13/story.01.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 1,
+    "page": 5,
+    "screenshot": "mobile-01-05.webp",
+    "image": "./assets/v13/story.01.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 1,
+    "page": 6,
+    "screenshot": "mobile-01-06.webp",
+    "image": "./assets/v13/story.01.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 1,
+    "page": 7,
+    "screenshot": "mobile-01-07.webp",
+    "image": "./assets/v13/story.01.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 1,
+    "page": 8,
+    "screenshot": "mobile-01-08.webp",
+    "image": "./assets/v13/story.01.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 1,
+    "page": 9,
+    "screenshot": "mobile-01-09.webp",
+    "image": "./assets/v13/story.01.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 2,
+    "page": 0,
+    "screenshot": "mobile-02-00.webp",
+    "image": "./assets/v13/story.02.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 2,
+    "page": 1,
+    "screenshot": "mobile-02-01.webp",
+    "image": "./assets/v13/story.02.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 2,
+    "page": 2,
+    "screenshot": "mobile-02-02.webp",
+    "image": "./assets/v13/story.02.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 2,
+    "page": 3,
+    "screenshot": "mobile-02-03.webp",
+    "image": "./assets/v13/story.02.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 2,
+    "page": 4,
+    "screenshot": "mobile-02-04.webp",
+    "image": "./assets/v13/story.02.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 2,
+    "page": 5,
+    "screenshot": "mobile-02-05.webp",
+    "image": "./assets/v13/story.02.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 2,
+    "page": 6,
+    "screenshot": "mobile-02-06.webp",
+    "image": "./assets/v13/story.02.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 2,
+    "page": 7,
+    "screenshot": "mobile-02-07.webp",
+    "image": "./assets/v13/story.02.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 2,
+    "page": 8,
+    "screenshot": "mobile-02-08.webp",
+    "image": "./assets/v13/story.02.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 2,
+    "page": 9,
+    "screenshot": "mobile-02-09.webp",
+    "image": "./assets/v13/story.02.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 3,
+    "page": 0,
+    "screenshot": "mobile-03-00.webp",
+    "image": "./assets/v13/story.03.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 3,
+    "page": 1,
+    "screenshot": "mobile-03-01.webp",
+    "image": "./assets/v13/story.03.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 3,
+    "page": 2,
+    "screenshot": "mobile-03-02.webp",
+    "image": "./assets/v13/story.03.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 3,
+    "page": 3,
+    "screenshot": "mobile-03-03.webp",
+    "image": "./assets/v13/story.03.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 3,
+    "page": 4,
+    "screenshot": "mobile-03-04.webp",
+    "image": "./assets/v13/story.03.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 3,
+    "page": 5,
+    "screenshot": "mobile-03-05.webp",
+    "image": "./assets/v13/story.03.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 3,
+    "page": 6,
+    "screenshot": "mobile-03-06.webp",
+    "image": "./assets/v13/story.03.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 3,
+    "page": 7,
+    "screenshot": "mobile-03-07.webp",
+    "image": "./assets/v13/story.03.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 3,
+    "page": 8,
+    "screenshot": "mobile-03-08.webp",
+    "image": "./assets/v13/story.03.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 3,
+    "page": 9,
+    "screenshot": "mobile-03-09.webp",
+    "image": "./assets/v13/story.03.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 4,
+    "page": 0,
+    "screenshot": "mobile-04-00.webp",
+    "image": "./assets/v13/story.04.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 4,
+    "page": 1,
+    "screenshot": "mobile-04-01.webp",
+    "image": "./assets/v13/story.04.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 4,
+    "page": 2,
+    "screenshot": "mobile-04-02.webp",
+    "image": "./assets/v13/story.04.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 4,
+    "page": 3,
+    "screenshot": "mobile-04-03.webp",
+    "image": "./assets/v13/story.04.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 4,
+    "page": 4,
+    "screenshot": "mobile-04-04.webp",
+    "image": "./assets/v13/story.04.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 4,
+    "page": 5,
+    "screenshot": "mobile-04-05.webp",
+    "image": "./assets/v13/story.04.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 4,
+    "page": 6,
+    "screenshot": "mobile-04-06.webp",
+    "image": "./assets/v13/story.04.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 4,
+    "page": 7,
+    "screenshot": "mobile-04-07.webp",
+    "image": "./assets/v13/story.04.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 4,
+    "page": 8,
+    "screenshot": "mobile-04-08.webp",
+    "image": "./assets/v13/story.04.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 4,
+    "page": 9,
+    "screenshot": "mobile-04-09.webp",
+    "image": "./assets/v13/story.04.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 5,
+    "page": 0,
+    "screenshot": "mobile-05-00.webp",
+    "image": "./assets/v13/story.05.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 5,
+    "page": 1,
+    "screenshot": "mobile-05-01.webp",
+    "image": "./assets/v13/story.05.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 5,
+    "page": 2,
+    "screenshot": "mobile-05-02.webp",
+    "image": "./assets/v13/story.05.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 5,
+    "page": 3,
+    "screenshot": "mobile-05-03.webp",
+    "image": "./assets/v13/story.05.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 5,
+    "page": 4,
+    "screenshot": "mobile-05-04.webp",
+    "image": "./assets/v13/story.05.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 5,
+    "page": 5,
+    "screenshot": "mobile-05-05.webp",
+    "image": "./assets/v13/story.05.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 5,
+    "page": 6,
+    "screenshot": "mobile-05-06.webp",
+    "image": "./assets/v13/story.05.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 5,
+    "page": 7,
+    "screenshot": "mobile-05-07.webp",
+    "image": "./assets/v13/story.05.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 5,
+    "page": 8,
+    "screenshot": "mobile-05-08.webp",
+    "image": "./assets/v13/story.05.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 5,
+    "page": 9,
+    "screenshot": "mobile-05-09.webp",
+    "image": "./assets/v13/story.05.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "page": 0,
+    "screenshot": "mobile-06-00.webp",
+    "image": "./assets/v13/story.06.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "page": 1,
+    "screenshot": "mobile-06-01.webp",
+    "image": "./assets/v13/story.06.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "page": 2,
+    "screenshot": "mobile-06-02.webp",
+    "image": "./assets/v13/story.06.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "page": 3,
+    "screenshot": "mobile-06-03.webp",
+    "image": "./assets/v13/story.06.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "page": 4,
+    "screenshot": "mobile-06-04.webp",
+    "image": "./assets/v13/story.06.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "page": 5,
+    "screenshot": "mobile-06-05.webp",
+    "image": "./assets/v13/story.06.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "page": 6,
+    "screenshot": "mobile-06-06.webp",
+    "image": "./assets/v13/story.06.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "page": 7,
+    "screenshot": "mobile-06-07.webp",
+    "image": "./assets/v13/story.06.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "page": 8,
+    "screenshot": "mobile-06-08.webp",
+    "image": "./assets/v13/story.06.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "page": 9,
+    "screenshot": "mobile-06-09.webp",
+    "image": "./assets/v13/story.06.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 7,
+    "page": 0,
+    "screenshot": "mobile-07-00.webp",
+    "image": "./assets/v13/story.07.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 7,
+    "page": 1,
+    "screenshot": "mobile-07-01.webp",
+    "image": "./assets/v13/story.07.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 7,
+    "page": 2,
+    "screenshot": "mobile-07-02.webp",
+    "image": "./assets/v13/story.07.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 7,
+    "page": 3,
+    "screenshot": "mobile-07-03.webp",
+    "image": "./assets/v13/story.07.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 7,
+    "page": 4,
+    "screenshot": "mobile-07-04.webp",
+    "image": "./assets/v13/story.07.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 7,
+    "page": 5,
+    "screenshot": "mobile-07-05.webp",
+    "image": "./assets/v13/story.07.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 7,
+    "page": 6,
+    "screenshot": "mobile-07-06.webp",
+    "image": "./assets/v13/story.07.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 7,
+    "page": 7,
+    "screenshot": "mobile-07-07.webp",
+    "image": "./assets/v13/story.07.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 7,
+    "page": 8,
+    "screenshot": "mobile-07-08.webp",
+    "image": "./assets/v13/story.07.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 7,
+    "page": 9,
+    "screenshot": "mobile-07-09.webp",
+    "image": "./assets/v13/story.07.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 8,
+    "page": 0,
+    "screenshot": "mobile-08-00.webp",
+    "image": "./assets/v13/story.08.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 8,
+    "page": 1,
+    "screenshot": "mobile-08-01.webp",
+    "image": "./assets/v13/story.08.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 8,
+    "page": 2,
+    "screenshot": "mobile-08-02.webp",
+    "image": "./assets/v13/story.08.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 8,
+    "page": 3,
+    "screenshot": "mobile-08-03.webp",
+    "image": "./assets/v13/story.08.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 8,
+    "page": 4,
+    "screenshot": "mobile-08-04.webp",
+    "image": "./assets/v13/story.08.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 8,
+    "page": 5,
+    "screenshot": "mobile-08-05.webp",
+    "image": "./assets/v13/story.08.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 8,
+    "page": 6,
+    "screenshot": "mobile-08-06.webp",
+    "image": "./assets/v13/story.08.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 8,
+    "page": 7,
+    "screenshot": "mobile-08-07.webp",
+    "image": "./assets/v13/story.08.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 8,
+    "page": 8,
+    "screenshot": "mobile-08-08.webp",
+    "image": "./assets/v13/story.08.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 8,
+    "page": 9,
+    "screenshot": "mobile-08-09.webp",
+    "image": "./assets/v13/story.08.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 9,
+    "page": 0,
+    "screenshot": "mobile-09-00.webp",
+    "image": "./assets/v13/story.09.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 9,
+    "page": 1,
+    "screenshot": "mobile-09-01.webp",
+    "image": "./assets/v13/story.09.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 9,
+    "page": 2,
+    "screenshot": "mobile-09-02.webp",
+    "image": "./assets/v13/story.09.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 9,
+    "page": 3,
+    "screenshot": "mobile-09-03.webp",
+    "image": "./assets/v13/story.09.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 9,
+    "page": 4,
+    "screenshot": "mobile-09-04.webp",
+    "image": "./assets/v13/story.09.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 9,
+    "page": 5,
+    "screenshot": "mobile-09-05.webp",
+    "image": "./assets/v13/story.09.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 9,
+    "page": 6,
+    "screenshot": "mobile-09-06.webp",
+    "image": "./assets/v13/story.09.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 9,
+    "page": 7,
+    "screenshot": "mobile-09-07.webp",
+    "image": "./assets/v13/story.09.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 9,
+    "page": 8,
+    "screenshot": "mobile-09-08.webp",
+    "image": "./assets/v13/story.09.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 9,
+    "page": 9,
+    "screenshot": "mobile-09-09.webp",
+    "image": "./assets/v13/story.09.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 10,
+    "page": 0,
+    "screenshot": "mobile-10-00.webp",
+    "image": "./assets/v13/story.10.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 10,
+    "page": 1,
+    "screenshot": "mobile-10-01.webp",
+    "image": "./assets/v13/story.10.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 10,
+    "page": 2,
+    "screenshot": "mobile-10-02.webp",
+    "image": "./assets/v13/story.10.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 10,
+    "page": 3,
+    "screenshot": "mobile-10-03.webp",
+    "image": "./assets/v13/story.10.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 10,
+    "page": 4,
+    "screenshot": "mobile-10-04.webp",
+    "image": "./assets/v13/story.10.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 10,
+    "page": 5,
+    "screenshot": "mobile-10-05.webp",
+    "image": "./assets/v13/story.10.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 10,
+    "page": 6,
+    "screenshot": "mobile-10-06.webp",
+    "image": "./assets/v13/story.10.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 10,
+    "page": 7,
+    "screenshot": "mobile-10-07.webp",
+    "image": "./assets/v13/story.10.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 10,
+    "page": 8,
+    "screenshot": "mobile-10-08.webp",
+    "image": "./assets/v13/story.10.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 10,
+    "page": 9,
+    "screenshot": "mobile-10-09.webp",
+    "image": "./assets/v13/story.10.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 11,
+    "page": 0,
+    "screenshot": "mobile-11-00.webp",
+    "image": "./assets/v13/story.11.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 11,
+    "page": 1,
+    "screenshot": "mobile-11-01.webp",
+    "image": "./assets/v13/story.11.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 11,
+    "page": 2,
+    "screenshot": "mobile-11-02.webp",
+    "image": "./assets/v13/story.11.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 11,
+    "page": 3,
+    "screenshot": "mobile-11-03.webp",
+    "image": "./assets/v13/story.11.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 11,
+    "page": 4,
+    "screenshot": "mobile-11-04.webp",
+    "image": "./assets/v13/story.11.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 11,
+    "page": 5,
+    "screenshot": "mobile-11-05.webp",
+    "image": "./assets/v13/story.11.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 11,
+    "page": 6,
+    "screenshot": "mobile-11-06.webp",
+    "image": "./assets/v13/story.11.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 11,
+    "page": 7,
+    "screenshot": "mobile-11-07.webp",
+    "image": "./assets/v13/story.11.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 11,
+    "page": 8,
+    "screenshot": "mobile-11-08.webp",
+    "image": "./assets/v13/story.11.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 11,
+    "page": 9,
+    "screenshot": "mobile-11-09.webp",
+    "image": "./assets/v13/story.11.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 12,
+    "page": 0,
+    "screenshot": "mobile-12-00.webp",
+    "image": "./assets/v13/story.12.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 12,
+    "page": 1,
+    "screenshot": "mobile-12-01.webp",
+    "image": "./assets/v13/story.12.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 12,
+    "page": 2,
+    "screenshot": "mobile-12-02.webp",
+    "image": "./assets/v13/story.12.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 12,
+    "page": 3,
+    "screenshot": "mobile-12-03.webp",
+    "image": "./assets/v13/story.12.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 12,
+    "page": 4,
+    "screenshot": "mobile-12-04.webp",
+    "image": "./assets/v13/story.12.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 12,
+    "page": 5,
+    "screenshot": "mobile-12-05.webp",
+    "image": "./assets/v13/story.12.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 12,
+    "page": 6,
+    "screenshot": "mobile-12-06.webp",
+    "image": "./assets/v13/story.12.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 12,
+    "page": 7,
+    "screenshot": "mobile-12-07.webp",
+    "image": "./assets/v13/story.12.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 12,
+    "page": 8,
+    "screenshot": "mobile-12-08.webp",
+    "image": "./assets/v13/story.12.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 12,
+    "page": 9,
+    "screenshot": "mobile-12-09.webp",
+    "image": "./assets/v13/story.12.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 13,
+    "page": 0,
+    "screenshot": "mobile-13-00.webp",
+    "image": "./assets/v13/story.13.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 13,
+    "page": 1,
+    "screenshot": "mobile-13-01.webp",
+    "image": "./assets/v13/story.13.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 13,
+    "page": 2,
+    "screenshot": "mobile-13-02.webp",
+    "image": "./assets/v13/story.13.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 13,
+    "page": 3,
+    "screenshot": "mobile-13-03.webp",
+    "image": "./assets/v13/story.13.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 13,
+    "page": 4,
+    "screenshot": "mobile-13-04.webp",
+    "image": "./assets/v13/story.13.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 13,
+    "page": 5,
+    "screenshot": "mobile-13-05.webp",
+    "image": "./assets/v13/story.13.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 13,
+    "page": 6,
+    "screenshot": "mobile-13-06.webp",
+    "image": "./assets/v13/story.13.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 13,
+    "page": 7,
+    "screenshot": "mobile-13-07.webp",
+    "image": "./assets/v13/story.13.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 13,
+    "page": 8,
+    "screenshot": "mobile-13-08.webp",
+    "image": "./assets/v13/story.13.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 13,
+    "page": 9,
+    "screenshot": "mobile-13-09.webp",
+    "image": "./assets/v13/story.13.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 14,
+    "page": 0,
+    "screenshot": "mobile-14-00.webp",
+    "image": "./assets/v13/story.14.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 14,
+    "page": 1,
+    "screenshot": "mobile-14-01.webp",
+    "image": "./assets/v13/story.14.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 14,
+    "page": 2,
+    "screenshot": "mobile-14-02.webp",
+    "image": "./assets/v13/story.14.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 14,
+    "page": 3,
+    "screenshot": "mobile-14-03.webp",
+    "image": "./assets/v13/story.14.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 14,
+    "page": 4,
+    "screenshot": "mobile-14-04.webp",
+    "image": "./assets/v13/story.14.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 14,
+    "page": 5,
+    "screenshot": "mobile-14-05.webp",
+    "image": "./assets/v13/story.14.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 14,
+    "page": 6,
+    "screenshot": "mobile-14-06.webp",
+    "image": "./assets/v13/story.14.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 14,
+    "page": 7,
+    "screenshot": "mobile-14-07.webp",
+    "image": "./assets/v13/story.14.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 14,
+    "page": 8,
+    "screenshot": "mobile-14-08.webp",
+    "image": "./assets/v13/story.14.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 14,
+    "page": 9,
+    "screenshot": "mobile-14-09.webp",
+    "image": "./assets/v13/story.14.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 15,
+    "page": 0,
+    "screenshot": "mobile-15-00.webp",
+    "image": "./assets/v13/story.15.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 15,
+    "page": 1,
+    "screenshot": "mobile-15-01.webp",
+    "image": "./assets/v13/story.15.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 15,
+    "page": 2,
+    "screenshot": "mobile-15-02.webp",
+    "image": "./assets/v13/story.15.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 15,
+    "page": 3,
+    "screenshot": "mobile-15-03.webp",
+    "image": "./assets/v13/story.15.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 15,
+    "page": 4,
+    "screenshot": "mobile-15-04.webp",
+    "image": "./assets/v13/story.15.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 15,
+    "page": 5,
+    "screenshot": "mobile-15-05.webp",
+    "image": "./assets/v13/story.15.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 15,
+    "page": 6,
+    "screenshot": "mobile-15-06.webp",
+    "image": "./assets/v13/story.15.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 15,
+    "page": 7,
+    "screenshot": "mobile-15-07.webp",
+    "image": "./assets/v13/story.15.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 15,
+    "page": 8,
+    "screenshot": "mobile-15-08.webp",
+    "image": "./assets/v13/story.15.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 15,
+    "page": 9,
+    "screenshot": "mobile-15-09.webp",
+    "image": "./assets/v13/story.15.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 16,
+    "page": 0,
+    "screenshot": "mobile-16-00.webp",
+    "image": "./assets/v13/story.16.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 16,
+    "page": 1,
+    "screenshot": "mobile-16-01.webp",
+    "image": "./assets/v13/story.16.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 16,
+    "page": 2,
+    "screenshot": "mobile-16-02.webp",
+    "image": "./assets/v13/story.16.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 16,
+    "page": 3,
+    "screenshot": "mobile-16-03.webp",
+    "image": "./assets/v13/story.16.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 16,
+    "page": 4,
+    "screenshot": "mobile-16-04.webp",
+    "image": "./assets/v13/story.16.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 16,
+    "page": 5,
+    "screenshot": "mobile-16-05.webp",
+    "image": "./assets/v13/story.16.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 16,
+    "page": 6,
+    "screenshot": "mobile-16-06.webp",
+    "image": "./assets/v13/story.16.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 16,
+    "page": 7,
+    "screenshot": "mobile-16-07.webp",
+    "image": "./assets/v13/story.16.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 16,
+    "page": 8,
+    "screenshot": "mobile-16-08.webp",
+    "image": "./assets/v13/story.16.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 16,
+    "page": 9,
+    "screenshot": "mobile-16-09.webp",
+    "image": "./assets/v13/story.16.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 17,
+    "page": 0,
+    "screenshot": "mobile-17-00.webp",
+    "image": "./assets/v13/story.17.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 17,
+    "page": 1,
+    "screenshot": "mobile-17-01.webp",
+    "image": "./assets/v13/story.17.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 17,
+    "page": 2,
+    "screenshot": "mobile-17-02.webp",
+    "image": "./assets/v13/story.17.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 17,
+    "page": 3,
+    "screenshot": "mobile-17-03.webp",
+    "image": "./assets/v13/story.17.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 17,
+    "page": 4,
+    "screenshot": "mobile-17-04.webp",
+    "image": "./assets/v13/story.17.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 17,
+    "page": 5,
+    "screenshot": "mobile-17-05.webp",
+    "image": "./assets/v13/story.17.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 17,
+    "page": 6,
+    "screenshot": "mobile-17-06.webp",
+    "image": "./assets/v13/story.17.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 17,
+    "page": 7,
+    "screenshot": "mobile-17-07.webp",
+    "image": "./assets/v13/story.17.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 17,
+    "page": 8,
+    "screenshot": "mobile-17-08.webp",
+    "image": "./assets/v13/story.17.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 17,
+    "page": 9,
+    "screenshot": "mobile-17-09.webp",
+    "image": "./assets/v13/story.17.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 18,
+    "page": 0,
+    "screenshot": "mobile-18-00.webp",
+    "image": "./assets/v13/story.18.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 18,
+    "page": 1,
+    "screenshot": "mobile-18-01.webp",
+    "image": "./assets/v13/story.18.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 18,
+    "page": 2,
+    "screenshot": "mobile-18-02.webp",
+    "image": "./assets/v13/story.18.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 18,
+    "page": 3,
+    "screenshot": "mobile-18-03.webp",
+    "image": "./assets/v13/story.18.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 18,
+    "page": 4,
+    "screenshot": "mobile-18-04.webp",
+    "image": "./assets/v13/story.18.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 18,
+    "page": 5,
+    "screenshot": "mobile-18-05.webp",
+    "image": "./assets/v13/story.18.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 18,
+    "page": 6,
+    "screenshot": "mobile-18-06.webp",
+    "image": "./assets/v13/story.18.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 18,
+    "page": 7,
+    "screenshot": "mobile-18-07.webp",
+    "image": "./assets/v13/story.18.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 18,
+    "page": 8,
+    "screenshot": "mobile-18-08.webp",
+    "image": "./assets/v13/story.18.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 18,
+    "page": 9,
+    "screenshot": "mobile-18-09.webp",
+    "image": "./assets/v13/story.18.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "page": 0,
+    "screenshot": "mobile-19-00.webp",
+    "image": "./assets/v13/story.19.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "page": 1,
+    "screenshot": "mobile-19-01.webp",
+    "image": "./assets/v13/story.19.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "page": 2,
+    "screenshot": "mobile-19-02.webp",
+    "image": "./assets/v13/story.19.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "page": 3,
+    "screenshot": "mobile-19-03.webp",
+    "image": "./assets/v13/story.19.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "page": 4,
+    "screenshot": "mobile-19-04.webp",
+    "image": "./assets/v13/story.19.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "page": 5,
+    "screenshot": "mobile-19-05.webp",
+    "image": "./assets/v13/story.19.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "page": 6,
+    "screenshot": "mobile-19-06.webp",
+    "image": "./assets/v13/story.19.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "page": 7,
+    "screenshot": "mobile-19-07.webp",
+    "image": "./assets/v13/story.19.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "page": 8,
+    "screenshot": "mobile-19-08.webp",
+    "image": "./assets/v13/story.19.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "page": 9,
+    "screenshot": "mobile-19-09.webp",
+    "image": "./assets/v13/story.19.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "page": 0,
+    "screenshot": "tablet-00-00.webp",
+    "image": "./assets/v13/story.00.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "page": 1,
+    "screenshot": "tablet-00-01.webp",
+    "image": "./assets/v13/story.00.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "page": 2,
+    "screenshot": "tablet-00-02.webp",
+    "image": "./assets/v13/story.00.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "page": 3,
+    "screenshot": "tablet-00-03.webp",
+    "image": "./assets/v13/story.00.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "page": 4,
+    "screenshot": "tablet-00-04.webp",
+    "image": "./assets/v13/story.00.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "page": 5,
+    "screenshot": "tablet-00-05.webp",
+    "image": "./assets/v13/story.00.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "page": 6,
+    "screenshot": "tablet-00-06.webp",
+    "image": "./assets/v13/story.00.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "page": 7,
+    "screenshot": "tablet-00-07.webp",
+    "image": "./assets/v13/story.00.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "page": 8,
+    "screenshot": "tablet-00-08.webp",
+    "image": "./assets/v13/story.00.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "page": 9,
+    "screenshot": "tablet-00-09.webp",
+    "image": "./assets/v13/story.00.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 1,
+    "page": 0,
+    "screenshot": "tablet-01-00.webp",
+    "image": "./assets/v13/story.01.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 1,
+    "page": 1,
+    "screenshot": "tablet-01-01.webp",
+    "image": "./assets/v13/story.01.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 1,
+    "page": 2,
+    "screenshot": "tablet-01-02.webp",
+    "image": "./assets/v13/story.01.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 1,
+    "page": 3,
+    "screenshot": "tablet-01-03.webp",
+    "image": "./assets/v13/story.01.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 1,
+    "page": 4,
+    "screenshot": "tablet-01-04.webp",
+    "image": "./assets/v13/story.01.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 1,
+    "page": 5,
+    "screenshot": "tablet-01-05.webp",
+    "image": "./assets/v13/story.01.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 1,
+    "page": 6,
+    "screenshot": "tablet-01-06.webp",
+    "image": "./assets/v13/story.01.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 1,
+    "page": 7,
+    "screenshot": "tablet-01-07.webp",
+    "image": "./assets/v13/story.01.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 1,
+    "page": 8,
+    "screenshot": "tablet-01-08.webp",
+    "image": "./assets/v13/story.01.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 1,
+    "page": 9,
+    "screenshot": "tablet-01-09.webp",
+    "image": "./assets/v13/story.01.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 2,
+    "page": 0,
+    "screenshot": "tablet-02-00.webp",
+    "image": "./assets/v13/story.02.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 2,
+    "page": 1,
+    "screenshot": "tablet-02-01.webp",
+    "image": "./assets/v13/story.02.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 2,
+    "page": 2,
+    "screenshot": "tablet-02-02.webp",
+    "image": "./assets/v13/story.02.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 2,
+    "page": 3,
+    "screenshot": "tablet-02-03.webp",
+    "image": "./assets/v13/story.02.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 2,
+    "page": 4,
+    "screenshot": "tablet-02-04.webp",
+    "image": "./assets/v13/story.02.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 2,
+    "page": 5,
+    "screenshot": "tablet-02-05.webp",
+    "image": "./assets/v13/story.02.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 2,
+    "page": 6,
+    "screenshot": "tablet-02-06.webp",
+    "image": "./assets/v13/story.02.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 2,
+    "page": 7,
+    "screenshot": "tablet-02-07.webp",
+    "image": "./assets/v13/story.02.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 2,
+    "page": 8,
+    "screenshot": "tablet-02-08.webp",
+    "image": "./assets/v13/story.02.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 2,
+    "page": 9,
+    "screenshot": "tablet-02-09.webp",
+    "image": "./assets/v13/story.02.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 3,
+    "page": 0,
+    "screenshot": "tablet-03-00.webp",
+    "image": "./assets/v13/story.03.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 3,
+    "page": 1,
+    "screenshot": "tablet-03-01.webp",
+    "image": "./assets/v13/story.03.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 3,
+    "page": 2,
+    "screenshot": "tablet-03-02.webp",
+    "image": "./assets/v13/story.03.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 3,
+    "page": 3,
+    "screenshot": "tablet-03-03.webp",
+    "image": "./assets/v13/story.03.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 3,
+    "page": 4,
+    "screenshot": "tablet-03-04.webp",
+    "image": "./assets/v13/story.03.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 3,
+    "page": 5,
+    "screenshot": "tablet-03-05.webp",
+    "image": "./assets/v13/story.03.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 3,
+    "page": 6,
+    "screenshot": "tablet-03-06.webp",
+    "image": "./assets/v13/story.03.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 3,
+    "page": 7,
+    "screenshot": "tablet-03-07.webp",
+    "image": "./assets/v13/story.03.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 3,
+    "page": 8,
+    "screenshot": "tablet-03-08.webp",
+    "image": "./assets/v13/story.03.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 3,
+    "page": 9,
+    "screenshot": "tablet-03-09.webp",
+    "image": "./assets/v13/story.03.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 4,
+    "page": 0,
+    "screenshot": "tablet-04-00.webp",
+    "image": "./assets/v13/story.04.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 4,
+    "page": 1,
+    "screenshot": "tablet-04-01.webp",
+    "image": "./assets/v13/story.04.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 4,
+    "page": 2,
+    "screenshot": "tablet-04-02.webp",
+    "image": "./assets/v13/story.04.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 4,
+    "page": 3,
+    "screenshot": "tablet-04-03.webp",
+    "image": "./assets/v13/story.04.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 4,
+    "page": 4,
+    "screenshot": "tablet-04-04.webp",
+    "image": "./assets/v13/story.04.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 4,
+    "page": 5,
+    "screenshot": "tablet-04-05.webp",
+    "image": "./assets/v13/story.04.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 4,
+    "page": 6,
+    "screenshot": "tablet-04-06.webp",
+    "image": "./assets/v13/story.04.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 4,
+    "page": 7,
+    "screenshot": "tablet-04-07.webp",
+    "image": "./assets/v13/story.04.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 4,
+    "page": 8,
+    "screenshot": "tablet-04-08.webp",
+    "image": "./assets/v13/story.04.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 4,
+    "page": 9,
+    "screenshot": "tablet-04-09.webp",
+    "image": "./assets/v13/story.04.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 5,
+    "page": 0,
+    "screenshot": "tablet-05-00.webp",
+    "image": "./assets/v13/story.05.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 5,
+    "page": 1,
+    "screenshot": "tablet-05-01.webp",
+    "image": "./assets/v13/story.05.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 5,
+    "page": 2,
+    "screenshot": "tablet-05-02.webp",
+    "image": "./assets/v13/story.05.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 5,
+    "page": 3,
+    "screenshot": "tablet-05-03.webp",
+    "image": "./assets/v13/story.05.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 5,
+    "page": 4,
+    "screenshot": "tablet-05-04.webp",
+    "image": "./assets/v13/story.05.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 5,
+    "page": 5,
+    "screenshot": "tablet-05-05.webp",
+    "image": "./assets/v13/story.05.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 5,
+    "page": 6,
+    "screenshot": "tablet-05-06.webp",
+    "image": "./assets/v13/story.05.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 5,
+    "page": 7,
+    "screenshot": "tablet-05-07.webp",
+    "image": "./assets/v13/story.05.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 5,
+    "page": 8,
+    "screenshot": "tablet-05-08.webp",
+    "image": "./assets/v13/story.05.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 5,
+    "page": 9,
+    "screenshot": "tablet-05-09.webp",
+    "image": "./assets/v13/story.05.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "page": 0,
+    "screenshot": "tablet-06-00.webp",
+    "image": "./assets/v13/story.06.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "page": 1,
+    "screenshot": "tablet-06-01.webp",
+    "image": "./assets/v13/story.06.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "page": 2,
+    "screenshot": "tablet-06-02.webp",
+    "image": "./assets/v13/story.06.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "page": 3,
+    "screenshot": "tablet-06-03.webp",
+    "image": "./assets/v13/story.06.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "page": 4,
+    "screenshot": "tablet-06-04.webp",
+    "image": "./assets/v13/story.06.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "page": 5,
+    "screenshot": "tablet-06-05.webp",
+    "image": "./assets/v13/story.06.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "page": 6,
+    "screenshot": "tablet-06-06.webp",
+    "image": "./assets/v13/story.06.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "page": 7,
+    "screenshot": "tablet-06-07.webp",
+    "image": "./assets/v13/story.06.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "page": 8,
+    "screenshot": "tablet-06-08.webp",
+    "image": "./assets/v13/story.06.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "page": 9,
+    "screenshot": "tablet-06-09.webp",
+    "image": "./assets/v13/story.06.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 7,
+    "page": 0,
+    "screenshot": "tablet-07-00.webp",
+    "image": "./assets/v13/story.07.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 7,
+    "page": 1,
+    "screenshot": "tablet-07-01.webp",
+    "image": "./assets/v13/story.07.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 7,
+    "page": 2,
+    "screenshot": "tablet-07-02.webp",
+    "image": "./assets/v13/story.07.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 7,
+    "page": 3,
+    "screenshot": "tablet-07-03.webp",
+    "image": "./assets/v13/story.07.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 7,
+    "page": 4,
+    "screenshot": "tablet-07-04.webp",
+    "image": "./assets/v13/story.07.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 7,
+    "page": 5,
+    "screenshot": "tablet-07-05.webp",
+    "image": "./assets/v13/story.07.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 7,
+    "page": 6,
+    "screenshot": "tablet-07-06.webp",
+    "image": "./assets/v13/story.07.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 7,
+    "page": 7,
+    "screenshot": "tablet-07-07.webp",
+    "image": "./assets/v13/story.07.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 7,
+    "page": 8,
+    "screenshot": "tablet-07-08.webp",
+    "image": "./assets/v13/story.07.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 7,
+    "page": 9,
+    "screenshot": "tablet-07-09.webp",
+    "image": "./assets/v13/story.07.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 8,
+    "page": 0,
+    "screenshot": "tablet-08-00.webp",
+    "image": "./assets/v13/story.08.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 8,
+    "page": 1,
+    "screenshot": "tablet-08-01.webp",
+    "image": "./assets/v13/story.08.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 8,
+    "page": 2,
+    "screenshot": "tablet-08-02.webp",
+    "image": "./assets/v13/story.08.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 8,
+    "page": 3,
+    "screenshot": "tablet-08-03.webp",
+    "image": "./assets/v13/story.08.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 8,
+    "page": 4,
+    "screenshot": "tablet-08-04.webp",
+    "image": "./assets/v13/story.08.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 8,
+    "page": 5,
+    "screenshot": "tablet-08-05.webp",
+    "image": "./assets/v13/story.08.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 8,
+    "page": 6,
+    "screenshot": "tablet-08-06.webp",
+    "image": "./assets/v13/story.08.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 8,
+    "page": 7,
+    "screenshot": "tablet-08-07.webp",
+    "image": "./assets/v13/story.08.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 8,
+    "page": 8,
+    "screenshot": "tablet-08-08.webp",
+    "image": "./assets/v13/story.08.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 8,
+    "page": 9,
+    "screenshot": "tablet-08-09.webp",
+    "image": "./assets/v13/story.08.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 9,
+    "page": 0,
+    "screenshot": "tablet-09-00.webp",
+    "image": "./assets/v13/story.09.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 9,
+    "page": 1,
+    "screenshot": "tablet-09-01.webp",
+    "image": "./assets/v13/story.09.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 9,
+    "page": 2,
+    "screenshot": "tablet-09-02.webp",
+    "image": "./assets/v13/story.09.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 9,
+    "page": 3,
+    "screenshot": "tablet-09-03.webp",
+    "image": "./assets/v13/story.09.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 9,
+    "page": 4,
+    "screenshot": "tablet-09-04.webp",
+    "image": "./assets/v13/story.09.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 9,
+    "page": 5,
+    "screenshot": "tablet-09-05.webp",
+    "image": "./assets/v13/story.09.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 9,
+    "page": 6,
+    "screenshot": "tablet-09-06.webp",
+    "image": "./assets/v13/story.09.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 9,
+    "page": 7,
+    "screenshot": "tablet-09-07.webp",
+    "image": "./assets/v13/story.09.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 9,
+    "page": 8,
+    "screenshot": "tablet-09-08.webp",
+    "image": "./assets/v13/story.09.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 9,
+    "page": 9,
+    "screenshot": "tablet-09-09.webp",
+    "image": "./assets/v13/story.09.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 10,
+    "page": 0,
+    "screenshot": "tablet-10-00.webp",
+    "image": "./assets/v13/story.10.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 10,
+    "page": 1,
+    "screenshot": "tablet-10-01.webp",
+    "image": "./assets/v13/story.10.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 10,
+    "page": 2,
+    "screenshot": "tablet-10-02.webp",
+    "image": "./assets/v13/story.10.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 10,
+    "page": 3,
+    "screenshot": "tablet-10-03.webp",
+    "image": "./assets/v13/story.10.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 10,
+    "page": 4,
+    "screenshot": "tablet-10-04.webp",
+    "image": "./assets/v13/story.10.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 10,
+    "page": 5,
+    "screenshot": "tablet-10-05.webp",
+    "image": "./assets/v13/story.10.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 10,
+    "page": 6,
+    "screenshot": "tablet-10-06.webp",
+    "image": "./assets/v13/story.10.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 10,
+    "page": 7,
+    "screenshot": "tablet-10-07.webp",
+    "image": "./assets/v13/story.10.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 10,
+    "page": 8,
+    "screenshot": "tablet-10-08.webp",
+    "image": "./assets/v13/story.10.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 10,
+    "page": 9,
+    "screenshot": "tablet-10-09.webp",
+    "image": "./assets/v13/story.10.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 11,
+    "page": 0,
+    "screenshot": "tablet-11-00.webp",
+    "image": "./assets/v13/story.11.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 11,
+    "page": 1,
+    "screenshot": "tablet-11-01.webp",
+    "image": "./assets/v13/story.11.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 11,
+    "page": 2,
+    "screenshot": "tablet-11-02.webp",
+    "image": "./assets/v13/story.11.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 11,
+    "page": 3,
+    "screenshot": "tablet-11-03.webp",
+    "image": "./assets/v13/story.11.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 11,
+    "page": 4,
+    "screenshot": "tablet-11-04.webp",
+    "image": "./assets/v13/story.11.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 11,
+    "page": 5,
+    "screenshot": "tablet-11-05.webp",
+    "image": "./assets/v13/story.11.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 11,
+    "page": 6,
+    "screenshot": "tablet-11-06.webp",
+    "image": "./assets/v13/story.11.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 11,
+    "page": 7,
+    "screenshot": "tablet-11-07.webp",
+    "image": "./assets/v13/story.11.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 11,
+    "page": 8,
+    "screenshot": "tablet-11-08.webp",
+    "image": "./assets/v13/story.11.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 11,
+    "page": 9,
+    "screenshot": "tablet-11-09.webp",
+    "image": "./assets/v13/story.11.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 12,
+    "page": 0,
+    "screenshot": "tablet-12-00.webp",
+    "image": "./assets/v13/story.12.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 12,
+    "page": 1,
+    "screenshot": "tablet-12-01.webp",
+    "image": "./assets/v13/story.12.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 12,
+    "page": 2,
+    "screenshot": "tablet-12-02.webp",
+    "image": "./assets/v13/story.12.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 12,
+    "page": 3,
+    "screenshot": "tablet-12-03.webp",
+    "image": "./assets/v13/story.12.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 12,
+    "page": 4,
+    "screenshot": "tablet-12-04.webp",
+    "image": "./assets/v13/story.12.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 12,
+    "page": 5,
+    "screenshot": "tablet-12-05.webp",
+    "image": "./assets/v13/story.12.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 12,
+    "page": 6,
+    "screenshot": "tablet-12-06.webp",
+    "image": "./assets/v13/story.12.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 12,
+    "page": 7,
+    "screenshot": "tablet-12-07.webp",
+    "image": "./assets/v13/story.12.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 12,
+    "page": 8,
+    "screenshot": "tablet-12-08.webp",
+    "image": "./assets/v13/story.12.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 12,
+    "page": 9,
+    "screenshot": "tablet-12-09.webp",
+    "image": "./assets/v13/story.12.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 13,
+    "page": 0,
+    "screenshot": "tablet-13-00.webp",
+    "image": "./assets/v13/story.13.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 13,
+    "page": 1,
+    "screenshot": "tablet-13-01.webp",
+    "image": "./assets/v13/story.13.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 13,
+    "page": 2,
+    "screenshot": "tablet-13-02.webp",
+    "image": "./assets/v13/story.13.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 13,
+    "page": 3,
+    "screenshot": "tablet-13-03.webp",
+    "image": "./assets/v13/story.13.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 13,
+    "page": 4,
+    "screenshot": "tablet-13-04.webp",
+    "image": "./assets/v13/story.13.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 13,
+    "page": 5,
+    "screenshot": "tablet-13-05.webp",
+    "image": "./assets/v13/story.13.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 13,
+    "page": 6,
+    "screenshot": "tablet-13-06.webp",
+    "image": "./assets/v13/story.13.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 13,
+    "page": 7,
+    "screenshot": "tablet-13-07.webp",
+    "image": "./assets/v13/story.13.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 13,
+    "page": 8,
+    "screenshot": "tablet-13-08.webp",
+    "image": "./assets/v13/story.13.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 13,
+    "page": 9,
+    "screenshot": "tablet-13-09.webp",
+    "image": "./assets/v13/story.13.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 14,
+    "page": 0,
+    "screenshot": "tablet-14-00.webp",
+    "image": "./assets/v13/story.14.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 14,
+    "page": 1,
+    "screenshot": "tablet-14-01.webp",
+    "image": "./assets/v13/story.14.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 14,
+    "page": 2,
+    "screenshot": "tablet-14-02.webp",
+    "image": "./assets/v13/story.14.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 14,
+    "page": 3,
+    "screenshot": "tablet-14-03.webp",
+    "image": "./assets/v13/story.14.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 14,
+    "page": 4,
+    "screenshot": "tablet-14-04.webp",
+    "image": "./assets/v13/story.14.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 14,
+    "page": 5,
+    "screenshot": "tablet-14-05.webp",
+    "image": "./assets/v13/story.14.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 14,
+    "page": 6,
+    "screenshot": "tablet-14-06.webp",
+    "image": "./assets/v13/story.14.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 14,
+    "page": 7,
+    "screenshot": "tablet-14-07.webp",
+    "image": "./assets/v13/story.14.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 14,
+    "page": 8,
+    "screenshot": "tablet-14-08.webp",
+    "image": "./assets/v13/story.14.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 14,
+    "page": 9,
+    "screenshot": "tablet-14-09.webp",
+    "image": "./assets/v13/story.14.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 15,
+    "page": 0,
+    "screenshot": "tablet-15-00.webp",
+    "image": "./assets/v13/story.15.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 15,
+    "page": 1,
+    "screenshot": "tablet-15-01.webp",
+    "image": "./assets/v13/story.15.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 15,
+    "page": 2,
+    "screenshot": "tablet-15-02.webp",
+    "image": "./assets/v13/story.15.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 15,
+    "page": 3,
+    "screenshot": "tablet-15-03.webp",
+    "image": "./assets/v13/story.15.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 15,
+    "page": 4,
+    "screenshot": "tablet-15-04.webp",
+    "image": "./assets/v13/story.15.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 15,
+    "page": 5,
+    "screenshot": "tablet-15-05.webp",
+    "image": "./assets/v13/story.15.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 15,
+    "page": 6,
+    "screenshot": "tablet-15-06.webp",
+    "image": "./assets/v13/story.15.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 15,
+    "page": 7,
+    "screenshot": "tablet-15-07.webp",
+    "image": "./assets/v13/story.15.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 15,
+    "page": 8,
+    "screenshot": "tablet-15-08.webp",
+    "image": "./assets/v13/story.15.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 15,
+    "page": 9,
+    "screenshot": "tablet-15-09.webp",
+    "image": "./assets/v13/story.15.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 16,
+    "page": 0,
+    "screenshot": "tablet-16-00.webp",
+    "image": "./assets/v13/story.16.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 16,
+    "page": 1,
+    "screenshot": "tablet-16-01.webp",
+    "image": "./assets/v13/story.16.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 16,
+    "page": 2,
+    "screenshot": "tablet-16-02.webp",
+    "image": "./assets/v13/story.16.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 16,
+    "page": 3,
+    "screenshot": "tablet-16-03.webp",
+    "image": "./assets/v13/story.16.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 16,
+    "page": 4,
+    "screenshot": "tablet-16-04.webp",
+    "image": "./assets/v13/story.16.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 16,
+    "page": 5,
+    "screenshot": "tablet-16-05.webp",
+    "image": "./assets/v13/story.16.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 16,
+    "page": 6,
+    "screenshot": "tablet-16-06.webp",
+    "image": "./assets/v13/story.16.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 16,
+    "page": 7,
+    "screenshot": "tablet-16-07.webp",
+    "image": "./assets/v13/story.16.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 16,
+    "page": 8,
+    "screenshot": "tablet-16-08.webp",
+    "image": "./assets/v13/story.16.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 16,
+    "page": 9,
+    "screenshot": "tablet-16-09.webp",
+    "image": "./assets/v13/story.16.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 17,
+    "page": 0,
+    "screenshot": "tablet-17-00.webp",
+    "image": "./assets/v13/story.17.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 17,
+    "page": 1,
+    "screenshot": "tablet-17-01.webp",
+    "image": "./assets/v13/story.17.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 17,
+    "page": 2,
+    "screenshot": "tablet-17-02.webp",
+    "image": "./assets/v13/story.17.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 17,
+    "page": 3,
+    "screenshot": "tablet-17-03.webp",
+    "image": "./assets/v13/story.17.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 17,
+    "page": 4,
+    "screenshot": "tablet-17-04.webp",
+    "image": "./assets/v13/story.17.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 17,
+    "page": 5,
+    "screenshot": "tablet-17-05.webp",
+    "image": "./assets/v13/story.17.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 17,
+    "page": 6,
+    "screenshot": "tablet-17-06.webp",
+    "image": "./assets/v13/story.17.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 17,
+    "page": 7,
+    "screenshot": "tablet-17-07.webp",
+    "image": "./assets/v13/story.17.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 17,
+    "page": 8,
+    "screenshot": "tablet-17-08.webp",
+    "image": "./assets/v13/story.17.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 17,
+    "page": 9,
+    "screenshot": "tablet-17-09.webp",
+    "image": "./assets/v13/story.17.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 18,
+    "page": 0,
+    "screenshot": "tablet-18-00.webp",
+    "image": "./assets/v13/story.18.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 18,
+    "page": 1,
+    "screenshot": "tablet-18-01.webp",
+    "image": "./assets/v13/story.18.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 18,
+    "page": 2,
+    "screenshot": "tablet-18-02.webp",
+    "image": "./assets/v13/story.18.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 18,
+    "page": 3,
+    "screenshot": "tablet-18-03.webp",
+    "image": "./assets/v13/story.18.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 18,
+    "page": 4,
+    "screenshot": "tablet-18-04.webp",
+    "image": "./assets/v13/story.18.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 18,
+    "page": 5,
+    "screenshot": "tablet-18-05.webp",
+    "image": "./assets/v13/story.18.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 18,
+    "page": 6,
+    "screenshot": "tablet-18-06.webp",
+    "image": "./assets/v13/story.18.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 18,
+    "page": 7,
+    "screenshot": "tablet-18-07.webp",
+    "image": "./assets/v13/story.18.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 18,
+    "page": 8,
+    "screenshot": "tablet-18-08.webp",
+    "image": "./assets/v13/story.18.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 18,
+    "page": 9,
+    "screenshot": "tablet-18-09.webp",
+    "image": "./assets/v13/story.18.09.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "page": 0,
+    "screenshot": "tablet-19-00.webp",
+    "image": "./assets/v13/story.19.00.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "page": 1,
+    "screenshot": "tablet-19-01.webp",
+    "image": "./assets/v13/story.19.01.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "page": 2,
+    "screenshot": "tablet-19-02.webp",
+    "image": "./assets/v13/story.19.02.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "page": 3,
+    "screenshot": "tablet-19-03.webp",
+    "image": "./assets/v13/story.19.03.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "page": 4,
+    "screenshot": "tablet-19-04.webp",
+    "image": "./assets/v13/story.19.04.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "page": 5,
+    "screenshot": "tablet-19-05.webp",
+    "image": "./assets/v13/story.19.05.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "page": 6,
+    "screenshot": "tablet-19-06.webp",
+    "image": "./assets/v13/story.19.06.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "page": 7,
+    "screenshot": "tablet-19-07.webp",
+    "image": "./assets/v13/story.19.07.webp",
+    "naturalWidth": 768
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "page": 8,
+    "screenshot": "tablet-19-08.webp",
+    "image": "./assets/v13/story.19.08.webp",
+    "naturalWidth": 1024
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "page": 9,
+    "screenshot": "tablet-19-09.webp",
+    "image": "./assets/v13/story.19.09.webp",
+    "naturalWidth": 1024
+  }
+]

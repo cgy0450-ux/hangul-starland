@@ -35,8 +35,10 @@ def validate(data):
         if not p.is_relative_to(ROOT) or p.suffix not in ['.png','.webp'] or not p.is_file():errors.append('Missing/invalid raster: '+item['id']);continue
         if not item.get('alt') or not item.get('provenance') or not item.get('reviewed'):errors.append('Missing semantic/visual/provenance review: '+item['id'])
         with Image.open(p) as im:
+            im.load()
             if list(im.size)!=item.get('dimensions'):errors.append('Dimensions mismatch: '+item['id'])
         digest=hashlib.sha256(p.read_bytes()).hexdigest()
+        if item.get('sha256') and item['sha256']!=digest:errors.append('Export checksum mismatch: '+item['id'])
         if digest in seen:errors.append('Duplicate raster content: '+item['id']+' and '+seen[digest])
         seen[digest]=item['id']
         if p.name not in (ROOT/'sw.js').read_text():errors.append('Not in offline cache: '+item['id'])
@@ -50,5 +52,5 @@ def main():
     data=json.loads(path.read_text()); errors=validate(data)
     if errors:raise SystemExit('\n'.join(errors))
     n=sum(x['status']=='approved' for x in data['planned'])
-    print(f'PASS registry consistency: {len(data["planned"])} planned; {n} approved; {len(data["planned"])-n} pending. This is NOT artwork completion.')
+    print(f'PASS registry consistency: {len(data["planned"])} planned; {n} approved; {len(data["planned"])-n} pending; {len(data.get("supporting",[]))} supporting assets. Completion still requires actual visual and runtime review.')
 if __name__=='__main__':main()

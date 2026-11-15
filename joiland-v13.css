@@ -50,7 +50,7 @@ body:has(.reader.active) .storytext{font-size:clamp(19px,3.6vw,25px)!important;l
 .bookcontrol{gap:8px!important;display:flex;justify-content:center;flex-wrap:wrap}.bookcontrol button{min-height:48px!important;flex:1;min-width:100px;border-radius:13px;padding:12px 9px;font-weight:750;background:#f0efdf;color:#3c5c47}.bookcontrol #next{background:#25634d!important;color:#fffdf5!important}.bookcontrol #speak{background:#f7d48c!important;color:#58411c!important}.bookcontrol button:disabled{opacity:.45;cursor:default}
 .comprehension:not([hidden]){background:#fffdf6;border-radius:24px;border:1px solid #e4dfcb;padding:28px;text-align:center}.comprehension h2{color:#25634d}.comprehension p{font-size:20px;line-height:1.7}.comprehension button{display:block;width:100%;max-width:640px;margin:12px auto;min-height:52px;border-radius:14px;padding:15px;background:#f2f1e6;color:#34523f;font-size:17px;line-height:1.5}.comprehension .correct{background:#d6eddd;outline:2px solid #478b61}.comprehension .story-replay{background:#25634d;color:white}.story-feedback{min-height:60px;color:#45644c}
 .narrating .pagecount:after{content:' · 읽고 있어요';color:#35784e}.progress .dot.on{background:#d69a38}.progress .dot{background:#e7e5d6}
-@keyframes joyi-page-in{from{opacity:.35;transform:scale(1.015)}to{opacity:1;transform:scale(1)}}
+@keyframes joyi-page-in{from{transform:scale(1.008)}to{transform:scale(1)}}
 @media(max-width:680px){.shelf{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px!important}.book-copy{padding:12px;gap:7px}.book-copy strong{font-size:17px}.book-copy small{font-size:10px}body:has(#shelf) #intro{padding:15px 4px}body:has(.reader.active) .paper{padding:10px!important}.paper h2{font-size:21px!important}.bookcontrol button{min-width:calc(50% - 8px);flex:1;font-size:15px}body:has(.reader.active) .storytext{font-size:20px!important;line-height:1.65!important;padding:0 3px}.comprehension:not([hidden]){padding:18px}}
 /* Clear hierarchy after actual phone/tablet inspection. */
 body:has(#heroTitle) .hero{display:block!important;position:relative;min-height:330px;border:1px solid #e3ddc9;box-shadow:none!important;border-radius:26px;background:#e8eee0 url('./assets/v13/home.hero.webp') center/cover no-repeat!important;padding:25px!important;overflow:hidden}
@@ -81,3 +81,13 @@ body:has(#menu-screen) .intro-tiger{width:42%;max-width:350px;aspect-ratio:3/2;b
 body:has(#heroTitle) .hero{background-image:linear-gradient(90deg,#faf7e4b8 0%,#faf7e43b 43%,transparent 65%),url('./assets/v13/home.hero.webp')!important}
 [data-world=dino] #scene{background:#dce4bb url('./assets/v13/background.garden.webp') center/cover!important}
 .modal{overflow:auto;max-height:86dvh}.v13-modal-art{display:block;width:100%;aspect-ratio:3/2;max-height:180px;object-fit:cover;border-radius:18px;margin:0 auto 15px}.modal #hero{display:block;font-size:0;line-height:0}.modal h2{font-size:clamp(20px,4.8vw,29px);color:#254c3a}.modal p{font-size:15px;line-height:1.65;color:#526651}.modal #start{background:#27654d!important;color:#fffdf5!important;min-height:48px;border-radius:15px}
+html:has(.reader.active){height:auto!important;overflow-y:auto!important}body:has(#shelf) #scene>img{object-fit:contain}
+.garage-car{width:25px;height:34px;object-fit:contain;vertical-align:middle;margin-right:4px}
+
+/* Lesson artwork must not inherit the mascot's absolute corner positioning. */
+.v13-object-group .lesson-raster{position:static!important;inset:auto!important;flex:none!important;float:none!important}
+#visual.v13-object-group{width:100%;min-height:150px;justify-content:center}
+#visual .lesson-raster:only-child{width:clamp(130px,33vw,190px)!important;height:clamp(130px,33vw,190px)!important}
+body.playing:has(#heroMascot) .picture{background:#f6f2e5!important}
+/* The timer is part of header flow, so it never covers score or action controls. */
+header:has(.joyi-time-badge){flex-wrap:wrap!important}.joyi-time-badge{position:static!important;top:auto!important;right:auto!important;bottom:auto!important;flex-basis:100%;padding:2px 4px!important;margin:0!important;text-align:right;border:0!important;background:transparent!important;box-shadow:none!important;font-size:11px!important;min-height:0}

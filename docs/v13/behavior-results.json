@@ -1,12 +1,14 @@
 {
   "storyPagesTraversed": 200,
   "storyPreviousChecks": 20,
-  "serviceWorkerCachedRequests": 51,
+  "serviceWorkerCachedRequests": 507,
   "offlineRoutesVerified": [
     "requests.html",
     "journey.html",
-    "index.html"
+    "index.html",
+    "stories.html: book 19, ten pages and decoded scene images"
   ],
+  "offlineStoryPages": 10,
   "offlineQueryRoutesChecked": [
     "journey.html?subject=hangul",
     "journey.html?subject=math",

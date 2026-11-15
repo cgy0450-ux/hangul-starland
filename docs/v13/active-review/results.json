@@ -1,0 +1,78 @@
+[
+  {
+    "view": "mobile",
+    "route": "firetruck-rescue.html",
+    "state": "running",
+    "screenshot": "mobile-firetruck-rescue.html.webp"
+  },
+  {
+    "view": "mobile",
+    "route": "car-collect.html",
+    "state": "running",
+    "screenshot": "mobile-car-collect.html.webp"
+  },
+  {
+    "view": "mobile",
+    "route": "car-dodge.html",
+    "state": "running",
+    "screenshot": "mobile-car-dodge.html.webp"
+  },
+  {
+    "view": "mobile",
+    "book": 0,
+    "screenshot": "mobile-story-0.webp"
+  },
+  {
+    "view": "mobile",
+    "book": 6,
+    "screenshot": "mobile-story-6.webp"
+  },
+  {
+    "view": "mobile",
+    "book": 19,
+    "screenshot": "mobile-story-19.webp"
+  },
+  {
+    "view": "mobile",
+    "route": "Hangul choose lesson",
+    "screenshot": "mobile-lesson.webp"
+  },
+  {
+    "view": "tablet",
+    "route": "firetruck-rescue.html",
+    "state": "running",
+    "screenshot": "tablet-firetruck-rescue.html.webp"
+  },
+  {
+    "view": "tablet",
+    "route": "car-collect.html",
+    "state": "running",
+    "screenshot": "tablet-car-collect.html.webp"
+  },
+  {
+    "view": "tablet",
+    "route": "car-dodge.html",
+    "state": "running",
+    "screenshot": "tablet-car-dodge.html.webp"
+  },
+  {
+    "view": "tablet",
+    "book": 0,
+    "screenshot": "tablet-story-0.webp"
+  },
+  {
+    "view": "tablet",
+    "book": 6,
+    "screenshot": "tablet-story-6.webp"
+  },
+  {
+    "view": "tablet",
+    "book": 19,
+    "screenshot": "tablet-story-19.webp"
+  },
+  {
+    "view": "tablet",
+    "route": "Hangul choose lesson",
+    "screenshot": "tablet-lesson.webp"
+  }
+]
