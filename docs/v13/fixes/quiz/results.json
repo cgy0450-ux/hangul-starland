@@ -1,0 +1,34 @@
+[
+  {
+    "view": "mobile360",
+    "route": "legacy.html?game=quiz",
+    "screenshot": "mobile360-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "legacy.html?game=quiz",
+    "screenshot": "mobile-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "legacy.html?game=quiz",
+    "screenshot": "tablet-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "landscape",
+    "route": "legacy.html?game=quiz",
+    "screenshot": "landscape-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  }
+]

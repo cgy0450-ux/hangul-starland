@@ -14,6 +14,7 @@ with sync_playwright() as pw:
    errors=[]
    def error(e):errors.append(str(e))
    page.on('pageerror',error);page.goto('http://127.0.0.1:8000/'+route,wait_until='networkidle')
+   if page.locator('#joy-splash').count():page.locator('#joy-splash').wait_for(state='hidden',timeout=5000)
    height=page.evaluate('document.documentElement.scrollHeight')
    for y in range(0,height,h//2):page.evaluate('(y)=>window.scrollTo(0,y)',y);page.wait_for_timeout(60)
    page.evaluate('window.scrollTo(0,0)');page.wait_for_timeout(250)

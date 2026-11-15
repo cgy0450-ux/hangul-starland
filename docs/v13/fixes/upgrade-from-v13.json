@@ -1,0 +1,10 @@
+{
+  "offlineNewVehicleQuizSettingsSpace": "PASS",
+  "oldCache": [
+    "hangul-starland-v13-complete-art-r2-20261115"
+  ],
+  "newCaches": [
+    "hangul-starland-v13-1-playability-20261115"
+  ],
+  "offlineQueryAfterUpgrade": "PASS"
+}

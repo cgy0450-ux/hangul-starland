@@ -1,5 +1,5 @@
 {
-  "note": "제작 계획이며 생성·완성된 이미지가 아님. 스토리별 인물 연속성 검토 후 제작.",
+  "note": "221 planned illustrations approved and integrated; supporting art separately registered with provenance, review and checksums.",
   "planned": [
     {
       "id": "game.hidden",
@@ -7406,6 +7406,202 @@
       "provenance": "Built-in ChatGPT image_gen; source/semantic descriptions in building-sheets.json; individual atlas export WebP q86",
       "reviewNote": "Actual twelve facade contact reviewed; stage-appropriate kindergarten, lighthouse, science museum, hospital, camp, library, airport and zoo replace generic house reuse.",
       "sha256": "676329868003b78222f2b1c181cbdbcdc9dac9614eadc75c8373d710e836eb39"
+    },
+    {
+      "id": "sprite.backpack",
+      "path": "assets/v13/sprite.backpack.webp",
+      "status": "approved",
+      "dimensions": [
+        425,
+        443
+      ],
+      "alt": "가방",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vocabulary-fix.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "2a2bf22cf7917cdf323318357d8bbaf25006720056c380ab4f99fc52a2c4915d"
+    },
+    {
+      "id": "sprite.duck-adult",
+      "path": "assets/v13/sprite.duck-adult.webp",
+      "status": "approved",
+      "dimensions": [
+        425,
+        455
+      ],
+      "alt": "오리",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vocabulary-fix.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "468cf40b71b31b81ebaae8cc925a4086613939c4ab76deb79f3aa2d134bd3f2d"
+    },
+    {
+      "id": "sprite.hippo",
+      "path": "assets/v13/sprite.hippo.webp",
+      "status": "approved",
+      "dimensions": [
+        496,
+        435
+      ],
+      "alt": "하마",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vocabulary-fix.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "6d9dac94a5e9f389897e953a2813563092650c1c6abc613103c9ddd4edb58a14"
+    },
+    {
+      "id": "sprite.plane",
+      "path": "assets/v13/sprite.plane.webp",
+      "status": "approved",
+      "dimensions": [
+        489,
+        384
+      ],
+      "alt": "비행기",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vocabulary-fix.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "0f1b891b42e3e8cd658c3dad48d286f0fa4311bee0967bc435f472e95c0c2c27"
+    },
+    {
+      "id": "sprite.robot",
+      "path": "assets/v13/sprite.robot.webp",
+      "status": "approved",
+      "dimensions": [
+        385,
+        472
+      ],
+      "alt": "로봇",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vocabulary-fix.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "0500a086f7c9095f4127d28908eec72f27e787d8bfffdceed09192344618694f"
+    },
+    {
+      "id": "sprite.train",
+      "path": "assets/v13/sprite.train.webp",
+      "status": "approved",
+      "dimensions": [
+        490,
+        310
+      ],
+      "alt": "기차",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vocabulary-fix.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "228af3fd5af78823d59369a2213faafa5d6185830e69d0b9841cba591f603fbf"
+    },
+    {
+      "id": "vehicle-preview.ambulance",
+      "path": "assets/v13/vehicle-preview.ambulance.webp",
+      "status": "approved",
+      "dimensions": [
+        615,
+        488
+      ],
+      "alt": "앰뷸런스 선택 삽화",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vehicle-refresh.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "47e0f0fda1ae54938e462c0712985150f96457cdd5854bfa87bde20bb787be2c"
+    },
+    {
+      "id": "vehicle-preview.convertible",
+      "path": "assets/v13/vehicle-preview.convertible.webp",
+      "status": "approved",
+      "dimensions": [
+        651,
+        514
+      ],
+      "alt": "오픈카 선택 삽화",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vehicle-refresh.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "b803e3be669c204deb1f012932ca8e849ea8860da5d28df58fbb43cb8ca84924"
+    },
+    {
+      "id": "vehicle-preview.fire",
+      "path": "assets/v13/vehicle-preview.fire.webp",
+      "status": "approved",
+      "dimensions": [
+        635,
+        504
+      ],
+      "alt": "소방차 선택 삽화",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vehicle-refresh.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "218e734e6a27064657b26989e929f2072d79285b76df0b7c5ca01cce10fd0da1"
+    },
+    {
+      "id": "vehicle-preview.police",
+      "path": "assets/v13/vehicle-preview.police.webp",
+      "status": "approved",
+      "dimensions": [
+        594,
+        456
+      ],
+      "alt": "경찰차 선택 삽화",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vehicle-refresh.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "bc64cfe3fe1c21c72fa67163fbf21691fce0113a8a9a2d29e20e86e4432e3b9d"
+    },
+    {
+      "id": "vehicle-top.ambulance",
+      "path": "assets/v13/vehicle-top.ambulance.webp",
+      "status": "approved",
+      "dimensions": [
+        346,
+        571
+      ],
+      "alt": "앰뷸런스 게임용 위에서 본 모습",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vehicle-refresh.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "a7ffb298b00dba9df30293f7f2a408afeee84e634df57b0259d981767537134d"
+    },
+    {
+      "id": "vehicle-top.convertible",
+      "path": "assets/v13/vehicle-top.convertible.webp",
+      "status": "approved",
+      "dimensions": [
+        366,
+        570
+      ],
+      "alt": "오픈카 게임용 위에서 본 모습",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vehicle-refresh.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "9ec4a01da812f5c582d8c002728135eba2c3b4007dc3978f4aa4465234c8fe43"
+    },
+    {
+      "id": "vehicle-top.fire",
+      "path": "assets/v13/vehicle-top.fire.webp",
+      "status": "approved",
+      "dimensions": [
+        355,
+        521
+      ],
+      "alt": "소방차 게임용 위에서 본 모습",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vehicle-refresh.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "3d400c7dd5e00f16672eddd24f009318ac5ed81613a1b01d82a190eb554de4df"
+    },
+    {
+      "id": "vehicle-top.police",
+      "path": "assets/v13/vehicle-top.police.webp",
+      "status": "approved",
+      "dimensions": [
+        342,
+        524
+      ],
+      "alt": "경찰차 게임용 위에서 본 모습",
+      "reviewed": true,
+      "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vehicle-refresh.json; transparent atlas extraction, WebP q86; source PNG retained.",
+      "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
+      "sha256": "2b1915935c3b3b1fa11d415c56e3bc99a2b0c1e883133fa1c5d18dea9fe4c419"
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"

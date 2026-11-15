@@ -39,11 +39,11 @@ header h1{color:#293750;letter-spacing:-.06em;font-weight:950}
 .diff-target{padding:0!important}.diff-target .joyi-vector{width:100%;height:100%}
 .controlbar button{background:#fff!important;border:1px solid #e1eaf0!important;box-shadow:0 6px 14px #465b7718}
 .stageend section{background:linear-gradient(130deg,#fdf5e5,#e5f4f1)!important;border:2px solid #fff!important;box-shadow:0 18px 30px #243b5760!important}
-</style><link rel="stylesheet" href="./joiland-v13.css"></head><body>
+</style><link rel="stylesheet" href="./joiland-v13.css?v=13.1-playability"></head><body>
 <header><a href="./requests.html">‹ 놀이터</a><h1 id="title">🐯 새로운 놀이</h1><button id="sound" aria-label="소리 설정">🔊</button></header>
 <main><section class="hero"><h2 id="headline">어떤 놀이를 할까?</h2><p id="prompt" aria-live="polite">찾아 보자!</p></section><div class="progress"><span id="round">⭐ 문제 1 / 5</span><span id="stage">🚀 1단계 / 3</span></div><section class="playarea" id="playarea" aria-label="놀이 화면"></section><div class="message" id="message" role="status"></div><div class="controlbar"><button id="repeat">🔊 다시 듣기</button><button id="other">🎮 다른 놀이</button></div></main>
 <div class="stageend" id="ending"><section><div style="font-size:70px">🏆🐯🎉</div><h2>멋진 탐험 성공!</h2><p>세 단계를 모두 완료했어요. 오늘의 트로피를 받았어요!</p><a href="./requests.html">다른 놀이 고르기</a></section></div>
-<script src="./joyi-art-renderer.js"></script><script src="./word-gate.js"></script><script>
+<script src="./joyi-art-renderer.js?v=13.1-playability"></script><script src="./play-settings.js?v=13.1-playability"></script><script src="./word-gate.js?v=13.1-playability"></script><script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id);
 const params=new URLSearchParams(location.search),game=params.get('game')||'hidden';
@@ -94,10 +94,10 @@ function render(){
 }
 function hidden(area,n){
  let target=ICONS[n%ICONS.length];const pool=shuffle(ICONS.filter(x=>x!==target)).slice(0,11);const objects=shuffle([target,...pool]);
- announce('그림 속에 숨은 '+target+' 물건을 찾아 볼까?');
+ announce('그림 속에서 '+(JoyiArt.NAME[target]||target)+' 찾기!');
  const world=document.createElement('div');world.className='hiddenworld';
  const deco=document.createElement('div');deco.className='scenery';[['☁️',3,10],['☁️',59,7],['🌳',78,46],['🌳',3,53],['🎁',40,46],['🌿',66,75]].forEach(([icon,x,y])=>{const span=document.createElement('span');span.style.cssText='left:'+x+'%;top:'+y+'%;width:20%;height:20%';JoyiArt.replace(span,icon);deco.append(span)});world.append(deco);
- const spots=shuffle([[10,23],[33,18],[54,30],[80,18],[21,43],[53,54],[86,49],[10,72],[31,75],[52,81],[77,79],[92,66]]);
+ const spots=shuffle([[17,14],[50,14],[83,14],[17,38],[50,38],[83,38],[17,62],[50,62],[83,62],[17,86],[50,86],[83,86]]);
  objects.forEach((icon,i)=>{const b=btn(icon,'hidden-object');b.style.left=spots[i][0]+'%';b.style.top=spots[i][1]+'%';b.setAttribute('aria-label',icon+' 물건');b.onclick=()=>{if(locked)return;if(icon===target)completeSingle(b);else{$('message').textContent='이건 '+icon+'! '+target+'을 찾아 보자!';voice('다른 물건을 찾아 볼까?')}};world.append(b)});
  area.append(world);
 }
@@ -140,7 +140,7 @@ function differences(area,n){
  // Keep unchanged objects distinct from both change variants.
  for(let k=0;k<plain.length;k++)if(plain[k]===uniquePair[0]||plain[k]===uniquePair[1])plain[k]='🌿';
  plain[slot]=uniquePair[0];const changed=[...plain];changed[slot]=uniquePair[1];
- const positions=[[19,18],[50,18],[81,18],[19,50],[50,50],[81,50],[19,81],[50,81],[81,81]];
+ const positions=[[19,28],[50,28],[81,28],[19,56],[50,56],[81,56],[19,84],[50,84],[81,84]];
  announce('두 그림을 잘 비교해서 달라진 곳을 찾아 보세요!');
  const board=document.createElement('div');board.className='diffboard';
  for(let side=0;side<2;side++){
@@ -148,9 +148,9 @@ function differences(area,n){
   const title=document.createElement('strong');title.textContent=side?'오른쪽 그림':'왼쪽 그림';panel.append(title);
   const entries=side?changed:plain;
   entries.forEach((symbol,i)=>{
-   const el=btn(symbol,'diff-target');
+   const el=btn(symbol,'diff-target');el.dataset.slot=String(i);el.dataset.token=symbol;
    el.style.left=positions[i][0]+'%';el.style.top=positions[i][1]+'%';
-   el.style.width='31%';el.style.height='31%';el.style.fontSize='clamp(22px,5.5vw,43px)';
+   el.style.width='31%';el.style.height='25%';el.style.fontSize='clamp(22px,5.5vw,43px)';
    el.setAttribute('aria-label',(side?'오른쪽':'왼쪽')+' 그림 '+(i+1)+'번');
    el.onclick=()=>{if(locked)return;
     if(i!==slot){$('message').textContent='이곳은 똑같아요! 다른 곳을 찾아 보자!';voice('똑같은 곳이야! 다른 곳을 찾아 보자!');return}

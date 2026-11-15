@@ -1,0 +1,13 @@
+{
+  "previewSource": "/workspace/generated_images/exec-0aacd679-c52e-43f6-b078-5bed3c59bbd9.png",
+  "topSource": "/workspace/generated_images/exec-e2432253-82c3-4a75-801b-c833a26d2dad.png",
+  "originalPreview": "/workspace/generated_images/exec-e04605f7-3c5b-4a84-8aba-1c411a5404c6.png",
+  "originalTop": "/workspace/generated_images/exec-851a5faa-d863-4ac0-b02a-5d307b77e843.png",
+  "order": [
+    "police",
+    "fire",
+    "ambulance",
+    "convertible"
+  ],
+  "style": "Built-in user-authorized image_gen. Original JoYi reference retained; matching vehicle preview and orthographic sprites. Background cleanup via image_gen."
+}

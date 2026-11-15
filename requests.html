@@ -35,7 +35,7 @@ header h1{color:#293652;font-weight:950;letter-spacing:-.06em}
  .game-card .play{margin:9px 11px 13px auto;padding:8px!important;min-width:81px;font-size:12px!important}
 }
 @media(max-width:360px){.games{gap:7px}.game-card .copy{padding:9px 8px 2px}.game-card .copy strong{font-size:14px!important}.game-card .play{margin-right:8px}}
-</style><link rel="stylesheet" href="./joiland-v13.css"></head>
+</style><link rel="stylesheet" href="./joiland-v13.css?v=13.1-playability"></head>
 <body><header><a href="./index.html">🏠 홈</a><h1>🎮 이현이의 놀이터</h1><button id="sound">🔊</button></header>
 <main>
 <section class="intro"><h2>🐯 오늘은 어떤 모험?</h2><p>숨은그림·색깔·그림자·두더지·틀린그림까지 재미있게 놀아요!</p></section>
@@ -60,4 +60,4 @@ header h1{color:#293652;font-weight:950;letter-spacing:-.06em}
 button.textContent=sound?'🔊 소리 켬':'🔇 소리 끔';button.onclick=()=>{sound=!sound;button.textContent=sound?'🔊 소리 켬':'🔇 소리 끔';try{const o=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}');o.sound=sound;localStorage.setItem('hangul-starland-v1',JSON.stringify(o))}catch(e){}};
 document.getElementById('forceUpdate').onclick=async()=>{try{const reg=await navigator.serviceWorker?.getRegistration();await reg?.update()}catch(e){}const url=new URL(location.href);url.searchParams.set('v',Date.now().toString());location.replace(url.href)};
 })();
-</script><script src="./joiland-unified.js"></script></body></html>
+</script><script src="./joiland-unified.js"></script><script src="./play-settings.js?v=13.1-playability"></script></body></html>

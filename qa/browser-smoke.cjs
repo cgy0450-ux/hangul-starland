@@ -2,6 +2,7 @@ const http=require('node:http');
 const fs=require('node:fs');
 const path=require('node:path');
 const cp=require('node:child_process');
+const os=require('node:os');
 const assert=require('node:assert/strict');
 const roots=process.cwd();
 function chromeBinary(){for(const exe of ['google-chrome','google-chrome-stable','chromium','chromium-browser']){const v=cp.spawnSync(exe,['--version'],{encoding:'utf8'});if(!v.error&&v.status===0)return exe;}return null;}
@@ -17,7 +18,7 @@ server.listen(0,'127.0.0.1',async()=>{
  ['academy.html?subject=english','data-i="9"'],['academy.html?subject=history','data-i="9"'],
  ['academy.html?subject=coding','data-i="9"'],['academy.html?subject=coding&game=5','class="direction-scene"'],['academy.html?subject=history&game=0','id="learn"'],['stories.html','data-book="19"'],
  ['writing.html?mode=numbers','data-i="9"'],['writing.html?mode=numbers&lesson=1&step=10','id="target">10'],['writing.html?mode=numbers&lesson=10&step=10','id="target">100'],['writing.html?mode=english','data-i="11"'],
- ['mazes.html','data-index="19"'],['coding-lab.html','class="grid"'],['finance.html','data-game="9"'],['finance.html?game=0','id="answers"'],['finance.html?game=2','🪙'],['finance.html?game=3','id="addcoin"'],['finance.html?game=4','class="jarrow"'],['finance.html?game=9','id="ask"'],['requests.html','href="./firetruck-rescue.html"'],['requests.html','href="./car-collect.html"'],['requests.html','href="./car-dodge.html"'],['firetruck-rescue.html','id="hydrant"'],['firetruck-rescue.html','id="helicopter"'],['firetruck-rescue.html','id="ladder"'],['car-collect.html','id="difficulty"'],['adventure.html?game=dino','공룡 알 탐험'],['mini-games.html?game=hidden','숨은그림 찾기'],['mini-games.html?game=colors','색깔 바구니'],['mini-games.html?game=shadows','동물 그림자 연결'],['mini-games.html?game=mole','두더지 잡기'],['mini-games.html?game=differences','틀린그림 찾기'],['adventure.html?game=space','반짝반짝 우주'],['adventure.html?game=animal','동물 친구 돌보기'],['firetruck-rescue.html','id="waterFill"'],['firetruck-rescue.html','src="./word-gate.js"'],['index.html','class="quick-primary q-write"'],['legacy.html?game=trace','trace-pad'],['qa/trace-probe.html?mode=partial&letter=두','data-trace-probe="pass"'],['qa/trace-probe.html?mode=full&letter=두','data-trace-probe="pass"'],['qa/trace-probe.html?mode=missing-last&letter=두','data-trace-probe="pass"']
+ ['mazes.html','data-index="19"'],['coding-lab.html','class="grid"'],['finance.html','data-game="9"'],['finance.html?game=0','id="answers"'],['finance.html?game=2','🪙'],['finance.html?game=3','id="addcoin"'],['finance.html?game=4','class="jarrow"'],['finance.html?game=9','id="ask"'],['requests.html','href="./firetruck-rescue.html"'],['requests.html','href="./car-collect.html"'],['requests.html','href="./car-dodge.html"'],['firetruck-rescue.html','id="hydrant"'],['firetruck-rescue.html','id="helicopter"'],['firetruck-rescue.html','id="ladder"'],['car-collect.html','id="difficulty"'],['adventure.html?game=dino','공룡 알 탐험'],['mini-games.html?game=hidden','숨은그림 찾기'],['mini-games.html?game=colors','색깔 바구니'],['mini-games.html?game=shadows','동물 그림자 연결'],['mini-games.html?game=mole','두더지 잡기'],['mini-games.html?game=differences','틀린그림 찾기'],['adventure.html?game=space','반짝반짝 우주'],['adventure.html?game=animal','동물 친구 돌보기'],['firetruck-rescue.html','id="waterFill"'],['firetruck-rescue.html','src="./word-gate.js?v=13.1-playability"'],['index.html','class="quick-primary q-write"'],['legacy.html?game=trace','trace-pad'],['qa/trace-probe.html?mode=partial&letter=두','data-trace-probe="pass"'],['qa/trace-probe.html?mode=full&letter=두','data-trace-probe="pass"'],['qa/trace-probe.html?mode=missing-last&letter=두','data-trace-probe="pass"']
  ];
  try{
   let n=0;
@@ -25,7 +26,9 @@ server.listen(0,'127.0.0.1',async()=>{
    const url='http://127.0.0.1:'+port+'/'+route;
    let cmd=null,passes=false;
    for(let attempt=0;attempt<3&&!passes;attempt++){
-     cmd=await new Promise(resolve=>cp.execFile(chrome,['--headless=new','--disable-gpu','--no-sandbox','--no-first-run','--disable-extensions','--disable-dev-shm-usage','--virtual-time-budget=2200','--dump-dom',url],{encoding:'utf8',timeout:22000,maxBuffer:10000000},(err,stdout,stderr)=>resolve({status:err?err.code:0,stdout,stderr})));
+     const profile=fs.mkdtempSync(path.join(os.tmpdir(),'joiland-smoke-'));
+     cmd=await new Promise(resolve=>cp.execFile(chrome,['--user-data-dir='+profile,'--headless=new','--disable-gpu','--no-sandbox','--no-first-run','--disable-extensions','--disable-dev-shm-usage','--virtual-time-budget=2200','--dump-dom',url],{encoding:'utf8',timeout:22000,maxBuffer:10000000},(err,stdout,stderr)=>resolve({status:err?err.code:0,stdout,stderr})));
+     fs.rmSync(profile,{recursive:true,force:true});
      passes=cmd.status===0&&cmd.stdout.includes(text);
    }
    assert(passes,route+' did not render '+text+'; exit='+cmd.status+'; DOM='+String(cmd.stdout).slice(-850)+'; stderr='+String(cmd.stderr).slice(-500));

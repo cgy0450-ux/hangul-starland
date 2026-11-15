@@ -5,6 +5,8 @@ let active=null;
 function voice(t){try{if(JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound===false||!window.speechSynthesis)return;window.speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(t);u.lang='ko-KR';u.rate=.82;window.speechSynthesis.speak(u)}catch(e){}}
 function start(word,success,opts={}){
  if(active)active.destroy();
+ // Explicit user preference only: disabled practice skips the stage gate, never relaxes stroke scoring.
+ if(window.JoyiPlaySettings && !window.JoyiPlaySettings.enabled()){queueMicrotask(()=>success?.());return;}
  let chars=[...word],index=0,points=[],drawing=false,locked=false,attempts=0,mask,guide=[],autoTimer=0,done=[],pointer=null;
  const shade=document.createElement('div');shade.className='jwg-shade';shade.setAttribute('role','dialog');shade.setAttribute('aria-modal','true');
  shade.innerHTML='<div class="jwg-card"><button class="jwg-close">‹ 돌아가기</button><div class="jwg-banner"><img src="./joyi-hello.svg" alt="쪼이 호랑이"><div><strong>한 글자씩 천천히</strong><small>글씨를 완성하면 다음 모험이 열려요</small></div></div><div class="jwg-word"></div><div class="jwg-current"></div><div class="jwg-steps"></div><div class="jwg-sheet"><canvas width="300" height="300"></canvas></div><p class="jwg-info" role="status"></p><div class="jwg-actions"><button class="hear">🔊 다시 듣기</button><button class="clear">🧽 다시 쓰기</button><button class="help jwg-help">🔍 획순 다시 보기</button><button class="skip">↶ 한 획 다시</button></div></div>';

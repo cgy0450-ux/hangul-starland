@@ -1,0 +1,226 @@
+[
+  {
+    "view": "mobile360",
+    "route": "legacy.html?game=quiz",
+    "screenshot": "mobile360-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile360",
+    "route": "mini-games.html?game=differences",
+    "screenshot": "mobile360-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile360",
+    "route": "mini-games.html?game=hidden",
+    "screenshot": "mobile360-2.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile360",
+    "route": "adventure.html?game=dino",
+    "screenshot": "mobile360-3.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile360",
+    "route": "adventure.html?game=space",
+    "screenshot": "mobile360-4.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile360",
+    "route": "car-collect.html",
+    "screenshot": "mobile360-5.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile360",
+    "route": "car-dodge.html",
+    "screenshot": "mobile360-6.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "legacy.html?game=quiz",
+    "screenshot": "mobile-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "mini-games.html?game=differences",
+    "screenshot": "mobile-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "mini-games.html?game=hidden",
+    "screenshot": "mobile-2.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "adventure.html?game=dino",
+    "screenshot": "mobile-3.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "adventure.html?game=space",
+    "screenshot": "mobile-4.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "car-collect.html",
+    "screenshot": "mobile-5.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "car-dodge.html",
+    "screenshot": "mobile-6.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "legacy.html?game=quiz",
+    "screenshot": "tablet-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html?game=differences",
+    "screenshot": "tablet-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html?game=hidden",
+    "screenshot": "tablet-2.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "adventure.html?game=dino",
+    "screenshot": "tablet-3.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "adventure.html?game=space",
+    "screenshot": "tablet-4.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "car-collect.html",
+    "screenshot": "tablet-5.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "car-dodge.html",
+    "screenshot": "tablet-6.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "landscape",
+    "route": "legacy.html?game=quiz",
+    "screenshot": "landscape-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "landscape",
+    "route": "mini-games.html?game=differences",
+    "screenshot": "landscape-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "landscape",
+    "route": "mini-games.html?game=hidden",
+    "screenshot": "landscape-2.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "landscape",
+    "route": "adventure.html?game=dino",
+    "screenshot": "landscape-3.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "landscape",
+    "route": "adventure.html?game=space",
+    "screenshot": "landscape-4.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "landscape",
+    "route": "car-collect.html",
+    "screenshot": "landscape-5.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "landscape",
+    "route": "car-dodge.html",
+    "screenshot": "landscape-6.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  }
+]
