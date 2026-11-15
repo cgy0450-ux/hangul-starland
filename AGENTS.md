@@ -1,0 +1,10 @@
+# Joiland / 쪼이랜드 developer instructions
+Read V13-ROADMAP.md and V13-STATUS.md before changing code. This is an existing Korean preschool PWA on GitHub Pages, not a greenfield project.
+- Preserve original high-quality JoYi tiger assets (joyi-hello.svg and related originals), existing progress, localStorage schema, routes, speech, and offline behavior. Do not replace mascot identity with generic art.
+- Use original, purpose-built high-quality illustrated assets, not emoji, stock images, mislabelled reused objects or rough vector placeholders. Prefer cohesive storybook 3D-style WebP/PNG and distinct silhouettes. Never claim an asset is generated or visually verified if it is not.
+- Keep every game functional, touch friendly, and developmentally appropriate for a five-year-old. Preserve 5-minute trophy limit and every required word-writing stage. Reuse legacy stroke-by-stroke evaluator; all strokes must be completed before advancing automatically. No skip/partial writing bypass.
+- Fire rescue: finite water, unlimited instant hydrant refills, animal tap after extinguishing all fires. Preserve original 11 unique games.
+- Use a dedicated branch for each substantial increment. Commit completed work, update V13-STATUS.md, open PR with test results and real screenshots, and do not merge a failing or unreviewed change into production main. Keep changes reversible.
+- Run node qa/smoke.cjs and node qa/browser-smoke.cjs. Browser skip is NOT a pass. Add behavioral and visual tests, inspect actual mobile and tablet screenshots, validate assets and offline cache. Do not weaken tests simply to pass. Record failures and limitations.
+- Never store secrets, auth tokens, personal data, or API keys in the repository. Do not incur paid external image/API charges without explicit approval. If image generation/upload unavailable, document exact blocker and finish independent code/testing tasks; no placeholder substitutions presented as finished.
+- Continue independently through safe subtasks, checkpoint after each batch, and avoid waiting for unnecessary design approval. Stop for destructive changes, additional costs, or missing permissions. Report in Korean.
