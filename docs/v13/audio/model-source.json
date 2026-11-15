@@ -1,0 +1,9 @@
+{
+  "archive": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2",
+  "sha256": "82fa96f91c4ef8abaae3a14a3f4153facf88bed821d1f7331cec2700f432c427",
+  "voiceStyleSelection": "speaker 8; official converter sorts F1..F5,M1..M5 files, corresponding to M4 preset",
+  "converter": "https://github.com/k2-fsa/sherpa-onnx/blob/master/scripts/supertonic/generate_voices_bin.py",
+  "voiceDescriptions": "https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/voices.md",
+  "modelPublished": false,
+  "paidApiUsed": false
+}
