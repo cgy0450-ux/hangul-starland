@@ -1,4 +1,6 @@
 # v13 progress checkpoint
+
+**Current production (2026-11-15):** user-authorized main fast-forward to `1743c1e`; GitHub QA #332 and Pages deployment #365 both succeeded. Live URL: https://cgy0450-ux.github.io/hangul-starland/ . Earlier no-deploy notes below describe prior checkpoints.
 As of 2026-11-15: planning and environment handoff only. Existing v12.1 QA and Pages success verified at 32d8b8c99a06e2449c1f5b91963161495d1bfb22. No v13 production graphics deployment claimed.
 - [x] 01 inventory and visual baseline (baseline screenshots and source inventories retained)
 - [x] 02 asset pipeline and image generation capability validation (actual generated assets and rejection checks)
@@ -68,3 +70,11 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 - Final offline run also opens all ten pages of book 19 and decodes their scene images with networking disabled. 507 cached core requests and v12-to-current worker upgrade pass. Narration fixtures pass; audible physical-device quality remains explicitly unverified.
 - Actual artwork payload is approximately 40 MB (exact bytes in artifact-results.json). This includes the complete offline story library; it is not a mobile network speed measurement.
 - Review summary and actual screenshot links rewritten in PR-DRAFT.md around the implemented result. Native Git push is used; no blocked PR API retry, main merge or environment publication.
+
+
+## 2026-11-15 / production reflection requested and completed
+- User explicitly requested live reflection after reviewing the generated artwork. Native Git confirmed main still at `1c24aeb`, with a clean fast-forward path to tested `1743c1e`. Pushed normally to main, without force/reset or changing published history.
+- Remote main read back: `1743c1e6edaa6fb88e74202638f621d04da13bc7`.
+- GitHub Joiland JavaScript QA #332: SUCCESS, run 43674334878, duration 1m 8s. GitHub Pages #365: SUCCESS, run 43674334795, duration 45s, deployment URL https://cgy0450-ux.github.io/hangul-starland/ .
+- Public site HTTP/visual checks from this cloud machine are blocked at proxy CONNECT by the destination allowlist (403). Deployment success was verified from GitHub's public workflow summaries, not by pretending to open the live site. No network-policy bypass or TLS disablement used.
+- Deployment evidence is in `docs/v13/deployment-results.json`. This documentation-only follow-up is retained on the existing development branch; the deployed application SHA remains `1743c1e`. No cloud environment configuration was published.
