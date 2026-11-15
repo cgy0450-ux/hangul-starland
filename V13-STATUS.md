@@ -22,3 +22,11 @@ Branch: `v13/01-visual-audit`. Baseline parent: `1c24aeb7000c2679f8e19e3b4dd8320
 - Image tool listed; no call made because no zero-additional-cost guarantee is exposed. Actual image generation/reference editing/export remains unverified. No paid API called. Real purpose-built raster art remains required before graphics integration.
 - Git remote read passed. GitHub CLI reports invalid API authentication; PR capability not established. No merge/publication authorized or attempted.
 - Next: fix and retest offline query navigation on a separate branch; then generation cost/access prerequisite, original JoYi reference validation, first game/subject scene production and visual review. Roadmap boxes remain unchecked because full audit and image capability validation are incomplete.
+
+## 2026-11-15 / batch 02 — offline query navigation regression fix
+Branch: `v13/02-offline-query-navigation`, based on batch 01 commit `586ddfb`. Commit: this checkpoint (resolve with `git log -- V13-STATUS.md`).
+- `sw.js`: on offline navigation, look up cached HTML with query ignored before falling back to home. Actual location/query remains intact for existing game/subject selection. Cache version bumped to `hangul-starland-v13-offline-query-20261115`. No storage schema, tracing gate, game timing, mascot or gameplay changes.
+- PASS smoke and 67-case original browser suite after fix. PASS 200 story page traversals + 20 previous-page checks; 51 cached requests; offline home/playground/plain learning hall; four query routes (Hangul, math, color sorting, space adventure). Evidence: `docs/v13/behavior-results.json`.
+- PASS actual v12 worker→v13 worker update, old cache removal and offline math query navigation after controller change. Evidence: `docs/v13/upgrade-results.json`; test `qa/v13/upgrade.py`. Initial upgrade test raced worker activation; corrected test to await actual controller change, without altering app to mask the race.
+- Captured actual post-fix offline math mobile/tablet screens. First-pass baselines stay unchanged as before-state evidence.
+- Graphic renewal still blocked on no-additional-cost image generation confirmation or purpose-built authorized raster input; 0 new approved images. No release, merge or environment publication performed.

@@ -1,0 +1,9 @@
+{
+  "oldCache": [
+    "hangul-starland-v12-1-complete-strokes-original-joyi-20261115"
+  ],
+  "newCaches": [
+    "hangul-starland-v13-offline-query-20261115"
+  ],
+  "offlineQueryAfterUpgrade": "PASS"
+}

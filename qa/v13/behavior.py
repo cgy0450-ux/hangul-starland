@@ -28,15 +28,21 @@ with sync_playwright() as p:
     assert cached>=51,cached
     context.set_offline(True)
     page.goto(BASE+'/requests.html');assert page.locator('a.game-card').count()==11
-    page.goto(BASE+'/journey.html?subject=hangul')
     failures=[]
-    if page.locator('[data-lesson="hangul-0-explore"]').count()==0:
-        failures.append('Offline query route journey.html?subject=hangul falls back to home instead of requested learning hall')
+    query_routes=[('journey.html?subject=hangul','[data-lesson="hangul-0-explore"]'),
+                  ('journey.html?subject=math','[data-lesson="math-0-choose"]'),
+                  ('mini-games.html?game=colors','.basket'),
+                  ('adventure.html?game=space','#app')]
+    # Specific rendered text for adventures avoids relying on incidental container IDs.
+    for route,selector in query_routes:
+        page.goto(BASE+'/'+route)
+        found=page.locator(selector).count()>0 if route.startswith(('journey','mini-games')) else '반짝반짝 우주' in page.locator('body').inner_text()
+        if not found:failures.append('Offline query route did not render its requested content: '+route)
     page.goto(BASE+'/journey.html');assert page.locator('[data-lesson="hangul-0-explore"]').count()>0
     page.goto(BASE+'/');page.wait_for_function("[...document.images].filter(i=>i.src.endsWith('joyi-hello.svg')).every(i=>i.complete && i.naturalWidth>0)")
     context.set_offline(False)
     browser.close()
-    result={'storyPagesTraversed':count,'storyPreviousChecks':len(books),'serviceWorkerCachedRequests':cached,'offlineRoutesVerified':['requests.html','journey.html','index.html'],'failures':failures,'limitations':['No narration audio quality evaluation','No complete gameplay, 5-minute timing or 200 scene visual review in this baseline test']}
+    result={'storyPagesTraversed':count,'storyPreviousChecks':len(books),'serviceWorkerCachedRequests':cached,'offlineRoutesVerified':['requests.html','journey.html','index.html'],'offlineQueryRoutesChecked':[r for r,_ in query_routes],'failures':failures,'limitations':['No narration audio quality evaluation','No complete gameplay, 5-minute timing or 200 scene visual review in this baseline test']}
     (ROOT/'docs/v13/behavior-results.json').write_text(json.dumps(result,indent=2)+'\n')
     print('FAIL' if failures else 'PASS',json.dumps(result))
     if failures:raise SystemExit(1)
