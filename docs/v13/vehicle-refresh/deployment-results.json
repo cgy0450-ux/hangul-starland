@@ -1,0 +1,86 @@
+{
+  "commit": "d2d6f3a9dcea23ea97dd047f00ceb0735f00b83d",
+  "release": "v13.6",
+  "branch": "main",
+  "user_authorization": "User requested reflection and autonomous continued commits/push; previous learning screen work retained.",
+  "published_site": "https://cgy0450-ux.github.io/hangul-starland/",
+  "pages": {
+    "run_id": 43708051505,
+    "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43708051505",
+    "status": "success",
+    "runNumber": 374,
+    "duration": "48s"
+  },
+  "qa": {
+    "run_id": 43708051846,
+    "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43708051846",
+    "status": "success",
+    "runNumber": 341,
+    "duration": "1m 8s"
+  },
+  "verified_at_utc": "2026-11-15T11:17:28.231843+00:00",
+  "verification": "Normal fast-forward push read back via git ls-remote; QA SHA d2d6f3a completed success; Pages run title confirms same SHA and successful deployment output URL.",
+  "live_http_check": {
+    "result": "blocked by cloud destination allowlist",
+    "stage": "HTTP CONNECT proxy",
+    "response": 403,
+    "note": "No public-site visual or physical-device verification claimed."
+  },
+  "environment_publication": "No cloud environment configuration publication performed.",
+  "previousDeployment": {
+    "commit": "b03c113626d3d45cbdb99a3074f384671f39f653",
+    "release": "v13.4.1",
+    "branch": "main",
+    "user_authorization": "User requested live reflection and continued autonomous implementation; latest shared backlog incorporated on existing development branch.",
+    "published_site": "https://cgy0450-ux.github.io/hangul-starland/",
+    "pages": {
+      "run_id": 43692459871,
+      "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43692459871",
+      "status": "success",
+      "duration": "43s"
+    },
+    "qa": {
+      "run_id": 43692460176,
+      "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43692460176",
+      "status": "success",
+      "duration": "1m 1s"
+    },
+    "verified_at_utc": "2026-11-15T08:02:27.291872+00:00",
+    "verification": "Remote main push and completed-success GitHub workflow states. Pages run title confirms b03c113. Direct public-site listening/physical-device validation is not claimed.",
+    "live_http_check": {
+      "result": "blocked by cloud environment destination allowlist",
+      "stage": "HTTP CONNECT proxy",
+      "response": 403,
+      "note": "This is a cloud egress restriction, not an observed error from the deployed website. No live-site visual verification claimed."
+    },
+    "environment_publication": "No cloud environment configuration publication performed.",
+    "previousDeployments": [
+      {
+        "commit": "1743c1e6edaa6fb88e74202638f621d04da13bc7",
+        "pages": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43674334795",
+        "qa": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43674334878"
+      },
+      {
+        "commit": "7d816a350841424c7553de4cfcaf47417f3b5ee9",
+        "pages": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43683574712",
+        "qa": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43683575173"
+      },
+      {
+        "commit": "d5a33075dda52445922aa2bd44e258ea511399f3",
+        "pages": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43685313011",
+        "qa": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43685313235"
+      },
+      {
+        "commit": "7af238cc41c1f03552d81fed059737e4e6920ac2",
+        "pages": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43686360666",
+        "qa": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43686360770"
+      },
+      {
+        "commit": "b083eb8195daac5520ae0a087b0641a951dee954",
+        "pages": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43690053790",
+        "qa": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43690053847"
+      }
+    ],
+    "preview": "https://cgy0450-ux.github.io/hangul-starland/legacy.html?game=quiz&v=13.4.1"
+  }
+}

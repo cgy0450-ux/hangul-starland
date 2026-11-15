@@ -1,0 +1,397 @@
+{
+  "release": "v13.6",
+  "featureCommit": "d2d6f3a9dcea23ea97dd047f00ceb0735f00b83d",
+  "priorLearningCommit": "9d229d4",
+  "browserSmoke": {
+    "renderedCases": 72,
+    "result": "PASS"
+  },
+  "smoke": "PASS",
+  "assetValidator": "PASS 504 actual WebP and 825 audio files",
+  "negativeAssetChecks": "PASS 6",
+  "existingGameplay": "PASS 13 strict writing/rescue/game cases",
+  "drivingRegression": [
+    {
+      "view": "narrow",
+      "route": "car-collect.html",
+      "steeringAndPhysics": "PASS",
+      "startVisibleWithoutScroll": true,
+      "pageErrors": []
+    },
+    {
+      "view": "narrow",
+      "route": "car-dodge.html",
+      "steeringAndPhysics": "PASS",
+      "startVisibleWithoutScroll": true,
+      "pageErrors": []
+    },
+    {
+      "view": "mobile",
+      "route": "car-collect.html",
+      "steeringAndPhysics": "PASS",
+      "startVisibleWithoutScroll": true,
+      "pageErrors": []
+    },
+    {
+      "view": "mobile",
+      "route": "car-dodge.html",
+      "steeringAndPhysics": "PASS",
+      "startVisibleWithoutScroll": true,
+      "pageErrors": []
+    },
+    {
+      "view": "tablet",
+      "route": "car-collect.html",
+      "steeringAndPhysics": "PASS",
+      "startVisibleWithoutScroll": true,
+      "pageErrors": []
+    },
+    {
+      "view": "tablet",
+      "route": "car-dodge.html",
+      "steeringAndPhysics": "PASS",
+      "startVisibleWithoutScroll": true,
+      "pageErrors": []
+    },
+    {
+      "view": "landscape",
+      "route": "car-collect.html",
+      "steeringAndPhysics": "PASS",
+      "startVisibleWithoutScroll": true,
+      "pageErrors": []
+    },
+    {
+      "view": "landscape",
+      "route": "car-dodge.html",
+      "steeringAndPhysics": "PASS",
+      "startVisibleWithoutScroll": true,
+      "pageErrors": []
+    }
+  ],
+  "liveSwitch": [
+    {
+      "route": "car-collect.html",
+      "view": "mobile",
+      "choices": 5,
+      "canvasBodyAndRotor": true,
+      "pausedStateExact": true,
+      "resumePreservesState": true,
+      "persisted": true,
+      "fiveMinuteLimitAfterSwitch": true
+    },
+    {
+      "route": "car-dodge.html",
+      "view": "mobile",
+      "choices": 5,
+      "canvasBodyAndRotor": true,
+      "pausedStateExact": true,
+      "resumePreservesState": true,
+      "persisted": true,
+      "fiveMinuteLimitAfterSwitch": true
+    },
+    {
+      "route": "car-collect.html",
+      "view": "tablet",
+      "choices": 5,
+      "canvasBodyAndRotor": true,
+      "pausedStateExact": true,
+      "resumePreservesState": true,
+      "persisted": true,
+      "fiveMinuteLimitAfterSwitch": true
+    },
+    {
+      "route": "car-dodge.html",
+      "view": "tablet",
+      "choices": 5,
+      "canvasBodyAndRotor": true,
+      "pausedStateExact": true,
+      "resumePreservesState": true,
+      "persisted": true,
+      "fiveMinuteLimitAfterSwitch": true
+    },
+    {
+      "route": "car-collect.html",
+      "view": "landscape",
+      "choices": 5,
+      "canvasBodyAndRotor": true,
+      "pausedStateExact": true,
+      "resumePreservesState": true,
+      "persisted": true,
+      "fiveMinuteLimitAfterSwitch": true
+    },
+    {
+      "route": "car-dodge.html",
+      "view": "landscape",
+      "choices": 5,
+      "canvasBodyAndRotor": true,
+      "pausedStateExact": true,
+      "resumePreservesState": true,
+      "persisted": true,
+      "fiveMinuteLimitAfterSwitch": true
+    }
+  ],
+  "activityCards": [
+    {
+      "view": "narrow",
+      "subject": "hangul",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "narrow",
+      "subject": "math",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "narrow",
+      "subject": "english",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "narrow",
+      "subject": "science",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "narrow",
+      "subject": "history",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "narrow",
+      "subject": "coding",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "narrow",
+      "subject": "finance",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "narrow",
+      "subject": "reading",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "narrow",
+      "subject": "life",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "narrow",
+      "subject": "creativity",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "mobile",
+      "subject": "hangul",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "mobile",
+      "subject": "math",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "mobile",
+      "subject": "english",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "mobile",
+      "subject": "science",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "mobile",
+      "subject": "history",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "mobile",
+      "subject": "coding",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "mobile",
+      "subject": "finance",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "mobile",
+      "subject": "reading",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "mobile",
+      "subject": "life",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "mobile",
+      "subject": "creativity",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "tablet",
+      "subject": "hangul",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "tablet",
+      "subject": "math",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "tablet",
+      "subject": "english",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "tablet",
+      "subject": "science",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "tablet",
+      "subject": "history",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "tablet",
+      "subject": "coding",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "tablet",
+      "subject": "finance",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "tablet",
+      "subject": "reading",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "tablet",
+      "subject": "life",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "tablet",
+      "subject": "creativity",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "landscape",
+      "subject": "hangul",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "landscape",
+      "subject": "math",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "landscape",
+      "subject": "english",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "landscape",
+      "subject": "science",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "landscape",
+      "subject": "history",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "landscape",
+      "subject": "coding",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "landscape",
+      "subject": "finance",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "landscape",
+      "subject": "reading",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "landscape",
+      "subject": "life",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    },
+    {
+      "view": "landscape",
+      "subject": "creativity",
+      "uniqueIllustratedLessons": 11,
+      "imagesDecoded": true
+    }
+  ],
+  "offlineNewFeatures": {
+    "offline11ActivityImages": "PASS",
+    "offlineHelicopterBodyRotorPreview": "PASS",
+    "offlineSwitchBothGames": "PASS"
+  },
+  "offlineAudioAndFullCache": {
+    "offlineQuizNativeVoiceCalls": 0,
+    "cachedRequests": 1431,
+    "offlineActualMp3Playback": "PASS: book 20, two consecutive pages",
+    "rangeRequests": {
+      "status": 206,
+      "bytes": 32,
+      "contentRange": "bytes 0-31/80300",
+      "suffixStatus": 206,
+      "suffixBytes": 8,
+      "invalidStatus": 416
+    }
+  },
+  "limits": [
+    "Emulated mobile/tablet Chrome; no physical-device claim",
+    "Public Pages direct access blocked by cloud HTTP CONNECT 403; deployment workflows checked separately"
+  ]
+}
