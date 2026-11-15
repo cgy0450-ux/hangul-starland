@@ -30,3 +30,10 @@ Branch: `v13/02-offline-query-navigation`, based on batch 01 commit `586ddfb`. C
 - PASS actual v12 worker→v13 worker update, old cache removal and offline math query navigation after controller change. Evidence: `docs/v13/upgrade-results.json`; test `qa/v13/upgrade.py`. Initial upgrade test raced worker activation; corrected test to await actual controller change, without altering app to mask the race.
 - Captured actual post-fix offline math mobile/tablet screens. First-pass baselines stay unchanged as before-state evidence.
 - Graphic renewal still blocked on no-additional-cost image generation confirmation or purpose-built authorized raster input; 0 new approved images. No release, merge or environment publication performed.
+
+### Remote checkpoint
+- Batch 01 commit: `586ddfb`; batch 02 commit: `2941321`.
+- Both development branches pushed successfully through native Git. No push to `main`.
+- Draft PR creation attempted with `gh pr create --draft` and rejected: `Post https://api.github.com/graphql: Forbidden`. No PR URL exists. This is an API access blocker, not proof that a new token is required. Exact review text with real screenshot links preserved in `docs/v13/PR-DRAFT.md`.
+- Pending external prerequisites: supported GitHub PR API access, and confirmation of a zero-additional-cost image generation route or authorized purpose-built raster inputs. Do not treat the presence of the image tool as proof of free usage or actual generation success.
+- Environment configuration was not edited or published. Production `main` remains untouched.
