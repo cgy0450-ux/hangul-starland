@@ -1,0 +1,14 @@
+{
+  "passed": [
+    "all 311 regions of eight generated sheets accept actual touch fill with zero changed outline/background pixels",
+    "touch fill changes only selected enclosed region; undo exactly restores original pixels",
+    "native mobile touch drag crossing outline remains inside initial region; ink and background untouched",
+    "eraser/undo, artwork gallery, reload restores drawing and preserves existing score/writing settings",
+    "reset is confirmed; completed gallery copy restores original drawing; local PNG download decodes at 768px",
+    "keyboard region selection and Enter fill work without touch",
+    "actual five-minute timer pauses in dialogs, blocks early reward, ends at 300s, awards once and stops painting",
+    "narrow phone, tablet and landscape actual touch fill, no horizontal overflow"
+  ],
+  "regionsTested": 311,
+  "pageErrors": []
+}

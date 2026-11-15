@@ -1,0 +1,66 @@
+[
+  {
+    "view": "mobile360",
+    "route": "coloring.html",
+    "screenshot": "mobile360-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile360",
+    "route": "requests.html",
+    "screenshot": "mobile360-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "coloring.html",
+    "screenshot": "mobile-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "requests.html",
+    "screenshot": "mobile-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "coloring.html",
+    "screenshot": "tablet-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "requests.html",
+    "screenshot": "tablet-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "landscape",
+    "route": "coloring.html",
+    "screenshot": "landscape-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "landscape",
+    "route": "requests.html",
+    "screenshot": "landscape-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  }
+]

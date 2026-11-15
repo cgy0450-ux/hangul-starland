@@ -7602,6 +7602,132 @@
       "provenance": "Built-in ChatGPT image_gen, 2026-11-15; original JoYi reference for vehicles. Source and cleanup records in docs/v13/generation/vehicle-refresh.json; transparent atlas extraction, WebP q86; source PNG retained.",
       "reviewNote": "Actual transparent contact sheet and rendered mobile game inspected. Matching vehicle colors/identity in preview and overhead view; vocabulary checked against all 27 real quiz prompts.",
       "sha256": "2b1915935c3b3b1fa11d415c56e3bc99a2b0c1e883133fa1c5d18dea9fe4c419"
+    },
+    {
+      "id": "coloring.puppy",
+      "path": "assets/v13/coloring.puppy.webp",
+      "status": "approved",
+      "dimensions": [
+        768,
+        768
+      ],
+      "alt": "강아지 색칠 도안",
+      "reviewed": true,
+      "provenance": "Built-in image_gen with original JoYi raster reference; sources exec-265f9bcf-6482-46c8-b802-05158f8a18ed.png / exec-b0cd487a-ff87-48f6-bf52-df7b699b28a9.png (line art) or exec-316b3f1e-4e51-451c-be1e-de0d38b340d6.png (3D card). Technical crop/padding only; source PNG retained.",
+      "reviewNote": "Actual generated images reviewed for complete silhouettes, JoYi face/goggles/scarf identity and broad enclosed coloring regions. Original subjects; no licensed third-party character used. Runtime render and region tests recorded separately.",
+      "sha256": "ae5b500770bcb3c995dcc954d57e670fe1cf2c081eb4db3bd86a139fb13f7ba1"
+    },
+    {
+      "id": "coloring.convertible",
+      "path": "assets/v13/coloring.convertible.webp",
+      "status": "approved",
+      "dimensions": [
+        768,
+        768
+      ],
+      "alt": "쪼이 오픈카 색칠 도안",
+      "reviewed": true,
+      "provenance": "Built-in image_gen with original JoYi raster reference; sources exec-265f9bcf-6482-46c8-b802-05158f8a18ed.png / exec-b0cd487a-ff87-48f6-bf52-df7b699b28a9.png (line art) or exec-316b3f1e-4e51-451c-be1e-de0d38b340d6.png (3D card). Technical crop/padding only; source PNG retained.",
+      "reviewNote": "Actual generated images reviewed for complete silhouettes, JoYi face/goggles/scarf identity and broad enclosed coloring regions. Original subjects; no licensed third-party character used. Runtime render and region tests recorded separately.",
+      "sha256": "7f9132d5b9273510a0d21ca651ab03e7a74d1e6cdf621d6a794e490ac586b52d"
+    },
+    {
+      "id": "game.coloring",
+      "path": "assets/v13/game.coloring.webp",
+      "status": "approved",
+      "dimensions": [
+        1279,
+        853
+      ],
+      "alt": "쪼이의 색칠공방 장면",
+      "reviewed": true,
+      "provenance": "Built-in image_gen with original JoYi raster reference; sources exec-265f9bcf-6482-46c8-b802-05158f8a18ed.png / exec-b0cd487a-ff87-48f6-bf52-df7b699b28a9.png (line art) or exec-316b3f1e-4e51-451c-be1e-de0d38b340d6.png (3D card). Technical crop/padding only; source PNG retained.",
+      "reviewNote": "Actual generated images reviewed for complete silhouettes, JoYi face/goggles/scarf identity and broad enclosed coloring regions. Original subjects; no licensed third-party character used. Runtime render and region tests recorded separately.",
+      "sha256": "b4c6b363a8698e856d6e7c542eaf9c5613b2bab0cb9d177a08304c0d6b143a51"
+    },
+    {
+      "id": "coloring.dino",
+      "path": "assets/v13/coloring.dino.webp",
+      "status": "approved",
+      "dimensions": [
+        768,
+        768
+      ],
+      "alt": "트리케라톱스 색칠 도안",
+      "reviewed": true,
+      "provenance": "Built-in image_gen with original JoYi raster reference; sources exec-265f9bcf-6482-46c8-b802-05158f8a18ed.png / exec-b0cd487a-ff87-48f6-bf52-df7b699b28a9.png (line art) or exec-316b3f1e-4e51-451c-be1e-de0d38b340d6.png (3D card). Technical crop/padding only; source PNG retained.",
+      "reviewNote": "Actual generated images reviewed for complete silhouettes, JoYi face/goggles/scarf identity and broad enclosed coloring regions. Original subjects; no licensed third-party character used. Runtime render and region tests recorded separately.",
+      "sha256": "3a978c0569176628f1fd9700cba855fb0088d889b5fd7e35c86601025c498594"
+    },
+    {
+      "id": "coloring.rabbit",
+      "path": "assets/v13/coloring.rabbit.webp",
+      "status": "approved",
+      "dimensions": [
+        768,
+        768
+      ],
+      "alt": "당근 토끼 색칠 도안",
+      "reviewed": true,
+      "provenance": "Built-in image_gen with original JoYi raster reference; sources exec-265f9bcf-6482-46c8-b802-05158f8a18ed.png / exec-b0cd487a-ff87-48f6-bf52-df7b699b28a9.png (line art) or exec-316b3f1e-4e51-451c-be1e-de0d38b340d6.png (3D card). Technical crop/padding only; source PNG retained.",
+      "reviewNote": "Actual generated images reviewed for complete silhouettes, JoYi face/goggles/scarf identity and broad enclosed coloring regions. Original subjects; no licensed third-party character used. Runtime render and region tests recorded separately.",
+      "sha256": "c9d5566bbd218860a8563397c0848550c91eeab4cbf01a9b6f8d5dc80a3a8f62"
+    },
+    {
+      "id": "coloring.fire",
+      "path": "assets/v13/coloring.fire.webp",
+      "status": "approved",
+      "dimensions": [
+        768,
+        768
+      ],
+      "alt": "소방차 색칠 도안",
+      "reviewed": true,
+      "provenance": "Built-in image_gen with original JoYi raster reference; sources exec-265f9bcf-6482-46c8-b802-05158f8a18ed.png / exec-b0cd487a-ff87-48f6-bf52-df7b699b28a9.png (line art) or exec-316b3f1e-4e51-451c-be1e-de0d38b340d6.png (3D card). Technical crop/padding only; source PNG retained.",
+      "reviewNote": "Actual generated images reviewed for complete silhouettes, JoYi face/goggles/scarf identity and broad enclosed coloring regions. Original subjects; no licensed third-party character used. Runtime render and region tests recorded separately.",
+      "sha256": "2c88713920b88dc5d9ee14feba8cef7432ffda2a7a764346c1225ce0f10b076b"
+    },
+    {
+      "id": "coloring.bus",
+      "path": "assets/v13/coloring.bus.webp",
+      "status": "approved",
+      "dimensions": [
+        768,
+        768
+      ],
+      "alt": "마을 버스 색칠 도안",
+      "reviewed": true,
+      "provenance": "Built-in image_gen with original JoYi raster reference; sources exec-265f9bcf-6482-46c8-b802-05158f8a18ed.png / exec-b0cd487a-ff87-48f6-bf52-df7b699b28a9.png (line art) or exec-316b3f1e-4e51-451c-be1e-de0d38b340d6.png (3D card). Technical crop/padding only; source PNG retained.",
+      "reviewNote": "Actual generated images reviewed for complete silhouettes, JoYi face/goggles/scarf identity and broad enclosed coloring regions. Original subjects; no licensed third-party character used. Runtime render and region tests recorded separately.",
+      "sha256": "7dff1048c9f50ca71a678d2686d50d2b11f0ea60d8c0c39e1be61cbde2e99cca"
+    },
+    {
+      "id": "coloring.joyi",
+      "path": "assets/v13/coloring.joyi.webp",
+      "status": "approved",
+      "dimensions": [
+        768,
+        768
+      ],
+      "alt": "쪼이 호랑이 색칠 도안",
+      "reviewed": true,
+      "provenance": "Built-in image_gen with original JoYi raster reference; sources exec-265f9bcf-6482-46c8-b802-05158f8a18ed.png / exec-b0cd487a-ff87-48f6-bf52-df7b699b28a9.png (line art) or exec-316b3f1e-4e51-451c-be1e-de0d38b340d6.png (3D card). Technical crop/padding only; source PNG retained.",
+      "reviewNote": "Actual generated images reviewed for complete silhouettes, JoYi face/goggles/scarf identity and broad enclosed coloring regions. Original subjects; no licensed third-party character used. Runtime render and region tests recorded separately.",
+      "sha256": "2db722a876e1365f6e83225f020eb89d662316d3f78538cbf97c1c0e8186fb33"
+    },
+    {
+      "id": "coloring.police",
+      "path": "assets/v13/coloring.police.webp",
+      "status": "approved",
+      "dimensions": [
+        768,
+        768
+      ],
+      "alt": "경찰차 색칠 도안",
+      "reviewed": true,
+      "provenance": "Built-in image_gen with original JoYi raster reference; sources exec-265f9bcf-6482-46c8-b802-05158f8a18ed.png / exec-b0cd487a-ff87-48f6-bf52-df7b699b28a9.png (line art) or exec-316b3f1e-4e51-451c-be1e-de0d38b340d6.png (3D card). Technical crop/padding only; source PNG retained.",
+      "reviewNote": "Actual generated images reviewed for complete silhouettes, JoYi face/goggles/scarf identity and broad enclosed coloring regions. Original subjects; no licensed third-party character used. Runtime render and region tests recorded separately.",
+      "sha256": "ef1c708ee554f75fbd2744f8979b14149e23b6a6bc6eb0d2f9fc92458db51ce6"
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"

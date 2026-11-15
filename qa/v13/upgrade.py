@@ -32,7 +32,8 @@ try:
         context.set_offline(True);page.goto(base+'/journey.html?subject=math')
         assert page.locator('[data-lesson="math-0-choose"]').count()>0
         page.goto(base+'/car-collect.html');page.locator('[data-vehicle=ambulance]').click();page.locator('.vehicle-preview').evaluate('(i)=>i.decode()');page.evaluate("JoyiArt.imageFor('vehicle-top.ambulance').decode()");page.locator('#start').click();page.locator('[data-stage-writing]').uncheck();page.goto(base+'/legacy.html?game=quiz');page.locator('#joy-splash').wait_for(state='hidden');page.locator('.question-image img').evaluate('(i)=>i.decode()');page.goto(base+'/adventure.html?game=space');assert not page.locator('[data-stage-writing]').is_checked();page.locator('#scene img').evaluate('(i)=>i.decode()')
-        result={'offlineNewVehicleQuizSettingsSpace':'PASS','oldCache':before,'newCaches':page.evaluate('caches.keys()'),'offlineQueryAfterUpgrade':'PASS'}
-        (ROOT/('docs/v13/upgrade-results.json' if args.baseline=='1c24aeb' else 'docs/v13/fixes/upgrade-from-v13.json')).write_text(json.dumps(result,indent=2)+'\n')
+        page.goto(base+'/coloring.html');page.locator('#loading').wait_for(state='hidden');page.locator('#paper').focus();page.locator('#paper').press('ArrowRight');page.locator('#paper').press('Enter');assert not page.locator('#undo').is_disabled();page.locator('#save').click();page.locator('#gallery-items img').evaluate('(i)=>i.decode()')
+        result={'offlineColoringFillAndSave':'PASS','offlineNewVehicleQuizSettingsSpace':'PASS','oldCache':before,'newCaches':page.evaluate('caches.keys()'),'offlineQueryAfterUpgrade':'PASS'}
+        (ROOT/('docs/v13/upgrade-results.json' if args.baseline=='1c24aeb' else 'docs/v13/coloring/upgrade-results.json' if 'coloring' in expected_cache else 'docs/v13/fixes/upgrade-from-v13.json')).write_text(json.dumps(result,indent=2)+'\n')
         print('PASS',json.dumps(result));browser.close()
 finally:server.shutdown()

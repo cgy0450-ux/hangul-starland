@@ -1,0 +1,20 @@
+{
+  "commit": "7d816a350841424c7553de4cfcaf47417f3b5ee9",
+  "featureCommit": "775136dff8651d457b37b50877359d41cba10dc5",
+  "branch": "main",
+  "pages": {
+    "run": 43683574712,
+    "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43683574712",
+    "status": "success",
+    "duration": "40s"
+  },
+  "qa": {
+    "run": 43683575173,
+    "url": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43683575173",
+    "status": "success",
+    "duration": "1m 6s"
+  },
+  "site": "https://cgy0450-ux.github.io/hangul-starland/",
+  "verification": "Remote main SHA, public GitHub run summary with commit title, successful Pages output URL. Public-site direct HTTP/visual check remains blocked by cloud network destination allowlist.",
+  "verifiedAt": "2026-11-15T06:20:01.140977+00:00"
+}

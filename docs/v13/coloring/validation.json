@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-11-15T06:24:34.817860+00:00",
+  "nodeSmoke": "PASS",
+  "chromeRenderedCases": 68,
+  "approvedRasterFiles": 476,
+  "assetNegativeFixtures": 6,
+  "coloringScenarios": 8,
+  "actualTouchRegions": 311,
+  "outsideRegionChangedPixels": 0,
+  "viewportCaptures": 8,
+  "offlineCoreRequests": 553,
+  "oldCacheUpgrade": "v13.1 to v13.2: PASS including offline masks, fill, save and gallery",
+  "previousStoryPagesTraversed": 200,
+  "offlineStoryScenesDecoded": 10,
+  "pageErrors": [],
+  "evidence": [
+    "verified/results.json",
+    "screens/results.json",
+    "upgrade-results.json"
+  ],
+  "limits": [
+    "Physical iPad/Android testing and audible Korean voice quality were not evaluated.",
+    "No permission evidence for requested third-party characters: those templates are held; original alternatives implemented.",
+    "Live public-site HTTP/visual access restricted by cloud network policy; GitHub Pages SHA/status checked separately."
+  ]
+}

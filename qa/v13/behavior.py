@@ -27,7 +27,7 @@ with sync_playwright() as p:
     cached=page.evaluate('''async()=>{const names=await caches.keys();const keys=await (await caches.open(names.find(n=>n.startsWith('hangul-starland-')))).keys();return keys.length}''')
     assert cached>=51,cached
     context.set_offline(True)
-    page.goto(BASE+'/requests.html');assert page.locator('a.game-card').count()==11
+    page.goto(BASE+'/requests.html');assert page.locator('a.game-card').count()==12
     failures=[]
     query_routes=[('journey.html?subject=hangul','[data-lesson="hangul-0-explore"]'),
                   ('journey.html?subject=math','[data-lesson="math-0-choose"]'),
