@@ -62,8 +62,8 @@ function update(){
  $('progress').style.width=(fires.length?(fires.length-n)/fires.length*100:0)+'%';
  $('sound').textContent=voiceOn?'🔊':'🔇';
  $('pause').textContent=paused?'▶ 계속하기':'⏸ 잠깐 쉬기';
- $('hydrant').disabled=!active||paused||waterCooldown>0||water>=99;
- $('hydrant').textContent=waterCooldown>0?'🚰 물 채우는 중':water>=99?'🚰 물 가득':'🚰 소화전 물 채우기';
+ $('hydrant').disabled=!active||paused;
+ $('hydrant').textContent='소화전 물 채우기';
  $('waterLabel').textContent='💧 물 '+Math.round(water)+'%';$('waterFill').style.width=water+'%';
  $('waterHint').textContent=water<24?'⚠️ 물이 부족해요! 소화전을 눌러요!':'물이 부족하면 소화전으로 물을 채워요';
  $('helicopter').disabled=!active||helicopterUsed||paused;
@@ -158,7 +158,7 @@ function playSiren(){
  try{const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;const ac=sirenContext||new AC();sirenContext=ac;if(ac.state==='suspended')ac.resume();let t=ac.currentTime+.03;for(let i=0;i<4;i++){const osc=ac.createOscillator(),gain=ac.createGain();osc.type='sine';osc.frequency.setValueAtTime(i%2?730:470,t+i*.23);osc.frequency.linearRampToValueAtTime(i%2?470:730,t+(i+1)*.23);gain.gain.setValueAtTime(.0001,t+i*.23);gain.gain.linearRampToValueAtTime(.045,t+i*.23+.06);gain.gain.linearRampToValueAtTime(.0001,t+(i+1)*.23);osc.connect(gain).connect(ac.destination);osc.start(t+i*.23);osc.stop(t+(i+1)*.23)} }catch(e){}
 }
 function finishTime(){if(sessionFinished)return;sessionFinished=true;active=false;paused=false;spraying=false;cancelAnimationFrame(frameId);show('🏆 5분 탐험 완료!','이현이 소방관! 오늘도 정말 멋지게 구조했어! 다른 놀이도 만나볼까요?','🏠 다른 놀이 하기','🏆🚒✨');$('start').onclick=()=>location.href='./requests.html';voice('5분 탐험 성공! 트로피를 받았어!',true)}
-$('hydrant').onclick=()=>{if(!active||paused||waterCooldown>0||water>=99)return;water=100;waterCooldown=3;boost=3;splash(65,443);$('status').textContent='🚰 소화전 연결 성공! 물통 100% 충전!';voice('소화전 연결! 물을 가득 채웠어!');update()};
+$('hydrant').onclick=()=>{if(!active||paused)return;water=100;waterCooldown=0;boost=3;splash(65,443);$('status').textContent='🚰 소화전 연결 성공! 물통 100% 충전!';voice('소화전 연결! 물을 가득 채웠어!');update()};
 $('helicopter').onclick=()=>{if(!active||paused||helicopterUsed)return;helicopterUsed=true;helicopterTime=2.8;const targets=fires.filter(f=>!f.done);if(targets.length){helicopterX=clamp(targets[0].x,115,280);for(const f of targets){f.health=Math.min(.9,f.health+.48);splash(f.x,f.y);burst(f.x,f.y,8)}}$('status').textContent='🚁 헬리콥터가 물을 뿌렸어요!';voice('헬리콥터 지원 도착!');update()};
 function rescueFriend(){
  if(!active||paused||gateOpen||fires.some(f=>!f.done))return;
@@ -179,7 +179,7 @@ $('sound').onclick=()=>{voiceOn=!voiceOn;update();try{const o=JSON.parse(localSt
 document.addEventListener('visibilitychange',()=>{if(document.hidden)pause()});window.addEventListener('pagehide',()=>{cancelAnimationFrame(frameId);active=false});window.addEventListener('resize',resize);
 function frame(ms){if(!active||paused)return;if(!prev)prev=ms;const dt=Math.min(.05,(ms-prev)/1000);prev=ms;time+=dt;sessionElapsed+=dt;if(sessionElapsed>=300){finishTime();return}boost=Math.max(0,boost-dt);helicopterTime=Math.max(0,helicopterTime-dt);waterCooldown=Math.max(0,waterCooldown-dt);if(!water&&spraying){spraying=false;$('status').textContent='💧 물이 다 떨어졌어요! 소화전을 연결해 주세요!';voice('물이 부족해! 소화전을 연결하자!');}
  if(spraying&&water>0){
-  water=Math.max(0,water-27*dt);
+  water=Math.max(0,water-12*dt);
   const near=fires.filter(f=>!f.done&&Math.hypot(f.x-aim.x,f.y-aim.y)<48);
   for(const f of near){f.health=clamp(f.health+dt*(boost>0?1.03:.67),0,1);if(f.health>=1){f.done=true;score++;burst(f.x,f.y);splash(f.x,f.y);voice(['불을 껐어! 멋져!','좋았어, 이현이 소방관!','야호! 구조 성공!'][score%3]);$('status').textContent='💖 잘했어! 불꽃 '+score+'개를 껐어!';update();if(fires.every(v=>v.done)){$('status').textContent='🐱 불을 다 껐어요! 창문에 있는 친구를 손가락으로 눌러 구해요!';voice('불을 다 껐어! 창문에 있는 동물 친구를 눌러 구해 줘!');ladderReady=true;update();}}}
   for(let i=0;i<2;i++)drops.push({x:185,y:436,r:2+Math.random()*3,age:0,endX:aim.x+(Math.random()-.5)*17,endY:aim.y+(Math.random()-.5)*17});
