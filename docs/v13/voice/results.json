@@ -1,0 +1,34 @@
+[
+  {
+    "view": "mobile",
+    "route": "parent.html",
+    "screenshot": "mobile-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "mobile",
+    "route": "adventure.html?game=space",
+    "screenshot": "mobile-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "parent.html",
+    "screenshot": "tablet-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "adventure.html?game=space",
+    "screenshot": "tablet-1.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  }
+]
