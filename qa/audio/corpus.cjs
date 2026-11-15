@@ -12,4 +12,6 @@ for(const t of ['과 같은 색깔의 바구니에 담아 볼까?','와아! 잘 
 for(const t of ['이 그림의 이름은 무엇일까요?','그림을 보고 낱말을 만들어 볼까요?','좋아하는 색으로 글자를 써 볼까요?'])add(t,'guide');
 const praise=vm.runInNewContext(legacy.match(/const PRAISE_VARIANTS=(\[[\s\S]*?\n\]);/)[1]);for(const f of praise){const t=f('친구');add(t,'praise');const parts=t.match(/^([^!！]+[!！])\s*(.*)$/);if(parts&&parts[2]){add(parts[1],'praise');add(parts[2],'praise')}}
 for(const w of words)add(w.w+' 글자를 손가락으로 따라 써 봐요!','guide');
+const sets=new Function(legacy.slice(legacy.indexOf('const CONSONANTS='),legacy.indexOf('const COLOR_WORDS='))+';return {CONSONANTS,VOWELS,SYLLABLES}')();for(const list of Object.values(sets))for(const row of list){add(row[1],'learning');add(row[2],'learning')}for(const row of sets.SYLLABLES){add(row[0],'learning');add('들리는 글자를 찾아 볼까요? '+row[0],'learning')}
+const animals=new Function(legacy.match(/const ANIMALS=(\[[^;]+\]);/)[0]+';return ANIMALS')();for(const a of animals){add(a.name,'learning');add('동물 친구를 찾아 봐요. '+a.name,'learning')}
 fs.writeFileSync('docs/v13/audio/corpus.json',JSON.stringify([...rows.values()],null,2));console.log(rows.size,'phrases', [...rows.values()].reduce((a,x)=>a+x.text.length,0),'characters');

@@ -1,0 +1,189 @@
+{
+  "tool": "built-in user-authorized image_gen",
+  "reference": "Original JoYi embedded raster /tmp/joyi-reference.webp; original mascot SVGs unchanged",
+  "approvedExports": [
+    {
+      "id": "sprite.pen",
+      "path": "assets/v13/sprite.pen.webp",
+      "status": "approved",
+      "dimensions": [
+        650,
+        433
+      ],
+      "alt": "sprite.pen",
+      "reviewed": true,
+      "provenance": "Built-in image_gen original source exec-22aae23c-448f-41ab-b319-870f65c19b8f.png retained in /workspace/generated_images; technical WebP export only",
+      "reviewNote": "Actual generated scene/pen viewed: readable central space, coherent woodland road, recognizable blue ballpoint pen. Runtime verification separately recorded.",
+      "sha256": "f3ad4ab431985a2be9720832782f4f0bce6dcc222ce8456c0e46dc8feb8a355c"
+    },
+    {
+      "id": "background.letter-space",
+      "path": "assets/v13/background.letter-space.webp",
+      "status": "approved",
+      "dimensions": [
+        1279,
+        853
+      ],
+      "alt": "background.letter-space",
+      "reviewed": true,
+      "provenance": "Built-in image_gen original source exec-80268ed2-fe0c-46da-a041-39b6f74203b7.png retained in /workspace/generated_images; technical WebP export only",
+      "reviewNote": "Actual generated scene/pen viewed: readable central space, coherent woodland road, recognizable blue ballpoint pen. Runtime verification separately recorded.",
+      "sha256": "3127eb19c31f051fcfd5831f7d3edccc13668cfba016f9b2be9c10fd9c0c464e"
+    },
+    {
+      "id": "background.animal-road",
+      "path": "assets/v13/background.animal-road.webp",
+      "status": "approved",
+      "dimensions": [
+        1279,
+        853
+      ],
+      "alt": "background.animal-road",
+      "reviewed": true,
+      "provenance": "Built-in image_gen original source exec-aab1e703-f378-4670-8808-7163f27f7100.png retained in /workspace/generated_images; technical WebP export only",
+      "reviewNote": "Actual generated scene/pen viewed: readable central space, coherent woodland road, recognizable blue ballpoint pen. Runtime verification separately recorded.",
+      "sha256": "7d458b0f8a0328b6622cc61ba9a802494adc8523976ac5d2f787d009b52c72a5"
+    },
+    {
+      "id": "sprite.pencil",
+      "path": "assets/v13/sprite.pencil.webp",
+      "status": "approved",
+      "dimensions": [
+        525,
+        600
+      ],
+      "alt": "연필",
+      "reviewed": true,
+      "provenance": "Built-in image_gen source exec-e35db410-9d3e-40ca-be68-7df2bf1d8cda.png; transparency correction exec-c0e6c52c-4414-4dd5-ac71-4d14d39b9314.png; individual technical crop/WebP export",
+      "reviewNote": "Actual original and transparency correction visually checked; object silhouettes and matching maze topic semantics retained.",
+      "sha256": "9192968593752f2c82189074c946151d5af612acc228198e522db55048f8136a"
+    },
+    {
+      "id": "sprite.cup",
+      "path": "assets/v13/sprite.cup.webp",
+      "status": "approved",
+      "dimensions": [
+        600,
+        505
+      ],
+      "alt": "컵",
+      "reviewed": true,
+      "provenance": "Built-in image_gen source exec-e35db410-9d3e-40ca-be68-7df2bf1d8cda.png; transparency correction exec-c0e6c52c-4414-4dd5-ac71-4d14d39b9314.png; individual technical crop/WebP export",
+      "reviewNote": "Actual original and transparency correction visually checked; object silhouettes and matching maze topic semantics retained.",
+      "sha256": "9efebfa4696172b41ed51111992446aa0bb3c2f7c46bf889368ed46bab1a0893"
+    },
+    {
+      "id": "sprite.constellation",
+      "path": "assets/v13/sprite.constellation.webp",
+      "status": "approved",
+      "dimensions": [
+        600,
+        416
+      ],
+      "alt": "별자리",
+      "reviewed": true,
+      "provenance": "Built-in image_gen source exec-e35db410-9d3e-40ca-be68-7df2bf1d8cda.png; transparency correction exec-c0e6c52c-4414-4dd5-ac71-4d14d39b9314.png; individual technical crop/WebP export",
+      "reviewNote": "Actual original and transparency correction visually checked; object silhouettes and matching maze topic semantics retained.",
+      "sha256": "8be2cc0fe85fc45a2e2349b84c24cf3a89132576c2fe96e7a07c34f961e28deb"
+    },
+    {
+      "id": "sprite.shrug",
+      "path": "assets/v13/sprite.shrug.webp",
+      "status": "approved",
+      "dimensions": [
+        434,
+        497
+      ],
+      "alt": "sprite.shrug",
+      "reviewed": true,
+      "provenance": "Built-in user-authorized image_gen; actual source exec-7ea9c4a2-e1a3-4c46-8f04-03ad48018b19.png; alpha cleanup exec-963c82c9-c74f-4eea-88bc-183935b901f9.png retained; technical crop/pad/WebP export only. Original JoYi reference used for shrug identity.",
+      "reviewNote": "Actual generated source and alpha correction inspected. Semantic baby/baseball/cooking/shrug/carriage/cards replace unresolved lesson tokens; mobile space composition preserves visible scenery.",
+      "sha256": "72df76ac46e43e3a18bf6406af8d4713c55f7552d418ada9d863af0cc129ad06"
+    },
+    {
+      "id": "background.letter-space-mobile",
+      "path": "assets/v13/background.letter-space-mobile.webp",
+      "status": "approved",
+      "dimensions": [
+        900,
+        1599
+      ],
+      "alt": "background.letter-space-mobile",
+      "reviewed": true,
+      "provenance": "Built-in user-authorized image_gen; actual source exec-4aa0e203-1adc-4b56-a5d0-517c0c96746c.png retained; technical crop/pad/WebP export only. Original JoYi reference used for shrug identity.",
+      "reviewNote": "Actual generated source and alpha correction inspected. Semantic baby/baseball/cooking/shrug/carriage/cards replace unresolved lesson tokens; mobile space composition preserves visible scenery.",
+      "sha256": "04b195fad5ce49b6b0495c5fe13931fe3a630781993c3a4545832ebc793909e6"
+    },
+    {
+      "id": "sprite.baby",
+      "path": "assets/v13/sprite.baby.webp",
+      "status": "approved",
+      "dimensions": [
+        349,
+        463
+      ],
+      "alt": "sprite.baby",
+      "reviewed": true,
+      "provenance": "Built-in user-authorized image_gen; actual source exec-7ea9c4a2-e1a3-4c46-8f04-03ad48018b19.png; alpha cleanup exec-963c82c9-c74f-4eea-88bc-183935b901f9.png retained; technical crop/pad/WebP export only. Original JoYi reference used for shrug identity.",
+      "reviewNote": "Actual generated source and alpha correction inspected. Semantic baby/baseball/cooking/shrug/carriage/cards replace unresolved lesson tokens; mobile space composition preserves visible scenery.",
+      "sha256": "79d6e2dd7c5275859f63d7a8bf17ce50cb1d9ac380801d47f4a9727544b4478d"
+    },
+    {
+      "id": "sprite.carriage",
+      "path": "assets/v13/sprite.carriage.webp",
+      "status": "approved",
+      "dimensions": [
+        489,
+        400
+      ],
+      "alt": "sprite.carriage",
+      "reviewed": true,
+      "provenance": "Built-in user-authorized image_gen; actual source exec-7ea9c4a2-e1a3-4c46-8f04-03ad48018b19.png; alpha cleanup exec-963c82c9-c74f-4eea-88bc-183935b901f9.png retained; technical crop/pad/WebP export only. Original JoYi reference used for shrug identity.",
+      "reviewNote": "Actual generated source and alpha correction inspected. Semantic baby/baseball/cooking/shrug/carriage/cards replace unresolved lesson tokens; mobile space composition preserves visible scenery.",
+      "sha256": "2b4b94df9ece55c8a84817dcafd7e7ea75762eeb66b2db4dc4273edf7cf582b1"
+    },
+    {
+      "id": "sprite.baseball",
+      "path": "assets/v13/sprite.baseball.webp",
+      "status": "approved",
+      "dimensions": [
+        435,
+        388
+      ],
+      "alt": "sprite.baseball",
+      "reviewed": true,
+      "provenance": "Built-in user-authorized image_gen; actual source exec-7ea9c4a2-e1a3-4c46-8f04-03ad48018b19.png; alpha cleanup exec-963c82c9-c74f-4eea-88bc-183935b901f9.png retained; technical crop/pad/WebP export only. Original JoYi reference used for shrug identity.",
+      "reviewNote": "Actual generated source and alpha correction inspected. Semantic baby/baseball/cooking/shrug/carriage/cards replace unresolved lesson tokens; mobile space composition preserves visible scenery.",
+      "sha256": "6a91fa864dd48479c8aa3ff48683fca1a5a7421555043ce20c84450011d08537"
+    },
+    {
+      "id": "sprite.cards",
+      "path": "assets/v13/sprite.cards.webp",
+      "status": "approved",
+      "dimensions": [
+        481,
+        331
+      ],
+      "alt": "sprite.cards",
+      "reviewed": true,
+      "provenance": "Built-in user-authorized image_gen; actual source exec-7ea9c4a2-e1a3-4c46-8f04-03ad48018b19.png; alpha cleanup exec-963c82c9-c74f-4eea-88bc-183935b901f9.png retained; technical crop/pad/WebP export only. Original JoYi reference used for shrug identity.",
+      "reviewNote": "Actual generated source and alpha correction inspected. Semantic baby/baseball/cooking/shrug/carriage/cards replace unresolved lesson tokens; mobile space composition preserves visible scenery.",
+      "sha256": "cb4265a6650d4ce8a41204cd17a4327ccb52ec207a206ef85ee27b27c0771ee6"
+    },
+    {
+      "id": "sprite.cooking",
+      "path": "assets/v13/sprite.cooking.webp",
+      "status": "approved",
+      "dimensions": [
+        472,
+        386
+      ],
+      "alt": "sprite.cooking",
+      "reviewed": true,
+      "provenance": "Built-in user-authorized image_gen; actual source exec-7ea9c4a2-e1a3-4c46-8f04-03ad48018b19.png; alpha cleanup exec-963c82c9-c74f-4eea-88bc-183935b901f9.png retained; technical crop/pad/WebP export only. Original JoYi reference used for shrug identity.",
+      "reviewNote": "Actual generated source and alpha correction inspected. Semantic baby/baseball/cooking/shrug/carriage/cards replace unresolved lesson tokens; mobile space composition preserves visible scenery.",
+      "sha256": "ebdf4bce6d28747e734a2b9a8363663fc29cb1983d8ddbeaa05c45427df3ed5a"
+    }
+  ],
+  "note": "13 actual image files; not 13 generation calls. Source atlases and alpha corrections retained. Technical crop/padding/WebP export only."
+}

@@ -1,34 +1,6 @@
 [
-  {
-    "view": "mobile",
-    "route": "parent.html",
-    "screenshot": "mobile-0.webp",
-    "pageErrors": [],
-    "overflow": false,
-    "brokenImages": []
-  },
-  {
-    "view": "mobile",
-    "route": "stories.html",
-    "screenshot": "mobile-1.webp",
-    "pageErrors": [],
-    "overflow": false,
-    "brokenImages": []
-  },
-  {
-    "view": "tablet",
-    "route": "parent.html",
-    "screenshot": "tablet-0.webp",
-    "pageErrors": [],
-    "overflow": false,
-    "brokenImages": []
-  },
-  {
-    "view": "tablet",
-    "route": "stories.html",
-    "screenshot": "tablet-1.webp",
-    "pageErrors": [],
-    "overflow": false,
-    "brokenImages": []
-  }
+  "mobile: actual MP3 playback, no device TTS, pause/resume, page cancellation race, auto-turn, mute and exit",
+  "mobile: recorded voice audition and persisted mode toggle",
+  "tablet: actual MP3 playback, no device TTS, pause/resume, page cancellation race, auto-turn, mute and exit",
+  "tablet: recorded voice audition and persisted mode toggle"
 ]

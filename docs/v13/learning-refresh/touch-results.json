@@ -1,0 +1,16 @@
+[
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "nativeTouchContinuousStrokeAndResume": "PASS"
+  },
+  {
+    "viewport": [
+      800,
+      1280
+    ],
+    "nativeTouchContinuousStrokeAndResume": "PASS"
+  }
+]

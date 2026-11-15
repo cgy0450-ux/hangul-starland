@@ -1,0 +1,38 @@
+[
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "mode": "space",
+    "fiveRoundsAndWrongAnswer": "PASS",
+    "deviceVoiceCalls": []
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "mode": "safari",
+    "fiveRoundsAndWrongAnswer": "PASS",
+    "deviceVoiceCalls": []
+  },
+  {
+    "viewport": [
+      800,
+      1280
+    ],
+    "mode": "space",
+    "fiveRoundsAndWrongAnswer": "PASS",
+    "deviceVoiceCalls": []
+  },
+  {
+    "viewport": [
+      800,
+      1280
+    ],
+    "mode": "safari",
+    "fiveRoundsAndWrongAnswer": "PASS",
+    "deviceVoiceCalls": []
+  }
+]

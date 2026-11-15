@@ -2982,5 +2982,321 @@
   {
     "text": "거북이 글자를 손가락으로 따라 써 봐요!",
     "kind": "guide"
+  },
+  {
+    "text": "기역",
+    "kind": "learning"
+  },
+  {
+    "text": "니은",
+    "kind": "learning"
+  },
+  {
+    "text": "디귿",
+    "kind": "learning"
+  },
+  {
+    "text": "리을",
+    "kind": "learning"
+  },
+  {
+    "text": "로봇",
+    "kind": "learning"
+  },
+  {
+    "text": "미음",
+    "kind": "learning"
+  },
+  {
+    "text": "비읍",
+    "kind": "learning"
+  },
+  {
+    "text": "시옷",
+    "kind": "learning"
+  },
+  {
+    "text": "이응",
+    "kind": "learning"
+  },
+  {
+    "text": "지읒",
+    "kind": "learning"
+  },
+  {
+    "text": "치읓",
+    "kind": "learning"
+  },
+  {
+    "text": "치즈",
+    "kind": "learning"
+  },
+  {
+    "text": "키읔",
+    "kind": "learning"
+  },
+  {
+    "text": "코끼리",
+    "kind": "learning"
+  },
+  {
+    "text": "티읕",
+    "kind": "learning"
+  },
+  {
+    "text": "피읖",
+    "kind": "learning"
+  },
+  {
+    "text": "히읗",
+    "kind": "learning"
+  },
+  {
+    "text": "아",
+    "kind": "learning"
+  },
+  {
+    "text": "아기",
+    "kind": "learning"
+  },
+  {
+    "text": "야",
+    "kind": "learning"
+  },
+  {
+    "text": "야구",
+    "kind": "learning"
+  },
+  {
+    "text": "어",
+    "kind": "learning"
+  },
+  {
+    "text": "어항",
+    "kind": "learning"
+  },
+  {
+    "text": "여",
+    "kind": "learning"
+  },
+  {
+    "text": "여우",
+    "kind": "learning"
+  },
+  {
+    "text": "오",
+    "kind": "learning"
+  },
+  {
+    "text": "요",
+    "kind": "learning"
+  },
+  {
+    "text": "요리",
+    "kind": "learning"
+  },
+  {
+    "text": "우",
+    "kind": "learning"
+  },
+  {
+    "text": "유",
+    "kind": "learning"
+  },
+  {
+    "text": "으",
+    "kind": "learning"
+  },
+  {
+    "text": "으쓱",
+    "kind": "learning"
+  },
+  {
+    "text": "이",
+    "kind": "learning"
+  },
+  {
+    "text": "이빨",
+    "kind": "learning"
+  },
+  {
+    "text": "가",
+    "kind": "learning"
+  },
+  {
+    "text": "나",
+    "kind": "learning"
+  },
+  {
+    "text": "다",
+    "kind": "learning"
+  },
+  {
+    "text": "다리",
+    "kind": "learning"
+  },
+  {
+    "text": "라",
+    "kind": "learning"
+  },
+  {
+    "text": "라디오",
+    "kind": "learning"
+  },
+  {
+    "text": "마",
+    "kind": "learning"
+  },
+  {
+    "text": "마차",
+    "kind": "learning"
+  },
+  {
+    "text": "바",
+    "kind": "learning"
+  },
+  {
+    "text": "사",
+    "kind": "learning"
+  },
+  {
+    "text": "자",
+    "kind": "learning"
+  },
+  {
+    "text": "차",
+    "kind": "learning"
+  },
+  {
+    "text": "카",
+    "kind": "learning"
+  },
+  {
+    "text": "카드",
+    "kind": "learning"
+  },
+  {
+    "text": "타",
+    "kind": "learning"
+  },
+  {
+    "text": "타조",
+    "kind": "learning"
+  },
+  {
+    "text": "파",
+    "kind": "learning"
+  },
+  {
+    "text": "파도",
+    "kind": "learning"
+  },
+  {
+    "text": "하",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 가",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 나",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 다",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 라",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 마",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 바",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 사",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 아",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 자",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 차",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 카",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 타",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 파",
+    "kind": "learning"
+  },
+  {
+    "text": "들리는 글자를 찾아 볼까요? 하",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 친구를 찾아 봐요. 토끼",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 친구를 찾아 봐요. 곰",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 친구를 찾아 봐요. 고양이",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 친구를 찾아 봐요. 코끼리",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 친구를 찾아 봐요. 강아지",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 친구를 찾아 봐요. 돼지",
+    "kind": "learning"
+  },
+  {
+    "text": "사자",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 친구를 찾아 봐요. 사자",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 친구를 찾아 봐요. 원숭이",
+    "kind": "learning"
+  },
+  {
+    "text": "판다",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 친구를 찾아 봐요. 판다",
+    "kind": "learning"
+  },
+  {
+    "text": "동물 친구를 찾아 봐요. 기린",
+    "kind": "learning"
   }
 ]

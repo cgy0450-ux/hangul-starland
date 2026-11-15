@@ -6,10 +6,10 @@
   "language": "ko",
   "numSteps": 8,
   "speed": 1.05,
-  "clips": 746,
+  "clips": 825,
   "storyScenes": 200,
-  "bytes": 21835384,
-  "durationSeconds": 2707.416,
+  "bytes": 22949004,
+  "durationSeconds": 2844.288,
   "items": [
     {
       "text": "햇살이 숲길을 간질였어요. 달리기 좋아하는 토끼가 폴짝 뛰었지요. “오늘도 내가 제일 빠를걸!”",
@@ -5978,6 +5978,638 @@
       "duration": 3.24,
       "bytes": 26156,
       "sha256": "80cc8d3e40c8d196ab48989a9766c5e6f028601a0892dfb7992b8db104b5240d"
+    },
+    {
+      "text": "기역",
+      "kind": "learning",
+      "path": "assets/audio/90fe40d00cfe48fb0a6f.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "1f475db3678fc19a9022ca4038aa5c1bee5d8ac884f2890434883c6d5ad29196"
+    },
+    {
+      "text": "니은",
+      "kind": "learning",
+      "path": "assets/audio/7383da42119a1c5c7b03.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "ab685d58220764d45f8ff7efb006ba9690e684f73006b1495011ff6327e68ca2"
+    },
+    {
+      "text": "디귿",
+      "kind": "learning",
+      "path": "assets/audio/4d157c50f2c4d0e33418.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "d346657109e42fe1ad93c702d9f2661579913220e782d1752d61e6537283bf56"
+    },
+    {
+      "text": "리을",
+      "kind": "learning",
+      "path": "assets/audio/180255eade5c64211a8a.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "6041db42554c133f4259f722f15c06b47477e7c76d965a5cc39f461029d02156"
+    },
+    {
+      "text": "로봇",
+      "kind": "learning",
+      "path": "assets/audio/7c3bf7bf31cbc94c5804.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "7496ce44ee1e16e4ed2c906c8045b90f0c5229ea45ee515d9e5d55a08df96a6e"
+    },
+    {
+      "text": "미음",
+      "kind": "learning",
+      "path": "assets/audio/e305610584239b1774b5.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "7192f7ee0497302bb6f420c5963b3bfa65b9f408e37462169a31972ea7da9d5b"
+    },
+    {
+      "text": "비읍",
+      "kind": "learning",
+      "path": "assets/audio/0f779127c7fcf94a962a.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "0430f21674cd8182710bb779470f1af246a95e0339011d63f1ab9995fd514677"
+    },
+    {
+      "text": "시옷",
+      "kind": "learning",
+      "path": "assets/audio/a2b75694bea8852f399b.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "e38037a885b94bafdfa9fe8e154b58fb21b9f4e7ddaae4e3b9c636799b6e55b4"
+    },
+    {
+      "text": "이응",
+      "kind": "learning",
+      "path": "assets/audio/d8aacb8ebde22b474a45.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "0126b02e38603d53dcfcc6c48c4efcadc94523e411a62134be423a4aa1b03f60"
+    },
+    {
+      "text": "지읒",
+      "kind": "learning",
+      "path": "assets/audio/f26970a64ad1efb4e918.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "20e424962507f95b23cd8d70614d8334279f81fad60973fd528ecc76f88a5619"
+    },
+    {
+      "text": "치읓",
+      "kind": "learning",
+      "path": "assets/audio/79131d47dab82ef786b8.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "f88719c89d7b0928bd7cb73ef67a67299473af69f2ddf0ac5ffea5bdeb2f59c1"
+    },
+    {
+      "text": "치즈",
+      "kind": "learning",
+      "path": "assets/audio/a82ee6c25c832fb5897f.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "ed8a4b692a5f1a08c38291a2583c6139885fe40759593a499170485a4a26fdce"
+    },
+    {
+      "text": "키읔",
+      "kind": "learning",
+      "path": "assets/audio/ecc4e62464bfc6768480.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "73090c4a54003660b6ebb2abf04606d913665271a15b9dead072695cbad53829"
+    },
+    {
+      "text": "코끼리",
+      "kind": "learning",
+      "path": "assets/audio/6504c4e0dfbf5051694d.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "2a818efc98c6a9e296d4615a27ce47fbcb59a65d4ebbe456f58c03dd21e4a07b"
+    },
+    {
+      "text": "티읕",
+      "kind": "learning",
+      "path": "assets/audio/5a7f3b6d09581f9c7729.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "c066e5a23844f588e0674395fce77fe48dd3615ec01a117873afac9027e50dee"
+    },
+    {
+      "text": "피읖",
+      "kind": "learning",
+      "path": "assets/audio/160487f464ed48b59817.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "8465d00e34e35df948b2e50cdb188d6712c43d8b880fda1fe6d0f10583602e17"
+    },
+    {
+      "text": "히읗",
+      "kind": "learning",
+      "path": "assets/audio/ec2c0a001ac1822d70cc.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "8b5666e3ad74b5634a67cd4d24c0a9d285231734cf67011247e5cce241dfbd4a"
+    },
+    {
+      "text": "아",
+      "kind": "learning",
+      "path": "assets/audio/d6ce479be9ddc9b7de97.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "266b7de2823948122430b3f719300ded3fdc78df2dc3790f67d3d114459f9444"
+    },
+    {
+      "text": "아기",
+      "kind": "learning",
+      "path": "assets/audio/d5fa7c0faafdc9fccb16.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "750f5766fac9604df3ae04f3ce0fff35d4596bab36b567c8a54fbb340e5a28a7"
+    },
+    {
+      "text": "야",
+      "kind": "learning",
+      "path": "assets/audio/08945f015d460ad9b44c.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "049c0164677dab09b35935ac4eaa9092a73036360b4f6df05a9c1e85b12a9845"
+    },
+    {
+      "text": "야구",
+      "kind": "learning",
+      "path": "assets/audio/7403c43735a4108cd9f2.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "61c97f9bfd8a24868b531abcabebfaf47cac762e68c11370e3b31995360bf4cf"
+    },
+    {
+      "text": "어",
+      "kind": "learning",
+      "path": "assets/audio/228794e2524374dc8637.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "8d450db514ac2ac425790cd12399bf34f7bceaa1b1c57d3204224d7508357022"
+    },
+    {
+      "text": "어항",
+      "kind": "learning",
+      "path": "assets/audio/c779b21339fe9378dd3b.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "27ba5559460b032b865a91661301497582cf9661155d72249c672de16e50a4b8"
+    },
+    {
+      "text": "여",
+      "kind": "learning",
+      "path": "assets/audio/945f5f4b0df1d4abe204.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "de74b15e96511bc1bf6f2288e5c427b6436f0af8d1fe40c333a53337519af129"
+    },
+    {
+      "text": "여우",
+      "kind": "learning",
+      "path": "assets/audio/d600b99daf4af7749ed8.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "856fee8e35c98a9b0f42f8eba5ff61eae6d57121e30bc8b8109b52bd0f8b1f36"
+    },
+    {
+      "text": "오",
+      "kind": "learning",
+      "path": "assets/audio/c0ccf82e09f1e8734531.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "ce0eae85f5b2c6fa4b4f5533eee9f3545562edd906b65171e019bb9d8fcf927a"
+    },
+    {
+      "text": "요",
+      "kind": "learning",
+      "path": "assets/audio/d525e7107305db853261.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "554fdf65d7248d42d674b72af5a770479da9bca2ff3bf81a1e4fee287004fe02"
+    },
+    {
+      "text": "요리",
+      "kind": "learning",
+      "path": "assets/audio/aa664b105a07ea19ff3e.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "5541b569da2dd2398eae5cd8ca10dd30efe030199f0ce5d6d8f622529c628662"
+    },
+    {
+      "text": "우",
+      "kind": "learning",
+      "path": "assets/audio/637bfe7928f524a3c40d.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "9ea8c846d342cea4dabf72167704a9343679862da0f88c8bbd53f3fa457ebec8"
+    },
+    {
+      "text": "유",
+      "kind": "learning",
+      "path": "assets/audio/0a8fef4b99a88b476a89.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "c43e76ac8bc298dd3da388fd3cb65e07a3add626f892d520ff1f438d4975821a"
+    },
+    {
+      "text": "으",
+      "kind": "learning",
+      "path": "assets/audio/963c2374ff4c553e8117.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "13524e923f14ad1d9af939661bae591db845bf6138d9223b3d99bc0f297108d4"
+    },
+    {
+      "text": "으쓱",
+      "kind": "learning",
+      "path": "assets/audio/9b3beb840a7a8fab07b8.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "0405c040bd191fa4506cb8b8be73e96e99aa2fb68874c60fc6eabefde05feae8"
+    },
+    {
+      "text": "이",
+      "kind": "learning",
+      "path": "assets/audio/8bafb6b7d17ead4985bf.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "e9337ba516ab0d6da21d18765961f736a2c7fafa6662551b2d5032552a7ee27d"
+    },
+    {
+      "text": "이빨",
+      "kind": "learning",
+      "path": "assets/audio/4783612a627065544e6f.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "31c0c0b5ee2b27b7da0967f17749aaaf218add2443da840ef647c1a01fea2580"
+    },
+    {
+      "text": "가",
+      "kind": "learning",
+      "path": "assets/audio/64ee5293d31bc58b72d7.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "9c72f821457e5d4dd9958b779dd0988c5500e3c0b757e3271f4d1f5571cdb649"
+    },
+    {
+      "text": "나",
+      "kind": "learning",
+      "path": "assets/audio/1098bbe54520ab2a367c.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "14e3325f1b1356380c749bc525d58c1828d3b05c3b1e14ef8958a252a960e111"
+    },
+    {
+      "text": "다",
+      "kind": "learning",
+      "path": "assets/audio/822b7db6f6886f572413.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "f1d7679c33bef478a0c42d4ed84849b23b6d749139d040207dad2839f36f86d0"
+    },
+    {
+      "text": "다리",
+      "kind": "learning",
+      "path": "assets/audio/982037b144c2b329e189.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "cd5176d9f007c2e104f7995dd4dfbcbdca6a0eb73ee2ac879edfec3107d28e2b"
+    },
+    {
+      "text": "라",
+      "kind": "learning",
+      "path": "assets/audio/d2121a871ca59e3b9a3a.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "c3401c417c1124bbb2a6d4808c489d54b1e5468dc1b58fdeb89f7e6bec79fb78"
+    },
+    {
+      "text": "라디오",
+      "kind": "learning",
+      "path": "assets/audio/6314a358f4e72c51b9cc.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "7bf15e853b6948ae181a124453dec08ceb2cd37bdf0dfadf121c679ce5ea73ae"
+    },
+    {
+      "text": "마",
+      "kind": "learning",
+      "path": "assets/audio/0a8a81fee098641dbae5.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "c2610a08a5188225a2c42314217c159a65c973eab1908219be8799436d563e64"
+    },
+    {
+      "text": "마차",
+      "kind": "learning",
+      "path": "assets/audio/745c341f3dcba1ba7102.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "b7763ab3285834649c4a2fff5424c86e10358cf719cc180626e705755c76d2c6"
+    },
+    {
+      "text": "바",
+      "kind": "learning",
+      "path": "assets/audio/f6a780a386d59bfa68ea.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "88da388b0cadb43ba0e49f4ea758065c938424c05e82fc4a92566860ce1d0129"
+    },
+    {
+      "text": "사",
+      "kind": "learning",
+      "path": "assets/audio/98ebd37ce3c1cd6abbe7.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "c9cfad1246d39858047dff1341c1d22713185172436399b8d080c0fd527a80e4"
+    },
+    {
+      "text": "자",
+      "kind": "learning",
+      "path": "assets/audio/34f404d9d0a79aa558ba.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "ab299c764191542c5e3ca8813df986fd70271ae12969c9cfc1ec9567a9b70998"
+    },
+    {
+      "text": "차",
+      "kind": "learning",
+      "path": "assets/audio/6ccd3f82b0317e51da2a.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "8a2e9e3bd9c26c4fc1e96fb4979e1bdd3710822e840af3ddf3466d97d36c95d7"
+    },
+    {
+      "text": "카",
+      "kind": "learning",
+      "path": "assets/audio/473c94998acbc9e17170.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "b234dbc240e6521902e02d5e8ed7413a84a8370b3b6877cd0a1dec7d123ef5d8"
+    },
+    {
+      "text": "카드",
+      "kind": "learning",
+      "path": "assets/audio/62b41b5aaec6fef4bd83.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "5a8327f97cf72a118117f7330dc2279e4d8ecd1bf184097833f1b030fec97d6e"
+    },
+    {
+      "text": "타",
+      "kind": "learning",
+      "path": "assets/audio/7e40449e6f383f05b54a.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "ea5a3053f475a7a8af7f00b9c5acd58a21c3b7cb66c0e3ff6aa4cb9b7043d0c7"
+    },
+    {
+      "text": "타조",
+      "kind": "learning",
+      "path": "assets/audio/c826193e2aab06e09fc8.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "2e4a1e0692ad1ea6c5d5bbfbaf2bfcd7b7ecb1c070b8d3a2a898d5df0f0c7dc8"
+    },
+    {
+      "text": "파",
+      "kind": "learning",
+      "path": "assets/audio/98aede974077c5c77513.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "e8005c6650521eb025a8ebfaab4b0d1b79439fafed230ac86749cee708cc5348"
+    },
+    {
+      "text": "파도",
+      "kind": "learning",
+      "path": "assets/audio/280865cc3d3f77a4628d.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "c68a1ed5b9d98b25ed3889d2784821d9f00c3fbf00a67ef77b39c26c80291922"
+    },
+    {
+      "text": "하",
+      "kind": "learning",
+      "path": "assets/audio/3c12bb52442aa6e6aaff.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "83521a3bbe899df2f3f24a3705c6474ea606e2cb4dc7d4c062b4e0c82d35e87e"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 가",
+      "kind": "learning",
+      "path": "assets/audio/b8b037ccfe0d4a7d7e9c.mp3",
+      "duration": 2.808,
+      "bytes": 22700,
+      "sha256": "015fa9da1fe17fd92dac16859d8dec1331b2cb41d1ad34ae4e63df57e9b75783"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 나",
+      "kind": "learning",
+      "path": "assets/audio/b2663693e3dbc93eda1f.mp3",
+      "duration": 2.784,
+      "bytes": 22508,
+      "sha256": "1acc6bb8d3a47cddeb4ec4a897baefc96bd65d246e5ffc8e5a01dd6957a5e1fe"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 다",
+      "kind": "learning",
+      "path": "assets/audio/9b0c0a7779bf790818f7.mp3",
+      "duration": 2.688,
+      "bytes": 21740,
+      "sha256": "317de85b36e955e503aaf38fb2f509d18616fc9e7f1fb2a04e67ff927f424be4"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 라",
+      "kind": "learning",
+      "path": "assets/audio/23736bc5fd8652947c12.mp3",
+      "duration": 2.664,
+      "bytes": 21548,
+      "sha256": "e6030f5260e20462a895bfc702a47d245662166860df249cb0299a638e4b336a"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 마",
+      "kind": "learning",
+      "path": "assets/audio/5cf86ac3b42b86f273c0.mp3",
+      "duration": 2.76,
+      "bytes": 22316,
+      "sha256": "13e376660824f5d45c7aa8ff8ff5f2019a13a3df7df69ee731be7cd591d4b7b3"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 바",
+      "kind": "learning",
+      "path": "assets/audio/9f985132431bd7c1c8af.mp3",
+      "duration": 2.736,
+      "bytes": 22124,
+      "sha256": "7569e4896675484b5ffc7051652b645ed61ccd5880db4752b9e95ef02476019d"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 사",
+      "kind": "learning",
+      "path": "assets/audio/1b27f4f3db8505a0f753.mp3",
+      "duration": 2.76,
+      "bytes": 22316,
+      "sha256": "3aad369f6418c2dbbaf2a5931c5244382b5022d49f76d1edfc00d71bec30a3aa"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 아",
+      "kind": "learning",
+      "path": "assets/audio/d05f7a4b1459fa8241b3.mp3",
+      "duration": 2.784,
+      "bytes": 22508,
+      "sha256": "6105a805614863d6e0f8a9bd860492ace1d9ca1e1648b605ee11c5f2f84de0e2"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 자",
+      "kind": "learning",
+      "path": "assets/audio/4a2e2660d79438d10f74.mp3",
+      "duration": 2.784,
+      "bytes": 22508,
+      "sha256": "563c5b3297796ddbed5f5a63e718a8f0583cf6a7a155e8c786ef31657c06e48f"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 차",
+      "kind": "learning",
+      "path": "assets/audio/b93ec90403cc87ede8bf.mp3",
+      "duration": 2.832,
+      "bytes": 22892,
+      "sha256": "f0cda0907c0cbcb9a382619ddfb70d20d474511854c3cc3913cd5f16bc53a650"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 카",
+      "kind": "learning",
+      "path": "assets/audio/a8815374153b4ccba7fe.mp3",
+      "duration": 2.784,
+      "bytes": 22508,
+      "sha256": "2156dc0149b66b8d86d09c97d51ae1225555cb9a5fdab478058bc760dd4d6e47"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 타",
+      "kind": "learning",
+      "path": "assets/audio/aba09cea44644cb248e1.mp3",
+      "duration": 2.736,
+      "bytes": 22124,
+      "sha256": "86b11098125f03a66c7c3b4042f4ea79a87fc92eefc7bf003f8d35b3a6164b9d"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 파",
+      "kind": "learning",
+      "path": "assets/audio/f83adcccb35a8ced9b84.mp3",
+      "duration": 2.76,
+      "bytes": 22316,
+      "sha256": "6bb92c8ae55be4d80c498c676c506d0f6369bfc0a94b1c4c32e15ad8dd7f4d3d"
+    },
+    {
+      "text": "들리는 글자를 찾아 볼까요? 하",
+      "kind": "learning",
+      "path": "assets/audio/90dec5240aeaabcf46ed.mp3",
+      "duration": 2.736,
+      "bytes": 22124,
+      "sha256": "373af092980efc761d34f7be9285b85da4941e842d864e2af6a2cc8be75e9624"
+    },
+    {
+      "text": "동물 친구를 찾아 봐요. 토끼",
+      "kind": "learning",
+      "path": "assets/audio/c539b843809fcec681e9.mp3",
+      "duration": 2.856,
+      "bytes": 23084,
+      "sha256": "c717ee0bab5639c7b555fbc80cc5f61d29b1181810f7dab10f002db8107a26b0"
+    },
+    {
+      "text": "동물 친구를 찾아 봐요. 곰",
+      "kind": "learning",
+      "path": "assets/audio/00f48ac1a4d0e4fb2881.mp3",
+      "duration": 2.856,
+      "bytes": 23084,
+      "sha256": "68e2eefe019492028069738ceaf9b88e31b618c9a5732c6e414ef4f94a065f38"
+    },
+    {
+      "text": "동물 친구를 찾아 봐요. 고양이",
+      "kind": "learning",
+      "path": "assets/audio/9fbd8cf5d62495c5382f.mp3",
+      "duration": 3.072,
+      "bytes": 24812,
+      "sha256": "fbf976ed7db263c4bc678661eca569363f1df1c9b70f0a67b89671a7af9dcad6"
+    },
+    {
+      "text": "동물 친구를 찾아 봐요. 코끼리",
+      "kind": "learning",
+      "path": "assets/audio/54843d0629d511608503.mp3",
+      "duration": 3.0,
+      "bytes": 24236,
+      "sha256": "5b7b6949216db6f65d1f9eccabf81f857e329008925c66275b530534c2be3922"
+    },
+    {
+      "text": "동물 친구를 찾아 봐요. 강아지",
+      "kind": "learning",
+      "path": "assets/audio/19971733f25fa2f55cc7.mp3",
+      "duration": 3.096,
+      "bytes": 25004,
+      "sha256": "56e6f201e91ea9a87982e97c7bc925bd31966dbaee109080db4251a160194a76"
+    },
+    {
+      "text": "동물 친구를 찾아 봐요. 돼지",
+      "kind": "learning",
+      "path": "assets/audio/604ee5ceedb709564cf8.mp3",
+      "duration": 2.808,
+      "bytes": 22700,
+      "sha256": "31c42af0988e27a2011eb140a98b60f572399a780593ea4d148c5023ff0b6d32"
+    },
+    {
+      "text": "사자",
+      "kind": "learning",
+      "path": "assets/audio/df410774e3dd128a2f39.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "ec193bf7365733b19dbb26913fbb48eb97182e1116a9241081d4759f5cf814fa"
+    },
+    {
+      "text": "동물 친구를 찾아 봐요. 사자",
+      "kind": "learning",
+      "path": "assets/audio/d484103d05725b137048.mp3",
+      "duration": 2.832,
+      "bytes": 22892,
+      "sha256": "4a83e16e2a062dfd3cdc3e4171f009a3d3f9db5ae3de8e6d8d15c84d59172927"
+    },
+    {
+      "text": "동물 친구를 찾아 봐요. 원숭이",
+      "kind": "learning",
+      "path": "assets/audio/577b92f59bbd5c67ec5d.mp3",
+      "duration": 3.096,
+      "bytes": 25004,
+      "sha256": "2bc12086a8da0686fcfef7972f0d1905ca4145b0563451b6ba5772729c67fb7a"
+    },
+    {
+      "text": "판다",
+      "kind": "learning",
+      "path": "assets/audio/f31ba03703c6419824c6.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "d2ab35cd4e84567dff61918ab5955f0ad6fabc7804b7f9be484c56bef8e3e1a9"
+    },
+    {
+      "text": "동물 친구를 찾아 봐요. 판다",
+      "kind": "learning",
+      "path": "assets/audio/cb0aba96a4143f2da70d.mp3",
+      "duration": 2.88,
+      "bytes": 23276,
+      "sha256": "97757c4bc6ec55c245394cc3649e0d23c2da2a09f68d893fe6d78d5cdc9a469e"
+    },
+    {
+      "text": "동물 친구를 찾아 봐요. 기린",
+      "kind": "learning",
+      "path": "assets/audio/4b0bf0b824fc7586688c.mp3",
+      "duration": 2.904,
+      "bytes": 23468,
+      "sha256": "5040feeab1e6524bdc41f7abd1f1d6e675cd518ed51cb7b0c345a42644de80b2"
     }
   ],
   "limitations": [

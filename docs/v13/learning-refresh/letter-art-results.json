@@ -1,0 +1,192 @@
+[
+  {
+    "tab": "consonants",
+    "index": 0,
+    "art": "./assets/v13/sprite.backpack.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 1,
+    "art": "./assets/v13/sprite.tree.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 2,
+    "art": "./assets/v13/sprite.moon.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 3,
+    "art": "./assets/v13/sprite.robot.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 4,
+    "art": "./assets/v13/sprite.cap.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 5,
+    "art": "./assets/v13/sprite.wave.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 6,
+    "art": "./assets/v13/sprite.apple.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 7,
+    "art": "./assets/v13/sprite.duck-adult.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 8,
+    "art": "./assets/v13/sprite.car.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 9,
+    "art": "./assets/v13/sprite.cheese.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 10,
+    "art": "./assets/v13/sprite.elephant.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 11,
+    "art": "./assets/v13/sprite.rabbit.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 12,
+    "art": "./assets/v13/sprite.grapes.webp"
+  },
+  {
+    "tab": "consonants",
+    "index": 13,
+    "art": "./assets/v13/sprite.hippo.webp"
+  },
+  {
+    "tab": "vowels",
+    "index": 0,
+    "art": "./assets/v13/sprite.baby.webp"
+  },
+  {
+    "tab": "vowels",
+    "index": 1,
+    "art": "./assets/v13/sprite.baseball.webp"
+  },
+  {
+    "tab": "vowels",
+    "index": 2,
+    "art": "./assets/v13/sprite.tropicalfish.webp"
+  },
+  {
+    "tab": "vowels",
+    "index": 3,
+    "art": "./assets/v13/sprite.fox.webp"
+  },
+  {
+    "tab": "vowels",
+    "index": 4,
+    "art": "./assets/v13/sprite.duck-adult.webp"
+  },
+  {
+    "tab": "vowels",
+    "index": 5,
+    "art": "./assets/v13/sprite.cooking.webp"
+  },
+  {
+    "tab": "vowels",
+    "index": 6,
+    "art": "./assets/v13/sprite.umbrella.webp"
+  },
+  {
+    "tab": "vowels",
+    "index": 7,
+    "art": "./assets/v13/sprite.milk.webp"
+  },
+  {
+    "tab": "vowels",
+    "index": 8,
+    "art": "./assets/v13/sprite.shrug.webp"
+  },
+  {
+    "tab": "vowels",
+    "index": 9,
+    "art": "./assets/v13/sprite.tooth.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 0,
+    "art": "./assets/v13/sprite.backpack.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 1,
+    "art": "./assets/v13/sprite.tree.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 2,
+    "art": "./assets/v13/sprite.bridge.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 3,
+    "art": "./assets/v13/sprite.radio.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 4,
+    "art": "./assets/v13/sprite.carriage.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 5,
+    "art": "./assets/v13/sprite.wave.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 6,
+    "art": "./assets/v13/sprite.apple.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 7,
+    "art": "./assets/v13/sprite.baby.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 8,
+    "art": "./assets/v13/sprite.car.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 9,
+    "art": "./assets/v13/sprite.train.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 10,
+    "art": "./assets/v13/sprite.cards.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 11,
+    "art": "./assets/v13/sprite.feather.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 12,
+    "art": "./assets/v13/sprite.wave.webp"
+  },
+  {
+    "tab": "syllables",
+    "index": 13,
+    "art": "./assets/v13/sprite.hippo.webp"
+  }
+]

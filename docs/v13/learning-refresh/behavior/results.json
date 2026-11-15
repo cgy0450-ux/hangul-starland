@@ -1,0 +1,12 @@
+{
+  "passed": [
+    "narrow: top-aligned learning, decoded illustrated games, picture CAT selects lowercase c",
+    "narrow: all 20 mazes continuous single-stroke completion, exact within-cell ink, wall/teleport blocking, progress persisted",
+    "mobile: top-aligned learning, decoded illustrated games, picture CAT selects lowercase c",
+    "mobile: all 20 mazes continuous single-stroke completion, exact within-cell ink, wall/teleport blocking, progress persisted",
+    "tablet: top-aligned learning, decoded illustrated games, picture CAT selects lowercase c",
+    "tablet: all 20 mazes continuous single-stroke completion, exact within-cell ink, wall/teleport blocking, progress persisted",
+    "landscape: top-aligned learning, decoded illustrated games, picture CAT selects lowercase c",
+    "landscape: all 20 mazes continuous single-stroke completion, exact within-cell ink, wall/teleport blocking, progress persisted"
+  ]
+}

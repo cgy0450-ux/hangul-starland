@@ -1,0 +1,22 @@
+{
+  "verifiedAt": "2026-11-15T09:57:47.057948+00:00",
+  "chromeRenderedCases": 72,
+  "screenRouteSizeCaptures": 20,
+  "letterExamplesDecoded": 38,
+  "mazeLevelsCompleted": 80,
+  "nativeTouchViewports": 2,
+  "englishFullCatWritingViewports": 2,
+  "classicGameRounds": 20,
+  "classicGameDeviceVoiceCalls": 0,
+  "existingGameplayScenarios": 13,
+  "imageFiles": 489,
+  "newImageExports": 13,
+  "generatedAudioFiles": 825,
+  "offlineCoreRequests": 1411,
+  "physicalDeviceTested": false,
+  "limits": [
+    "Viewport and native touch emulation in actual Chrome, not physical Android/iPad.",
+    "No human audible voice-quality approval.",
+    "Public-site direct HTTP/visual inspection blocked by cloud network policy; Pages deployment status verified separately."
+  ]
+}
