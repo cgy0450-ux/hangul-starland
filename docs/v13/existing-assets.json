@@ -1,0 +1,357 @@
+[
+  {
+    "path": "art-apple.webp",
+    "bytes": 12344,
+    "sha256": "9682eb6c6a3235dc541894c627eed482f1bd89ed3e795a102c2cad662adcae25",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "legacy.html",
+      "sw.js"
+    ],
+    "width": 420,
+    "height": 420,
+    "mode": "RGB"
+  },
+  {
+    "path": "art-letter-tiger.webp",
+    "bytes": 22266,
+    "sha256": "e4fe66fd565849ec48847153d2c15cf8c57d964700956f9c15f43d3f6880c2de",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "legacy.html",
+      "sw.js"
+    ],
+    "width": 420,
+    "height": 420,
+    "mode": "RGB"
+  },
+  {
+    "path": "icon-192.png",
+    "bytes": 10374,
+    "sha256": "00de14a4e5d6a065cdf695bb73f0402420d911e82857418a1d6379e71ad3af17",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "legacy.html",
+      "manifest.webmanifest",
+      "sw.js"
+    ],
+    "width": 192,
+    "height": 192,
+    "mode": "P"
+  },
+  {
+    "path": "icon-512.png",
+    "bytes": 42076,
+    "sha256": "72b5bc399c239c0dc9c6c56ea30846a8b0f616bf15779c48eb63e24603d397c9",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "academy.html",
+      "legacy.html",
+      "manifest.webmanifest",
+      "sw.js"
+    ],
+    "width": 512,
+    "height": 512,
+    "mode": "P"
+  },
+  {
+    "path": "icon-tiger.svg",
+    "bytes": 19413,
+    "sha256": "ef2bdbb7cf0c9576da8a15cd3d5bd3d9927492c9d5466dfa3de6ac353a3516ba",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 512 512",
+    "symbols": []
+  },
+  {
+    "path": "joyi-adventure-world.svg",
+    "bytes": 5591,
+    "sha256": "8992c3f983621122a062e2f19876cb299ce10402c6f880d8e9c910a46c7782c8",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "joiland-theme-v11.css",
+      "sw.js"
+    ],
+    "viewBox": "0 0 1600 930",
+    "symbols": []
+  },
+  {
+    "path": "joyi-build.svg",
+    "bytes": 19705,
+    "sha256": "005f4bd77d9ef6fc8d94bbb115027cac8c2909e9e71678b56f3dbe568387d1fd",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-celebrate.svg",
+    "bytes": 19715,
+    "sha256": "153f37c9714ee9218680a79a21ac444701e056fd205a05ad0190189dd0b9c58c",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-coding.svg",
+    "bytes": 19682,
+    "sha256": "c074e5a346eda0ebcca341d4dc6791c7026a621d3efd457cca27d0da74d5f6bc",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-creativity.svg",
+    "bytes": 19683,
+    "sha256": "f058bec576942da3df9c9886f162460e3b860e6d389d4f7a0f9d5ee71497f7b3",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-english.svg",
+    "bytes": 19701,
+    "sha256": "82ad9d8a1037c897cf5c26a8b657dcfec24fb5dde89de8c3a456c29a5e7eb89d",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-explore.svg",
+    "bytes": 19699,
+    "sha256": "3f52786bc6237802fa71890c61c6ab49111f7273538c8d4558e2a9203f78b61a",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "index.html",
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-finance.svg",
+    "bytes": 19683,
+    "sha256": "6dd3571c036233164bd15f4966b6a9384ba0e0b35a00f5043150aaefcb311809",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-hangul.svg",
+    "bytes": 19699,
+    "sha256": "b184b2eff0d8542e550d0c881c55e102fbbb087a221c4b240178319a198aba62",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-hello.svg",
+    "bytes": 19701,
+    "sha256": "a86b811149e989951c10e8deb0ca3cab314e841026602a82945ff71f67bff158",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "index.html",
+      "journey.html",
+      "manifest.webmanifest",
+      "sw.js",
+      "word-gate.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-history.svg",
+    "bytes": 19683,
+    "sha256": "17a105b2f5d190c33432a074bcb4d47c171cdb2e063c8fdbc6defac2fd9adb2b",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-illustrations.svg",
+    "bytes": 49643,
+    "sha256": "cafd0779476c062d6c8278fc5b109bff4b8394b0a6cc2230c30fba05425b065a",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "index.html",
+      "joyi-art-renderer.js",
+      "requests.html",
+      "sw.js"
+    ],
+    "viewBox": "0 0 240 180",
+    "symbols": [
+      "character-joyi",
+      "character-mole",
+      "character-dog",
+      "character-cat",
+      "character-frog",
+      "character-monkey",
+      "character-dinosaur",
+      "character-car",
+      "character-firetruck",
+      "character-basket",
+      "character-rocket",
+      "character-star",
+      "character-apple",
+      "character-balloon",
+      "character-flower",
+      "character-egg",
+      "character-berry",
+      "character-tree",
+      "character-gift",
+      "poster-hidden",
+      "poster-colors",
+      "poster-shadows",
+      "poster-mole",
+      "poster-differences",
+      "poster-dino",
+      "poster-space",
+      "poster-animal",
+      "poster-firetruck",
+      "poster-collect",
+      "poster-dodge",
+      "poster-write",
+      "poster-picture",
+      "poster-build",
+      "poster-color",
+      "character-rabbit",
+      "character-bear",
+      "character-gem",
+      "character-butterfly",
+      "character-blueball",
+      "character-banana",
+      "character-lemon",
+      "character-duck",
+      "character-pear",
+      "character-sun",
+      "character-cloud",
+      "character-bee",
+      "character-ball",
+      "character-elephant",
+      "character-dinosaur-dragon",
+      "character-dinosaur-lizard",
+      "character-dinosaur-turtle",
+      "character-dinosaur-croc",
+      "character-fish",
+      "character-carrot",
+      "character-honey",
+      "character-bone",
+      "character-watermelon"
+    ]
+  },
+  {
+    "path": "joyi-life.svg",
+    "bytes": 19683,
+    "sha256": "7f165af2e9a4be6267e67279440e2e2dfa9c0502493e4a3f2a8196bd2a18d30b",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-math.svg",
+    "bytes": 19699,
+    "sha256": "7cacd7b8c80093bf9914e94872248eb874bb953b0e8bf733b2c264dc0f212838",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-read.svg",
+    "bytes": 19699,
+    "sha256": "bda89bce01be9a474dffe0e2b014c245e4ce121adb786e02d278bb279369a81f",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "parent.html",
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-reading.svg",
+    "bytes": 19683,
+    "sha256": "9effaf6c7006bb8f98211cc67b618801dbc1d7ac7063408dfe09c85c4977a68c",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-science.svg",
+    "bytes": 19683,
+    "sha256": "e4d2f105c03eba54afca72500385f6e33c6480f46c115dd9cb8f71c5ad29f894",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "joyi-write.svg",
+    "bytes": 19705,
+    "sha256": "af3e2eb6c2040cce92f586daf127f13c940f7a17508a6f84e2c7b15c3143371b",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "journey.html",
+      "sw.js"
+    ],
+    "viewBox": "0 0 480 480",
+    "symbols": []
+  },
+  {
+    "path": "splash-poster.webp",
+    "bytes": 138698,
+    "sha256": "82fc15497f82c2e40c3d5fd05135c476bfd750e6a72605d162d19f15d5e2764e",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [
+      "legacy.html",
+      "sw.js"
+    ],
+    "width": 760,
+    "height": 1350,
+    "mode": "RGB"
+  },
+  {
+    "path": "splash.svg",
+    "bytes": 23559,
+    "sha256": "9ca7d5289cb3ef06b62c7aa52dc8fd5e161fcfbbf41ced5c87a99273031d61b3",
+    "provenance": "existing repository asset; creation history not independently verified",
+    "references": [],
+    "viewBox": "0 0 720 1600",
+    "symbols": []
+  }
+]

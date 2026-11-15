@@ -1,0 +1,1946 @@
+[
+  {
+    "view": "mobile360",
+    "route": "academy.html",
+    "book": null,
+    "screenshot": "mobile360-academy.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "adventure.html",
+    "book": null,
+    "screenshot": "mobile360-adventure.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "car-collect.html",
+    "book": null,
+    "screenshot": "mobile360-car-collect.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "car-dodge.html",
+    "book": null,
+    "screenshot": "mobile360-car-dodge.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "coding-lab.html",
+    "book": null,
+    "screenshot": "mobile360-coding-lab.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "finance.html",
+    "book": null,
+    "screenshot": "mobile360-finance.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "firetruck-rescue.html",
+    "book": null,
+    "screenshot": "mobile360-firetruck-rescue.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "index.html",
+    "book": null,
+    "screenshot": "mobile360-index.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html",
+    "book": null,
+    "screenshot": "mobile360-journey.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "legacy.html",
+    "book": null,
+    "screenshot": "mobile360-legacy.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "mazes.html",
+    "book": null,
+    "screenshot": "mobile360-mazes.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "mini-games.html",
+    "book": null,
+    "screenshot": "mobile360-mini-games.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "parent.html",
+    "book": null,
+    "screenshot": "mobile360-parent.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "requests.html",
+    "book": null,
+    "screenshot": "mobile360-requests.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": null,
+    "screenshot": "mobile360-stories.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "writing.html",
+    "book": null,
+    "screenshot": "mobile360-writing.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html?subject=hangul",
+    "book": null,
+    "screenshot": "mobile360-subject-hangul.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html?subject=math",
+    "book": null,
+    "screenshot": "mobile360-subject-math.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html?subject=english",
+    "book": null,
+    "screenshot": "mobile360-subject-english.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html?subject=science",
+    "book": null,
+    "screenshot": "mobile360-subject-science.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html?subject=history",
+    "book": null,
+    "screenshot": "mobile360-subject-history.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html?subject=coding",
+    "book": null,
+    "screenshot": "mobile360-subject-coding.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html?subject=finance",
+    "book": null,
+    "screenshot": "mobile360-subject-finance.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html?subject=reading",
+    "book": null,
+    "screenshot": "mobile360-subject-reading.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html?subject=life",
+    "book": null,
+    "screenshot": "mobile360-subject-life.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "journey.html?subject=creativity",
+    "book": null,
+    "screenshot": "mobile360-subject-creativity.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 0,
+    "screenshot": "mobile360-story-0.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 1,
+    "screenshot": "mobile360-story-1.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 2,
+    "screenshot": "mobile360-story-2.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 3,
+    "screenshot": "mobile360-story-3.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 4,
+    "screenshot": "mobile360-story-4.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 5,
+    "screenshot": "mobile360-story-5.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 6,
+    "screenshot": "mobile360-story-6.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 7,
+    "screenshot": "mobile360-story-7.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 8,
+    "screenshot": "mobile360-story-8.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 9,
+    "screenshot": "mobile360-story-9.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 10,
+    "screenshot": "mobile360-story-10.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 11,
+    "screenshot": "mobile360-story-11.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 12,
+    "screenshot": "mobile360-story-12.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 13,
+    "screenshot": "mobile360-story-13.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 14,
+    "screenshot": "mobile360-story-14.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 15,
+    "screenshot": "mobile360-story-15.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 16,
+    "screenshot": "mobile360-story-16.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 17,
+    "screenshot": "mobile360-story-17.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 18,
+    "screenshot": "mobile360-story-18.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "stories.html",
+    "book": 19,
+    "screenshot": "mobile360-story-19.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "mini-games.html?game=hidden",
+    "book": null,
+    "screenshot": "mobile360-mini-hidden.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "mini-games.html?game=colors",
+    "book": null,
+    "screenshot": "mobile360-mini-colors.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "mini-games.html?game=shadows",
+    "book": null,
+    "screenshot": "mobile360-mini-shadows.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "mini-games.html?game=mole",
+    "book": null,
+    "screenshot": "mobile360-mini-mole.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "mini-games.html?game=differences",
+    "book": null,
+    "screenshot": "mobile360-mini-differences.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "adventure.html?game=dino",
+    "book": null,
+    "screenshot": "mobile360-adventure-dino.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "adventure.html?game=space",
+    "book": null,
+    "screenshot": "mobile360-adventure-space.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile360",
+    "route": "adventure.html?game=animal",
+    "book": null,
+    "screenshot": "mobile360-adventure-animal.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "academy.html",
+    "book": null,
+    "screenshot": "mobile390-academy.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "adventure.html",
+    "book": null,
+    "screenshot": "mobile390-adventure.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "car-collect.html",
+    "book": null,
+    "screenshot": "mobile390-car-collect.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "car-dodge.html",
+    "book": null,
+    "screenshot": "mobile390-car-dodge.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "coding-lab.html",
+    "book": null,
+    "screenshot": "mobile390-coding-lab.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "finance.html",
+    "book": null,
+    "screenshot": "mobile390-finance.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "firetruck-rescue.html",
+    "book": null,
+    "screenshot": "mobile390-firetruck-rescue.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "index.html",
+    "book": null,
+    "screenshot": "mobile390-index.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html",
+    "book": null,
+    "screenshot": "mobile390-journey.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "legacy.html",
+    "book": null,
+    "screenshot": "mobile390-legacy.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "mazes.html",
+    "book": null,
+    "screenshot": "mobile390-mazes.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "mini-games.html",
+    "book": null,
+    "screenshot": "mobile390-mini-games.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "parent.html",
+    "book": null,
+    "screenshot": "mobile390-parent.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "requests.html",
+    "book": null,
+    "screenshot": "mobile390-requests.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": null,
+    "screenshot": "mobile390-stories.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "writing.html",
+    "book": null,
+    "screenshot": "mobile390-writing.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html?subject=hangul",
+    "book": null,
+    "screenshot": "mobile390-subject-hangul.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html?subject=math",
+    "book": null,
+    "screenshot": "mobile390-subject-math.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html?subject=english",
+    "book": null,
+    "screenshot": "mobile390-subject-english.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html?subject=science",
+    "book": null,
+    "screenshot": "mobile390-subject-science.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html?subject=history",
+    "book": null,
+    "screenshot": "mobile390-subject-history.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html?subject=coding",
+    "book": null,
+    "screenshot": "mobile390-subject-coding.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html?subject=finance",
+    "book": null,
+    "screenshot": "mobile390-subject-finance.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html?subject=reading",
+    "book": null,
+    "screenshot": "mobile390-subject-reading.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html?subject=life",
+    "book": null,
+    "screenshot": "mobile390-subject-life.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "journey.html?subject=creativity",
+    "book": null,
+    "screenshot": "mobile390-subject-creativity.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 0,
+    "screenshot": "mobile390-story-0.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 1,
+    "screenshot": "mobile390-story-1.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 2,
+    "screenshot": "mobile390-story-2.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 3,
+    "screenshot": "mobile390-story-3.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 4,
+    "screenshot": "mobile390-story-4.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 5,
+    "screenshot": "mobile390-story-5.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 6,
+    "screenshot": "mobile390-story-6.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 7,
+    "screenshot": "mobile390-story-7.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 8,
+    "screenshot": "mobile390-story-8.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 9,
+    "screenshot": "mobile390-story-9.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 10,
+    "screenshot": "mobile390-story-10.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 11,
+    "screenshot": "mobile390-story-11.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 12,
+    "screenshot": "mobile390-story-12.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 13,
+    "screenshot": "mobile390-story-13.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 14,
+    "screenshot": "mobile390-story-14.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 15,
+    "screenshot": "mobile390-story-15.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 16,
+    "screenshot": "mobile390-story-16.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 17,
+    "screenshot": "mobile390-story-17.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 18,
+    "screenshot": "mobile390-story-18.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "stories.html",
+    "book": 19,
+    "screenshot": "mobile390-story-19.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "mini-games.html?game=hidden",
+    "book": null,
+    "screenshot": "mobile390-mini-hidden.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "mini-games.html?game=colors",
+    "book": null,
+    "screenshot": "mobile390-mini-colors.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "mini-games.html?game=shadows",
+    "book": null,
+    "screenshot": "mobile390-mini-shadows.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "mini-games.html?game=mole",
+    "book": null,
+    "screenshot": "mobile390-mini-mole.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "mini-games.html?game=differences",
+    "book": null,
+    "screenshot": "mobile390-mini-differences.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "adventure.html?game=dino",
+    "book": null,
+    "screenshot": "mobile390-adventure-dino.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "adventure.html?game=space",
+    "book": null,
+    "screenshot": "mobile390-adventure-space.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "mobile390",
+    "route": "adventure.html?game=animal",
+    "book": null,
+    "screenshot": "mobile390-adventure-animal.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "academy.html",
+    "book": null,
+    "screenshot": "tablet-academy.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "adventure.html",
+    "book": null,
+    "screenshot": "tablet-adventure.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "car-collect.html",
+    "book": null,
+    "screenshot": "tablet-car-collect.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "car-dodge.html",
+    "book": null,
+    "screenshot": "tablet-car-dodge.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "coding-lab.html",
+    "book": null,
+    "screenshot": "tablet-coding-lab.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "finance.html",
+    "book": null,
+    "screenshot": "tablet-finance.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "firetruck-rescue.html",
+    "book": null,
+    "screenshot": "tablet-firetruck-rescue.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "index.html",
+    "book": null,
+    "screenshot": "tablet-index.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html",
+    "book": null,
+    "screenshot": "tablet-journey.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "legacy.html",
+    "book": null,
+    "screenshot": "tablet-legacy.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "mazes.html",
+    "book": null,
+    "screenshot": "tablet-mazes.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html",
+    "book": null,
+    "screenshot": "tablet-mini-games.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "parent.html",
+    "book": null,
+    "screenshot": "tablet-parent.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "requests.html",
+    "book": null,
+    "screenshot": "tablet-requests.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": null,
+    "screenshot": "tablet-stories.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "writing.html",
+    "book": null,
+    "screenshot": "tablet-writing.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=hangul",
+    "book": null,
+    "screenshot": "tablet-subject-hangul.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=math",
+    "book": null,
+    "screenshot": "tablet-subject-math.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=english",
+    "book": null,
+    "screenshot": "tablet-subject-english.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=science",
+    "book": null,
+    "screenshot": "tablet-subject-science.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=history",
+    "book": null,
+    "screenshot": "tablet-subject-history.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=coding",
+    "book": null,
+    "screenshot": "tablet-subject-coding.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=finance",
+    "book": null,
+    "screenshot": "tablet-subject-finance.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=reading",
+    "book": null,
+    "screenshot": "tablet-subject-reading.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=life",
+    "book": null,
+    "screenshot": "tablet-subject-life.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "journey.html?subject=creativity",
+    "book": null,
+    "screenshot": "tablet-subject-creativity.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 0,
+    "screenshot": "tablet-story-0.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 1,
+    "screenshot": "tablet-story-1.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 2,
+    "screenshot": "tablet-story-2.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 3,
+    "screenshot": "tablet-story-3.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 4,
+    "screenshot": "tablet-story-4.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 5,
+    "screenshot": "tablet-story-5.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 6,
+    "screenshot": "tablet-story-6.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 7,
+    "screenshot": "tablet-story-7.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 8,
+    "screenshot": "tablet-story-8.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 9,
+    "screenshot": "tablet-story-9.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 10,
+    "screenshot": "tablet-story-10.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 11,
+    "screenshot": "tablet-story-11.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 12,
+    "screenshot": "tablet-story-12.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 13,
+    "screenshot": "tablet-story-13.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 14,
+    "screenshot": "tablet-story-14.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 15,
+    "screenshot": "tablet-story-15.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 16,
+    "screenshot": "tablet-story-16.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 17,
+    "screenshot": "tablet-story-17.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 18,
+    "screenshot": "tablet-story-18.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "stories.html",
+    "book": 19,
+    "screenshot": "tablet-story-19.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html?game=hidden",
+    "book": null,
+    "screenshot": "tablet-mini-hidden.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html?game=colors",
+    "book": null,
+    "screenshot": "tablet-mini-colors.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html?game=shadows",
+    "book": null,
+    "screenshot": "tablet-mini-shadows.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html?game=mole",
+    "book": null,
+    "screenshot": "tablet-mini-mole.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "mini-games.html?game=differences",
+    "book": null,
+    "screenshot": "tablet-mini-differences.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "adventure.html?game=dino",
+    "book": null,
+    "screenshot": "tablet-adventure-dino.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "adventure.html?game=space",
+    "book": null,
+    "screenshot": "tablet-adventure-space.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "tablet",
+    "route": "adventure.html?game=animal",
+    "book": null,
+    "screenshot": "tablet-adventure-animal.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "academy.html",
+    "book": null,
+    "screenshot": "landscape-academy.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "adventure.html",
+    "book": null,
+    "screenshot": "landscape-adventure.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "car-collect.html",
+    "book": null,
+    "screenshot": "landscape-car-collect.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "car-dodge.html",
+    "book": null,
+    "screenshot": "landscape-car-dodge.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "coding-lab.html",
+    "book": null,
+    "screenshot": "landscape-coding-lab.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "finance.html",
+    "book": null,
+    "screenshot": "landscape-finance.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "firetruck-rescue.html",
+    "book": null,
+    "screenshot": "landscape-firetruck-rescue.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "index.html",
+    "book": null,
+    "screenshot": "landscape-index.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html",
+    "book": null,
+    "screenshot": "landscape-journey.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "legacy.html",
+    "book": null,
+    "screenshot": "landscape-legacy.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "mazes.html",
+    "book": null,
+    "screenshot": "landscape-mazes.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "mini-games.html",
+    "book": null,
+    "screenshot": "landscape-mini-games.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "parent.html",
+    "book": null,
+    "screenshot": "landscape-parent.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "requests.html",
+    "book": null,
+    "screenshot": "landscape-requests.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": null,
+    "screenshot": "landscape-stories.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "writing.html",
+    "book": null,
+    "screenshot": "landscape-writing.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html?subject=hangul",
+    "book": null,
+    "screenshot": "landscape-subject-hangul.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html?subject=math",
+    "book": null,
+    "screenshot": "landscape-subject-math.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html?subject=english",
+    "book": null,
+    "screenshot": "landscape-subject-english.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html?subject=science",
+    "book": null,
+    "screenshot": "landscape-subject-science.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html?subject=history",
+    "book": null,
+    "screenshot": "landscape-subject-history.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html?subject=coding",
+    "book": null,
+    "screenshot": "landscape-subject-coding.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html?subject=finance",
+    "book": null,
+    "screenshot": "landscape-subject-finance.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html?subject=reading",
+    "book": null,
+    "screenshot": "landscape-subject-reading.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html?subject=life",
+    "book": null,
+    "screenshot": "landscape-subject-life.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "journey.html?subject=creativity",
+    "book": null,
+    "screenshot": "landscape-subject-creativity.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 0,
+    "screenshot": "landscape-story-0.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 1,
+    "screenshot": "landscape-story-1.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 2,
+    "screenshot": "landscape-story-2.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 3,
+    "screenshot": "landscape-story-3.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 4,
+    "screenshot": "landscape-story-4.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 5,
+    "screenshot": "landscape-story-5.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 6,
+    "screenshot": "landscape-story-6.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 7,
+    "screenshot": "landscape-story-7.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 8,
+    "screenshot": "landscape-story-8.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 9,
+    "screenshot": "landscape-story-9.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 10,
+    "screenshot": "landscape-story-10.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 11,
+    "screenshot": "landscape-story-11.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 12,
+    "screenshot": "landscape-story-12.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 13,
+    "screenshot": "landscape-story-13.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 14,
+    "screenshot": "landscape-story-14.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 15,
+    "screenshot": "landscape-story-15.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 16,
+    "screenshot": "landscape-story-16.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 17,
+    "screenshot": "landscape-story-17.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 18,
+    "screenshot": "landscape-story-18.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "stories.html",
+    "book": 19,
+    "screenshot": "landscape-story-19.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "mini-games.html?game=hidden",
+    "book": null,
+    "screenshot": "landscape-mini-hidden.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "mini-games.html?game=colors",
+    "book": null,
+    "screenshot": "landscape-mini-colors.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "mini-games.html?game=shadows",
+    "book": null,
+    "screenshot": "landscape-mini-shadows.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "mini-games.html?game=mole",
+    "book": null,
+    "screenshot": "landscape-mini-mole.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "mini-games.html?game=differences",
+    "book": null,
+    "screenshot": "landscape-mini-differences.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "adventure.html?game=dino",
+    "book": null,
+    "screenshot": "landscape-adventure-dino.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "adventure.html?game=space",
+    "book": null,
+    "screenshot": "landscape-adventure-space.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  },
+  {
+    "view": "landscape",
+    "route": "adventure.html?game=animal",
+    "book": null,
+    "screenshot": "landscape-adventure-animal.webp",
+    "pageErrors": [],
+    "httpErrors": [],
+    "horizontalOverflow": false
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "storyPagesTraversed": 200,
+  "storyPreviousChecks": 20,
+  "serviceWorkerCachedRequests": 51,
+  "offlineRoutesVerified": [
+    "requests.html",
+    "journey.html",
+    "index.html"
+  ],
+  "failures": [
+    "Offline query route journey.html?subject=hangul falls back to home instead of requested learning hall"
+  ],
+  "limitations": [
+    "No narration audio quality evaluation",
+    "No complete gameplay, 5-minute timing or 200 scene visual review in this baseline test"
+  ]
+}
