@@ -8120,6 +8120,90 @@
       ],
       "reviewNote": "Viewed actual 12-cell illustration atlas. Consistent original goggles/scarf tiger, distinct semantic activity scenes. Technical cell crops only.",
       "sha256": "2eec3fde1422111c483bc925cdb1d378a07ea6bffa3c3c20d4508e88f896566d"
+    },
+    {
+      "id": "history.saimdang",
+      "path": "assets/v13/history.saimdang.webp",
+      "alt": "역사 인물 활동 장면 saimdang",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "8272b769b8eb54b11f7c56a7d9513c5328424da706499d4682e1aa7631ba39e4",
+      "provenance": "Built-in image_gen source exec-130acc8a-59df-4425-be1d-68142e41774f.png",
+      "reviewNote": "Viewed complete generated atlas: full relevant historical activities, no emoji placeholders. Interpretive storybook depiction, not verified portrait likeness."
+    },
+    {
+      "id": "history.sejong",
+      "path": "assets/v13/history.sejong.webp",
+      "alt": "역사 인물 활동 장면 sejong",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "1c742d0a468fcc20abb95ff8400e56984592bb125708d6dfac88b32be8c427cc",
+      "provenance": "Built-in image_gen source exec-130acc8a-59df-4425-be1d-68142e41774f.png",
+      "reviewNote": "Viewed complete generated atlas: full relevant historical activities, no emoji placeholders. Interpretive storybook depiction, not verified portrait likeness."
+    },
+    {
+      "id": "history.yisunshin",
+      "path": "assets/v13/history.yisunshin.webp",
+      "alt": "역사 인물 활동 장면 yisunshin",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "e5138469384accf7ed08c9503d5f32fcfb53f102c201843e44c8a31a08f2b6d5",
+      "provenance": "Built-in image_gen source exec-130acc8a-59df-4425-be1d-68142e41774f.png",
+      "reviewNote": "Viewed complete generated atlas: full relevant historical activities, no emoji placeholders. Interpretive storybook depiction, not verified portrait likeness."
+    },
+    {
+      "id": "history.jang",
+      "path": "assets/v13/history.jang.webp",
+      "alt": "역사 인물 활동 장면 jang",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "a0ab755f1c827cb15cb8ae9372f25bca7bccc6936628f1db0d26d7462b2832b0",
+      "provenance": "Built-in image_gen source exec-130acc8a-59df-4425-be1d-68142e41774f.png",
+      "reviewNote": "Viewed complete generated atlas: full relevant historical activities, no emoji placeholders. Interpretive storybook depiction, not verified portrait likeness."
+    },
+    {
+      "id": "history.heojun",
+      "path": "assets/v13/history.heojun.webp",
+      "alt": "역사 인물 활동 장면 heojun",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "12b311bc2f0dd240e41efd17a3d5aded354f200de42994ee5f2278ab984993ce",
+      "provenance": "Built-in image_gen source exec-130acc8a-59df-4425-be1d-68142e41774f.png",
+      "reviewNote": "Viewed complete generated atlas: full relevant historical activities, no emoji placeholders. Interpretive storybook depiction, not verified portrait likeness."
+    },
+    {
+      "id": "history.yugwansun",
+      "path": "assets/v13/history.yugwansun.webp",
+      "alt": "역사 인물 활동 장면 yugwansun",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "0a8fa08d40ad2e35a1e0e06129db111aca2cb45b2fc4e4009e893fa73fc37e0e",
+      "provenance": "Built-in image_gen source exec-130acc8a-59df-4425-be1d-68142e41774f.png",
+      "reviewNote": "Viewed complete generated atlas: full relevant historical activities, no emoji placeholders. Interpretive storybook depiction, not verified portrait likeness."
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"

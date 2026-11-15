@@ -1,0 +1,86 @@
+[
+  {
+    "view": "mobile",
+    "person": "신사임당",
+    "imageDecoded": true,
+    "width": 320.875,
+    "height": 303.828125
+  },
+  {
+    "view": "mobile",
+    "person": "세종대왕",
+    "imageDecoded": true,
+    "width": 320.875,
+    "height": 303.828125
+  },
+  {
+    "view": "mobile",
+    "person": "이순신",
+    "imageDecoded": true,
+    "width": 320.875,
+    "height": 303.828125
+  },
+  {
+    "view": "mobile",
+    "person": "장영실",
+    "imageDecoded": true,
+    "width": 320.875,
+    "height": 303.828125
+  },
+  {
+    "view": "mobile",
+    "person": "허준",
+    "imageDecoded": true,
+    "width": 320.875,
+    "height": 303.828125
+  },
+  {
+    "view": "mobile",
+    "person": "유관순",
+    "imageDecoded": true,
+    "width": 320.875,
+    "height": 303.828125
+  },
+  {
+    "view": "tablet",
+    "person": "신사임당",
+    "imageDecoded": true,
+    "width": 728,
+    "height": 460.796875
+  },
+  {
+    "view": "tablet",
+    "person": "세종대왕",
+    "imageDecoded": true,
+    "width": 728,
+    "height": 460.796875
+  },
+  {
+    "view": "tablet",
+    "person": "이순신",
+    "imageDecoded": true,
+    "width": 728,
+    "height": 460.796875
+  },
+  {
+    "view": "tablet",
+    "person": "장영실",
+    "imageDecoded": true,
+    "width": 728,
+    "height": 460.796875
+  },
+  {
+    "view": "tablet",
+    "person": "허준",
+    "imageDecoded": true,
+    "width": 728,
+    "height": 460.796875
+  },
+  {
+    "view": "tablet",
+    "person": "유관순",
+    "imageDecoded": true,
+    "width": 728,
+    "height": 460.796875
+  }
+]
