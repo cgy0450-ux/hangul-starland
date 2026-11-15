@@ -1,0 +1,5565 @@
+{
+  "model": "Supertonic 3, int8 ONNX, released by Supertone; packaged by sherpa-onnx",
+  "modelArchive": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2",
+  "provider": "CPU local, no paid API or key",
+  "speakerId": 8,
+  "language": "ko",
+  "numSteps": 8,
+  "speed": 1.05,
+  "clips": 693,
+  "storyScenes": 200,
+  "bytes": 20681244,
+  "durationSeconds": 2564.712,
+  "items": [
+    {
+      "text": "햇살이 숲길을 간질였어요. 달리기 좋아하는 토끼가 폴짝 뛰었지요. “오늘도 내가 제일 빠를걸!”",
+      "kind": "story",
+      "path": "assets/audio/d9ee613dff527edecb36.mp3",
+      "duration": 8.64,
+      "bytes": 69356,
+      "sha256": "3ac71bb354864345e3d0a430c758c18327803189caf2e713b58d1d984d1ff849"
+    },
+    {
+      "text": "토끼는 느릿느릿 걸어오는 거북이를 보고 웃었어요. 거북이는 웃으며 말했어요. 우리 달리기 시합을 해볼까?",
+      "kind": "story",
+      "path": "assets/audio/f7dd9f608ecc22652819.mp3",
+      "duration": 7.56,
+      "bytes": 60716,
+      "sha256": "02fa9a2fc2383dd27b1845eee9adcf5b9ef6690cf35e4b7e99ba1afce6b02163"
+    },
+    {
+      "text": "동물 친구들이 커다란 나무 아래 모여 출발선을 만들었어요. 다람쥐가 셋을 세자 모두 숨을 죽였어요.",
+      "kind": "story",
+      "path": "assets/audio/026dc91624702f0ea5d7.mp3",
+      "duration": 7.368,
+      "bytes": 59180,
+      "sha256": "9035359f070ee0126d36abc591f45b64e347273907930076352bbd3e10daac83"
+    },
+    {
+      "text": "출발! 토끼는 쌩 하고 앞으로 달려갔어요. 거북이는 발을 한 걸음, 또 한 걸음 천천히 옮겼어요.",
+      "kind": "story",
+      "path": "assets/audio/93621557517dd58aab9a.mp3",
+      "duration": 8.232,
+      "bytes": 66092,
+      "sha256": "e7623d5f767921286715d61e85cb326937e9e44564a34955eba57828974cf241"
+    },
+    {
+      "text": "토끼는 뒤를 돌아보았지만 거북이가 보이지 않았어요. 토끼는 나무 그늘에서 조금 쉬어도 되겠다고 생각했지요.",
+      "kind": "story",
+      "path": "assets/audio/8269b97553db31a6acc3.mp3",
+      "duration": 7.776,
+      "bytes": 62444,
+      "sha256": "91b3dd53923e4c755d308f4a0b3ef40c23aff404aefc8152708342ae67760870"
+    },
+    {
+      "text": "시원한 바람이 불자 토끼는 깜빡 잠들었어요. 그동안 거북이는 풀꽃을 지나 묵묵히 앞으로 나아갔어요.",
+      "kind": "story",
+      "path": "assets/audio/46ba8035c0bb07a2a762.mp3",
+      "duration": 7.8,
+      "bytes": 62636,
+      "sha256": "4ae249abd7531a84e71ca330ff75597e6ebad85f2e93905a1ecd9c9ea209604d"
+    },
+    {
+      "text": "거북이는 힘들 때마다 숨을 깊게 쉬었어요. 그리고 마음속으로 말했어요. 조금씩 가도 괜찮아.",
+      "kind": "story",
+      "path": "assets/audio/3082cc7e4f88562bdff1.mp3",
+      "duration": 7.008,
+      "bytes": 56300,
+      "sha256": "d8bf104ea0882b95f5f48ebef3710253d9dd2aa78871e958b58ed28041773fb9"
+    },
+    {
+      "text": "마침내 결승선이 보였어요. 거북이는 마지막 힘을 내어 한 걸음 더 걸었고 친구들이 환호했어요.",
+      "kind": "story",
+      "path": "assets/audio/5264b03b6f024df77e21.mp3",
+      "duration": 7.08,
+      "bytes": 56876,
+      "sha256": "7834422aac929a0f7f9a6770f044d8c4c7a712c7e61599b5fbd9a2183a7332fc"
+    },
+    {
+      "text": "토끼는 깨어나 깜짝 놀랐어요. 벌써 거북이가 결승선에 서 있었거든요. 토끼는 부끄러워 머리를 긁적였어요.",
+      "kind": "story",
+      "path": "assets/audio/457b45c41c793219e99c.mp3",
+      "duration": 8.208,
+      "bytes": 65900,
+      "sha256": "0ceb14103a987a5e9276b6f3b2453ef1d25fe159f18d8dd963a37b043ba7211a"
+    },
+    {
+      "text": "“축하해!” 토끼가 먼저 손을 내밀었어요. 거북이가 웃었지요. “다음엔 같이 가자.” 둘은 나란히 집으로 걸어갔어요.",
+      "kind": "story",
+      "path": "assets/audio/9b56d67888722acd38da.mp3",
+      "duration": 9.576,
+      "bytes": 76844,
+      "sha256": "f276555931a515797ff614ec572f55137826e27cd21a21f20d6f21bc3c4d61ac"
+    },
+    {
+      "text": "커다란 나무 아래에서 사자가 드르렁 낮잠을 잤어요. 작은 생쥐는 바스락 낙엽 사이를 달리고 있었지요.",
+      "kind": "story",
+      "path": "assets/audio/6062b44e1fda31489a80.mp3",
+      "duration": 7.152,
+      "bytes": 57452,
+      "sha256": "fb74e66cfe59e01eea9a470ac40fd75daac52bef12d78b036879b8108d276c06"
+    },
+    {
+      "text": "작은 생쥐가 폴짝폴짝 달리다가 사자의 발 위로 올라갔어요. 깜짝 놀란 사자가 눈을 번쩍 떴어요.",
+      "kind": "story",
+      "path": "assets/audio/b3bfeed1119985b17cd4.mp3",
+      "duration": 7.752,
+      "bytes": 62252,
+      "sha256": "97856788199f42fd38c6c49a2b7577368328b162ca8c93c449c1ba0500acd7b3"
+    },
+    {
+      "text": "사자는 생쥐를 잡아 올렸어요. 생쥐는 무서웠지만 용기를 내어 실수했다고 사과했어요.",
+      "kind": "story",
+      "path": "assets/audio/74aae1750467274760c9.mp3",
+      "duration": 6.216,
+      "bytes": 49964,
+      "sha256": "321b09a794aec0c4bf9897c41bea40b77d7844ab760c87a3de39c6856ad5188c"
+    },
+    {
+      "text": "생쥐는 언젠가 꼭 은혜를 갚겠다고 약속했어요. 사자는 작은 생쥐가 어떻게 도울까 궁금했지만 놓아주었지요.",
+      "kind": "story",
+      "path": "assets/audio/760a82fd796a0deb22fb.mp3",
+      "duration": 8.184,
+      "bytes": 65708,
+      "sha256": "c4be6afdfbeba35fceaab0974ea11a94ce85e58505076905f99cb6fe2fa15880"
+    },
+    {
+      "text": "며칠 뒤 사자는 숲길을 걷다가 커다란 그물에 걸렸어요. 아무리 몸을 움직여도 매듭이 풀리지 않았어요.",
+      "kind": "story",
+      "path": "assets/audio/9c794bc49a4a76ea5d4b.mp3",
+      "duration": 7.512,
+      "bytes": 60332,
+      "sha256": "d62c538f7fb54fea4f03b12e8775d0fbec758318fcd5439eeb4b9cf051ee4df3"
+    },
+    {
+      "text": "사자가 으르렁 도움을 청하자 먼 곳에서 생쥐가 그 소리를 들었어요. 생쥐는 재빨리 달려왔지요.",
+      "kind": "story",
+      "path": "assets/audio/55fdddeca2d9f9fccef9.mp3",
+      "duration": 7.2,
+      "bytes": 57836,
+      "sha256": "7d9daf1cad6bad6f691ba67038ddcaf0823fec69e2d75421539b4fbcb4d2ca46"
+    },
+    {
+      "text": "생쥐는 그물의 줄을 자세히 살펴보았어요. 그리고 날카로운 앞니로 한 가닥씩 갉기 시작했어요.",
+      "kind": "story",
+      "path": "assets/audio/1cc0195cbcc4c016de2c.mp3",
+      "duration": 7.104,
+      "bytes": 57068,
+      "sha256": "c25c98edaa8305a7c0485cfee0a149af67447b1699721738463f8c16da333b0e"
+    },
+    {
+      "text": "조금씩 줄이 끊어지더니 그물에 큰 구멍이 생겼어요. 마침내 사자는 두 발로 땅을 딛고 일어났어요.",
+      "kind": "story",
+      "path": "assets/audio/41e3143363d4655ae847.mp3",
+      "duration": 7.272,
+      "bytes": 58412,
+      "sha256": "4c7c84437eb531f0c4008aff0951ed16514a687f9b6a834725763e2fe0c4c5da"
+    },
+    {
+      "text": "사자는 생쥐에게 고맙다고 말했어요. 작은 친구의 도움이 이렇게 클 줄 몰랐다고 솔직하게 이야기했지요.",
+      "kind": "story",
+      "path": "assets/audio/5cb66830e03c32797364.mp3",
+      "duration": 7.56,
+      "bytes": 60716,
+      "sha256": "6b2a8b9b7ba11fd7f78fa35f328e70b3098950a5eb4689dc6992b89fdb4949cf"
+    },
+    {
+      "text": "“네가 와 줘서 정말 다행이야.” 사자가 말했어요. 둘은 나란히 그늘에 앉았지요. 친구의 크기는 도움이 되는 마음과 상관없어요.",
+      "kind": "story",
+      "path": "assets/audio/b4274349ba67aeec56d4.mp3",
+      "duration": 9.696,
+      "bytes": 77804,
+      "sha256": "d8e0b890fe07610b0fe582ecd59584cf5b412ec6ed3c02ba89dfb4131cba6c15"
+    },
+    {
+      "text": "하늘에서 해님과 바람이 만났어요. “우리 힘은 어떻게 다를까?” 아래 길에는 외투를 입은 나그네가 걸어오고 있었어요.",
+      "kind": "story",
+      "path": "assets/audio/1412170897764e9db06c.mp3",
+      "duration": 8.52,
+      "bytes": 68396,
+      "sha256": "1a7ca6a47b37f50bd677dfdc95e69b2d87cddd6355a54f3f3c17699eea5b6859"
+    },
+    {
+      "text": "그때 길 아래로 한 사람이 두툼한 외투를 입고 걸어가고 있었어요. 바람이 사람을 가리켰어요.",
+      "kind": "story",
+      "path": "assets/audio/20b25707ffdac2d66419.mp3",
+      "duration": 6.576,
+      "bytes": 52844,
+      "sha256": "8b3a45fb9141ae2edd1ec2ccfab7323871c5df648760d5af5d9a44e2cba9eacc"
+    },
+    {
+      "text": "바람은 저 사람의 외투를 벗기면 내가 이기는 거라고 했어요. 해님은 좋다며 조용히 고개를 끄덕였지요.",
+      "kind": "story",
+      "path": "assets/audio/e4cb7fac8a78419ad695.mp3",
+      "duration": 7.272,
+      "bytes": 58412,
+      "sha256": "3f91d0f30ccd0590c1bdc1219950ff3afd365abf88155351060cae0550361326"
+    },
+    {
+      "text": "바람이 휘이익 하고 세게 불었어요. 나뭇가지가 흔들리고 길가의 풀잎도 이리저리 움직였어요.",
+      "kind": "story",
+      "path": "assets/audio/03dfa7c281669d53aab1.mp3",
+      "duration": 6.816,
+      "bytes": 54764,
+      "sha256": "7ea4dea6c5da719006ea095aea65432833a95d814aeda11645f390889baccf23"
+    },
+    {
+      "text": "사람은 외투가 날아갈까 봐 옷깃을 꼭 여몄어요. 바람이 더 세게 불수록 외투를 더 단단히 잡았지요.",
+      "kind": "story",
+      "path": "assets/audio/175692cb94acdf8031d1.mp3",
+      "duration": 7.8,
+      "bytes": 62636,
+      "sha256": "139118be012fd1baee24dfbfb7b1cb0931a6190571e1565dfd1146eb8e07d01f"
+    },
+    {
+      "text": "바람은 한참을 불다가 지쳐서 멈추었어요. 이번에는 해님이 따뜻한 햇살을 비추기 시작했어요.",
+      "kind": "story",
+      "path": "assets/audio/6f78aac71c351caf39d0.mp3",
+      "duration": 6.816,
+      "bytes": 54764,
+      "sha256": "bba7b9a375a57c8279d7cfe6a35ccb643259de6f06927a4a9f231b44449fdb0a"
+    },
+    {
+      "text": "구름이 천천히 물러나고 길 위에 따뜻한 빛이 내려왔어요. 사람은 웃으며 하늘을 올려다보았어요.",
+      "kind": "story",
+      "path": "assets/audio/1b2fef803c979724482b.mp3",
+      "duration": 6.912,
+      "bytes": 55532,
+      "sha256": "88a7f101d5c267d5d6e35fc5796c94cec316d502d17199bbfae53befa2c22e39"
+    },
+    {
+      "text": "조금 걷자 몸이 포근하게 따뜻해졌어요. 사람은 외투 단추를 하나씩 풀었어요.",
+      "kind": "story",
+      "path": "assets/audio/6672f6a907cfac04e821.mp3",
+      "duration": 5.832,
+      "bytes": 46892,
+      "sha256": "3febd7ec5b5331bd46a162e3f6dbcb5c0b665e13a89165bee0e350eb6c7ed337"
+    },
+    {
+      "text": "사람은 외투를 벗어 팔에 걸쳤어요. 해님은 환하게 웃었고 바람은 신기하다며 고개를 끄덕였어요.",
+      "kind": "story",
+      "path": "assets/audio/87fafaaf2551a0c10433.mp3",
+      "duration": 7.056,
+      "bytes": 56684,
+      "sha256": "d7bdbdde19ac72c232a0a4f7547ba8ef278e0083cd008aaee594109716bd4ef8"
+    },
+    {
+      "text": "“내가 세게 불 때는 더 꼭 잡았는데!” 바람이 놀랐어요. 해님이 웃었지요. “스스로 편해질 시간을 주었어.” 둘은 구름 옆을 함께 걸었어요.",
+      "kind": "story",
+      "path": "assets/audio/947be0c206c1551279fd.mp3",
+      "duration": 11.208,
+      "bytes": 89900,
+      "sha256": "61de5c61c55a6f5adb55a8be49ef9c6bd320ffdbee6e013b316fdcc4f52fe3b8"
+    },
+    {
+      "text": "숲 가장자리에서 어른 나무꾼이 일을 하고 있었어요. 낡은 쇠도끼는 나무꾼이 오래 아껴 쓰던 도구였지요.",
+      "kind": "story",
+      "path": "assets/audio/e6a47155fa0660b221ab.mp3",
+      "duration": 7.992,
+      "bytes": 64172,
+      "sha256": "e7e27592ee6fea6fad5d6a609065abea03fc171b41b065c01e8ae4b14c4dc3d5"
+    },
+    {
+      "text": "나무꾼은 강가 나무를 다듬다가 그만 도끼를 물속에 빠뜨렸어요. 도끼는 물속 깊이 가라앉고 말았지요.",
+      "kind": "story",
+      "path": "assets/audio/c3b2bd69562f35d93932.mp3",
+      "duration": 7.92,
+      "bytes": 63596,
+      "sha256": "b197d63442708ec514e86e2246d75113a1eb5920b1c5025d3ef96c7c2c76a6e7"
+    },
+    {
+      "text": "나무꾼은 소중한 쇠도끼를 잃어버려 속상했어요. 강물을 바라보며 어떻게 하면 좋을지 고민했어요.",
+      "kind": "story",
+      "path": "assets/audio/6845c4f9ce8789e5d8b7.mp3",
+      "duration": 7.248,
+      "bytes": 58220,
+      "sha256": "07d52392c8ce9dcd5f3efd5bf4f7c3145133d4b73900af62f5aaed709c1da0a2"
+    },
+    {
+      "text": "그때 물속에서 신비로운 할아버지가 나타났어요. 할아버지는 반짝이는 금도끼를 보여주며 네 것이냐고 물었어요.",
+      "kind": "story",
+      "path": "assets/audio/6851b82387879061acfd.mp3",
+      "duration": 8.088,
+      "bytes": 64940,
+      "sha256": "0da9997c0be2ec0cd3d2bac08629fb3e3b7565c6a5b99958cf8c27ddc72c5c73"
+    },
+    {
+      "text": "나무꾼은 고개를 저었어요. 제 도끼는 평범한 쇠도끼라고 솔직히 대답했지요.",
+      "kind": "story",
+      "path": "assets/audio/7cb79395704e5da5a5d6.mp3",
+      "duration": 5.76,
+      "bytes": 46316,
+      "sha256": "30b557e756c7940d057f7016b8de295386da36787d8e2f72890023b5ccf37632"
+    },
+    {
+      "text": "할아버지는 이번엔 은도끼를 꺼냈어요. 나무꾼은 아름다운 은도끼를 보았지만 역시 자기 것이 아니라고 했어요.",
+      "kind": "story",
+      "path": "assets/audio/bbff7158bd23bb0cf384.mp3",
+      "duration": 7.92,
+      "bytes": 63596,
+      "sha256": "58d4f712de66b157cefc3bf73bd1bd47fdfe8363299ffedb2882f828ce8d6d3b"
+    },
+    {
+      "text": "마지막으로 할아버지가 낡은 쇠도끼를 꺼냈어요. 나무꾼은 환하게 웃으며 바로 제 도끼라고 말했어요.",
+      "kind": "story",
+      "path": "assets/audio/ef625db307fb6a8a6e91.mp3",
+      "duration": 7.56,
+      "bytes": 60716,
+      "sha256": "3426a01d5cb659609fb108bd217ae3a2e786f804bdb9340772762f3893b0e180"
+    },
+    {
+      "text": "할아버지는 정직한 마음을 칭찬했어요. 그리고 금도끼와 은도끼도 선물로 주었지요.",
+      "kind": "story",
+      "path": "assets/audio/f5928010cb7574770ae6.mp3",
+      "duration": 6.456,
+      "bytes": 51884,
+      "sha256": "b044db52e665359616d9049bd127a582fbd5268b92da4d22dba05c2052c2d1f7"
+    },
+    {
+      "text": "나무꾼은 집으로 돌아가 가족에게 이야기를 들려주었어요. 가족 모두 정직하게 말한 것이 가장 멋지다고 했어요.",
+      "kind": "story",
+      "path": "assets/audio/1da3b132ef68b9b6145c.mp3",
+      "duration": 8.088,
+      "bytes": 64940,
+      "sha256": "211f0cc4cea40fc426d84c25a9ee0a0c07417292e23f0cecc6c473362c825bef"
+    },
+    {
+      "text": "다음 날 나무꾼은 숲에서 다시 일을 시작했어요. “반짝이지 않아도 내 도끼는 소중해.” 솔직하게 말한 일을 떠올리며 빙그레 웃었지요.",
+      "kind": "story",
+      "path": "assets/audio/7ca0adffde6c9e022781.mp3",
+      "duration": 10.08,
+      "bytes": 80876,
+      "sha256": "b47b0845260286d02e85003dcddecd2592f69afbc6cf05dfa6d48005fbbe2011"
+    },
+    {
+      "text": "초가집 마당에 봄바람이 불었어요. 흥부는 이웃에게 작은 인사도 다정하게 건네는 사람이었지요. 형 놀부는 가까운 집에 살았어요.",
+      "kind": "story",
+      "path": "assets/audio/4f3992b6b7d8b999a3d7.mp3",
+      "duration": 9.528,
+      "bytes": 76460,
+      "sha256": "dafeff8966e2019f288587529adb2147c4ffe0a0121816fa3412fce3e2335eb9"
+    },
+    {
+      "text": "봄날 흥부는 마당에서 다리를 다친 제비를 발견했어요. 제비는 날개를 퍼덕이며 힘들어했어요.",
+      "kind": "story",
+      "path": "assets/audio/ebdb4b1cdca4f2e0008f.mp3",
+      "duration": 6.648,
+      "bytes": 53420,
+      "sha256": "485a1d8f921deb478c21f22aaddc517248feb9b18d989df311315df0444322c1"
+    },
+    {
+      "text": "흥부는 제비를 조심스럽게 품에 안고 다친 곳을 돌보아 주었어요. 제비가 쉬도록 따뜻한 자리를 마련했지요.",
+      "kind": "story",
+      "path": "assets/audio/f0047ae72b1999375ab6.mp3",
+      "duration": 7.512,
+      "bytes": 60332,
+      "sha256": "1ad875b9f5e0ff09b6578443bcbb6f7e7aff03a8810b3b8ef6d528fefab0f2d9"
+    },
+    {
+      "text": "며칠 뒤 제비는 건강해져서 푸른 하늘로 날아갔어요. 흥부는 잘 가라고 손을 흔들었어요.",
+      "kind": "story",
+      "path": "assets/audio/0ed9f71dd8933efa15f6.mp3",
+      "duration": 6.36,
+      "bytes": 51116,
+      "sha256": "48623b33f32432fc04cd393afcc896a0b845fd283e89114e2492bab7491fee5a"
+    },
+    {
+      "text": "다음 해 봄, 제비가 다시 돌아왔어요. 제비는 흥부네 마당에 작은 박씨 한 알을 떨어뜨렸어요.",
+      "kind": "story",
+      "path": "assets/audio/1cd5d462de86fccbf209.mp3",
+      "duration": 6.912,
+      "bytes": 55532,
+      "sha256": "96477d52e2681d67d50db2d9b1a5edd06022d47495be5357b1edfb6bf8fd8aa3"
+    },
+    {
+      "text": "흥부의 가족은 박씨를 심고 날마다 물을 주었어요. 줄기는 쑥쑥 자라 지붕 위까지 올라갔어요.",
+      "kind": "story",
+      "path": "assets/audio/be6bb6f0541ae6bfde15.mp3",
+      "duration": 7.104,
+      "bytes": 57068,
+      "sha256": "ac5def7764020ad0445de04dc29958bc3578b9e8f34fcffab0de1c2fe858fffd"
+    },
+    {
+      "text": "가을이 되자 커다란 박이 열렸어요. 흥부의 가족은 박을 조심히 열어 보았어요.",
+      "kind": "story",
+      "path": "assets/audio/5eb6f9343b91ca1c8d63.mp3",
+      "duration": 5.712,
+      "bytes": 45932,
+      "sha256": "1afbb00a2dd7b7897e9ca2a1fb072adafe3fee67751db81437a3aa3da804cec7"
+    },
+    {
+      "text": "박 속에서는 생활에 필요한 곡식과 물건들이 나왔어요. 온 가족이 기뻐하며 제비에게 고마워했어요.",
+      "kind": "story",
+      "path": "assets/audio/66b5aeaf0a9cc16f79c3.mp3",
+      "duration": 7.272,
+      "bytes": 58412,
+      "sha256": "146f6c0e9323168a146b33ec4c8caaf84d53a4592d5471544ad16cf8b329cb59"
+    },
+    {
+      "text": "그 소식을 들은 놀부도 놀랐어요. 흥부는 형에게도 곡식을 나누어 주며 함께 지내자고 했어요.",
+      "kind": "story",
+      "path": "assets/audio/afa25939fbdb0726dfd1.mp3",
+      "duration": 6.768,
+      "bytes": 54380,
+      "sha256": "d20057baa82dc48c4052d3e6589dd3c10f950e3408e9a6034754005e9e8ef62e"
+    },
+    {
+      "text": "흥부가 곡식 한 그릇을 형에게 건넸어요. “같이 먹으면 더 맛있지요.” 놀부도 고개를 끄덕였어요. 두 집 굴뚝에서 따뜻한 저녁 연기가 피어올랐어요.",
+      "kind": "story",
+      "path": "assets/audio/cef7d5cb7bf18b56c1ed.mp3",
+      "duration": 10.32,
+      "bytes": 82796,
+      "sha256": "f2b0dc8b4e7a9235d956150077686fc273aa076135dd0a6482e9e22755a7b3b8"
+    },
+    {
+      "text": "콩쥐는 마당을 쓸며 잔치에 갈 생각을 했어요. 그런데 해야 할 일이 너무 많았지요. “혼자서는 다 하기 어렵겠어.” 콩쥐가 숨을 골랐어요.",
+      "kind": "story",
+      "path": "assets/audio/d01636abbe85f6f20248.mp3",
+      "duration": 9.648,
+      "bytes": 77420,
+      "sha256": "5da036f210137002c6a30abf370a85f3a203799e470ec94d5c5ab774b95c9bad"
+    },
+    {
+      "text": "어느 날 콩쥐는 구멍 난 독에 물을 가득 채우라는 어려운 부탁을 받았어요.",
+      "kind": "story",
+      "path": "assets/audio/13cd1ce203555a56b022.mp3",
+      "duration": 5.496,
+      "bytes": 44204,
+      "sha256": "0f5715642ffbf1ca342b9daf752e1da9ae580899a7fbb280268ab4cff3c7d931"
+    },
+    {
+      "text": "콩쥐는 물을 아무리 부어도 독에서 새어 나가자 속상했어요. 잠시 앉아 조용히 방법을 생각했지요.",
+      "kind": "story",
+      "path": "assets/audio/f16525b32efcdbc91d5b.mp3",
+      "duration": 7.152,
+      "bytes": 57452,
+      "sha256": "84c478be6641405e4268eea476db3a29cef9c89de3aafce1fa4e540e73ead6b8"
+    },
+    {
+      "text": "그때 연못에서 커다란 두꺼비가 나타났어요. 두꺼비는 독의 구멍을 막아 콩쥐를 도와주었어요.",
+      "kind": "story",
+      "path": "assets/audio/092cc7191b89612977b1.mp3",
+      "duration": 6.96,
+      "bytes": 55916,
+      "sha256": "549ba8ae2de3d9b025c5b6b66d4e05ac19d9c468cc2d49505a1214225b35edde"
+    },
+    {
+      "text": "또 다른 날에는 곡식을 골라야 했어요. 작은 새들이 날아와 함께 곡식을 고르기 시작했어요.",
+      "kind": "story",
+      "path": "assets/audio/9bd2c973de0e31280a1f.mp3",
+      "duration": 6.864,
+      "bytes": 55148,
+      "sha256": "87fbdca7f3988d1319106f2fbf517cc8ffcb36e599eec07a3a12af958a17a2cc"
+    },
+    {
+      "text": "콩쥐는 도와준 동물들에게 고맙다고 인사했어요. 동물들도 기쁜 듯 노래하며 하늘로 날아갔어요.",
+      "kind": "story",
+      "path": "assets/audio/0d689d234e4ae32b06d4.mp3",
+      "duration": 6.888,
+      "bytes": 55340,
+      "sha256": "344c08e7eff3cc8d566f459b1ca5dff7fb8d6b9c5cf8545ec0a11261f42c8c33"
+    },
+    {
+      "text": "콩쥐는 마을 잔치에 가고 싶었지만 준비할 시간이 부족했어요. 마음이 조금 서운했지요.",
+      "kind": "story",
+      "path": "assets/audio/e4385230ac1f64ea3ffc.mp3",
+      "duration": 6.288,
+      "bytes": 50540,
+      "sha256": "548eb99f502a08e093dd28e1f3dd449c9d03aa2cac400e27de6eddb5dd2cb14e"
+    },
+    {
+      "text": "그때 이웃들이 콩쥐를 도우러 왔어요. 예쁜 옷을 준비해 주고 함께 잔치에 가자고 했어요.",
+      "kind": "story",
+      "path": "assets/audio/7b69e359abad26b98619.mp3",
+      "duration": 6.72,
+      "bytes": 53996,
+      "sha256": "e331d9cc71e328ca80d5e1c649dd9ea9537d70c129d530210e7c36c1f52217b2"
+    },
+    {
+      "text": "콩쥐는 이웃들과 즐겁게 이야기를 나누었어요. 콩쥐의 다정한 마음은 많은 친구를 만들었답니다.",
+      "kind": "story",
+      "path": "assets/audio/057d816ad8036e1e9f70.mp3",
+      "duration": 6.96,
+      "bytes": 55916,
+      "sha256": "35927a158390c154c1c2afc1220126e04f096027b8e109e8bddb6ebdcf803f8f"
+    },
+    {
+      "text": "다음 날 콩쥐와 팥쥐는 이웃들과 함께 일을 나눴어요. “같이 하니까 훨씬 가볍네!” 혼자 힘들 땐 도움을 청해도 괜찮다는 걸 콩쥐는 기억했어요.",
+      "kind": "story",
+      "path": "assets/audio/0f2d275ea6b0ced82b31.mp3",
+      "duration": 11.448,
+      "bytes": 91820,
+      "sha256": "502e99c8530e92d8b2484ddc08926be7c2cfd5c207353104c3763a322852578d"
+    },
+    {
+      "text": "산 아래 작은 집에 엄마와 두 아이가 살았어요. 엄마가 장에 간 날, 오누이는 따뜻한 방에서 이야기를 나누며 기다렸어요.",
+      "kind": "story",
+      "path": "assets/audio/dd53cf1036f2465d8f9c.mp3",
+      "duration": 8.784,
+      "bytes": 70508,
+      "sha256": "edab7e575371bfc3f52234c15a3b7a19955185cd98d89ae9fc35ee0777ee4b26"
+    },
+    {
+      "text": "엄마는 산 너머 장에 다녀오고 있었어요. 해가 지자 숲길이 조금 어두워졌지요.",
+      "kind": "story",
+      "path": "assets/audio/f694f331c93926e4b1ca.mp3",
+      "duration": 5.928,
+      "bytes": 47660,
+      "sha256": "8e6009a1681a1bd2f655b372a9284e3ee34657d8d7042ac3389e219e32704e6f"
+    },
+    {
+      "text": "그런데 호랑이가 엄마의 목소리를 흉내 내며 집 앞에 찾아왔어요. 아이들은 목소리가 이상하다는 것을 알아챘어요.",
+      "kind": "story",
+      "path": "assets/audio/50ab71655da402d66d6c.mp3",
+      "duration": 7.968,
+      "bytes": 63980,
+      "sha256": "719f2a9e200f3adddd72e9197d6e95c3709a0dd8ae6771377fc6db30c30d47a7"
+    },
+    {
+      "text": "오빠와 동생은 서로 손을 꼭 잡고 문을 열지 않았어요. 위험할 때는 침착하게 행동하기로 했지요.",
+      "kind": "story",
+      "path": "assets/audio/91ae0e96a60e62814241.mp3",
+      "duration": 7.344,
+      "bytes": 58988,
+      "sha256": "e6e5e40fd1e9544855f9487440b0e10c6ffa985f5355c8f036666c51589e38f4"
+    },
+    {
+      "text": "두 아이는 뒤뜰의 커다란 나무로 달려가 가지를 잡고 올라갔어요. 호랑이는 나무 아래를 서성였어요.",
+      "kind": "story",
+      "path": "assets/audio/799b43c3198acc73b872.mp3",
+      "duration": 6.936,
+      "bytes": 55724,
+      "sha256": "e38ba58eaa84a4d648fd038adab38e64dee6b1d28f3daafa13f84d871428797b"
+    },
+    {
+      "text": "아이들은 높은 곳에서 하늘을 바라보며 도움을 청했어요. 그때 반짝이는 하늘에서 긴 줄이 내려왔어요.",
+      "kind": "story",
+      "path": "assets/audio/4884f93bf536703f456c.mp3",
+      "duration": 7.44,
+      "bytes": 59756,
+      "sha256": "0b37d245239e54902ec7d63a69a797b6f8882b9536cf9ee6fc1a333ea4803fa7"
+    },
+    {
+      "text": "아이들은 튼튼한 줄을 조심스럽게 잡고 위로 올라갔어요. 아래에서는 바람이 나뭇잎을 흔들었어요.",
+      "kind": "story",
+      "path": "assets/audio/eb93296c09e41fb662dc.mp3",
+      "duration": 7.08,
+      "bytes": 56876,
+      "sha256": "4195fc98ce63c824e0fe3f792b263c6e72a411c522b36ae8927a38048ca0d557"
+    },
+    {
+      "text": "하늘의 별들이 아이들을 환하게 맞아 주었어요. 아이들은 안전한 곳에서 서로를 꼭 안아 주었어요.",
+      "kind": "story",
+      "path": "assets/audio/ebe1611906fab6f08502.mp3",
+      "duration": 6.96,
+      "bytes": 55916,
+      "sha256": "c59cb685478ab7cd899e36e3bea9842f2fd319fd7bee4348f73ad938f2550b75"
+    },
+    {
+      "text": "하늘의 친구들은 오빠에게 해님을, 동생에게 달님을 맡겼어요. 두 아이는 세상을 비추는 일을 시작했어요.",
+      "kind": "story",
+      "path": "assets/audio/7cd832d6c26380386bac.mp3",
+      "duration": 7.8,
+      "bytes": 62636,
+      "sha256": "3ba0ada2d5a224a7bea6ddff3ce3d3a0978ce23c9c6d476d079e4236015d902a"
+    },
+    {
+      "text": "오빠의 해가 낮을 밝히고 동생의 달이 밤을 지켰다는 옛이야기예요. 실제로 해와 달이 된 아이들은 없지만, 서로를 지킨 마음은 오래 전해졌어요.",
+      "kind": "story",
+      "path": "assets/audio/f554f63641a4d6bdfa49.mp3",
+      "duration": 10.56,
+      "bytes": 84716,
+      "sha256": "94fe274c19236d3a8f4ef8e78ec815f2ba3000d92c0aa42a938049765aedf3d8"
+    },
+    {
+      "text": "산골 마을에 노래를 좋아하는 할아버지가 살았어요. “흥얼흥얼, 오늘도 좋은 날!” 할아버지가 부르면 이웃도 발끝으로 박자를 맞췄지요.",
+      "kind": "story",
+      "path": "assets/audio/9286caaadca25ab96482.mp3",
+      "duration": 11.016,
+      "bytes": 88364,
+      "sha256": "330d9d2ea9cf01044282746302cac18dbf8b769bda5d98fe50428e8bd6b554f6"
+    },
+    {
+      "text": "하루는 나무를 하러 산에 갔다가 해가 지는 줄도 몰랐어요. 할아버지는 빈 집에서 쉬기로 했어요.",
+      "kind": "story",
+      "path": "assets/audio/541fadbe5eb3adb4fc7a.mp3",
+      "duration": 6.696,
+      "bytes": 53804,
+      "sha256": "a4ad6753bbf0ed4d4ef0cc91d9334042005ddf510cc3e2e7de57b8973c0b4ed5"
+    },
+    {
+      "text": "그날 밤 산속에서는 이상한 북소리와 웃음소리가 들려왔어요. 도깨비들이 모여 잔치를 벌이고 있었지요.",
+      "kind": "story",
+      "path": "assets/audio/7628dc6df82b594dd031.mp3",
+      "duration": 7.464,
+      "bytes": 59948,
+      "sha256": "23f4bed6b61ab0130dd365243e5d5f58b2376dd759346bf9afbb4f7dc36c8602"
+    },
+    {
+      "text": "할아버지는 무섭기도 했지만 들려오는 음악이 너무 좋아서 저절로 노래를 불렀어요.",
+      "kind": "story",
+      "path": "assets/audio/b17fb60548b53c853f52.mp3",
+      "duration": 5.808,
+      "bytes": 46700,
+      "sha256": "9d51cf0729fcd9ec41e11aa5eb9ef4fd501d521512567a89c0fadc6eec46f8c7"
+    },
+    {
+      "text": "도깨비들은 아름다운 노래에 깜짝 놀랐어요. 누구냐고 묻자 할아버지는 조심스럽게 인사했어요.",
+      "kind": "story",
+      "path": "assets/audio/6e8eb4265908a7704753.mp3",
+      "duration": 7.032,
+      "bytes": 56492,
+      "sha256": "373ad89d5dd82551f28caf28cf9c84f4b8f93675c3cb238794300ecdbf6d17a9"
+    },
+    {
+      "text": "도깨비들은 함께 노래하자고 했어요. 할아버지는 박자에 맞추어 즐겁게 노래하고 춤추었어요.",
+      "kind": "story",
+      "path": "assets/audio/05dae6e0f6fe51f801ec.mp3",
+      "duration": 6.936,
+      "bytes": 55724,
+      "sha256": "05c9fbaaccc87ed45b4dcfa8f9257aa86508e6a7217b032e234c5d4beb03520e"
+    },
+    {
+      "text": "도깨비들은 할아버지가 가진 노래 실력을 칭찬했어요. 노래가 어디에서 나오는지 궁금해했지요.",
+      "kind": "story",
+      "path": "assets/audio/8fdf38666ffb24e46aa0.mp3",
+      "duration": 6.936,
+      "bytes": 55724,
+      "sha256": "a5d739ffdeea8eab0b6dc2ee02ccfb0fa89c9aa400d5b44a5deb9987c4c62435"
+    },
+    {
+      "text": "할아버지는 노래는 즐거운 마음에서 나온다고 했어요. 도깨비들은 웃으며 선물을 건넸어요.",
+      "kind": "story",
+      "path": "assets/audio/9fd6abaec1af08770e38.mp3",
+      "duration": 6.624,
+      "bytes": 53228,
+      "sha256": "76db888aaa2da45d6151fc29b8e6769f836ca7a482a0ef86d821670568630239"
+    },
+    {
+      "text": "다음 날 아침 할아버지는 무사히 집으로 돌아왔어요. 마을 사람들은 신기한 이야기를 들으며 웃었어요.",
+      "kind": "story",
+      "path": "assets/audio/9e73e02477e94b89a36f.mp3",
+      "duration": 7.104,
+      "bytes": 57068,
+      "sha256": "c1b946473a5352dd4fe9adb126aaa6f0239086615bd070776e0992f2ca234b60"
+    },
+    {
+      "text": "다음 저녁, 마을에 할아버지 노래가 다시 울렸어요. 이웃들은 손뼉으로 박자를 보탰지요. 혼자 부르던 노래가 모두의 노래가 되었어요.",
+      "kind": "story",
+      "path": "assets/audio/899c054469267450cceb.mp3",
+      "duration": 9.576,
+      "bytes": 76844,
+      "sha256": "b31d1409ce881968f4d083fa2d62bdc4b52f973797d44e6ae40a7e5a1edf211f"
+    },
+    {
+      "text": "할머니가 나무 주걱으로 팥죽을 저었어요. 보글보글, 부엌에 구수한 냄새가 퍼졌지요. 창밖 마당에는 작은 발자국들이 이어졌어요.",
+      "kind": "story",
+      "path": "assets/audio/2584a0c1b861a00a95dc.mp3",
+      "duration": 9.432,
+      "bytes": 75692,
+      "sha256": "f94df8bc3f3eea9966bff3772b042e4640840f9c8c50839599fa4554df468fa3"
+    },
+    {
+      "text": "어느 날 호랑이가 찾아와 팥죽을 달라고 했어요. 할머니는 깜짝 놀랐지만 침착하게 생각했어요.",
+      "kind": "story",
+      "path": "assets/audio/e0667bf264213034869d.mp3",
+      "duration": 7.32,
+      "bytes": 58796,
+      "sha256": "96fa8b17a34ee9fc6a47c9a3f16e5b688ad2398b5c1c5797c9f13c25064b8d8b"
+    },
+    {
+      "text": "할머니는 마당에 앉아 어떻게 해야 할지 고민했어요. 그때 알밤이 데굴데굴 굴러왔어요.",
+      "kind": "story",
+      "path": "assets/audio/6af6b186a0be2636e347.mp3",
+      "duration": 6.504,
+      "bytes": 52268,
+      "sha256": "fde7a8aa39d1cc11ad083314a6643c9d1b4d4a08de6812c53308714fcbab788e"
+    },
+    {
+      "text": "알밤은 자기도 도와주겠다며 조그맣게 말했어요. 뒤이어 자라와 멍석과 지게도 찾아왔어요.",
+      "kind": "story",
+      "path": "assets/audio/6064efb1c07da0b8217f.mp3",
+      "duration": 6.744,
+      "bytes": 54188,
+      "sha256": "82b66e1aaa1e1758610a10e247541bdb14baeb590c002499b7023b1adf8fe7d1"
+    },
+    {
+      "text": "할머니는 친구들과 함께 머리를 맞대었어요. 모두 자신의 장점을 하나씩 이야기했어요.",
+      "kind": "story",
+      "path": "assets/audio/391578e9c095fa177139.mp3",
+      "duration": 6.528,
+      "bytes": 52460,
+      "sha256": "9ee2a216606f3d7a966c166e3eaf2566c9b534f2211786f695ce5f229f3cbd97"
+    },
+    {
+      "text": "친구들은 서로 도울 방법을 정하고 각자 자리를 잡았어요. 할머니는 맛있는 팥죽을 천천히 저었어요.",
+      "kind": "story",
+      "path": "assets/audio/4d1ecc63c1f57ca6d464.mp3",
+      "duration": 7.248,
+      "bytes": 58220,
+      "sha256": "4a5eb84beb3ec141c747b4da4c04d5e06f30774ee7157345f4a58c456f39a5b7"
+    },
+    {
+      "text": "호랑이가 다시 문 앞에 나타났어요. 친구들은 깜짝 놀라게 하는 소리와 움직임으로 호랑이를 쫓았어요.",
+      "kind": "story",
+      "path": "assets/audio/d208828f0bbf8cedbb8c.mp3",
+      "duration": 7.632,
+      "bytes": 61292,
+      "sha256": "7beeaf3651117d77b19a24c6ffa47d77cedc03ba9b89fa011d438c296aea5b7e"
+    },
+    {
+      "text": "호랑이는 어리둥절해하며 저 멀리 달아났어요. 친구들은 서로의 얼굴을 보고 웃음을 터뜨렸어요.",
+      "kind": "story",
+      "path": "assets/audio/3315478a1fd784c46cc6.mp3",
+      "duration": 6.888,
+      "bytes": 55340,
+      "sha256": "364629bf387b901e2ccd45c33b493d3363f324fd12b428dd026700d350e2785a"
+    },
+    {
+      "text": "잠시 뒤 호랑이가 조심조심 돌아왔어요. “놀라게 해서 미안해요. 함께 먹어도 될까요?” 할머니와 친구들은 약속을 듣고 따끈한 팥죽을 나눴어요.",
+      "kind": "story",
+      "path": "assets/audio/fad7daad6e186c6f3dfc.mp3",
+      "duration": 10.968,
+      "bytes": 87980,
+      "sha256": "b7ddafb092ccc2fff488d0107dc2c52aa1a5fc7a2097b703620d25a3457696e8"
+    },
+    {
+      "text": "친구들은 동그랗게 앉아 팥죽을 먹었어요. “혼자였으면 어려웠을 거야.” 할머니 말에 모두 웃었지요. 각자 다른 힘이 모여 마당이 평화로워졌어요.",
+      "kind": "story",
+      "path": "assets/audio/165401237ff217dea5f8.mp3",
+      "duration": 10.488,
+      "bytes": 84140,
+      "sha256": "023ae775ddf6abf6a94b601b7c50b852dc6ed59921c6de2a6b2c41edb2ff750b"
+    },
+    {
+      "text": "연못에 아침 햇살이 찰랑였어요. 작은 청개구리는 이쪽도 저쪽도 궁금했지요. 엄마 개구리가 물었어요. “오늘은 어디가 보고 싶니?”",
+      "kind": "story",
+      "path": "assets/audio/cba9ef22f62a0ef8822e.mp3",
+      "duration": 10.68,
+      "bytes": 85676,
+      "sha256": "f22d2ff215e102bd4855dad2f0dddd8e2857156d0b4e4c0370ea584c6aabd309"
+    },
+    {
+      "text": "엄마가 연못에서 놀자고 하면 아기는 숲길로 가고 싶어 했어요. 엄마는 아기가 걱정되었지요.",
+      "kind": "story",
+      "path": "assets/audio/b515975273cc8326b917.mp3",
+      "duration": 7.008,
+      "bytes": 56300,
+      "sha256": "28d8fe8d3c97082c19c99896371faa42d6a222966edd13ae6a7970257c43d7fd"
+    },
+    {
+      "text": "어느 날 엄마는 함께 낮은 돌다리를 건너 보자고 했어요. 아기는 혼자 빠르게 건너려 했어요.",
+      "kind": "story",
+      "path": "assets/audio/260b225115ac5d609548.mp3",
+      "duration": 6.768,
+      "bytes": 54380,
+      "sha256": "5f95fd617f53312cfb0e54f4ccf39cf330bf1628ea2812cbd3ef11f02cbf1848"
+    },
+    {
+      "text": "발이 미끄러지자 아기는 깜짝 놀랐어요. 엄마가 손을 내밀어 아기를 안전하게 도와주었어요.",
+      "kind": "story",
+      "path": "assets/audio/98384cc62a9dce76bf98.mp3",
+      "duration": 6.816,
+      "bytes": 54764,
+      "sha256": "e3e8f8eca5bb63639402a7cf967bf684a408ed82f1ec00221bbbe6ab12bb8eef"
+    },
+    {
+      "text": "아기는 잠시 생각했어요. 엄마의 말에는 나를 아끼는 마음이 들어 있다는 걸 알게 되었지요.",
+      "kind": "story",
+      "path": "assets/audio/d22236f5b0188c5f715f.mp3",
+      "duration": 6.792,
+      "bytes": 54572,
+      "sha256": "36598d9ed282da661964f9f77665943e62678e84307a662cc7e74106d5e2d01f"
+    },
+    {
+      "text": "그다음 날부터 아기는 엄마의 이야기를 먼저 듣고 자기 생각도 말하기로 했어요.",
+      "kind": "story",
+      "path": "assets/audio/bcaf410d4b381c22de33.mp3",
+      "duration": 5.616,
+      "bytes": 45164,
+      "sha256": "ef4b8628388e22b288e5de949120c35caeeff4652ebaa6fb61daf32fca97ea0f"
+    },
+    {
+      "text": "비가 오는 날에는 연못가에서 함께 우산처럼 큰 잎을 찾았어요. 둘은 빗소리를 들으며 웃었지요.",
+      "kind": "story",
+      "path": "assets/audio/989561d2804476244751.mp3",
+      "duration": 7.176,
+      "bytes": 57644,
+      "sha256": "7c8ef3c18da597bd49ae1a8240293410bb4b019c9d4c086f406b8dad1ffc17c4"
+    },
+    {
+      "text": "아기는 엄마에게 고맙다고 이야기했어요. 엄마는 아기를 꼭 안아 주었어요.",
+      "kind": "story",
+      "path": "assets/audio/607fa4ed3b6868244a53.mp3",
+      "duration": 5.496,
+      "bytes": 44204,
+      "sha256": "7d7e88d77a0f885f33ceae769ed53f7d9ff8856e7e659c7241ff06ffa9ecd1b9"
+    },
+    {
+      "text": "둘은 연못 위에 뜬 무지개를 바라보았어요. 아기는 이제 함께 정한 약속을 지키려고 노력했어요.",
+      "kind": "story",
+      "path": "assets/audio/038ae9a9998a5f61628a.mp3",
+      "duration": 7.008,
+      "bytes": 56300,
+      "sha256": "a79e6321660b039c48c7b3f477c2095047f496855554dc8451ddb9ac01715637"
+    },
+    {
+      "text": "커다란 잎 아래로 톡톡 빗방울이 떨어졌어요. 아기는 하고 싶은 일을 말하고, 엄마는 안전한 방법을 함께 찾았어요. 둘의 이야기가 빗소리와 섞였지요.",
+      "kind": "story",
+      "path": "assets/audio/f4f7ad4c873726243a77.mp3",
+      "duration": 11.28,
+      "bytes": 90476,
+      "sha256": "2564e5527c342631a5c6d48c6e64fa5efdab1ee410a2e8a177f0f969d635b4a5"
+    },
+    {
+      "text": "가을 들판에서 두 형제가 벼를 거두었어요. 사각사각, 볏단이 쌓였지요. “올해도 함께해서 든든했어.” 형이 동생 어깨를 토닥였어요.",
+      "kind": "story",
+      "path": "assets/audio/db07e56806475148b554.mp3",
+      "duration": 9.696,
+      "bytes": 77804,
+      "sha256": "56343a053425b9652b049b8584c6be6b4c1ab72edfa7ba119e222b9d92f43fcf"
+    },
+    {
+      "text": "가을이 되자 황금빛 벼가 익었어요. 형제는 곡식을 공평하게 나누어 각자 곳간에 쌓았지요.",
+      "kind": "story",
+      "path": "assets/audio/80af44899a5619508992.mp3",
+      "duration": 6.84,
+      "bytes": 54956,
+      "sha256": "6045244f896fa614002cd75c0bb3acab3a857a1e331f4eb02b0ce377a538ec72"
+    },
+    {
+      "text": "형은 동생이 살림을 시작했으니 곡식이 더 필요할 거라고 생각했어요.",
+      "kind": "story",
+      "path": "assets/audio/8404615f1100baf673e5.mp3",
+      "duration": 5.016,
+      "bytes": 40364,
+      "sha256": "8439e645f2c8f4b49fddd177d36dd92b9f4ccb9694bc7a67a8aa833171de86ad"
+    },
+    {
+      "text": "그날 밤 형은 자기 곡식 한 자루를 조용히 동생의 곳간에 옮겨 놓았어요.",
+      "kind": "story",
+      "path": "assets/audio/04e2ea1c5247925d24c8.mp3",
+      "duration": 5.352,
+      "bytes": 43052,
+      "sha256": "f5419ee011920c6a94116689a0b67e0ece16bf79d3134c86afaa4394847e2247"
+    },
+    {
+      "text": "동생도 형의 가족이 많으니 더 필요할 거라고 생각했어요. 그래서 곡식 한 자루를 들고 나섰지요.",
+      "kind": "story",
+      "path": "assets/audio/cda36ec823762b88fb35.mp3",
+      "duration": 6.888,
+      "bytes": 55340,
+      "sha256": "b0fb1779a5c35bd4dcac860c25d0021478065d21f4e7fb1da1bf44e9ef9634bd"
+    },
+    {
+      "text": "다음 날 아침 두 형제는 곡식이 줄지 않은 것 같아 신기했어요. 서로 모르는 채 또 곡식을 옮겼어요.",
+      "kind": "story",
+      "path": "assets/audio/5587dc98420789cbedd4.mp3",
+      "duration": 7.344,
+      "bytes": 58988,
+      "sha256": "6468ff16b290f090c5d1e84c73615bdcea40e0b2285f74ffbe4d6dd78096968d"
+    },
+    {
+      "text": "어느 달 밝은 밤 형제는 좁은 마을 길에서 딱 마주쳤어요. 두 사람 손에는 곡식 자루가 들려 있었지요.",
+      "kind": "story",
+      "path": "assets/audio/2a86819b85eda79da8b8.mp3",
+      "duration": 7.416,
+      "bytes": 59564,
+      "sha256": "8dfa16e4e763af11a29aff16a331da9c0be94e963ff452e8cd16384cbb192034"
+    },
+    {
+      "text": "두 형제는 서로의 마음을 알아차리고 웃었어요. 그리고 어깨를 토닥이며 고맙다고 말했어요.",
+      "kind": "story",
+      "path": "assets/audio/3f04b304733e681c9c31.mp3",
+      "duration": 6.576,
+      "bytes": 52844,
+      "sha256": "c4796f1d69fe5c2b73ebfbf86353597864ab3e2aa8c35775989ca07eaeebbbbe"
+    },
+    {
+      "text": "형제는 곡식을 함께 나누며 마을의 어려운 이웃도 도왔어요. 마을에는 따뜻한 소식이 퍼졌어요.",
+      "kind": "story",
+      "path": "assets/audio/fa56d2c3e32d1100ad29.mp3",
+      "duration": 7.08,
+      "bytes": 56876,
+      "sha256": "f7d6e3973963b2a91fae0479a40eb3bdc88b4b7d621424a9fe409b3154e4bc1f"
+    },
+    {
+      "text": "형제는 곡식 자루를 내려놓고 함께 웃었어요. 다음 날에는 이웃에게도 곡식을 나눴지요. 혼자 옮기던 길이 함께 걷는 길로 바뀌었어요.",
+      "kind": "story",
+      "path": "assets/audio/88147f9401b0b331650f.mp3",
+      "duration": 10.296,
+      "bytes": 82604,
+      "sha256": "050402b404676b8db8fd97e47889cde6594bb30a92d929311129fde45af919a3"
+    },
+    {
+      "text": "반짝이는 하늘 마을에 견우와 직녀가 살았어요. 견우는 소를 돌보고, 직녀는 알록달록 천을 짰지요. 두 사람은 서로의 이야기를 좋아했어요.",
+      "kind": "story",
+      "path": "assets/audio/f8499852a5e3e9ee3e75.mp3",
+      "duration": 10.056,
+      "bytes": 80684,
+      "sha256": "b74c21483e7fbd63fb2e0ad1c65a7d7eeda818b261a7abef3fb5c3f8aa80d1bf"
+    },
+    {
+      "text": "견우는 소를 정성껏 돌보고 직녀는 아름다운 천을 짰어요. 둘은 자신의 일을 자랑스럽게 생각했지요.",
+      "kind": "story",
+      "path": "assets/audio/d887fe3ea63f20951e04.mp3",
+      "duration": 7.44,
+      "bytes": 59756,
+      "sha256": "b6e725613c8f302a3806f635b65bc7c84eb09db563bf4cdc2e0aa368f596c29d"
+    },
+    {
+      "text": "하지만 두 사람은 서로 이야기를 나누느라 해야 할 일을 자주 미루게 되었어요.",
+      "kind": "story",
+      "path": "assets/audio/bfd9ae8b1ca42e309372.mp3",
+      "duration": 5.304,
+      "bytes": 42668,
+      "sha256": "83e6d11af01348aee24e1699c78d34224b5a784e06801926f62c8a901756124d"
+    },
+    {
+      "text": "하늘나라 어른들은 각자의 일을 책임 있게 하도록 두 사람을 은하수 양쪽에서 지내게 했어요.",
+      "kind": "story",
+      "path": "assets/audio/f5a8bd7d474f6072533e.mp3",
+      "duration": 6.528,
+      "bytes": 52460,
+      "sha256": "f8b0dc2be48a47b74ed8ae95ddf04fad623c8f5e5b3167a9001eafcf7a5c785c"
+    },
+    {
+      "text": "견우와 직녀는 서로를 그리워했어요. 넓고 반짝이는 은하수는 건너기 어려웠답니다.",
+      "kind": "story",
+      "path": "assets/audio/374e9c090eda8a86eaa2.mp3",
+      "duration": 6.048,
+      "bytes": 48620,
+      "sha256": "aef8377d4cd70dc162115d3f8c07fcff9fbaf2d71d05e2f9c71789b62c24a2a0"
+    },
+    {
+      "text": "그 소식을 들은 까치와 까마귀들이 도움을 주기로 했어요. 수많은 새들이 하늘에 모였어요.",
+      "kind": "story",
+      "path": "assets/audio/6f699d5afb76ab837275.mp3",
+      "duration": 6.216,
+      "bytes": 49964,
+      "sha256": "bfc52a9da6f10dc3bf78e68cd6233ad8b2307ecfb8bfaf4591c5369591dd3ad9"
+    },
+    {
+      "text": "새들은 날개를 맞대어 긴 다리를 만들었어요. 반짝반짝 빛나는 별들 사이에 길이 생겼어요.",
+      "kind": "story",
+      "path": "assets/audio/fa5d78d92fd6c1e9f6eb.mp3",
+      "duration": 6.864,
+      "bytes": 55148,
+      "sha256": "a40dff6f2f6edd4ba843a73d5bc45fe646d25feaa645548adf4b08057c4eadcc"
+    },
+    {
+      "text": "견우와 직녀는 조심스럽게 다리를 건너 만나게 되었어요. 두 사람은 정말 기뻐했어요.",
+      "kind": "story",
+      "path": "assets/audio/50da60bfad94775c8d4c.mp3",
+      "duration": 6.336,
+      "bytes": 50924,
+      "sha256": "51a9d4049225c85feb19bdcfa2d065615832032c1f9e3d617c769717cbf63052"
+    },
+    {
+      "text": "두 사람은 다시 각자의 일을 잘 해내면서 서로를 응원하기로 약속했어요.",
+      "kind": "story",
+      "path": "assets/audio/b9f180120a221e51438b.mp3",
+      "duration": 5.256,
+      "bytes": 42284,
+      "sha256": "10570bcaf46f92196c2ef3654db50c7981f1905644e7f5844d59a78080040e40"
+    },
+    {
+      "text": "별빛 다리 위에서 둘은 약속했어요. “할 일을 나누고, 만날 시간도 소중히 하자.” 칠석에 새들이 다리를 놓는다는 상상 가득한 옛이야기예요.",
+      "kind": "story",
+      "path": "assets/audio/df9938e52fbee9b29a86.mp3",
+      "duration": 10.128,
+      "bytes": 81260,
+      "sha256": "0ef1babf663c76704c925885a2e93b518ee81d90eceb0c7fa821c503858c4f0e"
+    },
+    {
+      "text": "마을 고개에는 이상한 소문이 있었어요. “넘어지면 삼 년밖에 못 산대.” 하지만 그 말을 확인해 본 사람은 아무도 없었지요.",
+      "kind": "story",
+      "path": "assets/audio/f60302d5885eb4e3f2f6.mp3",
+      "duration": 9.024,
+      "bytes": 72428,
+      "sha256": "8faf53dc46b6b797961cec6bd2dcffe0576d696906821c071acacd883a92819f"
+    },
+    {
+      "text": "어느 날 할아버지가 장에서 돌아오다가 돌부리에 걸려 넘어졌어요. 할아버지는 걱정이 가득했어요.",
+      "kind": "story",
+      "path": "assets/audio/8dcbfe47d42168103f44.mp3",
+      "duration": 7.152,
+      "bytes": 57452,
+      "sha256": "ddfecf04c7824f4ca8ff7d94350e5691de0fbd0fc5a39599c5405f9fd8cc5062"
+    },
+    {
+      "text": "할아버지는 집에 돌아와 한숨을 쉬었어요. 얼굴을 본 손자는 무슨 일이냐고 물었지요.",
+      "kind": "story",
+      "path": "assets/audio/e235127974cc47136e72.mp3",
+      "duration": 6.288,
+      "bytes": 50540,
+      "sha256": "296ec2a34b35c3cb0a5fdd264a998ee5a86c74ce4bdc3843b707c953f43fa27f"
+    },
+    {
+      "text": "할아버지가 삼 년 고개에서 넘어졌다고 하자 손자는 잠시 생각했어요.",
+      "kind": "story",
+      "path": "assets/audio/4c76bff0b83b3c24f929.mp3",
+      "duration": 5.184,
+      "bytes": 41708,
+      "sha256": "f81c0b9bb90dc8b53237d0c363db0e30564b49d4cf4085c63bbbdad40e5fb057"
+    },
+    {
+      "text": "손자는 미소를 지으며 삼 년을 살 수 있다면 두 번 넘어지면 육 년이냐고 물었어요.",
+      "kind": "story",
+      "path": "assets/audio/89136ad039fe3250c6f9.mp3",
+      "duration": 5.808,
+      "bytes": 46700,
+      "sha256": "d599c25dfde837246ec012a9efac2443c3cf3fa6029c9f31c08d4461855c295e"
+    },
+    {
+      "text": "할아버지는 손자의 말을 듣고 깜짝 놀랐어요. 그러고는 크게 웃었어요.",
+      "kind": "story",
+      "path": "assets/audio/0b509558dfc3373446e9.mp3",
+      "duration": 5.328,
+      "bytes": 42860,
+      "sha256": "f2eab858231ffb7eab76463d2ec02a0dc9f9985430217fc3cc8b79cb04efb8a6"
+    },
+    {
+      "text": "손자는 헛소문보다 몸을 조심하고 건강하게 지내는 일이 중요하다고 이야기했어요.",
+      "kind": "story",
+      "path": "assets/audio/5ee0f3524c01ad76ee0a.mp3",
+      "duration": 5.832,
+      "bytes": 46892,
+      "sha256": "459d66358934a8398b6c491692da56f61d9fc30db6f5e133f9a4a559df389f48"
+    },
+    {
+      "text": "할아버지는 걱정이 줄어들자 다시 산책을 시작했어요. 고개를 지날 때는 발밑도 잘 살폈지요.",
+      "kind": "story",
+      "path": "assets/audio/120dc4b8e9c902e2378c.mp3",
+      "duration": 6.792,
+      "bytes": 54572,
+      "sha256": "f3be9dd8cd3bc1c53520552694ab07918754bb7220779be9d3f263eb0e6a7331"
+    },
+    {
+      "text": "그 뒤 마을 사람들도 고개에 난 돌을 치우고 안전한 길을 만들었어요.",
+      "kind": "story",
+      "path": "assets/audio/7feecbab1ac248a2efff.mp3",
+      "duration": 4.992,
+      "bytes": 40172,
+      "sha256": "b1f588e27f9041b159168cbc2ab7d2e73caa345e44574c4efe89331fe2436022"
+    },
+    {
+      "text": "할아버지와 손자는 고갯길을 천천히 걸었어요. “소문이 정말인지 생각해 보길 잘했구나.” 발밑을 살피며 걷자 길가의 꽃도 보였어요.",
+      "kind": "story",
+      "path": "assets/audio/679797786a6a5629cced.mp3",
+      "duration": 10.008,
+      "bytes": 80300,
+      "sha256": "66cb9bcff427b853ed5be46a9f9a0530ec5aa7cc3f684c59ebee7fad7b5b6106"
+    },
+    {
+      "text": "소나무 길을 걷던 선비가 걸음을 멈췄어요. 짹짹! 나뭇가지 쪽에서 작은 까치가 도움을 청하는 듯 울고 있었어요.",
+      "kind": "story",
+      "path": "assets/audio/42db8d7fdaa628fb850f.mp3",
+      "duration": 9.264,
+      "bytes": 74348,
+      "sha256": "d3c7d05e5684d51aeb7bfe0db7f72e2cb437a1b8855e8114079310d2aeef601b"
+    },
+    {
+      "text": "선비가 올려다보니 어린 까치가 위험한 곳에 갇혀 있었어요. 선비는 조심스럽게 새를 구했어요.",
+      "kind": "story",
+      "path": "assets/audio/3cbd7e6f57ce056864c6.mp3",
+      "duration": 6.744,
+      "bytes": 54188,
+      "sha256": "641081e46b7ae375e1c5eb9df42d1e6ad76f2179041201f65e5947043f6de070"
+    },
+    {
+      "text": "어린 까치는 힘차게 날아 부모 까치에게 돌아갔어요. 까치 가족은 나무 위에서 고맙다는 듯 울었어요.",
+      "kind": "story",
+      "path": "assets/audio/712052afcfaf3a1b42cb.mp3",
+      "duration": 7.56,
+      "bytes": 60716,
+      "sha256": "045b9d580ee5aae51cd3d1dae2d33188ef166dbf967c69d7302ca0f636bd66b7"
+    },
+    {
+      "text": "선비는 다시 길을 걸었지만 어느새 해가 지고 말았어요. 멀리 작은 집에 불이 켜져 있었어요.",
+      "kind": "story",
+      "path": "assets/audio/38434f8cee6fbf327894.mp3",
+      "duration": 6.576,
+      "bytes": 52844,
+      "sha256": "3f5618826840f47845ff44735885eade91f327b083b94af0f8abe7f914a905c4"
+    },
+    {
+      "text": "선비는 그 집에서 잠시 쉬게 되었어요. 그런데 밤중에 위험한 일이 닥쳐 선비가 곤란해졌어요.",
+      "kind": "story",
+      "path": "assets/audio/cf39a487e0136dd974ea.mp3",
+      "duration": 6.888,
+      "bytes": 55340,
+      "sha256": "c612730e9995e0b7bceda043988c245697306617748114f4584a61c700da81e5"
+    },
+    {
+      "text": "그 순간 먼 곳에서 종이 크게 울렸어요. 종소리에 사람들이 깨어나 선비를 도우러 왔어요.",
+      "kind": "story",
+      "path": "assets/audio/e0de134e9ac2d84e41aa.mp3",
+      "duration": 6.6,
+      "bytes": 53036,
+      "sha256": "17d6cc2d2f0225741c1939edbb4dbbf381c950c280672e432f5b1a2b34d8a428"
+    },
+    {
+      "text": "아침에 선비는 종이 있는 곳으로 찾아갔어요. 종 곁에 까치 깃털이 떨어져 있었어요.",
+      "kind": "story",
+      "path": "assets/audio/41eb3c16b5645d0de3ad.mp3",
+      "duration": 6.288,
+      "bytes": 50540,
+      "sha256": "9defc82e9722ed68768068bd5b8a7c8dfb1e5e28ec7b38504d8527c317fcbef8"
+    },
+    {
+      "text": "선비는 자신이 구했던 까치들이 은혜를 갚으려고 종을 울렸다는 이야기를 들었어요.",
+      "kind": "story",
+      "path": "assets/audio/c10e342a994ccceccf4d.mp3",
+      "duration": 5.712,
+      "bytes": 45932,
+      "sha256": "ae6055139f14af3dbd1ad54037e05aeba889c1d8894f0e1203e56136e812e929"
+    },
+    {
+      "text": "선비는 까치 가족에게 마음속으로 고맙다고 인사했어요. 나무 위에서는 맑은 새소리가 들렸어요.",
+      "kind": "story",
+      "path": "assets/audio/717f2a236612c3c084e3.mp3",
+      "duration": 7.008,
+      "bytes": 56300,
+      "sha256": "ef960207f3bce372a0450f87770714fbd688b8d5cf2992370dbf08d69e1df6bc"
+    },
+    {
+      "text": "나무 위에서 까치 가족이 짹짹 인사했어요. 선비도 손을 흔들었지요. “모두 무사해서 다행이야.” 숲길에 아침빛이 가만히 내려앉았어요.",
+      "kind": "story",
+      "path": "assets/audio/b09c1101e382d5118148.mp3",
+      "duration": 10.248,
+      "bytes": 82220,
+      "sha256": "c09cb63badc6ed501567479eee7945bded7839e9a6cc2a7b66ff595d913ba7c3"
+    },
+    {
+      "text": "할아버지가 마을 길에서 부채 두 개를 주웠어요. 빨강 하나, 파랑 하나. 작은 별무늬가 햇살을 받아 반짝였지요.",
+      "kind": "story",
+      "path": "assets/audio/40de0deea2be46a3e0bf.mp3",
+      "duration": 8.52,
+      "bytes": 68396,
+      "sha256": "5fea02b85ebd8869f0545e038e37bb6783464e28b6a5f46877d0dbab859112d6"
+    },
+    {
+      "text": "하나는 빨간 부채, 하나는 파란 부채였어요. 두 부채에는 작은 별무늬가 그려져 있었지요.",
+      "kind": "story",
+      "path": "assets/audio/97ed5d7d1f2b6b6fb50d.mp3",
+      "duration": 6.312,
+      "bytes": 50732,
+      "sha256": "8f9912a9d91947d5a48dca774fd2c6d8d77a87af1a85d3d63549f6c1263a4179"
+    },
+    {
+      "text": "할아버지가 빨간 부채로 코를 살짝 부쳤더니 코가 조금 길어졌어요. 할아버지는 깜짝 놀랐어요.",
+      "kind": "story",
+      "path": "assets/audio/bd2f843430ec5d43ee85.mp3",
+      "duration": 6.96,
+      "bytes": 55916,
+      "sha256": "6201d8e312dd9f12dcd710d59fc54baaa446bdcb9c785b7ec3e642640df439e9"
+    },
+    {
+      "text": "이번에는 파란 부채로 부쳤어요. 길어졌던 코가 다시 원래대로 돌아왔어요.",
+      "kind": "story",
+      "path": "assets/audio/267124ab826cf908a4fa.mp3",
+      "duration": 5.424,
+      "bytes": 43628,
+      "sha256": "5dbcb404e44f9358a941bdd2f68939639e2063f092ca338541eaff6c0d29e1fa"
+    },
+    {
+      "text": "할아버지는 신기해서 이웃들에게 보여주었어요. 하지만 친구들은 조심해서 쓰라고 말했어요.",
+      "kind": "story",
+      "path": "assets/audio/6e1954b5622498401570.mp3",
+      "duration": 6.6,
+      "bytes": 53036,
+      "sha256": "d543128f029a324df815096cb263288d3c197b3eff7abe6864ef0464b1d0ae9a"
+    },
+    {
+      "text": "할아버지는 너무 신이 나서 부채를 여러 번 흔들었어요. 그만 코가 아주 길어져 버렸지요.",
+      "kind": "story",
+      "path": "assets/audio/5c400b0daa3b3e6c82c6.mp3",
+      "duration": 6.192,
+      "bytes": 49772,
+      "sha256": "06e115df85c3449b852199315acec724ff90bbf4180f68d49d32d4b0c4430078"
+    },
+    {
+      "text": "할아버지는 당황했지만 곧 차분히 생각했어요. 파란 부채를 살살 부치기로 했지요.",
+      "kind": "story",
+      "path": "assets/audio/02f0e09cd74850bd45cc.mp3",
+      "duration": 5.952,
+      "bytes": 47852,
+      "sha256": "7d841b0bc339649c2ac7350ed50419b3775636443ac6405dfd157f634a8b4eaf"
+    },
+    {
+      "text": "조금씩 코가 줄어들더니 제 모습으로 돌아왔어요. 마을 사람들은 박수를 치며 웃었어요.",
+      "kind": "story",
+      "path": "assets/audio/26ccac390aec8cb3a4fb.mp3",
+      "duration": 6.48,
+      "bytes": 52076,
+      "sha256": "c0d2e30563c5c2fea092e0a436bffb9165c40cb65eb90ddb973fc044633fd988"
+    },
+    {
+      "text": "할아버지는 신기한 물건도 알맞게 사용해야 한다는 것을 깨달았어요.",
+      "kind": "story",
+      "path": "assets/audio/7cd817dbba15422ca260.mp3",
+      "duration": 4.92,
+      "bytes": 39596,
+      "sha256": "58eb62a59d130dc4d2b44c591b526760d848ba413ae19198aff95d2250272a5d"
+    },
+    {
+      "text": "할아버지는 부채 두 개를 나란히 놓았어요. “신기해도 천천히 살펴봐야겠구나.” 코가 다시 편안해지자 이웃과 시원한 바람을 나눴어요.",
+      "kind": "story",
+      "path": "assets/audio/d85b4953bd97612c96b7.mp3",
+      "duration": 9.624,
+      "bytes": 77228,
+      "sha256": "af5962ebdc067a37e28a0f60d2ee895fa6b21b13b453d0d749a62b26a0dfc5c8"
+    },
+    {
+      "text": "농부는 작은 집 옆에서 밭을 가꾸었어요. “누군가와 저녁 이야기를 나누면 좋겠네.” 채소 사이로 바람이 살랑살랑 지나갔지요.",
+      "kind": "story",
+      "path": "assets/audio/3adf15153b60e1f39814.mp3",
+      "duration": 9.552,
+      "bytes": 76652,
+      "sha256": "33497cf8a464bb0ddcc2ea4891d7acd9798c8ff68f45d0071e4321c9e76f2e19"
+    },
+    {
+      "text": "어느 날 논에서 커다란 우렁이를 발견했어요. 농부는 우렁이를 작은 물그릇에 넣어 집으로 가져왔어요.",
+      "kind": "story",
+      "path": "assets/audio/d4f788c793ffff1cdd63.mp3",
+      "duration": 7.44,
+      "bytes": 59756,
+      "sha256": "642b112f408c4773653965968d771287b486b85a2cfd9de2341f3e5b09508cb0"
+    },
+    {
+      "text": "다음 날 농부가 일을 마치고 돌아오니 집 안이 깨끗하게 정리되어 있었어요. 농부는 신기했어요.",
+      "kind": "story",
+      "path": "assets/audio/731878117810e1eaad97.mp3",
+      "duration": 7.2,
+      "bytes": 57836,
+      "sha256": "346cf977d8facb2e5f64a0046ef17cd7c0fa95b2d3b7fc42a28627d1dc3283fe"
+    },
+    {
+      "text": "그다음 날에도 누군가 맛있는 밥을 지어 놓았어요. 농부는 누가 도와주는지 궁금했지요.",
+      "kind": "story",
+      "path": "assets/audio/d6ee44e9834652ba91a1.mp3",
+      "duration": 6.24,
+      "bytes": 50156,
+      "sha256": "2fdf1721ecf4b502c58a85b233b3a85e4744d172531b51502617f9bad7af5038"
+    },
+    {
+      "text": "농부는 조용히 기다려 보았어요. 그러자 우렁이 속에서 신비로운 친구가 나타났어요.",
+      "kind": "story",
+      "path": "assets/audio/c44563abe9adc76a7f6a.mp3",
+      "duration": 6.12,
+      "bytes": 49196,
+      "sha256": "be1c11a06a889761255e6f33bc22d1ddd93550ac6e8c0bfe649f4392027e166e"
+    },
+    {
+      "text": "친구는 작은 집을 돌보는 일이 즐겁다고 말했어요. 농부는 도움에 고마워하며 인사했어요.",
+      "kind": "story",
+      "path": "assets/audio/03090741804bcca4ade4.mp3",
+      "duration": 6.48,
+      "bytes": 52076,
+      "sha256": "604537373e999efe07095fed5bc8953f79d69206ef2eabc1585c2f816bec38e3"
+    },
+    {
+      "text": "농부는 혼자만 도움을 받지 않겠다며 함께 밭일과 집안일을 나누자고 했어요.",
+      "kind": "story",
+      "path": "assets/audio/c489978a15d261ae4a9a.mp3",
+      "duration": 5.76,
+      "bytes": 46316,
+      "sha256": "bc251d6f9ce5d92a286bc3447962d92e441cbfc6efb68eed82ee80074d744f5f"
+    },
+    {
+      "text": "두 사람은 나란히 씨앗을 심고 물을 주었어요. 밭에는 싱그러운 새싹이 자랐어요.",
+      "kind": "story",
+      "path": "assets/audio/c7a23de6ea238f4963d8.mp3",
+      "duration": 6.072,
+      "bytes": 48812,
+      "sha256": "530e081b8d3cb365ff6dd2de9581f558746974216f578dd1549f08574c21a35b"
+    },
+    {
+      "text": "이웃들도 농부의 밭이 예뻐졌다며 찾아왔어요. 모두 함께 수확한 채소로 음식을 만들었어요.",
+      "kind": "story",
+      "path": "assets/audio/a8dc2761f63b7e23c810.mp3",
+      "duration": 7.104,
+      "bytes": 57068,
+      "sha256": "e304fc3635ec2ca79d3bb7d5a5b468a9c72a66248a728ea926034663d5133833"
+    },
+    {
+      "text": "밥 짓는 날도, 밭을 돌보는 날도 둘은 번갈아 맡았어요. “오늘도 고마워.” 함께 차린 밥상 위로 하루의 이야기가 차곡차곡 쌓였어요.",
+      "kind": "story",
+      "path": "assets/audio/f6e39ed5dd3ef52a6b3d.mp3",
+      "duration": 10.056,
+      "bytes": 80684,
+      "sha256": "7d296768dc5cc36a1979b8542d55e4fd11acc49fb703274087afe8a11892a3ee"
+    },
+    {
+      "text": "청년은 이불 속에서 눈만 빼꼼 내밀었어요. “조금 있다가 할래.” 미룬 일이 하나둘 쌓이자 어디서 시작할지 더 막막했지요.",
+      "kind": "story",
+      "path": "assets/audio/1868b53cae668a1e52a2.mp3",
+      "duration": 9.384,
+      "bytes": 75308,
+      "sha256": "bdda5b08d1c6a99c3c9bc9ce812e659d00d607a7ec31d0355d023c7b37988dc5"
+    },
+    {
+      "text": "가족이 함께 밭일을 하자고 하면 청년은 조금만 더 쉬고 싶다고 말했어요.",
+      "kind": "story",
+      "path": "assets/audio/c9a215bb72d85de8bc11.mp3",
+      "duration": 5.616,
+      "bytes": 45164,
+      "sha256": "5ec797b8ca5fbd1f966621d4c5d306ad3837ac1db0f743f1963fd66f46676a12"
+    },
+    {
+      "text": "어느 날 청년은 길에서 이상한 탈을 발견했어요. 호기심에 탈을 써보자 깜짝 일이 일어났어요.",
+      "kind": "story",
+      "path": "assets/audio/9cd2732e3d70e06e9045.mp3",
+      "duration": 7.224,
+      "bytes": 58028,
+      "sha256": "6a952e4a52a482e0a3eed72cac87c99d6a1b756a5cbf6f6f0b237ee9132f86de"
+    },
+    {
+      "text": "청년의 모습이 커다란 소로 변한 거예요. 청년은 말을 하려 했지만 음매 소리만 나왔지요.",
+      "kind": "story",
+      "path": "assets/audio/020e9275bc76217843d3.mp3",
+      "duration": 6.552,
+      "bytes": 52652,
+      "sha256": "1a4b19fae6ed3e76a2df01dd4e2f8b4066215863e16137d4eebf7235aa3d6ee6"
+    },
+    {
+      "text": "청년은 농부를 도와 밭을 갈게 되었어요. 처음에는 무척 힘들었지만 땅에서 새싹이 자라는 모습을 보았어요.",
+      "kind": "story",
+      "path": "assets/audio/380709c22d882ed64aeb.mp3",
+      "duration": 7.896,
+      "bytes": 63404,
+      "sha256": "68d7fcdb823ab17850385bbcad10097a9bb4c7d53db3221b53ec098591bd72c1"
+    },
+    {
+      "text": "점심이 되자 농부는 소에게 물과 먹이를 챙겨 주었어요. 청년은 서로 돕는 일의 소중함을 느꼈어요.",
+      "kind": "story",
+      "path": "assets/audio/371c560773ae70da8aad.mp3",
+      "duration": 7.368,
+      "bytes": 59180,
+      "sha256": "e08d713f1d83f7c522d301db58d40ce5bc8ad4100f309f8a6bdbea785c9033c1"
+    },
+    {
+      "text": "청년은 집으로 돌아가 가족에게 고맙다고 말하고 싶었어요. 그래서 다시 사람이 될 방법을 찾아 나섰어요.",
+      "kind": "story",
+      "path": "assets/audio/fe406cadbeeeba1bb7c1.mp3",
+      "duration": 7.704,
+      "bytes": 61868,
+      "sha256": "cdc27e72f0378c101f6b971dc1895bc0e69f338d4029041600ec5769589f5866"
+    },
+    {
+      "text": "길에서 만난 노인이 신기한 탈을 벗는 방법을 알려주었어요. 청년은 마침내 원래 모습으로 돌아왔어요.",
+      "kind": "story",
+      "path": "assets/audio/e244d5bb33df07a5ef6e.mp3",
+      "duration": 7.368,
+      "bytes": 59180,
+      "sha256": "a28c25cbb9dabed9e0ddae9ab366076b665c89d43fa3996c73dfe7b353ad2e40"
+    },
+    {
+      "text": "집에 돌아온 청년은 가족을 꼭 안았어요. 앞으로는 할 일을 조금씩 나누어 해보겠다고 다짐했어요.",
+      "kind": "story",
+      "path": "assets/audio/ece4102bc299f5bb84e1.mp3",
+      "duration": 7.056,
+      "bytes": 56684,
+      "sha256": "d705ccc543d3a0dcfff611f9e4bbe855f01a21122af8ae0a886015a7c67a7716"
+    },
+    {
+      "text": "다음 날 청년은 물 한 바가지를 먼저 옮겼어요. “이것부터 해 보자.” 작은 일을 마치니 다음 일이 보였지요. 쉬는 시간도 함께 정했어요.",
+      "kind": "story",
+      "path": "assets/audio/bfda75b9dff6f48921b4.mp3",
+      "duration": 10.248,
+      "bytes": 82220,
+      "sha256": "da4afa336b9a8d81896145c136fb693ed4bcea4a9b2f9cdd4316250dd977cf03"
+    },
+    {
+      "text": "가족이 둘러앉은 마당에 웃음이 가득했어요. 며느리도 웃다가 배를 살짝 만졌지요. 꾹 참고 있던 방귀 때문에 배가 불편했어요.",
+      "kind": "story",
+      "path": "assets/audio/9ea401d34d957226896f.mp3",
+      "duration": 9.528,
+      "bytes": 76460,
+      "sha256": "8df6c353dce0666473b35116cb7021f98df0bbf2229921478d4d8593a0dff008"
+    },
+    {
+      "text": "그런데 며느리에게는 한 가지 비밀이 있었어요. 방귀를 참으면 배가 아플 만큼 힘들었답니다.",
+      "kind": "story",
+      "path": "assets/audio/3ae13c8d7b3181a427ba.mp3",
+      "duration": 6.48,
+      "bytes": 52076,
+      "sha256": "51ab2d5541524881fd73f0f94fdd184206fee3dfe95ee9645ead3f6c0e069800"
+    },
+    {
+      "text": "며느리는 가족 앞에서 실수할까 봐 늘 조심했어요. 어느 날은 얼굴이 빨개질 정도였어요.",
+      "kind": "story",
+      "path": "assets/audio/7b7e1f4f7402bf306f59.mp3",
+      "duration": 6.864,
+      "bytes": 55148,
+      "sha256": "7cc097faacfdf2511903a6e53dd6361f404b5fbd920d9f0546c8f9194b65df6f"
+    },
+    {
+      "text": "시어머니가 왜 그렇게 힘들어하느냐고 물었어요. 며느리는 작은 목소리로 솔직히 이야기했어요.",
+      "kind": "story",
+      "path": "assets/audio/0fd602985c03c8517560.mp3",
+      "duration": 6.48,
+      "bytes": 52076,
+      "sha256": "5a3a705d7c17bd372996fd5fadcd8109285c47f2f82c2d4304be515c92262089"
+    },
+    {
+      "text": "가족들은 누구나 방귀를 뀔 수 있다고 말하며 며느리를 안심시켰어요.",
+      "kind": "story",
+      "path": "assets/audio/467d4df0ff54c8564aad.mp3",
+      "duration": 5.04,
+      "bytes": 40556,
+      "sha256": "05b3f214c93b07bd5b7f1797e6c144dfb8a0a7cd17c101cceba205c0fb3cc085"
+    },
+    {
+      "text": "며느리는 조금 편안해졌어요. 그러자 뿌웅 하고 아주 커다란 방귀 소리가 났어요.",
+      "kind": "story",
+      "path": "assets/audio/11bce88019dd8d0ead1c.mp3",
+      "duration": 5.976,
+      "bytes": 48044,
+      "sha256": "bbb2b85f00c02bf328948df1e65b7002cc4b316f04d4fd0379dffee9c2df6302"
+    },
+    {
+      "text": "그 소리에 마당의 잎사귀가 흔들리는 듯했어요. 모두 깜짝 놀랐다가 웃음을 터뜨렸지요.",
+      "kind": "story",
+      "path": "assets/audio/bf2900ff041c75d4d9b0.mp3",
+      "duration": 6.312,
+      "bytes": 50732,
+      "sha256": "3662e852959bcc4d4fec1e3c20502ab2894990aa57d47a4baa668284bba5d7ee"
+    },
+    {
+      "text": "며느리는 부끄러웠지만 가족들이 놀리지 않고 함께 웃어 주자 마음이 놓였어요.",
+      "kind": "story",
+      "path": "assets/audio/ff4f5ed62196c17fd5b0.mp3",
+      "duration": 5.904,
+      "bytes": 47468,
+      "sha256": "053cf1469bfcc2d244de37247810cd6d84d7b0b8b9c6bc78b7b98c84b28b5984"
+    },
+    {
+      "text": "가족들은 창문을 열어 바람을 통하게 했어요. 그리고 다 같이 맛있는 저녁을 먹었어요.",
+      "kind": "story",
+      "path": "assets/audio/6efaaa3dd6b1cf1b66a9.mp3",
+      "duration": 6.336,
+      "bytes": 50924,
+      "sha256": "4cb608d2ff2305686eb1e6c79d8926d1e0f848d7afad3c54e2008c2266f0b8a1"
+    },
+    {
+      "text": "창문으로 바람이 솔솔 들어왔어요. 가족은 몸이 불편하면 편하게 말하기로 했지요. 누구도 놀리지 않는 저녁 식탁이 참 따뜻했어요.",
+      "kind": "story",
+      "path": "assets/audio/806cdfa1a05c48adf73a.mp3",
+      "duration": 9.456,
+      "bytes": 75884,
+      "sha256": "cfb87ab31ea90d262a45fa5b08ed16b5510eb5cc2049206ea0dda266843cfdd3"
+    },
+    {
+      "text": "숲길을 걷던 마을 사람이 감투 하나를 발견했어요. 푸른 천에 작은 별이 수놓아져 있었지요. “누가 떨어뜨렸을까?”",
+      "kind": "story",
+      "path": "assets/audio/21d9b71bc41a43fccb3f.mp3",
+      "duration": 8.928,
+      "bytes": 71660,
+      "sha256": "53ed0399500f6f2c778e09b9649a911c482d32d861eff2758f976d5e9125012d"
+    },
+    {
+      "text": "감투에는 작은 별무늬가 반짝이고 있었어요. 그는 감투를 머리에 써보았지요.",
+      "kind": "story",
+      "path": "assets/audio/77329d97b033ca53d58e.mp3",
+      "duration": 5.76,
+      "bytes": 46316,
+      "sha256": "d25f123586d9a474a969774d077c9eba925c454e5d39ab4019a27577ea43e724"
+    },
+    {
+      "text": "그 순간 놀라운 일이 생겼어요. 감투를 쓰자 다른 사람의 눈에 보이지 않게 된 거예요.",
+      "kind": "story",
+      "path": "assets/audio/48cc11db33152977f466.mp3",
+      "duration": 6.24,
+      "bytes": 50156,
+      "sha256": "132981f251712b010d09aa352911f5870870770da7587210220bf2bee8ca8192"
+    },
+    {
+      "text": "처음에는 장난을 치고 싶었어요. 하지만 친구가 놀라는 모습을 보고 마음이 불편해졌어요.",
+      "kind": "story",
+      "path": "assets/audio/c809cbf9c802f1959055.mp3",
+      "duration": 6.72,
+      "bytes": 53996,
+      "sha256": "cb3a94e704f300673e7127012a4ad7976502c2f0fad4d70a695095828cfa0aa4"
+    },
+    {
+      "text": "그는 감투를 벗고 친구에게 장난이었다며 사과했어요. 친구는 놀랐지만 용서해 주었지요.",
+      "kind": "story",
+      "path": "assets/audio/1638c924a54c02a89b73.mp3",
+      "duration": 6.384,
+      "bytes": 51308,
+      "sha256": "1fd32c0a85790e0a464d472c0d9c471e45f314062e17dc026ed2421df09d3b54"
+    },
+    {
+      "text": "그날 오후 마을 아이가 잃어버린 장난감을 찾고 있었어요. 그는 도와줄 방법을 생각했어요.",
+      "kind": "story",
+      "path": "assets/audio/b944bd8b0b4a86edb510.mp3",
+      "duration": 6.384,
+      "bytes": 51308,
+      "sha256": "9ed0ed92c94d79da415c4e8e3d4d9e0bc9c1cbe381efd675e099ce3c85acfad2"
+    },
+    {
+      "text": "그는 감투를 쓰고 좁은 풀숲을 조용히 살펴보았어요. 마침내 작은 장난감이 보였어요.",
+      "kind": "story",
+      "path": "assets/audio/88ce1155b5432386067c.mp3",
+      "duration": 6.408,
+      "bytes": 51500,
+      "sha256": "3a73c6ecffd5eaddabf8b8344276e16ee4806e7de1c29ef2b418e639f6f98253"
+    },
+    {
+      "text": "감투를 벗고 아이에게 장난감을 돌려주었어요. 아이는 반짝이는 눈으로 고맙다고 말했어요.",
+      "kind": "story",
+      "path": "assets/audio/adc69e177cfeff6f9067.mp3",
+      "duration": 6.648,
+      "bytes": 53420,
+      "sha256": "e5d76666af4f49fc184f3a0903b1084f370340c5588be4d0f3059e70b4c289f7"
+    },
+    {
+      "text": "그는 신기한 물건도 좋은 일에 써야 한다는 것을 깨달았어요. 감투를 깨끗한 상자에 넣었지요.",
+      "kind": "story",
+      "path": "assets/audio/69215d77ec36e4c6fb19.mp3",
+      "duration": 7.08,
+      "bytes": 56876,
+      "sha256": "dcff84234e9108f71d533260f8f362c3726807801b07bedec72702bb0d69cf5e"
+    },
+    {
+      "text": "그는 감투를 상자에 넣고 뚜껑을 닫았어요. 마법이 없어도 친구를 도울 수 있었지요. 다음 날에도 마을 길에 다정한 인사가 오갔어요.",
+      "kind": "story",
+      "path": "assets/audio/ec86f2b80e0f6540720c.mp3",
+      "duration": 9.24,
+      "bytes": 74156,
+      "sha256": "ccc9128c807e529e8262e57a69197896152ae56d185ecb9f7200cb7a23905935"
+    },
+    {
+      "text": "작은 마을에 빨간 자동차 붕붕이가 살았어요. 아침 햇살이 반짝이면 붕붕이는 천천히 길을 나섰지요. 오늘은 어떤 친구를 만날까요?",
+      "kind": "story",
+      "path": "assets/audio/ae7516131d25f09b1f4d.mp3",
+      "duration": 10.008,
+      "bytes": 80300,
+      "sha256": "a9163961efc05ac8cb63205a62d36f8e0612e51e3dd42678888fe9d6ccfa69b2"
+    },
+    {
+      "text": "어느 날 숲길에서 조그만 강아지가 혼자 앉아 있는 모습을 발견했어요. 강아지는 집으로 가는 길을 잃었지요.",
+      "kind": "story",
+      "path": "assets/audio/640c2ce754492c71bddf.mp3",
+      "duration": 8.064,
+      "bytes": 64748,
+      "sha256": "b4fcbd3df3c7f8165c5427e99b34c2318ea943997870ac4989860b4ee230d810"
+    },
+    {
+      "text": "붕붕이는 겁먹은 강아지에게 괜찮다고 말했어요. 그리고 함께 길을 찾아보자고 약속했어요.",
+      "kind": "story",
+      "path": "assets/audio/7e3cba553fa97035fc60.mp3",
+      "duration": 6.768,
+      "bytes": 54380,
+      "sha256": "271e3843d8127a86aa1c26d1aeb4f40f12ed635f570f5fe94a8c1b2fec9a4d62"
+    },
+    {
+      "text": "둘은 커다란 참나무 아래에서 호랑이 쪼이를 만났어요. 쪼이는 주변 지도를 살펴보았어요.",
+      "kind": "story",
+      "path": "assets/audio/50f4c4e6d71dc8a9df8b.mp3",
+      "duration": 6.456,
+      "bytes": 51884,
+      "sha256": "0060da45a26db57e2fe0c6f26da19f3916b8bfc6ecbf7fae891bd936102309bc"
+    },
+    {
+      "text": "쪼이는 강아지가 좋아하는 냄새와 집 근처의 꽃밭을 기억하는지 물었어요. 강아지는 노란 꽃을 떠올렸어요.",
+      "kind": "story",
+      "path": "assets/audio/14f7ca148131c5ca2638.mp3",
+      "duration": 7.872,
+      "bytes": 63212,
+      "sha256": "b04fdcaaabc7ab8800716dd2dc24564b1b8e7477389a2514c182df64c04dc45a"
+    },
+    {
+      "text": "세 친구는 노란 꽃이 피어 있는 길을 찾아 천천히 움직였어요. 새들이 하늘에서 노래했어요.",
+      "kind": "story",
+      "path": "assets/audio/c066c0945b99de1b741d.mp3",
+      "duration": 6.816,
+      "bytes": 54764,
+      "sha256": "8a246fb53cb1d18af106dd453c27c6c714d39f788c4330045467acea4143946b"
+    },
+    {
+      "text": "작은 개울 앞에서 붕붕이는 속도를 줄였어요. 친구들은 서로의 안전을 먼저 생각했어요.",
+      "kind": "story",
+      "path": "assets/audio/b320e6c210928e66033c.mp3",
+      "duration": 6.672,
+      "bytes": 53612,
+      "sha256": "cb2dbfed94652dafa7eff9ac1dd83f5b00541b6f801ac95117f2bf7f73293fda"
+    },
+    {
+      "text": "멀리 노란 꽃밭과 파란 지붕의 집이 보였어요. 강아지는 기쁜 마음에 꼬리를 흔들었어요.",
+      "kind": "story",
+      "path": "assets/audio/799127852ab4173c90ed.mp3",
+      "duration": 6.72,
+      "bytes": 53996,
+      "sha256": "f0ec717098ac430925d0a5fa368a893c9d43f2e0ec724979d9bfa3fea09c41b4"
+    },
+    {
+      "text": "강아지 가족은 모두 나와 반갑게 맞아 주었어요. 강아지는 도와준 친구들에게 고맙다고 말했어요.",
+      "kind": "story",
+      "path": "assets/audio/19b95045d4096e56c7cc.mp3",
+      "duration": 7.104,
+      "bytes": 57068,
+      "sha256": "c2d67c7b2b040c30583b5e73528fc8f35da8e53366ca3258c86fbb920436b527"
+    },
+    {
+      "text": "강아지가 파란 지붕 집 앞에서 꼬리를 흔들었어요. 붕붕이와 쪼이는 가족이 함께 있는 걸 확인하고 돌아왔지요. 집으로 가는 길이 포근했어요.",
+      "kind": "story",
+      "path": "assets/audio/b987b60aabadef554529.mp3",
+      "duration": 10.152,
+      "bytes": 81452,
+      "sha256": "d4d0b62135e6d42e3f9c2b9fcda30b667b9f185b442937a52f03487eae4a1cd5"
+    },
+    {
+      "text": "다시 찾아볼까?",
+      "kind": "guide",
+      "path": "assets/audio/2a4fa63469e478f5c398.mp3",
+      "duration": 1.536,
+      "bytes": 12524,
+      "sha256": "7e7443fb823dac9e1e5eac0570c1f6e1b230b839313b479a54bbecd1150f032f"
+    },
+    {
+      "text": "짜잔!",
+      "kind": "guide",
+      "path": "assets/audio/a1fe5bd3a484468ff1b3.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "602ac6aa3cd0cdc10cc620efb20d4cd4b4db69aba93439ff32ab7028f5d0655c"
+    },
+    {
+      "text": "와아! 정말 잘했어!",
+      "kind": "guide",
+      "path": "assets/audio/6e17a2a41787438ebef3.mp3",
+      "duration": 2.28,
+      "bytes": 18476,
+      "sha256": "373c23011a1af342829a6d05de3a75975ff3cd6d5110bafdcf4083646caa4131"
+    },
+    {
+      "text": "트로피를 받았어! 축하해!",
+      "kind": "guide",
+      "path": "assets/audio/5fe2d7267e1cd85259b4.mp3",
+      "duration": 2.592,
+      "bytes": 20972,
+      "sha256": "82683ca4037de05973c82bd5c66b13430500c3706da58721ed93bbac35caa5b8"
+    },
+    {
+      "text": "이현이, 5분 자동차 챔피언! 트로피를 받았어!",
+      "kind": "guide",
+      "path": "assets/audio/6ee5ca86cc2c6713a6d9.mp3",
+      "duration": 4.512,
+      "bytes": 36332,
+      "sha256": "2aac12f5f36184d6cd25bb5d94a6f6cd7a597291dc1e95cfa34927523b56ee65"
+    },
+    {
+      "text": "와아! 이현이 성공!",
+      "kind": "guide",
+      "path": "assets/audio/1aec2ad82bf1c26421b2.mp3",
+      "duration": 2.28,
+      "bytes": 18476,
+      "sha256": "0f4b2e65862175498172e7dec50f9e67b4d45f7c8f754c8adf5f76ec621ede9b"
+    },
+    {
+      "text": "다시 해볼까?",
+      "kind": "guide",
+      "path": "assets/audio/763c3812d0fd1b99216b.mp3",
+      "duration": 1.368,
+      "bytes": 11180,
+      "sha256": "c2472ccc0d2b6f10b177b1dc52981aff50e8564c531bb2003039bfd9e22826c3"
+    },
+    {
+      "text": "우와! 성공했어요! 정말 잘했어!",
+      "kind": "guide",
+      "path": "assets/audio/c96649b9ad3a522d795f.mp3",
+      "duration": 3.84,
+      "bytes": 30956,
+      "sha256": "a60fb9809758deac7c37c77036912ba46fb41e3aaec7ca55348c74ce6763ba30"
+    },
+    {
+      "text": "조금만 더 가볼까?",
+      "kind": "guide",
+      "path": "assets/audio/9c5d7d7420bc7261d15e.mp3",
+      "duration": 1.68,
+      "bytes": 13676,
+      "sha256": "62744eb6e1f3c32e9680725e487befba10f62d722c40396d2db731a4b6424a10"
+    },
+    {
+      "text": "우와! 네가 고른 색이 정말 멋져!",
+      "kind": "guide",
+      "path": "assets/audio/a8ce5d9daad19c2ead93.mp3",
+      "duration": 3.456,
+      "bytes": 27884,
+      "sha256": "46d21bd75d260fbbf5d0323a6371db027880b7d9e927091b57105e227596f99e"
+    },
+    {
+      "text": "5분 색칠 예술가! 차근차근 칠한 네 그림이 정말 멋져!",
+      "kind": "guide",
+      "path": "assets/audio/e2656d695075ab2116a1.mp3",
+      "duration": 5.472,
+      "bytes": 44012,
+      "sha256": "24fd519f516bce0e505e6d29c7b19fa1beb01b2bea3251759423eeeca496450d"
+    },
+    {
+      "text": "우와! 정말 잘했어!",
+      "kind": "guide",
+      "path": "assets/audio/478a5da3337de7604f9f.mp3",
+      "duration": 2.304,
+      "bytes": 18668,
+      "sha256": "b0c3c96849ba9a4fd13ee07485fa6dc5658b877d4de22ab8a38c0afa9182d712"
+    },
+    {
+      "text": "다시 생각해 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/39c7089793af352f90c4.mp3",
+      "duration": 1.704,
+      "bytes": 13868,
+      "sha256": "eabfcf08fbc6fc3b046e8cc319805283668b55a9bfa3809f9594e590627795f7"
+    },
+    {
+      "text": "잘했어! 오늘도 멋지게 해냈어!",
+      "kind": "guide",
+      "path": "assets/audio/8bf25c965100f6859c76.mp3",
+      "duration": 3.096,
+      "bytes": 25004,
+      "sha256": "7ab000311c62924181fca12bd67526a5f358f502f297a80843d3b2703c80e402"
+    },
+    {
+      "text": "사건발생! 사건발생! 화재가 발생했다! 소방차는 출동하라!",
+      "kind": "guide",
+      "path": "assets/audio/68874f887e66b83a2c54.mp3",
+      "duration": 6.792,
+      "bytes": 54572,
+      "sha256": "251dc64ce31b737cc9ad3e539662acaf754c309a51741691792c4e64435d2680"
+    },
+    {
+      "text": "야호! 모두 구했어! 정말 멋진 소방관이야!",
+      "kind": "guide",
+      "path": "assets/audio/c1eb577b8c46cbe1c7f6.mp3",
+      "duration": 4.704,
+      "bytes": 37868,
+      "sha256": "528bb07a2c89bd3de9388ba374760781246da3d4d7b4c3f32475a7d3d02ea0b4"
+    },
+    {
+      "text": "5분 탐험 성공! 트로피를 받았어!",
+      "kind": "guide",
+      "path": "assets/audio/2baba02dbfea7187c77a.mp3",
+      "duration": 3.648,
+      "bytes": 29420,
+      "sha256": "e6b5ee9f44795f8f9df2b28b44852eee391e97326d70c284fe5d2ea9a17aad9a"
+    },
+    {
+      "text": "소화전 연결! 물을 가득 채웠어!",
+      "kind": "guide",
+      "path": "assets/audio/bcac33214b434653867e.mp3",
+      "duration": 3.192,
+      "bytes": 25772,
+      "sha256": "70e35ba46ddac0aa9fddf3bc7bf32401910bc191a4f580a5a2a088848f7767af"
+    },
+    {
+      "text": "헬리콥터 지원 도착!",
+      "kind": "guide",
+      "path": "assets/audio/26d2014f93cfa27b427a.mp3",
+      "duration": 1.872,
+      "bytes": 15212,
+      "sha256": "2ef51d53193edeb97c7c149ee6e7bae51cf960dcb7abed63c8f9e5fdd723a841"
+    },
+    {
+      "text": "동물 친구를 구했어! 소방차를 써 보자!",
+      "kind": "guide",
+      "path": "assets/audio/596f2a6472f74af410d8.mp3",
+      "duration": 3.84,
+      "bytes": 30956,
+      "sha256": "765c206a2098f6ca5186ffd75eddeaf4afb32b7e9008c35cdaf741338f482434"
+    },
+    {
+      "text": "이제 동물 친구를 눌러 구해 줘!",
+      "kind": "guide",
+      "path": "assets/audio/ef0a1fd3d206835742c1.mp3",
+      "duration": 2.64,
+      "bytes": 21356,
+      "sha256": "fb7059b9ef1272256e52eeaf638e6fece9b6c0f435707220b1d5c59e3618d164"
+    },
+    {
+      "text": "물이 부족해! 소화전을 연결하자!",
+      "kind": "guide",
+      "path": "assets/audio/4aec93e1eae6a5567a4e.mp3",
+      "duration": 3.408,
+      "bytes": 27500,
+      "sha256": "5b36c635d2586d50984314d69f6a230df11416a96d03d7fb3fa0e57a3b39c64a"
+    },
+    {
+      "text": "불을 다 껐어! 창문에 있는 동물 친구를 눌러 구해 줘!",
+      "kind": "guide",
+      "path": "assets/audio/2d22ac5262e86e7eaab6.mp3",
+      "duration": 4.944,
+      "bytes": 39788,
+      "sha256": "711420033734bc7c5088b0ad7935c36b0b457d9b3ad7ed6f4047e1cc4d095f62"
+    },
+    {
+      "text": "우리",
+      "kind": "guide",
+      "path": "assets/audio/398dfa639dfd0db8f8e0.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "51ee41dbab65fe56341984f63b026d597ac8b37f4396c314d8360d55dadb88e5"
+    },
+    {
+      "text": "다시 배워보자!",
+      "kind": "guide",
+      "path": "assets/audio/ca76cfb9225266b1aa26.mp3",
+      "duration": 1.512,
+      "bytes": 12332,
+      "sha256": "61a81af1165d6c29c8879c13ae40021825c967015a188262a4b25ab135540792"
+    },
+    {
+      "text": "다섯 문제 성공! 다음 단계 또는 다른 놀이를 골라 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/11a4752d6c9ddbe6cf1d.mp3",
+      "duration": 5.064,
+      "bytes": 40748,
+      "sha256": "a2ae0e72174cd60a4fab72e11b9510d397698e0d9e5af95cf42e31025a4e3866"
+    },
+    {
+      "text": "다시 찾아볼까요?",
+      "kind": "guide",
+      "path": "assets/audio/2c96139a4b034525fd8f.mp3",
+      "duration": 1.656,
+      "bytes": 13484,
+      "sha256": "fc58000740ed23d0ca0cd76ff373cf0414a4b92a558244ac9c32e38de283a361"
+    },
+    {
+      "text": "좋아! 다음 글자도 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/bc6cca34af2376d16606.mp3",
+      "duration": 2.52,
+      "bytes": 20396,
+      "sha256": "d2d4164702aaf5317b5583ea3168fc0b73f98e2584f5991f658a68dc515b7437"
+    },
+    {
+      "text": "다시 들어 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/e07d7d9ece83d32fbde3.mp3",
+      "duration": 1.488,
+      "bytes": 12140,
+      "sha256": "f38b6169edc2948545e20e623e80f0c0a0a723ac8a3c8fb4ecb29700676742a2"
+    },
+    {
+      "text": "다시 한 번 해 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/0bacce37a4c60798fdf9.mp3",
+      "duration": 1.752,
+      "bytes": 14252,
+      "sha256": "1a644875b0a38a256151402044a22cdeb33fd74868fc5d8a8e49ef4339241d26"
+    },
+    {
+      "text": "안녕! 함께 놀이해요!",
+      "kind": "guide",
+      "path": "assets/audio/71c207503e7a3bc44ab7.mp3",
+      "duration": 2.448,
+      "bytes": 19820,
+      "sha256": "98b5d202d022c842e97fd1699919a5a2a01a1c982b4c0a628cd64fa5691a94d1"
+    },
+    {
+      "text": "한 번 더 해 볼까요?",
+      "kind": "guide",
+      "path": "assets/audio/acf8b92f6eb9a4741ec8.mp3",
+      "duration": 1.728,
+      "bytes": 14060,
+      "sha256": "2998058166c42faac814d0dc486ce4ca31a6e496bca1c32d9b2bee82a808bffe"
+    },
+    {
+      "text": "멋지게 꾸몄네!",
+      "kind": "guide",
+      "path": "assets/audio/35b1818f2c745e0e388e.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "ab613594f786b56a0e9fbdcd97a1b0561debed05dad8eeeafdb1d3987c835478"
+    },
+    {
+      "text": "트로피 획득! 세 단계 모두 성공!",
+      "kind": "guide",
+      "path": "assets/audio/f083c1f2f7f9b0be92be.mp3",
+      "duration": 3.24,
+      "bytes": 26156,
+      "sha256": "2c1558c35a8e603beadad4bfdd2624314bf9d29756dc7588f8b8b05060ec0e7b"
+    },
+    {
+      "text": "다른 물건을 찾아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/2e74db98edb4d36c8778.mp3",
+      "duration": 1.968,
+      "bytes": 15980,
+      "sha256": "7da42fc7144d3d08da8725a71e69e3eef74dc8a337865c42e2e36ce9c14c92b2"
+    },
+    {
+      "text": "다른 색깔의 바구니야!",
+      "kind": "guide",
+      "path": "assets/audio/14eb632a53b52f78b85f.mp3",
+      "duration": 2.016,
+      "bytes": 16364,
+      "sha256": "ea0f75bc9ffac2ee2eb5bbed35287cf0e535b514d4dbcc405d0f5d72bc06c1bd"
+    },
+    {
+      "text": "그림자를 골라 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/f4d14ad3808a8ba93455.mp3",
+      "duration": 1.824,
+      "bytes": 14828,
+      "sha256": "d77fa836a4646d0ed89ffa71350a42a685fb3ffde6f869963e66ea6d45760db3"
+    },
+    {
+      "text": "동물을 먼저 골라 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/8e5b4170187c38c36da3.mp3",
+      "duration": 1.992,
+      "bytes": 16172,
+      "sha256": "a7991bfb05ce9e7dd1d2aeb369725558cc71e19fbd2c76cb306d0efb5d8206d0"
+    },
+    {
+      "text": "잘했어! 다른 동물도 연결해 보자!",
+      "kind": "guide",
+      "path": "assets/audio/183398f359180b91957d.mp3",
+      "duration": 3.384,
+      "bytes": 27308,
+      "sha256": "b4c68156a319554d0dda7289b619c696f2fb0911c02b0fc8b3b92dd1ed53e653"
+    },
+    {
+      "text": "다른 그림자를 찾아 보자!",
+      "kind": "guide",
+      "path": "assets/audio/08f9c6b82dd134995d16.mp3",
+      "duration": 2.16,
+      "bytes": 17516,
+      "sha256": "dfb7614182949e4185451afe1becf03b00b83cae9c591239c9a3822f91986533"
+    },
+    {
+      "text": "똑같은 곳이야! 다른 곳을 찾아 보자!",
+      "kind": "guide",
+      "path": "assets/audio/e0b385bb2ccfee9d9738.mp3",
+      "duration": 3.528,
+      "bytes": 28460,
+      "sha256": "9f30511d999fb2c6fe637d8472c4bb4a679669af3281fff8c6f11e3a8ce24c54"
+    },
+    {
+      "text": "정말 잘했어!",
+      "kind": "guide",
+      "path": "assets/audio/590aca08651975e13642.mp3",
+      "duration": 1.512,
+      "bytes": 12332,
+      "sha256": "56c68114d00807f0af19b1c99ef400a0e9ae422631922cc0492632d9c460914e"
+    },
+    {
+      "text": "분홍색 숫자에서 시작해 화살표를 따라 써 봐!",
+      "kind": "guide",
+      "path": "assets/audio/a346f2d8554bbc6a4b4a.mp3",
+      "duration": 3.888,
+      "bytes": 31340,
+      "sha256": "ae6ee20dd8e3fad61b763edb3bf3cfba18d952800b4a49ec9c7fd7c1634588ea"
+    },
+    {
+      "text": "점선과 화살표를 따라서 다시 써봐요.",
+      "kind": "guide",
+      "path": "assets/audio/82fcc54a8bd444d9a2a5.mp3",
+      "duration": 2.856,
+      "bytes": 23084,
+      "sha256": "6f49fe3fe3f7f8ee39c3172b39ab371c4ff3ba28bc8900375f4f2c15dbfe0933"
+    },
+    {
+      "text": "참 잘했어요!",
+      "kind": "guide",
+      "path": "assets/audio/de44bfdf33a12fb5cfa3.mp3",
+      "duration": 1.464,
+      "bytes": 11948,
+      "sha256": "6eadc7dbdb43a2a842170b028a3ee367d36ad7f6078c3c57bdf38f4cf001afd8"
+    },
+    {
+      "text": "안녕! 나는 쪼이야. 오늘은 어떤 재미있는 놀이를 해 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/c414605bd5ef9d109335.mp3",
+      "duration": 5.16,
+      "bytes": 41516,
+      "sha256": "7c87cbb147fcc618dc80dda04d2943a3d8a8e7f4fcd4222fda8616774ff1eb1a"
+    },
+    {
+      "text": "안녕, 우리 이현이! 오늘도 쪼이랑 신나게 놀자!",
+      "kind": "guide",
+      "path": "assets/audio/d243643a64e169cba86c.mp3",
+      "duration": 4.728,
+      "bytes": 38060,
+      "sha256": "af879914a7ccde9214bb2279ac0966f42e188c8dfbb0a190adbdd89abcf2b220"
+    },
+    {
+      "text": "다음 단계로 출발!",
+      "kind": "guide",
+      "path": "assets/audio/e3dd2ad83d04f92862a3.mp3",
+      "duration": 1.872,
+      "bytes": 15212,
+      "sha256": "bd0216596865baa42cfeac8e8daefe08d5fcfb0e6f014b75db83aa702117c083"
+    },
+    {
+      "text": "나온 공룡을 잘 보고 같은 그림을 눌러요",
+      "kind": "guide",
+      "path": "assets/audio/7a52005a96eee5c74e4c.mp3",
+      "duration": 3.12,
+      "bytes": 25196,
+      "sha256": "96e9409a15236f2d4a8f1cb9d68ae5d911574125ae8dcfcd13883e6db0375391"
+    },
+    {
+      "text": "그림 안의 넓은 부분을 눌러 봐요.",
+      "kind": "guide",
+      "path": "assets/audio/051b87db4a48e8a450e7.mp3",
+      "duration": 2.616,
+      "bytes": 21164,
+      "sha256": "567afb66751caa9b01e4b57d2dc5581ab8e4d4fb046d0e2258b4983fc72e25fb"
+    },
+    {
+      "text": "별을 찾아 보세요!",
+      "kind": "guide",
+      "path": "assets/audio/b2bb11945c5bda70976c.mp3",
+      "duration": 1.8,
+      "bytes": 14636,
+      "sha256": "401c47ff26d39ec9d00892bbae2869e10be59eb41945ac93dccbea6e5fe4f520"
+    },
+    {
+      "text": "별 그림을 다시 찾아봐요",
+      "kind": "guide",
+      "path": "assets/audio/1cfbccc55de6574a9874.mp3",
+      "duration": 2.064,
+      "bytes": 16748,
+      "sha256": "a38ffd427c1a0006266fe2714d6f78e7bdbfae0fc1e4076771885ed753fa518e"
+    },
+    {
+      "text": "달을 찾아 보세요!",
+      "kind": "guide",
+      "path": "assets/audio/82f59abf33dc73ec242c.mp3",
+      "duration": 1.776,
+      "bytes": 14444,
+      "sha256": "654d936d3baa85fcbb63d1783d5699c67756116514a66c2ebd1aef026fe52b2f"
+    },
+    {
+      "text": "달 그림을 다시 찾아봐요",
+      "kind": "guide",
+      "path": "assets/audio/beac16e58c2df796f83c.mp3",
+      "duration": 2.064,
+      "bytes": 16748,
+      "sha256": "724cb172bb393532f9b2cdf2488c3e7f5e2046275e0101553f8cee57b61c03e7"
+    },
+    {
+      "text": "토성을 찾아 보세요!",
+      "kind": "guide",
+      "path": "assets/audio/cbd9ba9e2314651343bf.mp3",
+      "duration": 1.896,
+      "bytes": 15404,
+      "sha256": "569166763ab16beaa52f61804219a311731b786654a7e91b4601975a2c148bc7"
+    },
+    {
+      "text": "토성 그림을 다시 찾아봐요",
+      "kind": "guide",
+      "path": "assets/audio/83eab2bcea93e0376e46.mp3",
+      "duration": 2.208,
+      "bytes": 17900,
+      "sha256": "60f1829a695bcb8dc1157cce2f3f2a16c829a256c59522d7788598c063646a00"
+    },
+    {
+      "text": "지구를 찾아 보세요!",
+      "kind": "guide",
+      "path": "assets/audio/0531ac9688772f6a32b4.mp3",
+      "duration": 1.872,
+      "bytes": 15212,
+      "sha256": "976e861da1cd5514e7fd8c926779d04922ab109fe1d0982233beb79907f03a10"
+    },
+    {
+      "text": "지구 그림을 다시 찾아봐요",
+      "kind": "guide",
+      "path": "assets/audio/9071ef7a04d46dc1239c.mp3",
+      "duration": 2.16,
+      "bytes": 17516,
+      "sha256": "47678f17ab9fe502ec9302427d63d5fc1404a7fc5a9fe1791e71000940d9e32c"
+    },
+    {
+      "text": "혜성을 찾아 보세요!",
+      "kind": "guide",
+      "path": "assets/audio/3c3faadbc49edbf9364f.mp3",
+      "duration": 1.896,
+      "bytes": 15404,
+      "sha256": "4d6be72042d57afd671721535c9d6e42b16135ce7e7a017f5b10a0f41c31e5fa"
+    },
+    {
+      "text": "혜성 그림을 다시 찾아봐요",
+      "kind": "guide",
+      "path": "assets/audio/2237572f3a88875561c2.mp3",
+      "duration": 2.208,
+      "bytes": 17900,
+      "sha256": "4cb0efdbc5bef5b4f01bfff65b38bb854fa474ca55d59b68ee6bc241f85895cd"
+    },
+    {
+      "text": "로켓을 찾아 보세요!",
+      "kind": "guide",
+      "path": "assets/audio/76fb0ecb95ca30bb35e1.mp3",
+      "duration": 1.968,
+      "bytes": 15980,
+      "sha256": "bc59afda8a11e1360a8e039a0ef0eb20a7d3388574806c1e1cb8cdb470e957de"
+    },
+    {
+      "text": "로켓 그림을 다시 찾아봐요",
+      "kind": "guide",
+      "path": "assets/audio/c757a354cde670975e68.mp3",
+      "duration": 2.304,
+      "bytes": 18668,
+      "sha256": "4424f1c9b4c78e5265f94d524d9851bae6f1aff980044b29fbbd69b012d4dee8"
+    },
+    {
+      "text": "티라노사우루스가 나왔어요! 아래에서 같은 공룡을 찾아 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/94e9a663a0b0b2c71ccd.mp3",
+      "duration": 5.28,
+      "bytes": 42476,
+      "sha256": "f684bf88e8ae0b8b3066e913dd0d4b6d72b6ef9537678125c81146227cb84342"
+    },
+    {
+      "text": "짜잔! 티라노사우루스가 나왔어!",
+      "kind": "guide",
+      "path": "assets/audio/1aa97c194bde80f7ab2a.mp3",
+      "duration": 3.336,
+      "bytes": 26924,
+      "sha256": "2b6fb8aca3fc4a540e4efcd1a2a2a502fca6a35ec10def58faf8dc6d166be81d"
+    },
+    {
+      "text": "디플로도쿠스가 나왔어요! 아래에서 같은 공룡을 찾아 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/e4f2667b97c3c368187f.mp3",
+      "duration": 5.208,
+      "bytes": 41900,
+      "sha256": "7e0235651ad1a00158ee21d7599987e0d66c2be343861152d29d373feb390c50"
+    },
+    {
+      "text": "짜잔! 디플로도쿠스가 나왔어!",
+      "kind": "guide",
+      "path": "assets/audio/0e9d9c3fa7475865a0d2.mp3",
+      "duration": 3.0,
+      "bytes": 24236,
+      "sha256": "f718b5f56e812390a8a7fb2f0f95d56c3b899acd367ff79e97edffe3aa99554e"
+    },
+    {
+      "text": "스테고사우루스가 나왔어요! 아래에서 같은 공룡을 찾아 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/2fc412529bb176d3e749.mp3",
+      "duration": 5.376,
+      "bytes": 43244,
+      "sha256": "c8dc1f6940e5babf4b6a87412c20433d5c8b4663704e6ee816139d212481570a"
+    },
+    {
+      "text": "짜잔! 스테고사우루스가 나왔어!",
+      "kind": "guide",
+      "path": "assets/audio/87440cd8035aa7deade8.mp3",
+      "duration": 3.312,
+      "bytes": 26732,
+      "sha256": "ab39504a2f772441dc8cb9ffe96714a752c666be0e3393b4656cc81e45f9a155"
+    },
+    {
+      "text": "파라사우롤로푸스가 나왔어요! 아래에서 같은 공룡을 찾아 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/1c052d29ea4a3f2ac0ac.mp3",
+      "duration": 5.592,
+      "bytes": 44972,
+      "sha256": "a5a55b808304226a02ba2c261e89e4a699c09adbea2004563668d5fbbfe916af"
+    },
+    {
+      "text": "짜잔! 파라사우롤로푸스가 나왔어!",
+      "kind": "guide",
+      "path": "assets/audio/a54344e8120d9a0cffb8.mp3",
+      "duration": 3.624,
+      "bytes": 29228,
+      "sha256": "611cb890d74bee36d27d5b9a9fbecbe0228907b8f207b92c89423f644acc8b05"
+    },
+    {
+      "text": "안킬로사우루스가 나왔어요! 아래에서 같은 공룡을 찾아 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/e83ba1f46c64f196581e.mp3",
+      "duration": 5.568,
+      "bytes": 44780,
+      "sha256": "7e5d60f4f481365a7ebc8a7de0416f5d1b9673e75d5c10e498d7b2200abf34fd"
+    },
+    {
+      "text": "짜잔! 안킬로사우루스가 나왔어!",
+      "kind": "guide",
+      "path": "assets/audio/991e2c2ec448d8f2bb7a.mp3",
+      "duration": 3.48,
+      "bytes": 28076,
+      "sha256": "84e3baa932f158ecab201655cd276dc88e6dc14887d2a3bf3425df5a76b5b699"
+    },
+    {
+      "text": "트리케라톱스가 나왔어요! 아래에서 같은 공룡을 찾아 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/52c503ec9dcbd988e50d.mp3",
+      "duration": 5.184,
+      "bytes": 41708,
+      "sha256": "0c9b9730afbbef44da2c32571ca25d9633258e03f93e0630b0719f54d2a8a157"
+    },
+    {
+      "text": "짜잔! 트리케라톱스가 나왔어!",
+      "kind": "guide",
+      "path": "assets/audio/91b9489996b5bfb9963a.mp3",
+      "duration": 3.048,
+      "bytes": 24620,
+      "sha256": "f27c2f474a17f75bc2d810ed6303482cdde624298aaaff99e3a8dacd834415d9"
+    },
+    {
+      "text": "나무",
+      "kind": "word",
+      "path": "assets/audio/b294b251f77dfbc5ede4.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "9430573f29e2bb08979433ceb7aa491d39eb56fded8767e9ba4b651b95e6f9bb"
+    },
+    {
+      "text": "사과",
+      "kind": "word",
+      "path": "assets/audio/46fc35121d1a4b332863.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "51bc691490dfe67a448fe3a4644ff6d552ef7785c376cb2faf2010e464744f08"
+    },
+    {
+      "text": "우유",
+      "kind": "word",
+      "path": "assets/audio/2b7e75051be2c51a0337.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "a2ba3e5133737305fa28a680155a5cc28470a241ca97bbac34e7fe1abd146547"
+    },
+    {
+      "text": "토끼",
+      "kind": "word",
+      "path": "assets/audio/fbd1f98ced90a29bfbc9.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "a5f7d0d3f676ced423d5bbe93d2639479da187132e8ab513f4cd4c74471cdbcb"
+    },
+    {
+      "text": "바나나",
+      "kind": "word",
+      "path": "assets/audio/5412337d0db0338a236a.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "687dae06b8a7c53f8160de041edb7938317741f110d6c0f79abb299b34ceccb4"
+    },
+    {
+      "text": "고래",
+      "kind": "word",
+      "path": "assets/audio/e0af4ba69bcee4ba8a64.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "ba02e4d626926ae3ad7e247396a3afa40a35487efb6a3d9c351008090cc423bc"
+    },
+    {
+      "text": "오리",
+      "kind": "word",
+      "path": "assets/audio/9d586e9c4a195a139de5.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "cc5cdba403a6bbfeb88e19180534f2ff21c3faeec0b3ab7b130392f9d56b5d33"
+    },
+    {
+      "text": "하마",
+      "kind": "word",
+      "path": "assets/audio/2bbc308e5ba3e74a8ae0.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "ff5d5ffd8e773e4bffd09c9012031cb87479e20b5c10654c944b4383ed1eecaa"
+    },
+    {
+      "text": "기차",
+      "kind": "word",
+      "path": "assets/audio/d0ab4116e9831f86ef6e.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "9ebc7ca0d006200f86ab1d89495939c243b8ed6fec901304daebbf61e13f9cdd"
+    },
+    {
+      "text": "포도",
+      "kind": "word",
+      "path": "assets/audio/0f7706d92c4d69b9de0c.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "1b612a4225d7c83ad1624562d6f838f6329da5ee617699121fbd1bbb5fb666a7"
+    },
+    {
+      "text": "나비",
+      "kind": "word",
+      "path": "assets/audio/2cb37f504898faa6fd3f.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "37e82e31431f94d655dde8f85bc935cf181a3464bb86467eb606f5b6373d6b21"
+    },
+    {
+      "text": "수박",
+      "kind": "word",
+      "path": "assets/audio/9375b0dc54036ec53a6f.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "2834d7081e661fde8278969f96692d3f36663c18677ae2a7b9d0c1365a46260f"
+    },
+    {
+      "text": "모자",
+      "kind": "word",
+      "path": "assets/audio/4bf2a7500031422684ab.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "a0c242cd46388834653f04ad9a75d25c0c31beadd3dbb734a581e638cd02c844"
+    },
+    {
+      "text": "바다",
+      "kind": "word",
+      "path": "assets/audio/1ea5c356f65344cfeb55.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "0138b879fd79ac12396eb424aee2120a19f524291adcc3cd2a7689e89cbbeacd"
+    },
+    {
+      "text": "고양이",
+      "kind": "word",
+      "path": "assets/audio/2c4930ad509e4bdce9b3.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "bafc3450d5dbea14add7c3a9018e780846774223c2a98ccbf833d1d6055338ea"
+    },
+    {
+      "text": "풍선",
+      "kind": "word",
+      "path": "assets/audio/fa1aff04d701ed379d6f.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "fef9313798c5a0eb3193353b9cded12879be54fc7f1f247ee08393b65997b5fe"
+    },
+    {
+      "text": "가방",
+      "kind": "word",
+      "path": "assets/audio/6852b2954fc8556674f1.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "6f878c40b9251e26e775d4c1e7c54b4bbcc7946a49238d72b87f5d4562f9b4b5"
+    },
+    {
+      "text": "우산",
+      "kind": "word",
+      "path": "assets/audio/8b6f9142a49be5004b82.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "3618c2befe9519364f65bf5b5301506c55f6575ce6068edbe5b9bc729600cd86"
+    },
+    {
+      "text": "해",
+      "kind": "word",
+      "path": "assets/audio/b4ec4274b7799f1f17e5.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "3eafb3989c70320f11a04866fcc9c52389d80367505826da7c1eef0b79e9f2bc"
+    },
+    {
+      "text": "눈",
+      "kind": "word",
+      "path": "assets/audio/ab1b14816087979d2143.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "e323b31d6337aa9932324a2625de23bf59a97ba25fec129559462781e7669527"
+    },
+    {
+      "text": "돼지",
+      "kind": "word",
+      "path": "assets/audio/7ecd93cd424c9eb2cbfc.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "40ce18f68568b9b8033d5f6bd73a03b8dd12d7015bae42c12e57f3ace3d1b49a"
+    },
+    {
+      "text": "자동차",
+      "kind": "word",
+      "path": "assets/audio/716907a2f49c42607a15.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "b5820930bd4817034760afd8eab4c7cdc5ce8a8f0d3e7748455662da0389f81a"
+    },
+    {
+      "text": "딸기",
+      "kind": "word",
+      "path": "assets/audio/8e8964075c066322556d.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "cc9184ba82f052ac2d8ce5b134d51153881eafaec2c715f7d256e83c74f5460f"
+    },
+    {
+      "text": "비행기",
+      "kind": "word",
+      "path": "assets/audio/3cb2c44c3b680b229e91.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "6ea6fa5b51664f37a3776dc5af92ae0f842308505fe4be2df21e6674866de895"
+    },
+    {
+      "text": "기린",
+      "kind": "word",
+      "path": "assets/audio/f8ca9e23b97c13054923.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "285590423073081eb298c4b50d27713468759671abaca4d934c8995006a5c8dc"
+    },
+    {
+      "text": "호랑이",
+      "kind": "word",
+      "path": "assets/audio/a5246384c2bf21692227.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "2d01a4e892b8131b80a9c0f4a07a7276ed4a1fbf18524bc90ccab14f01b7bba4"
+    },
+    {
+      "text": "거북이",
+      "kind": "word",
+      "path": "assets/audio/12f9eaa937895bbde586.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "51e049c8bc879551511e4b3dcdb0a7de9f3b43c0eaf4f037c2f564d6d0166051"
+    },
+    {
+      "text": "소방차",
+      "kind": "word",
+      "path": "assets/audio/f81b9eab297d80761b8f.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "61afe51a0d7fc0bdadcc9f13adef27efb764cf1662ab019a132545e18037fd90"
+    },
+    {
+      "text": "소방차! 소 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/f195134f1ddba968e300.mp3",
+      "duration": 2.544,
+      "bytes": 20588,
+      "sha256": "43d64cb1876dd4aa2d36689efed9b7e4b22ee0004af41e020e81510e29eeb036"
+    },
+    {
+      "text": "소방차! 소 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/91a5d37f6c80fcb499b3.mp3",
+      "duration": 2.28,
+      "bytes": 18476,
+      "sha256": "4ece2ba3491ec08944d787878c0b2e97d97746bc0efefe8b0366ef727764b111"
+    },
+    {
+      "text": "소 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/fa8efab77c3aced341d5.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "4c66c9b9433f7889cf01b556c2fc13209523711881b90f73f0113bad5a175728"
+    },
+    {
+      "text": "소방차! 방 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/710b2bfe9de072df0de3.mp3",
+      "duration": 2.304,
+      "bytes": 18668,
+      "sha256": "e31d20d3ca50009c9da442e1921dffc4f54754fbe1d82dbb30f76c5bf9070260"
+    },
+    {
+      "text": "방 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/882d80c6ee24ad818181.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "f0136951e33f35de4a8320a533d9d19063f4f9594031cf3fcbe17ae6a7c29e3e"
+    },
+    {
+      "text": "소방차! 차 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/6168f486281669ebd57c.mp3",
+      "duration": 2.304,
+      "bytes": 18668,
+      "sha256": "c01ad0b2095bc4910c323be433b9622bd78e578a8fe954a97fb4f0dbd5862d6e"
+    },
+    {
+      "text": "차 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/77a6f7b34c7b310b790c.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "70d8ee1545544d8ca14b4e58f0a0a8d774cfb6779b0147a8d74617fde398e912"
+    },
+    {
+      "text": "자동차! 자 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/608c0ee000a70e9539b9.mp3",
+      "duration": 2.568,
+      "bytes": 20780,
+      "sha256": "2f9769607fbaf623d1e6f04ac5843c6e3a05f9d4ec8f1895247e4b7b0f8ee3fe"
+    },
+    {
+      "text": "자동차! 자 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/80623d0353d148fe868a.mp3",
+      "duration": 2.28,
+      "bytes": 18476,
+      "sha256": "457604e47c8a31e6584b45de93a97de5f7162fa5cf1040c4d54e6d3aec12c565"
+    },
+    {
+      "text": "자 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/d62f5e36d2f35ff746e5.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "6baa5ad0d5af7b3f731f243969a14d4816350720f3c2b1a4f351491d02068b23"
+    },
+    {
+      "text": "자동차! 동 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/a46546f5b52e15d95b1a.mp3",
+      "duration": 2.256,
+      "bytes": 18284,
+      "sha256": "46e39d7c37f97be24bbe769e1ee44edd7885d37fb0912be2230fef9e5858cd60"
+    },
+    {
+      "text": "동 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/626419d92a7b1e32c1ec.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "04ada9497f1c5deef266df06b7c3323a7773dcae3f9008814abc73bc7b7cb1bb"
+    },
+    {
+      "text": "자동차! 차 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/7090d4a1c36b248ed7b4.mp3",
+      "duration": 2.304,
+      "bytes": 18668,
+      "sha256": "030d9611ea230e20386ba57244bf65cd8957c63de39b20759ae152aa29f5e351"
+    },
+    {
+      "text": "공룡",
+      "kind": "word",
+      "path": "assets/audio/4b02690b9e11adc24fd0.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "c8154218c0e1534b5ead3c686554ccd1e1f7ae136e8b509ac12a00a80f52f4d1"
+    },
+    {
+      "text": "공룡! 공 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/f2687da74dd6f18b5d7b.mp3",
+      "duration": 2.568,
+      "bytes": 20780,
+      "sha256": "139048bd2bbf71611afa7301ea3bf70b1f7f1195455a988520fd14adde6ce575"
+    },
+    {
+      "text": "공룡! 공 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/e7e09626a5f51866761f.mp3",
+      "duration": 2.328,
+      "bytes": 18860,
+      "sha256": "e01876a4a2b873df73900bdf44d21c7686ae7e9423d8492b7864a0f837e847d8"
+    },
+    {
+      "text": "공 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/681b1ac7abad120a52b9.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "8690f70a8dcc93bf9249fb6473c66886121dccb55cda948b3d0a59da44e439a5"
+    },
+    {
+      "text": "공룡! 룡 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/1b748e8c5a023b7a54b6.mp3",
+      "duration": 2.16,
+      "bytes": 17516,
+      "sha256": "0eab196cdaa4a57590e28025488a39fe132cc19372370f21057bbbf8c6c0edba"
+    },
+    {
+      "text": "룡 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/2c1db61dd52b43a8416a.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "5603a53bd7cdc1b0c784b391bbc8c2b73efe99e1870c57c6da06202bbf00fb7e"
+    },
+    {
+      "text": "알",
+      "kind": "word",
+      "path": "assets/audio/63251c05b0dbf37fa9f0.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "3c91f6559b89196825eaed78580c6a495173fe144fa1c56c7685d60c98572578"
+    },
+    {
+      "text": "알! 알 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/495904285e9f8e51b9cc.mp3",
+      "duration": 2.352,
+      "bytes": 19052,
+      "sha256": "0be0ebcf007b8dc652ed873395a166ea088ff12a3388ac930ce58da17593f10f"
+    },
+    {
+      "text": "알! 알 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/f981b6eea89b2b11940e.mp3",
+      "duration": 2.112,
+      "bytes": 17132,
+      "sha256": "59faed6ad4745a45a581564398de420da19e90b544ffea8467b2eedebe452c2b"
+    },
+    {
+      "text": "알 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/ecaae293b613f8694541.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "bd10b3ca2a6ecf24928c5f059e9b052515a32db5d059689f147d08d0608d0b31"
+    },
+    {
+      "text": "화석",
+      "kind": "word",
+      "path": "assets/audio/f2d5ad63550a62d62083.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "1ee8532b85196cc32bee38b742407817540b41a455c40a03e92f2cdbea1eea05"
+    },
+    {
+      "text": "화석! 화 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/df77b9f861a94d53ace4.mp3",
+      "duration": 2.376,
+      "bytes": 19244,
+      "sha256": "1fee52dce6b48824f69846c3e9d7806eff448568e150b4e5b21d3b08d766963f"
+    },
+    {
+      "text": "화석! 화 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/4e791132023a27f0807a.mp3",
+      "duration": 2.112,
+      "bytes": 17132,
+      "sha256": "4fcde58950c52af8b4837bc22ecfcb81ea8ff78b8c9590afea13756500e83349"
+    },
+    {
+      "text": "화 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/a8849b100be95432a227.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "28865800c8d62e2cfec0ce6c1759e0f8bebe137c51180f14da250a0cfe111621"
+    },
+    {
+      "text": "화석! 석 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/c651f840ee0c728ed40d.mp3",
+      "duration": 2.184,
+      "bytes": 17708,
+      "sha256": "e841c41b365f702ed330badb9f26eb9d4ddf485c872f3fca44d1b17094e54fc1"
+    },
+    {
+      "text": "석 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/e51e88bb1891421a11fa.mp3",
+      "duration": 1.632,
+      "bytes": 13292,
+      "sha256": "45ae887576b7efac2c64333c052901d1947a8934118a2c1037b0104ea322986f"
+    },
+    {
+      "text": "별",
+      "kind": "word",
+      "path": "assets/audio/ae3fc36d3a72017f758a.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "1b3b397e47708374842c18763bc0ab4ee66b97e9a7986bf9f4b3f1de7bdc104b"
+    },
+    {
+      "text": "별! 별 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/f17f32b9ff1bfc5b5e51.mp3",
+      "duration": 2.256,
+      "bytes": 18284,
+      "sha256": "3f0b6ca0beb2b66b9a7d6afaac88d3774a880fa54946af797ca65aca1f96d1a0"
+    },
+    {
+      "text": "별! 별 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/21a5c2469928a3b3a70a.mp3",
+      "duration": 2.016,
+      "bytes": 16364,
+      "sha256": "be34f7b7716707f71d02f1aadfc82bd0ad54b40c5febfffdab1275fc89caa193"
+    },
+    {
+      "text": "별 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/bb82b95f668f7759f59b.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "87a03f6d5b07a04ec4820bf04bdb2954fc6414f730e525bd7c0d107eae26dc80"
+    },
+    {
+      "text": "우주",
+      "kind": "word",
+      "path": "assets/audio/c33b8509979e2639ffc3.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "0104d4a29172de21467ac8260f4f9e32463c5757d4c69da9bb35bc2599aa1007"
+    },
+    {
+      "text": "우주! 우 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/97ed756a3cf30f51b9dc.mp3",
+      "duration": 2.376,
+      "bytes": 19244,
+      "sha256": "6fd302e1172c9aa688c26b28bd403fbfc2254af43cacaef1893c9348f00d022f"
+    },
+    {
+      "text": "우주! 우 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/b1c33e45f3c401005d65.mp3",
+      "duration": 2.136,
+      "bytes": 17324,
+      "sha256": "d891c9ef16e1c1dcee2eb6b76adcbb15963ac414535be76972a1c95749ad3c46"
+    },
+    {
+      "text": "우 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/551ccc74559e36071f4f.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "bdd487f1f750d9a9c714c447ce66267d392d99cf879695224d5d1a3633020e98"
+    },
+    {
+      "text": "우주! 주 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/f9c7e20b02d3d7a524c2.mp3",
+      "duration": 2.136,
+      "bytes": 17324,
+      "sha256": "c179891d71a64f5fe35dcca49baadd56c6ff78fe24b0f781befc3908a1e09c9c"
+    },
+    {
+      "text": "주 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/dfedf65dda1784cba106.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "158aa41c7719f4f4aa00f111958395ec3a76d01060a37385d2b98f8b6b5640f9"
+    },
+    {
+      "text": "행성",
+      "kind": "word",
+      "path": "assets/audio/376e8a4f4a4dab150c2f.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "fd17365ebb9ab09c6bcf42792d9d30b1385b2086c1af1ab114f4eb9998d26aef"
+    },
+    {
+      "text": "행성! 행 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/2847cfb085137091b96c.mp3",
+      "duration": 2.448,
+      "bytes": 19820,
+      "sha256": "03e02d5662bcf8c70215a36eaf591341f141c5381700bdffa532134690f8affe"
+    },
+    {
+      "text": "행성! 행 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/edf1d14d1197200ad2e6.mp3",
+      "duration": 2.208,
+      "bytes": 17900,
+      "sha256": "032f8a657fa2201c3cc68c0e369a76844db4482060f998a89a764e2bc348aea3"
+    },
+    {
+      "text": "행 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/76de3e72f3b03ae41bcd.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "6dd0223c37e7f596f64fec5a21fc9bcbf87192d98b54b323a4bec25ee4e1db45"
+    },
+    {
+      "text": "행성! 성 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/fc4cc85926d26f7412d8.mp3",
+      "duration": 2.232,
+      "bytes": 18092,
+      "sha256": "7a496be97dadc0d1027174e024b0fc050a442c67d29d7244f1c7c5f35ccc81fb"
+    },
+    {
+      "text": "성 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/4d259fdae0f35198f8e3.mp3",
+      "duration": 1.632,
+      "bytes": 13292,
+      "sha256": "812272a8b6b377cb72d59a73388e04cc65d4c806679a27869c0b2eb640e2d888"
+    },
+    {
+      "text": "먹이",
+      "kind": "word",
+      "path": "assets/audio/fc4a3649c8adcb1fb5ff.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "218d2e04cd2a71d5a74341f86052b8b8abe96d987803ab9307489135c0efa679"
+    },
+    {
+      "text": "먹이! 먹 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/2050f41e952338cc158d.mp3",
+      "duration": 2.352,
+      "bytes": 19052,
+      "sha256": "e2072f5f5a9942185739ce38a35084f6f5313e4dcb24627949e663505f33e8b1"
+    },
+    {
+      "text": "먹이! 먹 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/3eacb04f60fb36a18cca.mp3",
+      "duration": 2.088,
+      "bytes": 16940,
+      "sha256": "63aa5db04206786d179e1f82b33ae1a4c5a95c8f93d770b73c1ab2111ce00798"
+    },
+    {
+      "text": "먹 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/ace92ea1f0a654f4ebb5.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "1ac72ae9c60854bde8af66b86b415c3fd9bc6a38635b7c38ec46cd4b757e3389"
+    },
+    {
+      "text": "먹이! 이 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/e9bd9b65b0a851bff176.mp3",
+      "duration": 2.088,
+      "bytes": 16940,
+      "sha256": "9ce2eeb43ee8d30694fadbc94a216f19ba7247481a938ae2af9724d884f5db7c"
+    },
+    {
+      "text": "이 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/983a32770ffb993c615d.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "5f49937c54648ea89d9b97064d89be23a1392956d7d411ade8066824cd59fbdb"
+    },
+    {
+      "text": "동물",
+      "kind": "word",
+      "path": "assets/audio/227e25cceb2f8449c2a4.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "a0a20634889b01956d04da91a026773fa7be7121d8d30b957dcf475527f7772b"
+    },
+    {
+      "text": "동물! 동 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/3ad05e39c92703b6759c.mp3",
+      "duration": 2.424,
+      "bytes": 19628,
+      "sha256": "4dded5c37f3ac214ef6fb6ab70af29953cd9b3df66dd628745b45121b46acb61"
+    },
+    {
+      "text": "동물! 동 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/da7d9c0c1955f7af667f.mp3",
+      "duration": 2.16,
+      "bytes": 17516,
+      "sha256": "8c15f01de5c6fed19508187cf4774e0847143acf8f2534a54db4169cdde5e5d1"
+    },
+    {
+      "text": "동물! 물 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/05de1df9242bc6d99556.mp3",
+      "duration": 2.184,
+      "bytes": 17708,
+      "sha256": "2253f590e33279538d4075bb3555ef8cb42dd12b57839dd1d527cfca1e0c0f17"
+    },
+    {
+      "text": "물 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/53ed213ab37c60a1c51b.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "ce061075fbe07921061a8b33c6665d8ccbe5c10c237fe0d1a8da5d3f2e7dac23"
+    },
+    {
+      "text": "친구",
+      "kind": "word",
+      "path": "assets/audio/1202aff936337891e079.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "27384ed48b1a95ba679f86228eb10adcdb396bdd949eb701af91323ebd327fb1"
+    },
+    {
+      "text": "친구! 친 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/fd0ab770b79e5b55cc91.mp3",
+      "duration": 2.448,
+      "bytes": 19820,
+      "sha256": "019a9b0fd6b611cc520d53efb1a9a110e1b1df9bd7e4e1e3667090c8bf6b3c8a"
+    },
+    {
+      "text": "친구! 친 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/f302b9fd1897165b99e8.mp3",
+      "duration": 2.184,
+      "bytes": 17708,
+      "sha256": "e5a14cce73f1cb215c0c146804159978ee9f9eecebb618841c88dc989fbc931b"
+    },
+    {
+      "text": "친 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/be58ab1201efe5ad3ad4.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "c1523cfb55a336b5aab4737357318f6f3eb250ab317ed6767d6c9b9e86627a09"
+    },
+    {
+      "text": "친구! 구 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/eabf5762f46df2d2ead7.mp3",
+      "duration": 2.208,
+      "bytes": 17900,
+      "sha256": "fa5336df127af3c420f01fade5a47e0003f0ab3e9d9a993d1e8173145cda4dc0"
+    },
+    {
+      "text": "구 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/3c588e31ebf857cfd3f3.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "d0929f43a77beb947847acdaf3432435b936937df7ea9ba2b019363ec691875d"
+    },
+    {
+      "text": "두더지",
+      "kind": "word",
+      "path": "assets/audio/e7cdd0ebe103e266e232.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "afcb5eb74850d34c6d946191a62e3394adf934b910f50db2e576acc21123450f"
+    },
+    {
+      "text": "두더지! 두 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/05ce29b8707d95339600.mp3",
+      "duration": 2.328,
+      "bytes": 18860,
+      "sha256": "fc08159015b72a967f260276c56d8d284d2b50e2701e83f21a4908246ccc1951"
+    },
+    {
+      "text": "두더지! 두 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/ef2f5eaffc7825541948.mp3",
+      "duration": 2.064,
+      "bytes": 16748,
+      "sha256": "bf2d6c25814a1f17ab9d0da152258ecea1a1075db44bf2f057f7bff26b99aaee"
+    },
+    {
+      "text": "두 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/2e077d74e6e5cba493f5.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "e3f3cf893cdee7d93fd762e29b52e0e9d61a7ac815e5697e868a75b96ee2a998"
+    },
+    {
+      "text": "두더지! 더 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/cca5750b67681dfe3627.mp3",
+      "duration": 2.04,
+      "bytes": 16556,
+      "sha256": "beaa50c80ceccccd5ae369149f034fb1e97d42193c255430de113f4c7893ff1c"
+    },
+    {
+      "text": "더 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/e2b6c5426f758888777f.mp3",
+      "duration": 1.536,
+      "bytes": 12524,
+      "sha256": "57b43fe94212108efe9e4584738c600516c14fbf7d3d17b7377c8d8c40e1856b"
+    },
+    {
+      "text": "두더지! 지 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/9e3524cf9fc2455d3bee.mp3",
+      "duration": 2.136,
+      "bytes": 17324,
+      "sha256": "561277fd05fd0d17bf7229018f1bd08d88124b44027efe2742832b44e16b2feb"
+    },
+    {
+      "text": "지 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/e322e10bd9fd6bedcb57.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "92eca4824946f9ac9728c480a75cdbc87f46fef4eea97abf7590ad21611d940d"
+    },
+    {
+      "text": "색깔",
+      "kind": "word",
+      "path": "assets/audio/3d409d9195a629032477.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "d11e2c7b69efc0f5accd3e2a063bc27f3621b1901233dd2d1800a9a345906b7e"
+    },
+    {
+      "text": "색깔! 색 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/223f0b6a5791c56e5266.mp3",
+      "duration": 2.52,
+      "bytes": 20396,
+      "sha256": "b61e012e1689b92d1313c4690ac0df50eb9514cfc5cd639762f075adf0718ab4"
+    },
+    {
+      "text": "색깔! 색 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/c9712950cb01420ab4d4.mp3",
+      "duration": 2.256,
+      "bytes": 18284,
+      "sha256": "751204d9d4e6726380ee1a6708ce4655795564a9c3c1307fcd633d0131d74bcc"
+    },
+    {
+      "text": "색 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/2b15796d052856d30a33.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "e29829069c5c5316a8a09d5b45d5ea69514c1a404a56659e1e91a90934196c38"
+    },
+    {
+      "text": "색깔! 깔 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/bd02ddf1f55358b67739.mp3",
+      "duration": 2.28,
+      "bytes": 18476,
+      "sha256": "9b1de47e019feca6169c779608dba8728d206c2dad2ab1b57a6793c358e560da"
+    },
+    {
+      "text": "깔 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/744bb1c3a0b68ed82c91.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "197d29052fa0df422f94bc77dfebb6ea1a9537f0be013cd6b7ae163a94ff27ca"
+    },
+    {
+      "text": "그림자",
+      "kind": "word",
+      "path": "assets/audio/f6f09acac65b893576b5.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "5f4fbe1a1adad27f35d09c70090cece214543eb21c913e06f24f836abd07f095"
+    },
+    {
+      "text": "그림자! 그 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/c1e61c7a418ac144db0f.mp3",
+      "duration": 2.52,
+      "bytes": 20396,
+      "sha256": "4c0727681f0e88526719c3556f967a8d521098a2938511dba0b7e1df2e1949ff"
+    },
+    {
+      "text": "그림자! 그 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/aa6bc42d10663e379318.mp3",
+      "duration": 2.256,
+      "bytes": 18284,
+      "sha256": "e9765084660d58d11ac94e68478ed024d7b75ee959f585a2db16424e6c4b8f32"
+    },
+    {
+      "text": "그 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/f6a9a415ed1d84390f44.mp3",
+      "duration": 1.536,
+      "bytes": 12524,
+      "sha256": "00e3cf7b061e4720c3b615d28ae14224f2c014a500e6d2bd7799911a31e88647"
+    },
+    {
+      "text": "그림자! 림 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/7a1c307c0bf208ae765d.mp3",
+      "duration": 2.232,
+      "bytes": 18092,
+      "sha256": "9c5241942af118ab35c7888ccd19fdb8171b8803b565b679a3c3c5d2e6540cda"
+    },
+    {
+      "text": "림 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/d2cd8d85deda31030f3e.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "caed40eabf920245e7f27264a8a0eb96d295803b251980a2e5ba3504437a0f92"
+    },
+    {
+      "text": "그림자! 자 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/f71ee8a0ee836e2a3479.mp3",
+      "duration": 2.28,
+      "bytes": 18476,
+      "sha256": "cd4c819286a85353ad50d8a62348e118cb20eea885835cdc35d99c183f3b6132"
+    },
+    {
+      "text": "다른그림",
+      "kind": "word",
+      "path": "assets/audio/4ce63d1c4f1cfdb52b7b.mp3",
+      "duration": 1.32,
+      "bytes": 10796,
+      "sha256": "886e2bc13bbadda05c6f228a52c38b5408b6e6e16dd6abddeaa30b70f2906665"
+    },
+    {
+      "text": "다른그림! 다 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/d10aa9c2bd2ae582a302.mp3",
+      "duration": 2.64,
+      "bytes": 21356,
+      "sha256": "74570a9476ed5cf818becc49bd1a320766df8d24d7ac62b3fc92af2c5465e6a3"
+    },
+    {
+      "text": "다른그림! 다 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/73a68acda17c764a6be5.mp3",
+      "duration": 2.352,
+      "bytes": 19052,
+      "sha256": "b095d5247e26e5c7bdaba4acaee073f8cc2bdd10511ef2f19240782b68ed7354"
+    },
+    {
+      "text": "다 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/9fceea3f23f4f540989a.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "93428adc115747e35c3bd405a77209fb825f02231acacab1c495f34636ac692f"
+    },
+    {
+      "text": "다른그림! 른 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/782826f24f60508d1c00.mp3",
+      "duration": 2.352,
+      "bytes": 19052,
+      "sha256": "d6ae1e0a667c31e4d536c537a1640519708384e8bf7bcb436dfcb1cda931788a"
+    },
+    {
+      "text": "른 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/1c46dfc8ef1c4a78992f.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "5d0cf2eee3e6e764cbb19018de4797079fdf9d09f585e60d3610cb11e6185812"
+    },
+    {
+      "text": "다른그림! 그 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/e124624081c104d3ab29.mp3",
+      "duration": 2.424,
+      "bytes": 19628,
+      "sha256": "997aee0a2f47d528e43c20b9e1cc5fddb3223028056d17805d44627c968fc22b"
+    },
+    {
+      "text": "다른그림! 림 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/e30b72886c151ee8c250.mp3",
+      "duration": 2.4,
+      "bytes": 19436,
+      "sha256": "7e027fcf3178a39aca4c29085f6557cd9bfa2fc5046d1e8b237df0d329bb95ee"
+    },
+    {
+      "text": "숨은그림",
+      "kind": "word",
+      "path": "assets/audio/1fc570a4b9fb9ef1bb8c.mp3",
+      "duration": 1.368,
+      "bytes": 11180,
+      "sha256": "14aa687d10929486def1ef63cbc322716a1fc1c5cb0a06cbf063e75db6ddab00"
+    },
+    {
+      "text": "숨은그림! 숨 따라 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/cd992a6ce845002ca708.mp3",
+      "duration": 2.904,
+      "bytes": 23468,
+      "sha256": "a25f885bb6ee523448336ab071031925636ef7e13c7f667964de315fefd92cc1"
+    },
+    {
+      "text": "숨은그림! 숨 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/d10aeb41280464e2d25a.mp3",
+      "duration": 2.592,
+      "bytes": 20972,
+      "sha256": "aacdf23a0473ad58a241498a03abdefae8fc441bf31df381222531b14bfcd759"
+    },
+    {
+      "text": "숨 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/45b74496345636c7c35b.mp3",
+      "duration": 1.632,
+      "bytes": 13292,
+      "sha256": "4932d865d690cbe58d69efe29dc6eb07c9d198f12c29e8f6a627dd2c630bb162"
+    },
+    {
+      "text": "숨은그림! 은 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/973b45f1356eab79f089.mp3",
+      "duration": 2.544,
+      "bytes": 20588,
+      "sha256": "5490575ecda233c6621a3b92d65621339e082239d6538674ed37430d5492e686"
+    },
+    {
+      "text": "은 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/cb7c5b8bbb9c09ef78e7.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "01fc8a9bacb633b60b7e91e61ce51ef00e8b4c6ff6e67f532404307554fc219b"
+    },
+    {
+      "text": "숨은그림! 그 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/3c32814bf5b8407174ec.mp3",
+      "duration": 2.544,
+      "bytes": 20588,
+      "sha256": "2479273914490ec107c0ed9ac4decb34f13ae3b4f0c348431973a94b42857f95"
+    },
+    {
+      "text": "숨은그림! 림 따라 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/aade517df560a3e924d2.mp3",
+      "duration": 2.52,
+      "bytes": 20396,
+      "sha256": "0eb519835da9ff2e8784ce70262928e1665cb1f7e929208da544408b0f4a37d2"
+    },
+    {
+      "text": "소리 설정",
+      "kind": "guide",
+      "path": "assets/audio/c26ca36a1f54654ac73b.mp3",
+      "duration": 1.368,
+      "bytes": 11180,
+      "sha256": "f07071ecd08e168054ea1380c0effa67ac69745874237ac39b8efb97cb8312b8"
+    },
+    {
+      "text": "놀이 화면",
+      "kind": "guide",
+      "path": "assets/audio/2a6f46cf53da2073db66.mp3",
+      "duration": 1.32,
+      "bytes": 10796,
+      "sha256": "c9f756dc8a99d671ec99ce7b7f01d16b3a4bd08696cae0c6b84a2d74b9d7682c"
+    },
+    {
+      "text": "숨은그림 찾기",
+      "kind": "guide",
+      "path": "assets/audio/98c0b42a4a4e3fddfa3b.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "9c0bc81e53dacf1180f744106553e96be2659131821d4a91453e689de65cefa6"
+    },
+    {
+      "text": "그림 속에 숨은 물건을 찾아요!",
+      "kind": "guide",
+      "path": "assets/audio/aa7f534a76559185a641.mp3",
+      "duration": 2.568,
+      "bytes": 20780,
+      "sha256": "4389832994a5008ef3e78472611a2e11464f77023681ccaa145016744391c938"
+    },
+    {
+      "text": "바구니 색깔 바구니",
+      "kind": "guide",
+      "path": "assets/audio/f41fa5343cd1671b66c9.mp3",
+      "duration": 1.848,
+      "bytes": 15020,
+      "sha256": "b84e66b5eb3cf087822e077148c593beb134fc210b8a92e8f67dc0be0cb5965e"
+    },
+    {
+      "text": "같은 색깔의 바구니를 찾아요!",
+      "kind": "guide",
+      "path": "assets/audio/1271dfe17861060de2b0.mp3",
+      "duration": 2.472,
+      "bytes": 20012,
+      "sha256": "9d0b83d4ff76e8237fe529fb9e929b54a263795cb43369ba69d2cff988ca6454"
+    },
+    {
+      "text": "색",
+      "kind": "guide",
+      "path": "assets/audio/4e0f2a64814ac0cdc90a.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "41153a0fd7b6a304039a3b694fd5d9e26c4bce975cefd4c55ee50e8f38915fff"
+    },
+    {
+      "text": "바구니",
+      "kind": "guide",
+      "path": "assets/audio/aefd79ef32fe1aa93eff.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "474292bfbf34fc5939b7b4ea60557919968d1fecff376e915c6e3aa7647061f4"
+    },
+    {
+      "text": "동물 그림자 연결",
+      "kind": "guide",
+      "path": "assets/audio/e8fd200173482c7409f4.mp3",
+      "duration": 1.8,
+      "bytes": 14636,
+      "sha256": "10dcccf07d4d8c15db8422f71e71c0751f6d4c0d00b1be2ef718c22379b007e7"
+    },
+    {
+      "text": "동물과 똑같은 그림자를 찾아요!",
+      "kind": "guide",
+      "path": "assets/audio/e9db33fd40358835c581.mp3",
+      "duration": 2.616,
+      "bytes": 21164,
+      "sha256": "9a803e800374f9a5df1fafdbe9473e1eb0c1e3068abe2c7575842148e34fab6d"
+    },
+    {
+      "text": "그림",
+      "kind": "guide",
+      "path": "assets/audio/c143fe9e8e3a2db7a2c3.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "bbfd4f22ceba8eb6695e0e5c9acc636770e406ae1c28056851f0eac2509798b4"
+    },
+    {
+      "text": "두더지 두더지 잡기",
+      "kind": "guide",
+      "path": "assets/audio/297dbdf315177d9a02a9.mp3",
+      "duration": 1.68,
+      "bytes": 13676,
+      "sha256": "e829fc97725fe0b69fd5b0406945b73733b81b9f4c6c5b6f86b0a69c22b899d6"
+    },
+    {
+      "text": "쏙! 올라온 두더지를 톡 눌러요!",
+      "kind": "guide",
+      "path": "assets/audio/64b32dbccc5ec98e397b.mp3",
+      "duration": 3.24,
+      "bytes": 26156,
+      "sha256": "61832bc6bec50909a274e1399090f69752c4e8fc93b80914e79b0cb3fa68aa08"
+    },
+    {
+      "text": "두",
+      "kind": "guide",
+      "path": "assets/audio/dfedd225bb659d500f65.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "8b2a8231ea651a16e9b9587442ef9718b4c0fb1c6edaa439c67b394ec1011f44"
+    },
+    {
+      "text": "틀린그림 찾기",
+      "kind": "guide",
+      "path": "assets/audio/318d01ceca149dfd01e7.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "16231fd11eaeb98a64f732423bcc6411b285ece1850c18b623bc638ec067e239"
+    },
+    {
+      "text": "양쪽 그림에서 달라진 곳을 찾아요!",
+      "kind": "guide",
+      "path": "assets/audio/77d7b5eb2ba0dc7f0f31.mp3",
+      "duration": 2.928,
+      "bytes": 23660,
+      "sha256": "126b2a69630c41357627532ac5589bf1c8295e649afd8e51209471e72bfaace8"
+    },
+    {
+      "text": "다른",
+      "kind": "guide",
+      "path": "assets/audio/f1f4ce417552e1974311.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "6567a030a267df84224ec482be0c9b2b02676d223421c6c0eb50aed878210f58"
+    },
+    {
+      "text": "틀린그림",
+      "kind": "guide",
+      "path": "assets/audio/def3583589bbe97617cf.mp3",
+      "duration": 1.32,
+      "bytes": 10796,
+      "sha256": "757013a9426115838c75d1070fb9b2237ef765be8d8cb3f389907470571f57ea"
+    },
+    {
+      "text": "디플로도쿠스",
+      "kind": "guide",
+      "path": "assets/audio/5cad6ac8d6a0ac58b943.mp3",
+      "duration": 1.392,
+      "bytes": 11372,
+      "sha256": "7ea095ca77d930b8ffe72f9dd9ced2d0fb8a86d805b525bfae616638b4779da3"
+    },
+    {
+      "text": "해바라기",
+      "kind": "guide",
+      "path": "assets/audio/c70a267877b1d941b38f.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "9fd5bfdab26eac933ef1dcaba2844d74ec7cdcc5ca6bbf7af0a6ba5d61f86060"
+    },
+    {
+      "text": "빨간 풍선",
+      "kind": "guide",
+      "path": "assets/audio/44edf08b544815cd9f9f.mp3",
+      "duration": 1.44,
+      "bytes": 11756,
+      "sha256": "5696314a866dcabc343329fc62027fa6443a254901d60784249e363de6c647fe"
+    },
+    {
+      "text": "개구리",
+      "kind": "guide",
+      "path": "assets/audio/d3566aef7f819cdb65fe.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "557d5b55ca4e619cf64a90fccb81e6cf849fe8b55f86baff518fd55d33fbc2ba"
+    },
+    {
+      "text": "선물",
+      "kind": "guide",
+      "path": "assets/audio/807cae1b570857696082.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "a01fd4c869c11768c898c18a1a7630034a47f59ecd1a87692120118714070d61"
+    },
+    {
+      "text": "강아지",
+      "kind": "guide",
+      "path": "assets/audio/94e82412553f09dd4eb4.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "9b73f15f469613544530b7af30dbb0dfa1c705e073affe20f3176442ec41ffb8"
+    },
+    {
+      "text": "원숭이",
+      "kind": "guide",
+      "path": "assets/audio/86be246c750e677c46c6.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "025fbe1263353824f388c3e78743117946f7e396e96f5a58642453a558b3f6a8"
+    },
+    {
+      "text": "파란 보석",
+      "kind": "guide",
+      "path": "assets/audio/f03546cea75049925df3.mp3",
+      "duration": 1.392,
+      "bytes": 11372,
+      "sha256": "ae9662e9449eef5917c1879c0082e1efeb3be9eada15ec535bc407405a4404ab"
+    },
+    {
+      "text": "파란 나비",
+      "kind": "guide",
+      "path": "assets/audio/65fca53dfea3f6b2f8ee.mp3",
+      "duration": 1.344,
+      "bytes": 10988,
+      "sha256": "40dd0e7776b859f391365dee993663a3688009f884e4c27a3a9b55291081897c"
+    },
+    {
+      "text": "곰",
+      "kind": "guide",
+      "path": "assets/audio/4c5bb33e3ad8cc346af1.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "d0955e765e9ce96f1706d4d7772f29e90771593e1c7705aab153b35b302a5d1e"
+    },
+    {
+      "text": "빨강",
+      "kind": "guide",
+      "path": "assets/audio/91515f9862243a0c4e9f.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "13cf41c7bd7b4f5f8cf0540240697bee6ab9030dedd942e2f553b0dad8bf5769"
+    },
+    {
+      "text": "파랑",
+      "kind": "guide",
+      "path": "assets/audio/5751d675c232e47a836a.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "161c1be18efeb8b109a04ea34a31004cba35f24668dff7f02c61786bdcbff2db"
+    },
+    {
+      "text": "파란 공",
+      "kind": "guide",
+      "path": "assets/audio/c373b920673a5f3955cf.mp3",
+      "duration": 1.32,
+      "bytes": 10796,
+      "sha256": "0a323c605e39a2c932a7d1b2cfafc9f1ef72e5ccf680d164d1f5a39fbb639a9d"
+    },
+    {
+      "text": "노랑",
+      "kind": "guide",
+      "path": "assets/audio/abfa58fa6970af91e0a0.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "e06cda3e29a23fd192b1dd48faa275f29003faa6452e17f2ced6e407208da898"
+    },
+    {
+      "text": "레몬",
+      "kind": "guide",
+      "path": "assets/audio/3de26124efdefae54af8.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "ab74293acc86659ac9c9c47efb6064b9194d233b015ec7bc2ab801cfc64158ce"
+    },
+    {
+      "text": "배",
+      "kind": "guide",
+      "path": "assets/audio/3d0af87e12fd988a7b27.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "d8e6cfbe104f2e272e4dc2261ca16797b3635de689bdd15b2718fcb1a8a3f51d"
+    },
+    {
+      "text": "벌",
+      "kind": "guide",
+      "path": "assets/audio/e96cb3184b4bef0751d0.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "c6822ef687f31827adc286669d6c571fd24a4d737d3f2a2c7ebe456f40e3fbb3"
+    },
+    {
+      "text": "별 문제",
+      "kind": "guide",
+      "path": "assets/audio/114a31a317bfbc995501.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "de0f6328f23755ac7014d76148836f65548787a4b50ef00ead574b4c1c5a1543"
+    },
+    {
+      "text": "로켓",
+      "kind": "guide",
+      "path": "assets/audio/7117b606bb396fa31fb9.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "153ac16793033d0ecb9f0beb640cb6a6010844a03fda6889073c0c4a9144fbef"
+    },
+    {
+      "text": "단계 / 3",
+      "kind": "guide",
+      "path": "assets/audio/a52e84c0280084ec01b4.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "b510ef60e11a27bf8a2e148f651316f627d25ad6faabea9a3b2d790341fe96c7"
+    },
+    {
+      "text": "와아! 잘 찾았어!",
+      "kind": "guide",
+      "path": "assets/audio/19a4e8d046ce69d19920.mp3",
+      "duration": 2.112,
+      "bytes": 17132,
+      "sha256": "28c52413eb338109ce7df0db03bea65e823b9512a95593730cf2df6284524bfc"
+    },
+    {
+      "text": "정말 멋져!",
+      "kind": "guide",
+      "path": "assets/audio/16cf6dbc5fb70e517b79.mp3",
+      "duration": 1.368,
+      "bytes": 11180,
+      "sha256": "33f4bac2cbf337ebf943179c5401b206ec1d673e5156ac7dc6eba51d7a02d018"
+    },
+    {
+      "text": "이현이 최고!",
+      "kind": "guide",
+      "path": "assets/audio/928ea560738721801615.mp3",
+      "duration": 1.44,
+      "bytes": 11756,
+      "sha256": "fc0aa04de869d016e5b717e4904280b0870ca27b7d1a57f7149aa83e6ad3cc0d"
+    },
+    {
+      "text": "잘했어! 다음 문제!",
+      "kind": "guide",
+      "path": "assets/audio/b3cc20d68689655dc5b2.mp3",
+      "duration": 2.232,
+      "bytes": 18092,
+      "sha256": "961603270752a26b76edeadc3af7303e0a6d982899daaad9594f9e8eeb05f892"
+    },
+    {
+      "text": "글씨를 써 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/7bcbba495baa8e9d6bcd.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "14104119a9f8763e1d90d1ebd4affc0cdcfd8355e66b55295348db69f6773732"
+    },
+    {
+      "text": "다시 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/2685220022a3e44a5a70.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "4d492e5bbe056c7ec77a4e55c9e6315ef53b49746091dd6b1b0f68099a26a242"
+    },
+    {
+      "text": "손가락으로 찾아 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/8aa77ebab480b942899f.mp3",
+      "duration": 2.04,
+      "bytes": 16556,
+      "sha256": "cacc9775aec0f04476a20eba5c231b9fdc827b5e6e8b1e2c79b825c5327d8db6"
+    },
+    {
+      "text": "그림 속에서",
+      "kind": "guide",
+      "path": "assets/audio/199067c386eb9939cc93.mp3",
+      "duration": 1.44,
+      "bytes": 11756,
+      "sha256": "c466560d913dfc0f13bfdf91a3fbe0837d56f560a29982b258e0465a071209b3"
+    },
+    {
+      "text": "찾기!",
+      "kind": "guide",
+      "path": "assets/audio/f113d8d16932907f3afc.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "97936a77816018da246b2237caeabbd101dbda46cb8fc0e4984cc24e6dbab881"
+    },
+    {
+      "text": "물건",
+      "kind": "guide",
+      "path": "assets/audio/df279371093362d858f6.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "2715b303954c64c42c0cd0c205ec60715fc32adf245d71d7237ae77b390be1a4"
+    },
+    {
+      "text": "이건",
+      "kind": "guide",
+      "path": "assets/audio/5a674df42cc1d8ac9ff2.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "bd74f133393cbba3a76ccebe0a6ae3f3ac4236802cbbc9a4a2ec3d10c9fb0b3b"
+    },
+    {
+      "text": "을 찾아 보자!",
+      "kind": "guide",
+      "path": "assets/audio/4438e7d6810604876514.mp3",
+      "duration": 1.512,
+      "bytes": 12332,
+      "sha256": "e3602e7c7f99949b7f524843ce955600bf9797761caf8b372a6cb542204998cf"
+    },
+    {
+      "text": "과 같은 색깔의 바구니에 담아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/1acd5fc75b2201e80db5.mp3",
+      "duration": 2.784,
+      "bytes": 22508,
+      "sha256": "a82178caf2cce1f7860fcd3c570f782df21f527cc2447f6d52f3b3e51c967f2a"
+    },
+    {
+      "text": "잡아 바구니에 담기",
+      "kind": "guide",
+      "path": "assets/audio/563ae0cb9dd944264570.mp3",
+      "duration": 1.824,
+      "bytes": 14828,
+      "sha256": "47b20327b75512220bd15014d02e34f2e6b05c0e40c1a03bc6608e5bc299a9b6"
+    },
+    {
+      "text": "다른 색깔이야! 다시 골라 봐요.",
+      "kind": "guide",
+      "path": "assets/audio/b24aaf91f9f07ec20794.mp3",
+      "duration": 2.928,
+      "bytes": 23660,
+      "sha256": "9b12ae1aba62936981c2f6355a2149f4d8cdf51137909b5208e4c869cdcb879f"
+    },
+    {
+      "text": "바구니 같은 색 바구니를 눌러 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/739c78fbde545511a9e3.mp3",
+      "duration": 2.808,
+      "bytes": 22700,
+      "sha256": "1cad4f1f7faa90b11e3faa7bfcf16e7a5ec8bf321c5747e21f88ca9c69d4db0b"
+    },
+    {
+      "text": "친구와 똑같은 그림자를 찾아 연결해 봐요.",
+      "kind": "guide",
+      "path": "assets/audio/cafbb479f02e7eddd38e.mp3",
+      "duration": 3.384,
+      "bytes": 27308,
+      "sha256": "1da8d3b3d326f655e868822d0f951ebf31467c324fdf54153f36b73e09af0dfe"
+    },
+    {
+      "text": "이제 오른쪽 그림자를 골라 보세요!",
+      "kind": "guide",
+      "path": "assets/audio/67a1cc37357b29468498.mp3",
+      "duration": 2.88,
+      "bytes": 23276,
+      "sha256": "ed7b3daacd266f218ad84b2393e3e1d47ee88a29cd847325104e2cad359853d9"
+    },
+    {
+      "text": "먼저 왼쪽 동물을 눌러 주세요!",
+      "kind": "guide",
+      "path": "assets/audio/5b179e67387e3a980f32.mp3",
+      "duration": 2.64,
+      "bytes": 21356,
+      "sha256": "39d46f313482f209edca4bbb1256fe6c90bc31888ff0b13081fcd88efb2169db"
+    },
+    {
+      "text": "그림자가 똑같아요!",
+      "kind": "guide",
+      "path": "assets/audio/0515452a70d9cad0d151.mp3",
+      "duration": 1.824,
+      "bytes": 14828,
+      "sha256": "cfccc0b9a7a276fd5c265aed39cb64ee7f2620cbe5aef59c8d56d001f3cf23a8"
+    },
+    {
+      "text": "그림자 모양이 다른 것 같아!",
+      "kind": "guide",
+      "path": "assets/audio/f2632c0598905af994a3.mp3",
+      "duration": 2.304,
+      "bytes": 18668,
+      "sha256": "1fa5c96de88a34f9a15ff95dccda242a9031dbe4955557b7abf8a03c15d17d7e"
+    },
+    {
+      "text": "왼쪽 동물 → 오른쪽 검은 그림자",
+      "kind": "guide",
+      "path": "assets/audio/238b97508a94d1e8a0c1.mp3",
+      "duration": 2.616,
+      "bytes": 21164,
+      "sha256": "b80aeddbb13179a090502cd65acdd2f75e1cf988961d02f0e8358727bcc8b1e0"
+    },
+    {
+      "text": "두더지가 나타나면 빠르게 톡! 눌러 봐요!",
+      "kind": "guide",
+      "path": "assets/audio/74baf7229b82b2b48fb8.mp3",
+      "duration": 3.792,
+      "bytes": 30572,
+      "sha256": "6a489ad21b767895f450c8a55ad1434258451301e3ae8c72beab7fb640bc2460"
+    },
+    {
+      "text": "두더지 굴",
+      "kind": "guide",
+      "path": "assets/audio/717ac940255025714de5.mp3",
+      "duration": 1.32,
+      "bytes": 10796,
+      "sha256": "58cf7c6d398d69e15dd17d3a206ff737ef082c3c28b44783d5dff45fb3aa9475"
+    },
+    {
+      "text": "쏙! 두더지가 다른 굴에 있어요!",
+      "kind": "guide",
+      "path": "assets/audio/6f8961c850d37ec06630.mp3",
+      "duration": 2.952,
+      "bytes": 23852,
+      "sha256": "4a513388a63b2d03e47c06af6a1899a82b53c97141669191c93854a72b128011"
+    },
+    {
+      "text": "택시",
+      "kind": "guide",
+      "path": "assets/audio/94be61a73763ee4ccdbe.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "c9dd05c966f421ee48b7fe1cd15c81be4e0257467533660aafd2a643a7dee039"
+    },
+    {
+      "text": "체리",
+      "kind": "guide",
+      "path": "assets/audio/8fefe599b72c02970897.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "5e8c246c73aece5fb85f3478cf1bd57244c1d48c6fd9f977429658ef8b74d1b3"
+    },
+    {
+      "text": "달",
+      "kind": "guide",
+      "path": "assets/audio/2f941e6eb2150679c43f.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "2683b9e28265883ed8efbaf5f9e405d5d4e0b8810cce7e3fde5527545073fdb2"
+    },
+    {
+      "text": "생선",
+      "kind": "guide",
+      "path": "assets/audio/b8a4f11ece6e2014b309.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "eefe41db50ae406a6f0fc650828f02ad620c57ddff2969b7d0fe06a6fe843e63"
+    },
+    {
+      "text": "두 그림을 잘 비교해서 달라진 곳을 찾아 보세요!",
+      "kind": "guide",
+      "path": "assets/audio/7ec05b921413b19ade31.mp3",
+      "duration": 3.648,
+      "bytes": 29420,
+      "sha256": "2bb9b25bdd353d0285cdb5b273a8f6527e1741aa8c876408c38a24fd4e8a851a"
+    },
+    {
+      "text": "오른쪽 그림",
+      "kind": "guide",
+      "path": "assets/audio/5bb139e4af1d1b41b76f.mp3",
+      "duration": 1.464,
+      "bytes": 11948,
+      "sha256": "38daf10cdfc4914a0f863fc6a66bdc1e87e75eaece5078ff984d8d08eebdcdca"
+    },
+    {
+      "text": "왼쪽 그림",
+      "kind": "guide",
+      "path": "assets/audio/85b568bf4d0b57dd4ff2.mp3",
+      "duration": 1.392,
+      "bytes": 11372,
+      "sha256": "d8784d0d7e4f9388df349c3c5b299fd484a29e1b2adae4f5a88168955b4bfdb4"
+    },
+    {
+      "text": "오른쪽",
+      "kind": "guide",
+      "path": "assets/audio/f594aa6a15b9381c0df7.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "44231e442337ca8d6f77237cf42e286c33b62ecc7e40421816ba06297fa0cfa0"
+    },
+    {
+      "text": "왼쪽",
+      "kind": "guide",
+      "path": "assets/audio/dc0103c11a2b107bbc7c.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "d49f0b397ffd213d11ac57af4b0be375c4653b979299e86e10cf92e66f4a6817"
+    },
+    {
+      "text": "번",
+      "kind": "guide",
+      "path": "assets/audio/dfccc17e2997aa8da631.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "1fb455860d19c79a051ee08b3591f2492466d7f87785f6ab4eff608c63198348"
+    },
+    {
+      "text": "이곳은 똑같아요! 다른 곳을 찾아 보자!",
+      "kind": "guide",
+      "path": "assets/audio/34a7acb744386643c4b7.mp3",
+      "duration": 3.72,
+      "bytes": 29996,
+      "sha256": "2b6fc88deb81b7fcbc66d6f16e041627f749ee26a22a0be0fa6df3529b6de8a6"
+    },
+    {
+      "text": "서로 다른 그림을 발견했어요!",
+      "kind": "guide",
+      "path": "assets/audio/6acb4e980f89ce184432.mp3",
+      "duration": 2.328,
+      "bytes": 18860,
+      "sha256": "10b9484a37e9268de8dea93a3831ce663871a015de05d203d51cb3933cfe7594"
+    },
+    {
+      "text": "양쪽을 비교해 한 군데만 다른 그림을 눌러요",
+      "kind": "guide",
+      "path": "assets/audio/89c3b0dda20091c171ad.mp3",
+      "duration": 3.432,
+      "bytes": 27692,
+      "sha256": "636d77f1116dde5e792d4f9b389f38eec3af9ce72eef1e446d5545280cd60272"
+    },
+    {
+      "text": "소리 켜기",
+      "kind": "guide",
+      "path": "assets/audio/4434ae4f5064da793b8f.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "c95c7ec9849290a5e6da89ac931c6c6a74a13261ef429561b8660ad0cbdd01cb"
+    },
+    {
+      "text": "티라노사우루스 공룡 알 탐험",
+      "kind": "guide",
+      "path": "assets/audio/f1ced87155a5630d836d.mp3",
+      "duration": 2.4,
+      "bytes": 19436,
+      "sha256": "d7799076f17c05bb4bce8feefc9d5e216b7ad9cb5149bb047fea8bba0d032074"
+    },
+    {
+      "text": "알에서 어떤 공룡이 나올까?",
+      "kind": "guide",
+      "path": "assets/audio/e2d6498dc2bcba806a8e.mp3",
+      "duration": 2.184,
+      "bytes": 17708,
+      "sha256": "adb95a1ad73146b2e91ca459ddc74958dee1469b054693fabb08e18c6335f43f"
+    },
+    {
+      "text": "알을 톡! 눌러서 공룡을 찾아 보세요",
+      "kind": "guide",
+      "path": "assets/audio/a8ce596caadef8eb69dd.mp3",
+      "duration": 3.744,
+      "bytes": 30188,
+      "sha256": "9e4858ed02374b67507b78ea85ef79c8b1b7e5fd5f602bc3e5a0a401414fc157"
+    },
+    {
+      "text": "디플로도쿠스알",
+      "kind": "guide",
+      "path": "assets/audio/a8e6da2c5b53f77ecf37.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "55fe8f7c8442b32e8fdf45f8fd678008589d1aabf949828d765df21773835094"
+    },
+    {
+      "text": "로켓 반짝반짝 우주",
+      "kind": "guide",
+      "path": "assets/audio/f419aa66098c45bc2668.mp3",
+      "duration": 2.112,
+      "bytes": 17132,
+      "sha256": "89729bc98cd0bae2d6cf13a3127dff319ee9c186651bdfe3d2448ed379b4c3c6"
+    },
+    {
+      "text": "우주별 구조 탐험!",
+      "kind": "guide",
+      "path": "assets/audio/c1f1aab002bfa2a29b0b.mp3",
+      "duration": 1.848,
+      "bytes": 15020,
+      "sha256": "137daf5e499622d4a36abf7dc456d5ae6c2d65b33c504fb5cda13eab3371c285"
+    },
+    {
+      "text": "반짝이는 별을 찾아 눌러 보세요",
+      "kind": "guide",
+      "path": "assets/audio/53c5804768195ef6b044.mp3",
+      "duration": 2.712,
+      "bytes": 21932,
+      "sha256": "1b963213f27eeb4cd1fa6d4786b75120d61f9ecb9ae24c0a00adde89685742e6"
+    },
+    {
+      "text": "토끼 동물 친구 돌보기",
+      "kind": "guide",
+      "path": "assets/audio/e6bfedaea27e5f20b4d0.mp3",
+      "duration": 2.016,
+      "bytes": 16364,
+      "sha256": "0a85169524b23832fe06780454709a84c75385ca4b74c636fcc3900ef5e4e6f1"
+    },
+    {
+      "text": "아픈 동물 친구를 도와줘!",
+      "kind": "guide",
+      "path": "assets/audio/c1c48f8c3cf2abee031d.mp3",
+      "duration": 2.184,
+      "bytes": 17708,
+      "sha256": "b709285eaee1129415c5f042467d5f94204b6c2f72a7853cc98507d63cf83aba"
+    },
+    {
+      "text": "동물 친구에게 필요한 것을 찾아 주세요",
+      "kind": "guide",
+      "path": "assets/audio/c5b1d35916e4c58617c3.mp3",
+      "duration": 3.168,
+      "bytes": 25580,
+      "sha256": "d24d28b50c9e4a6eb8f22ccc1f63a19cd4e2b3c42f8092060b08f011b37ac897"
+    },
+    {
+      "text": "강아지고양이",
+      "kind": "guide",
+      "path": "assets/audio/982192544f34f40614cb.mp3",
+      "duration": 1.488,
+      "bytes": 12140,
+      "sha256": "f02c7efa3fc238480090368db806ef6517dfc487d270b69f2b4d13e3bfd3e916"
+    },
+    {
+      "text": "티라노사우루스",
+      "kind": "guide",
+      "path": "assets/audio/e19492308aacc6726692.mp3",
+      "duration": 1.536,
+      "bytes": 12524,
+      "sha256": "1395e903695e75ca9fc73cbc0c2a45610e45798597b0417971504c10351fdc3a"
+    },
+    {
+      "text": "스테고사우루스",
+      "kind": "guide",
+      "path": "assets/audio/06fa23f39c9e273c903c.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "c79829d5c7c04d0d5474182cc42e4f35a86b415f85c9ea9ee4adf177023f9cd2"
+    },
+    {
+      "text": "파라사우롤로푸스",
+      "kind": "guide",
+      "path": "assets/audio/5a405df4e17810871d1e.mp3",
+      "duration": 1.728,
+      "bytes": 14060,
+      "sha256": "9bf1e883e85e95c6b4b704ccd2a6a18bc9892961c9c1bc58393ae015afa1456e"
+    },
+    {
+      "text": "안킬로사우루스",
+      "kind": "guide",
+      "path": "assets/audio/435e7c799d06ff97876a.mp3",
+      "duration": 1.656,
+      "bytes": 13484,
+      "sha256": "e2430be70444a225f420a3a4ec461819e9f44de4d80426a0ce0ab6a8a51d15b0"
+    },
+    {
+      "text": "트리케라톱스",
+      "kind": "guide",
+      "path": "assets/audio/81ff378d7163a8e705e2.mp3",
+      "duration": 1.416,
+      "bytes": 11564,
+      "sha256": "264c9850793c2f340381dda6fb8b27855f9bd171f8777f98e2508bbd82d5f313"
+    },
+    {
+      "text": "토성",
+      "kind": "guide",
+      "path": "assets/audio/95494a018b5a0ec5650b.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "650888aca37fbe890d3a42322233ac55417ec5a6ff8db76e28974d531cc5f6d2"
+    },
+    {
+      "text": "지구",
+      "kind": "guide",
+      "path": "assets/audio/3f2aa2e04cf60957ccf7.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "4972c794495a1eb04437647612db2082e1a04f67f5ae21f8246b528e2501c82c"
+    },
+    {
+      "text": "혜성",
+      "kind": "guide",
+      "path": "assets/audio/96f84dad7f4825c1d8df.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "455f41f79624b0cffd8726491345c5d4ff1a3536dd7febf05c8ff8a7bfce0ff7"
+    },
+    {
+      "text": "당근",
+      "kind": "guide",
+      "path": "assets/audio/5fd79be79a846cb1247a.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "00f27dc7519ae94ed510ed3bc86ca279ee9b69bd9aba80023a62a7d8ca06e77e"
+    },
+    {
+      "text": "토끼에게 당근을 주세요",
+      "kind": "guide",
+      "path": "assets/audio/2d9a58035d0420735c5c.mp3",
+      "duration": 2.064,
+      "bytes": 16748,
+      "sha256": "f3b4a62af510ea1053dc10998a18960dc34f00209602ea81947e62fad53435c2"
+    },
+    {
+      "text": "뼈다귀",
+      "kind": "guide",
+      "path": "assets/audio/bfa525307f19ce168648.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "d504197eeec702274ba921c83b0b459d673633f5a4b0f91f771c6ff03c4557c6"
+    },
+    {
+      "text": "강아지에게 뼈다귀를 주세요",
+      "kind": "guide",
+      "path": "assets/audio/675f4e609f7c9d32adf5.mp3",
+      "duration": 2.304,
+      "bytes": 18668,
+      "sha256": "93106b88e4e6f872a4ff05a7f98b6efe2d8117f243431c997b77dc049c8c5501"
+    },
+    {
+      "text": "고양이에게 생선을 주세요",
+      "kind": "guide",
+      "path": "assets/audio/a415903fbd6e8e86920a.mp3",
+      "duration": 2.184,
+      "bytes": 17708,
+      "sha256": "15456ff24c14c3874994e48b04fe8254ab72593ac3f83075fab2c2b0c49a28ee"
+    },
+    {
+      "text": "꿀",
+      "kind": "guide",
+      "path": "assets/audio/1bc0721ab0a6c7d05108.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "ea2c7f7ac5471e1b5a63fe3f4429edc143a7abf0a7e4823420fe50a47031f518"
+    },
+    {
+      "text": "곰에게 꿀을 주세요",
+      "kind": "guide",
+      "path": "assets/audio/e7f5a79744f4703e98ea.mp3",
+      "duration": 1.872,
+      "bytes": 15212,
+      "sha256": "f27c2fd1588a6f39d3cd53022fe7ec1fac79ff146a86164172aa95f6a418d069"
+    },
+    {
+      "text": "원숭이에게 바나나를 주세요",
+      "kind": "guide",
+      "path": "assets/audio/2e795381f89954b97070.mp3",
+      "duration": 2.352,
+      "bytes": 19052,
+      "sha256": "de37d9ba1d9550056f6638e3d6356c1e69cebeb038bee8f7c67a48e780bf5094"
+    },
+    {
+      "text": "코끼리에게 수박을 주세요",
+      "kind": "guide",
+      "path": "assets/audio/b74780af741d9bcc73d2.mp3",
+      "duration": 2.136,
+      "bytes": 17324,
+      "sha256": "53875d670fba5db7128be5802fe4feb0804a71865338c156588651b946d37c15"
+    },
+    {
+      "text": "를",
+      "kind": "guide",
+      "path": "assets/audio/20ffc2b0a0e1b6f8464e.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "cd20cf317acd1459d4cd3ead4bfad33377bb5584a67cf80e6afe6cbb66a23696"
+    },
+    {
+      "text": "을",
+      "kind": "guide",
+      "path": "assets/audio/375745740097d3a93d69.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "88f53900a45ab4a276befc6f3e3cb480d1bf819ff70c842f18c7f49a7606ca27"
+    },
+    {
+      "text": "찾아 보세요!",
+      "kind": "guide",
+      "path": "assets/audio/1b7491531352c3375273.mp3",
+      "duration": 1.464,
+      "bytes": 11948,
+      "sha256": "ab0262e3b2153b08902e170bc67068bfc344b8858443b8b20df091c6b93f6998"
+    },
+    {
+      "text": "먼저 알을 톡 눌러 깨워 주세요. 공룡이 나오면 같은 그림을 찾아요!",
+      "kind": "guide",
+      "path": "assets/audio/01974bfd0b1a51c60ad0.mp3",
+      "duration": 5.472,
+      "bytes": 44012,
+      "sha256": "dbfd4ee01476696e02ecc2da70507b4882fadfb884dc3468c7f4f62bfed49a9b"
+    },
+    {
+      "text": "1. 알을 눌러 부화시켜요",
+      "kind": "guide",
+      "path": "assets/audio/c4a1c4d2c0002d43bcd0.mp3",
+      "duration": 2.664,
+      "bytes": 21548,
+      "sha256": "a50bb2d3533989fe01199734f52ea0584b3f1c0df3b87d550faedd0249f7e8d3"
+    },
+    {
+      "text": "알을 열고 → 나온 공룡과 같은 그림 찾기",
+      "kind": "guide",
+      "path": "assets/audio/73e4904d2aa0266ece5b.mp3",
+      "duration": 3.096,
+      "bytes": 25004,
+      "sha256": "25a45b72b4cecd535931d0112bf1506175a3c22b23458d3ae9ad128f1472c585"
+    },
+    {
+      "text": "공룡 알 부화시키기",
+      "kind": "guide",
+      "path": "assets/audio/a6a1e3867cab39656a1d.mp3",
+      "duration": 1.848,
+      "bytes": 15020,
+      "sha256": "e5056aa3df73200527994df73a857b30feb68aa315c6c8422f90e7f14f9a31b1"
+    },
+    {
+      "text": "손가락으로 눌러 봐!",
+      "kind": "guide",
+      "path": "assets/audio/052ec4d98da7052c2ce9.mp3",
+      "duration": 1.992,
+      "bytes": 16172,
+      "sha256": "9fb06db378a4ee2ca6ec6580e2fc6094e5dba6604919573116b3cee864705e32"
+    },
+    {
+      "text": "와 같은 공룡을 찾아요",
+      "kind": "guide",
+      "path": "assets/audio/16c7c783093c58cdebdd.mp3",
+      "duration": 2.088,
+      "bytes": 16940,
+      "sha256": "f5c1fcbb19ef4980f1fb5b330ef18d792103f1728d87c63fbb767daa6b478c1f"
+    },
+    {
+      "text": "가 나왔어요! 아래에서 같은 공룡을 찾아 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/fc85ea04bd91c6c451c4.mp3",
+      "duration": 4.368,
+      "bytes": 35180,
+      "sha256": "684fe2cd66cb161f970c16eb5cf05093acb961e5e4ef16504597c42f37c7813b"
+    },
+    {
+      "text": "위의 공룡과 같은 그림을 다시 찾아봐요",
+      "kind": "guide",
+      "path": "assets/audio/31018f690787d884f6af.mp3",
+      "duration": 3.192,
+      "bytes": 25772,
+      "sha256": "706431e2ca1421e13763edd4c58be270195c7c5880ed02538ee32eeb45aa0cf5"
+    },
+    {
+      "text": "그림을 다시 찾아봐요",
+      "kind": "guide",
+      "path": "assets/audio/f1f86ad6edb2b612ef2d.mp3",
+      "duration": 1.92,
+      "bytes": 15596,
+      "sha256": "9e2bf8913aa2ffc60c0b359870a0d73cbb4543ce8cdde2f476c2811aa82a6e7b"
+    },
+    {
+      "text": "동물에게 필요한 먹이를 다시 찾아봐요",
+      "kind": "guide",
+      "path": "assets/audio/f1f591324a2f0f598bbd.mp3",
+      "duration": 3.0,
+      "bytes": 24236,
+      "sha256": "00569c5efc16436c214e7b2df78c62db4085144671ae920db53348504ebf3d20"
+    },
+    {
+      "text": "발견!",
+      "kind": "guide",
+      "path": "assets/audio/32d0867e70366c116394.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "1791ca5aac13b02b801838af1fc9333a6efe9ac0f272db6c3978138c4b691fdb"
+    },
+    {
+      "text": "티라노사우루스 짜잔! 공룡이 나왔어요!",
+      "kind": "guide",
+      "path": "assets/audio/c64298135938184d2827.mp3",
+      "duration": 3.792,
+      "bytes": 30572,
+      "sha256": "e15da8c476152e5d6aedca585664be8e2d9313661b68cb9b65863aca3ad1c8a9"
+    },
+    {
+      "text": "가 나왔어!",
+      "kind": "guide",
+      "path": "assets/audio/53ac45f53790facde21b.mp3",
+      "duration": 1.344,
+      "bytes": 10988,
+      "sha256": "f0889fd96cf9110e6adf65f2d8b47f9e243c434f01d87226c718ab292907d5e4"
+    },
+    {
+      "text": "성공! 정말 멋져!",
+      "kind": "guide",
+      "path": "assets/audio/d0e355b877c60a61a03d.mp3",
+      "duration": 2.256,
+      "bytes": 18284,
+      "sha256": "bb60c061735c553de3d3b6495e79ce01563521dad5fa1e32e7d398ddec8b6052"
+    },
+    {
+      "text": "멋지게 성공!",
+      "kind": "guide",
+      "path": "assets/audio/a21da5663e68c8815002.mp3",
+      "duration": 1.512,
+      "bytes": 12332,
+      "sha256": "9953a16b9e0e0807c42068d6bf69e0f486223f5aae666850392bae7a704f471e"
+    },
+    {
+      "text": "를 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/a639b3d19edcba945c42.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "ef6db9096c32ff4f4f96c20ce56bb6e1d37053663b581aebf059ed572d033932"
+    },
+    {
+      "text": "다음 단계로 가려면 글자를 따라 써 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/e9bbc430cbfcb0252765.mp3",
+      "duration": 3.384,
+      "bytes": 27308,
+      "sha256": "b57cef716ef3504783f71c9432e8b121d092918c673ec1ef03c3d231ef6bf5dc"
+    },
+    {
+      "text": "글씨 쓰기 계속",
+      "kind": "guide",
+      "path": "assets/audio/75c55df9c07b71010014.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "bbf2e3cc5d395a4fcec41d135bbaa8e9cfa048b944c8c9915c40a6aa454f702b"
+    },
+    {
+      "text": "탐험 성공!",
+      "kind": "guide",
+      "path": "assets/audio/43a50b857039212c0f5a.mp3",
+      "duration": 1.464,
+      "bytes": 11948,
+      "sha256": "1cad5abd859709423c792f01faf28f43f84a020fdafc273f65143f2aff56e190"
+    },
+    {
+      "text": "다시 듣기",
+      "kind": "guide",
+      "path": "assets/audio/345e71fe999de4dbca5e.mp3",
+      "duration": 1.32,
+      "bytes": 10796,
+      "sha256": "d7f7e2125acd8572491e367aa14012134ce8220d27b400a47eef23b4c31bc4c7"
+    },
+    {
+      "text": "자동차 차고",
+      "kind": "guide",
+      "path": "assets/audio/825de4ea4d7456daee17.mp3",
+      "duration": 1.464,
+      "bytes": 11948,
+      "sha256": "c4f3c592f2a2e3123a8c6b907b517636bb287581b29fb1a41a4a74a4cf44ae7d"
+    },
+    {
+      "text": "차선을 이동하면서 별과 보석을 모으는 자동차 게임",
+      "kind": "guide",
+      "path": "assets/audio/b724b28fb040dfc127ae.mp3",
+      "duration": 4.08,
+      "bytes": 32876,
+      "sha256": "bae0569da6f666ec5150e09c99bd77b78b29508bfe3f0c57b4d91dbcc0d7686a"
+    },
+    {
+      "text": "왼쪽으로 차선 변경",
+      "kind": "guide",
+      "path": "assets/audio/717494e84250b9f4e4da.mp3",
+      "duration": 1.92,
+      "bytes": 15596,
+      "sha256": "4dc9db34c84fe6832e7332a460038d1c1c0ad4e19a489c3b1c54331fde300429"
+    },
+    {
+      "text": "오른쪽으로 차선 변경",
+      "kind": "guide",
+      "path": "assets/audio/edeefacda09e2aeeefd9.mp3",
+      "duration": 2.016,
+      "bytes": 16364,
+      "sha256": "0e3231c6f83b11663825d6d0bba5a2a77507f69f5bb9446300698883a4bbe8f8"
+    },
+    {
+      "text": "보석",
+      "kind": "guide",
+      "path": "assets/audio/5e6c05318b36288b4fad.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "1b403fd9241dbc6b0fcf65ddb198b3a237796ffba76fba880794a98cb40b90f6"
+    },
+    {
+      "text": "분홍",
+      "kind": "guide",
+      "path": "assets/audio/345b79fd8bf50a835b27.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "fe06cfc6f3ccbbc7953a3605db1825901e082eac1c96b17a538a7abb32d581aa"
+    },
+    {
+      "text": "초록",
+      "kind": "guide",
+      "path": "assets/audio/04631d74f90fa5919a63.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "3b3f42fae0b07353ba43272baea856191b3cea23f30d6ca323cf8ff5b327fb00"
+    },
+    {
+      "text": "황금",
+      "kind": "guide",
+      "path": "assets/audio/3ebb848030b32e7464e7.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "19fdcf2f2a2fa359bc8b592eb466ef7adcd302eb7cb6635dd54eaef2bc10affa"
+    },
+    {
+      "text": "· 차 바꾸기",
+      "kind": "guide",
+      "path": "assets/audio/e725fb35e6b7d6d8f12a.mp3",
+      "duration": 1.392,
+      "bytes": 11372,
+      "sha256": "fda4bff92685e4f0301048cf6d8ced292398d8c193343769540e24e1b9805dda"
+    },
+    {
+      "text": "점",
+      "kind": "guide",
+      "path": "assets/audio/59a79337fd9ab69bc177.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "d63d7212ccd68ba3de77306d52cd710342a1403f702a7c5f00d6923253fc59e2"
+    },
+    {
+      "text": "최고",
+      "kind": "guide",
+      "path": "assets/audio/97b8be84b3d009c4b9b1.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "8e9b36743791527e33aae231804579c74aaf7d14a885ea6c375a3fa8dfd3883c"
+    },
+    {
+      "text": "단계",
+      "kind": "guide",
+      "path": "assets/audio/29ee1bb7ff2899897cf3.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "3b2b69bb1d7dfcdd0b3ee2163f853768496fd699b6be79adad6241caa53e8416"
+    },
+    {
+      "text": "계속하기",
+      "kind": "guide",
+      "path": "assets/audio/5dfd3b2bc49d994447da.mp3",
+      "duration": 1.32,
+      "bytes": 10796,
+      "sha256": "44c07254c542b8b2cb6fe38d9751b8355980af77b21f8b07e5fae7c15d134758"
+    },
+    {
+      "text": "잠깐 멈추기",
+      "kind": "guide",
+      "path": "assets/audio/36164deffc5e1930a008.mp3",
+      "duration": 1.512,
+      "bytes": 12332,
+      "sha256": "91d4825d4f7ef3bd0e833ff8e4ad9df32222455902c04428cd7596705a1b74ab"
+    },
+    {
+      "text": "5분 자동차 챔피언!",
+      "kind": "guide",
+      "path": "assets/audio/5745bb384359401c59f0.mp3",
+      "duration": 2.112,
+      "bytes": 17132,
+      "sha256": "d68de6a5909179a6a7f15c3d31dc42e5ee6e1a5e5454e6b54514c93108e8909d"
+    },
+    {
+      "text": "5분 동안",
+      "kind": "guide",
+      "path": "assets/audio/a9c25d6333425f34a09e.mp3",
+      "duration": 1.464,
+      "bytes": 11948,
+      "sha256": "a8c4fc3400ea46edee0e247fee3e04502076ae3daac96ca365507f8888ee9923"
+    },
+    {
+      "text": "점을 모았어요! 이현이 정말 잘했어요. 다른 놀이도 해 보자!",
+      "kind": "guide",
+      "path": "assets/audio/220406f0521ccd7144cd.mp3",
+      "duration": 5.28,
+      "bytes": 42476,
+      "sha256": "e052c20e8f62be00319673a79a2a3421ace7539f8a4e5fe06162158ee574dbf2"
+    },
+    {
+      "text": "다른 놀이 하기",
+      "kind": "guide",
+      "path": "assets/audio/80382fbf089187b4fbbe.mp3",
+      "duration": 1.536,
+      "bytes": 12524,
+      "sha256": "d14435fd7302d2dcf7b3cf7cddab481a0c0d40245200aaa7730e7d98f31324aa"
+    },
+    {
+      "text": "좋았어!",
+      "kind": "guide",
+      "path": "assets/audio/9c6914a7537276e961a0.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "f9c3e07dcba1a1a9f9204bf12a47876e098c38499de88725ab38c5e0810e4705"
+    },
+    {
+      "text": "멋지게 먹었네!",
+      "kind": "guide",
+      "path": "assets/audio/6038cb8fadd478be7752.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "809db4acf675981d13d1c0f9afc7c0c8ff1c385d4367eff40cbf62e28fa6e25a"
+    },
+    {
+      "text": "야호! 보물이다!",
+      "kind": "guide",
+      "path": "assets/audio/08a8a6db334b1c4c839d.mp3",
+      "duration": 1.992,
+      "bytes": 16172,
+      "sha256": "2c5a083ba76ed0a8f91243e459f0052c99120a10de6f8c6e767146414298d7d5"
+    },
+    {
+      "text": "와아! 멋진 보물이야!",
+      "kind": "guide",
+      "path": "assets/audio/a3ccf6b5dbf4f6559aa7.mp3",
+      "duration": 2.4,
+      "bytes": 19436,
+      "sha256": "9601807f1aec0fc08b2582d708e7d36ebe3991c8872108da716ba0add9c5e12f"
+    },
+    {
+      "text": "잠깐 쉬어요",
+      "kind": "guide",
+      "path": "assets/audio/f7b8287fc41cab37684a.mp3",
+      "duration": 1.464,
+      "bytes": 11948,
+      "sha256": "30ca50543d48a17e1ade26c668ec1833e2cd333096d62c2aec28726c34a69ff8"
+    },
+    {
+      "text": "모은 점수는 그대로예요. 준비되면 계속해요!",
+      "kind": "guide",
+      "path": "assets/audio/e57b1cf91eece6e738bb.mp3",
+      "duration": 3.624,
+      "bytes": 29228,
+      "sha256": "4a1c8b8248b49b5457e7abb2a6cd96326916307a6d13ed6775f2dc6b418a952c"
+    },
+    {
+      "text": "단계 성공!",
+      "kind": "guide",
+      "path": "assets/audio/fa28ceda2cdb09679597.mp3",
+      "duration": 1.416,
+      "bytes": 11564,
+      "sha256": "9f7418d2460d3927029e9d14b0e03fbc9990088060d84b855903a395003d6316"
+    },
+    {
+      "text": "단계 성공! 자동차를 따라 써 보자!",
+      "kind": "guide",
+      "path": "assets/audio/914c3c6625ade572d2c2.mp3",
+      "duration": 3.648,
+      "bytes": 29420,
+      "sha256": "b8653ccb00e6b8f2af2ae241e33a0f52a66f79dc8d9a17195abadbbc2f6b4728"
+    },
+    {
+      "text": "자동차 글씨 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/3a305d0c10291b4e9acd.mp3",
+      "duration": 1.752,
+      "bytes": 14252,
+      "sha256": "2146ef22cff19c6210ff57401c1ed2bb1254a490369f509eb0dbd559a7c5dafb"
+    },
+    {
+      "text": "자동차 세 글자를 쓰면 다음 단계가 열려요!",
+      "kind": "guide",
+      "path": "assets/audio/9096e5d1d4a40092add5.mp3",
+      "duration": 3.528,
+      "bytes": 28460,
+      "sha256": "440bd3ada52148f89d7b295928e5e3f304fdd7169dcded0d9aa1ae62b291d038"
+    },
+    {
+      "text": "글씨 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/642d5bcbdec699606dd5.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "25393b7be707bfae87f390414a4bf0113c4a931e348adf83c0cce6d77bd66b49"
+    },
+    {
+      "text": "모든 단계를 완성했어요! 정말 멋져요!",
+      "kind": "guide",
+      "path": "assets/audio/117f38b2e77caefcba58.mp3",
+      "duration": 3.648,
+      "bytes": 29420,
+      "sha256": "64b9ffeb36e146ecf7f8e0f44eee2ed48eaabb2c435e4c5b21a1d38fac349a8e"
+    },
+    {
+      "text": "보물을",
+      "kind": "guide",
+      "path": "assets/audio/93e718c774b13809853f.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "9e56e3b1dbf940da97795a89233c956af768efbb44e78d77ee65df01bd4f2c6d"
+    },
+    {
+      "text": "점이나 모았어요! 다음 모험에 도전할까요?",
+      "kind": "guide",
+      "path": "assets/audio/aed721a528a855f6df2a.mp3",
+      "duration": 3.816,
+      "bytes": 30764,
+      "sha256": "2ba4819acc7ca144ee78196bec769fe90e22d99b8cb813e9f940a3019561d661"
+    },
+    {
+      "text": "↻ 다시 출발",
+      "kind": "guide",
+      "path": "assets/audio/ad865023c41c569393a4.mp3",
+      "duration": 1.44,
+      "bytes": 11756,
+      "sha256": "abe0cc20b04dce19c87bd84eace4d478a87a3cc6583a0de6178c3c0ba6b169b9"
+    },
+    {
+      "text": "다음 단계",
+      "kind": "guide",
+      "path": "assets/audio/7ff6390c3baa42126f0e.mp3",
+      "duration": 1.344,
+      "bytes": 10988,
+      "sha256": "bcca2793af0f379ce2f5b3b66f29cf500f15c2232a5f980ce2067337977342cd"
+    },
+    {
+      "text": "차선을 바꾸며 장애물을 피하는 자동차 게임",
+      "kind": "guide",
+      "path": "assets/audio/a834d83dca5e6006f34e.mp3",
+      "duration": 3.576,
+      "bytes": 28844,
+      "sha256": "8713153d53fa76535a9b337115e0b9cd014d6fc6bf40fd05cee8d5a7ed90bc08"
+    },
+    {
+      "text": "앗! 다시 해보자!",
+      "kind": "guide",
+      "path": "assets/audio/ea97400d4903f2ba8f0c.mp3",
+      "duration": 1.944,
+      "bytes": 15788,
+      "sha256": "71ae02186682b3c6902ad5edc1d522dfe74ae6fadab73f27c52fee9127adb72c"
+    },
+    {
+      "text": "5분 동안 장애물 사이를 멋지게 달렸어요! 트로피를 받았어요!",
+      "kind": "guide",
+      "path": "assets/audio/ed23b220211a737a7d99.mp3",
+      "duration": 5.4,
+      "bytes": 43436,
+      "sha256": "9e8ec20bc7027e9dbc9e441ee175157fbfebdff49bf42e3496462c6d32254864"
+    },
+    {
+      "text": "점! 잘했어!",
+      "kind": "guide",
+      "path": "assets/audio/590e1553eecf5e741923.mp3",
+      "duration": 1.728,
+      "bytes": 14060,
+      "sha256": "dc6fda20cdd1cd5a6e4db86266a4fd949aa0477039667bc1223e413ef58faee3"
+    },
+    {
+      "text": "다시 도전해서 장애물을 더 많이 피할 수 있어요.",
+      "kind": "guide",
+      "path": "assets/audio/fd15be003efbb6486325.mp3",
+      "duration": 3.456,
+      "bytes": 27884,
+      "sha256": "67dd7a1d7bcf884d7a74a394957ceaa7e83090a1cb71858b645ce4dda113455f"
+    },
+    {
+      "text": "자동차 쓰기",
+      "kind": "guide",
+      "path": "assets/audio/fed9f940827e5bd586b4.mp3",
+      "duration": 1.416,
+      "bytes": 11564,
+      "sha256": "eb67c0cb0e418f3ac8b4f4c2104fccbd5bbe9c58b3608d89ef511cd9af11f541"
+    },
+    {
+      "text": "자동차를 쓰면 다음 단계로 출발할 수 있어요!",
+      "kind": "guide",
+      "path": "assets/audio/3696ab1d0d4e28585b2f.mp3",
+      "duration": 3.504,
+      "bytes": 28268,
+      "sha256": "658d08b7860ea6fd243a0a6707d266d963f195a4a6da45bf2b84d8557e29f5cb"
+    },
+    {
+      "text": "준비되면 계속하기를 눌러 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/ea51e62117285a5101bf.mp3",
+      "duration": 2.592,
+      "bytes": 20972,
+      "sha256": "953537f20db28b3d33c95e61f086f59ff92a65d0456d1f524fc255d787d3d6fb"
+    },
+    {
+      "text": "돌아오면 계속할 수 있어요.",
+      "kind": "guide",
+      "path": "assets/audio/a04e18824948c30fb963.mp3",
+      "duration": 2.136,
+      "bytes": 17324,
+      "sha256": "670a4dd26719b2ae64e58a3720ba27dcb36950aa9ca793fd7a0ac7b493fa6c2c"
+    },
+    {
+      "text": "요청 놀이터로 돌아가기",
+      "kind": "guide",
+      "path": "assets/audio/d00ba538bee422fd14ed.mp3",
+      "duration": 1.992,
+      "bytes": 16172,
+      "sha256": "3d49bdac29793a8ea806c94803b536a24dce14be4525c57965effb6cca4b561b"
+    },
+    {
+      "text": "음성 켜기 또는 끄기",
+      "kind": "guide",
+      "path": "assets/audio/184d3eda539adad03668.mp3",
+      "duration": 1.896,
+      "bytes": 15404,
+      "sha256": "b98da6e7d77f66459814fe5d62444de237b0e5b10e4e5f98540f4a1ff85a155f"
+    },
+    {
+      "text": "현재 현장 소화 진행도",
+      "kind": "guide",
+      "path": "assets/audio/c04b8af9bf65feb87656.mp3",
+      "duration": 1.992,
+      "bytes": 16172,
+      "sha256": "a9a2f15ae2558241febc57fa2419ee0eef40f2d4f80ea573c0f1f1e71d226c93"
+    },
+    {
+      "text": "손가락으로 불꽃을 조준해서 소방차 물로 불을 끄는 게임",
+      "kind": "guide",
+      "path": "assets/audio/3d3bc45480de6f28e63b.mp3",
+      "duration": 4.68,
+      "bytes": 37676,
+      "sha256": "fefd19e6eedbcc29f83e471eb54ae8d70b57d610b52954fb6f91f7cf6151a766"
+    },
+    {
+      "text": "소방 구조 장비",
+      "kind": "guide",
+      "path": "assets/audio/06b323d41276f6dd02a1.mp3",
+      "duration": 1.656,
+      "bytes": 13484,
+      "sha256": "6fa7f7c23605138b971bf115571f2f4c222d18f68177394c9c0abe0355ab71c9"
+    },
+    {
+      "text": "조준 중인 곳에 물 뿌리기",
+      "kind": "guide",
+      "path": "assets/audio/f9d25b29b8049e7ee62d.mp3",
+      "duration": 2.232,
+      "bytes": 18092,
+      "sha256": "2d3b379841d4687e50172e9942ffdedaf33b9ead66d6120b7321e0afe31505fa"
+    },
+    {
+      "text": "우리 동네 집",
+      "kind": "guide",
+      "path": "assets/audio/48ec62f269a0288e84d6.mp3",
+      "duration": 1.464,
+      "bytes": 11948,
+      "sha256": "541dd6629d287ca764548331ba2cb626cd87a1c59de1e6b12c354b6ff8cc78b4"
+    },
+    {
+      "text": "동물 친구의 집",
+      "kind": "guide",
+      "path": "assets/audio/5c985188cebbdc1a9d02.mp3",
+      "duration": 1.704,
+      "bytes": 13868,
+      "sha256": "957ae09e5b30ed904ff4e6e536458b1a71bac7f9b5ee8949949345776ba15814"
+    },
+    {
+      "text": "무지개 유치원",
+      "kind": "guide",
+      "path": "assets/audio/7fea235593bd60910bbb.mp3",
+      "duration": 1.488,
+      "bytes": 12140,
+      "sha256": "c7cb07774297785574f5ad48a0a2e9a94131e746e2169ecea7352e34aefe41fb"
+    },
+    {
+      "text": "푸른 숲 마을",
+      "kind": "guide",
+      "path": "assets/audio/9ef35e580224a08d082d.mp3",
+      "duration": 1.512,
+      "bytes": 12332,
+      "sha256": "52f75c05d54c53e78a4426e2b919cb1d052c4f9c9b0f8b3136985734fd8f7f26"
+    },
+    {
+      "text": "큰 소방 구조 현장",
+      "kind": "guide",
+      "path": "assets/audio/ba2e48ce7cf49fdb497d.mp3",
+      "duration": 1.8,
+      "bytes": 14636,
+      "sha256": "434979d663b8f866adccbb72c160487c2a4473fef65e492e6edebf2844523a75"
+    },
+    {
+      "text": "해변 등대",
+      "kind": "guide",
+      "path": "assets/audio/d2b280dcd15453c1c3ce.mp3",
+      "duration": 1.32,
+      "bytes": 10796,
+      "sha256": "6066eee8e6cc608c46da537fe6e1d9909ce8d2ecc65496da45ae70e50d2a06bf"
+    },
+    {
+      "text": "우주 과학관",
+      "kind": "guide",
+      "path": "assets/audio/0ecaeffe01fa1122e212.mp3",
+      "duration": 1.44,
+      "bytes": 11756,
+      "sha256": "6910ca58036a1e66cadab15381ebe745915f6a952269f50227bd0b705045d9f8"
+    },
+    {
+      "text": "꽃밭 동물 병원",
+      "kind": "guide",
+      "path": "assets/audio/f52eb04d1e0d62ac4789.mp3",
+      "duration": 1.848,
+      "bytes": 15020,
+      "sha256": "9c3725a2eda40638d224622cc05a3ddab3146e6014eb4d77138c5961ecd19849"
+    },
+    {
+      "text": "산속 캠핑장",
+      "kind": "guide",
+      "path": "assets/audio/14a517a4fc5d7d54f70d.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "b798a4435ece9d97c2d6e9c17aee5afa2bcdf73b8295e979394e741f3dd60349"
+    },
+    {
+      "text": "도서관 구조작전",
+      "kind": "guide",
+      "path": "assets/audio/b0ec65fd47213cb995dc.mp3",
+      "duration": 1.728,
+      "bytes": 14060,
+      "sha256": "1c0bda3b316ce79c82aeca092386f6159d3aeee90bbc1ac0fcebef52b7cee100"
+    },
+    {
+      "text": "비행장 구조작전",
+      "kind": "guide",
+      "path": "assets/audio/3f0c010f2909e017bfe0.mp3",
+      "duration": 1.704,
+      "bytes": 13868,
+      "sha256": "f2c85d7aab8b256946d358fc692bd9e34f1a1d8acb2a1548d14c660e6a5bac2b"
+    },
+    {
+      "text": "큰 동물원",
+      "kind": "guide",
+      "path": "assets/audio/ab9e3f9d8819ed3aadb8.mp3",
+      "duration": 1.344,
+      "bytes": 10988,
+      "sha256": "d156bcc7dfe26252c39bc3f9a929d17f6bc353e334d87aea80cda38b83e92188"
+    },
+    {
+      "text": "아직 구조한 친구가 없어요",
+      "kind": "guide",
+      "path": "assets/audio/d441ad6e0487a0dc163d.mp3",
+      "duration": 2.256,
+      "bytes": 18284,
+      "sha256": "9d770eca557979181466383e22c24a975e7ea7e1dd6225e3e43ccd1fa5279e81"
+    },
+    {
+      "text": "현장",
+      "kind": "guide",
+      "path": "assets/audio/90d78fc6fd542ae24196.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "197a88ae93f73f51b5d35b880b6ae1f378b9a10fe0690d63f10df3367fed1ea9"
+    },
+    {
+      "text": "끈 불꽃",
+      "kind": "guide",
+      "path": "assets/audio/dedf22f455658df27af2.mp3",
+      "duration": 1.32,
+      "bytes": 10796,
+      "sha256": "79782b9555a108c9793a3939581b3ca2e899311f553c070c7083382439848180"
+    },
+    {
+      "text": "개",
+      "kind": "guide",
+      "path": "assets/audio/a57ab05712bfb600cb4b.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "0c4e36adcc334370aeba0c43f8a234dc0cd9cb6bfef5b9ab89fae58bd7d0d5c4"
+    },
+    {
+      "text": "잠깐 쉬기",
+      "kind": "guide",
+      "path": "assets/audio/301110452139129a073b.mp3",
+      "duration": 1.392,
+      "bytes": 11372,
+      "sha256": "87100c2e80df41fe5f2202884c32a0078e147e02c0131ed0bafb2a133745f488"
+    },
+    {
+      "text": "소화전 물 채우기",
+      "kind": "guide",
+      "path": "assets/audio/d9cd741580fc10b2e2d8.mp3",
+      "duration": 1.704,
+      "bytes": 13868,
+      "sha256": "70a6e9ee9fc6b1e6ab01517315dacfb66f152c1fbc078788848bea9e808394f9"
+    },
+    {
+      "text": "사다리 설치 완료",
+      "kind": "guide",
+      "path": "assets/audio/b717b4406a26c9b22f89.mp3",
+      "duration": 1.728,
+      "bytes": 14060,
+      "sha256": "ee24162cb52c89bcedd828247967135204226c70373f1beec23a3ea34ac55ed4"
+    },
+    {
+      "text": "구조 사다리 펼치기",
+      "kind": "guide",
+      "path": "assets/audio/d34a335d600fcb37466b.mp3",
+      "duration": 1.8,
+      "bytes": 14636,
+      "sha256": "42d68cb97523018fb46247e6ce2934805f0bab070d3d07f517eff38bbe09aa97"
+    },
+    {
+      "text": "물",
+      "kind": "guide",
+      "path": "assets/audio/2e7edc957ce601f5ff7c.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "e86b6c0f63572263ede4fd7f6510e2787f47a40ae0cdb56c2dd8da593f9594c4"
+    },
+    {
+      "text": "물이 부족해요! 소화전을 눌러요!",
+      "kind": "guide",
+      "path": "assets/audio/919c64feeb8760f5cf98.mp3",
+      "duration": 3.24,
+      "bytes": 26156,
+      "sha256": "9eb3d9bcdf265cdbf5165e47119bbbc3a42a525b97296a4ca65af7f30b97de69"
+    },
+    {
+      "text": "물이 부족하면 소화전으로 물을 채워요",
+      "kind": "guide",
+      "path": "assets/audio/f2be34a8abace4c69823.mp3",
+      "duration": 2.904,
+      "bytes": 23468,
+      "sha256": "3871fca5936f93c72166ab742ccdfa974861c27b170694feac46eaa33e6cb8c9"
+    },
+    {
+      "text": "! 불꽃을 모두 꺼 보아요!",
+      "kind": "guide",
+      "path": "assets/audio/b8907b139281a6845b95.mp3",
+      "duration": 2.496,
+      "bytes": 20204,
+      "sha256": "fe941aa8a40d5dc153bd418a94076c38bff164dda4c019085196f34c21e90ade"
+    },
+    {
+      "text": "구조 성공!",
+      "kind": "guide",
+      "path": "assets/audio/2fa60f82c43d4fcebf3a.mp3",
+      "duration": 1.416,
+      "bytes": 11564,
+      "sha256": "da963e94c551039dff368514ab7df4b62cd34645f6976a6afcebf9158f5846b3"
+    },
+    {
+      "text": "불을 모두 껐어요!",
+      "kind": "guide",
+      "path": "assets/audio/91046aed30dcc247167a.mp3",
+      "duration": 1.728,
+      "bytes": 14060,
+      "sha256": "abfc121df8e89742f8689a2cdc2b1ee18c1742ac3e8798011acff1f891f256a1"
+    },
+    {
+      "text": "친구가 고마워하고 있어요. 구조한 현장",
+      "kind": "guide",
+      "path": "assets/audio/3505f858d2db41952b0f.mp3",
+      "duration": 3.456,
+      "bytes": 27884,
+      "sha256": "9f1282ec3ea8bd5e734ddc0e9046a0b4c6868924bc41e99f4e3c84fece333b8d"
+    },
+    {
+      "text": "다음 현장으로",
+      "kind": "guide",
+      "path": "assets/audio/3bcdd6a32e08676a1d89.mp3",
+      "duration": 1.512,
+      "bytes": 12332,
+      "sha256": "245ea12c2845c4f2fa04f4f604c9ae6597d667621c2b1ae4a892cfe152db9da1"
+    },
+    {
+      "text": "불꽃은 기다려 줘요. 준비되면 다시 출동해요!",
+      "kind": "guide",
+      "path": "assets/audio/ab83d0d7ab92e50b246f.mp3",
+      "duration": 3.84,
+      "bytes": 30956,
+      "sha256": "74a5100d5c7c152d7e2f151b25d6e68119aa5162e1f6d1ca1fe8a4c147b946c2"
+    },
+    {
+      "text": "저를 눌러 줘!",
+      "kind": "guide",
+      "path": "assets/audio/7726aba742ab6b0c0edc.mp3",
+      "duration": 1.488,
+      "bytes": 12140,
+      "sha256": "100d0b8ab6400ec9a617c3338e6d2bf8c499c3d0fdd41237f6d74d0e9e47b0d1"
+    },
+    {
+      "text": "도와주세요!",
+      "kind": "guide",
+      "path": "assets/audio/2bb72d99d40f0418bc6c.mp3",
+      "duration": 1.368,
+      "bytes": 11180,
+      "sha256": "0079cce1285aaabaef3dc7c976bd0ccf44119c1e7e58b32e291cda735aeb6af2"
+    },
+    {
+      "text": "창문에 있는 동물 친구를 직접 눌러 주세요!",
+      "kind": "guide",
+      "path": "assets/audio/9052859050a78c09ec90.mp3",
+      "duration": 3.552,
+      "bytes": 28652,
+      "sha256": "81b01faff0a6e0b28e45ae9b7d096f8d1166de0401ce69fcac3fc23bd40375e4"
+    },
+    {
+      "text": "물이 없어요! 소화전을 눌러 충전해요!",
+      "kind": "guide",
+      "path": "assets/audio/bffc296eef3423e5eed4.mp3",
+      "duration": 3.648,
+      "bytes": 29420,
+      "sha256": "bb7860a1154cf14933d0406915d93d44545e8d9f018c06d02759de18a0af3061"
+    },
+    {
+      "text": "5분 탐험 완료!",
+      "kind": "guide",
+      "path": "assets/audio/43d7a83589c3335e48ba.mp3",
+      "duration": 1.872,
+      "bytes": 15212,
+      "sha256": "0c77a206d8a2e2492ade4c9360edacc9492bc7c538a824c6c3085d63280135af"
+    },
+    {
+      "text": "이현이 소방관! 오늘도 정말 멋지게 구조했어! 다른 놀이도 만나볼까요?",
+      "kind": "guide",
+      "path": "assets/audio/3cea12acb05f2cba12d7.mp3",
+      "duration": 6.696,
+      "bytes": 53804,
+      "sha256": "b106d09ec0f7d3100d5e7035fdf037015783854891f07e6e6d17fd79e554332c"
+    },
+    {
+      "text": "소화전 연결 성공! 물통 100% 충전!",
+      "kind": "guide",
+      "path": "assets/audio/dca57bb38d5315f62c1c.mp3",
+      "duration": 4.152,
+      "bytes": 33452,
+      "sha256": "22d58ce2ed4deb5175023fa22ac7142524bd46469a68ebce05b8d9e42b9ec5c2"
+    },
+    {
+      "text": "헬리콥터가 물을 뿌렸어요!",
+      "kind": "guide",
+      "path": "assets/audio/79216d28dbe34d8a1583.mp3",
+      "duration": 2.184,
+      "bytes": 17708,
+      "sha256": "277441cb719de7e54b459060416acf0a3238834faf48449c190936b764bf0858"
+    },
+    {
+      "text": "친구 구조 성공! 소방차를 따라 써 볼까요?",
+      "kind": "guide",
+      "path": "assets/audio/0f9340c21551c031d738.mp3",
+      "duration": 4.104,
+      "bytes": 33068,
+      "sha256": "70414bacb93b79cd5f0b7d7e2017c96b511b28d573a845fcb3ebeb231e9b778d"
+    },
+    {
+      "text": "사다리 준비 완료! 창문에 있는 친구를 눌러 주세요!",
+      "kind": "guide",
+      "path": "assets/audio/5b4f94afe180b99e7c07.mp3",
+      "duration": 4.8,
+      "bytes": 38636,
+      "sha256": "c6a702da3fc2eb89e01ac3e981a4d22f1e98fa59e1d08d5637f64c12da31d54e"
+    },
+    {
+      "text": "물이 다 떨어졌어요! 소화전을 연결해 주세요!",
+      "kind": "guide",
+      "path": "assets/audio/c7abf8d4bda847b70abd.mp3",
+      "duration": 4.104,
+      "bytes": 33068,
+      "sha256": "6a4b533a87bad62c29fba4f126117552234e2de8eae5546f1e64d6abf4193cda"
+    },
+    {
+      "text": "불을 껐어! 멋져!",
+      "kind": "guide",
+      "path": "assets/audio/22ae32180a88792380c5.mp3",
+      "duration": 2.064,
+      "bytes": 16748,
+      "sha256": "b4c3f676422046f471462a21cac4cf22c5fdd1e89c509b9192ca0f887172e536"
+    },
+    {
+      "text": "좋았어, 이현이 소방관!",
+      "kind": "guide",
+      "path": "assets/audio/1388361b71958c9b2351.mp3",
+      "duration": 2.112,
+      "bytes": 17132,
+      "sha256": "3adce7f2266ee3d816322fe4a9ac1739138c9d8de2b380fc716cab2062a1d864"
+    },
+    {
+      "text": "야호! 구조 성공!",
+      "kind": "guide",
+      "path": "assets/audio/85bc6e12e9da686c40de.mp3",
+      "duration": 2.184,
+      "bytes": 17708,
+      "sha256": "0f04c187d653b756c8c4d322920d8f00c873ce4c8920e68bf6e5091e2af7dda4"
+    },
+    {
+      "text": "잘했어! 불꽃",
+      "kind": "guide",
+      "path": "assets/audio/c7e7c3540e910dea6bd6.mp3",
+      "duration": 1.944,
+      "bytes": 15788,
+      "sha256": "03cea8de06b9872d50813b94733f51ec7c38eb395367e9d757b3e981d3b4f1f3"
+    },
+    {
+      "text": "개를 껐어!",
+      "kind": "guide",
+      "path": "assets/audio/0ebfee1802e716ae6d6a.mp3",
+      "duration": 1.344,
+      "bytes": 10988,
+      "sha256": "2c1c7b0008c5a88b06a77d6181ec4d2e75e1a43fabd043a8a20fe00323364dbf"
+    },
+    {
+      "text": "고양이 불을 다 껐어요! 창문에 있는 친구를 손가락으로 눌러 구해요!",
+      "kind": "guide",
+      "path": "assets/audio/77feaf9b018702a6096f.mp3",
+      "duration": 5.688,
+      "bytes": 45740,
+      "sha256": "9b7566af0c68386a094da47ebdf86751e3f82837bf3dcf914c5ab42f05e6cef2"
+    },
+    {
+      "text": "주황",
+      "kind": "guide",
+      "path": "assets/audio/c975ea17dc9d78cc2b1b.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "a669698662700b1bd4eea2730bb06e035ca520157f2b1cd60433e7bbae0cd2a8"
+    },
+    {
+      "text": "보라",
+      "kind": "guide",
+      "path": "assets/audio/96b6ef53a436d0304b3c.mp3",
+      "duration": 1.248,
+      "bytes": 10220,
+      "sha256": "0c9d16560cd2a8a0481b0024b1ce83e5070c221536ce393dbc74d30c4acaf930"
+    },
+    {
+      "text": "갈색",
+      "kind": "guide",
+      "path": "assets/audio/6c353afe7f9ea283c859.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "bfa26c65693e195017e73bcb26fa66521d0b206e4c1553e71875049130628d40"
+    },
+    {
+      "text": "하양",
+      "kind": "guide",
+      "path": "assets/audio/fca1dc3d3fe82f62fa71.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "764a8e206ef90e69fe286d87f249d4d5a58ef6c54f795417a66bb691cee959e6"
+    },
+    {
+      "text": "기기의 저장 공간이 가득 찼어요. 그림 파일로 저장해 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/ccdea8946365c8025511.mp3",
+      "duration": 4.728,
+      "bytes": 38060,
+      "sha256": "40115c7b47182c553381a25bbe3e74b7faab8d3cdfa9de65291e62e1cab4ec57"
+    },
+    {
+      "text": "그림을 열 수 없어요",
+      "kind": "guide",
+      "path": "assets/audio/63668222d480d01c44f5.mp3",
+      "duration": 1.8,
+      "bytes": 14636,
+      "sha256": "41a0660b4b368bf6ff61961d8527d60b0688f80960c455a78a947fd31f61413e"
+    },
+    {
+      "text": "그림을 펼치고 있어요…",
+      "kind": "guide",
+      "path": "assets/audio/4e52e7ef4b4290dd9180.mp3",
+      "duration": 2.28,
+      "bytes": 18476,
+      "sha256": "2cb82c3d1e62dd5ef50ca981359a8aaf8f43e2bb28a10dfe5bcdf3fd09aa36bd"
+    },
+    {
+      "text": "칠하고 싶은 부분을 톡 눌러요. 선은 그대로 지켜줄게요.",
+      "kind": "guide",
+      "path": "assets/audio/4f53474ee989621c619e.mp3",
+      "duration": 4.512,
+      "bytes": 36332,
+      "sha256": "393265f1c9d18841c6b0010a0c386981fd02f7a6910ef4686dfc507d035dca55"
+    },
+    {
+      "text": "그림을 불러오지 못했어요. 다른 그림을 고르거나 다시 열어 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/b07cb607c8226347c7f6.mp3",
+      "duration": 5.04,
+      "bytes": 40556,
+      "sha256": "8a760e3c513eb2720a025ef75f36ad5d34660460090fc8277c9260db41135872"
+    },
+    {
+      "text": "인터넷 연결과 저장 공간을 확인해 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/c73d64ad62bdf53448df.mp3",
+      "duration": 3.36,
+      "bytes": 27116,
+      "sha256": "e2a4811d04ee12d29e466062eaf96cf343b2402fe5e4a7e4a3bcd389975e82bd"
+    },
+    {
+      "text": "이 그림에 색을 많이 담았네요! 작품으로 저장하고 새 그림을 시작해 볼까요?",
+      "kind": "guide",
+      "path": "assets/audio/80fc4a5e0de603e1da88.mp3",
+      "duration": 6.24,
+      "bytes": 50156,
+      "sha256": "13f4ea84e0895c4ddc5adb09a9bca3273825a982fe2ca79406ed11cdd56fa494"
+    },
+    {
+      "text": "선은 그대로 두고 색을 지웠어요.",
+      "kind": "guide",
+      "path": "assets/audio/34ffa977c2f28bc46cba.mp3",
+      "duration": 2.376,
+      "bytes": 19244,
+      "sha256": "1e2ce8818e54dde9baaafaf3de591e728b8a4ced9eb02c728886d3c7f98877c9"
+    },
+    {
+      "text": "좋아요! 나만의 색깔이 담겼어요.",
+      "kind": "guide",
+      "path": "assets/audio/c1b6c3e1ea7def1f51f0.mp3",
+      "duration": 3.192,
+      "bytes": 25772,
+      "sha256": "ecdab1597cfe57ae0ce11757f8d782266ad721da139e591a2c33be24e542bafc"
+    },
+    {
+      "text": "점선으로 고른 부분",
+      "kind": "guide",
+      "path": "assets/audio/2473a07c7d957f16bd61.mp3",
+      "duration": 1.872,
+      "bytes": 15212,
+      "sha256": "b28219e08a6b8d9d2642988b544ff50bd7285e00c2d163f81f50bad216343b8f"
+    },
+    {
+      "text": "5분 동안 멋지게 칠했어요! 새 색칠을 시작해 주세요.",
+      "kind": "guide",
+      "path": "assets/audio/ba9fc178957cf01fc210.mp3",
+      "duration": 4.992,
+      "bytes": 40172,
+      "sha256": "daeea0d7a2f687af93f12d409c8791e033ee4cade0f5b1209f35ef6b2106c221"
+    },
+    {
+      "text": "을 골랐어요.",
+      "kind": "guide",
+      "path": "assets/audio/0c64a8899a1b7fa13994.mp3",
+      "duration": 1.416,
+      "bytes": 11564,
+      "sha256": "9e9e751c66ecbb0da0f773a89f73f2a3ce395c02bad6244f6585f46e40ad238a"
+    },
+    {
+      "text": "넓은 부분을 톡 눌러 채워요.",
+      "kind": "guide",
+      "path": "assets/audio/1680b3b9bc81042d2bef.mp3",
+      "duration": 2.328,
+      "bytes": 18860,
+      "sha256": "cc9c1520a3248940cd4af6c13de2b2930ce978cf9db9a095aba792689c6119b5"
+    },
+    {
+      "text": "손가락으로 쓱쓱 칠해요. 시작한 부분의 선 밖으로 새지 않아요.",
+      "kind": "guide",
+      "path": "assets/audio/acc58257d060c3157753.mp3",
+      "duration": 5.016,
+      "bytes": 40364,
+      "sha256": "8c4318f27148512002ab22112b64519ce5fd76389aafcc7be8b0eec82253f008"
+    },
+    {
+      "text": "지우고 싶은 색 위를 문질러요. 윤곽선은 남아 있어요.",
+      "kind": "guide",
+      "path": "assets/audio/b2a3fff5d249d8ae5728.mp3",
+      "duration": 4.464,
+      "bytes": 35948,
+      "sha256": "d6be82ee21b87bb6f255f6f22f08922c7c729bf79333fada7419d351ceeb4606"
+    },
+    {
+      "text": "가늘게",
+      "kind": "guide",
+      "path": "assets/audio/70ea4b6c22b7f7df4860.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "1c6f70d5b709a988fe951fe95bf86c4a597f37c50cd7308cce516284b6a58dac"
+    },
+    {
+      "text": "보통",
+      "kind": "guide",
+      "path": "assets/audio/666599febd987f532ea6.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "841cab4c3a9b52a53f4aa8dfff1c71483c7c2dfc2aab225fb317595b8a3ee7e0"
+    },
+    {
+      "text": "굵게",
+      "kind": "guide",
+      "path": "assets/audio/fba83d218eea748cb518.mp3",
+      "duration": 1.272,
+      "bytes": 10412,
+      "sha256": "a85ca09e57450a2289ef50c989ef8d4fc3d2fc7c6ee50f426cde2c83261068ac"
+    },
+    {
+      "text": "한 번 되돌렸어요.",
+      "kind": "guide",
+      "path": "assets/audio/150ed034df7b6562d004.mp3",
+      "duration": 1.656,
+      "bytes": 13484,
+      "sha256": "31b37532d45965b21df08bbb1afca540d0a9d881a02e9af5af6a7ffe643e1978"
+    },
+    {
+      "text": "새 종이처럼 깨끗해졌어요. 다시 칠해 볼까요?",
+      "kind": "guide",
+      "path": "assets/audio/2f52c5054e74eaa7c030.mp3",
+      "duration": 3.888,
+      "bytes": 31340,
+      "sha256": "ef584ed85772fac73326d80886a70d268a5d38838ade6877fb5be3aa29aee8eb"
+    },
+    {
+      "text": "색을 하나 담은 뒤 작품으로 저장해요.",
+      "kind": "guide",
+      "path": "assets/audio/600fe685313cd86d1de3.mp3",
+      "duration": 3.0,
+      "bytes": 24236,
+      "sha256": "1fbfca60a203dc247c7f08672d15d792fa3dcc2c95cd810c51bc16eb891b617a"
+    },
+    {
+      "text": "멋진 작품을 이 기기에 저장했어요!",
+      "kind": "guide",
+      "path": "assets/audio/7fa6206cb0b50372c3bb.mp3",
+      "duration": 2.784,
+      "bytes": 22508,
+      "sha256": "2c95e03eba141197daa6c746f00d9dde2a88ddc3f4cb7ddb3c92b853545e6e51"
+    },
+    {
+      "text": "색을 칠하고 ‘내 작품 완성’을 누르면 여기에 걸려요.",
+      "kind": "guide",
+      "path": "assets/audio/f2959ffbb6fc30aa6988.mp3",
+      "duration": 3.624,
+      "bytes": 29228,
+      "sha256": "569c1b3fe6f1d91e9ed48d1251866c141e317b7fa4d3fe45bd4aca9999ac3918"
+    },
+    {
+      "text": "색칠 작품",
+      "kind": "guide",
+      "path": "assets/audio/649f82c78a0ccbe7cdb5.mp3",
+      "duration": 1.464,
+      "bytes": 11948,
+      "sha256": "f15a82055fd6f272cf0047dfaf65f37bb07022f07b057a8e841fe76a812ff964"
+    },
+    {
+      "text": "이어 색칠하기",
+      "kind": "guide",
+      "path": "assets/audio/8a0235caf71fa7fb20c5.mp3",
+      "duration": 1.512,
+      "bytes": 12332,
+      "sha256": "0f9e05df10a20c7cff4a28dff43dc582c76367ade16286822573878f7f19fb71"
+    },
+    {
+      "text": "그림 파일 저장",
+      "kind": "guide",
+      "path": "assets/audio/0cca6762e2844a2d29d3.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "54bdbe2354b76c315b810abe45648ef54a8caafdba2011bc7a8b37b7b101b3b0"
+    },
+    {
+      "text": "소리 켬",
+      "kind": "guide",
+      "path": "assets/audio/1e9a7ef3d7c44f2bf388.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "d7034c62dd40944e6b0e932c493256fc7c8950b93cdb06d2546eafc469f15b3c"
+    },
+    {
+      "text": "소리 끔",
+      "kind": "guide",
+      "path": "assets/audio/6da8f489e09ce11b7710.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "5dff8f4aebcbe75e5df9201a24745a045102d303fd841f308c3d8895b29a013a"
+    },
+    {
+      "text": "소리 끄기",
+      "kind": "guide",
+      "path": "assets/audio/b609ddac44c2a3707bce.mp3",
+      "duration": 1.32,
+      "bytes": 10796,
+      "sha256": "6edba4602c08915907b82e3d4790bbe54e775c7768c51db4045776892539c5c7"
+    },
+    {
+      "text": "5분 색칠 트로피",
+      "kind": "guide",
+      "path": "assets/audio/d74eb8843855b64ec900.mp3",
+      "duration": 1.872,
+      "bytes": 15212,
+      "sha256": "b5af5990ba8b09a460d6e2c8720045fdb8036ab84219118670d479bde84aa261"
+    },
+    {
+      "text": "새로운 색칠 이야기를 시작해요!",
+      "kind": "guide",
+      "path": "assets/audio/7ce84412d6719898a7fb.mp3",
+      "duration": 2.52,
+      "bytes": 20396,
+      "sha256": "578867512d05ba376efa078d1e6d94e5b20f817f686c5cbfdb0d4478275b2c0f"
+    },
+    {
+      "text": "초 후 트로피",
+      "kind": "guide",
+      "path": "assets/audio/0526a14d91c2babc8744.mp3",
+      "duration": 1.416,
+      "bytes": 11564,
+      "sha256": "afc011378e821ff3f6d818ebdc8c092ce7844eb70962e769b6d023c757f5110a"
+    },
+    {
+      "text": "그림 속에서 사과 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/8033a9f8c08999bf7f0c.mp3",
+      "duration": 2.088,
+      "bytes": 16940,
+      "sha256": "911203f22048c7b8f3032024484c630f4f456d6437bf7fa874ca5d98999f170a"
+    },
+    {
+      "text": "그림 속에서 별 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/43ecb5ef6d4f5e6928a0.mp3",
+      "duration": 1.968,
+      "bytes": 15980,
+      "sha256": "d1d325f307ccd73e1d88350a5e189b4de4bdf551df617f53f1aef73270bcc50d"
+    },
+    {
+      "text": "그림 속에서 자동차 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/253ce206be28af71bc77.mp3",
+      "duration": 2.256,
+      "bytes": 18284,
+      "sha256": "b94574f7f040fcba2b8af79361b121b92f0b5747b47c3eeae8d88ba27060eb78"
+    },
+    {
+      "text": "그림 속에서 디플로도쿠스 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/67a3ca6d622e72503397.mp3",
+      "duration": 2.616,
+      "bytes": 21164,
+      "sha256": "bcc1d13ce97bccbac91969a517b0cc636bc72d9733cdec31b3329fa8e29a9794"
+    },
+    {
+      "text": "그림 속에서 고양이 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/0458a008c80d79156c26.mp3",
+      "duration": 2.208,
+      "bytes": 17900,
+      "sha256": "2711f4ce505e4d0f4f6778fae7d0c6450124783559a1a8ba9cb0edf6de4dc5af"
+    },
+    {
+      "text": "그림 속에서 해바라기 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/22a8aeeaf923e1300ef5.mp3",
+      "duration": 2.232,
+      "bytes": 18092,
+      "sha256": "2f921a863ad59fa643c3972d018bf2beb7efcf1c7ed437343d23553ef920aa85"
+    },
+    {
+      "text": "그림 속에서 빨간 풍선 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/47f0f47e464e4aac02e8.mp3",
+      "duration": 2.496,
+      "bytes": 20204,
+      "sha256": "6f2c165523b57b71daab5da942590ba15a68dba8851ab38a1374af5188d67ade"
+    },
+    {
+      "text": "그림 속에서 토끼 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/d666693f5c4e00bb5d29.mp3",
+      "duration": 2.112,
+      "bytes": 17132,
+      "sha256": "34d058d9665c4bb3d92116eed830c8b5bc3a51b52907014de0615ef433801df6"
+    },
+    {
+      "text": "그림 속에서 개구리 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/60c59ae3c5136f922e63.mp3",
+      "duration": 2.184,
+      "bytes": 17708,
+      "sha256": "21536fc9711d743aa8ffeefa1594cafa9e00ac4cc22d2eb9feb1b8cc99ee2956"
+    },
+    {
+      "text": "그림 속에서 선물 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/f149407311a5593f13e0.mp3",
+      "duration": 2.136,
+      "bytes": 17324,
+      "sha256": "4646dc26ac4caa30b16de189abaa6b2692a7b2df2dcc93e47fcab5255067b7c5"
+    },
+    {
+      "text": "그림 속에서 강아지 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/562c4809c165590e6496.mp3",
+      "duration": 2.232,
+      "bytes": 18092,
+      "sha256": "1c0203e1f839dfba2a724afa988b3d3fb32ba7b1497dd4951049467fdc7d5ba3"
+    },
+    {
+      "text": "그림 속에서 원숭이 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/a683907908838d09a640.mp3",
+      "duration": 2.256,
+      "bytes": 18284,
+      "sha256": "94e5ea3730988f583470933caf7f6eeb3dfd63ea175d1b58ec671dbba82e97d6"
+    },
+    {
+      "text": "그림 속에서 나무 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/799c6e2dc03149513904.mp3",
+      "duration": 2.064,
+      "bytes": 16748,
+      "sha256": "c618085e741132ccb9cd2630b8f5f9d5e2c6e430c165b7d49e6a647d31240957"
+    },
+    {
+      "text": "그림 속에서 딸기 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/e37aff4cfd622d8b116d.mp3",
+      "duration": 2.088,
+      "bytes": 16940,
+      "sha256": "4cddef6cebe9aae35979137fd3581e5602085dd609be98d341327e96d1f40907"
+    },
+    {
+      "text": "그림 속에서 파란 보석 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/14bc5f62963a0a89fccf.mp3",
+      "duration": 2.424,
+      "bytes": 19628,
+      "sha256": "c6552bd45b713d974a0cd893aed1242009e9d24a7f595cf875c194dd1d88d189"
+    },
+    {
+      "text": "그림 속에서 파란 나비 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/1c0f254c3d79b0c9a8d2.mp3",
+      "duration": 2.4,
+      "bytes": 19436,
+      "sha256": "1bfc1fc787c6a1fd4f721b27372d64b0d5ebe2b6bd31d8fff88ac674943aa6bd"
+    },
+    {
+      "text": "그림 속에서 바나나 찾기!",
+      "kind": "guide",
+      "path": "assets/audio/9ae7054674796366a9c0.mp3",
+      "duration": 2.232,
+      "bytes": 18092,
+      "sha256": "a43711f5564542f5d30216ae401e3b1b36f27bde7144794c8845fbff81ee5658"
+    },
+    {
+      "text": "고양이 친구와 똑같은 그림자를 찾아 연결해 봐요.",
+      "kind": "guide",
+      "path": "assets/audio/b1edab13842208bf9351.mp3",
+      "duration": 3.912,
+      "bytes": 31532,
+      "sha256": "9c1d0d87079d6f91fd5e80b8fdc672a10c6e322c7840f6c5b0a2b35a4eb91aa8"
+    },
+    {
+      "text": "강아지 친구와 똑같은 그림자를 찾아 연결해 봐요.",
+      "kind": "guide",
+      "path": "assets/audio/b7c43cd76852f062fe6a.mp3",
+      "duration": 3.96,
+      "bytes": 31916,
+      "sha256": "c90ef451b1cb86c1b295171c0abddc4c3eb60a8b89c863ad8b2f65ea39fc8f11"
+    },
+    {
+      "text": "토끼 친구와 똑같은 그림자를 찾아 연결해 봐요.",
+      "kind": "guide",
+      "path": "assets/audio/20a7ca27c7d11cbefc9f.mp3",
+      "duration": 3.864,
+      "bytes": 31148,
+      "sha256": "f7fe80c0a26bb69b7c09659b112690205901ae416e912186a212fae62021d279"
+    },
+    {
+      "text": "곰 친구와 똑같은 그림자를 찾아 연결해 봐요.",
+      "kind": "guide",
+      "path": "assets/audio/5d42e826d29052b4cb7e.mp3",
+      "duration": 3.648,
+      "bytes": 29420,
+      "sha256": "e3a6408b0cc01023abd003413f541caf10a01ee5fe3d9fa9ec351ed038ff80fb"
+    },
+    {
+      "text": "개구리 친구와 똑같은 그림자를 찾아 연결해 봐요.",
+      "kind": "guide",
+      "path": "assets/audio/5872c10063f1c2a23668.mp3",
+      "duration": 3.936,
+      "bytes": 31724,
+      "sha256": "621d793ecb556f80fd3341ce339ca552e9a62ab32e2a11a76b8c97a442e07732"
+    },
+    {
+      "text": "원숭이 친구와 똑같은 그림자를 찾아 연결해 봐요.",
+      "kind": "guide",
+      "path": "assets/audio/9d69d850ad5beeff4554.mp3",
+      "duration": 4.08,
+      "bytes": 32876,
+      "sha256": "f1ed67e2057e0e58786bf430702d2c852950382455c0a81f66565500a24166df"
+    },
+    {
+      "text": "사과과 같은 색깔의 바구니에 담아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/818339a32a8816a6f7a6.mp3",
+      "duration": 3.144,
+      "bytes": 25388,
+      "sha256": "d392fd5b113a26dfa2e065e49e70e9755ffa006d53cd365d79736246cc14995c"
+    },
+    {
+      "text": "딸기과 같은 색깔의 바구니에 담아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/0c92e23198e067a213e3.mp3",
+      "duration": 3.12,
+      "bytes": 25196,
+      "sha256": "a62943b24713f9e2db144f6443d0356b03b8b82dcf0fe4e1560cbed9a948db01"
+    },
+    {
+      "text": "빨간 풍선과 같은 색깔의 바구니에 담아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/e0410f3ff95adea38c5f.mp3",
+      "duration": 3.648,
+      "bytes": 29420,
+      "sha256": "232eda6ddc50f72d395445ab24e624ad517ee2940afa51af8f99034eb8df59ea"
+    },
+    {
+      "text": "해바라기과 같은 색깔의 바구니에 담아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/88249aad7c6b541cc1a3.mp3",
+      "duration": 3.336,
+      "bytes": 26924,
+      "sha256": "e7372be21c1aac31b4e9ab0d5d68cbdb1cd35a633d59ac4a1d77dd736207f563"
+    },
+    {
+      "text": "별과 같은 색깔의 바구니에 담아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/ac127a235f0d990b9868.mp3",
+      "duration": 2.952,
+      "bytes": 23852,
+      "sha256": "2226c84de14be6758d5dac02ae5ea34fc5aab3e1973d0fd56479a84864d9e1d4"
+    },
+    {
+      "text": "바나나과 같은 색깔의 바구니에 담아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/45f99393036d8ea3b133.mp3",
+      "duration": 3.264,
+      "bytes": 26348,
+      "sha256": "3c507fdf8f150125765c79e979408ed23478ebe086e0be714b15127e8925cd65"
+    },
+    {
+      "text": "파란 보석과 같은 색깔의 바구니에 담아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/b52212122d12ee890c64.mp3",
+      "duration": 3.528,
+      "bytes": 28460,
+      "sha256": "96948449d956bfa2daa0edc236055924a167c55d3d0549a60fd81cb3a32b1b72"
+    },
+    {
+      "text": "파란 나비과 같은 색깔의 바구니에 담아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/d24f0fed8e2c96949afd.mp3",
+      "duration": 3.48,
+      "bytes": 28076,
+      "sha256": "937e5f236a063623fa4ee3efce0924af8db7342c841badfc54c3d66d1d209137"
+    },
+    {
+      "text": "파란 공과 같은 색깔의 바구니에 담아 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/dc126d3048c3a081f02b.mp3",
+      "duration": 3.36,
+      "bytes": 27116,
+      "sha256": "5556cbdea245ea89c916de91382351e7e88e6f527d52cc119133bafd6ce5a7c1"
+    },
+    {
+      "text": "멋지게 성공! 알를 따라 써 볼까?",
+      "kind": "guide",
+      "path": "assets/audio/311f8bf672ea65db3df6.mp3",
+      "duration": 3.288,
+      "bytes": 26540,
+      "sha256": "374001ca046e00a5c1fc4ca70176485a9c27355e4b8fbc2844178bccb7883af1"
+    }
+  ],
+  "limitations": [
+    "No human listening approval or guarantee of subjective naturalness.",
+    "ASR spot-check is intelligibility evidence only, not a quality rating.",
+    "Unlisted dynamic/personalized sentences and English retain device speech.",
+    "Some indexed supporting phrases are retained for reuse."
+  ]
+}

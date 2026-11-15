@@ -1,0 +1,18 @@
+[
+  {
+    "view": "mobile",
+    "route": "voice-preview.html",
+    "screenshot": "mobile-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "view": "tablet",
+    "route": "voice-preview.html",
+    "screenshot": "tablet-0.webp",
+    "pageErrors": [],
+    "overflow": false,
+    "brokenImages": []
+  }
+]

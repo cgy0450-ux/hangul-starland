@@ -1,0 +1,12 @@
+{
+  "cachedRequests": 1256,
+  "offlineActualMp3Playback": "PASS: book 20, two consecutive pages",
+  "rangeRequests": {
+    "status": 206,
+    "bytes": 32,
+    "contentRange": "bytes 0-31/80300",
+    "suffixStatus": 206,
+    "suffixBytes": 8,
+    "invalidStatus": 416
+  }
+}

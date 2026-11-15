@@ -318,3 +318,5 @@ require('./v13/assets.cjs');
 console.log('PASS: '+compiled+' HTML scripts; reviewed history/coding and 10 money games plus two block-building games; ten number-writing groups and whole-number glyphs; stroke checks; 20 long stories; v10.4 440 graded lessons, new tiger scenery, voice playback and error-specific adaptive review with 200 new play modes, local adaptive engine and parent dashboard.');
 
 for(const file of ['coloring.js','coloring-data.js','vehicles.js','play-settings.js'])new vm.Script(fs.readFileSync(file,'utf8'),{filename:file});
+
+require('./audio/integrity.cjs');

@@ -3,7 +3,7 @@
   "plannedApproved": 221,
   "supportingArtwork": 255,
   "artworkBytes": 42489402,
-  "offlineCoreRequests": 555,
+  "offlineCoreRequests": 1256,
   "duplicateArtworkHashes": 0,
   "missingOfflineFiles": [],
   "exportOptimization": {
@@ -15,5 +15,7 @@
     "Retained original generation PNGs; 2x2 or 1x2 scene-sheet panels exported as distinct individual images, not 221 separate generation calls",
     "Payload measured from actual files; no claim of real mobile network or device voice-quality benchmarking",
     "Some supporting props are retained for reuse; 221 primary scenes are all linked to actual screens"
-  ]
+  ],
+  "generatedAudioFiles": 693,
+  "generatedAudioBytes": 20681244
 }

@@ -1,0 +1,16 @@
+{
+  "recognizer": "Whisper tiny int8 via sherpa-onnx; Korean; CPU",
+  "results": [
+    {
+      "expected": "안녕! 나는 쪼이야. 오늘은 어떤 재미있는 놀이를 해 볼까?",
+      "recognized": "안녕! 나는 조이야! 오늘은 어떤 재미있는 노래를 해볼까?",
+      "path": "./assets/audio/c414605bd5ef9d109335.mp3"
+    },
+    {
+      "expected": "소방차",
+      "recognized": "소방차",
+      "path": "./assets/audio/f81b9eab297d80761b8f.mp3"
+    }
+  ],
+  "limitation": "Machine transcription is not human listening, pronunciation approval or subjective naturalness evaluation."
+}

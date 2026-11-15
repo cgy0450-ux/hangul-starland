@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-11-15T07:27:47.442568+00:00",
+  "mp3FilesDecoded": 693,
+  "storyScenesMapped": 200,
+  "audioBytes": 20681244,
+  "chromeRenderedCases": 69,
+  "gameplayScenarios": 13,
+  "realRecordedScenarios": 4,
+  "offlineCoreRequests": 1256,
+  "rangeStatuses": [
+    206,
+    416
+  ],
+  "humanListeningApproved": false,
+  "physicalDeviceTested": false,
+  "paidApiUsed": false,
+  "modelWeightsDeployed": false,
+  "evidence": [
+    "assets.json",
+    "screens/results.json",
+    "preview/results.json",
+    "offline.json",
+    "asr-spot-check.json"
+  ],
+  "coverageLimit": "Unlisted dynamic/personalized utterances and English use device speech."
+}
