@@ -1,0 +1,18 @@
+[
+  {
+    "view": "mobile",
+    "defaultChecked": true,
+    "nativeAudioEndAdvances": true,
+    "uncheckedPersists": true,
+    "uncheckedEndStays": true,
+    "checkedPersists": true
+  },
+  {
+    "view": "tablet",
+    "defaultChecked": true,
+    "nativeAudioEndAdvances": true,
+    "uncheckedPersists": true,
+    "uncheckedEndStays": true,
+    "checkedPersists": true
+  }
+]

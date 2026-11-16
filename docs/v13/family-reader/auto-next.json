@@ -1,6 +1,8 @@
 [
   {
     "view": "mobile",
+    "defaultChecked": true,
+    "uncheckedPreferencePersists": true,
     "manualEndStays": true,
     "checkedEndAdvances": true,
     "pauseBlocksAdvance": true,
@@ -13,6 +15,8 @@
   },
   {
     "view": "tablet",
+    "defaultChecked": true,
+    "uncheckedPreferencePersists": true,
     "manualEndStays": true,
     "checkedEndAdvances": true,
     "pauseBlocksAdvance": true,
