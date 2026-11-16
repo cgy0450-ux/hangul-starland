@@ -11004,6 +11004,118 @@
       "sha256": "3936fa9c92d50a43b97e668bde2b64b86a01384a51f0c2a1394fc5ed92ee3726",
       "provenance": "Built-in image_gen source exec-78b965a5-af7a-4882-bf98-33db658ba74e.png",
       "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "sling.menu",
+      "path": "assets/v13/sling.menu.webp",
+      "alt": "별빛 새총 sling.menu",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "sha256": "0f79ad3ce30ad8960c17c5530597c648fcc28bdd36a2f5ade5f89cce09105fd9",
+      "provenance": "Original built-in image_gen source exec-3238c940-cdcc-4220-a254-82e682df56eb.png",
+      "reviewNote": "Actual generated forest/menu/sprite source inspected; independent turquoise creature, wood blocks, crystal and slingshot."
+    },
+    {
+      "id": "sling.background",
+      "path": "assets/v13/sling.background.webp",
+      "alt": "별빛 새총 sling.background",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "sha256": "133ecbe869b724deb947056e1d1d24f66292bdeabe3ddbbb93b9fd43f7a4357a",
+      "provenance": "Original built-in image_gen source exec-b83c97de-d711-448e-8962-030f2c0878a2.png",
+      "reviewNote": "Actual generated forest/menu/sprite source inspected; independent turquoise creature, wood blocks, crystal and slingshot."
+    },
+    {
+      "id": "sling.bird",
+      "path": "assets/v13/sling.bird.webp",
+      "alt": "별빛 새총 sling.bird",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        493,
+        411
+      ],
+      "sha256": "812e3f35d3a1c5b7e43b20f305449fb4166e109325fcb684fc13179256b6241b",
+      "provenance": "Original built-in image_gen exec-d263b64d-2009-4bbf-aa01-baf7d0c59055.png",
+      "reviewNote": "Transparent revised atlas inspected; alpha-zero background; tight object exports align artwork with physical bodies."
+    },
+    {
+      "id": "sling.plank",
+      "path": "assets/v13/sling.plank.webp",
+      "alt": "별빛 새총 sling.plank",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        488,
+        149
+      ],
+      "sha256": "20e1ce70a5fd4af94bb7e5f05a92f61cee0074927bf65e2de81966d24fa3799f",
+      "provenance": "Original built-in image_gen exec-d263b64d-2009-4bbf-aa01-baf7d0c59055.png",
+      "reviewNote": "Transparent revised atlas inspected; alpha-zero background; tight object exports align artwork with physical bodies."
+    },
+    {
+      "id": "sling.pillar",
+      "path": "assets/v13/sling.pillar.webp",
+      "alt": "별빛 새총 sling.pillar",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        187,
+        472
+      ],
+      "sha256": "60f0e27b06966e429b57ef499309c5b18b7028f4a6f5019289dc66efd29e3adb",
+      "provenance": "Original built-in image_gen exec-d263b64d-2009-4bbf-aa01-baf7d0c59055.png",
+      "reviewNote": "Transparent revised atlas inspected; alpha-zero background; tight object exports align artwork with physical bodies."
+    },
+    {
+      "id": "sling.crystal",
+      "path": "assets/v13/sling.crystal.webp",
+      "alt": "별빛 새총 sling.crystal",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        340,
+        451
+      ],
+      "sha256": "53554f798a9db8f2d1217994419e192c45a37f4cc00a22f5364a023806c2f546",
+      "provenance": "Original built-in image_gen exec-d263b64d-2009-4bbf-aa01-baf7d0c59055.png",
+      "reviewNote": "Transparent revised atlas inspected; alpha-zero background; tight object exports align artwork with physical bodies."
+    },
+    {
+      "id": "sling.sling",
+      "path": "assets/v13/sling.sling.webp",
+      "alt": "별빛 새총 sling.sling",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        424,
+        480
+      ],
+      "sha256": "35ad68688637d67b238fc8edc0f6998a9c9ab1b094e8af6486c66ebf87cff076",
+      "provenance": "Original built-in image_gen exec-d263b64d-2009-4bbf-aa01-baf7d0c59055.png",
+      "reviewNote": "Transparent revised atlas inspected; alpha-zero background; tight object exports align artwork with physical bodies."
+    },
+    {
+      "id": "sling.reward",
+      "path": "assets/v13/sling.reward.webp",
+      "alt": "별빛 새총 sling.reward",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        453,
+        441
+      ],
+      "sha256": "624fd70ae2b7edc074d01faaa961346bb3b06c754eda74555ee747d1f39c55cf",
+      "provenance": "Original built-in image_gen exec-d263b64d-2009-4bbf-aa01-baf7d0c59055.png",
+      "reviewNote": "Transparent revised atlas inspected; alpha-zero background; tight object exports align artwork with physical bodies."
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"

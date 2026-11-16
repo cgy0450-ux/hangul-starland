@@ -62,7 +62,7 @@ const renderer=fs.readFileSync('joyi-art-renderer.js','utf8');new vm.Script(rend
 const posterIds=['hidden','colors','shadows','mole','differences','dino','space','animal','firetruck','collect','dodge'];
 assert(posterIds.every(id=>art.includes('id="poster-'+id+'"')),'every playground game must have its own authored vector illustration');
 const uniqueGameLinks=[...requests.matchAll(/<a class="game-card[^"]*" href="([^"]+)"/g)].map(m=>m[1]);
-assert(uniqueGameLinks.length===12&&new Set(uniqueGameLinks).size===12,'playground cannot show duplicate game cards');
+assert(uniqueGameLinks.length===13&&new Set(uniqueGameLinks).size===13&&uniqueGameLinks.includes('./slingshot.html'),'playground cannot show duplicate game cards');
 assert(uniqueGameLinks.includes('./coloring.html')&&fs.existsSync('coloring.html'),'independent coloring game must be reachable');
 for(const id of posterIds)assert(requests.includes('assets/v13/game.'+id+'.webp')&&fs.existsSync('assets/v13/game.'+id+'.webp'),'playground must render its distinct generated raster scene: '+id);
 assert(home.includes('joyi-card-illustration')&&home.includes('assets/v13/subject.hangul.webp'),'main writing card must use its generated JoYi classroom art');

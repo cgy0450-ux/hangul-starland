@@ -1,0 +1,22 @@
+[
+  {
+    "view": "mobile",
+    "zeroPullCancel": true,
+    "actualShotWins": true,
+    "nextStage": true,
+    "retryPreservesTimer": true,
+    "dragLaunch": true,
+    "fiveMinuteCap": true,
+    "twelveDistinctLayouts": true
+  },
+  {
+    "view": "tablet",
+    "zeroPullCancel": true,
+    "actualShotWins": true,
+    "nextStage": true,
+    "retryPreservesTimer": true,
+    "dragLaunch": true,
+    "fiveMinuteCap": true,
+    "twelveDistinctLayouts": true
+  }
+]
