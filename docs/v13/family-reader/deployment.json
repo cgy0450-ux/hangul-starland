@@ -1,27 +1,27 @@
 {
-  "commit": "0d9abdc",
+  "commit": "6635a6a",
+  "fullCommit": "6635a6a6622fb0052b5934b7d9dc64f72514e8fe",
   "workflows": [
     {
-      "id": "43898318721",
+      "id": "43916966678",
       "workflowName": "Joiland JavaScript QA",
-      "runNumber": 348,
+      "runNumber": 349,
       "state": {
         "status": "WORKFLOW_RUN_STATUS_COMPLETED",
         "conclusion": "WORKFLOW_RUN_CONCLUSION_SUCCESS"
       },
-      "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43898318721"
+      "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43916966678"
     },
     {
-      "id": "43898317083",
+      "id": "43916966127",
       "workflowName": "pages-build-deployment",
-      "runNumber": 381,
+      "runNumber": 382,
       "state": {
         "status": "WORKFLOW_RUN_STATUS_COMPLETED",
         "conclusion": "WORKFLOW_RUN_CONCLUSION_SUCCESS"
       },
-      "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43898317083"
+      "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43916966127"
     }
   ],
-  "verification": "Remote main read back; Pages title SHA matches this release, QA and Pages successful. No secret fragment/key in this evidence. Browser emulation, not physical-device or direct public-site visual verification.",
-  "fullCommit": "0d9abdc4685900a1fca8f6a5ea2a773ace28cf3c"
+  "verification": "Remote main read back; Pages run title matches release SHA; QA and Pages both successful. No secret fragment/key in evidence. Local mobile/tablet browser emulation and actual media playback verified; physical-device listening and direct live-site visual verification not claimed."
 }
