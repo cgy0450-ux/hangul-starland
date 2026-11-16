@@ -1,0 +1,370 @@
+{
+  "images": [
+    {
+      "path": "assets/story-additions/mario-01.webp",
+      "sha256": "0d1b59cf4970489b9521d3016356d09fc1d6115bd9cc5329bbeb2a16d17fb164"
+    },
+    {
+      "path": "assets/story-additions/mario-02.webp",
+      "sha256": "8516499510cf850064cde139e5c4921a6dc3dee8bdf25379682790462d01f551"
+    },
+    {
+      "path": "assets/story-additions/mario-03.webp",
+      "sha256": "4291d5df0c5ea33c888377241c2d02a159064e48baef0164a8dbacb5b494e177"
+    },
+    {
+      "path": "assets/story-additions/mario-04.webp",
+      "sha256": "ad89e9adaa5ad671a378f46520e519ab358767ba26a8e4d5c75d02af0011a961"
+    },
+    {
+      "path": "assets/story-additions/mario-05.webp",
+      "sha256": "6c97d508dead0a25264d0c6cde221a93a8272091925b46f071d7c6bd26f28c5f"
+    },
+    {
+      "path": "assets/story-additions/mario-06.webp",
+      "sha256": "670954c1e34a135030963b44addc0b1dd456d53f30f0f61a3c5cfaf79d3148fb"
+    },
+    {
+      "path": "assets/story-additions/mario-07.webp",
+      "sha256": "e46e73ce619845ae2e456ceb3ca90bf7f9504e2af0f73397b4e494a8a5cbef33"
+    },
+    {
+      "path": "assets/story-additions/mario-08.webp",
+      "sha256": "7b89e47c040ad3e0d20cdc14be2c6412984f9cc572fc6a372037199c3bfe8f54"
+    },
+    {
+      "path": "assets/story-additions/mario-09.webp",
+      "sha256": "582b4774106987a886ea48731a209ad20a023372fa8787b18f341e9f077a0ca5"
+    },
+    {
+      "path": "assets/story-additions/mario-10.webp",
+      "sha256": "105e9d9823bd868cdceebe3c5c05591bd7f4ab6adee65e80ce5f0c2fa28d631c"
+    },
+    {
+      "path": "assets/story-additions/poli-01.webp",
+      "sha256": "11016c8b66d6fcc8600fe871015dad779fc09b4974b4e3fbfa00dd0b06ff4af5"
+    },
+    {
+      "path": "assets/story-additions/poli-02.webp",
+      "sha256": "4597228a6e3ee33841e53f04843dde1833f4ca9bb49f69d5c860b4ab20e33e46"
+    },
+    {
+      "path": "assets/story-additions/poli-03.webp",
+      "sha256": "8b0c069bab07e1ab25a4d7d4a969881a0506429fe0428030b69529c92a3dd7d3"
+    },
+    {
+      "path": "assets/story-additions/poli-04.webp",
+      "sha256": "bf7be88b655a1a9e55b2648d3983c3d32aa1953ae838a7ba20ef94ac32ad91bd"
+    },
+    {
+      "path": "assets/story-additions/poli-05.webp",
+      "sha256": "ed986786bfbf191c4e6079ef91a94d2e2ff657e310e0902b5e1aa42bd21a045b"
+    },
+    {
+      "path": "assets/story-additions/poli-06.webp",
+      "sha256": "cab1a1ff9f00af0988eb64e423e9e652b628637436a64e610e07ed70483d6a90"
+    },
+    {
+      "path": "assets/story-additions/poli-07.webp",
+      "sha256": "df2ad0a77cd71a912402b05091b971bce51dc96ffc6843577cf609deed631192"
+    },
+    {
+      "path": "assets/story-additions/poli-08.webp",
+      "sha256": "6d9d389edb85cd429d3b0f159a57031c6632f59d9b00db1344bc54a875b19d75"
+    },
+    {
+      "path": "assets/story-additions/poli-09.webp",
+      "sha256": "bd6ebab2e7e1811e24c85288de908ff7ba10d71ac3a02942efcfec19c5c9b01d"
+    },
+    {
+      "path": "assets/story-additions/poli-10.webp",
+      "sha256": "140db2c3b2e8068e00da0efafca21314898cd7da83711fd5248fbfa732b5e4a4"
+    },
+    {
+      "path": "assets/story-additions/spider-01.webp",
+      "sha256": "0cf74b8938ac56a566e5b4c65b9fa4b4a831dd46316e8151664ea1c44c6c280b"
+    },
+    {
+      "path": "assets/story-additions/spider-02.webp",
+      "sha256": "7702a5e78bfd4cea80a35d36f829985ae1e4be4499fd270266bf92ebc4f63055"
+    },
+    {
+      "path": "assets/story-additions/spider-03.webp",
+      "sha256": "f93c46416b0e699b444305af02643376470c74be7bc7f4dde045a96faaad2e75"
+    },
+    {
+      "path": "assets/story-additions/spider-04.webp",
+      "sha256": "59234867718b0bd70183b12844a16b8401220d26a299a980b0b95f5b301c25b1"
+    },
+    {
+      "path": "assets/story-additions/spider-05.webp",
+      "sha256": "5f90168acccffd898783e1f46ad40bfcf2af0ea4dac84bcb3d9e6099ea5b95f5"
+    },
+    {
+      "path": "assets/story-additions/spider-06.webp",
+      "sha256": "09f0b183ad66c0e4025787ce4a274f0c078e03df059e00eb4e1cb8bbfc075370"
+    },
+    {
+      "path": "assets/story-additions/spider-07.webp",
+      "sha256": "982adbcc9062265627fd62f81f26cb6f72aad527c5b3611a970835d0c8a5671a"
+    },
+    {
+      "path": "assets/story-additions/spider-08.webp",
+      "sha256": "fda1a591489242e3fd42ef0d8002498c9d7d884ee469dcb4123e5e11cbb2a150"
+    },
+    {
+      "path": "assets/story-additions/spider-09.webp",
+      "sha256": "4096df03cec4fba61d475a57caabd8d0086bf05ecf34b5be14c79ac7b9f4b7c9"
+    },
+    {
+      "path": "assets/story-additions/spider-10.webp",
+      "sha256": "af335c3396650297a8e342a477cdfa907491dee9bf48346d815a6c97ca742668"
+    },
+    {
+      "path": "assets/story-additions/tiger-01.webp",
+      "sha256": "1f950e583bc45e5b1316d60c9f15baac70c1e98acd9694544b22dbc83021cb8b"
+    },
+    {
+      "path": "assets/story-additions/tiger-02.webp",
+      "sha256": "90df8c9fa3336287bbba60f362fa8adadfb97460cdd5b42959cb339292cdf69e"
+    },
+    {
+      "path": "assets/story-additions/tiger-03.webp",
+      "sha256": "770114b04314226bf66b8e009868d4380c26933ce7fbbeb7693f34c3a3cf78de"
+    },
+    {
+      "path": "assets/story-additions/tiger-04.webp",
+      "sha256": "7144b110dce4c7844fad1a7450e17b3af3f5d4195c0d3ea68d41a0ea2439ded2"
+    },
+    {
+      "path": "assets/story-additions/tiger-05.webp",
+      "sha256": "061963a52758e9604b680d4b089def0c157344321c06b50337885831cc431cfd"
+    },
+    {
+      "path": "assets/story-additions/tiger-06.webp",
+      "sha256": "e6616e842e9087d52df540f443aa658c47c06f1c0ea07fc4273b714705c9d09e"
+    },
+    {
+      "path": "assets/story-additions/tiger-07.webp",
+      "sha256": "954fa9a0c3b94c05cb404db9d793719dfb649b239dc4a8d2f2a02152eb653150"
+    },
+    {
+      "path": "assets/story-additions/tiger-08.webp",
+      "sha256": "2da22e1242afbf3ce014f5cc6a5ac6b4d4f9a1c4aca6c8b42afd04b51ed56bc7"
+    },
+    {
+      "path": "assets/story-additions/tiger-09.webp",
+      "sha256": "5b3ca4612077e0bf4d94c1a5829fd82865e26ff11d79068272638113a7e04ab4"
+    },
+    {
+      "path": "assets/story-additions/tiger-10.webp",
+      "sha256": "3bda4e272c0cc40a1fdf5c03096fdf3175f4594fbaaf0ba5e733d862472f87a4"
+    }
+  ],
+  "distinctImages": 40,
+  "decodedAudio": 40,
+  "audioSeconds": 990.46,
+  "audio": [
+    {
+      "path": "assets/story-additions/mario-01.mp3",
+      "sha256": "85a5e29ef124a9ca2f5cef994be92fa8672a89ee82ee095819aa612f5fed3c4e",
+      "seconds": 26.832
+    },
+    {
+      "path": "assets/story-additions/mario-02.mp3",
+      "sha256": "2920d08b04089068d5dde4de70a9db063de481e2c6fc1174d1978fc3faca0d03",
+      "seconds": 27.12
+    },
+    {
+      "path": "assets/story-additions/mario-03.mp3",
+      "sha256": "641b9759ffc5ca46a3af42ad1d8ca23e1b03c1f63b714bd669883fb7652e96f7",
+      "seconds": 26.928
+    },
+    {
+      "path": "assets/story-additions/mario-04.mp3",
+      "sha256": "356d5591cb037c99f9727abaa0124db87d5d64adaee4fd9412c3d85950309003",
+      "seconds": 27.504
+    },
+    {
+      "path": "assets/story-additions/mario-05.mp3",
+      "sha256": "e15478b1c3c2234ab637f2a83bdf9d506d61e525d72bada1abb7359b47e6e4f5",
+      "seconds": 23.568
+    },
+    {
+      "path": "assets/story-additions/mario-06.mp3",
+      "sha256": "4ddc1c3d66aa32561af03f05ad844d9db7dc17d8be4f97b6e31a54411383f7d4",
+      "seconds": 27.336
+    },
+    {
+      "path": "assets/story-additions/mario-07.mp3",
+      "sha256": "526a2fa3679ddbe5b166773e6fa105f44e80c5ca4ecef10ba5cfb094db657b12",
+      "seconds": 20.424
+    },
+    {
+      "path": "assets/story-additions/mario-08.mp3",
+      "sha256": "1594da9fa05a89c42e1e17c9db5ab66c9cade56181252acd3ef3432a8086174f",
+      "seconds": 27.528
+    },
+    {
+      "path": "assets/story-additions/mario-09.mp3",
+      "sha256": "22925530feb5eb4b11e1db98416bbc3d46f39daecd8e2b93c4279ce9a63f6c3a",
+      "seconds": 26.856
+    },
+    {
+      "path": "assets/story-additions/mario-10.mp3",
+      "sha256": "572066d0d194e74d3f4162ea05c66a5987cc8bc48bde330c0ece3630eb0c1a87",
+      "seconds": 22.296
+    },
+    {
+      "path": "assets/story-additions/poli-01.mp3",
+      "sha256": "e135090d145be6a9bf69a5b56f1ff8c3c902d1296560d515e422b97df3a94ad3",
+      "seconds": 24.792
+    },
+    {
+      "path": "assets/story-additions/poli-02.mp3",
+      "sha256": "314fe45d854f77ad9825917872f8fda6846cef8e92f7f4973a2186508bbbcc1d",
+      "seconds": 27.168
+    },
+    {
+      "path": "assets/story-additions/poli-03.mp3",
+      "sha256": "2ba47251d50dffa3501cacbfc2984570192601614dcc85a5c84a2049ae0ac637",
+      "seconds": 23.592
+    },
+    {
+      "path": "assets/story-additions/poli-04.mp3",
+      "sha256": "4d36bbc7a29a1014dd53002adffc8db4278ef352c95b6e13d6ae71143bec78eb",
+      "seconds": 26.448
+    },
+    {
+      "path": "assets/story-additions/poli-05.mp3",
+      "sha256": "f19444677bdcc141288e8e1581025e3552c4ffec5475a42e974e59ef2911c4fe",
+      "seconds": 23.76
+    },
+    {
+      "path": "assets/story-additions/poli-06.mp3",
+      "sha256": "bd60ff03840700471aa2e56e7c97548c0a5f19fa7725b4beaf6dbcb7010dae1a",
+      "seconds": 26.88
+    },
+    {
+      "path": "assets/story-additions/poli-07.mp3",
+      "sha256": "69683369e3f1c87bc24d4fa936068803565b0e7f75d30fac26dcc261a2aeabd4",
+      "seconds": 26.688
+    },
+    {
+      "path": "assets/story-additions/poli-08.mp3",
+      "sha256": "5dacf8431c63e1d1741c20d9eb9e1d425f5b3e50f6517a50e0a98a31cbab0f96",
+      "seconds": 26.928
+    },
+    {
+      "path": "assets/story-additions/poli-09.mp3",
+      "sha256": "1f77b3783864d22b5abb3cf97e39e76fda8cb3160ea485270960eb6f9958f96f",
+      "seconds": 24.192
+    },
+    {
+      "path": "assets/story-additions/poli-10.mp3",
+      "sha256": "371fc63b350a33b2126917d9f2ab96e6301d2f2383cd4d460e0f35fca1446cd9",
+      "seconds": 23.568
+    },
+    {
+      "path": "assets/story-additions/spider-01.mp3",
+      "sha256": "c34eaaea1c9a332a00580fe3ff46856c8c8f3980ad5db97376ed9051d445fe9c",
+      "seconds": 20.976
+    },
+    {
+      "path": "assets/story-additions/spider-02.mp3",
+      "sha256": "be673970e53c0307e5d4de3c4e5e842f13ea4c4a91d0dab938871f7a62581076",
+      "seconds": 27.072
+    },
+    {
+      "path": "assets/story-additions/spider-03.mp3",
+      "sha256": "3e25b24aa976934b561440d09ae0381c4ee17a3d2e06ad3af9d85524288369b7",
+      "seconds": 21.696
+    },
+    {
+      "path": "assets/story-additions/spider-04.mp3",
+      "sha256": "7f6ae0268cf47721088ce3436207f6405c904dd82c37505d8500d7f3dff8fd70",
+      "seconds": 27.048
+    },
+    {
+      "path": "assets/story-additions/spider-05.mp3",
+      "sha256": "5cd5aa6556ece1adc51d35a034969ef1a14930b6a6ddf164c84cc03f2f4c887f",
+      "seconds": 27.672
+    },
+    {
+      "path": "assets/story-additions/spider-06.mp3",
+      "sha256": "ab2571e508397df1ba16b3731625a9586d81bae35f1c9848a14d6c07d8bf38b4",
+      "seconds": 27.144
+    },
+    {
+      "path": "assets/story-additions/spider-07.mp3",
+      "sha256": "9ddeb2ff9afb44e3ac16acc451a8880efa1ad070fd722719dd050c56415bbd93",
+      "seconds": 21.888
+    },
+    {
+      "path": "assets/story-additions/spider-08.mp3",
+      "sha256": "54b794e6f5efdedd650a6c1e4cf4a8272047cca47176f63bc81cb22b3f1860b6",
+      "seconds": 27.12
+    },
+    {
+      "path": "assets/story-additions/spider-09.mp3",
+      "sha256": "16fe6acfd5b608abf9f682f1e3d06732bc3997d37f45b186079ce0579fe10840",
+      "seconds": 21.672
+    },
+    {
+      "path": "assets/story-additions/spider-10.mp3",
+      "sha256": "439b640df7f00c2d6a610a1eb7822b4d77272f4c6cdd7e63c3ff10d5a70cd566",
+      "seconds": 21.432
+    },
+    {
+      "path": "assets/story-additions/tiger-01.mp3",
+      "sha256": "8cdd20fa9f5077ae75ec7660f64e13eb739c5262121cbf469ef0eac5d85aebc9",
+      "seconds": 27.36
+    },
+    {
+      "path": "assets/story-additions/tiger-02.mp3",
+      "sha256": "25ba611d794b83b92b4127f0f7bb665315d39fde2f30792f3c3b5e29e9c4a7b7",
+      "seconds": 26.808
+    },
+    {
+      "path": "assets/story-additions/tiger-03.mp3",
+      "sha256": "2c042ac1f92b87d348de8238a7a713f2806bc018a8c3ec284ebe504985f2b772",
+      "seconds": 20.376
+    },
+    {
+      "path": "assets/story-additions/tiger-04.mp3",
+      "sha256": "58f14a7859d173cc3a0f5ce47e6d33e7dafb5cb7e93b39a85de88a2e7b7bdd14",
+      "seconds": 27.096
+    },
+    {
+      "path": "assets/story-additions/tiger-05.mp3",
+      "sha256": "9ee9190c379faaf867bd3fe9d38f035bb70fb8b3fce10c4627d8d5eba53d339b",
+      "seconds": 18.936
+    },
+    {
+      "path": "assets/story-additions/tiger-06.mp3",
+      "sha256": "5669250a41bc56386765311a66677cd260458110d0ab94c03deee58ee215c4fc",
+      "seconds": 26.496
+    },
+    {
+      "path": "assets/story-additions/tiger-07.mp3",
+      "sha256": "333cc0654a3e1bd0539451db53e4b55e257e86396d67f9e8ec052bc47e10a5a4",
+      "seconds": 19.92
+    },
+    {
+      "path": "assets/story-additions/tiger-08.mp3",
+      "sha256": "d8b2b2c078ff7282823a1805a9c8793478c8b2c2126937c42f8f73459dbcf0a9",
+      "seconds": 27.48
+    },
+    {
+      "path": "assets/story-additions/tiger-09.mp3",
+      "sha256": "d35d78e7762c22c57caac2beecfdac83c34ebff27cc24432e6f53800cb22e66f",
+      "seconds": 21.816
+    },
+    {
+      "path": "assets/story-additions/tiger-10.mp3",
+      "sha256": "f8f7b3d9c0d4ded5719e5ee6cfa007dfce0639ca8802c34b804fe2d9fa028b7a",
+      "seconds": 20.04
+    }
+  ],
+  "publicChildNameRemoved": true
+}

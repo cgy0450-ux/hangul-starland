@@ -127,6 +127,7 @@ const checkData={window:{}};vm.runInNewContext(curated,checkData);
 for(const sub of ['history','coding']){const lessons=checkData.window.JOY_CURATED[sub];assert.equal(lessons.length,sub==='history'?10:9);for(const [i,rows] of lessons.entries()){assert(rows.length>=5,sub+' '+i+' has too few questions');for(const q of rows){assert.equal(q.length,6,'unreviewed question '+sub+i);assert.equal(new Set(q.slice(2)).size,4,'ambiguous or duplicate answer '+sub+i);assert(!q.slice(2).some(a=>['없어요','잘 모르겠어요','다른 것'].includes(a)),'vague distractor '+sub+i);}}}
 const sandbox={window:{}};vm.runInNewContext(data,sandbox);
 assert.equal(sandbox.window.JOY_STORIES.length,20,'exactly twenty stories expected');
+const publicBooks={window:{JOY_STORIES:[]}};vm.runInNewContext(fs.readFileSync('stories-additions.js','utf8'),publicBooks);assert.equal(publicBooks.window.JOY_STORIES.length,4);for(const b of publicBooks.window.JOY_STORIES){assert.equal(b.pages.length,10);for(const p of b.pages){assert(p.text.length>=35);assert(fs.existsSync(p.art.replace('./','')));assert(fs.existsSync(p.audio.replace('./','')))}}
 for(const b of sandbox.window.JOY_STORIES){
  assert.equal(b.pages.length,10,b.title+' must be ten pages');
  assert(b.pages.every(p=>p.text.length>=35),b.title+' pages too short');
