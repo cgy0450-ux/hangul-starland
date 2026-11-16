@@ -20,5 +20,6 @@
     "Actual Chrome emulation; physical devices not tested.",
     "Direct published-site visual check not claimed."
   ],
-  "deployment": "pending server verification"
+  "deployment": "verified: QA #343 and Pages #376 success at 08bedd641b59495a8be66230526302d4653d74b0",
+  "targetedToolFunctionPhoneTabletCases": 14
 }

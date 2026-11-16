@@ -1,0 +1,42 @@
+{
+  "release": "v13.8",
+  "commit": "08bedd641b59495a8be66230526302d4653d74b0",
+  "published_site": "https://cgy0450-ux.github.io/hangul-starland/",
+  "verified_at_utc": "2026-11-16T07:51:34.533136+00:00",
+  "workflows": [
+    {
+      "workflowName": "pages-build-deployment",
+      "runNumber": 376,
+      "id": "43826513895",
+      "state": {
+        "status": "WORKFLOW_RUN_STATUS_COMPLETED",
+        "conclusion": "WORKFLOW_RUN_CONCLUSION_SUCCESS"
+      },
+      "timing": {
+        "kind": "WORKFLOW_RUN_TIMING_KIND_DURATION",
+        "text": "1m 11s"
+      },
+      "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43826513895"
+    },
+    {
+      "workflowName": "Joiland JavaScript QA",
+      "runNumber": 343,
+      "id": "43826513877",
+      "state": {
+        "status": "WORKFLOW_RUN_STATUS_COMPLETED",
+        "conclusion": "WORKFLOW_RUN_CONCLUSION_SUCCESS"
+      },
+      "timing": {
+        "kind": "WORKFLOW_RUN_TIMING_KIND_DURATION",
+        "text": "1m 10s"
+      },
+      "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43826513877"
+    }
+  ],
+  "verification": "Remote main SHA read back; Pages run title matches release SHA and successful published output URL is present; QA and Pages both completed successfully.",
+  "limitations": [
+    "Direct public-site access returns cloud CONNECT 403; no live visual or physical-device claim."
+  ],
+  "pr": "Post https://api.github.com/graphql: Forbidden; user authorized continuing branch pushes and main reflection.",
+  "environment_publication": "No cloud configuration publication; no external paid API."
+}

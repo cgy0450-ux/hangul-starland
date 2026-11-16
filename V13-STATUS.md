@@ -10,7 +10,7 @@
 - Intermediate failures repaired, never counted as passes: opaque prop atlas regenerated with transparency; wrong-mode offline test corrected to picture matching; flag probe uses production resolver. Existing story/game art retained after review when appropriate. Evidence: docs/v13/scene-audit. Actual Chrome emulation, not physical-device or direct public-site visual verification.
 - PR API previously forbidden; user explicitly authorizes commit/push/reflection without stopping for PR permissions. Remote SHA and successful QA/Pages results recorded separately after deployment. No cloud configuration publication.
 
-**Current production (2026-11-15):** user-authorized main fast-forward to `1743c1e`; GitHub QA #332 and Pages deployment #365 both succeeded. Live URL: https://cgy0450-ux.github.io/hangul-starland/ . Earlier no-deploy notes below describe prior checkpoints.
+**Current production (2026-11-16):** `08bedd641b59495a8be66230526302d4653d74b0`; GitHub QA #343 and Pages #376 succeeded. Live URL: https://cgy0450-ux.github.io/hangul-starland/ . Earlier checkpoints below remain historical records.
 As of 2026-11-15: planning and environment handoff only. Existing v12.1 QA and Pages success verified at 32d8b8c99a06e2449c1f5b91963161495d1bfb22. No v13 production graphics deployment claimed.
 - [x] 01 inventory and visual baseline (baseline screenshots and source inventories retained)
 - [x] 02 asset pipeline and image generation capability validation (actual generated assets and rejection checks)
@@ -194,3 +194,8 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 ### v13.7 production verification
 - Remote main read-back: `9765969521f5fd4478e5553b61951d8669132ea8`. Pages #375 SUCCESS (1m 6s), run 43737172175; JavaScript QA #342 SUCCESS (1m 17s), run 43737172791. Pages title confirms same release SHA and published output URL.
 - Evidence: `docs/v13/audio/release-deployment.json`, actual browser/voice coverage JSON and history screenshots. No physical-device listening or direct public-site visual verification claimed. No cloud configuration publication or external paid API.
+
+### v13.8 production verification
+- Remote main SHA read back: `08bedd641b59495a8be66230526302d4653d74b0`. Pages #376 SUCCESS (1m 11s), run 43826513895; JavaScript QA #343 SUCCESS (1m 10s), run 43826513877. Pages title matches release commit and successful output contains published URL.
+- Final targeted history tool-function rerun: fourteen phone/tablet renders/answers. Independent semantic assertions tie rain gauge/fan/mortar/spinning/lamp actions to actual correct tool scenes. Final smoke and 72 browser cases pass.
+- Evidence: `docs/v13/scene-audit/deployment.json` and `summary.json`. GitHub PR GraphQL returned Forbidden; existing branch and main pushes succeeded under explicit user authorization. Direct public-site HTTP still returns cloud CONNECT 403; no live visual or physical-device verification claimed.
