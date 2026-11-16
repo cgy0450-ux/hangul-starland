@@ -176,7 +176,7 @@ function render(){
  }else if(mode==="match"){
    const m=run.module;const rivals=m.items.filter(x=>x.answer!==q.answer&&x.visual!==q.visual);
    pictureOptions=A.shuffle([q,...A.shuffle(rivals,q.answer).slice(0,2)],q.answer+A.day()).map(x=>({visual:x.visual,answer:x.answer}));
-   $("visual").dataset.sceneSource="";$("visual").classList.add("hidden");$("question").textContent="'"+q.answer+"'에 해당하는 그림을 골라요";
+   $("visual").dataset.sceneSource="";$("visual").classList.add("hidden");$("question").textContent=q.question||q.hint||"소리를 듣고 알맞은 그림을 골라요";
    optionsRender(pictureOptions.map(x=>x.visual));
  }else optionsRender(quizOptions(q));
  if(mode==="explore"||mode==="remember"){
