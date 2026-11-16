@@ -1,0 +1,100 @@
+[
+  {
+    "view": "mobile",
+    "subject": "history",
+    "game": 4,
+    "answer": "비의 양",
+    "result": "PASS"
+  },
+  {
+    "view": "mobile",
+    "subject": "history",
+    "game": 4,
+    "answer": "바람 일으키기",
+    "result": "PASS"
+  },
+  {
+    "view": "mobile",
+    "subject": "history",
+    "game": 4,
+    "answer": "찧기",
+    "result": "PASS"
+  },
+  {
+    "view": "mobile",
+    "subject": "history",
+    "game": 4,
+    "answer": "실",
+    "result": "PASS"
+  },
+  {
+    "view": "mobile",
+    "subject": "history",
+    "game": 4,
+    "answer": "물",
+    "result": "PASS"
+  },
+  {
+    "view": "mobile",
+    "subject": "history",
+    "game": 4,
+    "answer": "밝혀 주기",
+    "result": "PASS"
+  },
+  {
+    "view": "mobile",
+    "subject": "history",
+    "game": 4,
+    "answer": "부채",
+    "result": "PASS"
+  },
+  {
+    "view": "tablet",
+    "subject": "history",
+    "game": 4,
+    "answer": "비의 양",
+    "result": "PASS"
+  },
+  {
+    "view": "tablet",
+    "subject": "history",
+    "game": 4,
+    "answer": "바람 일으키기",
+    "result": "PASS"
+  },
+  {
+    "view": "tablet",
+    "subject": "history",
+    "game": 4,
+    "answer": "찧기",
+    "result": "PASS"
+  },
+  {
+    "view": "tablet",
+    "subject": "history",
+    "game": 4,
+    "answer": "실",
+    "result": "PASS"
+  },
+  {
+    "view": "tablet",
+    "subject": "history",
+    "game": 4,
+    "answer": "물",
+    "result": "PASS"
+  },
+  {
+    "view": "tablet",
+    "subject": "history",
+    "game": 4,
+    "answer": "밝혀 주기",
+    "result": "PASS"
+  },
+  {
+    "view": "tablet",
+    "subject": "history",
+    "game": 4,
+    "answer": "부채",
+    "result": "PASS"
+  }
+]

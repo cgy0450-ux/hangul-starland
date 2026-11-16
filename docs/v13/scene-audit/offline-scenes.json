@@ -1,0 +1,44 @@
+[
+  {
+    "subject": "history",
+    "stage": 1,
+    "pictureOptions": 3,
+    "originalChoiceValue": "🌧️📏",
+    "offlineAnswer": "PASS"
+  },
+  {
+    "subject": "history",
+    "stage": 3,
+    "pictureOptions": 3,
+    "originalChoiceValue": "🪶",
+    "offlineAnswer": "PASS"
+  },
+  {
+    "subject": "science",
+    "stage": 0,
+    "pictureOptions": 3,
+    "originalChoiceValue": "🐦🌳",
+    "offlineAnswer": "PASS"
+  },
+  {
+    "subject": "reading",
+    "stage": 1,
+    "pictureOptions": 3,
+    "originalChoiceValue": "☀️➡️🌙",
+    "offlineAnswer": "PASS"
+  },
+  {
+    "subject": "life",
+    "stage": 0,
+    "pictureOptions": 3,
+    "originalChoiceValue": "🚗",
+    "offlineAnswer": "PASS"
+  },
+  {
+    "subject": "finance",
+    "stage": 2,
+    "pictureOptions": 3,
+    "originalChoiceValue": "🐷",
+    "offlineAnswer": "PASS"
+  }
+]

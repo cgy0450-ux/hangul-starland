@@ -3,7 +3,7 @@ import io,json,argparse
 from pathlib import Path
 from PIL import Image
 from playwright.sync_api import sync_playwright
-ap=argparse.ArgumentParser();ap.add_argument('--books',nargs='+',type=int);args=ap.parse_args();ROOT=Path(__file__).resolve().parents[2];out=ROOT/'docs/v13/story-review';out.mkdir(exist_ok=True);results=[]
+ap=argparse.ArgumentParser();ap.add_argument('--books',nargs='+',type=int);ap.add_argument('--out',default='docs/v13/story-review');args=ap.parse_args();ROOT=Path(__file__).resolve().parents[2];out=ROOT/args.out;out.mkdir(parents=True,exist_ok=True);results=[]
 with sync_playwright() as p:
  b=p.chromium.launch(executable_path='/workspace/joiland-tools/bin/google-chrome',args=['--no-sandbox'])
  for view,w,h in [('mobile',390,844),('tablet',800,1280)]:

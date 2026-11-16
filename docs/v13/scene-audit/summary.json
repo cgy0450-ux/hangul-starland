@@ -1,0 +1,24 @@
+{
+  "release": "v13.8",
+  "newIllustrations": 194,
+  "newContextualCurriculumScenes": 138,
+  "newClassicHistoryScenes": 8,
+  "newTransparentProps": 48,
+  "totalRegisteredImages": 710,
+  "curriculumQuestions": 240,
+  "curriculumPhoneTabletCases": 480,
+  "classicQuestions": 385,
+  "classicPhoneTabletCases": 770,
+  "storyPhoneTabletCases": 400,
+  "routePhoneTabletCases": 38,
+  "offlinePictureFlows": 6,
+  "browserCases": 72,
+  "strictGameplayRegressions": 13,
+  "negativeAssetTests": 6,
+  "offlineURLs": 4132,
+  "limitations": [
+    "Actual Chrome emulation; physical devices not tested.",
+    "Direct published-site visual check not claimed."
+  ],
+  "deployment": "pending server verification"
+}

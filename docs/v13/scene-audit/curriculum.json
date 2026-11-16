@@ -1,0 +1,2402 @@
+[
+  {
+    "subject": "hangul",
+    "module": "hangul-0",
+    "index": 0,
+    "question": "‘호랑이’의 첫 자음은?",
+    "answer": "ㅎ",
+    "visual": "🐯",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-0",
+    "index": 1,
+    "question": "‘곰’의 첫 자음은?",
+    "answer": "ㄱ",
+    "visual": "🐻",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-0",
+    "index": 2,
+    "question": "‘토끼’의 첫 자음은?",
+    "answer": "ㅌ",
+    "visual": "🐰",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-0",
+    "index": 3,
+    "question": "‘바나나’의 첫 자음은?",
+    "answer": "ㅂ",
+    "visual": "🍌",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-0",
+    "index": 4,
+    "question": "‘사과’의 첫 자음은?",
+    "answer": "ㅅ",
+    "visual": "🍎",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-0",
+    "index": 5,
+    "question": "‘나무’의 첫 자음은?",
+    "answer": "ㄴ",
+    "visual": "🌳",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-1",
+    "index": 0,
+    "question": "이 글자를 어떻게 읽을까요?",
+    "answer": "아",
+    "visual": "아",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-1",
+    "index": 1,
+    "question": "이 글자를 어떻게 읽을까요?",
+    "answer": "오",
+    "visual": "오",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-1",
+    "index": 2,
+    "question": "이 글자를 어떻게 읽을까요?",
+    "answer": "우",
+    "visual": "우",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-1",
+    "index": 3,
+    "question": "이 글자를 어떻게 읽을까요?",
+    "answer": "이",
+    "visual": "이",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-1",
+    "index": 4,
+    "question": "이 글자를 어떻게 읽을까요?",
+    "answer": "어",
+    "visual": "어",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-1",
+    "index": 5,
+    "question": "이 글자를 어떻게 읽을까요?",
+    "answer": "에",
+    "visual": "에",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-2",
+    "index": 0,
+    "question": "이 그림의 이름은 무엇일까요?",
+    "answer": "나비",
+    "visual": "🦋",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-2",
+    "index": 1,
+    "question": "이 그림의 이름은 무엇일까요?",
+    "answer": "바다",
+    "visual": "🌊",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-2",
+    "index": 2,
+    "question": "이 그림의 이름은 무엇일까요?",
+    "answer": "나무",
+    "visual": "🌳",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-2",
+    "index": 3,
+    "question": "이 그림의 이름은 무엇일까요?",
+    "answer": "바나나",
+    "visual": "🍌",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-2",
+    "index": 4,
+    "question": "이 그림의 이름은 무엇일까요?",
+    "answer": "라디오",
+    "visual": "📻",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-2",
+    "index": 5,
+    "question": "이 그림의 이름은 무엇일까요?",
+    "answer": "우유",
+    "visual": "🥛",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-3",
+    "index": 0,
+    "question": "이 동물의 이름을 찾아볼까요?",
+    "answer": "호랑이",
+    "visual": "🐯",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-3",
+    "index": 1,
+    "question": "이 동물의 이름을 찾아볼까요?",
+    "answer": "기린",
+    "visual": "🦒",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-3",
+    "index": 2,
+    "question": "이 동물의 이름을 찾아볼까요?",
+    "answer": "거북이",
+    "visual": "🐢",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-3",
+    "index": 3,
+    "question": "이 동물의 이름을 찾아볼까요?",
+    "answer": "곰",
+    "visual": "🐻",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-3",
+    "index": 4,
+    "question": "이 동물의 이름을 찾아볼까요?",
+    "answer": "코끼리",
+    "visual": "🐘",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "hangul",
+    "module": "hangul-3",
+    "index": 5,
+    "question": "이 동물의 이름을 찾아볼까요?",
+    "answer": "강아지",
+    "visual": "🐶",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-0",
+    "index": 0,
+    "question": "그림을 세면 몇 개일까요?",
+    "answer": "1",
+    "visual": "🍎",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-0",
+    "index": 1,
+    "question": "그림을 세면 몇 개일까요?",
+    "answer": "2",
+    "visual": "🍎🍎",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-0",
+    "index": 2,
+    "question": "그림을 세면 몇 개일까요?",
+    "answer": "3",
+    "visual": "🍎🍎🍎",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-0",
+    "index": 3,
+    "question": "그림을 세면 몇 개일까요?",
+    "answer": "4",
+    "visual": "⭐⭐⭐⭐",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-0",
+    "index": 4,
+    "question": "그림을 세면 몇 개일까요?",
+    "answer": "5",
+    "visual": "🐟🐟🐟🐟🐟",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-0",
+    "index": 5,
+    "question": "그림을 세면 몇 개일까요?",
+    "answer": "2",
+    "visual": "🧸🧸",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-1",
+    "index": 0,
+    "question": "그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "answer": "6",
+    "visual": "🍎🍎🍎🍎🍎🍎",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-1",
+    "index": 1,
+    "question": "그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "answer": "7",
+    "visual": "⭐⭐⭐⭐⭐⭐⭐",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-1",
+    "index": 2,
+    "question": "그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "answer": "8",
+    "visual": "🐟🐟🐟🐟🐟🐟🐟🐟",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-1",
+    "index": 3,
+    "question": "그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "answer": "9",
+    "visual": "🍬🍬🍬🍬🍬🍬🍬🍬🍬",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-1",
+    "index": 4,
+    "question": "그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "answer": "10",
+    "visual": "🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-1",
+    "index": 5,
+    "question": "그림을 하나씩 세어 보세요. 몇 개일까요?",
+    "answer": "6",
+    "visual": "🌼🌼🌼🌼🌼🌼",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-2",
+    "index": 0,
+    "question": "2개와 1개를 모으면 모두 몇 개일까요?",
+    "answer": "3",
+    "visual": "2+1",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-2",
+    "index": 1,
+    "question": "1개와 3개를 모으면 모두 몇 개일까요?",
+    "answer": "4",
+    "visual": "1+3",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-2",
+    "index": 2,
+    "question": "2개와 2개를 모으면 모두 몇 개일까요?",
+    "answer": "4",
+    "visual": "2+2",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-2",
+    "index": 3,
+    "question": "3개와 2개를 모으면 모두 몇 개일까요?",
+    "answer": "5",
+    "visual": "3+2",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-2",
+    "index": 4,
+    "question": "1개와 1개를 모으면 모두 몇 개일까요?",
+    "answer": "2",
+    "visual": "1+1",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-2",
+    "index": 5,
+    "question": "4개 중에 1개를 빼면 몇 개일까요?",
+    "answer": "3",
+    "visual": "4-1",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-3",
+    "index": 0,
+    "question": "이 도형의 이름은 무엇일까요?",
+    "answer": "세모",
+    "visual": "🔺",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-3",
+    "index": 1,
+    "question": "이 도형의 이름은 무엇일까요?",
+    "answer": "네모",
+    "visual": "🟦",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-3",
+    "index": 2,
+    "question": "이 도형의 이름은 무엇일까요?",
+    "answer": "동그라미",
+    "visual": "🔵",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-3",
+    "index": 3,
+    "question": "화살표가 가리키는 방향은?",
+    "answer": "위",
+    "visual": "⬆️",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-3",
+    "index": 4,
+    "question": "화살표가 가리키는 방향은?",
+    "answer": "아래",
+    "visual": "⬇️",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "math",
+    "module": "math-3",
+    "index": 5,
+    "question": "화살표가 가리키는 방향은?",
+    "answer": "오른쪽",
+    "visual": "➡️",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-0",
+    "index": 0,
+    "question": "쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "answer": "A",
+    "visual": "A",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-0",
+    "index": 1,
+    "question": "쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "answer": "B",
+    "visual": "B",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-0",
+    "index": 2,
+    "question": "쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "answer": "C",
+    "visual": "C",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-0",
+    "index": 3,
+    "question": "쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "answer": "D",
+    "visual": "D",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-0",
+    "index": 4,
+    "question": "쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "answer": "E",
+    "visual": "E",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-0",
+    "index": 5,
+    "question": "쪼이가 이 알파벳을 어떻게 읽을까요?",
+    "answer": "F",
+    "visual": "F",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-1",
+    "index": 0,
+    "question": "‘고양이’를 영어로 어떻게 말할까요?",
+    "answer": "CAT",
+    "visual": "🐱",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-1",
+    "index": 1,
+    "question": "‘강아지’를 영어로 어떻게 말할까요?",
+    "answer": "DOG",
+    "visual": "🐶",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-1",
+    "index": 2,
+    "question": "‘돼지’를 영어로 어떻게 말할까요?",
+    "answer": "PIG",
+    "visual": "🐷",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-1",
+    "index": 3,
+    "question": "‘소’를 영어로 어떻게 말할까요?",
+    "answer": "COW",
+    "visual": "🐮",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-1",
+    "index": 4,
+    "question": "‘곰’을 영어로 어떻게 말할까요?",
+    "answer": "BEAR",
+    "visual": "🐻",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-1",
+    "index": 5,
+    "question": "‘사자’를 영어로 어떻게 말할까요?",
+    "answer": "LION",
+    "visual": "🦁",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-2",
+    "index": 0,
+    "question": "‘빨강’을 영어로 어떻게 말할까요?",
+    "answer": "RED",
+    "visual": "🔴",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-2",
+    "index": 1,
+    "question": "‘파랑’을 영어로 어떻게 말할까요?",
+    "answer": "BLUE",
+    "visual": "🔵",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-2",
+    "index": 2,
+    "question": "‘노랑’을 영어로 어떻게 말할까요?",
+    "answer": "YELLOW",
+    "visual": "🟡",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-2",
+    "index": 3,
+    "question": "‘초록’을 영어로 어떻게 말할까요?",
+    "answer": "GREEN",
+    "visual": "🟢",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-2",
+    "index": 4,
+    "question": "‘흰색’을 영어로 어떻게 말할까요?",
+    "answer": "WHITE",
+    "visual": "⚪",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-2",
+    "index": 5,
+    "question": "‘검정’을 영어로 어떻게 말할까요?",
+    "answer": "BLACK",
+    "visual": "⚫",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "english",
+    "module": "english-3",
+    "index": 0,
+    "question": "인사할 때 ‘안녕!’은 영어로?",
+    "answer": "HELLO",
+    "visual": "👋",
+    "path": "./assets/v13/lesson.english-3.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "english",
+    "module": "english-3",
+    "index": 1,
+    "question": "‘고마워!’는 영어로 무엇일까요?",
+    "answer": "THANK YOU",
+    "visual": "🙏",
+    "path": "./assets/v13/lesson.english-3.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "english",
+    "module": "english-3",
+    "index": 2,
+    "question": "헤어질 때 ‘잘 가!’는 영어로?",
+    "answer": "BYE",
+    "visual": "🌙",
+    "path": "./assets/v13/lesson.english-3.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "english",
+    "module": "english-3",
+    "index": 3,
+    "question": "영어로 ‘네!’라고 대답할 때는?",
+    "answer": "YES",
+    "visual": "🙂",
+    "path": "./assets/v13/lesson.english-3.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "english",
+    "module": "english-3",
+    "index": 4,
+    "question": "영어로 ‘아니요!’라고 할 때는?",
+    "answer": "NO",
+    "visual": "🙅",
+    "path": "./assets/v13/lesson.english-3.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "english",
+    "module": "english-3",
+    "index": 5,
+    "question": "영어로 ‘좋은 아침!’을 말하면?",
+    "answer": "GOOD MORNING",
+    "visual": "🌞",
+    "path": "./assets/v13/lesson.english-3.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-0",
+    "index": 0,
+    "question": "물고기가 사는 곳은 어디일까요?",
+    "answer": "물",
+    "visual": "🐟🌊",
+    "path": "./assets/v13/lesson.science-0.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-0",
+    "index": 1,
+    "question": "새가 둥지를 만들 수 있는 곳은?",
+    "answer": "나무",
+    "visual": "🐦🌳",
+    "path": "./assets/v13/lesson.science-0.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-0",
+    "index": 2,
+    "question": "곰이 사는 자연환경은 어디일까요?",
+    "answer": "숲",
+    "visual": "🐻🌲",
+    "path": "./assets/v13/lesson.science-0.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-0",
+    "index": 3,
+    "question": "낙타가 잘 적응한 건조한 곳은?",
+    "answer": "사막",
+    "visual": "🐪🏜️",
+    "path": "./assets/v13/lesson.science-0.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-0",
+    "index": 4,
+    "question": "그림 속 펭귄이 사는 차가운 대륙은?",
+    "answer": "남극",
+    "visual": "🐧❄️",
+    "path": "./assets/v13/lesson.science-0.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-0",
+    "index": 5,
+    "question": "개구리가 살기 좋은 물가 장소는?",
+    "answer": "연못",
+    "visual": "🐸💧",
+    "path": "./assets/v13/lesson.science-0.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-1",
+    "index": 0,
+    "question": "시들어 가는 화분에 무엇을 줄까요?",
+    "answer": "물",
+    "visual": "🌱💧",
+    "path": "./assets/v13/lesson.science-1.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-1",
+    "index": 1,
+    "question": "식물이 밝은 곳에서 받는 것은?",
+    "answer": "햇빛",
+    "visual": "🌻☀️",
+    "path": "./assets/v13/lesson.science-1.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-1",
+    "index": 2,
+    "question": "씨앗에서 처음 돋아나는 것은?",
+    "answer": "새싹",
+    "visual": "🌱➡️🌿",
+    "path": "./assets/v13/lesson.science-1.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-1",
+    "index": 3,
+    "question": "그림 속 분홍색 꽃의 이름은?",
+    "answer": "튤립",
+    "visual": "🌷🌸",
+    "path": "./assets/v13/lesson.science-1.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-1",
+    "index": 4,
+    "question": "사과나무에서 자라는 열매는?",
+    "answer": "사과",
+    "visual": "🌳🍎",
+    "path": "./assets/v13/lesson.science-1.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-1",
+    "index": 5,
+    "question": "바람에 흔들리는 나무의 초록 부분은?",
+    "answer": "잎",
+    "visual": "🍃💨",
+    "path": "./assets/v13/lesson.science-1.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-2",
+    "index": 0,
+    "question": "구름에서 물방울이 떨어져요. 무엇일까요?",
+    "answer": "비",
+    "visual": "🌧️",
+    "path": "./assets/v13/lesson.science-2.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-2",
+    "index": 1,
+    "question": "겨울에 하늘에서 하얗게 내려요. 무엇일까요?",
+    "answer": "눈",
+    "visual": "❄️",
+    "path": "./assets/v13/lesson.science-2.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-2",
+    "index": 2,
+    "question": "햇볕이 강하고 더운 계절은?",
+    "answer": "여름",
+    "visual": "☀️🥵",
+    "path": "./assets/v13/lesson.science-2.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-2",
+    "index": 3,
+    "question": "나뭇잎 색깔이 변하고 떨어지는 계절은?",
+    "answer": "가을",
+    "visual": "🍂",
+    "path": "./assets/v13/lesson.science-2.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-2",
+    "index": 4,
+    "question": "꽃이 많이 피기 시작하는 계절은?",
+    "answer": "봄",
+    "visual": "🌸",
+    "path": "./assets/v13/lesson.science-2.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-2",
+    "index": 5,
+    "question": "춥고 눈이 내리기도 하는 계절은?",
+    "answer": "겨울",
+    "visual": "🧣",
+    "path": "./assets/v13/lesson.science-2.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-3",
+    "index": 0,
+    "question": "얼음이 녹으면 무엇으로 변할까요?",
+    "answer": "물",
+    "visual": "🧊☀️",
+    "path": "./assets/v13/lesson.science-3.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-3",
+    "index": 1,
+    "question": "물이 꽁꽁 얼면 무엇이 될까요?",
+    "answer": "얼음",
+    "visual": "💧❄️",
+    "path": "./assets/v13/lesson.science-3.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-3",
+    "index": 2,
+    "question": "풍선 안을 채우는 보이지 않는 것은?",
+    "answer": "공기",
+    "visual": "🎈",
+    "path": "./assets/v13/lesson.science-3.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-3",
+    "index": 3,
+    "question": "자석이 붙기 쉬운 재료는 무엇일까요?",
+    "answer": "철",
+    "visual": "🧲📎",
+    "path": "./assets/v13/lesson.science-3.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-3",
+    "index": 4,
+    "question": "어두운 곳을 비춰 주는 물건은?",
+    "answer": "손전등",
+    "visual": "🔦🌑",
+    "path": "./assets/v13/lesson.science-3.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "science",
+    "module": "science-3",
+    "index": 5,
+    "question": "물에 숟가락을 넣고 저으면 생기는 것은?",
+    "answer": "물결",
+    "visual": "🥄💧",
+    "path": "./assets/v13/lesson.science-3.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-0",
+    "index": 0,
+    "question": "백성이 쉽게 글을 쓰도록 한글을 만든 왕은?",
+    "answer": "세종대왕",
+    "visual": "👑ㄱㄴ",
+    "path": null,
+    "decision": "existing contextual historical scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-0",
+    "index": 1,
+    "question": "바다에서 우리나라를 지킨 장군은?",
+    "answer": "이순신",
+    "visual": "⚓🚢",
+    "path": null,
+    "decision": "existing contextual historical scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-0",
+    "index": 2,
+    "question": "과학 기구를 만드는 데 큰 역할을 한 사람은?",
+    "answer": "장영실",
+    "visual": "🔭📏",
+    "path": null,
+    "decision": "existing contextual historical scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-0",
+    "index": 3,
+    "question": "옛날 의학책 ‘동의보감’을 엮은 사람은?",
+    "answer": "허준",
+    "visual": "🩺📚",
+    "path": null,
+    "decision": "existing contextual historical scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-0",
+    "index": 4,
+    "question": "우리나라의 독립을 외친 여성 독립운동가는?",
+    "answer": "유관순",
+    "visual": "🇰🇷✊",
+    "path": null,
+    "decision": "existing contextual historical scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-0",
+    "index": 5,
+    "question": "그림을 잘 그린 조선 시대 인물은?",
+    "answer": "신사임당",
+    "visual": "🎨🌿",
+    "path": null,
+    "decision": "existing contextual historical scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-1",
+    "index": 0,
+    "question": "내린 비의 양을 재던 옛 도구는?",
+    "answer": "측우기",
+    "visual": "🌧️📏",
+    "path": "./assets/v13/lesson.history-1.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-1",
+    "index": 1,
+    "question": "거북처럼 생긴 조선의 전투 배는?",
+    "answer": "거북선",
+    "visual": "🐢🚢",
+    "path": "./assets/v13/lesson.history-1.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-1",
+    "index": 2,
+    "question": "손으로 흔들어 시원한 바람을 만드는 것은?",
+    "answer": "부채",
+    "visual": "🪭",
+    "path": "./assets/v13/lesson.history-1.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-1",
+    "index": 3,
+    "question": "옛날 선비가 머리에 쓰던 모자는?",
+    "answer": "갓",
+    "visual": "🎩",
+    "path": "./assets/v13/lesson.history-1.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-1",
+    "index": 4,
+    "question": "곡식을 찧을 때 쓰던 물건은?",
+    "answer": "절구",
+    "visual": "🌾🥣",
+    "path": "./assets/v13/lesson.history-1.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-1",
+    "index": 5,
+    "question": "솜이나 섬유로 실을 뽑는 옛 도구는?",
+    "answer": "물레",
+    "visual": "🧵🪵",
+    "path": "./assets/v13/lesson.history-1.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-2",
+    "index": 0,
+    "question": "우리나라 국기의 이름은?",
+    "answer": "태극기",
+    "visual": "🇰🇷",
+    "path": "./assets/v13/lesson.history-2.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-2",
+    "index": 1,
+    "question": "우리나라를 대표하는 꽃은?",
+    "answer": "무궁화",
+    "visual": "🌺",
+    "path": "./assets/v13/lesson.history-2.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-2",
+    "index": 2,
+    "question": "우리나라를 대표하는 노래는?",
+    "answer": "애국가",
+    "visual": "🎼",
+    "path": "./assets/v13/lesson.history-2.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-2",
+    "index": 3,
+    "question": "우리나라 글자는 무엇일까요?",
+    "answer": "한글",
+    "visual": "ㄱㄴㄷ",
+    "path": "./assets/v13/lesson.history-2.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-2",
+    "index": 4,
+    "question": "우리나라 전통 옷의 이름은?",
+    "answer": "한복",
+    "visual": "👘",
+    "path": "./assets/v13/lesson.history-2.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-2",
+    "index": 5,
+    "question": "세종대왕이 새 글자를 알린 책은?",
+    "answer": "훈민정음",
+    "visual": "📖",
+    "path": "./assets/v13/lesson.history-2.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-3",
+    "index": 0,
+    "question": "옛날에 곡식이나 음식을 담던 큰 그릇은?",
+    "answer": "항아리",
+    "visual": "🏺",
+    "path": "./assets/v13/lesson.history-3.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-3",
+    "index": 1,
+    "question": "전기가 없을 때 불을 밝혀 주던 것은?",
+    "answer": "등잔",
+    "visual": "🪔",
+    "path": "./assets/v13/lesson.history-3.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-3",
+    "index": 2,
+    "question": "바람에 연을 띄우는 놀이는?",
+    "answer": "연날리기",
+    "visual": "🪁",
+    "path": "./assets/v13/lesson.history-3.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-3",
+    "index": 3,
+    "question": "나무 막대 네 개를 던지는 놀이는?",
+    "answer": "윷놀이",
+    "visual": "🎲",
+    "path": "./assets/v13/lesson.history-3.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-3",
+    "index": 4,
+    "question": "모래판에서 힘을 겨루는 놀이는?",
+    "answer": "씨름",
+    "visual": "🤼",
+    "path": "./assets/v13/lesson.history-3.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "history",
+    "module": "history-3",
+    "index": 5,
+    "question": "제기를 발로 차는 전통놀이는?",
+    "answer": "제기차기",
+    "visual": "🪶",
+    "path": "./assets/v13/lesson.history-3.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-0",
+    "index": 0,
+    "question": "쪼이가 화살표를 따라 어디로 갈까요?",
+    "answer": "위",
+    "visual": "⬆️",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-0",
+    "index": 1,
+    "question": "쪼이가 화살표를 따라 어디로 갈까요?",
+    "answer": "아래",
+    "visual": "⬇️",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-0",
+    "index": 2,
+    "question": "쪼이가 화살표를 따라 어디로 갈까요?",
+    "answer": "왼쪽",
+    "visual": "⬅️",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-0",
+    "index": 3,
+    "question": "쪼이가 화살표를 따라 어디로 갈까요?",
+    "answer": "오른쪽",
+    "visual": "➡️",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-0",
+    "index": 4,
+    "question": "위 화살표가 두 번 나왔어요. 어떻게 갈까요?",
+    "answer": "위 두 칸",
+    "visual": "⬆️⬆️",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-0",
+    "index": 5,
+    "question": "오른쪽 화살표가 두 번 나왔어요. 어떻게 갈까요?",
+    "answer": "오른쪽 두 칸",
+    "visual": "➡️➡️",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-1",
+    "index": 0,
+    "question": "빨강·파랑이 반복돼요. 다음 색은?",
+    "answer": "빨강",
+    "visual": "🔴🔵🔴🔵❓",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-1",
+    "index": 1,
+    "question": "별·달이 반복돼요. 다음 그림은?",
+    "answer": "별",
+    "visual": "⭐🌙⭐🌙❓",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-1",
+    "index": 2,
+    "question": "토끼·호랑이가 번갈아 나와요. 다음은?",
+    "answer": "토끼",
+    "visual": "🐰🐯🐰🐯❓",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-1",
+    "index": 3,
+    "question": "세모·네모가 반복돼요. 다음 도형은?",
+    "answer": "세모",
+    "visual": "🔺🟦🔺🟦❓",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-1",
+    "index": 4,
+    "question": "사과·바나나가 번갈아 나와요. 다음은?",
+    "answer": "사과",
+    "visual": "🍎🍌🍎🍌❓",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-1",
+    "index": 5,
+    "question": "위·오른쪽이 반복돼요. 다음 방향은?",
+    "answer": "위",
+    "visual": "⬆️➡️⬆️➡️❓",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-2",
+    "index": 0,
+    "question": "손을 깨끗이 씻을 때 필요한 것은?",
+    "answer": "물과 비누",
+    "visual": "🧼💧👐",
+    "path": "./assets/v13/lesson.coding-2.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-2",
+    "index": 1,
+    "question": "이를 닦을 때 필요한 물건은?",
+    "answer": "칫솔",
+    "visual": "🪥🦷",
+    "path": "./assets/v13/lesson.coding-2.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-2",
+    "index": 2,
+    "question": "식물을 돌보려면 무엇을 줄까요?",
+    "answer": "물",
+    "visual": "🌱💧",
+    "path": "./assets/v13/lesson.coding-2.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-2",
+    "index": 3,
+    "question": "밖에 나갈 때 발에 신는 것은?",
+    "answer": "신발",
+    "visual": "👟🚪",
+    "path": "./assets/v13/lesson.coding-2.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-2",
+    "index": 4,
+    "question": "이야기를 읽고 싶을 때 필요한 것은?",
+    "answer": "책",
+    "visual": "📖👀",
+    "path": "./assets/v13/lesson.coding-2.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-2",
+    "index": 5,
+    "question": "집 블록을 쌓을 때 아래에 놓는 것은?",
+    "answer": "바닥 블록",
+    "visual": "🧱🏠",
+    "path": "./assets/v13/lesson.coding-2.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-3",
+    "index": 0,
+    "question": "비가 오면 무엇을 준비할까요?",
+    "answer": "우산",
+    "visual": "🌧️☔",
+    "path": "./assets/v13/lesson.coding-3.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-3",
+    "index": 1,
+    "question": "햇볕이 강할 때 머리에 쓸 것은?",
+    "answer": "모자",
+    "visual": "☀️🧢",
+    "path": "./assets/v13/lesson.coding-3.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-3",
+    "index": 2,
+    "question": "빨간 보행 신호일 때 어떻게 할까요?",
+    "answer": "멈춤",
+    "visual": "🚦🔴",
+    "path": "./assets/v13/lesson.coding-3.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-3",
+    "index": 3,
+    "question": "초록 보행 신호일 때 어떻게 할까요?",
+    "answer": "조심히 건너기",
+    "visual": "🚦🟢",
+    "path": "./assets/v13/lesson.coding-3.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-3",
+    "index": 4,
+    "question": "추운 날 밖에 나갈 때 입는 것은?",
+    "answer": "외투",
+    "visual": "❄️🧥",
+    "path": "./assets/v13/lesson.coding-3.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "coding",
+    "module": "coding-3",
+    "index": 5,
+    "question": "쪼이가 집에 가고 싶어요. 무엇을 할까요?",
+    "answer": "길 따라가기",
+    "visual": "🐯➡️🏠",
+    "path": "./assets/v13/lesson.coding-3.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-0",
+    "index": 0,
+    "question": "밥은 꼭 필요한 것일까요, 갖고 싶은 것일까요?",
+    "answer": "필요한 것",
+    "visual": "🍚",
+    "path": "./assets/v13/lesson.finance-0.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-0",
+    "index": 1,
+    "question": "마실 물은 꼭 필요한 것일까요?",
+    "answer": "필요한 것",
+    "visual": "💧",
+    "path": "./assets/v13/lesson.finance-0.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-0",
+    "index": 2,
+    "question": "추운 날 외투는 꼭 필요한 것일까요?",
+    "answer": "필요한 것",
+    "visual": "🧥",
+    "path": "./assets/v13/lesson.finance-0.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-0",
+    "index": 3,
+    "question": "예쁜 인형은 꼭 필요한 것일까요?",
+    "answer": "갖고 싶은 것",
+    "visual": "🧸",
+    "path": "./assets/v13/lesson.finance-0.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-0",
+    "index": 4,
+    "question": "사탕은 꼭 필요한 것일까요?",
+    "answer": "갖고 싶은 것",
+    "visual": "🍬",
+    "path": "./assets/v13/lesson.finance-0.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-0",
+    "index": 5,
+    "question": "새 게임기는 꼭 필요한 것일까요?",
+    "answer": "갖고 싶은 것",
+    "visual": "🎮",
+    "path": "./assets/v13/lesson.finance-0.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-1",
+    "index": 0,
+    "question": "요리사는 어떤 것을 만들까요?",
+    "answer": "음식",
+    "visual": "👩‍🍳",
+    "path": "./assets/v13/lesson.finance-1.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-1",
+    "index": 1,
+    "question": "농부는 무엇을 기를까요?",
+    "answer": "작물",
+    "visual": "👨‍🌾",
+    "path": "./assets/v13/lesson.finance-1.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-1",
+    "index": 2,
+    "question": "선생님은 어떤 일을 도울까요?",
+    "answer": "배움",
+    "visual": "👩‍🏫",
+    "path": "./assets/v13/lesson.finance-1.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-1",
+    "index": 3,
+    "question": "의사는 무엇을 돌볼까요?",
+    "answer": "건강",
+    "visual": "🩺",
+    "path": "./assets/v13/lesson.finance-1.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-1",
+    "index": 4,
+    "question": "정비사는 무엇을 고칠까요?",
+    "answer": "자동차",
+    "visual": "🧑‍🔧",
+    "path": "./assets/v13/lesson.finance-1.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-1",
+    "index": 5,
+    "question": "버스 운전사는 무엇을 운전할까요?",
+    "answer": "버스",
+    "visual": "🚌",
+    "path": "./assets/v13/lesson.finance-1.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-2",
+    "index": 0,
+    "question": "오늘 물건을 살 때 돈을 어디에 둘까요?",
+    "answer": "쓰는 돈",
+    "visual": "🛒",
+    "path": "./assets/v13/lesson.finance-2.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-2",
+    "index": 1,
+    "question": "나중을 위해 돈을 모을 때는?",
+    "answer": "저금할 돈",
+    "visual": "🐷",
+    "path": "./assets/v13/lesson.finance-2.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-2",
+    "index": 2,
+    "question": "어려운 이웃을 돕고 싶을 때는?",
+    "answer": "나눌 돈",
+    "visual": "💝",
+    "path": "./assets/v13/lesson.finance-2.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-2",
+    "index": 3,
+    "question": "지금 빵을 사는 돈은 어느 항아리에?",
+    "answer": "쓰는 돈",
+    "visual": "🍞",
+    "path": "./assets/v13/lesson.finance-2.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-2",
+    "index": 4,
+    "question": "나중에 자동차 장난감을 사려고 모으는 돈은?",
+    "answer": "저금할 돈",
+    "visual": "🚗",
+    "path": "./assets/v13/lesson.finance-2.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-2",
+    "index": 5,
+    "question": "누군가에게 선물하려고 모으는 돈은?",
+    "answer": "나눌 돈",
+    "visual": "🎁",
+    "path": "./assets/v13/lesson.finance-2.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-3",
+    "index": 0,
+    "question": "작은 씨앗이 자라려면 무엇이 필요할까요?",
+    "answer": "시간",
+    "visual": "🌱",
+    "path": "./assets/v13/lesson.finance-3.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-3",
+    "index": 1,
+    "question": "저금통에 돈을 모으는 좋은 방법은?",
+    "answer": "조금씩 모으기",
+    "visual": "🐷🪙",
+    "path": "./assets/v13/lesson.finance-3.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-3",
+    "index": 2,
+    "question": "동전이 부족하면 어떻게 하는 게 좋을까요?",
+    "answer": "기다렸다 사기",
+    "visual": "🛍️",
+    "path": "./assets/v13/lesson.finance-3.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-3",
+    "index": 3,
+    "question": "주사위를 던지면 어떤 숫자가 나올까요?",
+    "answer": "달라질 수 있어요",
+    "visual": "🎲",
+    "path": "./assets/v13/lesson.finance-3.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-3",
+    "index": 4,
+    "question": "과자 두 개를 두 친구에게 나누려면?",
+    "answer": "하나씩",
+    "visual": "🍪🍪",
+    "path": "./assets/v13/lesson.finance-3.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "finance",
+    "module": "finance-3",
+    "index": 5,
+    "question": "비가 너무 많이 오면 식물은 어떻게 될까요?",
+    "answer": "잘 자라지 않을 수 있어요",
+    "visual": "🌧️🌱",
+    "path": "./assets/v13/lesson.finance-3.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-0",
+    "index": 0,
+    "question": "토끼가 배고파서 음식을 찾아요. 무엇을 먹을까요?",
+    "answer": "당근",
+    "visual": "🐰🥕",
+    "path": "./assets/v13/lesson.reading-0.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-0",
+    "index": 1,
+    "question": "곰이 달콤한 음식을 발견했어요. 무엇일까요?",
+    "answer": "꿀",
+    "visual": "🐻🍯",
+    "path": "./assets/v13/lesson.reading-0.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-0",
+    "index": 2,
+    "question": "쪼이가 우주로 떠났어요. 무엇을 탔을까요?",
+    "answer": "로켓",
+    "visual": "🐯🚀",
+    "path": "./assets/v13/lesson.reading-0.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-0",
+    "index": 3,
+    "question": "토끼와 경주한 느린 친구는 누구일까요?",
+    "answer": "거북이",
+    "visual": "🐢🏁",
+    "path": "./assets/v13/lesson.reading-0.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-0",
+    "index": 4,
+    "question": "강아지가 쉬러 돌아가는 곳은 어디일까요?",
+    "answer": "집",
+    "visual": "🐶🏠",
+    "path": "./assets/v13/lesson.reading-0.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-0",
+    "index": 5,
+    "question": "고양이가 밤하늘에서 둥근 것을 봤어요. 무엇일까요?",
+    "answer": "달",
+    "visual": "🐱🌙",
+    "path": "./assets/v13/lesson.reading-0.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-1",
+    "index": 0,
+    "question": "씨앗에서 싹이 나고 자라면 무엇이 필까요?",
+    "answer": "꽃",
+    "visual": "🌱➡️🌸",
+    "path": "./assets/v13/lesson.reading-1.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-1",
+    "index": 1,
+    "question": "달걀에서 알을 깨고 나오는 새끼는?",
+    "answer": "병아리",
+    "visual": "🥚➡️🐣",
+    "path": "./assets/v13/lesson.reading-1.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-1",
+    "index": 2,
+    "question": "비가 그치고 해가 비치면 무엇이 보일 수도 있나요?",
+    "answer": "무지개",
+    "visual": "🌧️➡️🌈",
+    "path": "./assets/v13/lesson.reading-1.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-1",
+    "index": 3,
+    "question": "빵으로 맛있는 음식을 만들었어요. 무엇일까요?",
+    "answer": "샌드위치",
+    "visual": "🍞➡️🥪",
+    "path": "./assets/v13/lesson.reading-1.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-1",
+    "index": 4,
+    "question": "얼음이 녹으면 무엇이 될까요?",
+    "answer": "물",
+    "visual": "❄️➡️💧",
+    "path": "./assets/v13/lesson.reading-1.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-1",
+    "index": 5,
+    "question": "낮이 지나고 어두워지면 언제일까요?",
+    "answer": "밤",
+    "visual": "☀️➡️🌙",
+    "path": "./assets/v13/lesson.reading-1.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-2",
+    "index": 0,
+    "question": "선물을 받아 즐거운 친구의 마음은?",
+    "answer": "기쁨",
+    "visual": "😃🎁",
+    "path": "./assets/v13/lesson.reading-2.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-2",
+    "index": 1,
+    "question": "좋아하는 인형을 잃어버린 마음은?",
+    "answer": "슬픔",
+    "visual": "😢🧸",
+    "path": "./assets/v13/lesson.reading-2.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-2",
+    "index": 2,
+    "question": "갑자기 큰 소리가 나면 어떤 기분일까요?",
+    "answer": "놀람",
+    "visual": "😨⚡",
+    "path": "./assets/v13/lesson.reading-2.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-2",
+    "index": 3,
+    "question": "장난감을 빼앗겼을 때 어떤 마음일까요?",
+    "answer": "화남",
+    "visual": "😠🚫",
+    "path": "./assets/v13/lesson.reading-2.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-2",
+    "index": 4,
+    "question": "포근한 이불 속에서 느끼는 기분은?",
+    "answer": "편안함",
+    "visual": "😌🛏️",
+    "path": "./assets/v13/lesson.reading-2.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-2",
+    "index": 5,
+    "question": "내일 놀이공원에 갈 생각을 하면 어떤 기분일까요?",
+    "answer": "기대",
+    "visual": "🤩🎡",
+    "path": "./assets/v13/lesson.reading-2.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-3",
+    "index": 0,
+    "question": "쪼이는 사과를 어떻게 할까요?",
+    "answer": "먹어요",
+    "visual": "🐯🍎",
+    "path": "./assets/v13/lesson.reading-3.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-3",
+    "index": 1,
+    "question": "강아지는 잔디밭에서 무엇을 할까요?",
+    "answer": "달려요",
+    "visual": "🐶🏃",
+    "path": "./assets/v13/lesson.reading-3.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-3",
+    "index": 2,
+    "question": "고양이는 졸릴 때 무엇을 할까요?",
+    "answer": "자요",
+    "visual": "🐱💤",
+    "path": "./assets/v13/lesson.reading-3.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-3",
+    "index": 3,
+    "question": "새는 나뭇가지에서 무엇을 할까요?",
+    "answer": "노래해요",
+    "visual": "🐦🎵",
+    "path": "./assets/v13/lesson.reading-3.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-3",
+    "index": 4,
+    "question": "물고기는 물에서 무엇을 할까요?",
+    "answer": "헤엄쳐요",
+    "visual": "🐠🏊",
+    "path": "./assets/v13/lesson.reading-3.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "reading",
+    "module": "reading-3",
+    "index": 5,
+    "question": "토끼는 당근을 어떻게 할까요?",
+    "answer": "먹어요",
+    "visual": "🐰🥕",
+    "path": "./assets/v13/lesson.reading-3.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-0",
+    "index": 0,
+    "question": "보행 신호가 빨간색이에요. 어떻게 할까요?",
+    "answer": "멈춰요",
+    "visual": "🚦🔴",
+    "path": "./assets/v13/lesson.life-0.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-0",
+    "index": 1,
+    "question": "초록 보행 신호예요. 어떻게 건널까요?",
+    "answer": "좌우 살피고 건너요",
+    "visual": "🚦🟢",
+    "path": "./assets/v13/lesson.life-0.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-0",
+    "index": 2,
+    "question": "냄비가 뜨거워요. 어떻게 할까요?",
+    "answer": "손대지 않아요",
+    "visual": "🔥",
+    "path": "./assets/v13/lesson.life-0.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-0",
+    "index": 3,
+    "question": "콘센트에 장난감을 넣어도 될까요?",
+    "answer": "넣지 않아요",
+    "visual": "🔌",
+    "path": "./assets/v13/lesson.life-0.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-0",
+    "index": 4,
+    "question": "차에 탔어요. 안전을 위해 무엇을 맬까요?",
+    "answer": "안전벨트",
+    "visual": "🚗",
+    "path": "./assets/v13/lesson.life-0.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-0",
+    "index": 5,
+    "question": "물놀이할 때 누구와 함께해야 할까요?",
+    "answer": "보호자",
+    "visual": "🏊",
+    "path": "./assets/v13/lesson.life-0.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-1",
+    "index": 0,
+    "question": "이를 닦을 때 사용하는 물건은?",
+    "answer": "칫솔",
+    "visual": "🪥",
+    "path": "./assets/v13/lesson.life-1.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-1",
+    "index": 1,
+    "question": "밖에서 돌아와 손을 씻을 때 필요한 것은?",
+    "answer": "비누",
+    "visual": "🧼",
+    "path": "./assets/v13/lesson.life-1.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-1",
+    "index": 2,
+    "question": "몸이 피곤해요. 어떻게 쉬면 좋을까요?",
+    "answer": "잠자기",
+    "visual": "🛏️",
+    "path": "./assets/v13/lesson.life-1.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-1",
+    "index": 3,
+    "question": "몸을 건강하게 하려면 음식을 어떻게 먹을까요?",
+    "answer": "골고루 먹어요",
+    "visual": "🥦",
+    "path": "./assets/v13/lesson.life-1.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-1",
+    "index": 4,
+    "question": "목이 마를 때 마시면 좋은 것은?",
+    "answer": "물",
+    "visual": "💧",
+    "path": "./assets/v13/lesson.life-1.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-1",
+    "index": 5,
+    "question": "튼튼해지려면 몸을 어떻게 할까요?",
+    "answer": "몸 움직이기",
+    "visual": "🏃",
+    "path": "./assets/v13/lesson.life-1.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-2",
+    "index": 0,
+    "question": "즐거워서 웃고 있어요. 어떤 마음일까요?",
+    "answer": "기쁨",
+    "visual": "😊",
+    "path": "./assets/v13/lesson.life-2.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-2",
+    "index": 1,
+    "question": "눈물이 나요. 어떤 마음일까요?",
+    "answer": "슬픔",
+    "visual": "😢",
+    "path": "./assets/v13/lesson.life-2.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-2",
+    "index": 2,
+    "question": "화가 날 때 친구에게 어떻게 말할까요?",
+    "answer": "천천히 말해요",
+    "visual": "😠",
+    "path": "./assets/v13/lesson.life-2.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-2",
+    "index": 3,
+    "question": "무섭거나 위험할 때 누구에게 도움을 청할까요?",
+    "answer": "믿을 수 있는 어른",
+    "visual": "😨",
+    "path": "./assets/v13/lesson.life-2.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-2",
+    "index": 4,
+    "question": "몸과 마음이 피곤할 때는 무엇을 할까요?",
+    "answer": "쉬기",
+    "visual": "😴",
+    "path": "./assets/v13/lesson.life-2.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-2",
+    "index": 5,
+    "question": "친구가 슬퍼해요. 어떻게 다정하게 말할까요?",
+    "answer": "괜찮아?",
+    "visual": "🤗",
+    "path": "./assets/v13/lesson.life-2.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-3",
+    "index": 0,
+    "question": "친구 장난감을 쓰고 싶을 때 어떻게 말할까요?",
+    "answer": "빌려줘라고 말해요",
+    "visual": "🧸🐰",
+    "path": "./assets/v13/lesson.life-3.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-3",
+    "index": 1,
+    "question": "친구를 만나면 어떻게 인사할까요?",
+    "answer": "안녕이라고 해요",
+    "visual": "👋",
+    "path": "./assets/v13/lesson.life-3.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-3",
+    "index": 2,
+    "question": "선물을 받으면 무슨 말을 할까요?",
+    "answer": "고맙다고 해요",
+    "visual": "🎁",
+    "path": "./assets/v13/lesson.life-3.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-3",
+    "index": 3,
+    "question": "과자가 두 개예요. 친구와 어떻게 할까요?",
+    "answer": "함께 먹어요",
+    "visual": "🍪🍪",
+    "path": "./assets/v13/lesson.life-3.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-3",
+    "index": 4,
+    "question": "친구와 의견이 다를 때 어떻게 할까요?",
+    "answer": "마음을 말해요",
+    "visual": "🧱",
+    "path": "./assets/v13/lesson.life-3.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "life",
+    "module": "life-3",
+    "index": 5,
+    "question": "친구가 이야기하고 있어요. 어떻게 할까요?",
+    "answer": "들어줘요",
+    "visual": "👂",
+    "path": "./assets/v13/lesson.life-3.5.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-0",
+    "index": 0,
+    "question": "이 동그라미는 무슨 색일까요?",
+    "answer": "빨강",
+    "visual": "🔴",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-0",
+    "index": 1,
+    "question": "이 동그라미는 무슨 색일까요?",
+    "answer": "파랑",
+    "visual": "🔵",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-0",
+    "index": 2,
+    "question": "이 동그라미는 무슨 색일까요?",
+    "answer": "노랑",
+    "visual": "🟡",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-0",
+    "index": 3,
+    "question": "이 동그라미는 무슨 색일까요?",
+    "answer": "초록",
+    "visual": "🟢",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-0",
+    "index": 4,
+    "question": "이 동그라미는 무슨 색일까요?",
+    "answer": "보라",
+    "visual": "🟣",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-0",
+    "index": 5,
+    "question": "이 동그라미는 무슨 색일까요?",
+    "answer": "주황",
+    "visual": "🟠",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-1",
+    "index": 0,
+    "question": "세 개의 꼭짓점이 있는 모양은?",
+    "answer": "세모",
+    "visual": "🔺",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-1",
+    "index": 1,
+    "question": "네 개의 변이 있는 모양은?",
+    "answer": "네모",
+    "visual": "🟦",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-1",
+    "index": 2,
+    "question": "둥글게 생긴 모양은?",
+    "answer": "동그라미",
+    "visual": "🔵",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-1",
+    "index": 3,
+    "question": "반짝이는 뾰족한 모양은?",
+    "answer": "별",
+    "visual": "⭐",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-1",
+    "index": 4,
+    "question": "사랑을 나타내는 모양은?",
+    "answer": "하트",
+    "visual": "💛",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-1",
+    "index": 5,
+    "question": "밤하늘의 가느다란 달 모양은?",
+    "answer": "초승달",
+    "visual": "🌙",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-2",
+    "index": 0,
+    "question": "두드려서 쿵쿵 소리를 내는 악기는?",
+    "answer": "북",
+    "visual": "🥁",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-2",
+    "index": 1,
+    "question": "건반을 눌러 연주하는 악기는?",
+    "answer": "피아노",
+    "visual": "🎹",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-2",
+    "index": 2,
+    "question": "줄을 튕기며 연주하는 악기는?",
+    "answer": "기타",
+    "visual": "🎸",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-2",
+    "index": 3,
+    "question": "활로 줄을 문질러 소리 내는 악기는?",
+    "answer": "바이올린",
+    "visual": "🎻",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-2",
+    "index": 4,
+    "question": "입으로 불어 소리 내는 악기는?",
+    "answer": "트럼펫",
+    "visual": "🎺",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-2",
+    "index": 5,
+    "question": "흔들거나 치면 땡땡 울리는 악기는?",
+    "answer": "종",
+    "visual": "🔔",
+    "path": null,
+    "decision": "preserve precise teaching glyph/count/color/direction or appropriate existing single-object illustration"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-3",
+    "index": 0,
+    "question": "블록으로 집을 만들 때 맨 아래 필요한 것은?",
+    "answer": "바닥",
+    "visual": "🧱🏠",
+    "path": "./assets/v13/lesson.creativity-3.0.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-3",
+    "index": 1,
+    "question": "자동차가 물 위를 건너도록 만들려면?",
+    "answer": "다리",
+    "visual": "🌉🚗",
+    "path": "./assets/v13/lesson.creativity-3.1.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-3",
+    "index": 2,
+    "question": "블록 두 개에 한 개를 더하면 몇 개일까요?",
+    "answer": "3개",
+    "visual": "🧱🧱+🧱",
+    "path": "./assets/v13/lesson.creativity-3.2.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-3",
+    "index": 3,
+    "question": "노랑·파랑이 반복돼요. 다음 색깔은?",
+    "answer": "노랑",
+    "visual": "🟨🟦🟨🟦❓",
+    "path": "./assets/v13/lesson.creativity-3.3.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-3",
+    "index": 4,
+    "question": "블록 탑이 넘어지지 않게 하려면?",
+    "answer": "바닥 넓히기",
+    "visual": "🏗️",
+    "path": "./assets/v13/lesson.creativity-3.4.webp",
+    "decision": "new contextual scene"
+  },
+  {
+    "subject": "creativity",
+    "module": "creativity-3",
+    "index": 5,
+    "question": "블록으로 어떤 모양을 만들어 볼까요?",
+    "answer": "집",
+    "visual": "🧱🎨",
+    "path": "./assets/v13/lesson.creativity-3.5.webp",
+    "decision": "new contextual scene"
+  }
+]

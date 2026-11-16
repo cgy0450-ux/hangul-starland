@@ -8288,6 +8288,2722 @@
       "sha256": "1eaa1473e8467ab212eaa687c79366dd03fb0814998b1fa2122a7e020b465c68",
       "provenance": "Built-in image_gen original exec-990fd786-1a4f-4936-8a09-e13a511e03b1.png; reviewed correction exec-ed8aed32-80b8-4f3d-ac83-d3ad5b2d86b8.png",
       "reviewNote": "Viewed actual corrected atlas. Relevant full scenes; Hangul manuscript contains legible correct consonants/vowels. Interpretive history illustration."
+    },
+    {
+      "id": "sprite.crab",
+      "path": "assets/v13/sprite.crab.webp",
+      "alt": "crab",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "133b5867931d4a8265de349ede7a4fed91d7c35b1b56598d21edbbfecc26d7b5",
+      "provenance": "Built-in image_gen source exec-98fd7139-e32e-4c51-8edc-8148d35300f1.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.polar-bear",
+      "path": "assets/v13/sprite.polar-bear.webp",
+      "alt": "polar-bear",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "7b974e5e6b429450aee91a84e5583c82bc3967d77e6442375f1360848fa4383d",
+      "provenance": "Built-in image_gen source exec-98fd7139-e32e-4c51-8edc-8148d35300f1.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.dolphin",
+      "path": "assets/v13/sprite.dolphin.webp",
+      "alt": "dolphin",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "11d9bd979efc81dcf64ae7cd93ef8fdb8ec604645039db991ab562303253a626",
+      "provenance": "Built-in image_gen source exec-98fd7139-e32e-4c51-8edc-8148d35300f1.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.horse",
+      "path": "assets/v13/sprite.horse.webp",
+      "alt": "horse",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "34f969a6486589a6a770761c78210b9e73033cdb01570f10e645cb25907bdecc",
+      "provenance": "Built-in image_gen source exec-98fd7139-e32e-4c51-8edc-8148d35300f1.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.mouse",
+      "path": "assets/v13/sprite.mouse.webp",
+      "alt": "mouse",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "24a7edbb068fbd3afd1f0ca362440fd91f0ba8bf558f3f9deccff1496e6939b1",
+      "provenance": "Built-in image_gen source exec-98fd7139-e32e-4c51-8edc-8148d35300f1.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.babybottle",
+      "path": "assets/v13/sprite.babybottle.webp",
+      "alt": "babybottle",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "9dd7edaa3ef805bffaa8a4dc2bd4b462d5fea27117f5a514724172275a64e1d9",
+      "provenance": "Built-in image_gen source exec-98fd7139-e32e-4c51-8edc-8148d35300f1.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.chestnut",
+      "path": "assets/v13/sprite.chestnut.webp",
+      "alt": "chestnut",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "4ddf13fb7fbe21249abdd4cd71542078ad78ac6d39327778ecf50fba3bedf260",
+      "provenance": "Built-in image_gen source exec-c28789cf-ea18-443c-8abf-5f47e64d02fc.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.peach",
+      "path": "assets/v13/sprite.peach.webp",
+      "alt": "peach",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "349d67876132b500e0545ed51f8edac75e92a505f70ed7d068c1ec226a34bee6",
+      "provenance": "Built-in image_gen source exec-c28789cf-ea18-443c-8abf-5f47e64d02fc.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.nose",
+      "path": "assets/v13/sprite.nose.webp",
+      "alt": "nose",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "62a4763c0652f99c6a5bae7ce9c47b711161077ba3cff0217a34f95731a086de",
+      "provenance": "Built-in image_gen source exec-c28789cf-ea18-443c-8abf-5f47e64d02fc.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.mouth",
+      "path": "assets/v13/sprite.mouth.webp",
+      "alt": "mouth",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "8a3460e62452ef370d9ca9e2b9bdbb1269fda85393c367c647fb92ce825bb65a",
+      "provenance": "Built-in image_gen source exec-c28789cf-ea18-443c-8abf-5f47e64d02fc.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.foot",
+      "path": "assets/v13/sprite.foot.webp",
+      "alt": "foot",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "89e414c2ca98afdafbb1a283c12ff299bd7674c6c862bb27ad96571c172c5657",
+      "provenance": "Built-in image_gen source exec-c28789cf-ea18-443c-8abf-5f47e64d02fc.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.handshake",
+      "path": "assets/v13/sprite.handshake.webp",
+      "alt": "handshake",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "e8d6e4e452f5d07c793bf2690a2f089a6979ee29b713bd20b78110ba06daf4f8",
+      "provenance": "Built-in image_gen source exec-c28789cf-ea18-443c-8abf-5f47e64d02fc.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.rock",
+      "path": "assets/v13/sprite.rock.webp",
+      "alt": "rock",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "39346bd6b3e20131a9609c9aa7b05043ecefa0edaf0fc9d9f081fe2e832eb2fd",
+      "provenance": "Built-in image_gen source exec-d4a74982-97b1-4296-85b3-c281864d6c8e.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.steelkey",
+      "path": "assets/v13/sprite.steelkey.webp",
+      "alt": "steelkey",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "9e6d8dadc56ee601b028a0f74fe5a5f1ceba83dfc74b8909093c13e3d843e3c1",
+      "provenance": "Built-in image_gen source exec-d4a74982-97b1-4296-85b3-c281864d6c8e.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.paper",
+      "path": "assets/v13/sprite.paper.webp",
+      "alt": "paper",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "4bc1f1cdc189eb98ece8207a2d03ce8fc0ee192295fee873362de7007c8fa853",
+      "provenance": "Built-in image_gen source exec-d4a74982-97b1-4296-85b3-c281864d6c8e.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.ufo",
+      "path": "assets/v13/sprite.ufo.webp",
+      "alt": "ufo",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "7ac30b06098c10a13856c184449594f408aa10175553ee9fb3773ee607be777f",
+      "provenance": "Built-in image_gen source exec-d4a74982-97b1-4296-85b3-c281864d6c8e.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.pinkball",
+      "path": "assets/v13/sprite.pinkball.webp",
+      "alt": "pinkball",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "32ccca9919adbf756e9ca3fbc146437b0908c2249c2da2401a347f4366d2e8f7",
+      "provenance": "Built-in image_gen source exec-d4a74982-97b1-4296-85b3-c281864d6c8e.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.diamondblue",
+      "path": "assets/v13/sprite.diamondblue.webp",
+      "alt": "diamondblue",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "a72242d2cb10584482eeee4b0468ab76500daa25209f274b053434cb1de279e0",
+      "provenance": "Built-in image_gen source exec-d4a74982-97b1-4296-85b3-c281864d6c8e.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.rainboots",
+      "path": "assets/v13/sprite.rainboots.webp",
+      "alt": "rainboots",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "b841fe7cbfa3c0652784c21671b893745b099cf35ceedf98389deaa97f772018",
+      "provenance": "Built-in image_gen source exec-cecea4f9-a4f1-49e8-9274-80298a64f796.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.sunglasses",
+      "path": "assets/v13/sprite.sunglasses.webp",
+      "alt": "sunglasses",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "bedba7fc7426f5e11aba203027613f525171f615d627299f21c76e87ad4e29c1",
+      "provenance": "Built-in image_gen source exec-cecea4f9-a4f1-49e8-9274-80298a64f796.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.sofa",
+      "path": "assets/v13/sprite.sofa.webp",
+      "alt": "sofa",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "a80eee76a535a446d23f69b911f92b07702c021b2fd697343175ce495a9b60da",
+      "provenance": "Built-in image_gen source exec-cecea4f9-a4f1-49e8-9274-80298a64f796.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.chair",
+      "path": "assets/v13/sprite.chair.webp",
+      "alt": "chair",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "2feefa8c802cf40178faad1d49050b2b7c91a884f87d82ca8d80ec468d22e2af",
+      "provenance": "Built-in image_gen source exec-cecea4f9-a4f1-49e8-9274-80298a64f796.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.sponge",
+      "path": "assets/v13/sprite.sponge.webp",
+      "alt": "sponge",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "7794e30d93c937903099dcd6e429e7f6b395675bc060dc5e4b7d1ee3e42e7c1e",
+      "provenance": "Built-in image_gen source exec-cecea4f9-a4f1-49e8-9274-80298a64f796.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.lifering",
+      "path": "assets/v13/sprite.lifering.webp",
+      "alt": "lifering",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "60f57dd03ae2b61cd8b136fec06cd3b51646c00661809187d38abc03a5e91dd1",
+      "provenance": "Built-in image_gen source exec-cecea4f9-a4f1-49e8-9274-80298a64f796.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.clappinghands",
+      "path": "assets/v13/sprite.clappinghands.webp",
+      "alt": "clappinghands",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "5ed977e7592e5fde047031930645af2cdc05ac44e878ceaa1175d82a74c2605e",
+      "provenance": "Built-in image_gen source exec-6bd56c8c-21ba-490e-b846-a6000f03f083.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.snowman",
+      "path": "assets/v13/sprite.snowman.webp",
+      "alt": "snowman",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "e66403c817ea13094949c040508c5eb032e89ba0f8c2d8f83343cc9004123277",
+      "provenance": "Built-in image_gen source exec-6bd56c8c-21ba-490e-b846-a6000f03f083.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.sailboat",
+      "path": "assets/v13/sprite.sailboat.webp",
+      "alt": "sailboat",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "c79a382f03107c8929b8b85e7dfe4c7256af958c8cd8bc3cdfcf00e0174a9295",
+      "provenance": "Built-in image_gen source exec-6bd56c8c-21ba-490e-b846-a6000f03f083.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.sunrise",
+      "path": "assets/v13/sprite.sunrise.webp",
+      "alt": "sunrise",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "0904854fadd5ce32d27284bf49319180eb69eddca47ff5d6a33f0e400803e13a",
+      "provenance": "Built-in image_gen source exec-6bd56c8c-21ba-490e-b846-a6000f03f083.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.rope",
+      "path": "assets/v13/sprite.rope.webp",
+      "alt": "rope",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "cc4996faee100069bbe132d589fe5b4c6166f55fa15db6efb0a0e8d09511ef17",
+      "provenance": "Built-in image_gen source exec-6bd56c8c-21ba-490e-b846-a6000f03f083.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.axe",
+      "path": "assets/v13/sprite.axe.webp",
+      "alt": "axe",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "c3655ed5b66f26a97f73b326ee8cc265dbf2e898330acf608ee1086511d432c1",
+      "provenance": "Built-in image_gen source exec-6bd56c8c-21ba-490e-b846-a6000f03f083.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.greensquare",
+      "path": "assets/v13/sprite.greensquare.webp",
+      "alt": "greensquare",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "166bd1b0ce943bf7b29a2c7ed7b8ad4d34bab6e9c834710d807c247335b298eb",
+      "provenance": "Built-in image_gen source exec-5923d7c8-9068-4e9d-bd9d-f15fd01dd302.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.diamondorange",
+      "path": "assets/v13/sprite.diamondorange.webp",
+      "alt": "diamondorange",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "4abe19696211d371d416d5588c23da7ac21e4d675932a37cb37f4b1b702e0b97",
+      "provenance": "Built-in image_gen source exec-5923d7c8-9068-4e9d-bd9d-f15fd01dd302.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.scroll",
+      "path": "assets/v13/sprite.scroll.webp",
+      "alt": "scroll",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "ff963715a970395458a5e7b2114479505893a6ac05ac08b8c9a69d72b67ff10c",
+      "provenance": "Built-in image_gen source exec-5923d7c8-9068-4e9d-bd9d-f15fd01dd302.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.megaphone",
+      "path": "assets/v13/sprite.megaphone.webp",
+      "alt": "megaphone",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "3b86e7a9a3fb2166b953b356f2191165d686e97ecc15e934d9748f5698e6730e",
+      "provenance": "Built-in image_gen source exec-5923d7c8-9068-4e9d-bd9d-f15fd01dd302.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.dove",
+      "path": "assets/v13/sprite.dove.webp",
+      "alt": "dove",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "aca2c9c284351ff169ea2f94e9e00af7faf28b9ad6fe1b64ff525596164474de",
+      "provenance": "Built-in image_gen source exec-5923d7c8-9068-4e9d-bd9d-f15fd01dd302.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.inkbrush",
+      "path": "assets/v13/sprite.inkbrush.webp",
+      "alt": "inkbrush",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "f3e9da7892054e020af279d277e334b9d7f1f0adc00ef703aa7d9c19776df9fd",
+      "provenance": "Built-in image_gen source exec-5923d7c8-9068-4e9d-bd9d-f15fd01dd302.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.beach",
+      "path": "assets/v13/sprite.beach.webp",
+      "alt": "beach",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "febc32c696dbf72e3644b2739a27f370c82a10357c73d1ad09300cae39081abe",
+      "provenance": "Built-in image_gen source exec-d7029567-6de6-4f0d-806f-4ebff0412a9b.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.palace",
+      "path": "assets/v13/sprite.palace.webp",
+      "alt": "palace",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "870e0a390840393841b510471681b2d5acf37eca35c29b3865d649f439434e01",
+      "provenance": "Built-in image_gen source exec-d7029567-6de6-4f0d-806f-4ebff0412a9b.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.yarn",
+      "path": "assets/v13/sprite.yarn.webp",
+      "alt": "yarn",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "7867e5c8e3abb59534f3f535114a345fd833604d690bf6408b1e73e8578e74fc",
+      "provenance": "Built-in image_gen source exec-d7029567-6de6-4f0d-806f-4ebff0412a9b.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.bucket",
+      "path": "assets/v13/sprite.bucket.webp",
+      "alt": "bucket",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "a4d074989b193a562852962c6c7c39b7721fb28f1cb03cbc02a4d65376341667",
+      "provenance": "Built-in image_gen source exec-d7029567-6de6-4f0d-806f-4ebff0412a9b.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.shield",
+      "path": "assets/v13/sprite.shield.webp",
+      "alt": "shield",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "d20d2d41f2d5cc62806b24c6d6fef61a837c9982102424d1319cdab6fadf97a3",
+      "provenance": "Built-in image_gen source exec-d7029567-6de6-4f0d-806f-4ebff0412a9b.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.buk",
+      "path": "assets/v13/sprite.buk.webp",
+      "alt": "buk",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "55302e96083bb181e8a5bf0673f0070446bc37415ec7d959dcf89e4c4854225b",
+      "provenance": "Built-in image_gen source exec-d7029567-6de6-4f0d-806f-4ebff0412a9b.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.father",
+      "path": "assets/v13/sprite.father.webp",
+      "alt": "father",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "d167343df9c2a03b68e8a4d7a07ebedb980e66de7d3726fc1a4a60033fc46e8d",
+      "provenance": "Built-in image_gen source exec-a8d150f9-ca8d-4a6f-b69e-5e90a403f9d7.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.girl",
+      "path": "assets/v13/sprite.girl.webp",
+      "alt": "girl",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "19b27de5b58139731bad8a09ddfe16121d311aa53a9dd7ce03903db18f7aff05",
+      "provenance": "Built-in image_gen source exec-a8d150f9-ca8d-4a6f-b69e-5e90a403f9d7.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.walking",
+      "path": "assets/v13/sprite.walking.webp",
+      "alt": "walking",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "940a5cc99a38a952dd0c42c756b4402cbd041d1fd95a5e3b7b1020b9ea65ac73",
+      "provenance": "Built-in image_gen source exec-a8d150f9-ca8d-4a6f-b69e-5e90a403f9d7.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.oval",
+      "path": "assets/v13/sprite.oval.webp",
+      "alt": "oval",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "6586750c879c01e85b9decd5cecfe33af08716109547b0a48cb08c535637ea0b",
+      "provenance": "Built-in image_gen source exec-a8d150f9-ca8d-4a6f-b69e-5e90a403f9d7.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.thoughtbubble",
+      "path": "assets/v13/sprite.thoughtbubble.webp",
+      "alt": "thoughtbubble",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "ce5d1be740d2e310776f90f1d72f3548ffee0a1e9a4c7117848c1e00a00d9ecc",
+      "provenance": "Built-in image_gen source exec-a8d150f9-ca8d-4a6f-b69e-5e90a403f9d7.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "sprite.speaker",
+      "path": "assets/v13/sprite.speaker.webp",
+      "alt": "speaker",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        560,
+        560
+      ],
+      "sha256": "c7d895966df2e4f3dcbeb27a1e82ec9530685f95ff56ed9605c70130d6981e70",
+      "provenance": "Built-in image_gen source exec-a8d150f9-ca8d-4a6f-b69e-5e90a403f9d7.png",
+      "reviewNote": "Actual original atlas visually inspected for subject, silhouette and transparent separation."
+    },
+    {
+      "id": "history.tuho",
+      "path": "assets/v13/history.tuho.webp",
+      "alt": "항아리에 긴 화살을 던지는 투호 놀이",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "96c37137d71e5d53dd0608c2fcd9755cd31072b8253b3c014da1c3deda3b9ed0",
+      "provenance": "Built-in image_gen exec-e35ab365-6428-4844-ae61-025d43cd1526.png",
+      "reviewNote": "Atlas visually inspected against actual classic history bank; correct tools and actions, not pictogram clusters."
+    },
+    {
+      "id": "history.jipsin",
+      "path": "assets/v13/history.jipsin.webp",
+      "alt": "볏짚으로 만든 짚신을 신은 옛날 사람",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "56263ab991160268de0be676da357dd929426cd0bb5f8232592b2e769c4347f9",
+      "provenance": "Built-in image_gen exec-e35ab365-6428-4844-ae61-025d43cd1526.png",
+      "reviewNote": "Atlas visually inspected against actual classic history bank; correct tools and actions, not pictogram clusters."
+    },
+    {
+      "id": "history.buk",
+      "path": "assets/v13/history.buk.webp",
+      "alt": "나무 북채로 전통 북을 치는 아이",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "eb2f9e50eb70c49de0ab0d8bf65ded78b8f30d79d9050afff1f26a685b8a6ab3",
+      "provenance": "Built-in image_gen exec-e35ab365-6428-4844-ae61-025d43cd1526.png",
+      "reviewNote": "Atlas visually inspected against actual classic history bank; correct tools and actions, not pictogram clusters."
+    },
+    {
+      "id": "history.gonggi",
+      "path": "assets/v13/history.gonggi.webp",
+      "alt": "공깃돌 다섯 개로 하는 공기놀이",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "0517a98bc1d90926dc394f937257d06d674295459f825f627b17e3122fc99830",
+      "provenance": "Built-in image_gen exec-e35ab365-6428-4844-ae61-025d43cd1526.png",
+      "reviewNote": "Atlas visually inspected against actual classic history bank; correct tools and actions, not pictogram clusters."
+    },
+    {
+      "id": "history.jumprope",
+      "path": "assets/v13/history.jumprope.webp",
+      "alt": "친구들이 돌리는 줄을 넘는 줄넘기",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "385113d70e122eecfbd3479d6b124bcde1f5442481d46c3d54376b5024c604dd",
+      "provenance": "Built-in image_gen exec-e35ab365-6428-4844-ae61-025d43cd1526.png",
+      "reviewNote": "Atlas visually inspected against actual classic history bank; correct tools and actions, not pictogram clusters."
+    },
+    {
+      "id": "history.royalcrown",
+      "path": "assets/v13/history.royalcrown.webp",
+      "alt": "나뭇가지 모양 금관과 곡옥을 쓴 옛날 임금",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "a6bee6c0fc8d2fda7685104cf1a0951d8a3a7f1a112207533a471e3b9db1d486",
+      "provenance": "Built-in image_gen exec-e35ab365-6428-4844-ae61-025d43cd1526.png",
+      "reviewNote": "Atlas visually inspected against actual classic history bank; correct tools and actions, not pictogram clusters."
+    },
+    {
+      "id": "history.well",
+      "path": "assets/v13/history.well.webp",
+      "alt": "우물에서 두레박으로 물을 길어 올리는 어른과 바라보는 아이",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        640,
+        640
+      ],
+      "sha256": "1598af422d8858a288bdae2c643788a3ca901309ca2fb7181ceb7a388c23aa8b",
+      "provenance": "Built-in image_gen exec-8297d430-db43-441a-82f2-aa4c6ed9e3fa.png",
+      "reviewNote": "Actual pair of scenes viewed: adult raises well bucket; clearly visible woven fabric. No icon clusters."
+    },
+    {
+      "id": "history.fabric",
+      "path": "assets/v13/history.fabric.webp",
+      "alt": "옛날 바느질방에서 한복을 만들 천을 살펴보는 어른과 아이",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        640,
+        640
+      ],
+      "sha256": "01e73adefb78251534117314ca30f2a1e06d15753f5e985fc19d9297be639e67",
+      "provenance": "Built-in image_gen exec-8297d430-db43-441a-82f2-aa4c6ed9e3fa.png",
+      "reviewNote": "Actual pair of scenes viewed: adult raises well bucket; clearly visible woven fabric. No icon clusters."
+    },
+    {
+      "id": "lesson.english-3.0",
+      "path": "assets/v13/lesson.english-3.0.webp",
+      "alt": "‘안녕하세요’는 영어로 HELLO예요. 소리를 듣고 입으로 따라해 봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "cd10eb4a639cbf5f745d52ba98f84c523a0feff879e7501e1158eb2154b01d71",
+      "provenance": "Built-in image_gen source exec-bb9d5ab7-71f2-43bc-9b44-b931dc1e0651.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.english-3.1",
+      "path": "assets/v13/lesson.english-3.1.webp",
+      "alt": "‘고마워요’는 영어로 THANK YOU예요. 소리를 듣고 입으로 따라해 봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "1f407c814a457f67b2e64c67dc61971624224adba4f9dd53ebbd0bcd495ac504",
+      "provenance": "Built-in image_gen source exec-bb9d5ab7-71f2-43bc-9b44-b931dc1e0651.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.english-3.2",
+      "path": "assets/v13/lesson.english-3.2.webp",
+      "alt": "‘잘 가요’는 영어로 BYE예요. 소리를 듣고 입으로 따라해 봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "d80e11fa812795a9ac82ebad1067e07bbc4426a5e9bafa0e5a1195bd7dc35c81",
+      "provenance": "Built-in image_gen source exec-bb9d5ab7-71f2-43bc-9b44-b931dc1e0651.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.english-3.3",
+      "path": "assets/v13/lesson.english-3.3.webp",
+      "alt": "‘네’는 영어로 YES예요. 소리를 듣고 입으로 따라해 봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "fc942526a0a60a2f846a7d7ab2ca5added30c12c768871e9059da30ab9a2c3ab",
+      "provenance": "Built-in image_gen source exec-bb9d5ab7-71f2-43bc-9b44-b931dc1e0651.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.english-3.4",
+      "path": "assets/v13/lesson.english-3.4.webp",
+      "alt": "‘아니요’는 영어로 NO예요. 소리를 듣고 입으로 따라해 봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "75caf521d0d17a27f08c7672df390f70987f9deeaca002dfa0e61953f2aef0a9",
+      "provenance": "Built-in image_gen source exec-bb9d5ab7-71f2-43bc-9b44-b931dc1e0651.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.english-3.5",
+      "path": "assets/v13/lesson.english-3.5.webp",
+      "alt": "‘좋은 아침’는 영어로 GOOD MORNING예요. 소리를 듣고 입으로 따라해 봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "ddc22367cf467d1b0d8ed82e482ab4523cc4c23ba6f9dba39ed2fa771c1208cd",
+      "provenance": "Built-in image_gen source exec-bb9d5ab7-71f2-43bc-9b44-b931dc1e0651.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-0.0",
+      "path": "assets/v13/lesson.science-0.0.webp",
+      "alt": "물고기는 물속에서 헤엄치며 살아요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "c898846b0b626f899ff6eb7df4a36dd298b3390e3fa186de609bbe653a367e85",
+      "provenance": "Built-in image_gen source exec-9a6c2e66-2c6c-43b2-ba93-85f85d2c5b01.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-0.1",
+      "path": "assets/v13/lesson.science-0.1.webp",
+      "alt": "새는 가지와 풀 등을 모아 나무 위에 둥지를 만들기도 해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "459018ae4a5e315a1da4d8127ca67bea44170582bafd37826f4e6ba44463ddda",
+      "provenance": "Built-in image_gen source exec-9a6c2e66-2c6c-43b2-ba93-85f85d2c5b01.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-0.2",
+      "path": "assets/v13/lesson.science-0.2.webp",
+      "alt": "곰은 종류에 따라 숲과 산 등 다양한 환경에서 살아요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "ef9d32176770d096686d0446bb1e3fe07085dcc926af8bb19f421baa22a110ff",
+      "provenance": "Built-in image_gen source exec-9a6c2e66-2c6c-43b2-ba93-85f85d2c5b01.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-0.3",
+      "path": "assets/v13/lesson.science-0.3.webp",
+      "alt": "낙타는 건조한 사막 환경에 적응해 살 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "8746e2c9c463395119a8a74aa0af6ca15b4dda98f601d5746766e1bb02a7bc14",
+      "provenance": "Built-in image_gen source exec-9a6c2e66-2c6c-43b2-ba93-85f85d2c5b01.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-0.4",
+      "path": "assets/v13/lesson.science-0.4.webp",
+      "alt": "펭귄은 종류에 따라 사는 곳이 달라요. 남극에 사는 펭귄도 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "93762f603acf5cc891fb19f6f5015863d0457448585d41d6f2646f698441ff77",
+      "provenance": "Built-in image_gen source exec-9a6c2e66-2c6c-43b2-ba93-85f85d2c5b01.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-0.5",
+      "path": "assets/v13/lesson.science-0.5.webp",
+      "alt": "개구리는 연못과 같은 물가에서 만날 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "c558afc3468a06e4af98792322b043c4b823f2b35978f7926b5743213c102cdd",
+      "provenance": "Built-in image_gen source exec-9a6c2e66-2c6c-43b2-ba93-85f85d2c5b01.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-1.0",
+      "path": "assets/v13/lesson.science-1.0.webp",
+      "alt": "식물은 자라기 위해 물이 필요해요. 화분에 물을 알맞게 줘요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "456d230b6dbf276c6ab0bf75f55ac3cac61ee497243abc850afb77a69bb5145a",
+      "provenance": "Built-in image_gen source exec-301696c9-556d-466b-9731-531e1219d911.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-1.1",
+      "path": "assets/v13/lesson.science-1.1.webp",
+      "alt": "대부분의 식물은 햇빛을 이용해 자라는 데 필요한 양분을 만들어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "0af0cf12fdb32f17fc9abbd8591dcdab70112e1c7f4d805ac02a872e49f30f32",
+      "provenance": "Built-in image_gen source exec-301696c9-556d-466b-9731-531e1219d911.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-1.2",
+      "path": "assets/v13/lesson.science-1.2.webp",
+      "alt": "씨앗에서 처음 돋아나는 작고 어린 식물을 새싹이라고 해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "3e87f91b2f47160bb68b28045c76cf67a2d1398bf07839564c25eb372c3519b6",
+      "provenance": "Built-in image_gen source exec-301696c9-556d-466b-9731-531e1219d911.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-1.3",
+      "path": "assets/v13/lesson.science-1.3.webp",
+      "alt": "튤립은 봄에 피는 꽃으로 여러 가지 색이 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "255a61ec0bdaa251d9421ddc75b860d824047e493e8ea026890fb4d85c47b084",
+      "provenance": "Built-in image_gen source exec-301696c9-556d-466b-9731-531e1219d911.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-1.4",
+      "path": "assets/v13/lesson.science-1.4.webp",
+      "alt": "사과나무에는 사과라는 열매가 열려요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "7b08119a6616a2fd4475383a5fc40a27a88732455a36f63ea5598807a45dc998",
+      "provenance": "Built-in image_gen source exec-301696c9-556d-466b-9731-531e1219d911.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-1.5",
+      "path": "assets/v13/lesson.science-1.5.webp",
+      "alt": "나무의 잎은 햇빛을 받고 바람에 흔들리기도 해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "68b7ae9d4cb5c059ae34b585decf4fec150dfc96ffa3621a77af5a6ef30a3179",
+      "provenance": "Built-in image_gen source exec-301696c9-556d-466b-9731-531e1219d911.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-2.0",
+      "path": "assets/v13/lesson.science-2.0.webp",
+      "alt": "구름 속 물방울이 커져 떨어지면 비가 와요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "4819f8314bfc066cc2cc98d2d598f57d42ad75ef7c37790fc245e7a733d54d70",
+      "provenance": "Built-in image_gen source exec-ebcdbfa4-f884-4854-9f44-891a24824122.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-2.1",
+      "path": "assets/v13/lesson.science-2.1.webp",
+      "alt": "하늘에서 얼음 결정이 내려오면 눈이 올 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "adc4e45e67ea0242d5b7a76607c15235640a6e2987380f109dd7cd8837dad308",
+      "provenance": "Built-in image_gen source exec-ebcdbfa4-f884-4854-9f44-891a24824122.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-2.2",
+      "path": "assets/v13/lesson.science-2.2.webp",
+      "alt": "여름은 대체로 기온이 높고 더운 계절이에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "a77cd22950cf97ddcc518a374c1b9e98f0eb49f0d016cabec03804ac4c254789",
+      "provenance": "Built-in image_gen source exec-ebcdbfa4-f884-4854-9f44-891a24824122.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-2.3",
+      "path": "assets/v13/lesson.science-2.3.webp",
+      "alt": "가을이 되면 나무의 잎이 노랗거나 붉게 변하기도 해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "e269cfd674ef948d42d7fabe4c091dd94fa1b3b282bc70d1a6687ebf15ee1dfb",
+      "provenance": "Built-in image_gen source exec-ebcdbfa4-f884-4854-9f44-891a24824122.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-2.4",
+      "path": "assets/v13/lesson.science-2.4.webp",
+      "alt": "봄이 되면 날씨가 따뜻해지고 꽃이 피기 시작해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "3507a4682c0f737ecdf4a9d6701966a719d6db9806ae4b66e93b5d611ce2aeae",
+      "provenance": "Built-in image_gen source exec-ebcdbfa4-f884-4854-9f44-891a24824122.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-2.5",
+      "path": "assets/v13/lesson.science-2.5.webp",
+      "alt": "겨울은 기온이 낮고 추운 계절이에요. 눈이 올 수도 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "97049e707d541242497b0f5bdb8b6f49d9968c43ba0ab27a647698edb4c30568",
+      "provenance": "Built-in image_gen source exec-ebcdbfa4-f884-4854-9f44-891a24824122.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-3.0",
+      "path": "assets/v13/lesson.science-3.0.webp",
+      "alt": "얼음이 따뜻해지면 녹아서 물이 돼요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "c236ae9c5601feb042a0e4a5d58ca9a9571957834d374568431d649e378de6fa",
+      "provenance": "Built-in image_gen source exec-0fa99711-b5c0-4127-b8bb-bffc468efddd.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-3.1",
+      "path": "assets/v13/lesson.science-3.1.webp",
+      "alt": "물이 충분히 차가워지면 얼음으로 변할 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "ee0290ac287a68eb1a3c102756273a9dc1279a3e03484ddfb132d801bd4c49f3",
+      "provenance": "Built-in image_gen source exec-0fa99711-b5c0-4127-b8bb-bffc468efddd.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-3.2",
+      "path": "assets/v13/lesson.science-3.2.webp",
+      "alt": "풍선 속에는 공기가 들어 있어요. 공기는 보이지 않아도 공간을 차지해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "bb9b759180b7bce30e325c76001310e358d2503796e5a715d8d2451c0680e569",
+      "provenance": "Built-in image_gen source exec-0fa99711-b5c0-4127-b8bb-bffc468efddd.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-3.3",
+      "path": "assets/v13/lesson.science-3.3.webp",
+      "alt": "자석은 철로 된 물건을 끌어당길 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "3c5027e9d5ed615b3dd03ba4e5314084b683af392b531dc003a4ae28f4ec0360",
+      "provenance": "Built-in image_gen source exec-0fa99711-b5c0-4127-b8bb-bffc468efddd.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-3.4",
+      "path": "assets/v13/lesson.science-3.4.webp",
+      "alt": "손전등은 빛을 내어 어두운 곳을 비춰 줘요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "7708b33db53a5582e5e25edadfd0f0c8d43a7c2181c2c54a7691eb6978652ff1",
+      "provenance": "Built-in image_gen source exec-0fa99711-b5c0-4127-b8bb-bffc468efddd.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.science-3.5",
+      "path": "assets/v13/lesson.science-3.5.webp",
+      "alt": "물에 숟가락을 넣고 움직이면 물결이 생겨요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "942147fb80454e9b1286302b0e4f151aa0b098fc9efef37dcacd912380c11cd9",
+      "provenance": "Built-in image_gen source exec-0fa99711-b5c0-4127-b8bb-bffc468efddd.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-2.0",
+      "path": "assets/v13/lesson.coding-2.0.webp",
+      "alt": "손을 씻을 때는 손에 물을 묻히고 비누로 문질러 헹궈요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "f9b121306f60dbca6e380c6098f84fe773c1a310a0fadd04b59a9bd767ef51fc",
+      "provenance": "Built-in image_gen source exec-f5d6e652-a944-4c80-926d-30899664e380.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-2.1",
+      "path": "assets/v13/lesson.coding-2.1.webp",
+      "alt": "양치할 때는 칫솔로 치아를 골고루 닦아요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "9aa1db8f9eefec480d4eb3a7d6ce56a32bd4d6f6b48ddc45c70daa80815c6c9d",
+      "provenance": "Built-in image_gen source exec-f5d6e652-a944-4c80-926d-30899664e380.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-2.2",
+      "path": "assets/v13/lesson.coding-2.2.webp",
+      "alt": "식물을 돌볼 때는 물을 알맞게 주고 햇빛도 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "fa1dc0ee1de68ef5265ca518315b1288a01fc86c56c3c9bb7e0b8b8979c6b1d1",
+      "provenance": "Built-in image_gen source exec-f5d6e652-a944-4c80-926d-30899664e380.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-2.3",
+      "path": "assets/v13/lesson.coding-2.3.webp",
+      "alt": "밖에 나가기 전에 발에 신발을 신어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "a369f89d0046d82444bab861cfc82654bfe050ec95578d5ce4d138841293cf03",
+      "provenance": "Built-in image_gen source exec-f5d6e652-a944-4c80-926d-30899664e380.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-2.4",
+      "path": "assets/v13/lesson.coding-2.4.webp",
+      "alt": "책을 보려면 펼치고 글과 그림을 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "f3dd15544dbabc8d9abad4a6b7ccb94761907c4da7695cf2f691886bcde3283e",
+      "provenance": "Built-in image_gen source exec-f5d6e652-a944-4c80-926d-30899664e380.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-2.5",
+      "path": "assets/v13/lesson.coding-2.5.webp",
+      "alt": "블록으로 집을 쌓을 때 바닥 블록을 먼저 튼튼하게 놓아요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "6361b72ba3cd53299c2c76e7ccd0bff79d4c6c40aafc654d4199c561e2e41c7b",
+      "provenance": "Built-in image_gen source exec-f5d6e652-a944-4c80-926d-30899664e380.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-3.0",
+      "path": "assets/v13/lesson.coding-3.0.webp",
+      "alt": "비가 오면 우산을 준비해요. 비가 그치면 필요하지 않을 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "46da4348fb868162825af82c9ff90c9e2b7220d1a8b58c8fd6c78ab532a8417c",
+      "provenance": "Built-in image_gen source exec-fc1184ea-c045-4012-9dc4-1e0b71e2e95a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-3.1",
+      "path": "assets/v13/lesson.coding-3.1.webp",
+      "alt": "햇볕이 강할 때는 모자를 쓰면 도움이 돼요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "59183c2fe19e98314d93df080385514fc509f936d82478d56c488490eb9a2429",
+      "provenance": "Built-in image_gen source exec-fc1184ea-c045-4012-9dc4-1e0b71e2e95a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-3.2",
+      "path": "assets/v13/lesson.coding-3.2.webp",
+      "alt": "보행 신호가 빨간색이면 멈춰서 기다려요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "c7b2599e92c99e5bbcd6b4994b295e72a5ad8897207fdaa02c6565179dac01b1",
+      "provenance": "Built-in image_gen source exec-fc1184ea-c045-4012-9dc4-1e0b71e2e95a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-3.3",
+      "path": "assets/v13/lesson.coding-3.3.webp",
+      "alt": "초록 보행 신호라도 좌우를 살피고 안전하게 건너요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "c5b0ab4945114c27d89c4c1a021b66c2ba98a135a0b52db8b1abbd006aa66889",
+      "provenance": "Built-in image_gen source exec-fc1184ea-c045-4012-9dc4-1e0b71e2e95a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-3.4",
+      "path": "assets/v13/lesson.coding-3.4.webp",
+      "alt": "날씨가 추우면 따뜻한 외투를 입어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "39d9da42d2b4871f7359f6cccdab95b24e4878db1826f5f27d74ff552f134163",
+      "provenance": "Built-in image_gen source exec-fc1184ea-c045-4012-9dc4-1e0b71e2e95a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.coding-3.5",
+      "path": "assets/v13/lesson.coding-3.5.webp",
+      "alt": "쪼이가 집에 가려면 길을 따라 안전하게 움직여야 해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "49f4f829187d021f6391575dd44d8ec0d3e1d20604c0c790f47872bc35330b07",
+      "provenance": "Built-in image_gen source exec-fc1184ea-c045-4012-9dc4-1e0b71e2e95a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-0.0",
+      "path": "assets/v13/lesson.finance-0.0.webp",
+      "alt": "밥은 배고픔을 해결하는 데 필요한 음식이에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "b724c20a9a3fef750e8fa6b05b67d7b116254f4bac10531860fee7609aef8d28",
+      "provenance": "Built-in image_gen source exec-0006460d-9c45-4728-a8b0-7bb0a598055d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-0.1",
+      "path": "assets/v13/lesson.finance-0.1.webp",
+      "alt": "마실 물은 우리 몸에 꼭 필요해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "c066cfffe0e29ce5647bf0084bf0faf24cdc40b511d86df26b5724805897125d",
+      "provenance": "Built-in image_gen source exec-0006460d-9c45-4728-a8b0-7bb0a598055d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-0.2",
+      "path": "assets/v13/lesson.finance-0.2.webp",
+      "alt": "추울 때 몸을 따뜻하게 해 주는 외투는 필요해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "cd0876780e3e7a0bef869cb4081bdf991bf134f9eb3e491b6fe8ece9a4385f82",
+      "provenance": "Built-in image_gen source exec-0006460d-9c45-4728-a8b0-7bb0a598055d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-0.3",
+      "path": "assets/v13/lesson.finance-0.3.webp",
+      "alt": "새 인형은 꼭 필요하지 않아도 가지고 싶을 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "136baddcdd30de857626234ef6b5e26262760d39fa9543d9bfc2ce8a4c17ad8f",
+      "provenance": "Built-in image_gen source exec-0006460d-9c45-4728-a8b0-7bb0a598055d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-0.4",
+      "path": "assets/v13/lesson.finance-0.4.webp",
+      "alt": "사탕은 맛있지만 생활에 꼭 필요한 물건은 아니에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "f58cd5ae7c5d4556a5498b04a0118decf48592b468a3e08e2ebab10a62daf1fd",
+      "provenance": "Built-in image_gen source exec-0006460d-9c45-4728-a8b0-7bb0a598055d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-0.5",
+      "path": "assets/v13/lesson.finance-0.5.webp",
+      "alt": "게임기는 즐겁지만 없어도 살아갈 수 있는 물건이에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "f7bbc0e0702594cb88aa8c1b0c1278cb9eea13e5490215f3cf244ae1ba089035",
+      "provenance": "Built-in image_gen source exec-0006460d-9c45-4728-a8b0-7bb0a598055d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-1.0",
+      "path": "assets/v13/lesson.finance-1.0.webp",
+      "alt": "요리사는 음식을 만들어 사람들에게 제공해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "03d2f6e99746977a21ea9e210178bf300da154cf2b55bd763ef3e2e3b71dec30",
+      "provenance": "Built-in image_gen source exec-5291cff5-2e3b-4391-9ab8-598d6276b61d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-1.1",
+      "path": "assets/v13/lesson.finance-1.1.webp",
+      "alt": "농부는 밭에서 채소나 곡식을 기르기도 해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "c4232a14c8eea43f9b5f3ef83770c4adbd3e2970619db99df3729269d49024e0",
+      "provenance": "Built-in image_gen source exec-5291cff5-2e3b-4391-9ab8-598d6276b61d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-1.2",
+      "path": "assets/v13/lesson.finance-1.2.webp",
+      "alt": "선생님은 새로운 것을 배우도록 도와줘요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "1db967ca2a13f5560614eb3e79ad0237887067529c48cad269daf287d82d9586",
+      "provenance": "Built-in image_gen source exec-5291cff5-2e3b-4391-9ab8-598d6276b61d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-1.3",
+      "path": "assets/v13/lesson.finance-1.3.webp",
+      "alt": "의사는 아픈 사람을 살피고 건강을 돌보는 일을 해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "35379b7273771481acef0d120ee77851804e0e5f9de13dfa398e7f275c1ae929",
+      "provenance": "Built-in image_gen source exec-5291cff5-2e3b-4391-9ab8-598d6276b61d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-1.4",
+      "path": "assets/v13/lesson.finance-1.4.webp",
+      "alt": "정비사는 자동차가 잘 움직이도록 고치고 점검해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "b7c0b744d76bab966d571f4d7a883d2e71c875e9fc05bab2dcc85e6aaff8ddaa",
+      "provenance": "Built-in image_gen source exec-5291cff5-2e3b-4391-9ab8-598d6276b61d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-1.5",
+      "path": "assets/v13/lesson.finance-1.5.webp",
+      "alt": "버스 운전사는 버스를 운전해 사람들을 목적지로 데려다줘요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "d3bdb46b9d88d2a3f6fa1208ca320258a20c5c7423c42e832c94fdd897cc50f9",
+      "provenance": "Built-in image_gen source exec-5291cff5-2e3b-4391-9ab8-598d6276b61d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-2.0",
+      "path": "assets/v13/lesson.finance-2.0.webp",
+      "alt": "물건을 사는 데 쓰는 돈은 ‘쓰는 돈’ 항아리에 담아 생각해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "9dc7449ac998be767d4bcf75e05d935fc15ae8370618557bf7d39ceee235cbb8",
+      "provenance": "Built-in image_gen source exec-b7a38ccd-fb6f-434e-9b93-21fe8115d8bb.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-2.1",
+      "path": "assets/v13/lesson.finance-2.1.webp",
+      "alt": "나중에 필요한 것을 위해 모아 두는 돈은 ‘저금할 돈’이에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "f140273abed6ccc71ba73198381b2d6df10fc2077c10a1183d4b9978c4394396",
+      "provenance": "Built-in image_gen source exec-b7a38ccd-fb6f-434e-9b93-21fe8115d8bb.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-2.2",
+      "path": "assets/v13/lesson.finance-2.2.webp",
+      "alt": "다른 사람을 돕기 위한 돈은 ‘나눌 돈’으로 모을 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "0485db46cd48c715e3154cb2665b28f330907c382f3b9f9368272d3444a20af0",
+      "provenance": "Built-in image_gen source exec-b7a38ccd-fb6f-434e-9b93-21fe8115d8bb.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-2.3",
+      "path": "assets/v13/lesson.finance-2.3.webp",
+      "alt": "지금 빵을 사는 돈은 ‘쓰는 돈’이에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "420daada1ce1cd99f22f541bb0d39b277bb4eff8dad2ed2d4c7a3f758270a9a6",
+      "provenance": "Built-in image_gen source exec-b7a38ccd-fb6f-434e-9b93-21fe8115d8bb.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-2.4",
+      "path": "assets/v13/lesson.finance-2.4.webp",
+      "alt": "나중에 장난감 자동차를 사려고 모으는 것은 저금이에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "633fdab9b9a6539cd1fd825a9b50a009e173bff6901f3109de9ba140235493ac",
+      "provenance": "Built-in image_gen source exec-b7a38ccd-fb6f-434e-9b93-21fe8115d8bb.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-2.5",
+      "path": "assets/v13/lesson.finance-2.5.webp",
+      "alt": "다른 사람에게 선물을 준비하는 것은 나누는 마음과 관련돼요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "75e148cdac84060a3b14d3e22dead24e37778752327e695bced2e3e9e844b91f",
+      "provenance": "Built-in image_gen source exec-b7a38ccd-fb6f-434e-9b93-21fe8115d8bb.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-1.0",
+      "path": "assets/v13/lesson.reading-1.0.webp",
+      "alt": "쪼이 이야기의 답은 꽃예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "aabcba081f35b146b9451b712e40371b588b1dad64a87f04233b28ffa5b341b6",
+      "provenance": "Built-in image_gen source exec-ff891298-faed-4611-aa39-9aa33a66f46d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-1.1",
+      "path": "assets/v13/lesson.reading-1.1.webp",
+      "alt": "쪼이 이야기의 답은 병아리예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "385b25aae4e2b3a2000322eb0bf6a1ab245359b66c9e4f7890bfbab32edc6b9d",
+      "provenance": "Built-in image_gen source exec-ff891298-faed-4611-aa39-9aa33a66f46d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-1.2",
+      "path": "assets/v13/lesson.reading-1.2.webp",
+      "alt": "쪼이 이야기의 답은 무지개예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "596e58adc973f44c3c99559ef4b8f6e2f73ad06bcbffb2d1cad63d14883111a4",
+      "provenance": "Built-in image_gen source exec-ff891298-faed-4611-aa39-9aa33a66f46d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-1.3",
+      "path": "assets/v13/lesson.reading-1.3.webp",
+      "alt": "쪼이 이야기의 답은 샌드위치예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "d7053b174e3a10730fd7cabb7488e6ecc485d56418d7eb0a478a3bfbbca0cd3d",
+      "provenance": "Built-in image_gen source exec-ff891298-faed-4611-aa39-9aa33a66f46d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-1.4",
+      "path": "assets/v13/lesson.reading-1.4.webp",
+      "alt": "쪼이 이야기의 답은 물예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "6897f67264464fecbbecb3e381c89c18b7d82127a46ccddf728141b9181e3a03",
+      "provenance": "Built-in image_gen source exec-ff891298-faed-4611-aa39-9aa33a66f46d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-1.5",
+      "path": "assets/v13/lesson.reading-1.5.webp",
+      "alt": "쪼이 이야기의 답은 밤예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "b4ca10c6b58bd5dbede4873b004049321c8c8fdfcd513058ab4346f53b66c496",
+      "provenance": "Built-in image_gen source exec-ff891298-faed-4611-aa39-9aa33a66f46d.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-3.0",
+      "path": "assets/v13/lesson.finance-3.0.webp",
+      "alt": "씨앗이 자라 나무가 되려면 시간이 필요해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "72f8ac5cd26422dbf01d24b35438288c3fb6b2aa207db2e80cc54ed03c6dd072",
+      "provenance": "Built-in image_gen source exec-2192a90c-ea67-4c21-a439-5a107e1407e1.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-3.1",
+      "path": "assets/v13/lesson.finance-3.1.webp",
+      "alt": "동전을 조금씩 모으면 저금통이 차곡차곡 채워져요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "77020dd00d16653bf1e52776103e586178d5cc8df9276307c056435dd9140bfe",
+      "provenance": "Built-in image_gen source exec-2192a90c-ea67-4c21-a439-5a107e1407e1.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-3.2",
+      "path": "assets/v13/lesson.finance-3.2.webp",
+      "alt": "돈이 모자라면 필요한 만큼 모은 뒤 사는 방법이 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "48bb7275982031f73428a6af3869e1a5d3cf83aa0b108f0c74246fddad21434a",
+      "provenance": "Built-in image_gen source exec-2192a90c-ea67-4c21-a439-5a107e1407e1.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-3.3",
+      "path": "assets/v13/lesson.finance-3.3.webp",
+      "alt": "주사위는 던질 때마다 다른 숫자가 나올 수 있어요. 결과를 미리 알 수 없어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "44461ffcd16f36f09b999e06cf3b61a478c0805745bae272a6dd5085ae19b4c1",
+      "provenance": "Built-in image_gen source exec-2192a90c-ea67-4c21-a439-5a107e1407e1.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-3.4",
+      "path": "assets/v13/lesson.finance-3.4.webp",
+      "alt": "과자 두 개를 친구 두 명에게 나누면 하나씩 받을 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "fb200fd953692fab5ada3d63da1db067e0c4d6cc07c986a8b166358bf53c2381",
+      "provenance": "Built-in image_gen source exec-2192a90c-ea67-4c21-a439-5a107e1407e1.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.finance-3.5",
+      "path": "assets/v13/lesson.finance-3.5.webp",
+      "alt": "비가 너무 많이 오면 식물이 잘 자라지 못할 수도 있어요. 미래의 결과는 항상 같지 않아요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "8a19a4ad84db003999e6a097292bac68f3c4bd9f63a9eef1bad3dea8b24f77fe",
+      "provenance": "Built-in image_gen source exec-2192a90c-ea67-4c21-a439-5a107e1407e1.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-2.0",
+      "path": "assets/v13/lesson.reading-2.0.webp",
+      "alt": "쪼이 이야기의 답은 기쁨예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "522228d32ea126897d13ff9be7e5c908a18afbced8a922e3be7183bf20d138cc",
+      "provenance": "Built-in image_gen source exec-90bba7af-52e9-47ca-a165-dc1f9073fe48.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-2.1",
+      "path": "assets/v13/lesson.reading-2.1.webp",
+      "alt": "쪼이 이야기의 답은 슬픔예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "1abce81d59493059a7b98b0fe3838e2cc65e3861bdd414a7e9c24311f4528ed0",
+      "provenance": "Built-in image_gen source exec-90bba7af-52e9-47ca-a165-dc1f9073fe48.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-2.2",
+      "path": "assets/v13/lesson.reading-2.2.webp",
+      "alt": "쪼이 이야기의 답은 놀람예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "8089438a7ffe2c358206d2e6ac1f74dc19e6399237e4c6f27a27912082aed8e7",
+      "provenance": "Built-in image_gen source exec-90bba7af-52e9-47ca-a165-dc1f9073fe48.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-2.3",
+      "path": "assets/v13/lesson.reading-2.3.webp",
+      "alt": "쪼이 이야기의 답은 화남예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "641c636f9b1b8cfe526a5d9932fc9f951497bc7f38ece7669a122732b4752f75",
+      "provenance": "Built-in image_gen source exec-90bba7af-52e9-47ca-a165-dc1f9073fe48.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-2.4",
+      "path": "assets/v13/lesson.reading-2.4.webp",
+      "alt": "쪼이 이야기의 답은 편안함예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "4227b45d4fadfb9705f23863d5ff225ebde09fd1c6c2cef7e97188a9acbcf9a0",
+      "provenance": "Built-in image_gen source exec-90bba7af-52e9-47ca-a165-dc1f9073fe48.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-2.5",
+      "path": "assets/v13/lesson.reading-2.5.webp",
+      "alt": "쪼이 이야기의 답은 기대예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "3e0c301fefa70242fda572acfbe0b806158e3d1cab2f55f6d3efa67c6de7e772",
+      "provenance": "Built-in image_gen source exec-90bba7af-52e9-47ca-a165-dc1f9073fe48.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-3.0",
+      "path": "assets/v13/lesson.reading-3.0.webp",
+      "alt": "쪼이 이야기의 답은 먹어요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "cf78c4c55e30845bbc3d9bd3c21b856413200434e28d4e50b1cd191b57b82239",
+      "provenance": "Built-in image_gen source exec-1ffd7bdc-f1ba-4a82-ad75-aa74ab1b9176.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-3.1",
+      "path": "assets/v13/lesson.reading-3.1.webp",
+      "alt": "쪼이 이야기의 답은 달려요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "59a70f99b40cc56a242fb6646db61cef1c6cd5569ce496a0c02f796370549de8",
+      "provenance": "Built-in image_gen source exec-1ffd7bdc-f1ba-4a82-ad75-aa74ab1b9176.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-3.2",
+      "path": "assets/v13/lesson.reading-3.2.webp",
+      "alt": "쪼이 이야기의 답은 자요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "815dd9f7c9d35a5d1470c6bf9b20d56e806741d130a9810cb9a4d1b5acfc2636",
+      "provenance": "Built-in image_gen source exec-1ffd7bdc-f1ba-4a82-ad75-aa74ab1b9176.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-3.3",
+      "path": "assets/v13/lesson.reading-3.3.webp",
+      "alt": "쪼이 이야기의 답은 노래해요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "d80ceb3241028b8d1165f568c8e807abcd9804897c47929408b884efd0dc8a55",
+      "provenance": "Built-in image_gen source exec-1ffd7bdc-f1ba-4a82-ad75-aa74ab1b9176.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-3.4",
+      "path": "assets/v13/lesson.reading-3.4.webp",
+      "alt": "쪼이 이야기의 답은 헤엄쳐요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "4f3bc85007fdca1e8471702bca054ac8ceacf73e6d86c84ff851b4f25c53da59",
+      "provenance": "Built-in image_gen source exec-1ffd7bdc-f1ba-4a82-ad75-aa74ab1b9176.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-3.5",
+      "path": "assets/v13/lesson.reading-3.5.webp",
+      "alt": "쪼이 이야기의 답은 먹어요예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "a9bbc75d7536c4199f4f2a9c29ce1b0e6ad9d5cd5f0ead0fd014f84fb77dd5d4",
+      "provenance": "Built-in image_gen source exec-1ffd7bdc-f1ba-4a82-ad75-aa74ab1b9176.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-0.0",
+      "path": "assets/v13/lesson.life-0.0.webp",
+      "alt": "빨간 보행 신호에서는 도로에 들어가지 않고 기다려요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "4d664dc18d3e6baa9a348936ef143bb7f0de4b9fe887f62e7e62d62ab8cd7a5a",
+      "provenance": "Built-in image_gen source exec-8fe6e6fa-31ac-48f7-84b8-6c428b026713.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-0.1",
+      "path": "assets/v13/lesson.life-0.1.webp",
+      "alt": "초록 보행 신호에도 차가 오는지 살피고 안전하게 건너요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        497,
+        498
+      ],
+      "sha256": "ac0f49a8bf1d4596fffd0f231fdc7bad2e5c699d79e6df0e284da189c5c579ee",
+      "provenance": "Built-in image_gen source exec-8fe6e6fa-31ac-48f7-84b8-6c428b026713.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-0.2",
+      "path": "assets/v13/lesson.life-0.2.webp",
+      "alt": "뜨거운 냄비를 만지면 화상을 입을 수 있어요. 어른에게 부탁해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "b73b3333232f6112f8b042ea0895eebd94d362613e03f3a3327bfe6165f73508",
+      "provenance": "Built-in image_gen source exec-8fe6e6fa-31ac-48f7-84b8-6c428b026713.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-0.3",
+      "path": "assets/v13/lesson.life-0.3.webp",
+      "alt": "콘센트에는 장난감이나 손가락을 넣지 않아요. 위험할 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "79290903013ac6c392cd13ef867a203d37a05e7d6b948c2aafad5116426b3774",
+      "provenance": "Built-in image_gen source exec-8fe6e6fa-31ac-48f7-84b8-6c428b026713.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-0.4",
+      "path": "assets/v13/lesson.life-0.4.webp",
+      "alt": "자동차에 탈 때는 몸에 맞는 안전벨트를 꼭 매요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        497,
+        498
+      ],
+      "sha256": "38bf12ab70fc0f6eae7cdc7f4108711cb87d7b31d40f095bd5be6a7da83e2c9e",
+      "provenance": "Built-in image_gen source exec-8fe6e6fa-31ac-48f7-84b8-6c428b026713.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-0.5",
+      "path": "assets/v13/lesson.life-0.5.webp",
+      "alt": "물놀이는 보호자와 함께 안전한 장소에서 해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "c22757e670b144f3cd60e250efe3bbc3cec0909fef6bfadec7c6244ba4c3d0c4",
+      "provenance": "Built-in image_gen source exec-8fe6e6fa-31ac-48f7-84b8-6c428b026713.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-1.0",
+      "path": "assets/v13/lesson.life-1.0.webp",
+      "alt": "칫솔에 치약을 알맞게 묻히고 이를 골고루 닦아요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "14150c1f7e6ffac2091e12cdb8d99f3df905faf6d79143ba95d912c03cd40539",
+      "provenance": "Built-in image_gen source exec-e34ba4bd-293f-4635-b8a3-41bc2e8f9050.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-1.1",
+      "path": "assets/v13/lesson.life-1.1.webp",
+      "alt": "손은 비누와 물로 문질러 깨끗이 씻어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "d4f9cc2ebdbbd77fc569a74edb471b6c5dc18649861d06d9a87d011ddb990e6e",
+      "provenance": "Built-in image_gen source exec-e34ba4bd-293f-4635-b8a3-41bc2e8f9050.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-1.2",
+      "path": "assets/v13/lesson.life-1.2.webp",
+      "alt": "몸이 피곤할 때는 잠을 충분히 자며 쉬어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "5a64d445edc545f4dc61855fd422c8cf91ef7b52841e5efea776651e3d99e628",
+      "provenance": "Built-in image_gen source exec-e34ba4bd-293f-4635-b8a3-41bc2e8f9050.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-1.3",
+      "path": "assets/v13/lesson.life-1.3.webp",
+      "alt": "채소와 과일 등 다양한 음식을 골고루 먹어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "8156e01a4bd39f7a109f3ea1305ec527e1637e58070427b479d8d4648cd7db56",
+      "provenance": "Built-in image_gen source exec-e34ba4bd-293f-4635-b8a3-41bc2e8f9050.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-1.4",
+      "path": "assets/v13/lesson.life-1.4.webp",
+      "alt": "목이 마를 때는 물을 마셔요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "4ab7f3fde7768359a207265727a557c26239c40891dff214b69b2c04e7846fdb",
+      "provenance": "Built-in image_gen source exec-e34ba4bd-293f-4635-b8a3-41bc2e8f9050.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-1.5",
+      "path": "assets/v13/lesson.life-1.5.webp",
+      "alt": "걷기와 뛰기 등 즐겁게 몸을 움직이며 운동해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "dceb83f36997371ffed35677d50719d66ce11a7954d61d8a50b3c46f493122d6",
+      "provenance": "Built-in image_gen source exec-e34ba4bd-293f-4635-b8a3-41bc2e8f9050.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-2.0",
+      "path": "assets/v13/lesson.life-2.0.webp",
+      "alt": "즐겁고 기분이 좋을 때 웃음이 나기도 해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "dc708d572f87b3b63d50c5d8f5c0c1c0575e1857a4c168c768abd33d4c08be36",
+      "provenance": "Built-in image_gen source exec-287a36b2-1fba-4c7d-9546-84746d80402a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-2.1",
+      "path": "assets/v13/lesson.life-2.1.webp",
+      "alt": "소중한 것을 잃어버리면 슬플 수 있어요. 그 마음도 괜찮아요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "5b93d24c271970c07114a51d4ff1d5eacf44e4bc1b32a5db7e20caee38a653a7",
+      "provenance": "Built-in image_gen source exec-287a36b2-1fba-4c7d-9546-84746d80402a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-2.2",
+      "path": "assets/v13/lesson.life-2.2.webp",
+      "alt": "화가 날 때는 마음을 말로 차분하게 표현해 볼 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "f2de614d40a0e9e529d488f5b1f260157bd113f9364700439e159a05a0902544",
+      "provenance": "Built-in image_gen source exec-287a36b2-1fba-4c7d-9546-84746d80402a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-2.3",
+      "path": "assets/v13/lesson.life-2.3.webp",
+      "alt": "위험하거나 무서우면 믿을 수 있는 어른에게 도움을 요청해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "918f383beab0e2b5b6a73dedf8db6ff8e42e954307a2ffc12a1ec81d42616cfa",
+      "provenance": "Built-in image_gen source exec-287a36b2-1fba-4c7d-9546-84746d80402a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-2.4",
+      "path": "assets/v13/lesson.life-2.4.webp",
+      "alt": "몸과 마음이 피곤하면 쉬는 시간이 필요해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "1a0383deecef37a1adc91e70a87025d983fbdf54bb361987dfcf16eda4651cf4",
+      "provenance": "Built-in image_gen source exec-287a36b2-1fba-4c7d-9546-84746d80402a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-2.5",
+      "path": "assets/v13/lesson.life-2.5.webp",
+      "alt": "슬픈 친구에게 ‘괜찮아?’라고 다정하게 물어볼 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "ff6f340f25c1e23e7a3ad20c595e4cee2431ac8851fe691e9f9905168a358b78",
+      "provenance": "Built-in image_gen source exec-287a36b2-1fba-4c7d-9546-84746d80402a.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-3.0",
+      "path": "assets/v13/lesson.life-3.0.webp",
+      "alt": "친구의 장난감을 쓰고 싶으면 먼저 빌려 달라고 말해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "7495924cc457ee98923ad4ef25ca46f179d240080b07808fc78f7c36066ed5b0",
+      "provenance": "Built-in image_gen source exec-a20269b1-5024-48c2-93d2-8bcd2346d752.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-3.1",
+      "path": "assets/v13/lesson.life-3.1.webp",
+      "alt": "친구를 만나면 웃으며 안녕이라고 인사해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "dd6b41a7e30df805646bc78b6440c08776f2c542a1222245c2859407fc0a1ef7",
+      "provenance": "Built-in image_gen source exec-a20269b1-5024-48c2-93d2-8bcd2346d752.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-3.2",
+      "path": "assets/v13/lesson.life-3.2.webp",
+      "alt": "선물을 받으면 고맙다고 말해 볼 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "3d0ace88976bbc95b1b288855c88bdf837cde64865a94f4aaf0fc098b7212f3c",
+      "provenance": "Built-in image_gen source exec-a20269b1-5024-48c2-93d2-8bcd2346d752.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-3.3",
+      "path": "assets/v13/lesson.life-3.3.webp",
+      "alt": "친구와 과자를 나누며 함께 즐길 수 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "a73d3d0ff984465449c10593cac5f4fbd9de0925e8b8044e4db123b09b5b7b94",
+      "provenance": "Built-in image_gen source exec-a20269b1-5024-48c2-93d2-8bcd2346d752.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-3.4",
+      "path": "assets/v13/lesson.life-3.4.webp",
+      "alt": "생각이 다를 때도 내 마음을 차분하게 말해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "247b0485c6ab5d52fcd20d6944d718b49046a0b0dfa7b275768f2cf07c0c3fb1",
+      "provenance": "Built-in image_gen source exec-a20269b1-5024-48c2-93d2-8bcd2346d752.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.life-3.5",
+      "path": "assets/v13/lesson.life-3.5.webp",
+      "alt": "친구가 이야기할 때는 말을 끝낼 때까지 들어줘요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "816223420b69663b13e607c088b2d413e1b72147161148eec62105c2ac622f92",
+      "provenance": "Built-in image_gen source exec-a20269b1-5024-48c2-93d2-8bcd2346d752.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.creativity-3.0",
+      "path": "assets/v13/lesson.creativity-3.0.webp",
+      "alt": "블록 놀이에서 바닥 생각해 봤어요. 직접 만들면서 확인해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "a35a1ddedc555bd865f9d3108949af6783fb528d93a40873cc0b87bfb134f8af",
+      "provenance": "Built-in image_gen source exec-84ba27fb-96cb-42d1-8a46-22db230c11a0.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.creativity-3.1",
+      "path": "assets/v13/lesson.creativity-3.1.webp",
+      "alt": "블록 놀이에서 다리 생각해 봤어요. 직접 만들면서 확인해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "775884113c6d28d0a904d4b4b0fc742408241f4c75581f37e9fc45be363ca94a",
+      "provenance": "Built-in image_gen source exec-84ba27fb-96cb-42d1-8a46-22db230c11a0.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.creativity-3.2",
+      "path": "assets/v13/lesson.creativity-3.2.webp",
+      "alt": "블록 놀이에서 3개 생각해 봤어요. 직접 만들면서 확인해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "54b1d5b09ecdbf8868f9978c643b8300cf00159961c1da9aa89b459c7480b18c",
+      "provenance": "Built-in image_gen source exec-84ba27fb-96cb-42d1-8a46-22db230c11a0.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.creativity-3.3",
+      "path": "assets/v13/lesson.creativity-3.3.webp",
+      "alt": "블록 놀이에서 노랑 생각해 봤어요. 직접 만들면서 확인해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "cc5c6c701ffbab07b9648d885ad301970e897658278c6b68098a5320f555672a",
+      "provenance": "Built-in image_gen source exec-84ba27fb-96cb-42d1-8a46-22db230c11a0.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.creativity-3.4",
+      "path": "assets/v13/lesson.creativity-3.4.webp",
+      "alt": "블록 놀이에서 바닥 넓히기 생각해 봤어요. 직접 만들면서 확인해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "0f46ccbf03ba16514ff95abd203d857b4ef1ca3660a1e788fbbba6eb8fc8f923",
+      "provenance": "Built-in image_gen source exec-84ba27fb-96cb-42d1-8a46-22db230c11a0.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.creativity-3.5",
+      "path": "assets/v13/lesson.creativity-3.5.webp",
+      "alt": "블록 놀이에서 집 생각해 봤어요. 직접 만들면서 확인해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "f1c476e07017c7ffc69d6b302e8dc9e946fead214453e9e3ccbd423cd741e857",
+      "provenance": "Built-in image_gen source exec-84ba27fb-96cb-42d1-8a46-22db230c11a0.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-1.0",
+      "path": "assets/v13/lesson.history-1.0.webp",
+      "alt": "측우기는 내린 비가 얼마나 되는지 재는 옛날 도구예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "ebc1ea8b13dd91a5fcc8d2e5d6d48d7eb5630bb2915d27fdf2467f6d2c832143",
+      "provenance": "Built-in image_gen source exec-7e9c8963-78b2-46ac-a4de-e31070f2beee.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-1.1",
+      "path": "assets/v13/lesson.history-1.1.webp",
+      "alt": "거북선은 조선 수군이 사용한 특별한 전투 배예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "160d1be66906691c77f3aa4d20450b7d5dc78ec0a1d88e5b259bde39ba0ea1cf",
+      "provenance": "Built-in image_gen source exec-7e9c8963-78b2-46ac-a4de-e31070f2beee.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-1.2",
+      "path": "assets/v13/lesson.history-1.2.webp",
+      "alt": "부채를 손으로 흔들면 바람이 만들어져요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "63474e57c8690893bcc4994dd11cca83823fc91f5374c6687f3f3e5ba72ced4f",
+      "provenance": "Built-in image_gen source exec-7e9c8963-78b2-46ac-a4de-e31070f2beee.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-1.3",
+      "path": "assets/v13/lesson.history-1.3.webp",
+      "alt": "갓은 조선 시대에 사람들이 머리에 쓰던 전통 모자예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "28c7c29c420a438755b31d436ad260674ec8a98e60895921b02829db1d6c6767",
+      "provenance": "Built-in image_gen source exec-7e9c8963-78b2-46ac-a4de-e31070f2beee.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-1.4",
+      "path": "assets/v13/lesson.history-1.4.webp",
+      "alt": "절구는 곡식이나 재료를 찧는 데 사용하는 도구예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "ac117df5e7d10d20339298ecaf6b23a718f35ac64d631144578b8bc47be7443c",
+      "provenance": "Built-in image_gen source exec-7e9c8963-78b2-46ac-a4de-e31070f2beee.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-1.5",
+      "path": "assets/v13/lesson.history-1.5.webp",
+      "alt": "물레는 솜이나 섬유로 실을 만들 때 사용하는 도구예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "6e961b352b72ad80d9467a169c92360c469638f5f00476755183c5dcfbc669ca",
+      "provenance": "Built-in image_gen source exec-7e9c8963-78b2-46ac-a4de-e31070f2beee.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-2.0",
+      "path": "assets/v13/lesson.history-2.0.webp",
+      "alt": "태극기는 우리나라의 국기예요. 가운데 태극 문양과 네 모서리의 괘가 있어요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "d6378dfbae8d6134a0ad00329c6d4be4b9d58766243c557b18072a63715963a8",
+      "provenance": "Built-in image_gen source exec-299f01f0-90b6-4f9a-af10-932bb2f6294e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-2.1",
+      "path": "assets/v13/lesson.history-2.1.webp",
+      "alt": "무궁화는 우리나라의 나라꽃이에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "ebde4f1106593e346e285dd81b0599092c2f3e9919904c4bd3e5420165045679",
+      "provenance": "Built-in image_gen source exec-299f01f0-90b6-4f9a-af10-932bb2f6294e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-2.2",
+      "path": "assets/v13/lesson.history-2.2.webp",
+      "alt": "애국가는 우리나라를 대표하는 노래예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "da325de65627f7dab01e59ccf14533c8b3f8df50c3a791c1f5ce3041dfd9bedd",
+      "provenance": "Built-in image_gen source exec-299f01f0-90b6-4f9a-af10-932bb2f6294e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-2.3",
+      "path": "assets/v13/lesson.history-2.3.webp",
+      "alt": "한글은 우리가 읽고 쓰는 우리나라 글자예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "76434582c0e324a5b3a31c4812bc4af53bba06ee35d633f59a8ca721884cba2f",
+      "provenance": "Built-in image_gen source exec-299f01f0-90b6-4f9a-af10-932bb2f6294e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-2.4",
+      "path": "assets/v13/lesson.history-2.4.webp",
+      "alt": "한복은 우리나라 전통 옷이에요. 색과 모양이 다양해요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "9869ad754171d085e2abb97f6c6dce4a93e2b0e6e1207161557537941abc9430",
+      "provenance": "Built-in image_gen source exec-299f01f0-90b6-4f9a-af10-932bb2f6294e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-2.5",
+      "path": "assets/v13/lesson.history-2.5.webp",
+      "alt": "훈민정음은 세종대왕이 만든 새 글자를 설명하고 알린 책이에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "1068ac7bb9a52788596067647470b9cf49f9ee707a8d6cdac7e9831c617f25ad",
+      "provenance": "Built-in image_gen source exec-299f01f0-90b6-4f9a-af10-932bb2f6294e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-3.0",
+      "path": "assets/v13/lesson.history-3.0.webp",
+      "alt": "항아리는 곡식이나 음식을 보관하는 데 사용하던 그릇이에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "6d4dbe0a54b8ea9fd4d4c6f7e360ef0ecaa35ed6dece4d993cd49c9cb93e9627",
+      "provenance": "Built-in image_gen source exec-bae93467-85b4-4a02-a8b7-bd75b5a14c04.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-3.1",
+      "path": "assets/v13/lesson.history-3.1.webp",
+      "alt": "등잔은 옛날에 기름과 심지로 불빛을 내던 물건이에요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "a4095578eea473dd1f7ef8ae624cb536a94390dd8b8946771f64f08dc851aece",
+      "provenance": "Built-in image_gen source exec-bae93467-85b4-4a02-a8b7-bd75b5a14c04.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-3.2",
+      "path": "assets/v13/lesson.history-3.2.webp",
+      "alt": "연날리기는 바람을 이용해 하늘에 연을 띄우는 놀이예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "c2920cef123cd8c71d2d408633c9c1e3edc0b8a642d0cebb09f4772abdbfa769",
+      "provenance": "Built-in image_gen source exec-bae93467-85b4-4a02-a8b7-bd75b5a14c04.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-3.3",
+      "path": "assets/v13/lesson.history-3.3.webp",
+      "alt": "윷놀이는 윷가락 네 개를 던져 나온 결과에 따라 말을 움직이는 놀이예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "94127067b534cbd0f0dc81e0dfbae01de91b167ce1c40cf46715267917cd7a5c",
+      "provenance": "Built-in image_gen source exec-bae93467-85b4-4a02-a8b7-bd75b5a14c04.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-3.4",
+      "path": "assets/v13/lesson.history-3.4.webp",
+      "alt": "씨름은 모래판에서 상대와 힘과 기술을 겨루는 전통 경기예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "4bcf2861d82223670e12ccba66cb339553e4cf952a7439e315fe319b690de053",
+      "provenance": "Built-in image_gen source exec-bae93467-85b4-4a02-a8b7-bd75b5a14c04.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.history-3.5",
+      "path": "assets/v13/lesson.history-3.5.webp",
+      "alt": "제기차기는 제기가 땅에 떨어지지 않도록 발로 차는 놀이예요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "2c1bf250efb87d11aaf0d43ed0c0897f5dd63eefd0f7393dd0a69778e94250c4",
+      "provenance": "Built-in image_gen source exec-bae93467-85b4-4a02-a8b7-bd75b5a14c04.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-0.0",
+      "path": "assets/v13/lesson.reading-0.0.webp",
+      "alt": "쪼이 이야기의 답은 당근예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "f3e122a93406818ebf47eb4363714d21c8a0848e3e176bb8b8f0f3c0c2af0d0a",
+      "provenance": "Built-in image_gen source exec-78b965a5-af7a-4882-bf98-33db658ba74e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-0.1",
+      "path": "assets/v13/lesson.reading-0.1.webp",
+      "alt": "쪼이 이야기의 답은 꿀예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "de73d7fce483b6212337b8ba8a1a647bd7c0455ea2cadcc05fc4fb42fe1d09fe",
+      "provenance": "Built-in image_gen source exec-78b965a5-af7a-4882-bf98-33db658ba74e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-0.2",
+      "path": "assets/v13/lesson.reading-0.2.webp",
+      "alt": "쪼이 이야기의 답은 로켓예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "84a5b0a1766095b69af30aa68d5b8d38430cb0a865c644c2bc73e21033f0145d",
+      "provenance": "Built-in image_gen source exec-78b965a5-af7a-4882-bf98-33db658ba74e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-0.3",
+      "path": "assets/v13/lesson.reading-0.3.webp",
+      "alt": "쪼이 이야기의 답은 거북이예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "0def1bdfda90226d4ad78279d38612c53abce798c0ffe623396f61014707038f",
+      "provenance": "Built-in image_gen source exec-78b965a5-af7a-4882-bf98-33db658ba74e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-0.4",
+      "path": "assets/v13/lesson.reading-0.4.webp",
+      "alt": "쪼이 이야기의 답은 집예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "01560006f53ca316edf9bab2df7869b9eeeb889aeacc84b70b8acbc7e0929850",
+      "provenance": "Built-in image_gen source exec-78b965a5-af7a-4882-bf98-33db658ba74e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+    },
+    {
+      "id": "lesson.reading-0.5",
+      "path": "assets/v13/lesson.reading-0.5.webp",
+      "alt": "쪼이 이야기의 답은 달예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "3936fa9c92d50a43b97e668bde2b64b86a01384a51f0c2a1394fc5ed92ee3726",
+      "provenance": "Built-in image_gen source exec-78b965a5-af7a-4882-bf98-33db658ba74e.png",
+      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"

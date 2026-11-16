@@ -12,7 +12,7 @@ with sync_playwright() as p:
   for name,id in [('신사임당','saimdang'),('세종대왕','sejong'),('이순신','yisunshin'),('장영실','jang'),('허준','heojun'),('유관순','yugwansun'),('한복','hanbok'),('물레','spinning'),('측우기','raingauge'),('훈민정음','hangulbook')]:
    page.goto('http://127.0.0.1:8000/journey.html?subject=history')
    page.evaluate("name=>{const item=JOY_CURRICULUM.subject('history').modules.flatMap(m=>m.items).find(q=>q.answer===name);if(!item)throw Error(name);const old=JOY_CORE.session;JOY_CORE.session=id=>{const s=old(id);s.questions=Array(5).fill({...item,choiceOptions:[item.answer,'별','집']});return s}}",name)
-   page.locator('[data-lesson="history-0-explore"]').click();page.locator('#visual img.history-scene').evaluate('(im)=>im.decode()');assert page.locator('#visual img').get_attribute('src').endswith('history.'+id+'.webp')
+   page.locator('[data-lesson="history-0-explore"]').click();page.locator('#visual img.history-scene').evaluate('(im)=>im.decode()');expected=page.evaluate("name=>{const q=JOY_CURRICULUM.subject('history').modules.flatMap(m=>m.items).find(q=>q.answer===name);return window.JoyiSceneCatalog?.find('history',q.answer,q.visual)}",name);assert page.locator('#visual img').get_attribute('src')==(expected or './assets/v13/history.'+id+'.webp')
    box=page.locator('#visual img').bounding_box();assert box['width']>250 and box['height']>150,box
    page.locator('#ready').wait_for(state='visible');assert not page.evaluate('document.documentElement.scrollWidth>innerWidth')
    if id=='saimdang':Image.open(io.BytesIO(page.screenshot(full_page=True))).convert('RGB').save(OUT/(label+'-saimdang.webp'),quality=88)

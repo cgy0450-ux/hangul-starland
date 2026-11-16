@@ -85,6 +85,7 @@ function optionsRender(options){const parent=$("answers");parent.replaceChildren
  const distinct=[...new Set(options)];for(const [i,opt] of distinct.entries()){
  const wrap=el("div","choice-wrap"),b=el("button","choice",opt),hear=el("button","choice-hear","🔊");
  b.type="button";b.dataset.opt=opt;b.style.setProperty("--choice",["#e6f7ff","#fff2d4","#f8e8ff","#e7ffe9"][i%4]);
+ const scene=window.JoyiSceneCatalog?.byVisual(subject.id,opt);if(scene){const img=new Image();img.src=scene;img.alt=window.JoyiSceneCatalog.rows.find(r=>r.subject===subject.id&&r.visual===opt)?.answer||'선택할 상황 그림';img.className='scene-choice';b.textContent='';b.append(img)}
  hear.type="button";hear.dataset.voice=opt;hear.setAttribute("aria-label","보기 소리 듣기");
  wrap.append(b,hear);parent.append(wrap)
 }}
@@ -167,7 +168,7 @@ function render(){
  $("count").textContent=(index+1)+" / "+run.questions.length;$("stars").textContent="⭐ "+score;$("bar").style.width=(100*index/run.questions.length)+"%";
  const q=current(),mode=run.type==="diagnostic"?"choose":run.lesson.mode;
  if(!q)return;
- $("visual").dataset.historyAnswer=subject.id==='history'?q.answer:'';$("visual").textContent=q.visual;$("question").textContent=q.question||q.hint||"어떤 것일까요?";
+ $("visual").dataset.sceneSource=window.JoyiSceneCatalog?.find(subject.id,q.answer,q.visual)||'';$("visual").dataset.historyAnswer=subject.id==='history'?q.answer:'';$("visual").textContent=q.visual;$("question").textContent=q.question||q.hint||"어떤 것일까요?";
  $("hint").textContent="차근차근 생각하고 골라봐요";
  $("playMascot").src="./joyi-"+(index===run.questions.length-1?"celebrate":subject.id)+".svg";
  if(["tap","drag","pair","order","story"].includes(mode)){
@@ -212,6 +213,7 @@ $("answers").onclick=e=>{
  processAnswer(btn.dataset.opt)
 };
 function finishFive(){
+ $("visual").dataset.sceneSource='';$("visual").dataset.historyAnswer='';
  const diagnostic=run.type==="diagnostic",lesson=run.lesson;
  if(diagnostic)A.finishDiagnosis(subject.id,diagnosticResults);
  else A.markDone(lesson.id,Math.round(100*score/run.questions.length));

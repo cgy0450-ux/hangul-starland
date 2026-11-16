@@ -1,0 +1,6888 @@
+[
+  {
+    "visual": "🐥",
+    "ask": "모두 몇 개일까요?",
+    "answer": "1",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "9"
+    ],
+    "speech": "하나씩 세어볼까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:0:0",
+    "subject": "math",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍓 🍓",
+    "ask": "모두 몇 개일까요?",
+    "answer": "2",
+    "options": [
+      "6",
+      "7",
+      "9",
+      "2"
+    ],
+    "speech": "하나씩 세어볼까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:0:1",
+    "subject": "math",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚗 🚗 🚗",
+    "ask": "모두 몇 개일까요?",
+    "answer": "3",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "3"
+    ],
+    "speech": "하나씩 세어볼까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:0:2",
+    "subject": "math",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐟 🐟 🐟 🐟",
+    "ask": "모두 몇 개일까요?",
+    "answer": "4",
+    "options": [
+      "7",
+      "1",
+      "9",
+      "4"
+    ],
+    "speech": "하나씩 세어볼까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:0:3",
+    "subject": "math",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐥 🐥 🐥 🐥 🐥",
+    "ask": "모두 몇 개일까요?",
+    "answer": "5",
+    "options": [
+      "9",
+      "7",
+      "8",
+      "5"
+    ],
+    "speech": "하나씩 세어볼까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:0:4",
+    "subject": "math",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍓 🍓 🍓 🍓 🍓 🍓",
+    "ask": "모두 몇 개일까요?",
+    "answer": "6",
+    "options": [
+      "6",
+      "4",
+      "10",
+      "2"
+    ],
+    "speech": "하나씩 세어볼까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:0:5",
+    "subject": "math",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚗 🚗 🚗 🚗 🚗 🚗 🚗",
+    "ask": "모두 몇 개일까요?",
+    "answer": "7",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "5"
+    ],
+    "speech": "하나씩 세어볼까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:0:6",
+    "subject": "math",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐟 🐟 🐟 🐟 🐟 🐟 🐟 🐟",
+    "ask": "모두 몇 개일까요?",
+    "answer": "8",
+    "options": [
+      "5",
+      "10",
+      "2",
+      "8"
+    ],
+    "speech": "하나씩 세어볼까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:0:7",
+    "subject": "math",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐥 🐥 🐥 🐥 🐥 🐥 🐥 🐥 🐥",
+    "ask": "모두 몇 개일까요?",
+    "answer": "9",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "4"
+    ],
+    "speech": "하나씩 세어볼까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:0:8",
+    "subject": "math",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍓 🍓 🍓 🍓 🍓 🍓 🍓 🍓 🍓 🍓",
+    "ask": "모두 몇 개일까요?",
+    "answer": "10",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "4"
+    ],
+    "speech": "하나씩 세어볼까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:0:9",
+    "subject": "math",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎 + 🍎  (1 + 1)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "2",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:0",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎 + 🍎🍎  (1 + 2)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "3",
+    "options": [
+      "8",
+      "10",
+      "3",
+      "4"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:1",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎 + 🍎🍎🍎  (1 + 3)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "4",
+    "options": [
+      "4",
+      "3",
+      "10",
+      "5"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:2",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎🍎 + 🍎🍎  (2 + 2)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "4",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:3",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎🍎 + 🍎🍎🍎  (2 + 3)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "5",
+    "options": [
+      "2",
+      "8",
+      "10",
+      "5"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:4",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎🍎🍎 + 🍎🍎🍎  (3 + 3)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "6",
+    "options": [
+      "6",
+      "10",
+      "7",
+      "2"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:5",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎🍎 + 🍎🍎🍎🍎  (2 + 4)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "6",
+    "options": [
+      "10",
+      "5",
+      "2",
+      "6"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:6",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎🍎🍎 + 🍎🍎🍎🍎  (3 + 4)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "7",
+    "options": [
+      "8",
+      "7",
+      "6",
+      "9"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:7",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎🍎🍎🍎 + 🍎🍎🍎🍎  (4 + 4)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "8",
+    "options": [
+      "8",
+      "7",
+      "10",
+      "3"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:8",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎🍎🍎🍎 + 🍎🍎🍎🍎🍎  (4 + 5)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "9",
+    "options": [
+      "10",
+      "7",
+      "9",
+      "3"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:9",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎🍎🍎🍎🍎 + 🍎🍎🍎🍎🍎  (5 + 5)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "10",
+    "options": [
+      "3",
+      "6",
+      "10",
+      "2"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:10",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎 + 🍎🍎🍎🍎🍎  (1 + 5)",
+    "ask": "사과가 모두 몇 개일까요?",
+    "answer": "6",
+    "options": [
+      "8",
+      "6",
+      "7",
+      "9"
+    ],
+    "speech": "더하기 문제를 풀어볼까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:1:11",
+    "subject": "math",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔴",
+    "ask": "이 모양의 이름은?",
+    "answer": "동그라미",
+    "options": [
+      "동그라미",
+      "마름모",
+      "별",
+      "하트"
+    ],
+    "speech": "이 모양의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:2:0",
+    "subject": "math",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔺",
+    "ask": "이 모양의 이름은?",
+    "answer": "세모",
+    "options": [
+      "마름모",
+      "세모",
+      "동그라미",
+      "별"
+    ],
+    "speech": "이 모양의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:2:1",
+    "subject": "math",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🟦",
+    "ask": "이 모양의 이름은?",
+    "answer": "네모",
+    "options": [
+      "별",
+      "세모",
+      "네모",
+      "하트"
+    ],
+    "speech": "이 모양의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:2:2",
+    "subject": "math",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐",
+    "ask": "이 모양의 이름은?",
+    "answer": "별",
+    "options": [
+      "동그라미",
+      "별",
+      "마름모",
+      "세모"
+    ],
+    "speech": "이 모양의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:2:3",
+    "subject": "math",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔷",
+    "ask": "이 모양의 이름은?",
+    "answer": "마름모",
+    "options": [
+      "네모",
+      "별",
+      "마름모",
+      "하트"
+    ],
+    "speech": "이 모양의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:2:4",
+    "subject": "math",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "❤️",
+    "ask": "이 모양의 이름은?",
+    "answer": "하트",
+    "options": [
+      "타원",
+      "하트",
+      "세모",
+      "별"
+    ],
+    "speech": "이 모양의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:2:5",
+    "subject": "math",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⬭",
+    "ask": "이 모양의 이름은?",
+    "answer": "타원",
+    "options": [
+      "타원",
+      "동그라미",
+      "별",
+      "하트"
+    ],
+    "speech": "이 모양의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:2:6",
+    "subject": "math",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔴 🔵 🔴 ?",
+    "ask": "다음에 올 그림은?",
+    "answer": "🔵",
+    "options": [
+      "⭐",
+      "🟨",
+      "🌳",
+      "🔵"
+    ],
+    "speech": "다음에 올 그림은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:3:0",
+    "subject": "math",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌙 ⭐ 🌙 ?",
+    "ask": "다음에 올 그림은?",
+    "answer": "⭐",
+    "options": [
+      "🐰",
+      "🚀",
+      "🌳",
+      "⭐"
+    ],
+    "speech": "다음에 올 그림은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:3:1",
+    "subject": "math",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐯 🐰 🐯 ?",
+    "ask": "다음에 올 그림은?",
+    "answer": "🐰",
+    "options": [
+      "🐰",
+      "🚗",
+      "🔵",
+      "⭐"
+    ],
+    "speech": "다음에 올 그림은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:3:2",
+    "subject": "math",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚕 🚗 🚕 ?",
+    "ask": "다음에 올 그림은?",
+    "answer": "🚗",
+    "options": [
+      "🐰",
+      "🚀",
+      "🚗",
+      "🔵"
+    ],
+    "speech": "다음에 올 그림은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:3:3",
+    "subject": "math",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎 🍌 🍎 ?",
+    "ask": "다음에 올 그림은?",
+    "answer": "🍌",
+    "options": [
+      "🟨",
+      "⭐",
+      "🍌",
+      "🚗"
+    ],
+    "speech": "다음에 올 그림은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:3:4",
+    "subject": "math",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌼 🌳 🌼 ?",
+    "ask": "다음에 올 그림은?",
+    "answer": "🌳",
+    "options": [
+      "🌳",
+      "🍌",
+      "🚀",
+      "🐰"
+    ],
+    "speech": "다음에 올 그림은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:3:5",
+    "subject": "math",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🟩 🟨 🟩 ?",
+    "ask": "다음에 올 그림은?",
+    "answer": "🟨",
+    "options": [
+      "🔵",
+      "🍌",
+      "🟨",
+      "🌳"
+    ],
+    "speech": "다음에 올 그림은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:3:6",
+    "subject": "math",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🛸 🚀 🛸 ?",
+    "ask": "다음에 올 그림은?",
+    "answer": "🚀",
+    "options": [
+      "🚀",
+      "🚗",
+      "🐰",
+      "🌳"
+    ],
+    "speech": "다음에 올 그림은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:3:7",
+    "subject": "math",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯\n🐯 호랑이의 꿀 🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "호랑이",
+    "options": [
+      "호랑이",
+      "곰",
+      "없어요",
+      "잘 모르겠어요"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:0",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯🍯🍯\n🐯 호랑이의 꿀 🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "곰",
+    "options": [
+      "호랑이",
+      "다른 것",
+      "잘 모르겠어요",
+      "곰"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:1",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯🍯🍯\n🐯 호랑이의 꿀 🍯🍯🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "호랑이",
+    "options": [
+      "곰",
+      "다른 것",
+      "없어요",
+      "호랑이"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:2",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯🍯🍯🍯🍯\n🐯 호랑이의 꿀 🍯🍯🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "곰",
+    "options": [
+      "없어요",
+      "다른 것",
+      "호랑이",
+      "곰"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:3",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯🍯🍯🍯🍯\n🐯 호랑이의 꿀 🍯🍯🍯🍯🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "호랑이",
+    "options": [
+      "곰",
+      "다른 것",
+      "잘 모르겠어요",
+      "호랑이"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:4",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯🍯🍯\n🐯 호랑이의 꿀 🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "곰",
+    "options": [
+      "잘 모르겠어요",
+      "없어요",
+      "다른 것",
+      "곰"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:5",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯🍯\n🐯 호랑이의 꿀 🍯🍯🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "호랑이",
+    "options": [
+      "호랑이",
+      "없어요",
+      "잘 모르겠어요",
+      "곰"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:6",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯🍯🍯🍯🍯\n🐯 호랑이의 꿀 🍯🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "곰",
+    "options": [
+      "없어요",
+      "다른 것",
+      "곰",
+      "잘 모르겠어요"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:7",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯🍯🍯🍯\n🐯 호랑이의 꿀 🍯🍯🍯🍯🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "호랑이",
+    "options": [
+      "잘 모르겠어요",
+      "없어요",
+      "호랑이",
+      "다른 것"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:8",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯🍯🍯🍯🍯🍯🍯\n🐯 호랑이의 꿀 🍯🍯🍯🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "곰",
+    "options": [
+      "없어요",
+      "잘 모르겠어요",
+      "곰",
+      "호랑이"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:9",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯\n🐯 호랑이의 꿀 🍯🍯🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "호랑이",
+    "options": [
+      "다른 것",
+      "잘 모르겠어요",
+      "없어요",
+      "호랑이"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:10",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻 곰의 꿀 🍯🍯🍯🍯🍯\n🐯 호랑이의 꿀 🍯🍯",
+    "ask": "누가 꿀이 더 많을까요?",
+    "answer": "곰",
+    "options": [
+      "곰",
+      "호랑이",
+      "없어요",
+      "다른 것"
+    ],
+    "speech": "누가 꿀이 더 많을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:4:11",
+    "subject": "math",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "11",
+    "options": [
+      "11",
+      "23",
+      "64",
+      "19"
+    ],
+    "speech": "십일",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:0",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "12",
+    "options": [
+      "12",
+      "13",
+      "83",
+      "43"
+    ],
+    "speech": "십이",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:1",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "13",
+    "options": [
+      "49",
+      "23",
+      "13",
+      "99"
+    ],
+    "speech": "십삼",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:2",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "15",
+    "options": [
+      "15",
+      "35",
+      "71",
+      "23"
+    ],
+    "speech": "십오",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:3",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "17",
+    "options": [
+      "17",
+      "15",
+      "90",
+      "58"
+    ],
+    "speech": "십칠",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:4",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "19",
+    "options": [
+      "23",
+      "19",
+      "99",
+      "83"
+    ],
+    "speech": "십구",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:5",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "21",
+    "options": [
+      "21",
+      "75",
+      "15",
+      "64"
+    ],
+    "speech": "이십일",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:6",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "23",
+    "options": [
+      "99",
+      "21",
+      "23",
+      "38"
+    ],
+    "speech": "이십삼",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:7",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "27",
+    "options": [
+      "15",
+      "64",
+      "27",
+      "43"
+    ],
+    "speech": "이십칠",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:8",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "31",
+    "options": [
+      "58",
+      "38",
+      "31",
+      "35"
+    ],
+    "speech": "삼십일",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:9",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "35",
+    "options": [
+      "35",
+      "13",
+      "71",
+      "19"
+    ],
+    "speech": "삼십오",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:10",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "38",
+    "options": [
+      "38",
+      "71",
+      "19",
+      "31"
+    ],
+    "speech": "삼십팔",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:11",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "40",
+    "options": [
+      "40",
+      "100",
+      "90",
+      "80"
+    ],
+    "speech": "사십",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:12",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "43",
+    "options": [
+      "27",
+      "43",
+      "64",
+      "83"
+    ],
+    "speech": "사십삼",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:13",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "46",
+    "options": [
+      "46",
+      "19",
+      "13",
+      "60"
+    ],
+    "speech": "사십육",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:14",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "49",
+    "options": [
+      "52",
+      "49",
+      "15",
+      "99"
+    ],
+    "speech": "사십구",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:15",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "52",
+    "options": [
+      "49",
+      "23",
+      "21",
+      "52"
+    ],
+    "speech": "오십이",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:16",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "58",
+    "options": [
+      "99",
+      "58",
+      "21",
+      "38"
+    ],
+    "speech": "오십팔",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:17",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "60",
+    "options": [
+      "12",
+      "40",
+      "11",
+      "60"
+    ],
+    "speech": "육십",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:18",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "64",
+    "options": [
+      "11",
+      "64",
+      "35",
+      "75"
+    ],
+    "speech": "육십사",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:19",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "71",
+    "options": [
+      "21",
+      "58",
+      "71",
+      "35"
+    ],
+    "speech": "칠십일",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:20",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "75",
+    "options": [
+      "99",
+      "90",
+      "38",
+      "75"
+    ],
+    "speech": "칠십오",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:21",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "80",
+    "options": [
+      "80",
+      "31",
+      "99",
+      "38"
+    ],
+    "speech": "팔십",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:22",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "83",
+    "options": [
+      "80",
+      "60",
+      "83",
+      "90"
+    ],
+    "speech": "팔십삼",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:23",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "90",
+    "options": [
+      "52",
+      "31",
+      "60",
+      "90"
+    ],
+    "speech": "구십",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:24",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "99",
+    "options": [
+      "99",
+      "13",
+      "43",
+      "64"
+    ],
+    "speech": "구십구",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:25",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔊 숫자 소리를 들어봐요",
+    "ask": "들리는 숫자를 찾아봐!",
+    "answer": "100",
+    "options": [
+      "46",
+      "99",
+      "100",
+      "83"
+    ],
+    "speech": "백",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:6:26",
+    "subject": "math",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "1 · 2 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "3",
+    "options": [
+      "3",
+      "15",
+      "4",
+      "14"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:0",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "2 · 3 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "4",
+    "options": [
+      "13",
+      "7",
+      "8",
+      "4"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:1",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "3 · 4 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "5",
+    "options": [
+      "11",
+      "15",
+      "5",
+      "4"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:2",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "4 · 5 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "6",
+    "options": [
+      "4",
+      "12",
+      "14",
+      "6"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:3",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "5 · 6 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "7",
+    "options": [
+      "4",
+      "7",
+      "12",
+      "5"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:4",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "6 · 7 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "8",
+    "options": [
+      "15",
+      "4",
+      "3",
+      "8"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:5",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "7 · 8 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "9",
+    "options": [
+      "9",
+      "11",
+      "5",
+      "8"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:6",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "8 · 9 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "10",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:7",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "9 · 10 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "11",
+    "options": [
+      "4",
+      "10",
+      "14",
+      "11"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:8",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "10 · 11 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "12",
+    "options": [
+      "12",
+      "9",
+      "6",
+      "11"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:9",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "11 · 12 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "13",
+    "options": [
+      "13",
+      "6",
+      "10",
+      "7"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:10",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "12 · 13 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "14",
+    "options": [
+      "8",
+      "7",
+      "14",
+      "13"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:11",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "13 · 14 · ?",
+    "ask": "다음 숫자는?",
+    "answer": "15",
+    "options": [
+      "14",
+      "15",
+      "7",
+      "9"
+    ],
+    "speech": "다음 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:7:12",
+    "subject": "math",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍓",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "1",
+    "options": [
+      "2",
+      "11",
+      "1",
+      "8"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:0",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐤🐤",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "2",
+    "options": [
+      "2",
+      "1",
+      "9",
+      "10"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:1",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌟🌟🌟",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "3",
+    "options": [
+      "9",
+      "1",
+      "3",
+      "10"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:2",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍓🍓🍓🍓",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "4",
+    "options": [
+      "1",
+      "11",
+      "12",
+      "4"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:3",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐤🐤🐤🐤🐤",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "5",
+    "options": [
+      "11",
+      "6",
+      "9",
+      "5"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:4",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌟🌟🌟🌟🌟🌟",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "6",
+    "options": [
+      "8",
+      "6",
+      "5",
+      "10"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:5",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍓🍓🍓🍓🍓🍓🍓",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "7",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "8"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:6",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐤🐤🐤🐤🐤🐤🐤🐤",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "8",
+    "options": [
+      "10",
+      "8",
+      "4",
+      "5"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:7",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌟🌟🌟🌟🌟🌟🌟🌟🌟",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "9",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "9"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:8",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "10",
+    "options": [
+      "7",
+      "4",
+      "10",
+      "9"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:9",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐤🐤🐤🐤🐤🐤🐤🐤🐤🐤🐤",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "11",
+    "options": [
+      "11",
+      "6",
+      "8",
+      "5"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:10",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟",
+    "ask": "그림과 같은 숫자는?",
+    "answer": "12",
+    "options": [
+      "12",
+      "9",
+      "2",
+      "1"
+    ],
+    "speech": "그림과 같은 숫자는?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:8:11",
+    "subject": "math",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏 − 🍏  (2 − 1)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "1",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:0",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏🍏 − 🍏  (3 − 1)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "2",
+    "options": [
+      "6",
+      "1",
+      "5",
+      "2"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:1",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏🍏🍏 − 🍏🍏  (4 − 2)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "2",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:2",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏🍏🍏🍏 − 🍏  (5 − 1)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "4",
+    "options": [
+      "1",
+      "6",
+      "3",
+      "4"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:3",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏🍏🍏🍏 − 🍏🍏  (5 − 2)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "3",
+    "options": [
+      "3",
+      "6",
+      "1",
+      "2"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:4",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏🍏🍏🍏🍏 − 🍏🍏  (6 − 2)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "4",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "3"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:5",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏🍏🍏🍏🍏 − 🍏🍏🍏  (6 − 3)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "3",
+    "options": [
+      "3",
+      "2",
+      "6",
+      "4"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:6",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏🍏🍏🍏🍏🍏 − 🍏🍏  (7 − 2)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "5",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "5"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:7",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏🍏🍏🍏🍏🍏🍏 − 🍏🍏🍏🍏  (8 − 4)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "4",
+    "options": [
+      "4",
+      "2",
+      "5",
+      "6"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:8",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏🍏🍏🍏🍏🍏🍏🍏 − 🍏🍏🍏  (9 − 3)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "6",
+    "options": [
+      "1",
+      "5",
+      "6",
+      "2"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:9",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍏🍏🍏🍏🍏🍏🍏 − 🍏🍏🍏🍏  (7 − 4)",
+    "ask": "남은 사과는 몇 개일까?",
+    "answer": "3",
+    "options": [
+      "6",
+      "3",
+      "2",
+      "1"
+    ],
+    "speech": "남은 사과는 몇 개일까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "math:9:10",
+    "subject": "math",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐟",
+    "ask": "이 친구는 어디에서 살까요?",
+    "answer": "물속",
+    "options": [
+      "숲",
+      "물속",
+      "연못",
+      "바닷가"
+    ],
+    "speech": "이 친구는 어디에서 살까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:0:0",
+    "subject": "science",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐰",
+    "ask": "이 친구는 어디에서 살까요?",
+    "answer": "풀밭",
+    "options": [
+      "연못",
+      "풀밭",
+      "물속",
+      "사막"
+    ],
+    "speech": "이 친구는 어디에서 살까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:0:1",
+    "subject": "science",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐧",
+    "ask": "이 친구는 어디에서 살까요?",
+    "answer": "추운 곳",
+    "options": [
+      "숲",
+      "추운 곳",
+      "북극",
+      "사막"
+    ],
+    "speech": "이 친구는 어디에서 살까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:0:2",
+    "subject": "science",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐪",
+    "ask": "이 친구는 어디에서 살까요?",
+    "answer": "사막",
+    "options": [
+      "추운 곳",
+      "물속",
+      "풀밭",
+      "사막"
+    ],
+    "speech": "이 친구는 어디에서 살까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:0:3",
+    "subject": "science",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐒",
+    "ask": "이 친구는 어디에서 살까요?",
+    "answer": "숲",
+    "options": [
+      "숲",
+      "추운 곳",
+      "북극",
+      "물속"
+    ],
+    "speech": "이 친구는 어디에서 살까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:0:4",
+    "subject": "science",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦀",
+    "ask": "이 친구는 어디에서 살까요?",
+    "answer": "바닷가",
+    "options": [
+      "사막",
+      "추운 곳",
+      "물속",
+      "바닷가"
+    ],
+    "speech": "이 친구는 어디에서 살까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:0:5",
+    "subject": "science",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻‍❄️",
+    "ask": "이 친구는 어디에서 살까요?",
+    "answer": "북극",
+    "options": [
+      "물속",
+      "북극",
+      "바닷가",
+      "연못"
+    ],
+    "speech": "이 친구는 어디에서 살까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:0:6",
+    "subject": "science",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐸",
+    "ask": "이 친구는 어디에서 살까요?",
+    "answer": "연못",
+    "options": [
+      "물속",
+      "바닷가",
+      "사막",
+      "연못"
+    ],
+    "speech": "이 친구는 어디에서 살까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:0:7",
+    "subject": "science",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌰",
+    "ask": "무엇이 보이나요?",
+    "answer": "씨앗",
+    "options": [
+      "씨앗",
+      "새싹",
+      "열매",
+      "튤립"
+    ],
+    "speech": "무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:1:0",
+    "subject": "science",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌱",
+    "ask": "무엇이 보이나요?",
+    "answer": "새싹",
+    "options": [
+      "꽃",
+      "새싹",
+      "해바라기",
+      "나무"
+    ],
+    "speech": "무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:1:1",
+    "subject": "science",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌼",
+    "ask": "무엇이 보이나요?",
+    "answer": "꽃",
+    "options": [
+      "해바라기",
+      "잎",
+      "씨앗",
+      "꽃"
+    ],
+    "speech": "무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:1:2",
+    "subject": "science",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌳",
+    "ask": "무엇이 보이나요?",
+    "answer": "나무",
+    "options": [
+      "열매",
+      "해바라기",
+      "잎",
+      "나무"
+    ],
+    "speech": "무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:1:3",
+    "subject": "science",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎",
+    "ask": "무엇이 보이나요?",
+    "answer": "열매",
+    "options": [
+      "씨앗",
+      "해바라기",
+      "열매",
+      "튤립"
+    ],
+    "speech": "무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:1:4",
+    "subject": "science",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌻",
+    "ask": "무엇이 보이나요?",
+    "answer": "해바라기",
+    "options": [
+      "꽃",
+      "씨앗",
+      "해바라기",
+      "나무"
+    ],
+    "speech": "무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:1:5",
+    "subject": "science",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌿",
+    "ask": "무엇이 보이나요?",
+    "answer": "잎",
+    "options": [
+      "잎",
+      "새싹",
+      "열매",
+      "튤립"
+    ],
+    "speech": "무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:1:6",
+    "subject": "science",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌷",
+    "ask": "무엇이 보이나요?",
+    "answer": "튤립",
+    "options": [
+      "해바라기",
+      "튤립",
+      "나무",
+      "잎"
+    ],
+    "speech": "무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:1:7",
+    "subject": "science",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌧️☂️",
+    "ask": "날씨에 필요한 것은?",
+    "answer": "우산",
+    "options": [
+      "외투",
+      "우산",
+      "바람막이",
+      "목도리"
+    ],
+    "speech": "날씨에 필요한 것은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:2:0",
+    "subject": "science",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "❄️🧥",
+    "ask": "날씨에 필요한 것은?",
+    "answer": "외투",
+    "options": [
+      "장화",
+      "물",
+      "외투",
+      "선글라스"
+    ],
+    "speech": "날씨에 필요한 것은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:2:1",
+    "subject": "science",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "☀️🧢",
+    "ask": "날씨에 필요한 것은?",
+    "answer": "모자",
+    "options": [
+      "우산",
+      "모자",
+      "목도리",
+      "물"
+    ],
+    "speech": "날씨에 필요한 것은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:2:2",
+    "subject": "science",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "☀️🕶️",
+    "ask": "날씨에 필요한 것은?",
+    "answer": "선글라스",
+    "options": [
+      "선글라스",
+      "장화",
+      "외투",
+      "우산"
+    ],
+    "speech": "날씨에 필요한 것은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:2:3",
+    "subject": "science",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌧️👢",
+    "ask": "날씨에 필요한 것은?",
+    "answer": "장화",
+    "options": [
+      "목도리",
+      "장화",
+      "외투",
+      "물"
+    ],
+    "speech": "날씨에 필요한 것은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:2:4",
+    "subject": "science",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "❄️🧣",
+    "ask": "날씨에 필요한 것은?",
+    "answer": "목도리",
+    "options": [
+      "목도리",
+      "우산",
+      "선글라스",
+      "장화"
+    ],
+    "speech": "날씨에 필요한 것은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:2:5",
+    "subject": "science",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌞💧",
+    "ask": "날씨에 필요한 것은?",
+    "answer": "물",
+    "options": [
+      "목도리",
+      "물",
+      "외투",
+      "바람막이"
+    ],
+    "speech": "날씨에 필요한 것은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:2:6",
+    "subject": "science",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌬️🧥",
+    "ask": "날씨에 필요한 것은?",
+    "answer": "바람막이",
+    "options": [
+      "선글라스",
+      "우산",
+      "바람막이",
+      "장화"
+    ],
+    "speech": "날씨에 필요한 것은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:2:7",
+    "subject": "science",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌸",
+    "ask": "어디로 느낄까요?",
+    "answer": "코",
+    "options": [
+      "눈",
+      "귀",
+      "코",
+      "손"
+    ],
+    "speech": "어디로 느낄까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:3:0",
+    "subject": "science",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔔",
+    "ask": "어디로 느낄까요?",
+    "answer": "귀",
+    "options": [
+      "혀",
+      "귀",
+      "눈",
+      "코"
+    ],
+    "speech": "어디로 느낄까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:3:1",
+    "subject": "science",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌈",
+    "ask": "어디로 느낄까요?",
+    "answer": "눈",
+    "options": [
+      "귀",
+      "혀",
+      "눈",
+      "코"
+    ],
+    "speech": "어디로 느낄까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:3:2",
+    "subject": "science",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍋",
+    "ask": "어디로 느낄까요?",
+    "answer": "혀",
+    "options": [
+      "혀",
+      "손",
+      "코",
+      "귀"
+    ],
+    "speech": "어디로 느낄까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:3:3",
+    "subject": "science",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🧸",
+    "ask": "어디로 느낄까요?",
+    "answer": "손",
+    "options": [
+      "귀",
+      "코",
+      "손",
+      "눈"
+    ],
+    "speech": "어디로 느낄까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:3:4",
+    "subject": "science",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🎶",
+    "ask": "어디로 느낄까요?",
+    "answer": "귀",
+    "options": [
+      "손",
+      "혀",
+      "코",
+      "귀"
+    ],
+    "speech": "어디로 느낄까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:3:5",
+    "subject": "science",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍞",
+    "ask": "어디로 느낄까요?",
+    "answer": "코",
+    "options": [
+      "혀",
+      "코",
+      "눈",
+      "손"
+    ],
+    "speech": "어디로 느낄까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:3:6",
+    "subject": "science",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🧊",
+    "ask": "어디로 느낄까요?",
+    "answer": "손",
+    "options": [
+      "혀",
+      "코",
+      "손",
+      "눈"
+    ],
+    "speech": "어디로 느낄까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:3:7",
+    "subject": "science",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦒 🐯 🐢",
+    "ask": "같은 친구들의 이름은?",
+    "answer": "동물",
+    "options": [
+      "바다 친구",
+      "과일",
+      "동물",
+      "학용품"
+    ],
+    "speech": "같은 친구들의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:4:0",
+    "subject": "science",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎 🍓 🍌",
+    "ask": "같은 친구들의 이름은?",
+    "answer": "과일",
+    "options": [
+      "과일",
+      "바다 친구",
+      "학용품",
+      "가구"
+    ],
+    "speech": "같은 친구들의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:4:1",
+    "subject": "science",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚗 🚒 🚕",
+    "ask": "같은 친구들의 이름은?",
+    "answer": "자동차",
+    "options": [
+      "식물",
+      "학용품",
+      "가구",
+      "자동차"
+    ],
+    "speech": "같은 친구들의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:4:2",
+    "subject": "science",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌳 🌼 🌱",
+    "ask": "같은 친구들의 이름은?",
+    "answer": "식물",
+    "options": [
+      "과일",
+      "도형",
+      "바다 친구",
+      "식물"
+    ],
+    "speech": "같은 친구들의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:4:3",
+    "subject": "science",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔺 🟦 🔴",
+    "ask": "같은 친구들의 이름은?",
+    "answer": "도형",
+    "options": [
+      "도형",
+      "바다 친구",
+      "가구",
+      "식물"
+    ],
+    "speech": "같은 친구들의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:4:4",
+    "subject": "science",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐟 🐬 🦀",
+    "ask": "같은 친구들의 이름은?",
+    "answer": "바다 친구",
+    "options": [
+      "바다 친구",
+      "도형",
+      "가구",
+      "동물"
+    ],
+    "speech": "같은 친구들의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:4:5",
+    "subject": "science",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "✏️ 📖 📚",
+    "ask": "같은 친구들의 이름은?",
+    "answer": "학용품",
+    "options": [
+      "동물",
+      "과일",
+      "학용품",
+      "바다 친구"
+    ],
+    "speech": "같은 친구들의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:4:6",
+    "subject": "science",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🪑 🛋️ 🛏️",
+    "ask": "같은 친구들의 이름은?",
+    "answer": "가구",
+    "options": [
+      "자동차",
+      "동물",
+      "학용품",
+      "가구"
+    ],
+    "speech": "같은 친구들의 이름은?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:4:7",
+    "subject": "science",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "📎",
+    "ask": "자석에 붙을까요?",
+    "answer": "붙어요",
+    "options": [
+      "없어요",
+      "붙어요",
+      "다른 것",
+      "잘 모르겠어요"
+    ],
+    "speech": "자석에 붙을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:5:0",
+    "subject": "science",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🪵",
+    "ask": "자석에 붙을까요?",
+    "answer": "안 붙어요",
+    "options": [
+      "안 붙어요",
+      "다른 것",
+      "없어요",
+      "붙어요"
+    ],
+    "speech": "자석에 붙을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:5:1",
+    "subject": "science",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔑",
+    "ask": "자석에 붙을까요?",
+    "answer": "붙어요",
+    "options": [
+      "안 붙어요",
+      "붙어요",
+      "붙을 수도 있어요",
+      "없어요"
+    ],
+    "speech": "자석에 붙을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:5:2",
+    "subject": "science",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🧸",
+    "ask": "자석에 붙을까요?",
+    "answer": "안 붙어요",
+    "options": [
+      "붙을 수도 있어요",
+      "안 붙어요",
+      "없어요",
+      "다른 것"
+    ],
+    "speech": "자석에 붙을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:5:3",
+    "subject": "science",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🪙",
+    "ask": "자석에 붙을까요?",
+    "answer": "붙을 수도 있어요",
+    "options": [
+      "붙을 수도 있어요",
+      "없어요",
+      "붙어요",
+      "안 붙어요"
+    ],
+    "speech": "자석에 붙을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:5:4",
+    "subject": "science",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎",
+    "ask": "자석에 붙을까요?",
+    "answer": "안 붙어요",
+    "options": [
+      "다른 것",
+      "잘 모르겠어요",
+      "안 붙어요",
+      "붙을 수도 있어요"
+    ],
+    "speech": "자석에 붙을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:5:5",
+    "subject": "science",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🧲📎",
+    "ask": "자석에 붙을까요?",
+    "answer": "붙어요",
+    "options": [
+      "없어요",
+      "안 붙어요",
+      "잘 모르겠어요",
+      "붙어요"
+    ],
+    "speech": "자석에 붙을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:5:6",
+    "subject": "science",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🧲📄",
+    "ask": "자석에 붙을까요?",
+    "answer": "안 붙어요",
+    "options": [
+      "붙어요",
+      "안 붙어요",
+      "없어요",
+      "붙을 수도 있어요"
+    ],
+    "speech": "자석에 붙을까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:5:7",
+    "subject": "science",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🪨",
+    "ask": "물에 넣으면 어떻게 될까?",
+    "answer": "가라앉아요",
+    "options": [
+      "떠요",
+      "가라앉아요",
+      "재료에 따라 달라요",
+      "다른 것"
+    ],
+    "speech": "물에 넣으면 어떻게 될까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:6:0",
+    "subject": "science",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍃",
+    "ask": "물에 넣으면 어떻게 될까?",
+    "answer": "떠요",
+    "options": [
+      "다른 것",
+      "재료에 따라 달라요",
+      "떠요",
+      "없어요"
+    ],
+    "speech": "물에 넣으면 어떻게 될까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:6:1",
+    "subject": "science",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🪙",
+    "ask": "물에 넣으면 어떻게 될까?",
+    "answer": "가라앉아요",
+    "options": [
+      "잘 모르겠어요",
+      "없어요",
+      "다른 것",
+      "가라앉아요"
+    ],
+    "speech": "물에 넣으면 어떻게 될까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:6:2",
+    "subject": "science",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🛟",
+    "ask": "물에 넣으면 어떻게 될까?",
+    "answer": "떠요",
+    "options": [
+      "가라앉아요",
+      "떠요",
+      "재료에 따라 달라요",
+      "없어요"
+    ],
+    "speech": "물에 넣으면 어떻게 될까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:6:3",
+    "subject": "science",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🧽",
+    "ask": "물에 넣으면 어떻게 될까?",
+    "answer": "재료에 따라 달라요",
+    "options": [
+      "가라앉아요",
+      "잘 모르겠어요",
+      "다른 것",
+      "재료에 따라 달라요"
+    ],
+    "speech": "물에 넣으면 어떻게 될까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:6:4",
+    "subject": "science",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⚓",
+    "ask": "물에 넣으면 어떻게 될까?",
+    "answer": "가라앉아요",
+    "options": [
+      "가라앉아요",
+      "잘 모르겠어요",
+      "재료에 따라 달라요",
+      "다른 것"
+    ],
+    "speech": "물에 넣으면 어떻게 될까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:6:5",
+    "subject": "science",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🏖️🪵",
+    "ask": "물에 넣으면 어떻게 될까?",
+    "answer": "떠요",
+    "options": [
+      "떠요",
+      "재료에 따라 달라요",
+      "다른 것",
+      "가라앉아요"
+    ],
+    "speech": "물에 넣으면 어떻게 될까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:6:6",
+    "subject": "science",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦆",
+    "ask": "물에 넣으면 어떻게 될까?",
+    "answer": "떠요",
+    "options": [
+      "없어요",
+      "가라앉아요",
+      "잘 모르겠어요",
+      "떠요"
+    ],
+    "speech": "물에 넣으면 어떻게 될까?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:6:7",
+    "subject": "science",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "☀️",
+    "ask": "하늘에서 무엇이 보이나요?",
+    "answer": "해",
+    "options": [
+      "별",
+      "구름",
+      "해",
+      "무지개"
+    ],
+    "speech": "하늘에서 무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:7:0",
+    "subject": "science",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌙",
+    "ask": "하늘에서 무엇이 보이나요?",
+    "answer": "달",
+    "options": [
+      "별",
+      "해",
+      "달",
+      "번개"
+    ],
+    "speech": "하늘에서 무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:7:1",
+    "subject": "science",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐",
+    "ask": "하늘에서 무엇이 보이나요?",
+    "answer": "별",
+    "options": [
+      "해",
+      "비",
+      "별",
+      "무지개"
+    ],
+    "speech": "하늘에서 무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:7:2",
+    "subject": "science",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌈",
+    "ask": "하늘에서 무엇이 보이나요?",
+    "answer": "무지개",
+    "options": [
+      "달",
+      "무지개",
+      "눈",
+      "구름"
+    ],
+    "speech": "하늘에서 무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:7:3",
+    "subject": "science",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "☁️",
+    "ask": "하늘에서 무엇이 보이나요?",
+    "answer": "구름",
+    "options": [
+      "구름",
+      "눈",
+      "달",
+      "비"
+    ],
+    "speech": "하늘에서 무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:7:4",
+    "subject": "science",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌧️",
+    "ask": "하늘에서 무엇이 보이나요?",
+    "answer": "비",
+    "options": [
+      "달",
+      "비",
+      "별",
+      "눈"
+    ],
+    "speech": "하늘에서 무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:7:5",
+    "subject": "science",
+    "game": 7,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.science-2.0.webp"
+  },
+  {
+    "visual": "❄️",
+    "ask": "하늘에서 무엇이 보이나요?",
+    "answer": "눈",
+    "options": [
+      "번개",
+      "눈",
+      "비",
+      "구름"
+    ],
+    "speech": "하늘에서 무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:7:6",
+    "subject": "science",
+    "game": 7,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.science-2.1.webp"
+  },
+  {
+    "visual": "⚡",
+    "ask": "하늘에서 무엇이 보이나요?",
+    "answer": "번개",
+    "options": [
+      "비",
+      "눈",
+      "달",
+      "번개"
+    ],
+    "speech": "하늘에서 무엇이 보이나요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:7:7",
+    "subject": "science",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐣",
+    "ask": "어떤 아기 동물일까요?",
+    "answer": "병아리",
+    "options": [
+      "망아지",
+      "아기 곰",
+      "병아리",
+      "강아지"
+    ],
+    "speech": "어떤 아기 동물일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:8:0",
+    "subject": "science",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦁🍼",
+    "ask": "어떤 아기 동물일까요?",
+    "answer": "새끼 사자",
+    "options": [
+      "아기 오리",
+      "아기 곰",
+      "망아지",
+      "새끼 사자"
+    ],
+    "speech": "어떤 아기 동물일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:8:1",
+    "subject": "science",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐴🍼",
+    "ask": "어떤 아기 동물일까요?",
+    "answer": "망아지",
+    "options": [
+      "아기 곰",
+      "아기 오리",
+      "병아리",
+      "망아지"
+    ],
+    "speech": "어떤 아기 동물일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:8:2",
+    "subject": "science",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐶🍼",
+    "ask": "어떤 아기 동물일까요?",
+    "answer": "강아지",
+    "options": [
+      "새끼 사자",
+      "아기 곰",
+      "망아지",
+      "강아지"
+    ],
+    "speech": "어떤 아기 동물일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:8:3",
+    "subject": "science",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐱🍼",
+    "ask": "어떤 아기 동물일까요?",
+    "answer": "아기 고양이",
+    "options": [
+      "망아지",
+      "병아리",
+      "아기 고양이",
+      "아기 오리"
+    ],
+    "speech": "어떤 아기 동물일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:8:4",
+    "subject": "science",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻🍼",
+    "ask": "어떤 아기 동물일까요?",
+    "answer": "아기 곰",
+    "options": [
+      "아기 곰",
+      "병아리",
+      "새끼 사자",
+      "아기 오리"
+    ],
+    "speech": "어떤 아기 동물일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:8:5",
+    "subject": "science",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐸🥚",
+    "ask": "어떤 아기 동물일까요?",
+    "answer": "올챙이",
+    "options": [
+      "망아지",
+      "새끼 사자",
+      "올챙이",
+      "강아지"
+    ],
+    "speech": "어떤 아기 동물일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:8:6",
+    "subject": "science",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦆🍼",
+    "ask": "어떤 아기 동물일까요?",
+    "answer": "아기 오리",
+    "options": [
+      "올챙이",
+      "병아리",
+      "아기 곰",
+      "아기 오리"
+    ],
+    "speech": "어떤 아기 동물일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:8:7",
+    "subject": "science",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌸🌱",
+    "ask": "어느 계절일까요?",
+    "answer": "봄",
+    "options": [
+      "겨울",
+      "여름",
+      "봄",
+      "가을"
+    ],
+    "speech": "어느 계절일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:9:0",
+    "subject": "science",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌻☀️",
+    "ask": "어느 계절일까요?",
+    "answer": "여름",
+    "options": [
+      "가을",
+      "봄",
+      "겨울",
+      "여름"
+    ],
+    "speech": "어느 계절일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:9:1",
+    "subject": "science",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍁🍂",
+    "ask": "어느 계절일까요?",
+    "answer": "가을",
+    "options": [
+      "가을",
+      "봄",
+      "여름",
+      "겨울"
+    ],
+    "speech": "어느 계절일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:9:2",
+    "subject": "science",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "❄️⛄",
+    "ask": "어느 계절일까요?",
+    "answer": "겨울",
+    "options": [
+      "봄",
+      "겨울",
+      "가을",
+      "여름"
+    ],
+    "speech": "어느 계절일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:9:3",
+    "subject": "science",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌷🐝",
+    "ask": "어느 계절일까요?",
+    "answer": "봄",
+    "options": [
+      "겨울",
+      "가을",
+      "봄",
+      "여름"
+    ],
+    "speech": "어느 계절일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:9:4",
+    "subject": "science",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🏖️🌞",
+    "ask": "어느 계절일까요?",
+    "answer": "여름",
+    "options": [
+      "겨울",
+      "가을",
+      "여름",
+      "봄"
+    ],
+    "speech": "어느 계절일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:9:5",
+    "subject": "science",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌰🍁",
+    "ask": "어느 계절일까요?",
+    "answer": "가을",
+    "options": [
+      "겨울",
+      "가을",
+      "여름",
+      "봄"
+    ],
+    "speech": "어느 계절일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:9:6",
+    "subject": "science",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🧣⛄",
+    "ask": "어느 계절일까요?",
+    "answer": "겨울",
+    "options": [
+      "가을",
+      "겨울",
+      "봄",
+      "여름"
+    ],
+    "speech": "어느 계절일까요?",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "science:9:7",
+    "subject": "science",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐱",
+    "ask": "영어로 무엇일까요?",
+    "answer": "cat",
+    "options": [
+      "bear",
+      "rabbit",
+      "penguin",
+      "cat"
+    ],
+    "speech": "cat",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:0:0",
+    "subject": "english",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐶",
+    "ask": "영어로 무엇일까요?",
+    "answer": "dog",
+    "options": [
+      "fish",
+      "dog",
+      "cat",
+      "bear"
+    ],
+    "speech": "dog",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:0:1",
+    "subject": "english",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐯",
+    "ask": "영어로 무엇일까요?",
+    "answer": "tiger",
+    "options": [
+      "penguin",
+      "tiger",
+      "lion",
+      "bear"
+    ],
+    "speech": "tiger",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:0:2",
+    "subject": "english",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐰",
+    "ask": "영어로 무엇일까요?",
+    "answer": "rabbit",
+    "options": [
+      "bear",
+      "rabbit",
+      "tiger",
+      "dog"
+    ],
+    "speech": "rabbit",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:0:3",
+    "subject": "english",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐟",
+    "ask": "영어로 무엇일까요?",
+    "answer": "fish",
+    "options": [
+      "cat",
+      "fish",
+      "lion",
+      "penguin"
+    ],
+    "speech": "fish",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:0:4",
+    "subject": "english",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦁",
+    "ask": "영어로 무엇일까요?",
+    "answer": "lion",
+    "options": [
+      "lion",
+      "tiger",
+      "rabbit",
+      "fish"
+    ],
+    "speech": "lion",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:0:5",
+    "subject": "english",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻",
+    "ask": "영어로 무엇일까요?",
+    "answer": "bear",
+    "options": [
+      "bear",
+      "cat",
+      "tiger",
+      "penguin"
+    ],
+    "speech": "bear",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:0:6",
+    "subject": "english",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦆",
+    "ask": "영어로 무엇일까요?",
+    "answer": "duck",
+    "options": [
+      "dog",
+      "duck",
+      "fish",
+      "penguin"
+    ],
+    "speech": "duck",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:0:7",
+    "subject": "english",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐧",
+    "ask": "영어로 무엇일까요?",
+    "answer": "penguin",
+    "options": [
+      "penguin",
+      "bear",
+      "lion",
+      "cat"
+    ],
+    "speech": "penguin",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:0:8",
+    "subject": "english",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔴",
+    "ask": "영어 색깔은?",
+    "answer": "red",
+    "options": [
+      "red",
+      "black",
+      "blue",
+      "pink"
+    ],
+    "speech": "red",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:1:0",
+    "subject": "english",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔵",
+    "ask": "영어 색깔은?",
+    "answer": "blue",
+    "options": [
+      "blue",
+      "pink",
+      "orange",
+      "red"
+    ],
+    "speech": "blue",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:1:1",
+    "subject": "english",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🟢",
+    "ask": "영어 색깔은?",
+    "answer": "green",
+    "options": [
+      "pink",
+      "black",
+      "green",
+      "yellow"
+    ],
+    "speech": "green",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:1:2",
+    "subject": "english",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🟡",
+    "ask": "영어 색깔은?",
+    "answer": "yellow",
+    "options": [
+      "white",
+      "yellow",
+      "red",
+      "orange"
+    ],
+    "speech": "yellow",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:1:3",
+    "subject": "english",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🩷",
+    "ask": "영어 색깔은?",
+    "answer": "pink",
+    "options": [
+      "pink",
+      "black",
+      "red",
+      "white"
+    ],
+    "speech": "pink",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:1:4",
+    "subject": "english",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🟠",
+    "ask": "영어 색깔은?",
+    "answer": "orange",
+    "options": [
+      "orange",
+      "purple",
+      "yellow",
+      "blue"
+    ],
+    "speech": "orange",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:1:5",
+    "subject": "english",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⚫",
+    "ask": "영어 색깔은?",
+    "answer": "black",
+    "options": [
+      "black",
+      "blue",
+      "red",
+      "purple"
+    ],
+    "speech": "black",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:1:6",
+    "subject": "english",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⚪",
+    "ask": "영어 색깔은?",
+    "answer": "white",
+    "options": [
+      "pink",
+      "white",
+      "purple",
+      "black"
+    ],
+    "speech": "white",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:1:7",
+    "subject": "english",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🟣",
+    "ask": "영어 색깔은?",
+    "answer": "purple",
+    "options": [
+      "purple",
+      "pink",
+      "blue",
+      "black"
+    ],
+    "speech": "purple",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:1:8",
+    "subject": "english",
+    "game": 1,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐",
+    "ask": "숫자 영어를 골라요",
+    "answer": "one",
+    "options": [
+      "one",
+      "eight",
+      "five",
+      "two"
+    ],
+    "speech": "one",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:2:0",
+    "subject": "english",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐⭐",
+    "ask": "숫자 영어를 골라요",
+    "answer": "two",
+    "options": [
+      "five",
+      "six",
+      "one",
+      "two"
+    ],
+    "speech": "two",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:2:1",
+    "subject": "english",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐⭐⭐",
+    "ask": "숫자 영어를 골라요",
+    "answer": "three",
+    "options": [
+      "nine",
+      "five",
+      "six",
+      "three"
+    ],
+    "speech": "three",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:2:2",
+    "subject": "english",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐⭐⭐⭐",
+    "ask": "숫자 영어를 골라요",
+    "answer": "four",
+    "options": [
+      "two",
+      "eight",
+      "four",
+      "ten"
+    ],
+    "speech": "four",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:2:3",
+    "subject": "english",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐⭐⭐⭐⭐",
+    "ask": "숫자 영어를 골라요",
+    "answer": "five",
+    "options": [
+      "eight",
+      "three",
+      "six",
+      "five"
+    ],
+    "speech": "five",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:2:4",
+    "subject": "english",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐⭐⭐⭐⭐⭐",
+    "ask": "숫자 영어를 골라요",
+    "answer": "six",
+    "options": [
+      "ten",
+      "three",
+      "six",
+      "one"
+    ],
+    "speech": "six",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:2:5",
+    "subject": "english",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐⭐⭐⭐⭐⭐⭐",
+    "ask": "숫자 영어를 골라요",
+    "answer": "seven",
+    "options": [
+      "seven",
+      "eight",
+      "two",
+      "six"
+    ],
+    "speech": "seven",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:2:6",
+    "subject": "english",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐⭐⭐⭐⭐⭐⭐⭐",
+    "ask": "숫자 영어를 골라요",
+    "answer": "eight",
+    "options": [
+      "one",
+      "three",
+      "six",
+      "eight"
+    ],
+    "speech": "eight",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:2:7",
+    "subject": "english",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐⭐⭐⭐⭐⭐⭐⭐⭐",
+    "ask": "숫자 영어를 골라요",
+    "answer": "nine",
+    "options": [
+      "nine",
+      "one",
+      "three",
+      "six"
+    ],
+    "speech": "nine",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:2:8",
+    "subject": "english",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐",
+    "ask": "숫자 영어를 골라요",
+    "answer": "ten",
+    "options": [
+      "two",
+      "eight",
+      "four",
+      "ten"
+    ],
+    "speech": "ten",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:2:9",
+    "subject": "english",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚗",
+    "ask": "탈것의 영어 이름은?",
+    "answer": "car",
+    "options": [
+      "rocket",
+      "car",
+      "bus",
+      "ship"
+    ],
+    "speech": "car",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:3:0",
+    "subject": "english",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚌",
+    "ask": "탈것의 영어 이름은?",
+    "answer": "bus",
+    "options": [
+      "bus",
+      "car",
+      "ship",
+      "plane"
+    ],
+    "speech": "bus",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:3:1",
+    "subject": "english",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚂",
+    "ask": "탈것의 영어 이름은?",
+    "answer": "train",
+    "options": [
+      "train",
+      "bike",
+      "ship",
+      "plane"
+    ],
+    "speech": "train",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:3:2",
+    "subject": "english",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "✈️",
+    "ask": "탈것의 영어 이름은?",
+    "answer": "plane",
+    "options": [
+      "bike",
+      "car",
+      "plane",
+      "bus"
+    ],
+    "speech": "plane",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:3:3",
+    "subject": "english",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚢",
+    "ask": "탈것의 영어 이름은?",
+    "answer": "ship",
+    "options": [
+      "rocket",
+      "ship",
+      "car",
+      "bus"
+    ],
+    "speech": "ship",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:3:4",
+    "subject": "english",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚲",
+    "ask": "탈것의 영어 이름은?",
+    "answer": "bike",
+    "options": [
+      "taxi",
+      "bike",
+      "plane",
+      "ship"
+    ],
+    "speech": "bike",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:3:5",
+    "subject": "english",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚕",
+    "ask": "탈것의 영어 이름은?",
+    "answer": "taxi",
+    "options": [
+      "taxi",
+      "bike",
+      "plane",
+      "rocket"
+    ],
+    "speech": "taxi",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:3:6",
+    "subject": "english",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚀",
+    "ask": "탈것의 영어 이름은?",
+    "answer": "rocket",
+    "options": [
+      "ship",
+      "rocket",
+      "plane",
+      "bike"
+    ],
+    "speech": "rocket",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:3:7",
+    "subject": "english",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👋",
+    "ask": "어떤 영어 인사일까?",
+    "answer": "hello",
+    "options": [
+      "thank you",
+      "bye",
+      "no",
+      "hello"
+    ],
+    "speech": "hello",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:4:0",
+    "subject": "english",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🙏",
+    "ask": "어떤 영어 인사일까?",
+    "answer": "thank you",
+    "options": [
+      "nice to meet you",
+      "no",
+      "good night",
+      "thank you"
+    ],
+    "speech": "thank you",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:4:1",
+    "subject": "english",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌙😴",
+    "ask": "어떤 영어 인사일까?",
+    "answer": "good night",
+    "options": [
+      "good night",
+      "no",
+      "hello",
+      "thank you"
+    ],
+    "speech": "good night",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:4:2",
+    "subject": "english",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👋🚪",
+    "ask": "어떤 영어 인사일까?",
+    "answer": "bye",
+    "options": [
+      "bye",
+      "thank you",
+      "nice to meet you",
+      "hello"
+    ],
+    "speech": "bye",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:4:3",
+    "subject": "english",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "😊",
+    "ask": "어떤 영어 인사일까?",
+    "answer": "yes",
+    "options": [
+      "no",
+      "yes",
+      "hello",
+      "good morning"
+    ],
+    "speech": "yes",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:4:4",
+    "subject": "english",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🙅",
+    "ask": "어떤 영어 인사일까?",
+    "answer": "no",
+    "options": [
+      "yes",
+      "no",
+      "hello",
+      "good morning"
+    ],
+    "speech": "no",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:4:5",
+    "subject": "english",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌅",
+    "ask": "어떤 영어 인사일까?",
+    "answer": "good morning",
+    "options": [
+      "nice to meet you",
+      "thank you",
+      "yes",
+      "good morning"
+    ],
+    "speech": "good morning",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:4:6",
+    "subject": "english",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🤝",
+    "ask": "어떤 영어 인사일까?",
+    "answer": "nice to meet you",
+    "options": [
+      "bye",
+      "yes",
+      "no",
+      "nice to meet you"
+    ],
+    "speech": "nice to meet you",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:4:7",
+    "subject": "english",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐱",
+    "ask": "첫 영어 글자는?",
+    "answer": "C",
+    "options": [
+      "L",
+      "A",
+      "C",
+      "T"
+    ],
+    "speech": "C",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:6:0",
+    "subject": "english",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐶",
+    "ask": "첫 영어 글자는?",
+    "answer": "D",
+    "options": [
+      "A",
+      "D",
+      "T",
+      "R"
+    ],
+    "speech": "D",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:6:1",
+    "subject": "english",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐟",
+    "ask": "첫 영어 글자는?",
+    "answer": "F",
+    "options": [
+      "R",
+      "D",
+      "A",
+      "F"
+    ],
+    "speech": "F",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:6:2",
+    "subject": "english",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦁",
+    "ask": "첫 영어 글자는?",
+    "answer": "L",
+    "options": [
+      "C",
+      "F",
+      "R",
+      "L"
+    ],
+    "speech": "L",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:6:3",
+    "subject": "english",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐻",
+    "ask": "첫 영어 글자는?",
+    "answer": "B",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "T"
+    ],
+    "speech": "B",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:6:4",
+    "subject": "english",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐰",
+    "ask": "첫 영어 글자는?",
+    "answer": "R",
+    "options": [
+      "T",
+      "D",
+      "A",
+      "R"
+    ],
+    "speech": "R",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:6:5",
+    "subject": "english",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐯",
+    "ask": "첫 영어 글자는?",
+    "answer": "T",
+    "options": [
+      "B",
+      "T",
+      "C",
+      "A"
+    ],
+    "speech": "T",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:6:6",
+    "subject": "english",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎",
+    "ask": "첫 영어 글자는?",
+    "answer": "A",
+    "options": [
+      "C",
+      "R",
+      "A",
+      "D"
+    ],
+    "speech": "A",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:6:7",
+    "subject": "english",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎",
+    "ask": "과일 영어는?",
+    "answer": "apple",
+    "options": [
+      "watermelon",
+      "strawberry",
+      "grape",
+      "apple"
+    ],
+    "speech": "apple",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:7:0",
+    "subject": "english",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍌",
+    "ask": "과일 영어는?",
+    "answer": "banana",
+    "options": [
+      "banana",
+      "peach",
+      "grape",
+      "watermelon"
+    ],
+    "speech": "banana",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:7:1",
+    "subject": "english",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍇",
+    "ask": "과일 영어는?",
+    "answer": "grape",
+    "options": [
+      "banana",
+      "grape",
+      "watermelon",
+      "lemon"
+    ],
+    "speech": "grape",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:7:2",
+    "subject": "english",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍉",
+    "ask": "과일 영어는?",
+    "answer": "watermelon",
+    "options": [
+      "banana",
+      "cherry",
+      "peach",
+      "watermelon"
+    ],
+    "speech": "watermelon",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:7:3",
+    "subject": "english",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍓",
+    "ask": "과일 영어는?",
+    "answer": "strawberry",
+    "options": [
+      "grape",
+      "cherry",
+      "strawberry",
+      "apple"
+    ],
+    "speech": "strawberry",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:7:4",
+    "subject": "english",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍋",
+    "ask": "과일 영어는?",
+    "answer": "lemon",
+    "options": [
+      "lemon",
+      "peach",
+      "apple",
+      "strawberry"
+    ],
+    "speech": "lemon",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:7:5",
+    "subject": "english",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍑",
+    "ask": "과일 영어는?",
+    "answer": "peach",
+    "options": [
+      "lemon",
+      "peach",
+      "apple",
+      "cherry"
+    ],
+    "speech": "peach",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:7:6",
+    "subject": "english",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍒",
+    "ask": "과일 영어는?",
+    "answer": "cherry",
+    "options": [
+      "lemon",
+      "banana",
+      "grape",
+      "cherry"
+    ],
+    "speech": "cherry",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:7:7",
+    "subject": "english",
+    "game": 7,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👀",
+    "ask": "몸의 영어 이름은?",
+    "answer": "eye",
+    "options": [
+      "mouth",
+      "eye",
+      "nose",
+      "hand"
+    ],
+    "speech": "eye",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:8:0",
+    "subject": "english",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👃",
+    "ask": "몸의 영어 이름은?",
+    "answer": "nose",
+    "options": [
+      "foot",
+      "ear",
+      "hand",
+      "nose"
+    ],
+    "speech": "nose",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:8:1",
+    "subject": "english",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "✋",
+    "ask": "몸의 영어 이름은?",
+    "answer": "hand",
+    "options": [
+      "hand",
+      "nose",
+      "foot",
+      "arm"
+    ],
+    "speech": "hand",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:8:2",
+    "subject": "english",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👂",
+    "ask": "몸의 영어 이름은?",
+    "answer": "ear",
+    "options": [
+      "eye",
+      "ear",
+      "arm",
+      "tooth"
+    ],
+    "speech": "ear",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:8:3",
+    "subject": "english",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦶",
+    "ask": "몸의 영어 이름은?",
+    "answer": "foot",
+    "options": [
+      "foot",
+      "tooth",
+      "arm",
+      "nose"
+    ],
+    "speech": "foot",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:8:4",
+    "subject": "english",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦷",
+    "ask": "몸의 영어 이름은?",
+    "answer": "tooth",
+    "options": [
+      "eye",
+      "hand",
+      "tooth",
+      "foot"
+    ],
+    "speech": "tooth",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:8:5",
+    "subject": "english",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "💋",
+    "ask": "몸의 영어 이름은?",
+    "answer": "mouth",
+    "options": [
+      "nose",
+      "mouth",
+      "eye",
+      "ear"
+    ],
+    "speech": "mouth",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:8:6",
+    "subject": "english",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "💪",
+    "ask": "몸의 영어 이름은?",
+    "answer": "arm",
+    "options": [
+      "arm",
+      "nose",
+      "mouth",
+      "eye"
+    ],
+    "speech": "arm",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:8:7",
+    "subject": "english",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "A",
+    "ask": "영어 글자를 찾아요",
+    "answer": "A",
+    "options": [
+      "E",
+      "G",
+      "A",
+      "I"
+    ],
+    "speech": "A",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:9:0",
+    "subject": "english",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "B",
+    "ask": "영어 글자를 찾아요",
+    "answer": "B",
+    "options": [
+      "A",
+      "B",
+      "E",
+      "F"
+    ],
+    "speech": "B",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:9:1",
+    "subject": "english",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "C",
+    "ask": "영어 글자를 찾아요",
+    "answer": "C",
+    "options": [
+      "F",
+      "C",
+      "I",
+      "A"
+    ],
+    "speech": "C",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:9:2",
+    "subject": "english",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "D",
+    "ask": "영어 글자를 찾아요",
+    "answer": "D",
+    "options": [
+      "G",
+      "D",
+      "C",
+      "F"
+    ],
+    "speech": "D",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:9:3",
+    "subject": "english",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "E",
+    "ask": "영어 글자를 찾아요",
+    "answer": "E",
+    "options": [
+      "D",
+      "B",
+      "F",
+      "E"
+    ],
+    "speech": "E",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:9:4",
+    "subject": "english",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "F",
+    "ask": "영어 글자를 찾아요",
+    "answer": "F",
+    "options": [
+      "A",
+      "G",
+      "C",
+      "F"
+    ],
+    "speech": "F",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:9:5",
+    "subject": "english",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "G",
+    "ask": "영어 글자를 찾아요",
+    "answer": "G",
+    "options": [
+      "I",
+      "G",
+      "B",
+      "F"
+    ],
+    "speech": "G",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:9:6",
+    "subject": "english",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "I",
+    "ask": "영어 글자를 찾아요",
+    "answer": "I",
+    "options": [
+      "C",
+      "D",
+      "E",
+      "I"
+    ],
+    "speech": "I",
+    "hint": "잘 살펴보고 골라요!",
+    "unique": "english:9:7",
+    "subject": "english",
+    "game": 9,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👑 ㄱ ㄴ ㄷ",
+    "ask": "한글을 만든 임금님은 누구일까요?",
+    "answer": "세종대왕",
+    "options": [
+      "이순신",
+      "세종대왕",
+      "장영실"
+    ],
+    "speech": "한글을 만든 임금님은 누구일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:0:0",
+    "subject": "history",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚢 🌊 🛡️",
+    "ask": "우리 바다를 지킨 장군은 누구일까요?",
+    "answer": "이순신",
+    "options": [
+      "허준",
+      "이순신",
+      "신사임당"
+    ],
+    "speech": "우리 바다를 지킨 장군은 누구일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:0:1",
+    "subject": "history",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔭 ☀️ 📏",
+    "ask": "옛날에 과학 기구를 만든 사람은 누구일까요?",
+    "answer": "장영실",
+    "options": [
+      "유관순",
+      "이순신",
+      "장영실"
+    ],
+    "speech": "옛날에 과학 기구를 만든 사람은 누구일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:0:2",
+    "subject": "history",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🎨 🌸 🖌️",
+    "ask": "그림으로 유명한 조선 시대 화가는 누구일까요?",
+    "answer": "신사임당",
+    "options": [
+      "이순신",
+      "장영실",
+      "신사임당"
+    ],
+    "speech": "그림으로 유명한 조선 시대 화가는 누구일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:0:3",
+    "subject": "history",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🩺 📚 🌿",
+    "ask": "사람의 병을 치료하는 의학책을 남긴 사람은 누구일까요?",
+    "answer": "허준",
+    "options": [
+      "장영실",
+      "허준",
+      "유관순"
+    ],
+    "speech": "사람의 병을 치료하는 의학책을 남긴 사람은 누구일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:0:4",
+    "subject": "history",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🇰🇷 📢 ✊",
+    "ask": "독립 만세 운동에 참여한 여성은 누구일까요?",
+    "answer": "유관순",
+    "options": [
+      "유관순",
+      "신사임당",
+      "허준"
+    ],
+    "speech": "독립 만세 운동에 참여한 여성은 누구일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:0:5",
+    "subject": "history",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🇰🇷 🕊️ 📜",
+    "ask": "우리나라의 독립을 위해 힘쓴 사람은 누구일까요?",
+    "answer": "김구",
+    "options": [
+      "허준",
+      "김구",
+      "장영실"
+    ],
+    "speech": "우리나라의 독립을 위해 힘쓴 사람은 누구일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:0:6",
+    "subject": "history",
+    "game": 0,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌧️ 📏 💧",
+    "ask": "옛날에 내린 비의 양을 재던 물건은 무엇일까요?",
+    "answer": "측우기",
+    "options": [
+      "거북선",
+      "측우기",
+      "물레"
+    ],
+    "speech": "옛날에 내린 비의 양을 재던 물건은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:1:0",
+    "subject": "history",
+    "game": 1,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.0.webp"
+  },
+  {
+    "visual": "🐢 🚢 🌊",
+    "ask": "거북처럼 생긴 옛날 전투 배는 무엇일까요?",
+    "answer": "거북선",
+    "options": [
+      "가마",
+      "항아리",
+      "거북선"
+    ],
+    "speech": "거북처럼 생긴 옛날 전투 배는 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:1:1",
+    "subject": "history",
+    "game": 1,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.1.webp"
+  },
+  {
+    "visual": "👘 🌸 👧",
+    "ask": "옛날부터 입어 온 우리나라 전통 옷은 무엇일까요?",
+    "answer": "한복",
+    "options": [
+      "물레",
+      "갓",
+      "한복"
+    ],
+    "speech": "옛날부터 입어 온 우리나라 전통 옷은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:1:2",
+    "subject": "history",
+    "game": 1,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-2.4.webp"
+  },
+  {
+    "visual": "🧢 ⚫ 👨",
+    "ask": "옛날 선비가 머리에 쓰던 모자는 무엇일까요?",
+    "answer": "갓",
+    "options": [
+      "갓",
+      "가마",
+      "한복"
+    ],
+    "speech": "옛날 선비가 머리에 쓰던 모자는 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:1:3",
+    "subject": "history",
+    "game": 1,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.3.webp"
+  },
+  {
+    "visual": "🌬️ 🪭 ☀️",
+    "ask": "손으로 흔들어 바람을 일으키는 물건은 무엇일까요?",
+    "answer": "부채",
+    "options": [
+      "절구",
+      "부채",
+      "북"
+    ],
+    "speech": "손으로 흔들어 바람을 일으키는 물건은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:1:4",
+    "subject": "history",
+    "game": 1,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.2.webp"
+  },
+  {
+    "visual": "🥁 🎶 🪘",
+    "ask": "두드려 소리를 내는 옛날 악기는 무엇일까요?",
+    "answer": "북",
+    "options": [
+      "갓",
+      "항아리",
+      "북"
+    ],
+    "speech": "두드려 소리를 내는 옛날 악기는 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:1:5",
+    "subject": "history",
+    "game": 1,
+    "unsupported": [],
+    "scene": "./assets/v13/history.buk.webp"
+  },
+  {
+    "visual": "🪵 🥣 🌾",
+    "ask": "곡식을 빻을 때 쓰던 물건은 무엇일까요?",
+    "answer": "절구",
+    "options": [
+      "거북선",
+      "부채",
+      "절구"
+    ],
+    "speech": "곡식을 빻을 때 쓰던 물건은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:1:6",
+    "subject": "history",
+    "game": 1,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.4.webp"
+  },
+  {
+    "visual": "👑 ㄱ ㄴ ㄷ",
+    "ask": "한글을 만든 임금님은 누구일까요?",
+    "answer": "세종대왕",
+    "options": [
+      "세종대왕",
+      "이순신",
+      "장영실"
+    ],
+    "speech": "한글을 만든 임금님은 누구일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:2:0",
+    "subject": "history",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "ㄱ ㄴ ㄷ ㅏ ㅑ",
+    "ask": "우리가 지금 읽고 쓰는 이 글자는 무엇일까요?",
+    "answer": "한글",
+    "options": [
+      "숫자",
+      "한자",
+      "한글"
+    ],
+    "speech": "우리가 지금 읽고 쓰는 이 글자는 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:2:1",
+    "subject": "history",
+    "game": 2,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-2.3.webp"
+  },
+  {
+    "visual": "📖 ✨ ㄱ ㄴ",
+    "ask": "세종대왕이 처음 만든 글자를 알린 책 이름은 무엇일까요?",
+    "answer": "훈민정음",
+    "options": [
+      "동의보감",
+      "훈민정음",
+      "난중일기"
+    ],
+    "speech": "세종대왕이 처음 만든 글자를 알린 책 이름은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:2:2",
+    "subject": "history",
+    "game": 2,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-2.5.webp"
+  },
+  {
+    "visual": "✏️ ㄱ ㄴ 📖",
+    "ask": "글자를 만들어 주신 덕분에 할 수 있는 일은 무엇일까요?",
+    "answer": "글 읽기",
+    "options": [
+      "그림 접기",
+      "달리기",
+      "글 읽기"
+    ],
+    "speech": "글자를 만들어 주신 덕분에 할 수 있는 일은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:2:3",
+    "subject": "history",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👑 📚 🌟",
+    "ask": "세종대왕이 백성에게 쉽게 쓰게 하려 한 것은 무엇일까요?",
+    "answer": "새로운 글자",
+    "options": [
+      "새로운 글자",
+      "새로운 비행기",
+      "새로운 로봇"
+    ],
+    "speech": "세종대왕이 백성에게 쉽게 쓰게 하려 한 것은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:2:4",
+    "subject": "history",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🇰🇷 ㄱ ㄴ ㄷ",
+    "ask": "한글은 어느 나라의 글자일까요?",
+    "answer": "우리나라",
+    "options": [
+      "프랑스",
+      "우리나라",
+      "영국"
+    ],
+    "speech": "한글은 어느 나라의 글자일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:2:5",
+    "subject": "history",
+    "game": 2,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-2.0.webp"
+  },
+  {
+    "visual": "🇰🇷",
+    "ask": "우리나라 국기는 무엇일까요?",
+    "answer": "태극기",
+    "options": [
+      "태극기",
+      "거북선",
+      "무궁화"
+    ],
+    "speech": "우리나라 국기는 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:3:0",
+    "subject": "history",
+    "game": 3,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-2.0.webp"
+  },
+  {
+    "visual": "🌺",
+    "ask": "우리나라를 대표하는 꽃은 무엇일까요?",
+    "answer": "무궁화",
+    "options": [
+      "해바라기",
+      "장미",
+      "무궁화"
+    ],
+    "speech": "우리나라를 대표하는 꽃은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:3:1",
+    "subject": "history",
+    "game": 3,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-2.1.webp"
+  },
+  {
+    "visual": "🎼 🇰🇷",
+    "ask": "우리나라 국가(나라를 대표하는 노래)는 무엇일까요?",
+    "answer": "애국가",
+    "options": [
+      "생일 노래",
+      "애국가",
+      "동요"
+    ],
+    "speech": "우리나라 국가(나라를 대표하는 노래)는 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:3:2",
+    "subject": "history",
+    "game": 3,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-2.2.webp"
+  },
+  {
+    "visual": "ㄱ ㄴ ㄷ",
+    "ask": "우리나라 글자는 무엇일까요?",
+    "answer": "한글",
+    "options": [
+      "한글",
+      "알파벳",
+      "로마 숫자"
+    ],
+    "speech": "우리나라 글자는 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:3:3",
+    "subject": "history",
+    "game": 3,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-2.3.webp"
+  },
+  {
+    "visual": "👘",
+    "ask": "우리나라 전통 옷의 이름은 무엇일까요?",
+    "answer": "한복",
+    "options": [
+      "교복",
+      "한복",
+      "우주복"
+    ],
+    "speech": "우리나라 전통 옷의 이름은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:3:4",
+    "subject": "history",
+    "game": 3,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-2.4.webp"
+  },
+  {
+    "visual": "👑 ㄱ ㄴ",
+    "ask": "우리 글자 한글을 만든 임금님은 누구일까요?",
+    "answer": "세종대왕",
+    "options": [
+      "세종대왕",
+      "장영실",
+      "허준"
+    ],
+    "speech": "우리 글자 한글을 만든 임금님은 누구일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:3:5",
+    "subject": "history",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌧️ 📏",
+    "ask": "측우기는 무엇을 재는 물건일까요?",
+    "answer": "비의 양",
+    "options": [
+      "바람의 냄새",
+      "비의 양",
+      "자동차 속도"
+    ],
+    "speech": "측우기는 무엇을 재는 물건일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:4:0",
+    "subject": "history",
+    "game": 4,
+    "unsupported": [],
+    "scene": "./assets/v13/history.raingauge.webp"
+  },
+  {
+    "visual": "🌬️ 🪭",
+    "ask": "옛날 부채는 무엇을 하려고 사용했을까요?",
+    "answer": "바람 일으키기",
+    "options": [
+      "글씨 지우기",
+      "바람 일으키기",
+      "땅 파기"
+    ],
+    "speech": "옛날 부채는 무엇을 하려고 사용했을까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:4:1",
+    "subject": "history",
+    "game": 4,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.2.webp"
+  },
+  {
+    "visual": "🥣 🌾 🪵",
+    "ask": "절구로 곡식을 어떻게 할까요?",
+    "answer": "찧기",
+    "options": [
+      "날리기",
+      "비추기",
+      "찧기"
+    ],
+    "speech": "절구로 곡식을 어떻게 할까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:4:2",
+    "subject": "history",
+    "game": 4,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.4.webp"
+  },
+  {
+    "visual": "🪵 🧵 🧶",
+    "ask": "물레는 무엇을 만드는 데 쓰일까요?",
+    "answer": "실",
+    "options": [
+      "배",
+      "그릇",
+      "실"
+    ],
+    "speech": "물레는 무엇을 만드는 데 쓰일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:4:3",
+    "subject": "history",
+    "game": 4,
+    "unsupported": [],
+    "scene": "./assets/v13/history.spinning.webp"
+  },
+  {
+    "visual": "🪣 💧",
+    "ask": "옛날 우물에서 두레박으로 무엇을 길었을까요?",
+    "answer": "물",
+    "options": [
+      "바람",
+      "모래",
+      "물"
+    ],
+    "speech": "옛날 우물에서 두레박으로 무엇을 길었을까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:4:4",
+    "subject": "history",
+    "game": 4,
+    "unsupported": [],
+    "scene": "./assets/v13/history.well.webp"
+  },
+  {
+    "visual": "🪔 🌙",
+    "ask": "옛날 밤에 등잔은 무엇을 해 주었을까요?",
+    "answer": "밝혀 주기",
+    "options": [
+      "밝혀 주기",
+      "비 내리기",
+      "노래 부르기"
+    ],
+    "speech": "옛날 밤에 등잔은 무엇을 해 주었을까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:4:5",
+    "subject": "history",
+    "game": 4,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-3.1.webp"
+  },
+  {
+    "visual": "🪭 🌞",
+    "ask": "여름에 시원해지려고 옛날 사람들이 쓰던 것은?",
+    "answer": "부채",
+    "options": [
+      "목도리",
+      "부채",
+      "장화"
+    ],
+    "speech": "여름에 시원해지려고 옛날 사람들이 쓰던 것은?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:4:6",
+    "subject": "history",
+    "game": 4,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.2.webp"
+  },
+  {
+    "visual": "🌊 🚢 🛡️",
+    "ask": "바다에서 나라를 지킨 장군님은 누구일까요?",
+    "answer": "이순신",
+    "options": [
+      "장영실",
+      "세종대왕",
+      "이순신"
+    ],
+    "speech": "바다에서 나라를 지킨 장군님은 누구일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:5:0",
+    "subject": "history",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐢 🚢",
+    "ask": "이순신 장군과 관련된 거북 모양 배는 무엇일까요?",
+    "answer": "거북선",
+    "options": [
+      "거북선",
+      "열기구",
+      "기차"
+    ],
+    "speech": "이순신 장군과 관련된 거북 모양 배는 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:5:1",
+    "subject": "history",
+    "game": 5,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.1.webp"
+  },
+  {
+    "visual": "🌊 ⛵",
+    "ask": "배가 다니는 넓고 푸른 곳은 어디일까요?",
+    "answer": "바다",
+    "options": [
+      "운동장",
+      "산꼭대기",
+      "바다"
+    ],
+    "speech": "배가 다니는 넓고 푸른 곳은 어디일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:5:2",
+    "subject": "history",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚢 🪵 💪",
+    "ask": "노를 저으면 배가 어떻게 될까요?",
+    "answer": "앞으로 가요",
+    "options": [
+      "땅을 파요",
+      "앞으로 가요",
+      "사라져요"
+    ],
+    "speech": "노를 저으면 배가 어떻게 될까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:5:3",
+    "subject": "history",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⛵ 💨",
+    "ask": "돛은 무엇의 힘을 받아 배를 움직일까요?",
+    "answer": "바람",
+    "options": [
+      "눈",
+      "바람",
+      "전기"
+    ],
+    "speech": "돛은 무엇의 힘을 받아 배를 움직일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:5:4",
+    "subject": "history",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⚓ 🚢",
+    "ask": "배가 한곳에 머물도록 물에 내리는 물건은?",
+    "answer": "닻",
+    "options": [
+      "닻",
+      "모자",
+      "우산"
+    ],
+    "speech": "배가 한곳에 머물도록 물에 내리는 물건은?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:5:5",
+    "subject": "history",
+    "game": 5,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👑 ㄱ ㄴ ㄷ",
+    "ask": "한글을 만든 임금님은?",
+    "answer": "세종대왕",
+    "options": [
+      "신사임당",
+      "허준",
+      "세종대왕"
+    ],
+    "speech": "한글을 만든 임금님은?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:6:0",
+    "subject": "history",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🩺 📖 🌿",
+    "ask": "의학책을 남긴 의사는?",
+    "answer": "허준",
+    "options": [
+      "세종대왕",
+      "장영실",
+      "허준"
+    ],
+    "speech": "의학책을 남긴 의사는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:6:1",
+    "subject": "history",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🎨 🖌️ 🌼",
+    "ask": "그림으로 유명한 화가는?",
+    "answer": "신사임당",
+    "options": [
+      "신사임당",
+      "유관순",
+      "허준"
+    ],
+    "speech": "그림으로 유명한 화가는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:6:2",
+    "subject": "history",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "📏 🔭 🌧️",
+    "ask": "옛날 과학기구를 만든 사람은?",
+    "answer": "장영실",
+    "options": [
+      "장영실",
+      "신사임당",
+      "허준"
+    ],
+    "speech": "옛날 과학기구를 만든 사람은?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:6:3",
+    "subject": "history",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⚓ 🚢 🛡️",
+    "ask": "바다를 지킨 장군은?",
+    "answer": "이순신",
+    "options": [
+      "이순신",
+      "신사임당",
+      "장영실"
+    ],
+    "speech": "바다를 지킨 장군은?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:6:4",
+    "subject": "history",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🇰🇷 📢 ✊",
+    "ask": "독립 만세를 외친 사람은?",
+    "answer": "유관순",
+    "options": [
+      "허준",
+      "유관순",
+      "신사임당"
+    ],
+    "speech": "독립 만세를 외친 사람은?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:6:5",
+    "subject": "history",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🪁 🌬️",
+    "ask": "바람에 연을 띄우는 전통놀이는?",
+    "answer": "연날리기",
+    "options": [
+      "연날리기",
+      "공기놀이",
+      "윷놀이"
+    ],
+    "speech": "바람에 연을 띄우는 전통놀이는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:7:0",
+    "subject": "history",
+    "game": 7,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-3.2.webp"
+  },
+  {
+    "visual": "🪵 🎲",
+    "ask": "나무 막대 넷을 던져 하는 놀이는?",
+    "answer": "윷놀이",
+    "options": [
+      "줄넘기",
+      "윷놀이",
+      "연날리기"
+    ],
+    "speech": "나무 막대 넷을 던져 하는 놀이는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:7:1",
+    "subject": "history",
+    "game": 7,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-3.3.webp"
+  },
+  {
+    "visual": "🤼 🏟️",
+    "ask": "모래판에서 힘을 겨루는 전통놀이는?",
+    "answer": "씨름",
+    "options": [
+      "윷놀이",
+      "연날리기",
+      "씨름"
+    ],
+    "speech": "모래판에서 힘을 겨루는 전통놀이는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:7:2",
+    "subject": "history",
+    "game": 7,
+    "unsupported": [
+      "🏟️"
+    ],
+    "scene": "./assets/v13/lesson.history-3.4.webp"
+  },
+  {
+    "visual": "🪨 ✋",
+    "ask": "작은 돌 다섯 개를 가지고 노는 놀이는?",
+    "answer": "공기놀이",
+    "options": [
+      "연날리기",
+      "윷놀이",
+      "공기놀이"
+    ],
+    "speech": "작은 돌 다섯 개를 가지고 노는 놀이는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:7:3",
+    "subject": "history",
+    "game": 7,
+    "unsupported": [],
+    "scene": "./assets/v13/history.gonggi.webp"
+  },
+  {
+    "visual": "🪶 🦶",
+    "ask": "발로 제기를 차는 놀이는?",
+    "answer": "제기차기",
+    "options": [
+      "윷놀이",
+      "제기차기",
+      "씨름"
+    ],
+    "speech": "발로 제기를 차는 놀이는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:7:4",
+    "subject": "history",
+    "game": 7,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-3.5.webp"
+  },
+  {
+    "visual": "🎯 🏺",
+    "ask": "항아리 안에 화살을 던지는 놀이는?",
+    "answer": "투호",
+    "options": [
+      "연날리기",
+      "공기놀이",
+      "투호"
+    ],
+    "speech": "항아리 안에 화살을 던지는 놀이는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:7:5",
+    "subject": "history",
+    "game": 7,
+    "unsupported": [
+      "🎯"
+    ],
+    "scene": "./assets/v13/history.tuho.webp"
+  },
+  {
+    "visual": "👘 🌸",
+    "ask": "명절에 입기도 하는 우리 전통 옷은?",
+    "answer": "한복",
+    "options": [
+      "우주복",
+      "수영복",
+      "한복"
+    ],
+    "speech": "명절에 입기도 하는 우리 전통 옷은?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:8:0",
+    "subject": "history",
+    "game": 8,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-2.4.webp"
+  },
+  {
+    "visual": "🧢 ⚫",
+    "ask": "옛날 선비가 쓰던 검은 모자는?",
+    "answer": "갓",
+    "options": [
+      "안전모",
+      "갓",
+      "왕관"
+    ],
+    "speech": "옛날 선비가 쓰던 검은 모자는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:8:1",
+    "subject": "history",
+    "game": 8,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.3.webp"
+  },
+  {
+    "visual": "🌬️ 🪭",
+    "ask": "더울 때 바람을 일으키는 물건은?",
+    "answer": "부채",
+    "options": [
+      "부채",
+      "장갑",
+      "우산"
+    ],
+    "speech": "더울 때 바람을 일으키는 물건은?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:8:2",
+    "subject": "history",
+    "game": 8,
+    "unsupported": [],
+    "scene": "./assets/v13/lesson.history-1.2.webp"
+  },
+  {
+    "visual": "🥿 🌾",
+    "ask": "옛날에 짚으로 엮어 만든 신발은?",
+    "answer": "짚신",
+    "options": [
+      "장화",
+      "짚신",
+      "스케이트"
+    ],
+    "speech": "옛날에 짚으로 엮어 만든 신발은?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:8:3",
+    "subject": "history",
+    "game": 8,
+    "unsupported": [
+      "🥿"
+    ],
+    "scene": "./assets/v13/history.jipsin.webp"
+  },
+  {
+    "visual": "👑 🏯",
+    "ask": "왕이 머리에 쓰던 것은 무엇일까요?",
+    "answer": "왕관",
+    "options": [
+      "밀짚모자",
+      "헬멧",
+      "왕관"
+    ],
+    "speech": "왕이 머리에 쓰던 것은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:8:4",
+    "subject": "history",
+    "game": 8,
+    "unsupported": [],
+    "scene": "./assets/v13/history.royalcrown.webp"
+  },
+  {
+    "visual": "🧣 🌸 🧵",
+    "ask": "옷을 만드는 데 쓰는 것은 무엇일까요?",
+    "answer": "천",
+    "options": [
+      "나무토막",
+      "천",
+      "돌"
+    ],
+    "speech": "옷을 만드는 데 쓰는 것은 무엇일까요?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:8:5",
+    "subject": "history",
+    "game": 8,
+    "unsupported": [],
+    "scene": "./assets/v13/history.fabric.webp"
+  },
+  {
+    "visual": "🐰 🐢 🏁",
+    "ask": "느린 거북이와 빠른 토끼의 시합 이야기는?",
+    "answer": "토끼와 거북이",
+    "options": [
+      "금도끼 은도끼",
+      "흥부와 놀부",
+      "토끼와 거북이"
+    ],
+    "speech": "느린 거북이와 빠른 토끼의 시합 이야기는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:9:0",
+    "subject": "history",
+    "game": 9,
+    "unsupported": [],
+    "scene": "./assets/v13/story.00.00.webp"
+  },
+  {
+    "visual": "🪓 🌊 ✨",
+    "ask": "나무꾼이 물에 빠뜨린 도끼 이야기의 이름은?",
+    "answer": "금도끼 은도끼",
+    "options": [
+      "토끼와 거북이",
+      "금도끼 은도끼",
+      "혹부리 영감"
+    ],
+    "speech": "나무꾼이 물에 빠뜨린 도끼 이야기의 이름은?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:9:1",
+    "subject": "history",
+    "game": 9,
+    "unsupported": [],
+    "scene": "./assets/v13/story.03.00.webp"
+  },
+  {
+    "visual": "☀️ 🌬️ 🧥",
+    "ask": "외투를 벗기는 시합을 하는 이야기는?",
+    "answer": "해님과 바람",
+    "options": [
+      "의좋은 형제",
+      "해님과 바람",
+      "사자와 생쥐"
+    ],
+    "speech": "외투를 벗기는 시합을 하는 이야기는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:9:2",
+    "subject": "history",
+    "game": 9,
+    "unsupported": [],
+    "scene": "./assets/v13/story.02.00.webp"
+  },
+  {
+    "visual": "🐦 🌱 🎁",
+    "ask": "제비가 박씨를 가져다준 이야기는?",
+    "answer": "흥부와 놀부",
+    "options": [
+      "해님과 바람",
+      "토끼와 거북이",
+      "흥부와 놀부"
+    ],
+    "speech": "제비가 박씨를 가져다준 이야기는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:9:3",
+    "subject": "history",
+    "game": 9,
+    "unsupported": [],
+    "scene": "./assets/v13/story.04.00.webp"
+  },
+  {
+    "visual": "🦁 🐭 🪢",
+    "ask": "작은 생쥐가 사자를 도와주는 이야기는?",
+    "answer": "사자와 생쥐",
+    "options": [
+      "토끼와 거북이",
+      "혹부리 영감",
+      "사자와 생쥐"
+    ],
+    "speech": "작은 생쥐가 사자를 도와주는 이야기는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:9:4",
+    "subject": "history",
+    "game": 9,
+    "unsupported": [],
+    "scene": "./assets/v13/story.01.00.webp"
+  },
+  {
+    "visual": "🐸 🪣 👧",
+    "ask": "두꺼비가 물독을 도와주는 이야기는?",
+    "answer": "콩쥐 팥쥐",
+    "options": [
+      "콩쥐 팥쥐",
+      "사자와 생쥐",
+      "해님과 바람"
+    ],
+    "speech": "두꺼비가 물독을 도와주는 이야기는?",
+    "hint": "🔊 설명을 듣고 천천히 골라요!",
+    "unique": "history:9:5",
+    "subject": "history",
+    "game": 9,
+    "unsupported": [],
+    "scene": "./assets/v13/story.05.00.webp"
+  },
+  {
+    "visual": "⬆️",
+    "ask": "이 화살표는 어느 쪽을 가리킬까요?",
+    "answer": "위",
+    "options": [
+      "위",
+      "오른쪽",
+      "왼쪽"
+    ],
+    "speech": "이 화살표는 어느 쪽을 가리킬까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:0:0",
+    "subject": "coding",
+    "game": 0,
+    "unsupported": [
+      "⬆️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "⬇️",
+    "ask": "이 화살표는 어느 쪽을 가리킬까요?",
+    "answer": "아래",
+    "options": [
+      "위",
+      "아래",
+      "오른쪽"
+    ],
+    "speech": "이 화살표는 어느 쪽을 가리킬까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:0:1",
+    "subject": "coding",
+    "game": 0,
+    "unsupported": [
+      "⬇️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "⬅️",
+    "ask": "이 화살표는 어느 쪽을 가리킬까요?",
+    "answer": "왼쪽",
+    "options": [
+      "오른쪽",
+      "아래",
+      "왼쪽"
+    ],
+    "speech": "이 화살표는 어느 쪽을 가리킬까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:0:2",
+    "subject": "coding",
+    "game": 0,
+    "unsupported": [
+      "⬅️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "➡️",
+    "ask": "이 화살표는 어느 쪽을 가리킬까요?",
+    "answer": "오른쪽",
+    "options": [
+      "왼쪽",
+      "위",
+      "오른쪽"
+    ],
+    "speech": "이 화살표는 어느 쪽을 가리킬까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:0:3",
+    "subject": "coding",
+    "game": 0,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🐯 ⬆️",
+    "ask": "쪼이가 화살표를 따라 어느 쪽으로 갈까요?",
+    "answer": "위",
+    "options": [
+      "오른쪽",
+      "위",
+      "왼쪽"
+    ],
+    "speech": "쪼이가 화살표를 따라 어느 쪽으로 갈까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:0:4",
+    "subject": "coding",
+    "game": 0,
+    "unsupported": [
+      "⬆️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🤖 ⬇️",
+    "ask": "로봇이 화살표를 따라 어느 쪽으로 갈까요?",
+    "answer": "아래",
+    "options": [
+      "왼쪽",
+      "아래",
+      "오른쪽"
+    ],
+    "speech": "로봇이 화살표를 따라 어느 쪽으로 갈까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:0:5",
+    "subject": "coding",
+    "game": 0,
+    "unsupported": [
+      "⬇️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🚗 ➡️",
+    "ask": "자동차가 화살표를 따라 어디로 갈까요?",
+    "answer": "오른쪽",
+    "options": [
+      "아래",
+      "오른쪽",
+      "왼쪽"
+    ],
+    "speech": "자동차가 화살표를 따라 어디로 갈까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:1:0",
+    "subject": "coding",
+    "game": 1,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🚗 ⬅️",
+    "ask": "자동차가 화살표를 따라 어디로 갈까요?",
+    "answer": "왼쪽",
+    "options": [
+      "왼쪽",
+      "아래",
+      "오른쪽"
+    ],
+    "speech": "자동차가 화살표를 따라 어디로 갈까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:1:1",
+    "subject": "coding",
+    "game": 1,
+    "unsupported": [
+      "⬅️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🚗 ⬆️",
+    "ask": "자동차가 화살표를 따라 어디로 갈까요?",
+    "answer": "위",
+    "options": [
+      "위",
+      "오른쪽",
+      "아래"
+    ],
+    "speech": "자동차가 화살표를 따라 어디로 갈까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:1:2",
+    "subject": "coding",
+    "game": 1,
+    "unsupported": [
+      "⬆️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🚗 ⬇️",
+    "ask": "자동차가 화살표를 따라 어디로 갈까요?",
+    "answer": "아래",
+    "options": [
+      "위",
+      "왼쪽",
+      "아래"
+    ],
+    "speech": "자동차가 화살표를 따라 어디로 갈까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:1:3",
+    "subject": "coding",
+    "game": 1,
+    "unsupported": [
+      "⬇️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🚕 ➡️",
+    "ask": "택시가 화살표를 따라 어디로 갈까요?",
+    "answer": "오른쪽",
+    "options": [
+      "위",
+      "왼쪽",
+      "오른쪽"
+    ],
+    "speech": "택시가 화살표를 따라 어디로 갈까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:1:4",
+    "subject": "coding",
+    "game": 1,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🚙 ⬅️",
+    "ask": "파란 자동차가 화살표를 따라 어디로 갈까요?",
+    "answer": "왼쪽",
+    "options": [
+      "왼쪽",
+      "오른쪽",
+      "위"
+    ],
+    "speech": "파란 자동차가 화살표를 따라 어디로 갈까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:1:5",
+    "subject": "coding",
+    "game": 1,
+    "unsupported": [
+      "⬅️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🔴 🔵 🔴 🔵 ?",
+    "ask": "다음에는 어떤 색 동그라미가 올까요?",
+    "answer": "🔴",
+    "options": [
+      "🔴",
+      "🟢",
+      "🔵"
+    ],
+    "speech": "다음에는 어떤 색 동그라미가 올까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:2:0",
+    "subject": "coding",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐ 🌙 ⭐ 🌙 ?",
+    "ask": "다음에 올 그림은 무엇일까요?",
+    "answer": "⭐",
+    "options": [
+      "☀️",
+      "⭐",
+      "🌙"
+    ],
+    "speech": "다음에 올 그림은 무엇일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:2:1",
+    "subject": "coding",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐯 🐰 🐯 🐰 ?",
+    "ask": "다음에 올 동물은 누구일까요?",
+    "answer": "🐯",
+    "options": [
+      "🐯",
+      "🐶",
+      "🐰"
+    ],
+    "speech": "다음에 올 동물은 누구일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:2:2",
+    "subject": "coding",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚗 🚕 🚗 🚕 ?",
+    "ask": "다음에 올 자동차는 어떤 모양일까요?",
+    "answer": "🚗",
+    "options": [
+      "🚙",
+      "🚌",
+      "🚗"
+    ],
+    "speech": "다음에 올 자동차는 어떤 모양일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:2:3",
+    "subject": "coding",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🍎 🍌 🍎 🍌 ?",
+    "ask": "다음에 올 과일은 무엇일까요?",
+    "answer": "🍎",
+    "options": [
+      "🍐",
+      "🍌",
+      "🍎"
+    ],
+    "speech": "다음에 올 과일은 무엇일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:2:4",
+    "subject": "coding",
+    "game": 2,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⬆️ ➡️ ⬆️ ➡️ ?",
+    "ask": "다음에 올 방향은 무엇일까요?",
+    "answer": "⬆️",
+    "options": [
+      "➡️",
+      "⬆️",
+      "⬇️"
+    ],
+    "speech": "다음에 올 방향은 무엇일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:2:5",
+    "subject": "coding",
+    "game": 2,
+    "unsupported": [
+      "⬆️",
+      "➡️",
+      "⬆️",
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "👏 👏",
+    "ask": "박수를 몇 번 치는 명령일까요?",
+    "answer": "두 번",
+    "options": [
+      "두 번",
+      "네 번",
+      "세 번"
+    ],
+    "speech": "박수를 몇 번 치는 명령일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:3:0",
+    "subject": "coding",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👏 👏 👏",
+    "ask": "박수를 몇 번 치는 명령일까요?",
+    "answer": "세 번",
+    "options": [
+      "한 번",
+      "세 번",
+      "네 번"
+    ],
+    "speech": "박수를 몇 번 치는 명령일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:3:1",
+    "subject": "coding",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⬆️ ⬆️ ⬆️ ⬆️",
+    "ask": "위로 몇 칸 움직일까요?",
+    "answer": "네 칸",
+    "options": [
+      "네 칸",
+      "한 칸",
+      "세 칸"
+    ],
+    "speech": "위로 몇 칸 움직일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:3:2",
+    "subject": "coding",
+    "game": 3,
+    "unsupported": [
+      "⬆️",
+      "⬆️",
+      "⬆️",
+      "⬆️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "➡️ ➡️ ➡️",
+    "ask": "오른쪽으로 몇 칸 움직일까요?",
+    "answer": "세 칸",
+    "options": [
+      "한 칸",
+      "네 칸",
+      "세 칸"
+    ],
+    "speech": "오른쪽으로 몇 칸 움직일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:3:3",
+    "subject": "coding",
+    "game": 3,
+    "unsupported": [
+      "➡️",
+      "➡️",
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "⭐ ⭐ ⭐ ⭐ ⭐",
+    "ask": "별 블록이 몇 개 있을까요?",
+    "answer": "다섯 개",
+    "options": [
+      "다섯 개",
+      "세 개",
+      "네 개"
+    ],
+    "speech": "별 블록이 몇 개 있을까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:3:4",
+    "subject": "coding",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐯 🐯",
+    "ask": "호랑이 그림이 몇 번 반복될까요?",
+    "answer": "두 번",
+    "options": [
+      "두 번",
+      "세 번",
+      "한 번"
+    ],
+    "speech": "호랑이 그림이 몇 번 반복될까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:3:5",
+    "subject": "coding",
+    "game": 3,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔴 🔴 🔵 🔴",
+    "ask": "서로 다른 색 동그라미는 무엇일까요?",
+    "answer": "🔵",
+    "options": [
+      "🟢",
+      "🔵",
+      "🔴"
+    ],
+    "speech": "서로 다른 색 동그라미는 무엇일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:4:0",
+    "subject": "coding",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🐰 🐰 🐯 🐰",
+    "ask": "다른 동물 하나는 누구일까요?",
+    "answer": "🐯",
+    "options": [
+      "🐰",
+      "🐻",
+      "🐯"
+    ],
+    "speech": "다른 동물 하나는 누구일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:4:1",
+    "subject": "coding",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⬆️ ⬆️ ⬇️ ⬆️",
+    "ask": "다른 방향 하나는 무엇일까요?",
+    "answer": "⬇️",
+    "options": [
+      "⬅️",
+      "➡️",
+      "⬇️"
+    ],
+    "speech": "다른 방향 하나는 무엇일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:4:2",
+    "subject": "coding",
+    "game": 4,
+    "unsupported": [
+      "⬆️",
+      "⬆️",
+      "⬇️",
+      "⬆️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🍎 🍎 🍌 🍎",
+    "ask": "다른 과일 하나는 무엇일까요?",
+    "answer": "🍌",
+    "options": [
+      "🍌",
+      "🍇",
+      "🍓"
+    ],
+    "speech": "다른 과일 하나는 무엇일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:4:3",
+    "subject": "coding",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐ ⭐ 🌙 ⭐",
+    "ask": "다른 하늘 그림 하나는 무엇일까요?",
+    "answer": "🌙",
+    "options": [
+      "☀️",
+      "☁️",
+      "🌙"
+    ],
+    "speech": "다른 하늘 그림 하나는 무엇일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:4:4",
+    "subject": "coding",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🚗 🚗 🚲 🚗",
+    "ask": "다른 탈것 하나는 무엇일까요?",
+    "answer": "🚲",
+    "options": [
+      "🚗",
+      "🚌",
+      "🚲"
+    ],
+    "speech": "다른 탈것 하나는 무엇일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:4:5",
+    "subject": "coding",
+    "game": 4,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🤖 ➡️ 🌳",
+    "ask": "로봇이 화살표를 따라가면 무엇을 만날까요?",
+    "answer": "나무",
+    "options": [
+      "나무",
+      "별",
+      "집"
+    ],
+    "speech": "로봇이 화살표를 따라가면 무엇을 만날까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:5:0",
+    "subject": "coding",
+    "game": 5,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🤖 ⬆️ ⭐",
+    "ask": "로봇이 화살표를 따라가면 무엇을 만날까요?",
+    "answer": "별",
+    "options": [
+      "별",
+      "꽃",
+      "나무"
+    ],
+    "speech": "로봇이 화살표를 따라가면 무엇을 만날까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:5:1",
+    "subject": "coding",
+    "game": 5,
+    "unsupported": [
+      "⬆️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🤖 ⬅️ 🏠",
+    "ask": "로봇이 화살표를 따라가면 무엇을 만날까요?",
+    "answer": "집",
+    "options": [
+      "나무",
+      "집",
+      "풍선"
+    ],
+    "speech": "로봇이 화살표를 따라가면 무엇을 만날까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:5:2",
+    "subject": "coding",
+    "game": 5,
+    "unsupported": [
+      "⬅️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🤖 ⬇️ 🎈",
+    "ask": "로봇이 화살표를 따라가면 무엇을 만날까요?",
+    "answer": "풍선",
+    "options": [
+      "꽃",
+      "풍선",
+      "나무"
+    ],
+    "speech": "로봇이 화살표를 따라가면 무엇을 만날까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:5:3",
+    "subject": "coding",
+    "game": 5,
+    "unsupported": [
+      "⬇️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🐯 ➡️ 🌼",
+    "ask": "쪼이가 화살표를 따라가면 무엇을 만날까요?",
+    "answer": "꽃",
+    "options": [
+      "별",
+      "꽃",
+      "집"
+    ],
+    "speech": "쪼이가 화살표를 따라가면 무엇을 만날까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:5:4",
+    "subject": "coding",
+    "game": 5,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🐯 ⬆️ 🌈",
+    "ask": "쪼이가 화살표를 따라가면 무엇을 만날까요?",
+    "answer": "무지개",
+    "options": [
+      "나무",
+      "별",
+      "무지개"
+    ],
+    "speech": "쪼이가 화살표를 따라가면 무엇을 만날까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:5:5",
+    "subject": "coding",
+    "game": 5,
+    "unsupported": [
+      "⬆️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🌱 💧 🌼",
+    "ask": "씨앗을 심은 다음 꽃이 자라도록 무엇을 줄까요?",
+    "answer": "물",
+    "options": [
+      "물",
+      "모자",
+      "장난감"
+    ],
+    "speech": "씨앗을 심은 다음 꽃이 자라도록 무엇을 줄까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:6:0",
+    "subject": "coding",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👐 🧼 💧",
+    "ask": "손을 씻을 때 손에 바르는 것은?",
+    "answer": "비누",
+    "options": [
+      "공책",
+      "비누",
+      "모래"
+    ],
+    "speech": "손을 씻을 때 손에 바르는 것은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:6:1",
+    "subject": "coding",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🦷 🪥 ✨",
+    "ask": "이를 닦을 때 쓰는 물건은 무엇일까요?",
+    "answer": "칫솔",
+    "options": [
+      "칫솔",
+      "숟가락",
+      "빗"
+    ],
+    "speech": "이를 닦을 때 쓰는 물건은 무엇일까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:6:2",
+    "subject": "coding",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "👟 🚪 🚶",
+    "ask": "밖에 나가기 전에 발에 신는 것은?",
+    "answer": "신발",
+    "options": [
+      "신발",
+      "모자",
+      "수건"
+    ],
+    "speech": "밖에 나가기 전에 발에 신는 것은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:6:3",
+    "subject": "coding",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🥣 🥄 😋",
+    "ask": "밥을 먹을 때 사용하는 물건은?",
+    "answer": "숟가락",
+    "options": [
+      "숟가락",
+      "연필",
+      "칫솔"
+    ],
+    "speech": "밥을 먹을 때 사용하는 물건은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:6:4",
+    "subject": "coding",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "📚 👀 💭",
+    "ask": "책을 읽을 때 사용하는 몸의 부분은?",
+    "answer": "눈",
+    "options": [
+      "눈",
+      "무릎",
+      "발"
+    ],
+    "speech": "책을 읽을 때 사용하는 몸의 부분은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:6:5",
+    "subject": "coding",
+    "game": 6,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🌧️ ➡️ ☂️",
+    "ask": "비가 오면 무엇을 챙겨야 할까요?",
+    "answer": "우산",
+    "options": [
+      "선글라스",
+      "부채",
+      "우산"
+    ],
+    "speech": "비가 오면 무엇을 챙겨야 할까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:7:0",
+    "subject": "coding",
+    "game": 7,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "☀️ ➡️ 🧢",
+    "ask": "햇빛이 강할 때 머리에 쓰는 것은?",
+    "answer": "모자",
+    "options": [
+      "목도리",
+      "장화",
+      "모자"
+    ],
+    "speech": "햇빛이 강할 때 머리에 쓰는 것은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:7:1",
+    "subject": "coding",
+    "game": 7,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "❄️ ➡️ 🧥",
+    "ask": "눈이 오고 추울 때 입는 옷은?",
+    "answer": "외투",
+    "options": [
+      "수영복",
+      "외투",
+      "반팔 티"
+    ],
+    "speech": "눈이 오고 추울 때 입는 옷은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:7:2",
+    "subject": "coding",
+    "game": 7,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "😴 ➡️ 🛏️",
+    "ask": "졸릴 때 쉬기 좋은 곳은?",
+    "answer": "침대",
+    "options": [
+      "운동장",
+      "침대",
+      "수영장"
+    ],
+    "speech": "졸릴 때 쉬기 좋은 곳은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:7:3",
+    "subject": "coding",
+    "game": 7,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "👐 🧼 ➡️ 💧",
+    "ask": "손에 비누를 묻힌 다음 무엇으로 씻을까요?",
+    "answer": "물",
+    "options": [
+      "물",
+      "우유",
+      "모래"
+    ],
+    "speech": "손에 비누를 묻힌 다음 무엇으로 씻을까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:7:4",
+    "subject": "coding",
+    "game": 7,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🚦 🔴 ➡️ 🛑",
+    "ask": "신호등이 빨간색일 때 어떻게 할까요?",
+    "answer": "멈춰요",
+    "options": [
+      "뛰어요",
+      "멈춰요",
+      "건너요"
+    ],
+    "speech": "신호등이 빨간색일 때 어떻게 할까요?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:7:5",
+    "subject": "coding",
+    "game": 7,
+    "unsupported": [
+      "➡️"
+    ],
+    "scene": null
+  },
+  {
+    "visual": "🔺",
+    "ask": "이 블록의 모양 이름은?",
+    "answer": "세모",
+    "options": [
+      "네모",
+      "동그라미",
+      "세모"
+    ],
+    "speech": "이 블록의 모양 이름은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:8:0",
+    "subject": "coding",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🟦",
+    "ask": "이 블록의 모양 이름은?",
+    "answer": "네모",
+    "options": [
+      "세모",
+      "네모",
+      "별"
+    ],
+    "speech": "이 블록의 모양 이름은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:8:1",
+    "subject": "coding",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔴",
+    "ask": "이 블록의 모양 이름은?",
+    "answer": "동그라미",
+    "options": [
+      "네모",
+      "세모",
+      "동그라미"
+    ],
+    "speech": "이 블록의 모양 이름은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:8:2",
+    "subject": "coding",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "⭐",
+    "ask": "이 블록의 모양 이름은?",
+    "answer": "별",
+    "options": [
+      "하트",
+      "세모",
+      "별"
+    ],
+    "speech": "이 블록의 모양 이름은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:8:3",
+    "subject": "coding",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "💛",
+    "ask": "이 블록의 모양 이름은?",
+    "answer": "하트",
+    "options": [
+      "세모",
+      "별",
+      "하트"
+    ],
+    "speech": "이 블록의 모양 이름은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:8:4",
+    "subject": "coding",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  },
+  {
+    "visual": "🔶",
+    "ask": "이 블록의 모양 이름은?",
+    "answer": "마름모",
+    "options": [
+      "마름모",
+      "네모",
+      "동그라미"
+    ],
+    "speech": "이 블록의 모양 이름은?",
+    "hint": "🔊 화살표와 그림을 차근차근 살펴봐요!",
+    "unique": "coding:8:5",
+    "subject": "coding",
+    "game": 8,
+    "unsupported": [],
+    "scene": null
+  }
+]
