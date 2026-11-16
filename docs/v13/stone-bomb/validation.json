@@ -1,0 +1,22 @@
+[
+  {
+    "view": "mobile",
+    "oldEasyShotFails": true,
+    "farBlastNoDamage": true,
+    "finiteAmmoLoss": true,
+    "oneBlastPerShot": true,
+    "aimedRepeatedShotsWin": true,
+    "retryAndNextPreserveTimer": true,
+    "capAndLayouts": true
+  },
+  {
+    "view": "tablet",
+    "oldEasyShotFails": true,
+    "farBlastNoDamage": true,
+    "finiteAmmoLoss": true,
+    "oneBlastPerShot": true,
+    "aimedRepeatedShotsWin": true,
+    "retryAndNextPreserveTimer": true,
+    "capAndLayouts": true
+  }
+]

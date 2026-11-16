@@ -1,0 +1,24 @@
+[
+  {
+    "view": "mobile",
+    "wrongKeyRejected": true,
+    "books": 4,
+    "sceneImages": 18,
+    "actualAudioStarts": 24,
+    "nativeKoreanCalls": 0,
+    "pauseAndComprehension": true,
+    "lockClearsContent": true,
+    "lockCancelsPendingDecrypt": true
+  },
+  {
+    "view": "tablet",
+    "wrongKeyRejected": true,
+    "books": 4,
+    "sceneImages": 18,
+    "actualAudioStarts": 24,
+    "nativeKoreanCalls": 0,
+    "pauseAndComprehension": true,
+    "lockClearsContent": true,
+    "lockCancelsPendingDecrypt": true
+  }
+]

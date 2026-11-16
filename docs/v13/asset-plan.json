@@ -11116,6 +11116,104 @@
       "sha256": "624fd70ae2b7edc074d01faaa961346bb3b06c754eda74555ee747d1f39c55cf",
       "provenance": "Original built-in image_gen exec-d263b64d-2009-4bbf-aa01-baf7d0c59055.png",
       "reviewNote": "Transparent revised atlas inspected; alpha-zero background; tight object exports align artwork with physical bodies."
+    },
+    {
+      "id": "sling.stone",
+      "path": "assets/v13/sling.stone.webp",
+      "alt": "돌 요새 stone",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        483,
+        169
+      ],
+      "sha256": "7bd9e350b896fab58e002a5e86562a74109a2d66e41b422846c0aacc9772f44a",
+      "provenance": "Built-in image_gen exec-c7eaeb0c-2bd2-485e-8a42-8f3bcee37b4d.png",
+      "reviewNote": "Original stone/crack/bomb/explosion/armor atlas visually inspected; alpha-zero negative space."
+    },
+    {
+      "id": "sling.column",
+      "path": "assets/v13/sling.column.webp",
+      "alt": "돌 요새 column",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        504,
+        454
+      ],
+      "sha256": "28ef0e83ed700ba3f9009428566c4e5578c7a734af3e9bdfdb3f3cac5be19ed3",
+      "provenance": "Built-in image_gen exec-c7eaeb0c-2bd2-485e-8a42-8f3bcee37b4d.png",
+      "reviewNote": "Original stone/crack/bomb/explosion/armor atlas visually inspected; alpha-zero negative space."
+    },
+    {
+      "id": "sling.cracked",
+      "path": "assets/v13/sling.cracked.webp",
+      "alt": "돌 요새 cracked",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        485,
+        171
+      ],
+      "sha256": "0c5038915120299ea18edc1127ba03f2cbd0540fadfc066b8584baba00bb0d3e",
+      "provenance": "Built-in image_gen exec-c7eaeb0c-2bd2-485e-8a42-8f3bcee37b4d.png",
+      "reviewNote": "Original stone/crack/bomb/explosion/armor atlas visually inspected; alpha-zero negative space."
+    },
+    {
+      "id": "sling.bomb",
+      "path": "assets/v13/sling.bomb.webp",
+      "alt": "돌 요새 bomb",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        457,
+        456
+      ],
+      "sha256": "8bc20b8501e4401e1bda2b7af848f5d969670515553a60f7bf331184592d1f10",
+      "provenance": "Built-in image_gen exec-c7eaeb0c-2bd2-485e-8a42-8f3bcee37b4d.png",
+      "reviewNote": "Original stone/crack/bomb/explosion/armor atlas visually inspected; alpha-zero negative space."
+    },
+    {
+      "id": "sling.blast",
+      "path": "assets/v13/sling.blast.webp",
+      "alt": "돌 요새 blast",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        454,
+        458
+      ],
+      "sha256": "745091fc29306a10142f0d01e7b25c2bbc389a60c143986588ed07ee369e455f",
+      "provenance": "Built-in image_gen exec-c7eaeb0c-2bd2-485e-8a42-8f3bcee37b4d.png",
+      "reviewNote": "Original stone/crack/bomb/explosion/armor atlas visually inspected; alpha-zero negative space."
+    },
+    {
+      "id": "sling.armor",
+      "path": "assets/v13/sling.armor.webp",
+      "alt": "돌 요새 armor",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        468,
+        465
+      ],
+      "sha256": "e8b124d6582980eda1963f702dbe3f5a730b06a71beb698a9d25c8edfc0b2215",
+      "provenance": "Built-in image_gen exec-c7eaeb0c-2bd2-485e-8a42-8f3bcee37b4d.png",
+      "reviewNote": "Original stone/crack/bomb/explosion/armor atlas visually inspected; alpha-zero negative space."
+    },
+    {
+      "id": "sling.stone-menu",
+      "path": "assets/v13/sling.stone-menu.webp",
+      "alt": "폭탄과 돌 요새에 도전하는 별빛 새총",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "sha256": "f85bd142cd59bd68026a6027d6f9b0f9dd5c5e0f4f33a4ab9965da3016135c32",
+      "provenance": "Built-in image_gen exec-6e5c30ec-b4ca-47c9-84bd-87fbb2f97048.png",
+      "reviewNote": "Actual new stone fortress and toy bomb cover visually reviewed."
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"

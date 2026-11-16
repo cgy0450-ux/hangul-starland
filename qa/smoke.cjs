@@ -321,3 +321,4 @@ for(const file of ['coloring.js','coloring-data.js','vehicles.js','play-settings
 
 require('./audio/integrity.cjs');
 require('./audio/autoplay.cjs');
+require('./v13/family_integrity.cjs');

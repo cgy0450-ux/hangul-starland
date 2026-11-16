@@ -1,0 +1,12 @@
+{
+  "books": 4,
+  "pages": 24,
+  "illustratedScenes": 18,
+  "illustrationsPending": 6,
+  "actualDecodedAudioFiles": 24,
+  "audioSeconds": 528.48,
+  "keyInPublicTextFiles": false,
+  "plaintextPassagesInPublicTextFiles": false,
+  "wrongKeyAndTamperingRejected": true,
+  "ciphertextSHA256": "8844480c88d7b00d21edf3b2c0fd68f21cf9afef824ea3c740bcee0f0ad5d6f7"
+}
