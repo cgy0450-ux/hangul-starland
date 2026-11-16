@@ -1,0 +1,27 @@
+{
+  "commit": "37b84c1",
+  "workflows": [
+    {
+      "id": "43866282128",
+      "workflowName": "Joiland JavaScript QA",
+      "runNumber": 347,
+      "state": {
+        "status": "WORKFLOW_RUN_STATUS_COMPLETED",
+        "conclusion": "WORKFLOW_RUN_CONCLUSION_SUCCESS"
+      },
+      "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43866282128"
+    },
+    {
+      "id": "43866282079",
+      "workflowName": "pages-build-deployment",
+      "runNumber": 380,
+      "state": {
+        "status": "WORKFLOW_RUN_STATUS_COMPLETED",
+        "conclusion": "WORKFLOW_RUN_CONCLUSION_SUCCESS"
+      },
+      "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/43866282079"
+    }
+  ],
+  "published": "https://cgy0450-ux.github.io/hangul-starland/slingshot.html",
+  "verification": "Remote main read back; Pages title SHA matched, QA and Pages successful. Browser emulation not physical-device or direct live-site visual verification."
+}
