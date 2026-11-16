@@ -1,0 +1,26 @@
+[
+  {
+    "view": "mobile",
+    "manualEndStays": true,
+    "checkedEndAdvances": true,
+    "pauseBlocksAdvance": true,
+    "uncheckCancelsAdvance": true,
+    "staleEventsIgnored": true,
+    "errorDoesNotAdvance": true,
+    "preferencePersists": true,
+    "lastPageDiscussion": true,
+    "oldReadToggleRemoved": true
+  },
+  {
+    "view": "tablet",
+    "manualEndStays": true,
+    "checkedEndAdvances": true,
+    "pauseBlocksAdvance": true,
+    "uncheckCancelsAdvance": true,
+    "staleEventsIgnored": true,
+    "errorDoesNotAdvance": true,
+    "preferencePersists": true,
+    "lastPageDiscussion": true,
+    "oldReadToggleRemoved": true
+  }
+]

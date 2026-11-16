@@ -1,12 +1,13 @@
 {
   "books": 4,
-  "pages": 24,
-  "illustratedScenes": 18,
-  "illustrationsPending": 6,
-  "actualDecodedAudioFiles": 24,
-  "audioSeconds": 528.48,
+  "pages": 40,
+  "illustratedScenes": 40,
+  "illustrationsPending": 0,
+  "actualDecodedAudioFiles": 40,
+  "audioSeconds": 994.46,
   "keyInPublicTextFiles": false,
   "plaintextPassagesInPublicTextFiles": false,
   "wrongKeyAndTamperingRejected": true,
-  "ciphertextSHA256": "8844480c88d7b00d21edf3b2c0fd68f21cf9afef824ea3c740bcee0f0ad5d6f7"
+  "ciphertextSHA256": "44c16588c4c1ce25d26f5beb44f0df34a3f42bc8bd602012448c12b97fc9746f",
+  "distinctIllustrations": 40
 }
