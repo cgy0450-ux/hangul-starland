@@ -207,3 +207,6 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 
 - Follow-up: compare the loaded page release as well as the active worker, so a background worker update cannot make an old open page claim to be current. Update-available/offline test originally used a route intercepted by the worker; corrected to a controlled remote-version fetch response and rerun successfully at both viewports.
 - Matching prompts now ask the actual curriculum question (for example, identifying a traditional game from its description), rather than displaying the answer name. Six actual offline contextual matching flows and five-question completion pass with the original correct-choice values.
+
+### v13.9 production verification
+- Main SHA `78af434f52c4e060044f87b79d27c34476ed4455`; Pages #379 (43829449052) and QA #346 (43829449565) both SUCCESS. Pages title matches release SHA and published output URL present. Local final matching/update-state checks and 72 browser cases passed. Evidence: docs/v13/matching-update.

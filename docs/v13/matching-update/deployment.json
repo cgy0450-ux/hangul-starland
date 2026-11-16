@@ -1,0 +1,14 @@
+{
+  "commit": "78af434f52c4e060044f87b79d27c34476ed4455",
+  "pages": {
+    "run": "43829449052",
+    "number": 379,
+    "status": "success"
+  },
+  "qa": {
+    "run": "43829449565",
+    "number": 346,
+    "status": "success"
+  },
+  "verification": "Remote main read back, Pages SHA title matched, published output URL present; both workflows successful. Physical-device/direct published-site visual not claimed."
+}
