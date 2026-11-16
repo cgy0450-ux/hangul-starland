@@ -70,7 +70,7 @@ const count=A.playedToday(),report=A.report(),goal=(A.profile().dailyMinutes||12
 const practiced=report.subject.filter(s=>s.attempts).length;$("resultSummary").textContent=practiced?practiced+"개 과목에서 배운 내용을 기억하고 있어요.":"첫 진단부터 천천히 시작해 볼까요?";
 $("subjects").innerHTML=C.subjects.map(s=>'<a class="subject" data-subject="'+s.id+'" href="./journey.html?subject='+encodeURIComponent(s.id)+'" style="--bg:'+s.bg+';--edge:'+s.accent+'66"><span class="sicon">'+s.symbol+'</span><img src="./assets/v13/subject.'+s.id+'.webp" loading="lazy" width="1536" height="1024" alt="'+s.name+' 배우는 호랑이 쪼이"><span><strong>'+s.name+'</strong><br><small>5문제씩 한 걸음씩</small></span></a>').join("");
 const choices=A.recommend(null,goal);$("recs").innerHTML=choices.map(x=>'<a class="rec" href="./journey.html?subject='+x.subject.id+'&lesson='+x.lesson.id+'"><strong>'+x.subject.name+'</strong><small>'+x.module.title+' · '+x.lesson.title+'</small></a>').join("");
-$("refresh").onclick=()=>{try{navigator.serviceWorker?.getRegistration().then(r=>r?.update()).finally(()=>location.reload())}catch(e){location.reload()}};
+
 if("serviceWorker"in navigator)navigator.serviceWorker.register("./sw.js").catch(()=>{});
 })();
-</script></body></html>
+</script><script src="./app-update.js?v=13.9"></script></body></html>

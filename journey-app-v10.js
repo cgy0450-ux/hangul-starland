@@ -85,7 +85,7 @@ function optionsRender(options){const parent=$("answers");parent.replaceChildren
  const distinct=[...new Set(options)];for(const [i,opt] of distinct.entries()){
  const wrap=el("div","choice-wrap"),b=el("button","choice",opt),hear=el("button","choice-hear","🔊");
  b.type="button";b.dataset.opt=opt;b.style.setProperty("--choice",["#e6f7ff","#fff2d4","#f8e8ff","#e7ffe9"][i%4]);
- const scene=window.JoyiSceneCatalog?.byVisual(subject.id,opt);if(scene){const img=new Image();img.src=scene;img.alt=window.JoyiSceneCatalog.rows.find(r=>r.subject===subject.id&&r.visual===opt)?.answer||'선택할 상황 그림';img.className='scene-choice';b.textContent='';b.append(img)}
+ const historic={세종대왕:"sejong",이순신:"yisunshin",장영실:"jang",신사임당:"saimdang",허준:"heojun",유관순:"yugwansun"};const name=subject.modules.flatMap(m=>m.items).find(q=>q.visual===opt)?.answer;const scene=window.JoyiSceneCatalog?.byVisual(subject.id,opt)||(subject.id==="history"&&historic[name]?"./assets/v13/history."+historic[name]+".webp":null);if(scene){const img=new Image();img.src=scene;img.alt=window.JoyiSceneCatalog.rows.find(r=>r.subject===subject.id&&r.visual===opt)?.answer||'선택할 상황 그림';img.className='scene-choice';b.textContent='';b.append(img)}
  hear.type="button";hear.dataset.voice=opt;hear.setAttribute("aria-label","보기 소리 듣기");
  wrap.append(b,hear);parent.append(wrap)
 }}
@@ -176,7 +176,7 @@ function render(){
  }else if(mode==="match"){
    const m=run.module;const rivals=m.items.filter(x=>x.answer!==q.answer&&x.visual!==q.visual);
    pictureOptions=A.shuffle([q,...A.shuffle(rivals,q.answer).slice(0,2)],q.answer+A.day()).map(x=>({visual:x.visual,answer:x.answer}));
-   $("visual").textContent="🔍";$("question").textContent="'"+q.answer+"'에 해당하는 그림을 골라요";
+   $("visual").dataset.sceneSource="";$("visual").classList.add("hidden");$("question").textContent="'"+q.answer+"'에 해당하는 그림을 골라요";
    optionsRender(pictureOptions.map(x=>x.visual));
  }else optionsRender(quizOptions(q));
  if(mode==="explore"||mode==="remember"){

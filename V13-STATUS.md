@@ -199,3 +199,8 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 - Remote main SHA read back: `08bedd641b59495a8be66230526302d4653d74b0`. Pages #376 SUCCESS (1m 11s), run 43826513895; JavaScript QA #343 SUCCESS (1m 10s), run 43826513877. Pages title matches release commit and successful output contains published URL.
 - Final targeted history tool-function rerun: fourteen phone/tablet renders/answers. Independent semantic assertions tie rain gauge/fan/mortar/spinning/lamp actions to actual correct tool scenes. Final smoke and 72 browser cases pass.
 - Evidence: `docs/v13/scene-audit/deployment.json` and `summary.json`. GitHub PR GraphQL returned Forbidden; existing branch and main pushes succeeded under explicit user authorization. Direct public-site HTTP still returns cloud CONNECT 403; no live visual or physical-device verification claimed.
+
+## v13.9 — meaningful picture matching and visible updates
+- Picture matching hides the answer scene and its empty container; learners select the scene from the named/spoken concept. Historical figure choices use the existing accurate contextual portraits. Exact choice values and voice remain intact.
+- Replaced blind refresh with server/active-worker version comparison, update-available action, current-version message, checking/applying overlay, completion notice and offline/error recovery. Handles an update already activated between checking and applying. Progress storage untouched.
+- PASS smoke and 72 browser cases. Actual phone/tablet matching and installed-worker current-version checks; update-available and offline states checked. Screenshots in docs/v13/matching-update. Physical-device/public-site visual tests not claimed. Deployment verification follows separately.
