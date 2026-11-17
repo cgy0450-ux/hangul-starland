@@ -20,3 +20,9 @@ body:has(.ww-room) .mainpanel{padding:8px!important;justify-content:stretch!impo
 @media(min-width:650px) and (min-height:750px){.ww-room{grid-template-rows:56px 28px minmax(0,1fr) 30px 56px;gap:8px}.ww-stage{max-width:690px}.ww-surface{left:5%;right:5%}.ww-colors button{width:44px;height:44px}.ww-head h2{font-size:36px!important}}
 @media(orientation:landscape) and (max-height:650px){.ww-room{grid-template-rows:42px 18px minmax(0,1fr) 20px 40px;gap:2px}.ww-stage{max-width:none}.ww-object{right:55%;align-items:center}.ww-object img{width:100%;height:100%}.ww-surface,.ww-hippo .ww-surface{left:46%;right:2%;top:6%;bottom:6%;height:88%}.ww-hippo .ww-object img{object-fit:contain}.ww-cell{max-height:100%;aspect-ratio:1}.ww-head a,.ww-head button{min-height:38px}.ww-colors button{min-height:32px;width:32px;height:32px}.ww-toolbar button{min-height:36px}.ww-hint{line-height:20px}}
 @media(prefers-reduced-motion:reduce){.ww-guide .direction-preview{animation:none}}
+
+/* JOY-003: reserve tool rows inside the available main-panel content box. */
+body:has(.ww-room) .mainpanel{display:grid!important;grid-template-rows:minmax(0,1fr)!important;align-content:stretch!important}
+.ww-room{height:auto;min-height:0;max-height:100%;grid-template-rows:48px 24px minmax(0,1fr) 24px 48px}
+.ww-toolbar{height:48px;flex-shrink:0;overflow:visible;position:relative;z-index:3}.ww-cell{width:100%;width:min(100%,100cqh)}
+.ww-toolbar .ww-undo{max-width:80px;flex-shrink:1}.ww-head button:disabled{opacity:.6}

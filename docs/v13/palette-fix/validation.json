@@ -1,0 +1,32 @@
+[
+  {
+    "width": 360,
+    "height": 640,
+    "sixColorsTappable": true,
+    "controlsInBounds": true
+  },
+  {
+    "width": 360,
+    "height": 740,
+    "sixColorsTappable": true,
+    "controlsInBounds": true
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "sixColorsTappable": true,
+    "controlsInBounds": true
+  },
+  {
+    "width": 412,
+    "height": 915,
+    "sixColorsTappable": true,
+    "controlsInBounds": true
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "sixColorsTappable": true,
+    "controlsInBounds": true
+  }
+]
