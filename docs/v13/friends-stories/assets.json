@@ -1,0 +1,230 @@
+{
+  "publishedBooks": 2,
+  "illustrations": 20,
+  "narratedScenes": 20,
+  "pendingBooks": [
+    "Zootopia: image generation rejected"
+  ],
+  "assets": [
+    {
+      "path": "assets/story-friends/pororo-01.mp3",
+      "sha256": "cd459c26c7af808e5b8eb6e2ff642cfe6c9392477745e78a0cf2e5162edc78c0",
+      "seconds": 14.232
+    },
+    {
+      "path": "assets/story-friends/pororo-01.webp",
+      "sha256": "7f43f622f9777b4733cce8e2de467170f0e481f9c98d947f27561ffff3d05fbe",
+      "width": 504,
+      "height": 303
+    },
+    {
+      "path": "assets/story-friends/pororo-02.mp3",
+      "sha256": "ce6caf59b8684862932a35535e94110d3e91725eeb1a447783573884081ec68d",
+      "seconds": 14.976
+    },
+    {
+      "path": "assets/story-friends/pororo-02.webp",
+      "sha256": "810bdb936e6229bf5acb9cf4896339a16072cac4ac9475d28cf9bcf4798a4942",
+      "width": 504,
+      "height": 303
+    },
+    {
+      "path": "assets/story-friends/pororo-03.mp3",
+      "sha256": "7a4dc87d5249f3a3425231ef1cf5b5818f06f6e727c3cf9a60fa0c4b12df93af",
+      "seconds": 14.88
+    },
+    {
+      "path": "assets/story-friends/pororo-03.webp",
+      "sha256": "9e548398df1d0dee7a114dfb90cf8cda64874a1d858dc6b1d96d75d0b28a3fa5",
+      "width": 504,
+      "height": 289
+    },
+    {
+      "path": "assets/story-friends/pororo-04.mp3",
+      "sha256": "60d6eb6b12c800fd5e93278de2e87930398495ee49db44476485788887cfe9bd",
+      "seconds": 14.832
+    },
+    {
+      "path": "assets/story-friends/pororo-04.webp",
+      "sha256": "1b450582d74bf8f08de0aedcd4cc3123bb1ea48a84d17743b2ac7df058319989",
+      "width": 504,
+      "height": 289
+    },
+    {
+      "path": "assets/story-friends/pororo-05.mp3",
+      "sha256": "9869e39e18b63f5b2b69ee1f93f6ee5c18f9e3af1f98a0e1a9cf7b5288431e4f",
+      "seconds": 15.168
+    },
+    {
+      "path": "assets/story-friends/pororo-05.webp",
+      "sha256": "d1a6c9679301cb46a1abc9b484934d672e03f113d147714bef2ab7f9e05bfdf8",
+      "width": 504,
+      "height": 289
+    },
+    {
+      "path": "assets/story-friends/pororo-06.mp3",
+      "sha256": "9136eb3d32df37a3ba8f46a4ee35985bacc559eba381a6a096748356981cfa36",
+      "seconds": 14.304
+    },
+    {
+      "path": "assets/story-friends/pororo-06.webp",
+      "sha256": "42ba19be9df12e6b0309d58a4bb8be9817fd5184ed780a94236a69303bea5f29",
+      "width": 504,
+      "height": 289
+    },
+    {
+      "path": "assets/story-friends/pororo-07.mp3",
+      "sha256": "78aba1a1cc960d9fb99b39a45aa09c711ef50d7413b679c31450f7c8f3dbdb97",
+      "seconds": 14.568
+    },
+    {
+      "path": "assets/story-friends/pororo-07.webp",
+      "sha256": "e380640ccbb133232786569293d1490ea8d4d61dc5bf9f95e315493ea5dc7841",
+      "width": 504,
+      "height": 273
+    },
+    {
+      "path": "assets/story-friends/pororo-08.mp3",
+      "sha256": "211f9eb28665b355dc892b8da3ee63655c5a4c563b4a16939b0f22b7e56eb4f9",
+      "seconds": 14.376
+    },
+    {
+      "path": "assets/story-friends/pororo-08.webp",
+      "sha256": "1be7d28606eb622c3a263a95b466cc8b233def1334983f46ac3a57787d8513e7",
+      "width": 504,
+      "height": 273
+    },
+    {
+      "path": "assets/story-friends/pororo-09.mp3",
+      "sha256": "08f12eaa8aa5cfc06ee79d6883f35c9728deb50b96b4296bccecb80d059bb9f3",
+      "seconds": 16.032
+    },
+    {
+      "path": "assets/story-friends/pororo-09.webp",
+      "sha256": "ccb7b2104efa81634304354f60bc9494312fe713d6b8d69c50c8d06d8e1e8746",
+      "width": 504,
+      "height": 332
+    },
+    {
+      "path": "assets/story-friends/pororo-10.mp3",
+      "sha256": "78f1555e6a9c7d95cdb6e0dcf1cb4316b0eddc2c457c572ce107c367929be7c5",
+      "seconds": 15.816
+    },
+    {
+      "path": "assets/story-friends/pororo-10.webp",
+      "sha256": "9f4522918439c084e47368ba8ccbf918a588453ad26dd000727c8ee154e94665",
+      "width": 504,
+      "height": 332
+    },
+    {
+      "path": "assets/story-friends/tayo-01.mp3",
+      "sha256": "265709cbc1e873c0b7c276166a12cec0af566ccedcd94c9442fb287de6e6e81a",
+      "seconds": 15.312
+    },
+    {
+      "path": "assets/story-friends/tayo-01.webp",
+      "sha256": "3ef993bdbb7d6a22f7de39363320917d2d4619fe779635bae31be31cec8c88e5",
+      "width": 504,
+      "height": 295
+    },
+    {
+      "path": "assets/story-friends/tayo-02.mp3",
+      "sha256": "257a80cee7855a229a85394671d665727fb45fe7147f43fd3fcd9a10fc157b33",
+      "seconds": 13.632
+    },
+    {
+      "path": "assets/story-friends/tayo-02.webp",
+      "sha256": "9e873361f0a32e9016d1f2f4eabc1aa62315b18fcb39a09697be2e8cb9a3bebd",
+      "width": 504,
+      "height": 295
+    },
+    {
+      "path": "assets/story-friends/tayo-03.mp3",
+      "sha256": "9b8238955902fc3223f2628fc747dda677494153bd78ba322dfd321873db5fd9",
+      "seconds": 15.744
+    },
+    {
+      "path": "assets/story-friends/tayo-03.webp",
+      "sha256": "9f81ec48cd50dcec40dc530498bf3ccef7296a9e0e4b89b16d89b492c4efa6a7",
+      "width": 504,
+      "height": 297
+    },
+    {
+      "path": "assets/story-friends/tayo-04.mp3",
+      "sha256": "dbef66110175a4c3c93924f1809d2d22d2fa1c269fc2a6a3a4a20599fa4f7476",
+      "seconds": 14.592
+    },
+    {
+      "path": "assets/story-friends/tayo-04.webp",
+      "sha256": "47f412dc6b249247173a53a30ee99a62e0f851d145c0673844469b22f38045ee",
+      "width": 504,
+      "height": 297
+    },
+    {
+      "path": "assets/story-friends/tayo-05.mp3",
+      "sha256": "c5a70ad452b927ac9cd7dd2adbf4c37ee11a165105204ade4655bd4ee640330d",
+      "seconds": 15.12
+    },
+    {
+      "path": "assets/story-friends/tayo-05.webp",
+      "sha256": "0f64ba8bd6b738761da9cfe96cb0b7c49d088a0605ea8f6b09f597002e9a6675",
+      "width": 504,
+      "height": 298
+    },
+    {
+      "path": "assets/story-friends/tayo-06.mp3",
+      "sha256": "6d1841e72012b634c77ba419117b5846ebe4a4ab345d20a484b3061f17c04629",
+      "seconds": 16.272
+    },
+    {
+      "path": "assets/story-friends/tayo-06.webp",
+      "sha256": "d9c79340b1ae408eba4c2415308797affe6a64236a5e24b0f315fe14e6747dfb",
+      "width": 504,
+      "height": 298
+    },
+    {
+      "path": "assets/story-friends/tayo-07.mp3",
+      "sha256": "a342806902f7d469f1ecd7ae96dee03754ced208855e8f21c40e53bab2863e93",
+      "seconds": 15.912
+    },
+    {
+      "path": "assets/story-friends/tayo-07.webp",
+      "sha256": "e888f7d258c6380c0582866e6670a53f738afd074c9af8e853c66bec1666520d",
+      "width": 504,
+      "height": 297
+    },
+    {
+      "path": "assets/story-friends/tayo-08.mp3",
+      "sha256": "1272cc406394034ff67482df52de7b0b8e2cc7665c63df5f1b5dcbf9d3aa0b60",
+      "seconds": 14.784
+    },
+    {
+      "path": "assets/story-friends/tayo-08.webp",
+      "sha256": "d64c9805be3ed4ae9cd90884a9589a745a21e1adc8f07b1390f3632766fe708c",
+      "width": 504,
+      "height": 297
+    },
+    {
+      "path": "assets/story-friends/tayo-09.mp3",
+      "sha256": "124294f139e7b5ed5f3c2049774555b6c3f663bf19e672580f5c1f094ab51bab",
+      "seconds": 15.24
+    },
+    {
+      "path": "assets/story-friends/tayo-09.webp",
+      "sha256": "aa4db11ceb7962697780130f5adcdfa949c102a086f99360a1531d9115e913ae",
+      "width": 504,
+      "height": 299
+    },
+    {
+      "path": "assets/story-friends/tayo-10.mp3",
+      "sha256": "b196a5194d1cf046a7fdc5e2c651b1eda47371bcc1b3e4a8e0f88cb7d1cb0659",
+      "seconds": 16.008
+    },
+    {
+      "path": "assets/story-friends/tayo-10.webp",
+      "sha256": "3f041b5ce5ed3ca253008aa1e9cb918c298fecb1cb1ef44a6ce6b629b78a2109",
+      "width": 504,
+      "height": 299
+    }
+  ]
+}

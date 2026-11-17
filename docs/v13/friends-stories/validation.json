@@ -1,0 +1,27 @@
+[
+  {
+    "view": "mobile",
+    "books": 26,
+    "additionalPages": 20,
+    "actualImageAndAudioStarts": 20,
+    "autoEnd": true,
+    "pauseResume": true,
+    "manualEndStays": true,
+    "lastPageDiscussion": true
+  },
+  {
+    "view": "tablet",
+    "books": 26,
+    "additionalPages": 20,
+    "actualImageAndAudioStarts": 20,
+    "autoEnd": true,
+    "pauseResume": true,
+    "manualEndStays": true,
+    "lastPageDiscussion": true
+  },
+  {
+    "offline": true,
+    "additionalBooksReadable": 2,
+    "keyRequired": false
+  }
+]

@@ -327,3 +327,5 @@ require('./v13/family_integrity.cjs');
 // The compact writing room must ship complete, including its actual raster art offline.
 for(const file of ['whole-word-writing.js','whole-word-writing.css','assets/writing/hippo-belly.webp']){assert(fs.statSync(file).size>0);assert(fs.readFileSync('sw.js','utf8').includes('./'+file),file+' missing offline');}
 new vm.Script(fs.readFileSync('whole-word-writing.js','utf8'));
+
+const friends={window:{JOY_STORIES:[]}};vm.runInNewContext(fs.readFileSync('stories-friends.js','utf8'),friends);assert.equal(friends.window.JOY_STORIES.length,2);for(const b of friends.window.JOY_STORIES){assert.equal(b.pages.length,10);for(const p of b.pages){assert(fs.existsSync(p.art.replace('./','')));assert(fs.existsSync(p.audio.replace('./','')))}}
