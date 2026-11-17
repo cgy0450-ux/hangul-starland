@@ -43,7 +43,7 @@ header h1{color:#293750;letter-spacing:-.06em;font-weight:950}
 <header><a href="./requests.html">‹ 놀이터</a><h1 id="title">🐯 새로운 놀이</h1><button id="sound" aria-label="소리 설정">🔊</button></header>
 <main><section class="hero"><h2 id="headline">어떤 놀이를 할까?</h2><p id="prompt" aria-live="polite">찾아 보자!</p></section><div class="progress"><span id="round">⭐ 문제 1 / 5</span><span id="stage">🚀 1단계 / 3</span></div><section class="playarea" id="playarea" aria-label="놀이 화면"></section><div class="message" id="message" role="status"></div><div class="controlbar"><button id="repeat">🔊 다시 듣기</button><button id="other">🎮 다른 놀이</button></div></main>
 <div class="stageend" id="ending"><section><div style="font-size:70px">🏆🐯🎉</div><h2>멋진 탐험 성공!</h2><p>세 단계를 모두 완료했어요. 오늘의 트로피를 받았어요!</p><a href="./requests.html">다른 놀이 고르기</a></section></div>
-<script src="./joyi-art-renderer.js?v=13.1-playability"></script><script src="./play-settings.js?v=13.1-playability"></script><script src="./word-gate.js?v=13.1-playability"></script><script>
+<script src="./joyi-art-renderer.js?v=13.1-playability"></script><script src="./play-settings.js?v=13.1-playability"></script><script src="./letter-completion-clips.js?v=14.6"></script><script src="./letter-completion-voice.js?v=14.6"></script><script src="./word-gate.js?v=13.1-playability"></script><script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id);
 const params=new URLSearchParams(location.search),game=params.get('game')||'hidden';

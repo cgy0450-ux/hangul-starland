@@ -1,0 +1,5 @@
+Uses existing fourteen 가나다 syllables, glyph paths and evaluator. Full and five-letter continuation save next-letter progress separately from shared legacy learning state. Complete glyph -> three native recorded plays with 250ms gaps -> next glyph/problem. Home/catalog links integrate with the existing room.
+
+Existing base clips reused; 27 missing word syllables generated locally with the same M4 preset, decoded and hashed. Actual base14 plus four additional triples, mute/cancel/replay and offline course tested. Missing custom-name clips continue without trapping the learner and emit an unavailable event; this is not a claim of recorded speech for all possible Korean names.
+
+Fourteen glyph strict input, partial rejection, replay before advance, five-letter continuation/reload and phone/tablet screenshots verified. Browser emulation, not physical-device listening. Initial test reused muted init after reload and was corrected to preserve explicit settings; a selector changed after completion and was corrected. Older tiny-stroke evaluator tolerance remains unchanged.

@@ -1,0 +1,80 @@
+{
+  "syllables": [
+    {
+      "char": "가",
+      "actualStarts": 3
+    },
+    {
+      "char": "나",
+      "actualStarts": 3
+    },
+    {
+      "char": "다",
+      "actualStarts": 3
+    },
+    {
+      "char": "라",
+      "actualStarts": 3
+    },
+    {
+      "char": "마",
+      "actualStarts": 3
+    },
+    {
+      "char": "바",
+      "actualStarts": 3
+    },
+    {
+      "char": "사",
+      "actualStarts": 3
+    },
+    {
+      "char": "아",
+      "actualStarts": 3
+    },
+    {
+      "char": "자",
+      "actualStarts": 3
+    },
+    {
+      "char": "차",
+      "actualStarts": 3
+    },
+    {
+      "char": "카",
+      "actualStarts": 3
+    },
+    {
+      "char": "타",
+      "actualStarts": 3
+    },
+    {
+      "char": "파",
+      "actualStarts": 3
+    },
+    {
+      "char": "하",
+      "actualStarts": 3
+    },
+    {
+      "char": "무",
+      "actualStarts": 3
+    },
+    {
+      "char": "기",
+      "actualStarts": 3
+    },
+    {
+      "char": "도",
+      "actualStarts": 3
+    },
+    {
+      "char": "호",
+      "actualStarts": 3
+    }
+  ],
+  "cancelStops": true,
+  "muteSilent": true,
+  "missingClipDoesNotBlock": true,
+  "offlineTripleAndGana": true
+}

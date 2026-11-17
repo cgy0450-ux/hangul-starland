@@ -125,8 +125,8 @@ function traceEvaluation(points,expected){if(!expected||points.length<2)return {
  c.addEventListener('pointermove',e=>{if(!drawing||e.pointerId!==pointer||locked)return;e.preventDefault();add(pos(e));paint()});
  c.addEventListener('pointerup',e=>{if(!drawing||e.pointerId!==pointer)return;add(pos(e));drawing=false;pointer=null;autoCheck()});
  c.addEventListener('pointercancel',e=>{if(e.pointerId!==pointer)return;drawing=false;pointer=null;points=[];paint()});
- function destroy(){clearTimeout(autoTimer);shade.remove();if(active?.destroy===destroy)active=null}
- function advance(){if(locked||!guide.length||done.length!==guide.length)return;locked=true;$('.jwg-info').textContent='🌟 잘했어!';voice('정말 잘했어!');setTimeout(()=>{if(!shade.isConnected)return;locked=false;index++;if(index<chars.length){render();voice(chars[index]+' 따라 써 볼까?')}else{destroy();success?.()}},550)}
+ function destroy(){window.JoyiLetterVoice?.cancel();clearTimeout(autoTimer);shade.remove();if(active?.destroy===destroy)active=null}
+ function advance(){if(locked||!guide.length||done.length!==guide.length)return;locked=true;$('.jwg-info').textContent='🌟 잘했어!';const advanceAfterVoice=()=>setTimeout(()=>{if(!shade.isConnected)return;locked=false;index++;if(index<chars.length){render()}else{destroy();success?.()}},550);if(window.JoyiLetterVoice){try{speechSynthesis.cancel()}catch(e){}let enabled=true;try{enabled=JSON.parse(localStorage.getItem('hangul-starland-v1')||'{}').sound!==false}catch(e){}JoyiLetterVoice.play(chars[index],advanceAfterVoice,enabled)}else advanceAfterVoice()}
  $('.help').onclick=()=>{voice('분홍색 숫자에서 시작해 화살표를 따라 써 봐!');$('.jwg-info').textContent='분홍색 ①에서 시작하고, 화살표 끝까지 따라 써요.';paint()};
  $('.skip').onclick=()=>{if(locked)return;done.pop();points=[];progress();paint()};
  $('.hear').onclick=()=>voice(word+'! '+chars[index]+' 따라 쓰기');

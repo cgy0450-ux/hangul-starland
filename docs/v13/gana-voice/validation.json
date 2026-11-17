@@ -1,0 +1,20 @@
+[
+  {
+    "view": "mobile",
+    "all14Strict": true,
+    "mutedNoSpeech": true,
+    "actualThreeRecordedStarts": true,
+    "onlyAfterFullGlyph": true,
+    "replayTripleBeforeAdvance": true,
+    "shortModeResume": true
+  },
+  {
+    "view": "tablet",
+    "all14Strict": true,
+    "mutedNoSpeech": true,
+    "actualThreeRecordedStarts": true,
+    "onlyAfterFullGlyph": true,
+    "replayTripleBeforeAdvance": true,
+    "shortModeResume": true
+  }
+]

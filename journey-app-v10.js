@@ -75,7 +75,7 @@ function catalog(){
  }
 }
 function beginDiagnostic(){run={type:"diagnostic",lesson:{mode:"choose",subject:subject.id},questions:A.diagnose(subject.id)};diagnosticResults=[];index=0;score=0;enter()}
-function beginLesson(id){const lesson=C.lesson(id);if(!lesson||lesson.subject!==subject.id)return;run={type:"lesson",...A.session(id)};
+function beginLesson(id){if(params.get('resume')==='1'){try{const r=JSON.parse(localStorage.getItem('joyi-resume-learning')||'null');if(r&&r.lessonId===id&&r.run?.lesson?.subject===subject.id&&r.index>=0&&r.index<r.run.questions.length){run=r.run;index=r.index;score=r.score||0;params.delete('resume');enter();return}}catch(e){}params.delete('resume')}const lesson=C.lesson(id);if(!lesson||lesson.subject!==subject.id)return;run={type:"lesson",...A.session(id)};
  const bank=run.questions;for(let i=bank.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[bank[i],bank[j]]=[bank[j],bank[i]];}
  try{const key='joiland-first-'+id,prev=localStorage.getItem(key);if(bank.length>1&&bank[0].answer===prev){let j=bank.findIndex(x=>x.answer!==prev);if(j>0)[bank[0],bank[j]]=[bank[j],bank[0]];}if(bank[0])localStorage.setItem(key,bank[0].answer)}catch(e){}
  index=0;score=0;enter()}
@@ -163,8 +163,9 @@ function finishAnswer(ok,btn,elapsed){
  $("explain").textContent=run.type==="diagnostic"?"정답은 "+q.answer+"예요.":q.explain;
  $("explain").classList.remove("hidden");$("next").classList.remove("hidden");
 }
+function saveResume(){if(run?.type!=='lesson')return;try{const n=index+(answered?1:0);if(n>=run.questions.length){localStorage.removeItem('joyi-resume-learning');return}localStorage.setItem('joyi-resume-learning',JSON.stringify({lessonId:run.lesson.id,run,index:n,score}))}catch(e){}}
 function render(){
- clearVoice();document.getElementById('joyi-finish-actions')?.remove();$("voicePractice").classList.add("hidden");answered=false;phase="quiz";pictureOptions=null;interaction=null;$("interaction").replaceChildren();$("interaction").classList.add("hidden");$("feedback").textContent="";$("explain").classList.add("hidden");$("answers").classList.remove("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("visual").classList.remove("hidden");$("hear").textContent="🔊 소리 듣기";
+ clearVoice();document.getElementById('joyi-finish-actions')?.remove();$("voicePractice").classList.add("hidden");answered=false;saveResume();phase="quiz";pictureOptions=null;interaction=null;$("interaction").replaceChildren();$("interaction").classList.add("hidden");$("feedback").textContent="";$("explain").classList.add("hidden");$("answers").classList.remove("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("visual").classList.remove("hidden");$("hear").textContent="🔊 소리 듣기";
  $("count").textContent=(index+1)+" / "+run.questions.length;$("stars").textContent="⭐ "+score;$("bar").style.width=(100*index/run.questions.length)+"%";
  const q=current(),mode=run.type==="diagnostic"?"choose":run.lesson.mode;
  if(!q)return;
@@ -231,6 +232,6 @@ function finishFive(){
 $("next").onclick=()=>{if(!answered)return;index++;if(index<run.questions.length){render();return}finishFive()};
 $("back").onclick=catalog;$("startDiag").onclick=beginDiagnostic;
 $("modules").onclick=e=>{const btn=e.target.closest("[data-lesson]");if(btn)beginLesson(btn.dataset.lesson)};
-window.addEventListener("pagehide",()=>{clearVoice();try{speechSynthesis.cancel()}catch(e){}});
-catalog();if(params.has("lesson")&&C.lesson(params.get("lesson"))?.subject===subject.id)beginLesson(params.get("lesson"));
+window.addEventListener("pagehide",()=>{saveResume();clearVoice();try{speechSynthesis.cancel()}catch(e){}});
+catalog();if(subject.id==='hangul'){const entry=document.createElement('p');entry.innerHTML='<a href="./legacy.html?game=trace&course=gana">가나다 14글자 쓰기</a> · <a href="./legacy.html?game=trace&course=gana&practice=short">5글자씩 쓰기</a>';document.getElementById('catalog').prepend(entry)}if(params.has("lesson")&&C.lesson(params.get("lesson"))?.subject===subject.id)beginLesson(params.get("lesson"));
 })();

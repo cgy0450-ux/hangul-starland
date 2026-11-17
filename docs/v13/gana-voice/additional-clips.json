@@ -1,0 +1,141 @@
+{
+  "locallySynthesized": 27,
+  "voice": "Existing Supertonic M4, sid 8, 8 steps, speed 1.05",
+  "decoded": [
+    {
+      "char": "무",
+      "path": "./assets/audio-letters/a367ab3717bfa4f8a3ea.mp3",
+      "sha256": "6b3081e6abdeafb3858dfad1ac207c6947536d0271fecb37f6925356ba3b32a2"
+    },
+    {
+      "char": "과",
+      "path": "./assets/audio-letters/ca7de345a0a56a5e7b9d.mp3",
+      "sha256": "02e21e9ba9cd84ddd32c0f47994719a014f7de1377e15b4ae24202878845860a"
+    },
+    {
+      "char": "토",
+      "path": "./assets/audio-letters/164f51aa4871af06c5c3.mp3",
+      "sha256": "0ac0959f81ce25763e11c3ea40be19a8d0579fb6662f76f86d10679d5a1733f9"
+    },
+    {
+      "char": "끼",
+      "path": "./assets/audio-letters/7bc84d35546dc43c21fb.mp3",
+      "sha256": "42b31d4b699aadec213b0dd1298186041e35a5de1702088825a22175707cb1ea"
+    },
+    {
+      "char": "고",
+      "path": "./assets/audio-letters/ad025a70ef84aab2cc78.mp3",
+      "sha256": "6d6885418a0b2d6116b9985e3d015bed7ed12d28a3321d0f0ec7181c41132ced"
+    },
+    {
+      "char": "래",
+      "path": "./assets/audio-letters/a6e5ce50ffc80329959a.mp3",
+      "sha256": "b7ff2dcb1a5a66eb8e3b6113da7c78db954510317a8fe48e3193de8ff0e7f673"
+    },
+    {
+      "char": "리",
+      "path": "./assets/audio-letters/b2517c7c296836fc7123.mp3",
+      "sha256": "78ef386e032e17bcb8c8ca53501c93ab01dc37c5f2b055567adc575481adfc39"
+    },
+    {
+      "char": "기",
+      "path": "./assets/audio-letters/0747eccf912e966bfe3f.mp3",
+      "sha256": "65c5f4dc63c5fce280040239bb9ae3dd57caa9de6517aad3bb3577d249656065"
+    },
+    {
+      "char": "포",
+      "path": "./assets/audio-letters/965ed52e24349ba0703d.mp3",
+      "sha256": "3407f785e1981e7fb14e2809f6098b2239bdeae296ffb5e1f176135a7644e5cf"
+    },
+    {
+      "char": "도",
+      "path": "./assets/audio-letters/a3ec07cdd87ae1fabd09.mp3",
+      "sha256": "d87ecd019dbf4376ab40295f24046051648d1cce3729fba1a52a1677698d30dd"
+    },
+    {
+      "char": "수",
+      "path": "./assets/audio-letters/dcd19f5b5caac9771378.mp3",
+      "sha256": "2cf9a2a8ac1f557fb4c0225827c99826f8b80a24e9132cf26400639a2613c341"
+    },
+    {
+      "char": "박",
+      "path": "./assets/audio-letters/a2ed2af4650eb11ce3b7.mp3",
+      "sha256": "167272ac5c9fc3c4edc2f3439f3770a6606a060ea289c4148f1bafea7dbe268d"
+    },
+    {
+      "char": "모",
+      "path": "./assets/audio-letters/4e6b6be50fb157c1959e.mp3",
+      "sha256": "e842400e3a7e32cb9f64d8adbf8c5dc236428ea91793fa185babfe086e1f1f15"
+    },
+    {
+      "char": "양",
+      "path": "./assets/audio-letters/2ce295bd7785c9ad61fa.mp3",
+      "sha256": "cbf7a76c84b5d2877ad5f0bbdecd69149e7b79c1dbf61b67bb0a2352139c8068"
+    },
+    {
+      "char": "풍",
+      "path": "./assets/audio-letters/076aa1062f02395d9e61.mp3",
+      "sha256": "ca20e0f5154db20376cd27ae83dd257bfba6afce33dc935837dcd4d8fb1a238c"
+    },
+    {
+      "char": "선",
+      "path": "./assets/audio-letters/ca8a8225e4286f710068.mp3",
+      "sha256": "a67dacf8c57f734b8a37eda87e3e3530110844478e226ea79cbe52f3be177cef"
+    },
+    {
+      "char": "방",
+      "path": "./assets/audio-letters/76102fe82462d111be2a.mp3",
+      "sha256": "b89d55edb4d6a908a446ca009af0b7a42c3d6e8869b5e01ac4ab6961393ec333"
+    },
+    {
+      "char": "산",
+      "path": "./assets/audio-letters/ab367eb9a60ab986cced.mp3",
+      "sha256": "b1e9e2ae227ab29ee06757a67f047468c26399d88ce3892a87823ad0498bd642"
+    },
+    {
+      "char": "돼",
+      "path": "./assets/audio-letters/9a156a11ed02d98f483a.mp3",
+      "sha256": "0cce47d69c761fe797146293e6887abf94e9b9215f0b4478858a4f72e2ccb829"
+    },
+    {
+      "char": "지",
+      "path": "./assets/audio-letters/32e608b594bece7ab3a3.mp3",
+      "sha256": "da13d1ffaeccb63722d505f15c11a80b08b6ddbcef152d0fbf6315a66dcdcd67"
+    },
+    {
+      "char": "동",
+      "path": "./assets/audio-letters/70d46f8c1cc5dc7aa4df.mp3",
+      "sha256": "5a6c589940ee239181f48266023295efbaf8f4ec004288a52e7de7c47d1b93ec"
+    },
+    {
+      "char": "딸",
+      "path": "./assets/audio-letters/11cf51a3ca8b5108ea09.mp3",
+      "sha256": "607871c7dbbb02d48ccc75ad015c94e0a63f73ca940e274e16f9927df0b3eb07"
+    },
+    {
+      "char": "행",
+      "path": "./assets/audio-letters/fc48bc81cceacc6d7c33.mp3",
+      "sha256": "8eeb285a4995c40685878da6382fbffd42f5305ef1225deb351735db1fc79b66"
+    },
+    {
+      "char": "린",
+      "path": "./assets/audio-letters/7b018261018931464c4e.mp3",
+      "sha256": "e49ea02b785198e54f552287a1132e500ceeeb876562545b050b4b48e22178d1"
+    },
+    {
+      "char": "호",
+      "path": "./assets/audio-letters/37c8489e513160a7f672.mp3",
+      "sha256": "693366323b959b4d62348a305f69e36cae75bf1a7407cb48cfbeff99c5eb91c3"
+    },
+    {
+      "char": "랑",
+      "path": "./assets/audio-letters/cc7666d5739c873ca9ef.mp3",
+      "sha256": "482561a40c5f5780718537a1a327c3dda1ffee14f4e14838ba4684d0b5a99e67"
+    },
+    {
+      "char": "거",
+      "path": "./assets/audio-letters/ffcedfda7558e5dc31fe.mp3",
+      "sha256": "4530b53c4b04336f3fd59bdefa9194bb25ec9b89437eb6b013b68dbec9967445"
+    }
+  ]
+}
