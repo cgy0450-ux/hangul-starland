@@ -1,0 +1,19 @@
+{
+  "responsiveCases": 40,
+  "targeted": "PASS: stale decode/replay failure recovery/voice errors",
+  "sceneMapping": "PASS:240 decisions and 138 unique scenes",
+  "smoke": "PASS",
+  "browserRegression": "PASS:72 cases",
+  "visualReview": [
+    "life-360.png",
+    "life-390.png",
+    "finance-1280.png",
+    "finance-800.png"
+  ],
+  "physicalDevices": "not tested",
+  "artGeneration": {
+    "status": "moderation_blocked",
+    "request": "35c25070-333e-443a-99c3-49d298799535",
+    "newImages": 0
+  }
+}

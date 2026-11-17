@@ -1,0 +1,288 @@
+[
+  {
+    "subject": "math",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "1",
+      "2",
+      "3"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "english",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "A",
+      "B",
+      "C"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "hangul",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\u3131",
+      "\u3134",
+      "\u3137"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "science",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uad00\ucc30",
+      "\ube44\uad50",
+      "\ubc1c\uacac"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "history",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uc0dd\ud65c",
+      "\ubb38\ud654",
+      "\uc9c0\ud61c"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "coding",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uc21c\uc11c",
+      "\uaddc\uce59",
+      "\ud574\uacb0"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "finance",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\ubaa8\uc544\uc694",
+      "\uace8\ub77c\uc694",
+      "\ub098\ub220\uc694"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "reading",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uc77d\uc5b4\uc694",
+      "\uc0dd\uac01\ud574\uc694",
+      "\ubc1c\uacac\ud574\uc694"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "life",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uae68\ub057\uc774",
+      "\uac74\uac15\ud558\uac8c",
+      "\ud568\uaed8"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "creativity",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uc0c9",
+      "\uc120",
+      "\uc0c1\uc0c1"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "math",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "1",
+      "2",
+      "3"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "english",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "A",
+      "B",
+      "C"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "hangul",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\u3131",
+      "\u3134",
+      "\u3137"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "science",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uad00\ucc30",
+      "\ube44\uad50",
+      "\ubc1c\uacac"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "history",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uc0dd\ud65c",
+      "\ubb38\ud654",
+      "\uc9c0\ud61c"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "coding",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uc21c\uc11c",
+      "\uaddc\uce59",
+      "\ud574\uacb0"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "finance",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\ubaa8\uc544\uc694",
+      "\uace8\ub77c\uc694",
+      "\ub098\ub220\uc694"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "reading",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uc77d\uc5b4\uc694",
+      "\uc0dd\uac01\ud574\uc694",
+      "\ubc1c\uacac\ud574\uc694"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "life",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uae68\ub057\uc774",
+      "\uac74\uac15\ud558\uac8c",
+      "\ud568\uaed8"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "creativity",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\uc0c9",
+      "\uc120",
+      "\uc0c1\uc0c1"
+    ],
+    "skipReplay": true
+  },
+  {
+    "reducedMotion": true
+  },
+  {
+    "offline": true
+  }
+]

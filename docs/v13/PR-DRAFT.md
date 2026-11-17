@@ -1,7 +1,5 @@
-# Complete all ten subject openings and local nickname preferences
+# Fix opening replay races and natural subject guidance
 
-Seven remaining subjects now have original scene art, matching illustrated props and distinct short entrance motion. Retains the three released openings, actual image readiness, skip/replay, reduced motion, offline fallback and existing lesson/progress rules. Long Korean titles wrap at word boundaries.
+Rapid skip/replay previously let an older image decode change the newly opened sequence. Invalidate stale work, reset readiness/visibility on every replay and describe image-load failure accurately. Subject titles now match their activities, and compact portrait styling keeps longer titles and status text clear of Skip. Parent settings distinguish the learning-record name from the screen nickname and report English-preview errors.
 
-Adds an optional device-local screen nickname and a separate English device-voice preview in parent settings. Does not claim arbitrary nicknames are spoken by recorded audio. Reconciles backlog status with prior releases and explicitly records future, physical-device and blocked-art work in WORK-REGISTER.md.
-
-Validation: ten subjects on phone/tablet with decoded scene/prop assets, skip/replay, reduced motion and production-worker offline return; nickname save/reload/clear and English preview dispatch; smoke and 72 browser cases. Physical device/audio quality review remains pending. Production main 69eb8e6: QA #369 and Pages #402 SUCCESS; both run titles match the release. Evidence all-openings/deployment.json. Direct public-site HTTP is blocked by this environment (CONNECT 403).
+Preserves original JoYi art, progress, daily rotation, lessons and stroke scoring. Validation: responsive titles/bounds, delayed-decode race and recovery, voice-error dispatch, existing nickname/offline/regression checks. Requested character coloring atlas was rejected by image-tool output moderation and remains unfinished; no workaround or paid API. Physical-device validation remains pending. Final evidence docs/v13/natural-opening.

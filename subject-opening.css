@@ -8,3 +8,5 @@
 @media(max-height:500px){.opening-props .opening-letters .opening-prop{height:38px;width:42px}.opening-props .opening-letters span{min-width:64px;font-size:12px}.opening-props .opening-copy img:not(.opening-prop){height:13vh}}@media(prefers-reduced-motion:reduce){.opening-props .opening-letters span{animation:none!important;opacity:1!important;transform:none!important}}
 
 @media(max-height:500px) and (orientation:landscape){.opening-copy p{font-size:12px;margin:6px 140px 0 0}}
+@media(orientation:portrait){.opening-copy h1{font-size:clamp(26px,4vh,34px);margin:6px 0}.opening-copy img:not(.opening-prop){height:12vh}.opening-copy p{margin:6px 0;font-size:12px}.opening-props .opening-letters .opening-prop{height:clamp(32px,6vh,50px);width:54px}.opening-props .opening-letters span{min-width:75px;min-height:0;font-size:12px;padding:4px 6px}}
+@media(orientation:landscape){.opening-copy p{margin-right:140px}}

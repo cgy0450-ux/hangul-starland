@@ -1,0 +1,368 @@
+{
+  "screens": [
+    {
+      "subject": "hangul",
+      "viewport": [
+        360,
+        640
+      ],
+      "title": "한글 이야기 숲으로!",
+      "bounds": true
+    },
+    {
+      "subject": "math",
+      "viewport": [
+        360,
+        640
+      ],
+      "title": "수학 놀이를 시작해요!",
+      "bounds": true
+    },
+    {
+      "subject": "english",
+      "viewport": [
+        360,
+        640
+      ],
+      "title": "영어 친구들을 만나요!",
+      "bounds": true
+    },
+    {
+      "subject": "science",
+      "viewport": [
+        360,
+        640
+      ],
+      "title": "과학 탐험을 떠나요!",
+      "bounds": true
+    },
+    {
+      "subject": "history",
+      "viewport": [
+        360,
+        640
+      ],
+      "title": "옛날로 시간 여행!",
+      "bounds": true
+    },
+    {
+      "subject": "coding",
+      "viewport": [
+        360,
+        640
+      ],
+      "title": "순서대로 코딩 놀이!",
+      "bounds": true
+    },
+    {
+      "subject": "finance",
+      "viewport": [
+        360,
+        640
+      ],
+      "title": "돈과 경제를 배워요!",
+      "bounds": true
+    },
+    {
+      "subject": "reading",
+      "viewport": [
+        360,
+        640
+      ],
+      "title": "이야기 속으로 떠나요!",
+      "bounds": true
+    },
+    {
+      "subject": "life",
+      "viewport": [
+        360,
+        640
+      ],
+      "title": "건강한 하루를 만들어요!",
+      "bounds": true
+    },
+    {
+      "subject": "creativity",
+      "viewport": [
+        360,
+        640
+      ],
+      "title": "상상의 날개를 펼쳐요!",
+      "bounds": true
+    },
+    {
+      "subject": "hangul",
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "한글 이야기 숲으로!",
+      "bounds": true
+    },
+    {
+      "subject": "math",
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "수학 놀이를 시작해요!",
+      "bounds": true
+    },
+    {
+      "subject": "english",
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "영어 친구들을 만나요!",
+      "bounds": true
+    },
+    {
+      "subject": "science",
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "과학 탐험을 떠나요!",
+      "bounds": true
+    },
+    {
+      "subject": "history",
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "옛날로 시간 여행!",
+      "bounds": true
+    },
+    {
+      "subject": "coding",
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "순서대로 코딩 놀이!",
+      "bounds": true
+    },
+    {
+      "subject": "finance",
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "돈과 경제를 배워요!",
+      "bounds": true
+    },
+    {
+      "subject": "reading",
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "이야기 속으로 떠나요!",
+      "bounds": true
+    },
+    {
+      "subject": "life",
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "건강한 하루를 만들어요!",
+      "bounds": true
+    },
+    {
+      "subject": "creativity",
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "상상의 날개를 펼쳐요!",
+      "bounds": true
+    },
+    {
+      "subject": "hangul",
+      "viewport": [
+        1280,
+        800
+      ],
+      "title": "한글 이야기 숲으로!",
+      "bounds": true
+    },
+    {
+      "subject": "math",
+      "viewport": [
+        1280,
+        800
+      ],
+      "title": "수학 놀이를 시작해요!",
+      "bounds": true
+    },
+    {
+      "subject": "english",
+      "viewport": [
+        1280,
+        800
+      ],
+      "title": "영어 친구들을 만나요!",
+      "bounds": true
+    },
+    {
+      "subject": "science",
+      "viewport": [
+        1280,
+        800
+      ],
+      "title": "과학 탐험을 떠나요!",
+      "bounds": true
+    },
+    {
+      "subject": "history",
+      "viewport": [
+        1280,
+        800
+      ],
+      "title": "옛날로 시간 여행!",
+      "bounds": true
+    },
+    {
+      "subject": "coding",
+      "viewport": [
+        1280,
+        800
+      ],
+      "title": "순서대로 코딩 놀이!",
+      "bounds": true
+    },
+    {
+      "subject": "finance",
+      "viewport": [
+        1280,
+        800
+      ],
+      "title": "돈과 경제를 배워요!",
+      "bounds": true
+    },
+    {
+      "subject": "reading",
+      "viewport": [
+        1280,
+        800
+      ],
+      "title": "이야기 속으로 떠나요!",
+      "bounds": true
+    },
+    {
+      "subject": "life",
+      "viewport": [
+        1280,
+        800
+      ],
+      "title": "건강한 하루를 만들어요!",
+      "bounds": true
+    },
+    {
+      "subject": "creativity",
+      "viewport": [
+        1280,
+        800
+      ],
+      "title": "상상의 날개를 펼쳐요!",
+      "bounds": true
+    },
+    {
+      "subject": "hangul",
+      "viewport": [
+        800,
+        360
+      ],
+      "title": "한글 이야기 숲으로!",
+      "bounds": true
+    },
+    {
+      "subject": "math",
+      "viewport": [
+        800,
+        360
+      ],
+      "title": "수학 놀이를 시작해요!",
+      "bounds": true
+    },
+    {
+      "subject": "english",
+      "viewport": [
+        800,
+        360
+      ],
+      "title": "영어 친구들을 만나요!",
+      "bounds": true
+    },
+    {
+      "subject": "science",
+      "viewport": [
+        800,
+        360
+      ],
+      "title": "과학 탐험을 떠나요!",
+      "bounds": true
+    },
+    {
+      "subject": "history",
+      "viewport": [
+        800,
+        360
+      ],
+      "title": "옛날로 시간 여행!",
+      "bounds": true
+    },
+    {
+      "subject": "coding",
+      "viewport": [
+        800,
+        360
+      ],
+      "title": "순서대로 코딩 놀이!",
+      "bounds": true
+    },
+    {
+      "subject": "finance",
+      "viewport": [
+        800,
+        360
+      ],
+      "title": "돈과 경제를 배워요!",
+      "bounds": true
+    },
+    {
+      "subject": "reading",
+      "viewport": [
+        800,
+        360
+      ],
+      "title": "이야기 속으로 떠나요!",
+      "bounds": true
+    },
+    {
+      "subject": "life",
+      "viewport": [
+        800,
+        360
+      ],
+      "title": "건강한 하루를 만들어요!",
+      "bounds": true
+    },
+    {
+      "subject": "creativity",
+      "viewport": [
+        800,
+        360
+      ],
+      "title": "상상의 날개를 펼쳐요!",
+      "bounds": true
+    }
+  ],
+  "staleDecodeIgnored": true,
+  "replayRestoresFailedImage": true,
+  "truthfulFallback": true,
+  "voiceErrorFeedback": true
+}

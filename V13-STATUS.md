@@ -314,3 +314,10 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 - PASS Chrome 390×844/1280×800의 10과목 실제 렌더링/장면·소품 decode, skip/replay/reduced-motion/실제 worker offline. 800×360 7과목 제목·소품·skip 경계 검사 및 화면 확인. nickname save/reload/clear와 영어 preview en-US dispatch 검증. smoke 및 72 browser cases PASS. 증거 docs/v13/all-openings 및 qa/v13/all_openings.py, call_name.py. 물리 기기·사람 청취/저사양 FPS 검수로 보고하지 않는다.
 - 미완료 유지: 주토피아 출력 심사 거절, 지정 색칠 캐릭터 이용 허락 근거, 설치형 태블릿/아동/청취 실기기 검수. #1은 본문상 미래 로드맵이며 구조 개편은 기존 보류 범위. #2 임의 별명 음원·아동 판정 검수도 미완료. 이슈 전체 종료/모든 v13 완료로 보고하지 않는다. 배포 검증은 후속 기록.
 - 운영 반영 확인: main SHA `69eb8e6ef06c8bcf33aad98ac250bfff231c6f55`, JavaScript QA #369 (44122136226) 및 Pages #402 (44122131723) SUCCESS. 두 실행 제목의 커밋 일치 확인. docs/v13/all-openings/deployment.json. 공개 사이트 직접 HTTP는 이 환경 CONNECT 403으로 불가; 실제 기기/운영 화면 직접 검증으로 보고하지 않음.
+
+## v14.8.1 — 자연스러운 과목 안내·로딩 재시도 (2026-11-18 KST)
+- 최신 원격 backlog와 기존 완료를 대조. 사용자 개인 사용 승인 후 지정 색칠 도안을 실제 요청했으나 출력 심사 거절로 앱에 새 도안을 추가하지 못했다. request `35c25070-333e-443a-99c3-49d298799535`, moderation_blocked/output/other. 주토피아의 이전 거절도 유지. 우회/재시도·유료 API 없음. 승인 대기 사유를 도구 거절로 갱신.
+- 10과목 진입 문구를 주제에 맞게 개선. 긴 제목에서 발견한 폰 세로 안내/skip 겹침을 반응형 제목·소품·마스코트 크기 조정으로 수정. 원본 쪼이·장면 유지. 보호자 ‘불러줄 이름’을 실제 용도인 ‘학습 기록에 쓸 이름’으로 구별.
+- skip/replay 사이 비동기 이미지 완료 경쟁 상태 수정. 이전 show의 decode 결과는 새 show를 변경하지 못함. 실패 후 다시 보기 때 숨긴 이미지 복원 및 실제 실패 안내 표시. 영어 미리듣기 미지원/오류는 사용자 피드백 제공. 기존 오디오/일일 선택/학습관 구조/획 판정/진도 유지.
+- 검증 증거 docs/v13/natural-opening 및 qa/v13/natural_opening.py. 최종 검사/배포 결과는 후속 기록. 실기기 청취·아동 사용성·저사양 FPS 검수는 여전히 미완료.
+- 최종 PASS: 40개 과목/화면 조합, 지연 decode 경쟁/실패 재시도/영어 preview 오류, smoke, 72개 브라우저 화면, 240개 문제 연결/138개 장면. 추가로 10과목 skip/replay/reduced-motion/실제 worker offline 회귀 PASS.
