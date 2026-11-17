@@ -1,0 +1,29 @@
+[
+  {
+    "viewport": [
+      1138,
+      480
+    ],
+    "duckNextClickable": true,
+    "carriageCorrect": true,
+    "wholeExampleVisible": true
+  },
+  {
+    "viewport": [
+      1280,
+      800
+    ],
+    "duckNextClickable": true,
+    "carriageCorrect": true,
+    "wholeExampleVisible": true
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "duckNextClickable": true,
+    "carriageCorrect": true,
+    "wholeExampleVisible": true
+  }
+]

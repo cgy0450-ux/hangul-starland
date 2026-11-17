@@ -26,3 +26,11 @@ body:has(.ww-room) .mainpanel{display:grid!important;grid-template-rows:minmax(0
 .ww-room{height:auto;min-height:0;max-height:100%;grid-template-rows:48px 24px minmax(0,1fr) 24px 48px}
 .ww-toolbar{height:48px;flex-shrink:0;overflow:visible;position:relative;z-index:3}.ww-cell{width:100%;width:min(100%,100cqh)}
 .ww-toolbar .ww-undo{max-width:80px;flex-shrink:1}.ww-head button:disabled{opacity:.6}
+
+.ww-reference{align-self:center;justify-self:center;display:grid;place-items:center;width:100%;aspect-ratio:1;font-size:clamp(40px,12vw,140px);font-weight:850;color:#685889;opacity:.65;pointer-events:none}
+body[data-legacy-mode=quiz] .mainpanel{justify-content:flex-start!important}
+body[data-legacy-mode=quiz] .board{display:grid!important;grid-template-rows:minmax(0,1fr) 42px auto auto auto;flex:1;min-height:0!important;max-height:none!important;gap:5px;width:100%;margin:0!important;padding:8px!important}
+body[data-legacy-mode=quiz] .question-image{min-height:0!important;height:100%!important;overflow:hidden}
+body[data-legacy-mode=quiz] .question-image img{width:100%!important;height:100%!important;max-height:100%!important;object-fit:contain!important;pointer-events:none}
+body[data-legacy-mode=quiz] .board>.largebtn{min-height:44px!important;padding:8px!important;position:relative;z-index:2}
+body[data-legacy-mode=quiz] .choices{margin:0!important}body[data-legacy-mode=quiz] .feedback{margin:0!important;font-size:clamp(13px,2.6vw,20px)!important}
