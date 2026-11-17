@@ -1,0 +1,75 @@
+[
+  {
+    "view": "mobile",
+    "viewport": [
+      390,
+      844
+    ],
+    "fitsWithoutScroll": true,
+    "wholeWordStable": true,
+    "shortLongReverseAndOutOfOrderRejected": true,
+    "missingLastAndCancelRejected": true,
+    "undo": true,
+    "realMouseStroke": true,
+    "trustedTouchStroke": true,
+    "threeLetterWord": true,
+    "singleLetterTrace": true,
+    "autoNextAfterCompleteOnly": true
+  },
+  {
+    "view": "small",
+    "viewport": [
+      360,
+      640
+    ],
+    "fitsWithoutScroll": true,
+    "wholeWordStable": true,
+    "shortLongReverseAndOutOfOrderRejected": true,
+    "missingLastAndCancelRejected": true,
+    "undo": true,
+    "realMouseStroke": true,
+    "trustedTouchStroke": true,
+    "threeLetterWord": true,
+    "singleLetterTrace": true,
+    "autoNextAfterCompleteOnly": true
+  },
+  {
+    "view": "tablet",
+    "viewport": [
+      800,
+      1280
+    ],
+    "fitsWithoutScroll": true,
+    "wholeWordStable": true,
+    "shortLongReverseAndOutOfOrderRejected": true,
+    "missingLastAndCancelRejected": true,
+    "undo": true,
+    "realMouseStroke": true,
+    "trustedTouchStroke": true,
+    "threeLetterWord": true,
+    "singleLetterTrace": true,
+    "autoNextAfterCompleteOnly": true
+  },
+  {
+    "view": "landscape",
+    "viewport": [
+      1024,
+      600
+    ],
+    "fitsWithoutScroll": true,
+    "wholeWordStable": true,
+    "shortLongReverseAndOutOfOrderRejected": true,
+    "missingLastAndCancelRejected": true,
+    "undo": true,
+    "realMouseStroke": true,
+    "trustedTouchStroke": true,
+    "threeLetterWord": true,
+    "singleLetterTrace": true,
+    "autoNextAfterCompleteOnly": true
+  },
+  {
+    "offline": true,
+    "hippoImageDecoded": true,
+    "wordRoomLoaded": true
+  }
+]

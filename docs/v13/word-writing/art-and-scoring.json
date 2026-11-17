@@ -1,0 +1,12 @@
+{
+  "asset": "assets/writing/hippo-belly.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "315b0d6059ac19718f7b95dc498f0ae2dc39cf2b305969a65cda50bfd77b2cee",
+  "provenance": "Original built-in image generation, exec-db1cfd94-d727-47eb-952e-3d212711991e.png; purpose-made hippo belly writing composition; reviewed in tool output and actual phone/tablet renders.",
+  "newIllustrations": 1,
+  "existingSemanticSpritesReused": true,
+  "legacyEvaluatorSHA256": "d50eb236bd61c476f81b13875ac1d709ef74c094c01f16df64497b280a579633",
+  "evaluatorUnchanged": true,
+  "noPaidExternalAPI": true
+}

@@ -1,0 +1,22 @@
+/* One stable word board; scoring stays in the legacy glyph coordinate system. */
+(()=>{'use strict';let dispose=()=>{};
+window.JoyiWordWriting={mount(o){dispose();const room=document.querySelector('.ww-room');if(!room)return;const cells=[...room.querySelectorAll('.ww-cell')],offsets=[];let sum=0;for(const paths of o.paths){offsets.push(sum);sum+=paths.length}let active=null,points=[],activeCell=-1;const abort=new AbortController(),signal=abort.signal;
+const hint=room.querySelector('[role="status"]'),counter=room.querySelector('.ww-counter');
+const locate=()=>{const n=o.state.traceDone.length;return o.paths.findIndex((paths,i)=>n<offsets[i]+paths.length)};
+function draw(){const n=o.state.traceDone.length,current=locate();room.dataset.complete=String(n===sum);counter.textContent=n===sum?'낱말 완성!':`${n} / ${sum}획`;
+ cells.forEach((cell,i)=>{const c=cell.querySelector('canvas'),r=c.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,2),w=Math.max(1,Math.round(r.width*dpr)),h=Math.max(1,Math.round(r.height*dpr));if(c.width!==w||c.height!==h){c.width=w;c.height=h}const ctx=c.getContext('2d');ctx.setTransform(w/100,0,0,h/100,0,0);ctx.clearRect(0,0,100,100);const count=Math.max(0,Math.min(o.paths[i].length,n-offsets[i]));cell.classList.toggle('ww-active',i===current);cell.classList.toggle('ww-done',count===o.paths[i].length);cell.querySelector('.ww-guide').innerHTML=o.guide(o.paths[i],o.state.traceDone.slice(offsets[i],offsets[i]+count));
+ const paint=(path,color)=>{ctx.beginPath();path.forEach(([x,y],j)=>j?ctx.lineTo(x,y):ctx.moveTo(x,y));ctx.strokeStyle=color;ctx.lineCap='round';ctx.lineJoin='round';ctx.lineWidth=4.9;ctx.stroke()};for(let k=0;k<count;k++)paint(o.state.traceDone[offsets[i]+k],o.color?(o.state.traceColors[offsets[i]+k]||o.state.palette):'#087f82');if(i===activeCell&&points.length>1)paint(points,o.color?o.state.palette:'#6154ba');
+ });room.querySelector('[data-ww="undo"]').disabled=!n||o.state.answered;
+}
+const distance=(a,b)=>Math.hypot(a[0]-b[0],a[1]-b[1]);
+cells.forEach((cell,i)=>{const canvas=cell.querySelector('canvas'),point=e=>{const r=canvas.getBoundingClientRect();return[100*(e.clientX-r.left)/r.width,100*(e.clientY-r.top)/r.height]};
+canvas.addEventListener('pointerdown',e=>{e.preventDefault();if(active!==null||o.state.answered)return;const current=locate();if(i!==current){hint.textContent='반짝이는 시작점부터 써요';return}const p=point(e),expected=o.paths[i][o.state.traceDone.length-offsets[i]];if(distance(p,expected[0])>13){hint.textContent='분홍색 시작점에서 출발해요';return}active=e.pointerId;activeCell=i;points=[p];try{canvas.setPointerCapture(active)}catch(e){}draw()},{signal});
+canvas.addEventListener('pointermove',e=>{if(e.pointerId!==active||i!==activeCell)return;e.preventDefault();const p=point(e),last=points.at(-1),d=distance(p,last);if(d>.3){const count=Math.max(1,Math.ceil(d/2.5));for(let j=1;j<=count;j++)points.push([last[0]+(p[0]-last[0])*j/count,last[1]+(p[1]-last[1])*j/count])}draw()},{signal});
+canvas.addEventListener('pointerup',e=>{if(e.pointerId!==active||i!==activeCell)return;e.preventDefault();active=null;const expected=o.paths[i][o.state.traceDone.length-offsets[i]],result=o.evaluate(points,expected);if(result.ok){o.state.traceDone.push(points.slice());o.state.traceColors.push(o.state.palette);points=[];activeCell=-1;if(o.state.traceDone.length===sum){o.state.answered=true;hint.textContent='참 잘했어요! 다음 낱말로 가요';draw();o.complete();return}hint.textContent=locate()!==i?'옆 글자도 이어서 써요':'다음 시작점을 따라 써요'}else{points=[];activeCell=-1;hint.textContent=result.reason}draw()},{signal});
+canvas.addEventListener('pointercancel',e=>{if(e.pointerId!==active)return;active=null;points=[];activeCell=-1;hint.textContent='시작점에서 다시 이어 써요';draw()},{signal});
+});
+room.querySelector('[data-ww="undo"]').addEventListener('click',()=>{if(o.state.answered)return;o.state.traceDone.pop();o.state.traceColors.pop();hint.textContent='한 획을 다시 써요';draw()},{signal});
+room.querySelectorAll('[data-ww-color]').forEach(b=>b.addEventListener('click',()=>{o.state.palette=b.dataset.wwColor;room.querySelectorAll('[data-ww-color]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)))},{signal}));
+const observer=new ResizeObserver(()=>{active=null;activeCell=-1;points=[];draw()});observer.observe(room.querySelector('.ww-surface'));dispose=()=>{abort.abort();observer.disconnect()};draw();
+}};
+})();

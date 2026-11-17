@@ -323,3 +323,7 @@ for(const file of ['coloring.js','coloring-data.js','vehicles.js','play-settings
 require('./audio/integrity.cjs');
 require('./audio/autoplay.cjs');
 require('./v13/family_integrity.cjs');
+
+// The compact writing room must ship complete, including its actual raster art offline.
+for(const file of ['whole-word-writing.js','whole-word-writing.css','assets/writing/hippo-belly.webp']){assert(fs.statSync(file).size>0);assert(fs.readFileSync('sw.js','utf8').includes('./'+file),file+' missing offline');}
+new vm.Script(fs.readFileSync('whole-word-writing.js','utf8'));
