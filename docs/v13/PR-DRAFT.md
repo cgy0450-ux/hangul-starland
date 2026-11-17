@@ -1,5 +1,5 @@
-# Add complete Pororo and Tayo ten-page stories
+# Add distinct math and English openings
 
-Adds two original ten-page adventures, twenty scene illustrations and twenty matching free local M4 recordings to the existing shelf, for twenty-six published books. Existing indices, default narration-ended paging and offline reader preserved. Pororo atlas was revised for useful per-scene framing; both approved atlases and actual rendered screens reviewed.
+Extends the existing Hangul opening lifecycle with original math/English subject scenes, sequential number blocks and ABC motion. Uses separate first/repeat visit keys, preserves skip/replay, reduced motion and true image readiness. No lesson structure, progress, scoring, voice or daily selection changes.
 
-Zootopia text/audio drafted but artwork generation rejected; it remains pending outside the published app, with no placeholder or replacement artwork. No paid external API. Tests/evidence: docs/v13/friends-stories; browser emulation, not physical devices.
+PASS three subjects across phone/tablet renders, matching tokens/art, skip/replay/reduced motion and offline catalog return; smoke and 72 browser cases. QA #368 and Pages #401 success with matching release SHA. Evidence: docs/v13/subject-openings. Remaining seven openings and physical-device/low-end validation are pending.
