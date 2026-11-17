@@ -1,0 +1,3 @@
+Normal handwriting previously mixed isolated syllables into a picture-word room. Removed those partial targets: the complete noun controls the title, audio, all letter cells and completion. Adds radio as a full supported noun. Word-to-raster paths are explicit and checked, independent of stale shared art token mappings. No glyph/evaluator threshold changes.
+
+Phone/tablet radio, milk, car and train cases require every letter; direct image decode checks cover every word illustration. Four-viewport strict writing/undo/cancel/real-touch/offline and 72 browser regressions pass. Physical-device testing is not claimed.

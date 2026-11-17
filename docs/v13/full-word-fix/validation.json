@@ -1,0 +1,102 @@
+[
+  {
+    "view": "mobile",
+    "word": "라디오",
+    "imageDecoded": true,
+    "allLettersRequired": true
+  },
+  {
+    "view": "mobile",
+    "word": "우유",
+    "imageDecoded": true,
+    "allLettersRequired": true
+  },
+  {
+    "view": "mobile",
+    "word": "자동차",
+    "imageDecoded": true,
+    "allLettersRequired": true
+  },
+  {
+    "view": "mobile",
+    "word": "기차",
+    "imageDecoded": true,
+    "allLettersRequired": true
+  },
+  {
+    "view": "mobile",
+    "auditedWords": [
+      "가방",
+      "거북이",
+      "고양이",
+      "기린",
+      "기차",
+      "나무",
+      "나비",
+      "라디오",
+      "모자",
+      "바나나",
+      "바다",
+      "사자",
+      "수박",
+      "오리",
+      "우산",
+      "우유",
+      "자동차",
+      "포도",
+      "풍선",
+      "하마",
+      "호랑이"
+    ]
+  },
+  {
+    "view": "tablet",
+    "word": "라디오",
+    "imageDecoded": true,
+    "allLettersRequired": true
+  },
+  {
+    "view": "tablet",
+    "word": "우유",
+    "imageDecoded": true,
+    "allLettersRequired": true
+  },
+  {
+    "view": "tablet",
+    "word": "자동차",
+    "imageDecoded": true,
+    "allLettersRequired": true
+  },
+  {
+    "view": "tablet",
+    "word": "기차",
+    "imageDecoded": true,
+    "allLettersRequired": true
+  },
+  {
+    "view": "tablet",
+    "auditedWords": [
+      "가방",
+      "거북이",
+      "고양이",
+      "기린",
+      "기차",
+      "나무",
+      "나비",
+      "라디오",
+      "모자",
+      "바나나",
+      "바다",
+      "사자",
+      "수박",
+      "오리",
+      "우산",
+      "우유",
+      "자동차",
+      "포도",
+      "풍선",
+      "하마",
+      "호랑이"
+    ]
+  }
+]

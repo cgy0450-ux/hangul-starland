@@ -13,7 +13,7 @@
     "realMouseStroke": true,
     "trustedTouchStroke": true,
     "threeLetterWord": true,
-    "singleLetterTrace": true,
+    "fullNounTrace": true,
     "autoNextAfterCompleteOnly": true
   },
   {
@@ -30,7 +30,7 @@
     "realMouseStroke": true,
     "trustedTouchStroke": true,
     "threeLetterWord": true,
-    "singleLetterTrace": true,
+    "fullNounTrace": true,
     "autoNextAfterCompleteOnly": true
   },
   {
@@ -47,7 +47,7 @@
     "realMouseStroke": true,
     "trustedTouchStroke": true,
     "threeLetterWord": true,
-    "singleLetterTrace": true,
+    "fullNounTrace": true,
     "autoNextAfterCompleteOnly": true
   },
   {
@@ -64,7 +64,7 @@
     "realMouseStroke": true,
     "trustedTouchStroke": true,
     "threeLetterWord": true,
-    "singleLetterTrace": true,
+    "fullNounTrace": true,
     "autoNextAfterCompleteOnly": true
   },
   {
