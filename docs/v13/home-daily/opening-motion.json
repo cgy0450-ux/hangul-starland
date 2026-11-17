@@ -1,0 +1,24 @@
+[
+  {
+    "viewport": [
+      360,
+      800
+    ],
+    "frameSampleCount": 31,
+    "sampleMs": 500.0,
+    "skip": true
+  },
+  {
+    "viewport": [
+      1280,
+      800
+    ],
+    "frameSampleCount": 31,
+    "sampleMs": 500.0,
+    "skip": true
+  },
+  {
+    "reducedMotionFastPoster": true,
+    "replay": true
+  }
+]

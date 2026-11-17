@@ -19,7 +19,7 @@ button.onclick=async()=>{
   }
   const response=await fetch('./sw.js?check='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('network');const remote=(await response.text()).match(/const CACHE = '([^']+)'/)?.[1];if(!remote)throw Error('version');
   const current=await new Promise(resolve=>{const ch=new MessageChannel();const timer=setTimeout(()=>resolve(null),1500);ch.port1.onmessage=e=>{clearTimeout(timer);resolve(e.data)};navigator.serviceWorker.controller.postMessage('JOY_VERSION',[ch.port2])});
-  target=remote;available=current!==remote||remote!=="hangul-starland-v14-5-friends-stories-20261117";status.textContent=available?'새 업데이트가 있어요. 업데이트하기를 눌러 주세요.':'최신 버전입니다.';button.textContent=available?'업데이트하기':'업데이트 확인';
+  target=remote;available=current!==remote||remote!=="hangul-starland-v14-6-daily-home-gana-20261117";status.textContent=available?'새 업데이트가 있어요. 업데이트하기를 눌러 주세요.':'최신 버전입니다.';button.textContent=available?'업데이트하기':'업데이트 확인';
  }catch(e){status.textContent=navigator.onLine?'업데이트를 확인하지 못했어요. 잠시 후 다시 시도해 주세요.':'인터넷 연결 후 업데이트를 확인해 주세요.'}
  finally{done()}
 };

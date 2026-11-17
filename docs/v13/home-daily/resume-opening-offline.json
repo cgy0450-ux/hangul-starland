@@ -1,0 +1,15 @@
+[
+  {
+    "realResumeQuestion2": true,
+    "exactQuestionRetained": true,
+    "dailyOrderIndependent": [
+      "coding",
+      "finance",
+      "reading"
+    ],
+    "openingSkipAndReplay": true
+  },
+  {
+    "offlineHomeAndThreeStories": true
+  }
+]

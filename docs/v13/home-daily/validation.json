@@ -1,0 +1,87 @@
+[
+  {
+    "viewport": [
+      360,
+      800
+    ],
+    "cards": [
+      "english",
+      "science",
+      "history"
+    ],
+    "allTenAccessible": true,
+    "noPageOverflow": true
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "cards": [
+      "english",
+      "science",
+      "history"
+    ],
+    "allTenAccessible": true,
+    "noPageOverflow": true
+  },
+  {
+    "viewport": [
+      800,
+      1280
+    ],
+    "cards": [
+      "english",
+      "science",
+      "history"
+    ],
+    "allTenAccessible": true,
+    "noPageOverflow": true
+  },
+  {
+    "viewport": [
+      1280,
+      800
+    ],
+    "cards": [
+      "english",
+      "science",
+      "history"
+    ],
+    "allTenAccessible": true,
+    "noPageOverflow": true
+  },
+  {
+    "viewport": [
+      1600,
+      900
+    ],
+    "cards": [
+      "english",
+      "science",
+      "history"
+    ],
+    "allTenAccessible": true,
+    "noPageOverflow": true
+  },
+  {
+    "viewport": [
+      800,
+      360
+    ],
+    "cards": [
+      "english",
+      "science",
+      "history"
+    ],
+    "allTenAccessible": true,
+    "noPageOverflow": true
+  },
+  {
+    "equalTenDayExposure": true,
+    "allWithinFourDays": true,
+    "kstMidnight": true,
+    "storiesThreeStable": true,
+    "storiesRotateAtMidnight": true
+  }
+]

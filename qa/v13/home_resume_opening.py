@@ -1,0 +1,11 @@
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+import json
+O=Path('docs/v13/home-daily');rows=[]
+with sync_playwright() as p:
+ b=p.chromium.launch(executable_path='/workspace/joiland-tools/bin/google-chrome',args=['--no-sandbox']);c=b.new_context(viewport={'width':1280,'height':800});page=c.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto('http://127.0.0.1:8000/journey.html?subject=math&lesson=math-0-choose');page.locator('#play.active').wait_for();
+ answer=page.evaluate("JSON.parse(localStorage.getItem('joyi-resume-learning')).run.questions[0].answer")
+ page.locator('#answers .choice').filter(has_text=str(answer)).first.click();page.locator('#next').click();assert page.locator('#count').inner_text()=='2 / 5';question=page.locator('#question').inner_text();page.goto('http://127.0.0.1:8000/');ids=page.locator('[data-daily-subject]').evaluate_all('(xs)=>xs.map(x=>x.dataset.dailySubject)');page.locator('#resume-learning').click();assert page.locator('#count').inner_text()=='2 / 5';assert page.locator('#question').inner_text()==question
+ page.goto('http://127.0.0.1:8000/journey.html?subject=hangul');page.locator('.subject-opening.ready').wait_for();page.screenshot(path=str(O/'hangul-opening.png'));page.locator('.opening-skip').click();assert page.locator('.subject-opening').is_hidden();page.locator('.opening-replay').click();page.locator('.subject-opening.ready').wait_for();page.wait_for_function('document.querySelector(".subject-opening").hidden');rows.append(dict(realResumeQuestion2=True,exactQuestionRetained=True,dailyOrderIndependent=ids,openingSkipAndReplay=True))
+ page.goto('http://127.0.0.1:8000/');page.evaluate('navigator.serviceWorker.ready');page.reload();page.wait_for_function('!!navigator.serviceWorker.controller');c.set_offline(True);page.reload();assert page.locator('[data-daily-subject]').count()==3;page.goto('http://127.0.0.1:8000/stories.html');assert page.locator('[data-book]').count()==3;page.locator('[data-book]').first.click();page.locator('#scene img').evaluate('(im)=>im.decode()');rows.append(dict(offlineHomeAndThreeStories=True));assert not errors,errors;c.close();b.close()
+(O/'resume-opening-offline.json').write_text(json.dumps(rows,indent=2)+'\n');print('PASS exact question resume, opening skip/replay and true offline home/daily stories')
