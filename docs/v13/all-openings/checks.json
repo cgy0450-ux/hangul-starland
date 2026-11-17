@@ -1,0 +1,13 @@
+{
+  "smoke": "PASS",
+  "browserRegression": {
+    "result": "PASS",
+    "cases": 72,
+    "log": "/tmp/all-tasks-final-browser.log"
+  },
+  "openingSuite": "validation.json",
+  "nicknameSuite": "nickname.json",
+  "shortLandscape": "short-landscape.json",
+  "visualReview": "Original scenes and new props reviewed on phone/tablet; long title wrapping and short landscape caption/skip spacing corrected.",
+  "limits": "Chrome browser emulation; physical device, native voice listening quality and low-end FPS not verified."
+}
