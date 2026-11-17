@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="455" viewBox="0 0 1180 455" role="img" aria-label="사용자 제공 밀크T아이 태블릿 홈 사진 2장을 바탕으로 재구성한 홈 화면 정보구조 참고도. 실제 사진은 아님.">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#8cddf1"/><stop offset="1" stop-color="#dbf6f7"/></linearGradient><linearGradient id="ground" x2="0" y2="1"><stop stop-color="#d8e878"/><stop offset="1" stop-color="#a2d776"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity=".13"/></filter></defs>
+<rect width="1180" height="455" fill="#f2f5f4"/>
+<g font-family="Noto Sans CJK KR,Apple SD Gothic Neo,Malgun Gothic,sans-serif">
+<text x="34" y="28" font-size="20" font-weight="700" fill="#34455a">REFERENCE A · 첫 화면의 3과목 카드 구조</text>
+<text x="622" y="28" font-size="20" font-weight="700" fill="#34455a">REFERENCE B · 좌우 이동 후 과목 카드 구조</text>
+<g transform="translate(20 42)">
+<rect width="560" height="385" rx="22" fill="url(#sky)" stroke="#c9dae7" stroke-width="3"/>
+<path d="M0 295 H560 V360 Q560 385 535 385 H25 Q0 385 0 360Z" fill="url(#ground)"/>
+<text x="27" y="38" fill="#2d5a6f" font-weight="800" font-size="16">전체 메뉴</text><text x="253" y="38" fill="#2d5a6f" font-weight="800" font-size="18">오늘의 모험</text><text x="500" y="38" fill="#2d5a6f" font-size="16">⚙</text>
+<g filter="url(#shadow)">
+<rect x="26" y="76" width="158" height="211" rx="78" fill="#fff9ee" stroke="#ffffff" stroke-width="4"/><rect x="29" y="170" width="152" height="114" rx="52" fill="#f2b747"/><circle cx="105" cy="128" r="40" fill="#fff3d9"/><text x="105" y="139" font-size="34" fill="#ae792e" text-anchor="middle" font-weight="800">가</text><text x="105" y="225" fill="#ffffff" font-size="35" font-weight="900" text-anchor="middle">한글</text>
+<rect x="201" y="76" width="158" height="211" rx="78" fill="#fff9ee" stroke="#ffffff" stroke-width="4"/><rect x="204" y="170" width="152" height="114" rx="52" fill="#a78ce4"/><circle cx="280" cy="128" r="40" fill="#ede5ff"/><text x="280" y="138" font-size="30" fill="#6655a8" text-anchor="middle" font-weight="800">1+2</text><text x="280" y="225" fill="#ffffff" font-size="35" font-weight="900" text-anchor="middle">수학</text>
+<rect x="376" y="76" width="158" height="211" rx="78" fill="#fff9ee" stroke="#ffffff" stroke-width="4"/><rect x="379" y="170" width="152" height="114" rx="52" fill="#5b99dc"/><circle cx="455" cy="128" r="40" fill="#e4f2ff"/><text x="455" y="138" font-size="30" fill="#4077c4" text-anchor="middle" font-weight="800">ABC</text><text x="455" y="225" fill="#ffffff" font-size="35" font-weight="900" text-anchor="middle">영어</text>
+</g><rect x="30" y="321" width="500" height="46" rx="20" fill="#ffffffed"/><text x="280" y="348" fill="#446377" text-anchor="middle" font-size="16" font-weight="700">홈  ·  글씨쓰기  ·  놀이터  ·  동화  ·  전체과목</text>
+</g>
+<g transform="translate(606 42)">
+<rect width="560" height="385" rx="22" fill="url(#sky)" stroke="#c9dae7" stroke-width="3"/><path d="M0 295 H560 V360 Q560 385 535 385 H25 Q0 385 0 360Z" fill="url(#ground)"/>
+<text x="27" y="38" fill="#2d5a6f" font-weight="800" font-size="16">전체 메뉴</text><text x="253" y="38" fill="#2d5a6f" font-weight="800" font-size="18">오늘의 모험</text>
+<g filter="url(#shadow)">
+<rect x="26" y="76" width="158" height="211" rx="78" fill="#fff" stroke="#fff" stroke-width="4"/><rect x="29" y="170" width="152" height="114" rx="52" fill="#9e79c9"/><circle cx="105" cy="128" r="40" fill="#e9dff9"/><text x="105" y="138" font-size="32" text-anchor="middle" fill="#8262aa">✦</text><text x="105" y="225" fill="#fff" text-anchor="middle" font-size="30" font-weight="900">창의</text>
+<rect x="201" y="76" width="158" height="211" rx="78" fill="#fff" stroke="#fff" stroke-width="4"/><rect x="204" y="170" width="152" height="114" rx="52" fill="#ed8090"/><circle cx="280" cy="128" r="40" fill="#fff0ec"/><text x="280" y="138" font-size="32" text-anchor="middle" fill="#b35867">책</text><text x="280" y="225" fill="#fff" text-anchor="middle" font-size="30" font-weight="900">동화</text>
+<rect x="376" y="76" width="158" height="211" rx="78" fill="#fff" stroke="#fff" stroke-width="4"/><rect x="379" y="170" width="152" height="114" rx="52" fill="#a18e73"/><circle cx="455" cy="128" r="40" fill="#ede7dc"/><text x="455" y="137" font-size="30" text-anchor="middle" fill="#8b724e">?</text><text x="455" y="225" fill="#fff" text-anchor="middle" font-size="29" font-weight="900">탐험</text>
+</g><rect x="30" y="321" width="500" height="46" rx="20" fill="#ffffffed"/><text x="280" y="348" fill="#446377" text-anchor="middle" font-size="16" font-weight="700">홈  ·  글씨쓰기  ·  놀이터  ·  동화  ·  전체과목</text>
+</g>
+<text x="590" y="447" text-anchor="middle" font-size="12" fill="#89959d">사용자 사진 2장을 바탕으로 구조만 재구성한 참고도 — 원본 사진 또는 상용 캐릭터 그래픽 복제본이 아님</text>
+</g></svg>
