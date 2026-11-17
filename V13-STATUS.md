@@ -321,3 +321,4 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 - skip/replay 사이 비동기 이미지 완료 경쟁 상태 수정. 이전 show의 decode 결과는 새 show를 변경하지 못함. 실패 후 다시 보기 때 숨긴 이미지 복원 및 실제 실패 안내 표시. 영어 미리듣기 미지원/오류는 사용자 피드백 제공. 기존 오디오/일일 선택/학습관 구조/획 판정/진도 유지.
 - 검증 증거 docs/v13/natural-opening 및 qa/v13/natural_opening.py. 최종 검사/배포 결과는 후속 기록. 실기기 청취·아동 사용성·저사양 FPS 검수는 여전히 미완료.
 - 최종 PASS: 40개 과목/화면 조합, 지연 decode 경쟁/실패 재시도/영어 preview 오류, smoke, 72개 브라우저 화면, 240개 문제 연결/138개 장면. 추가로 10과목 skip/replay/reduced-motion/실제 worker offline 회귀 PASS.
+- 운영 반영 검증: main `e0cba96cfcf93ad1e8f6f5662cd591ebe2df2a1e`, JavaScript QA #370 (44202229147) 및 Pages #403 (44202228561) SUCCESS, 실행 제목의 커밋 일치 확인. docs/v13/natural-opening/deployment.json. 로컬 Chrome 폰/태블릿 검증이며 실기기 및 공개 사이트 직접 시각 검증은 아님.
