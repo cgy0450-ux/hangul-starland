@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "math",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "1",
+      "2",
+      "3"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "english",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "A",
+      "B",
+      "C"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "hangul",
+    "viewport": [
+      390,
+      844
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\u3131",
+      "\u3134",
+      "\u3137"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "math",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "1",
+      "2",
+      "3"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "english",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "A",
+      "B",
+      "C"
+    ],
+    "skipReplay": true
+  },
+  {
+    "subject": "hangul",
+    "viewport": [
+      1280,
+      800
+    ],
+    "matchingArt": true,
+    "tokens": [
+      "\u3131",
+      "\u3134",
+      "\u3137"
+    ],
+    "skipReplay": true
+  },
+  {
+    "reducedMotion": true
+  },
+  {
+    "offline": true
+  }
+]
