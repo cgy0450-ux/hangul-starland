@@ -348,3 +348,4 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 - 파일 저장 완료 수/전체 수와 퍼센트/설명/progress 표시. 닫아도 앱을 켜 둔 동안 배경 준비; 완료 시 홈 안내. 적용 버튼을 누를 때 새로고침하여 놀이 중 강제 재시작 방지. 실제 worker/legacy flag/배경 완료/진행 수치/timeout/offline 회귀 PASS.
 - 스파이더맨 삽화의 실제 거절 응답은 output/other, 상세 이유·정책 변경 조회 수단 없음. 과거 성공/현재 곰 편집 성공을 확인했으며 계정·결제·사용자 승인 부족으로 단정하지 않음. 거절 우회/재시도 없음; 미완료 유지.
 - 정상 브라우저에서 두 엔진 실제 입력·부분 미통과·새 곰/정답, 240개 그림 연결 및 static smoke PASS. 전체 로컬 browser smoke는 환경의 약27,000 누적 종료 프로세스로 Chrome renderer 생성 실패. 전체 통과로 보고하지 않음. 기존 QA workflow를 개발 브랜치에도 실행하여 72개 실제 PASS 후 main 반영 예정. docs/v13/jieut-bear 참조.
+- 최종 검사/배포 확인: 동일 코드 `6dcade51a2c48c0afcac2100e13ac8312a797ecb`의 개발 브랜치 QA #374 (44317842460)에서 static 및 명시적 72개 실제 브라우저 PASS를 확인한 후 main 반영. 운영 QA #375 (44318146990)와 Pages #407 (44318146951) SUCCESS, 두 실행 제목의 SHA 일치. branch-ci.json/deployment.json 참조. 로컬 환경의 광범위 검사는 실패로 기록하고 CI 통과를 별도로 구분했다. 물리 기기·운영 화면 직접 시각 검증으로 보고하지 않음.

@@ -1,0 +1,15 @@
+{
+  "releaseSHA": "6dcade51a2c48c0afcac2100e13ac8312a797ecb",
+  "workflow": {
+    "id": "44317842460",
+    "workflowName": "Joiland JavaScript QA",
+    "runNumber": 374,
+    "state": {
+      "status": "WORKFLOW_RUN_STATUS_COMPLETED",
+      "conclusion": "WORKFLOW_RUN_CONCLUSION_SUCCESS"
+    },
+    "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/44317842460"
+  },
+  "required": "Static suite plus exact PASS 72 browser cases guard; no browser skip accepted.",
+  "localLimit": "Local broad Chrome process exhaustion recorded separately."
+}

@@ -5,3 +5,5 @@ Both handwriting engines now guide a continuous top-bar-to-left-down stroke foll
 Update progress explains saved/total file counts and percent. Dismissing leaves preparation in the background while the app stays open; completion is announced, and Apply performs the reload without interrupting play. Real worker migration, progress, dismissal, offline and both actual handwriting engines were tested.
 
 Local broad browser checks hit environment process exhaustion after targeted tests passed. The same 72-case QA now also runs on the development branch and requires an explicit PASS, before production merge. Evidence docs/v13/jieut-bear. Image-tool output moderation still blocks the previously rejected character illustrations; no reason beyond output/other or policy-change information was supplied.
+
+Verified: development-branch QA #374 (mandatory explicit 72-case PASS) completed before main update. Production main 6dcade5: QA #375 and Pages #407 SUCCESS, both run titles match. Evidence docs/v13/jieut-bear/branch-ci.json and deployment.json.
