@@ -1,5 +1,6 @@
 {
   "realWorkerUpgrade": true,
+  "legacyAppliedFlagVerifiedAgainstRealWorker": true,
   "alreadyChangedControllerReload": true,
   "latestPhoneTablet": true,
   "offlineClearsOverlay": true,

@@ -1,0 +1,26 @@
+{
+  "releaseSHA": "704a84f576ce8026da81bdadc6052cf9dd89538e",
+  "workflows": [
+    {
+      "id": "44247969532",
+      "workflowName": "Joiland JavaScript QA",
+      "runNumber": 371,
+      "state": {
+        "status": "WORKFLOW_RUN_STATUS_COMPLETED",
+        "conclusion": "WORKFLOW_RUN_CONCLUSION_SUCCESS"
+      },
+      "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/44247969532"
+    },
+    {
+      "id": "44247968918",
+      "workflowName": "pages-build-deployment",
+      "runNumber": 404,
+      "state": {
+        "status": "WORKFLOW_RUN_STATUS_COMPLETED",
+        "conclusion": "WORKFLOW_RUN_CONCLUSION_SUCCESS"
+      },
+      "runUrl": "https://github.com/cgy0450-ux/hangul-starland/actions/runs/44247968918"
+    }
+  ],
+  "verification": "Remote main SHA and both run titles match; QA and Pages successful. Local mobile/tablet browser emulation; no physical-device or direct live-site visual verification claimed."
+}

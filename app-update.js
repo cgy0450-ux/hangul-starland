@@ -1,6 +1,6 @@
 (()=>{'use strict';
 const button=document.getElementById('refresh');if(!button)return;
-const BUILD='hangul-starland-v14-9-update-coding-20261118';
+const BUILD='hangul-starland-v14-9-1-update-coding-20261118';
 const status=document.createElement('p');status.setAttribute('role','status');status.style.cssText='text-align:center;color:#604497;font-weight:bold';button.closest('header').after(status);
 const overlay=document.createElement('div');overlay.hidden=true;overlay.style.cssText='position:fixed;inset:0;z-index:10000;background:#fff9f0f5;place-content:center;text-align:center;padding:24px;font-size:22px;font-weight:bold;color:#604497';
 const message=document.createElement('p');message.setAttribute('role','status');const cancel=document.createElement('button');cancel.textContent='닫고 기다리기';cancel.style.cssText='padding:14px 22px;border-radius:18px;background:white;color:#604497;font:inherit';overlay.append(message,cancel);document.body.append(overlay);
@@ -39,5 +39,5 @@ try{
 }catch(e){if(run===attempt)status.textContent=!navigator.onLine?'인터넷 연결 후 업데이트를 확인해 주세요.':e.message==='timeout'?'확인이 오래 걸리고 있어요. 연결을 확인하고 다시 시도해 주세요.':'업데이트를 확인하지 못했어요. 잠시 후 다시 시도해 주세요.'}
 finally{if(run===attempt)done()}
 };
-try{const applied=sessionStorage.getItem('joyi-update-applied');if(applied){sessionStorage.removeItem('joyi-update-applied');version().then(v=>{status.textContent=v===applied&&BUILD===applied?'업데이트가 완료되었습니다.':'새 버전 적용을 다시 확인해 주세요.'})}}catch(e){}
+try{const applied=sessionStorage.getItem('joyi-update-applied');if(applied){sessionStorage.removeItem('joyi-update-applied');version().then(v=>{const expected=applied==='1'?BUILD:applied;status.textContent=v===expected&&BUILD===expected?'업데이트가 완료되었습니다.':'새 버전 적용을 다시 확인해 주세요.'})}}catch(e){}
 })();

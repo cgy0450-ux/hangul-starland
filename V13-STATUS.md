@@ -330,3 +330,5 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 - 증거 docs/v13/update-coding, qa/v13/update_runtime.py 및 update_coding.py. 실기기/아동/사람 청취 승인으로 보고하지 않음. 기존 획 판정·5분 규칙·학습관 구조/일일 선택 유지.
 - 캐릭터 도안 도구 거절 기록 재확인: output/other 외 세부 사유 없음. 사용자 추가 승인이 도구 거절을 해제한다고 주장하지 않음. 거절 콘텐츠 우회/재시도 없음. 일반 화살표 생성은 성공, 지정 도안/주토피아는 계속 미완료. 최종 검사·배포 결과 후속 기록.
 - 최종 검증 PASS: 실제 구 worker→새 worker 설치/이미 교체 후 적용/자동 timeout 및 닫기/폰·태블릿 최신 표시/오프라인 안내/기존 해시 음원 네트워크 차단 재사용/신규 단계 녹음 실제 오프라인 재생. 3개 화면 크기의 한 번 탭·실제 touch drag·바깥 drop 미제출·잘못된 순서 차단·현재 단계 다시 듣기 및 6개 행동 순서 통과. 일반 오프닝 3.2초 후 표시·reduced-motion 포스터 2.4초 후 표시. smoke/72 browser cases와 전체 3329 음원 decode/hash 통과. 새 도안 4개는 방향 타일이며 거절된 캐릭터 색칠 도안이 아님.
+- v14.9.1 호환 보강: 구버전 업데이트가 남기는 sessionStorage 완료 플래그 `1`도 새 worker와 새 페이지 빌드를 확인한 경우에만 완료로 표시한다. 기존 사용자 업데이트 직후 잘못된 재확인 안내 방지. 버전/JS 쿼리 갱신하여 기존 설치본에 전달.
+- 1차 운영 반영 `704a84f`: QA #371 (44247969532), Pages #404 (44247968918) SUCCESS 및 실행 커밋 일치 확인. initial-deployment.json 참조. 최종 legacy 완료 표식 호환 보강은 별도 커밋으로 검증 후 반영.
