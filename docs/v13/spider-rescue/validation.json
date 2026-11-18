@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "dailyThreeOneCharacter": true,
+      "allSixCharacterBooksRotate": true,
+      "tenActualAudioStarts": true,
+      "truthfulNoSceneArt": true,
+      "autoEndPauseReplayManualAndDiscussion": true
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "dailyThreeOneCharacter": true,
+      "allSixCharacterBooksRotate": true,
+      "tenActualAudioStarts": true,
+      "truthfulNoSceneArt": true,
+      "autoEndPauseReplayManualAndDiscussion": true
+    }
+  ],
+  "actualWorkerOffline": true,
+  "recordedEditionWithoutDeviceSpeechAPI": true
+}

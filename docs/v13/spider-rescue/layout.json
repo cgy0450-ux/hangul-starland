@@ -1,0 +1,18 @@
+[
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "noReservedImageBlankSpace": true,
+    "noHorizontalOverflow": true
+  },
+  {
+    "viewport": [
+      1280,
+      800
+    ],
+    "noReservedImageBlankSpace": true,
+    "noHorizontalOverflow": true
+  }
+]

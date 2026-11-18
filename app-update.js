@@ -1,6 +1,6 @@
 (()=>{'use strict';
 const button=document.getElementById('refresh');if(!button)return;
-const BUILD='hangul-starland-v14-9-1-update-coding-20261118';
+const BUILD='hangul-starland-v14-10-rescue-daily-character-20261118';
 const status=document.createElement('p');status.setAttribute('role','status');status.style.cssText='text-align:center;color:#604497;font-weight:bold';button.closest('header').after(status);
 const overlay=document.createElement('div');overlay.hidden=true;overlay.style.cssText='position:fixed;inset:0;z-index:10000;background:#fff9f0f5;place-content:center;text-align:center;padding:24px;font-size:22px;font-weight:bold;color:#604497';
 const message=document.createElement('p');message.setAttribute('role','status');const cancel=document.createElement('button');cancel.textContent='닫고 기다리기';cancel.style.cssText='padding:14px 22px;border-radius:18px;background:white;color:#604497;font:inherit';overlay.append(message,cancel);document.body.append(overlay);

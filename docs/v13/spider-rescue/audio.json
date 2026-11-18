@@ -1,0 +1,60 @@
+{
+  "model": "Supertonic 3 int8, CPU local",
+  "speaker": 8,
+  "numSteps": 8,
+  "speed": 1.05,
+  "clips": [
+    {
+      "path": "assets/story-rescue/spider-river-01.mp3",
+      "duration": 21.048,
+      "sha256": "4846d7954cc4cb9e533c5aa88d78ae62af9115818652c342c629753b5ca0bbe0"
+    },
+    {
+      "path": "assets/story-rescue/spider-river-02.mp3",
+      "duration": 25.2,
+      "sha256": "1a39b20623220c1c164d08f51f8be7cda4e4ea4152f46a3da2d1ff8bf0ded5eb"
+    },
+    {
+      "path": "assets/story-rescue/spider-river-03.mp3",
+      "duration": 22.704,
+      "sha256": "85fc4288119825197859029b2d82a3adf66d6fafc22a58d845286e7d2f13dccb"
+    },
+    {
+      "path": "assets/story-rescue/spider-river-04.mp3",
+      "duration": 21.864,
+      "sha256": "c37b99660856aa6a57f8e22e26693d410fa944a067f5ea1b684fc01fa7281715"
+    },
+    {
+      "path": "assets/story-rescue/spider-river-05.mp3",
+      "duration": 21.48,
+      "sha256": "e7c1fe08cbc26afcbd71fa9db970282af8a8f13a9f1f647197ea0226f3a998ef"
+    },
+    {
+      "path": "assets/story-rescue/spider-river-06.mp3",
+      "duration": 23.064,
+      "sha256": "4e933cf3495d75faff0f66190ee2f22016b42a704a565b3f6631096017c26032"
+    },
+    {
+      "path": "assets/story-rescue/spider-river-07.mp3",
+      "duration": 23.28,
+      "sha256": "fdcd971d3b591bc442bf8d386b3e03595b5fb3851b637ef7e97a2a2606c3edfa"
+    },
+    {
+      "path": "assets/story-rescue/spider-river-08.mp3",
+      "duration": 23.712,
+      "sha256": "54e621e5d5f8728ad11529843add45005e56bfd2803906788ae1832ffc746be3"
+    },
+    {
+      "path": "assets/story-rescue/spider-river-09.mp3",
+      "duration": 24.192,
+      "sha256": "34b09757af3548781f610a3c38a65b5cbb019b1b70c3085c283a6d43be8535ef"
+    },
+    {
+      "path": "assets/story-rescue/spider-river-10.mp3",
+      "duration": 25.32,
+      "sha256": "6f38ff977205c35f07c197d0a65baea7d2bdbabd16b09a977efba237702db67b"
+    }
+  ],
+  "totalSeconds": 231.864,
+  "humanListeningApproval": false
+}

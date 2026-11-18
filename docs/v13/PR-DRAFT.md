@@ -1,9 +1,7 @@
-# Fix stalled updates and coding interactions
+# Guarantee one character story daily and add rescue narration
 
-Applying an update previously waited for a second controllerchange even when the new worker already controlled the page. Check the active version, bound all waits, allow dismissal and verify both worker/page before success. Install with eight concurrent jobs and reuse immutable hashed audio while preserving complete offline installation.
+Daily story selection now gives one rotating character book plus two classics, with exactly three unique books per KST day. All six character books and 21 classics rotate fairly; subject scheduling and existing book indices/settings stay intact. The legacy private shelf follows the same public selection and refreshes on pageshow.
 
-Keep openings visible for 4.5 seconds after readiness (3 seconds with reduced motion). Replace coding arrow emoji with four reviewed original wooden tiles. Submit drag answers with one tap or actual pointer drag, preserve outside-drop cancellation, pair order options with their actual art/labels, replay the current step, and update stars immediately. Coding routine exercises now use six meaningful three-step processes with 18 locally generated M4 recordings.
+Adds a ten-chapter Spider-Man river-car rescue narration with ten actual locally generated M4 recordings, chapter text and comprehension. New scene generation was rejected by the image tool; the book is explicitly labeled as an audio edition with scene illustrations pending. No unrelated art, emoji or stock substituted. Recorded editions can play without device speech APIs.
 
-Validation/evidence: docs/v13/update-coding, real worker migration and cached audio/offline playback, phone/tablet trusted touch and sequencing tests, existing smoke/browser regression and complete audio decode/hash audit. No stroke scoring, daily selection, progress or trophy-limit changes. Character coloring output moderation remains blocked; physical-device/human listening approval remains pending.
-
-Production v14.9.1 verified: main 7149350, QA #372 and Pages #405 SUCCESS; both run titles match. Legacy completion flag is verified against the new worker/page rather than blindly trusted. Evidence docs/v13/update-coding/deployment.json.
+Validation: 42-day selection/fairness/KST tests, real phone/tablet media controls and all pages, existing illustrated characters, offline recorded playback and 24-day public/private selection comparison. Evidence docs/v13/spider-rescue. No human/device listening approval or completed new illustrations claimed.

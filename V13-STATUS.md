@@ -333,3 +333,10 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 - v14.9.1 호환 보강: 구버전 업데이트가 남기는 sessionStorage 완료 플래그 `1`도 새 worker와 새 페이지 빌드를 확인한 경우에만 완료로 표시한다. 기존 사용자 업데이트 직후 잘못된 재확인 안내 방지. 버전/JS 쿼리 갱신하여 기존 설치본에 전달.
 - 1차 운영 반영 `704a84f`: QA #371 (44247969532), Pages #404 (44247968918) SUCCESS 및 실행 커밋 일치 확인. initial-deployment.json 참조. 최종 legacy 완료 표식 호환 보강은 별도 커밋으로 검증 후 반영.
 - 최종 운영 반영 확인(v14.9.1): main `71493509b67ce60696fe44a979ff798a9753e5e8`, JavaScript QA #372 (44248356800) 및 Pages #405 (44248355628) SUCCESS. 두 실행 제목의 커밋 일치 확인. docs/v13/update-coding/deployment.json. 로컬 브라우저/실제 입력·미디어·서비스워커 검증이며 물리 기기/운영 화면 직접 시각 검증으로 보고하지 않음.
+
+## v14.10 — 강물 구조 낭독판·하루 캐릭터 동화 1편 (2026-11-18 KST)
+- 최신 원격 backlog/지침 및 이전 완료를 대조. 새 ‘스파이더맨 — 강물에 빠진 노란 자동차’10장 글·무료 로컬 M4 음원10개(총231.864초), 이해 활동을 공통 책장에 추가. 실제 음원 전체 decode/hash PASS. 자동 다음 장·일시정지/다시 듣기·기존 책 인덱스 유지.
+- 새 삽화는 출력 심사에서 거절(request `0dd57cd2-f806-47d7-859d-07acc9116239`, output/other). 우회/재시도·무관한 기존 그림 대체 없음. 새 책은 장면 삽화 없는 낭독판이며 카드·본문에 표시. 삽화 동화 완료로 보고하지 않는다.
+- 하루3편 중 캐릭터1편 + 일반2편으로 제한. 스파이더맨2·폴리·마리오·뽀로로·타요6편 캐릭터 그룹, 기존 일반21편. KST 동일 날짜 유지/자정 변경/중복 없음. 42일 노출 균등(캐릭터각7회, 일반각4회). 오늘 새 구조 낭독판 먼저 노출 후6일 캐릭터 순환. 과목3/10 순환은 유지.
+- 전용 책장도 동일 공통 선택과 대조, 키/암호화 데이터/개인 정보 변경 없음. pageshow 날짜 갱신 보강. 기기 음성 API 없이도 녹음판은 재생 가능하도록 리더 분리. 증거 docs/v13/spider-rescue 및 qa/v13/rescue_daily.cjs/rescue_story.py/private_daily.py. 최종 검사/배포 결과는 후속 기록.
+- 최종 PASS: 42일 선택/균등 노출/KST/과목 순환 불변, 실제 폰·태블릿 브라우저 신규 전10장 재생·auto-end/pause/replay/manual/discussion 및 기존 캐릭터5편 삽화, 실제 worker offline 녹음 재생. 공개/전용 책장 24일 일치, 읽는 중 KST 자정 책장 복귀, 낭독판 이미지 예약 공백 제거·텍스트 넘침 없음. 구 worker→새 worker 업데이트/legacy 완료 표식/timeout·닫기/offline 회귀도 통과. smoke/72 browser cases PASS. 물리 기기·사람 청취/새 삽화 완료로 보고하지 않음.

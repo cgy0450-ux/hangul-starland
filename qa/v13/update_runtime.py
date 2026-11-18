@@ -1,9 +1,10 @@
 """Real old-to-new service worker update over HTTP; stalled-update escape and offline UI."""
 from pathlib import Path
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
-import threading,json,re
+import threading,json,re,os
 from playwright.sync_api import sync_playwright
-ROOT=Path(__file__).resolve().parents[2];O=ROOT/'docs/v13/update-coding';O.mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[2];O=ROOT/os.environ.get('JOY_UPDATE_EVIDENCE','docs/v13/update-coding');O.mkdir(exist_ok=True)
+release=re.search(r"const CACHE = '([^']+)'",(ROOT/'sw.js').read_text()).group(1)
 state={'new':False};old="""const CACHE='old-test-release';self.addEventListener('install',e=>e.waitUntil(self.skipWaiting()));self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));self.addEventListener('message',e=>{if(e.data==='JOY_VERSION')e.ports[0].postMessage(CACHE)});"""
 class Handler(SimpleHTTPRequestHandler):
  def __init__(self,*a,**kw):super().__init__(*a,directory=str(ROOT),**kw)
@@ -23,11 +24,11 @@ with sync_playwright()as p:
  # Either apply immediately or safely close a slow download. Installation proceeds in the worker.
  page.wait_for_timeout(2000)
  if page.get_by_text('닫고 기다리기',exact=True).is_visible():page.get_by_text('닫고 기다리기',exact=True).click()
- page.wait_for_function("async()=>{const ch=new MessageChannel();const v=await new Promise(r=>{ch.port1.onmessage=e=>r(e.data);navigator.serviceWorker.controller.postMessage('JOY_VERSION',[ch.port2])});return v.includes('v14-9-1-update-coding')}",timeout=120000)
+ page.wait_for_function("async wanted=>{const ch=new MessageChannel();const v=await new Promise(r=>{ch.port1.onmessage=e=>r(e.data);navigator.serviceWorker.controller.postMessage('JOY_VERSION',[ch.port2])});return v===wanted}",arg=release,timeout=120000)
  # The controller already changed; applying must reload without waiting for another controllerchange.
  page.locator('#refresh').click();page.get_by_text('업데이트하기',exact=True).wait_for();page.locator('#refresh').click();page.get_by_text('업데이트가 완료되었습니다.',exact=True).wait_for(timeout=20000)
  page.evaluate("sessionStorage.setItem('joyi-update-applied','1')");page.reload();page.get_by_text('업데이트가 완료되었습니다.',exact=True).wait_for();page.locator('#refresh').click();page.get_by_text('최신 버전입니다.',exact=True).wait_for();page.screenshot(path=str(O/'update-latest-phone.png'))
- assert page.evaluate("async u=>!!(await (await caches.open('hangul-starland-v14-9-1-update-coding-20261118')).match(u))",audio)
+ assert page.evaluate("async ([u,v])=>!!(await (await caches.open(v)).match(u))",[audio,release])
  page.set_viewport_size({'width':1280,'height':800});page.locator('#refresh').click();page.get_by_text('최신 버전입니다.',exact=True).wait_for();page.screenshot(path=str(O/'update-latest-tablet.png'))
  c.set_offline(True);page.locator('#refresh').click();page.get_by_text('인터넷 연결 후 업데이트를 확인해 주세요.',exact=True).wait_for();assert not page.get_by_text('닫고 기다리기',exact=True).is_visible()
  page.goto(base+'/journey.html?subject=coding');page.locator('.opening-skip').click();page.evaluate("()=>{window.playResolved=false;const native=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){return native.call(this).then(()=>{window.playResolved=true})};const b=document.createElement('button');b.id='qa-audio';b.textContent='음원 검증';b.onclick=()=>JOY_CORE.speak('손에 물 묻히기');document.body.append(b)}");page.locator('#qa-audio').click();page.wait_for_function('playResolved');page.goto(base+'/');c.set_offline(False)

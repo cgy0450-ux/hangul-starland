@@ -1,0 +1,11 @@
+.booktile.narration-card{position:relative;min-height:260px;background:linear-gradient(145deg,#fff9ec,#e5f1ff)!important;border:5px solid white;padding:22px!important;gap:18px;justify-content:center!important;color:#273e67}
+.narration-edition{display:block;font-size:14px;font-weight:850;letter-spacing:.04em;color:#735349;background:#fffaf0;border:1px solid #e2d8c3;border-radius:30px;padding:8px 15px}
+.narration-card .book-copy{background:transparent!important;padding:0!important}.narration-card .book-copy strong{font-size:clamp(23px,4.5vw,32px);line-height:1.45;word-break:keep-all}
+.audio-chapter{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;min-height:150px;padding:24px 18px;background:linear-gradient(140deg,#eff7ff,#fff5e6);border:2px solid #e5e5da;border-radius:24px;text-align:center;white-space:normal}
+.audio-chapter small{font:800 14px system-ui;color:#63778d}.audio-chapter strong{font:850 clamp(23px,5vw,34px) system-ui;line-height:1.45;word-break:keep-all;color:#344f75}.audio-chapter p{font:500 12px system-ui;color:#796c65;margin:0}
+#reader.audio-story #scene{display:block!important;min-height:0!important;background:none!important;white-space:normal!important;font-size:inherit!important}#reader.audio-story #scene:before{display:none}
+#reader.audio-story .storytext{text-align:left;line-height:1.75;max-width:720px}#reader.audio-story .bookcontrol{position:sticky;bottom:0}
+@media(max-height:650px){.audio-chapter{min-height:100px;padding:14px}.audio-chapter strong{font-size:23px}}
+#reader.audio-story #scene{flex:none!important}#reader.audio-story .paper:before{display:none}
+.narration-edition{word-break:keep-all;line-height:1.5;font-size:12px}
+#reader.audio-story #scene{aspect-ratio:auto!important;height:auto!important;max-height:none!important}

@@ -329,3 +329,4 @@ for(const file of ['whole-word-writing.js','whole-word-writing.css','assets/writ
 new vm.Script(fs.readFileSync('whole-word-writing.js','utf8'));
 
 const friends={window:{JOY_STORIES:[]}};vm.runInNewContext(fs.readFileSync('stories-friends.js','utf8'),friends);assert.equal(friends.window.JOY_STORIES.length,2);for(const b of friends.window.JOY_STORIES){assert.equal(b.pages.length,10);for(const p of b.pages){assert(fs.existsSync(p.art.replace('./','')));assert(fs.existsSync(p.audio.replace('./','')))}}
+require('./v13/rescue_daily.cjs');

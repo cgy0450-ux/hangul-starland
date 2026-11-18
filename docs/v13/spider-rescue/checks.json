@@ -1,0 +1,8 @@
+{
+  "schedule": "PASS:42 KST days; exactly one character and two classics, fair rotation and unchanged subjects",
+  "mediaAudit": "PASS:10 full MP3 decode/hash and 231.864 seconds",
+  "browserRegression": "PASS:72 cases",
+  "privateDaily": "PASS:24 actual UI days matching public selections",
+  "newIllustrations": "NOT COMPLETE: image output moderation rejected request 0dd57cd2-f806-47d7-859d-07acc9116239; explicitly labeled narration edition",
+  "limits": "Chrome browser emulation and actual media execution, not physical devices or subjective human listening approval"
+}
