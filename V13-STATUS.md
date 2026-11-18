@@ -322,3 +322,11 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 - 검증 증거 docs/v13/natural-opening 및 qa/v13/natural_opening.py. 최종 검사/배포 결과는 후속 기록. 실기기 청취·아동 사용성·저사양 FPS 검수는 여전히 미완료.
 - 최종 PASS: 40개 과목/화면 조합, 지연 decode 경쟁/실패 재시도/영어 preview 오류, smoke, 72개 브라우저 화면, 240개 문제 연결/138개 장면. 추가로 10과목 skip/replay/reduced-motion/실제 worker offline 회귀 PASS.
 - 운영 반영 검증: main `e0cba96cfcf93ad1e8f6f5662cd591ebe2df2a1e`, JavaScript QA #370 (44202229147) 및 Pages #403 (44202228561) SUCCESS, 실행 제목의 커밋 일치 확인. docs/v13/natural-opening/deployment.json. 로컬 Chrome 폰/태블릿 검증이며 실기기 및 공개 사이트 직접 시각 검증은 아님.
+
+## v14.9 — 업데이트 복구·충분한 오프닝·코딩 조작/그림 (2026-11-18 KST)
+- 최신 원격 backlog/지침과 완료 이력을 대조하고 사용자 보고를 재현했다. 업데이트 controllerchange 120초 대기를 현재 버전 재확인/제한 시간/즉시 닫기로 대체. 실제 목표 worker+페이지일 때만 성공 표시. 설치 동시성 8개와 기존 해시 음원 재사용으로 반복 다운로드 완화; 모든 CORE 성공 전 활성화하지 않음. 기존 오프라인·진도 유지.
+- 준비 완료 후 일반 4.5초/reduced-motion 3초 과목 오프닝, 즉시 skip 유지. 재방문 1초 및 준비시간 차감 제거.
+- 원목 3D 방향 타일 4종 실제 생성·의미/화질 검사·연결. 한 번 탭 제출과 실제 터치 드래그, 바깥 놓기 취소, 놓인 답 표시. 순서 놀이의 정확한 큰 그림/라벨, 현재 단계 다시 듣기, 순서 오류 미진행. ‘순서 세우기’는 6개 실제 행동 3단계. 무료 로컬 음원 18개 추가 및 전체 3329개 decode/hash 검사. 별 숫자 즉시 갱신 누락도 수정.
+- 증거 docs/v13/update-coding, qa/v13/update_runtime.py 및 update_coding.py. 실기기/아동/사람 청취 승인으로 보고하지 않음. 기존 획 판정·5분 규칙·학습관 구조/일일 선택 유지.
+- 캐릭터 도안 도구 거절 기록 재확인: output/other 외 세부 사유 없음. 사용자 추가 승인이 도구 거절을 해제한다고 주장하지 않음. 거절 콘텐츠 우회/재시도 없음. 일반 화살표 생성은 성공, 지정 도안/주토피아는 계속 미완료. 최종 검사·배포 결과 후속 기록.
+- 최종 검증 PASS: 실제 구 worker→새 worker 설치/이미 교체 후 적용/자동 timeout 및 닫기/폰·태블릿 최신 표시/오프라인 안내/기존 해시 음원 네트워크 차단 재사용/신규 단계 녹음 실제 오프라인 재생. 3개 화면 크기의 한 번 탭·실제 touch drag·바깥 drop 미제출·잘못된 순서 차단·현재 단계 다시 듣기 및 6개 행동 순서 통과. 일반 오프닝 3.2초 후 표시·reduced-motion 포스터 2.4초 후 표시. smoke/72 browser cases와 전체 3329 음원 decode/hash 통과. 새 도안 4개는 방향 타일이며 거절된 캐릭터 색칠 도안이 아님.

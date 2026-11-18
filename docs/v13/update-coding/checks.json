@@ -1,0 +1,14 @@
+{
+  "smoke": "PASS",
+  "browserRegression": "PASS:72 cases",
+  "audioAudit": "PASS:3329 decoded/hash-checked MP3s, including 18 new coding steps",
+  "update": "update-validation.json",
+  "coding": "coding-validation.json",
+  "reducedMotion": "reduced-motion.json",
+  "art": "generation.json",
+  "limits": [
+    "Chrome actual browser execution and trusted input at emulated phone/tablet sizes; not physical devices",
+    "No subjective human listening approval",
+    "Character coloring and Zootopia remain blocked by prior output moderation; no new character images"
+  ]
+}

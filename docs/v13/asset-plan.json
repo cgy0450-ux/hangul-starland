@@ -11214,6 +11214,62 @@
       "sha256": "f85bd142cd59bd68026a6027d6f9b0f9dd5c5e0f4f33a4ab9965da3016135c32",
       "provenance": "Built-in image_gen exec-6e5c30ec-b4ca-47c9-84bd-87fbb2f97048.png",
       "reviewNote": "Actual new stone fortress and toy bomb cover visually reviewed."
+    },
+    {
+      "id": "coding.arrow-up",
+      "path": "assets/v13/coding.arrow-up.webp",
+      "alt": "위 방향 원목 명령 타일",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        320,
+        320
+      ],
+      "sha256": "c9cacf33eccab381bfab235a0be950845373f13a687021f598859076ac5e8794",
+      "provenance": "Built-in image_gen exec-5179b875-2ba3-48c3-933b-e5cf979d7f55.png",
+      "reviewNote": "Original generated orthographic maple tile with correctly oriented teal arrow; no emoji. Technical quadrant export."
+    },
+    {
+      "id": "coding.arrow-down",
+      "path": "assets/v13/coding.arrow-down.webp",
+      "alt": "아래 방향 원목 명령 타일",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        320,
+        320
+      ],
+      "sha256": "cdbd7d565f510aa1542e87a6dd80e52c030c44ec6ad3ad0268802821104aa695",
+      "provenance": "Built-in image_gen exec-5179b875-2ba3-48c3-933b-e5cf979d7f55.png",
+      "reviewNote": "Original generated orthographic maple tile with correctly oriented teal arrow; no emoji. Technical quadrant export."
+    },
+    {
+      "id": "coding.arrow-left",
+      "path": "assets/v13/coding.arrow-left.webp",
+      "alt": "왼쪽 방향 원목 명령 타일",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        320,
+        320
+      ],
+      "sha256": "e67d19d6bc27719ec9928c186234e20c07cd964ae197bc4389294026438dc310",
+      "provenance": "Built-in image_gen exec-5179b875-2ba3-48c3-933b-e5cf979d7f55.png",
+      "reviewNote": "Original generated orthographic maple tile with correctly oriented teal arrow; no emoji. Technical quadrant export."
+    },
+    {
+      "id": "coding.arrow-right",
+      "path": "assets/v13/coding.arrow-right.webp",
+      "alt": "오른쪽 방향 원목 명령 타일",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        320,
+        320
+      ],
+      "sha256": "42f53e0d262a4730290c67ec6513cafef03b7a019bd1d8c5d0a67a00fc39a764",
+      "provenance": "Built-in image_gen exec-5179b875-2ba3-48c3-933b-e5cf979d7f55.png",
+      "reviewNote": "Original generated orthographic maple tile with correctly oriented teal arrow; no emoji. Technical quadrant export."
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"

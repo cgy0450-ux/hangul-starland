@@ -1,7 +1,7 @@
-# Fix opening replay races and natural subject guidance
+# Fix stalled updates and coding interactions
 
-Rapid skip/replay previously let an older image decode change the newly opened sequence. Invalidate stale work, reset readiness/visibility on every replay and describe image-load failure accurately. Subject titles now match their activities, and compact portrait styling keeps longer titles and status text clear of Skip. Parent settings distinguish the learning-record name from the screen nickname and report English-preview errors.
+Applying an update previously waited for a second controllerchange even when the new worker already controlled the page. Check the active version, bound all waits, allow dismissal and verify both worker/page before success. Install with eight concurrent jobs and reuse immutable hashed audio while preserving complete offline installation.
 
-Preserves original JoYi art, progress, daily rotation, lessons and stroke scoring. Validation: responsive titles/bounds, delayed-decode race and recovery, voice-error dispatch, existing nickname/offline/regression checks. Requested character coloring atlas was rejected by image-tool output moderation and remains unfinished; no workaround or paid API. Physical-device validation remains pending. Final evidence docs/v13/natural-opening.
+Keep openings visible for 4.5 seconds after readiness (3 seconds with reduced motion). Replace coding arrow emoji with four reviewed original wooden tiles. Submit drag answers with one tap or actual pointer drag, preserve outside-drop cancellation, pair order options with their actual art/labels, replay the current step, and update stars immediately. Coding routine exercises now use six meaningful three-step processes with 18 locally generated M4 recordings.
 
-Production verified: main e0cba96, QA #370 and Pages #403 SUCCESS; both run titles match release SHA. Evidence docs/v13/natural-opening/deployment.json.
+Validation/evidence: docs/v13/update-coding, real worker migration and cached audio/offline playback, phone/tablet trusted touch and sequencing tests, existing smoke/browser regression and complete audio decode/hash audit. No stroke scoring, daily selection, progress or trophy-limit changes. Character coloring output moderation remains blocked; physical-device/human listening approval remains pending.

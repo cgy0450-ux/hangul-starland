@@ -1,0 +1,28 @@
+{
+  "tool": "built-in image_gen",
+  "source": "exec-5179b875-2ba3-48c3-933b-e5cf979d7f55.png",
+  "export": "Unmodified quadrant crops and WebP encoding only",
+  "visualReview": "Four correct unambiguous directions; rounded teal arrow on maple tile, matching lighting.",
+  "assets": [
+    {
+      "path": "assets/v13/coding.arrow-up.webp",
+      "direction": "up",
+      "sha256": "c9cacf33eccab381bfab235a0be950845373f13a687021f598859076ac5e8794"
+    },
+    {
+      "path": "assets/v13/coding.arrow-right.webp",
+      "direction": "right",
+      "sha256": "42f53e0d262a4730290c67ec6513cafef03b7a019bd1d8c5d0a67a00fc39a764"
+    },
+    {
+      "path": "assets/v13/coding.arrow-down.webp",
+      "direction": "down",
+      "sha256": "cdbd7d565f510aa1542e87a6dd80e52c030c44ec6ad3ad0268802821104aa695"
+    },
+    {
+      "path": "assets/v13/coding.arrow-left.webp",
+      "direction": "left",
+      "sha256": "e67d19d6bc27719ec9928c186234e20c07cd964ae197bc4389294026438dc310"
+    }
+  ]
+}

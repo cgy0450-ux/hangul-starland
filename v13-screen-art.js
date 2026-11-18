@@ -14,9 +14,15 @@ function artOnly(node){
   const image=new Image();image.className='history-scene';image.src=src;image.alt=person+'의 활동을 보여주는 역사 이야기 장면';node.replaceChildren(image);node.classList.add('history-picture');return;
  }
  node.classList.remove('history-picture');
+ if(node.querySelector('.visual-token'))return;
  if(node.querySelector('img,svg,canvas,input,a')||node.querySelector('button'))return;
  const text=node.textContent.trim(),tokens=[...segmenter.segment(text)].map(x=>x.segment).filter(x=>x.trim());
  if(!tokens.length||tokens.length>120)return;
+ const directions={'⬆️':'up','⬆':'up','⬇️':'down','⬇':'down','⬅️':'left','⬅':'left','➡️':'right','➡':'right'},names={up:'위',down:'아래',left:'왼쪽',right:'오른쪽'};
+ if(tokens.some(t=>directions[t])&&tokens.every(t=>directions[t]||t==='❓'||t==='?')){
+  node.dataset.visualText=text;node.replaceChildren(...tokens.map(t=>{if(!directions[t]){const mark=document.createElement('span');mark.textContent='?';mark.className='coding-missing';return mark}const img=new Image();img.src='./assets/v13/coding.arrow-'+directions[t]+'.webp';img.alt=names[directions[t]]+' 한 칸';img.className='coding-arrow';return img}));node.classList.add('coding-command');return;
+ }
+
  if(!tokens.every(t=>A.MAP[t])){
   if(!tokens.some(t=>A.MAP[t]))return;
   const fragments=[...segmenter.segment(text)].map(x=>x.segment);const arrow={'⬆️':'↑','⬇️':'↓','⬅️':'←','➡️':'→','❓':'?'};

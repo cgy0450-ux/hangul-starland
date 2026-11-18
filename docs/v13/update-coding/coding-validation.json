@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "oneTapSubmit": true,
+      "trustedTouchDrag": true,
+      "outsideDropNoSubmit": true,
+      "exactArrowImages": true,
+      "orderMatchingArtLabels": true,
+      "currentStepReplay": true
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "oneTapSubmit": true,
+      "trustedTouchDrag": true,
+      "outsideDropNoSubmit": true,
+      "exactArrowImages": true,
+      "orderMatchingArtLabels": true,
+      "currentStepReplay": true
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "oneTapSubmit": true,
+      "trustedTouchDrag": true,
+      "outsideDropNoSubmit": true,
+      "exactArrowImages": true,
+      "orderMatchingArtLabels": true,
+      "currentStepReplay": true
+    }
+  ],
+  "openingFirstRepeatOver3Seconds": true,
+  "allSixRoutinesExactOrder": true
+}

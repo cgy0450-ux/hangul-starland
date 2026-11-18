@@ -1,7 +1,7 @@
 (function(){"use strict";
 const C=window.JOY_CURRICULUM,A=window.JOY_CORE,$=id=>document.getElementById(id),params=new URLSearchParams(location.search);
 const subject=C.subject(params.get("subject")||"hangul")||C.subject("hangul");
-let run=null,index=0,score=0,answered=false,phase="quiz",shownAt=0,diagnosticResults=[],pictureOptions=null,interaction=null;
+let run=null,index=0,score=0,answered=false,phase="quiz",shownAt=0,diagnosticResults=[],pictureOptions=null,interaction=null,suppressChoiceClick=0;
 let soundOn=true;try{soundOn=JSON.parse(localStorage.getItem("hangul-starland-v1")||"{}").sound!==false}catch(e){}
 function speak(text,lang){if(soundOn)A.speak(text,lang||"ko-KR")}
 function setSound(){ $("sound").textContent=soundOn?"🔊 소리 켬":"🔇 소리 끔"}
@@ -86,6 +86,9 @@ function optionsRender(options){const parent=$("answers");parent.replaceChildren
  const wrap=el("div","choice-wrap"),b=el("button","choice",opt),hear=el("button","choice-hear","🔊");
  b.type="button";b.dataset.opt=opt;b.style.setProperty("--choice",["#e6f7ff","#fff2d4","#f8e8ff","#e7ffe9"][i%4]);
  const historic={세종대왕:"sejong",이순신:"yisunshin",장영실:"jang",신사임당:"saimdang",허준:"heojun",유관순:"yugwansun"};const name=subject.modules.flatMap(m=>m.items).find(q=>q.visual===opt)?.answer;const scene=window.JoyiSceneCatalog?.byVisual(subject.id,opt)||(subject.id==="history"&&historic[name]?"./assets/v13/history."+historic[name]+".webp":null);if(scene){const img=new Image();img.src=scene;img.alt=window.JoyiSceneCatalog.rows.find(r=>r.subject===subject.id&&r.visual===opt)?.answer||'선택할 상황 그림';img.className='scene-choice';b.textContent='';b.append(img)}
+ if(interaction?.type==='order'){
+ const item=interaction.seq.find(x=>x.answer===opt);if(item){b.replaceChildren();const art=el('span','visual-token',item.visual||''),label=el('span','order-label',opt);const path=item.art?'./assets/v13/'+item.art+'.webp':window.JoyiSceneCatalog?.find(subject.id,item.answer,item.visual);if(path){const im=new Image();im.src=path;im.alt=item.answer;im.className='scene-choice';art.replaceChildren(im)}b.append(art,label)}
+ }
  hear.type="button";hear.dataset.voice=opt;hear.setAttribute("aria-label","보기 소리 듣기");
  wrap.append(b,hear);parent.append(wrap)
 }}
@@ -94,31 +97,36 @@ function current(){return run.questions[index]}
 function freshRivals(q){return A.shuffle(run.module.items.filter(x=>x.answer!==q.answer&&x.visual!==q.visual),A.day()+q.answer).filter((x,i,a)=>a.findIndex(y=>y.answer===x.answer)===i).slice(0,2)}
 function addInteractionText(text){$("hint").textContent=text}
 function makeTouchTarget(){
- const target=el("div","drop-target","📦 여기에 옮겨 놓아요");
- target.tabIndex=0;target.setAttribute("role","button");target.setAttribute("aria-label","정답 넣기");
- target.id="dropTarget";$("interaction").append(target);
- target.onclick=()=>{if(!interaction||interaction.type!=="drag"||!interaction.selected)return;processAnswer(interaction.selected)};
- target.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();target.click()}};
- target.ondragover=e=>e.preventDefault();
- target.ondrop=e=>{e.preventDefault();const value=e.dataTransfer?.getData("text/plain");if(value)processAnswer(value)}
+ const target=el('div','drop-target','답을 여기에 놓아요');target.id='dropTarget';target.setAttribute('aria-label','답을 끌어 놓는 자리');$('interaction').append(target);target.ondragover=e=>e.preventDefault();target.ondrop=e=>{e.preventDefault();const value=e.dataTransfer?.getData('text/plain');if(Array.from($('answers').querySelectorAll('[data-opt]')).some(b=>b.dataset.opt===value))processAnswer(value)};
 }
+function enableTouchDrag(btn){
+ let drag=null,ghost=null;
+ function cleanup(){ghost?.remove();ghost=null;drag=null;$('dropTarget')?.classList.remove('selected')}
+ btn.style.touchAction='none';
+ btn.onpointerdown=e=>{if(answered||e.button!==0)return;drag={id:e.pointerId,x:e.clientX,y:e.clientY,moved:false};btn.setPointerCapture(e.pointerId)};
+ btn.onpointermove=e=>{if(!drag||drag.id!==e.pointerId)return;if(!drag.moved&&Math.hypot(e.clientX-drag.x,e.clientY-drag.y)<12)return;drag.moved=true;if(!ghost){ghost=btn.cloneNode(true);ghost.removeAttribute('id');ghost.classList.add('drag-ghost');ghost.setAttribute('aria-hidden','true');document.body.append(ghost)}ghost.style.left=e.clientX+'px';ghost.style.top=e.clientY+'px';const r=$('dropTarget').getBoundingClientRect();$('dropTarget').classList.toggle('selected',e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom)};
+ btn.onpointerup=e=>{if(!drag||drag.id!==e.pointerId)return;const moved=drag.moved,r=$('dropTarget').getBoundingClientRect(),inside=e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom;cleanup();if(moved){suppressChoiceClick=performance.now()+500;if(inside)processAnswer(btn.dataset.opt)}};
+ btn.onpointercancel=cleanup;
+}
+const codingRoutines=[[["손에 물 묻히기","sprite.waterdrop"],["비누로 문지르기","sprite.soap"],["물로 헹구기","sprite.openhands"]],[["칫솔 준비하기","sprite.toothbrush"],["치아 골고루 닦기","sprite.tooth"],["입 헹구기","sprite.waterdrop"]],[["화분 살펴보기","sprite.seedling"],["알맞게 물 주기","sprite.waterdrop"],["햇빛 살펴보기","sprite.sun"]],[["신발 신기","sprite.shoe"],["문 열기","sprite.door"],["밖으로 나가기","sprite.house"]],[["읽을 책 고르기","sprite.magnifier"],["책 펼치기","sprite.book"],["글과 그림 읽기","sprite.eyes"]],[["바닥 블록 놓기","sprite.blocks"],["벽 쌓기","sprite.building-house"],["집 완성하기","sprite.house"]]];
 function specialRender(q,mode){
- const rivals=freshRivals(q),panel=$("interaction");panel.replaceChildren();panel.classList.remove("hidden");
+ const rivals=freshRivals(q),panel=$("interaction");panel.replaceChildren();panel.classList.remove("hidden","order-progress");
  if(mode==="tap"||mode==="pair"){
    pictureOptions=A.shuffle([q,...rivals],q.answer+A.day()).map(x=>({visual:x.visual,answer:x.answer}));
    optionsRender(pictureOptions.map(x=>x.visual));
    $("visual").textContent="🐯 🔎";$("question").textContent=mode==="pair"?"첫 번째: 소리를 듣고 그림을 찾아요":"쪼이가 말하는 그림을 찾아요!";
    addInteractionText("정답은 눈으로 찾고, 귀로 들어 봐요");interaction={type:mode,step:0};speak(q.answer,locale());
  } else if(mode==="drag"){
-   optionsRender(quizOptions(q));$("question").textContent="맞는 말을 골라 상자에 넣어 봐요";
-   addInteractionText("보기를 누르고 상자를 누르거나, 끌어다 놓아요");
+   optionsRender(quizOptions(q));$("question").textContent=q.question||"알맞은 답을 골라요";
+   addInteractionText("답을 한 번 누르거나, 빈 자리에 끌어 놓아요");
    interaction={type:mode,selected:null};makeTouchTarget();speak(q.question,"ko-KR");
-   $("answers").querySelectorAll("[data-opt]").forEach(btn=>{btn.draggable=true;btn.ondragstart=e=>{e.dataTransfer.setData("text/plain",btn.dataset.opt)}});
+   $("answers").querySelectorAll("[data-opt]").forEach(enableTouchDrag);
  } else if(mode==="order"){
-   const seq=A.shuffle([q,...rivals],q.answer+"order").slice(0,3);
+   const routine=subject.id==='coding'&&run.module.id==='coding-2'?codingRoutines[run.module.items.findIndex(x=>x.answer===q.answer)]:null;
+   const seq=routine?routine.map(([answer,art])=>({answer,art})):A.shuffle([q,...rivals],q.answer+"order").slice(0,3);
    interaction={type:mode,step:0,seq};
-   optionsRender(seq.map(x=>x.answer));$("visual").textContent="🚂 🎯";
-   $("question").textContent="쪼이가 말하는 낱말을 차례로 골라요";
+   optionsRender(A.shuffle(seq,q.answer+"choices").map(x=>x.answer));$("visual").textContent="";$("visual").classList.add("hidden");panel.classList.add("order-progress");seq.forEach((_,i)=>{const slot=el("span","order-slot",(i+1)+"번");slot.dataset.step=i;panel.append(slot)});
+   $("question").textContent=routine?q.hint+" · 먼저 할 일부터 골라요":"쪼이가 말하는 낱말을 차례로 골라요";
    addInteractionText("첫 번째 소리를 듣고 찾아요 · 1 / "+seq.length);speak(seq[0].answer,locale());
  } else if(mode==="story"){
    $("visual").textContent=q.visual;$("question").textContent="쪼이와 이야기 먼저 들어요";
@@ -131,11 +139,11 @@ function specialRender(q,mode){
 function processAnswer(chosen){
  const q=current(),mode=run.type==="diagnostic"?"choose":run.lesson.mode;
  if(!q||answered||phase!=="quiz")return;
- if(mode==="drag"&&interaction){interaction.selected=chosen}
+ if(mode==="drag"&&interaction){interaction.selected=chosen;$("dropTarget").textContent=chosen;$("dropTarget").classList.add("selected")}
  if(mode==="order"&&interaction){
    const target=interaction.seq[interaction.step].answer;
    if(chosen!==target){$("feedback").textContent="💛 다시 잘 들어봐요";speak(target,locale());return}
-   interaction.step++;
+   $("interaction").querySelectorAll(".order-slot")[interaction.step]?.classList.add("completed");interaction.step++;
    if(interaction.step<interaction.seq.length){
       $("feedback").textContent="🌟 좋아요! 다음 소리를 들어요!";
       $("hint").textContent=(interaction.step+1)+" / "+interaction.seq.length+" · 소리를 듣고 골라요";
@@ -156,7 +164,7 @@ function processAnswer(chosen){
 }
 function finishAnswer(ok,btn,elapsed){
  const q=current();if(answered)return;answered=true;
- if(ok){score++;btn?.classList.add("good");$("feedback").textContent="🌟 잘했어! "+(A.profile().name||"이현")+"!";speak("우리 친구 정말 잘하네!")}
+ if(ok){score++;$("stars").textContent="⭐ "+score;btn?.classList.add("good");$("feedback").textContent="🌟 잘했어! "+(A.profile().name||"이현")+"!";speak("우리 친구 정말 잘하네!")}
  else{btn?.classList.add("bad");$("feedback").textContent="💛 설명을 듣고 다시 배워봐요!";speak("다시 배워보자!")}
  if(run.type==="diagnostic")diagnosticResults.push({skill:q.skill,correct:ok,elapsed});
  else {A.update(run.lesson.skill,ok,elapsed,run.lesson.mode);A.recordQuestion(subject.id,run.module.id,q,ok)}
@@ -168,6 +176,7 @@ function render(){
  clearVoice();document.getElementById('joyi-finish-actions')?.remove();$("voicePractice").classList.add("hidden");answered=false;saveResume();phase="quiz";pictureOptions=null;interaction=null;$("interaction").replaceChildren();$("interaction").classList.add("hidden");$("feedback").textContent="";$("explain").classList.add("hidden");$("answers").classList.remove("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("visual").classList.remove("hidden");$("hear").textContent="🔊 소리 듣기";
  $("count").textContent=(index+1)+" / "+run.questions.length;$("stars").textContent="⭐ "+score;$("bar").style.width=(100*index/run.questions.length)+"%";
  const q=current(),mode=run.type==="diagnostic"?"choose":run.lesson.mode;
+ $("play").dataset.mode=mode;
  if(!q)return;
  $("visual").dataset.sceneSource=window.JoyiSceneCatalog?.find(subject.id,q.answer,q.visual)||'';$("visual").dataset.historyAnswer=subject.id==='history'?q.answer:'';$("visual").textContent=q.visual;$("question").textContent=q.question||q.hint||"어떤 것일까요?";
  $("hint").textContent="차근차근 생각하고 골라봐요";
@@ -204,13 +213,13 @@ $("ready").onclick=()=>{if(phase!=="intro")return;let q=current(),mode=run.lesso
  else $("question").textContent=q.question||q.hint||"어떤 것일까요?";
  speak($("question").textContent,"ko-KR");shownAt=performance.now()};
 $("repeat").onclick=()=>{if(phase!=="speaking")return;phase="quiz";$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("answers").classList.remove("hidden");$("question").textContent=current().question||current().hint||"어떤 것일까요?";shownAt=performance.now()};
-$("hear").onclick=()=>{const q=current();if(!q)return;const mode=run.type==="diagnostic"?"choose":run.lesson.mode;const answerMode=mode==="speak"||mode==="listen"||mode==="tap"||mode==="pair"||mode==="order";speak(answerMode?q.answer:q.question||q.hint||q.answer,answerMode?locale():"ko-KR")};
+$("hear").onclick=()=>{const q=current();if(!q)return;const mode=run.type==="diagnostic"?"choose":run.lesson.mode;const answerMode=mode==="speak"||mode==="listen"||mode==="tap"||mode==="pair"||mode==="order";speak(mode==="order"&&interaction?interaction.seq[Math.min(interaction.step,interaction.seq.length-1)].answer:answerMode?q.answer:q.question||q.hint||q.answer,answerMode?locale():"ko-KR")};
 $("answers").onclick=e=>{
  const hear=e.target.closest("[data-voice]");
  if(hear){speak(hear.dataset.voice,locale());return}
  const btn=e.target.closest("[data-opt]");if(!btn||answered)return;
  const mode=run.type==="diagnostic"?"choose":run.lesson.mode;
- if(mode==="drag"){interaction.selected=btn.dataset.opt;$("dropTarget").textContent="🧲 "+btn.dataset.opt+" → 상자를 눌러 넣어요";$("dropTarget").classList.add("selected");return}
+ if(performance.now()<suppressChoiceClick)return;
  processAnswer(btn.dataset.opt)
 };
 function finishFive(){

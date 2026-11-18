@@ -6,10 +6,10 @@
   "language": "ko",
   "numSteps": 8,
   "speed": 1.05,
-  "clips": 3311,
+  "clips": 3329,
   "storyScenes": 200,
-  "bytes": 79496980,
-  "durationSeconds": 9839.448,
+  "bytes": 79717228,
+  "durationSeconds": 9866.448,
   "items": [
     {
       "text": "햇살이 숲길을 간질였어요. 달리기 좋아하는 토끼가 폴짝 뛰었지요. “오늘도 내가 제일 빠를걸!”",
@@ -26498,6 +26498,150 @@
       "duration": 2.904,
       "bytes": 23468,
       "sha256": "5040feeab1e6524bdc41f7abd1f1d6e675cd518ed51cb7b0c345a42644de80b2"
+    },
+    {
+      "text": "손에 물 묻히기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/73a821db17d40ef2e78a.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "96ab6f02c8d3dd71b534dc398b90872b7982429019e16606797cd8135a1039a4"
+    },
+    {
+      "text": "비누로 문지르기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/748d361b38b531c0404a.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "9116a80a251c5fc4e74c2c4e5d44d9b0e78158ff822d360f1db18628f2148527"
+    },
+    {
+      "text": "물로 헹구기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/4d33f9519b39c214322a.mp3",
+      "duration": 1.44,
+      "bytes": 11756,
+      "sha256": "0c4d51c01d1d7e79cc35ffaeb15d60b6bbd28f15224ef7db61f886f68af09254"
+    },
+    {
+      "text": "칫솔 준비하기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/ae7dc5d8a4f3b734f319.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "70f92d3e787bd5521b191184ea16a6bba45d63b9220d500dc1f965c42ba78184"
+    },
+    {
+      "text": "치아 골고루 닦기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/8b78de93a615c5f19fb2.mp3",
+      "duration": 1.752,
+      "bytes": 14252,
+      "sha256": "b5a7a80fc5253e4c26ef4473eb5e497712efac29065c9df21bda37f1a0038875"
+    },
+    {
+      "text": "입 헹구기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/d3aed86c00e98eac1772.mp3",
+      "duration": 1.344,
+      "bytes": 10988,
+      "sha256": "188ea93febcc9587f9cdddd742cd1cba94a2016cc1e14a91bdb5a372bd5f0af2"
+    },
+    {
+      "text": "화분 살펴보기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/846a9f3cfc0ffdbb17bf.mp3",
+      "duration": 1.512,
+      "bytes": 12332,
+      "sha256": "04ccb396e2275d7c2fe19dd803316e51c1f2cd067ca34051c4081f4c21cdccfe"
+    },
+    {
+      "text": "알맞게 물 주기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/b1b7f994db722f5adeb7.mp3",
+      "duration": 1.608,
+      "bytes": 13100,
+      "sha256": "f96985c51e4728885507e23890437788f5352bee3966e89548cb35bebfd63083"
+    },
+    {
+      "text": "햇빛 살펴보기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/7c0e1cf153086964a0a4.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "24b39be9bf2222ed5ee97d95ecf8228d3b7f6773c72cee11f0f2d80752b486a2"
+    },
+    {
+      "text": "신발 신기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/60b57bbf680c491274cc.mp3",
+      "duration": 1.392,
+      "bytes": 11372,
+      "sha256": "8d51de5ad7f92160b9be484f54a4018fd4bab4d450281c4cba8c82c6d02eda4c"
+    },
+    {
+      "text": "문 열기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/ab8425b03153d84a7d6b.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "0c1a2e84874bb29e31d7c44e50f4379cf97f5bfeb58aa7f53fc4e99801e171c2"
+    },
+    {
+      "text": "밖으로 나가기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/747381bd66da13def369.mp3",
+      "duration": 1.512,
+      "bytes": 12332,
+      "sha256": "b4512de429e61c0cf36d71c90f9a5d22fe9747426d8f9fc54dc2f012ea5d8245"
+    },
+    {
+      "text": "읽을 책 고르기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/f25868467cbfb238e312.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "66d44e5cdfb936e3d6a429a208c29f80e473508fa789d2adcf12a92d456afd5a"
+    },
+    {
+      "text": "책 펼치기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/d1bbb361533a269e930d.mp3",
+      "duration": 1.368,
+      "bytes": 11180,
+      "sha256": "22a0d08eec5597b489bfed0c4b6e243ac0e1f32d8bb32ebd6f173159f75c0383"
+    },
+    {
+      "text": "글과 그림 읽기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/58b3a3840154ca8c69d3.mp3",
+      "duration": 1.56,
+      "bytes": 12716,
+      "sha256": "18d9faab9310e52e823b68c184384c3072e5c7dcebfe275dffdc33bea3606d76"
+    },
+    {
+      "text": "바닥 블록 놓기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/bf31e56d95ea89889c70.mp3",
+      "duration": 1.584,
+      "bytes": 12908,
+      "sha256": "8a8888078d5138d49e7cc4be7469172a71ef1fefd79b607cc988ef666c0e411b"
+    },
+    {
+      "text": "벽 쌓기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/6fb6493edcfb7b783de5.mp3",
+      "duration": 1.296,
+      "bytes": 10604,
+      "sha256": "5c2d559172e5f65222d749bc944a5ed7a2f7a6167446a84cdeca5d062b6292ff"
+    },
+    {
+      "text": "집 완성하기",
+      "kind": "coding-procedure",
+      "path": "assets/audio/58fe9c9906a76388d311.mp3",
+      "duration": 1.44,
+      "bytes": 11756,
+      "sha256": "eb4ca084df23cd76838057d5f82399304d65279dd2f689cb79c6135bdb31d6a1"
     }
   ],
   "limitations": [

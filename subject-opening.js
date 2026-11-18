@@ -6,6 +6,6 @@ async function show(){
  try{await Promise.race([img.decode(),new Promise((_,reject)=>{timeout=setTimeout(reject,2500)})])}catch(e){if(run===generation)img.style.visibility='hidden'}finally{clearTimeout(timeout)}
  if(run!==generation)return;
  panel.querySelector('[role=status]').textContent=img.style.visibility==='hidden'?'그림 없이도 함께 시작할 수 있어요.':'준비됐어요. 함께 배워요!';panel.classList.add('ready');let seen=false;try{seen=localStorage.getItem('joyi-'+id+'-opening')==='seen';localStorage.setItem('joyi-'+id+'-opening','seen')}catch(e){}
- timer=setTimeout(close,matchMedia('(prefers-reduced-motion: reduce)').matches?300:Math.max(300,(seen?1000:3500)-(performance.now()-began)));
+ timer=setTimeout(close,matchMedia('(prefers-reduced-motion: reduce)').matches?3000:4500);
 }
 const replay=document.createElement('button');replay.textContent='쪼이 오프닝 다시 보기';replay.className='opening-replay';replay.onclick=show;document.getElementById('catalog')?.append(replay);window.addEventListener('pagehide',close);document.addEventListener('visibilitychange',()=>{if(document.hidden)close()});show();})();
