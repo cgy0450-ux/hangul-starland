@@ -1,0 +1,20 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>아이야 동화 통합 검사</title></head><body data-aiya-probe="pending"><script>
+(async()=>{try{
+ const root=new URL('../',location.href),html=await(await fetch(new URL('stories.html',root))).text();
+ for(const [width,height]of [[390,844],[1280,800]]){
+ const frame=document.createElement('iframe');frame.width=String(width);frame.height=String(height);
+ const loaded=new Promise(resolve=>frame.onload=resolve);
+ frame.srcdoc=html.replace('<head>','<head><base href="'+root.href+'"><script>Date.now=()=>1794934800000;localStorage.setItem("hangul-starland-v1",JSON.stringify({sound:false}));<\/script>');document.body.append(frame);await loaded;
+ const w=frame.contentWindow,d=w.document,check=(ok,label)=>{if(!ok)throw Error(label)};
+ await d.fonts.ready;check(w.innerWidth===width,'actual viewport width');check(d.documentElement.scrollWidth<=w.innerWidth,'shelf horizontal overflow');check(d.querySelector('.booktile'),'existing story shelf');check(d.querySelectorAll('[data-book]').length===3,'daily three');
+ const book=w.JOY_STORIES[26];check(book.id==='aiya-river-rescue'&&book.title.includes('한글용사 아이야'),'hero metadata');check(book.pages.length===10,'ten pages');
+ check(book.pages.every(p=>!(/스파이더맨|거미줄/.test(p.text))&&p.audio.includes('aiya-river-')),'new hero narration and media');
+ d.querySelector('[data-book="26"]').click();check(d.querySelector('#autoTurn').checked,'auto-next default');
+ for(let i=0;i<10;i++){check(d.querySelector('#pagecount').textContent.startsWith((i+1)+' / '),'page '+i);check(d.querySelector('#booktitle').textContent.includes('아이야'),'title '+i);check(d.querySelector('#storytext').textContent===book.pages[i].text,'matching text '+i);check(d.querySelectorAll('#scene img').length===0,'honest audio edition');check(d.documentElement.scrollWidth<=w.innerWidth,'reader horizontal overflow');if(i<9)d.querySelector('#next').click()}
+ d.querySelector('#next').click();check(!d.querySelector('#comprehension').hidden,'comprehension');d.querySelector('.story-choice').click();check(d.querySelector('.story-feedback').textContent.includes('사람'),'people first answer');d.querySelector('#back').click();check(!d.querySelector('#shelf').classList.contains('hidden'),'back to daily shelf');
+ await Promise.all(book.pages.map(p=>new Promise((resolve,reject)=>{const a=new Audio();a.preload='metadata';a.onloadedmetadata=()=>{if(!(a.duration>10))reject(Error('short media'));else{a.removeAttribute('src');a.load();resolve()}};a.onerror=()=>reject(Error('media '+p.audio));a.src=new URL(p.audio,root).href;a.load()})));
+ d.querySelector('[data-book="26"]').click();
+ }
+ document.body.dataset.aiyaViewports='390x844,1280x800';document.body.dataset.aiyaProbe='pass';document.body.append('PASS actual story iframe, all ten pages, navigation, discussion and ten native media metadata loads');
+}catch(e){document.body.dataset.aiyaProbe='fail';document.body.append(String(e.stack||e))}})();
+</script></body></html>

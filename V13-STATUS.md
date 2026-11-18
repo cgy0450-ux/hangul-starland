@@ -349,3 +349,9 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 - 스파이더맨 삽화의 실제 거절 응답은 output/other, 상세 이유·정책 변경 조회 수단 없음. 과거 성공/현재 곰 편집 성공을 확인했으며 계정·결제·사용자 승인 부족으로 단정하지 않음. 거절 우회/재시도 없음; 미완료 유지.
 - 정상 브라우저에서 두 엔진 실제 입력·부분 미통과·새 곰/정답, 240개 그림 연결 및 static smoke PASS. 전체 로컬 browser smoke는 환경의 약27,000 누적 종료 프로세스로 Chrome renderer 생성 실패. 전체 통과로 보고하지 않음. 기존 QA workflow를 개발 브랜치에도 실행하여 72개 실제 PASS 후 main 반영 예정. docs/v13/jieut-bear 참조.
 - 최종 검사/배포 확인: 동일 코드 `6dcade51a2c48c0afcac2100e13ac8312a797ecb`의 개발 브랜치 QA #374 (44317842460)에서 static 및 명시적 72개 실제 브라우저 PASS를 확인한 후 main 반영. 운영 QA #375 (44318146990)와 Pages #407 (44318146951) SUCCESS, 두 실행 제목의 SHA 일치. branch-ci.json/deployment.json 참조. 로컬 환경의 광범위 검사는 실패로 기록하고 CI 통과를 별도로 구분했다. 물리 기기·운영 화면 직접 시각 검증으로 보고하지 않음.
+
+## v14.12 — 자동차 구조 동화 영웅을 한글용사 아이야로 교체 (2026-11-18 KST)
+- 최신 원격 main backlog/지침 및 기존 완료를 대조. 사용자 지시대로 26번 구조 낭독판만 한글용사 아이야로 바꾸고, 글자 카드 배·줄·차를 쓰는 열 장의 새 창작 본문·무료 CPU M4 음원10개를 제작했다. 총231.48초, 전체 decode/hash PASS. 기존 삽화가 있는 21번 스파이더맨 동화 및 나머지25권은 유지.
+- 새 id/franchise 및 음원 경로, cache/query 버전 갱신. 27권 인덱스/캐릭터1+일반2/기존 자동 읽기·진도·획 판정·5분 규칙 유지. 옛 음원 경로는 열린 구버전 호환으로 보존.
+- 아이야 외형 참고용 공식 자료 조회는 proxy CONNECT403으로 불가. 복장/얼굴을 확인하지 못해 새 이미지 요청은 아직 하지 않았다. 이번 아이야도 도구가 거절했다고 보고하지 않음. 정확한 참고 이미지 필요, 낭독판 표시 유지. 옛 스파이더맨 요청을 이름만 바꿔 재전송하지 않음.
+- 로컬 Chrome native 검사는 Resource temporarily unavailable/BrowserThread:IO 실패로 미실행, PASS 아님. static smoke/파일 decode 검사 완료. 기존 story browser case를 실제 stories.html iframe의 두 viewport/10장/제목/내용/이해 활동/음원 metadata 통합 검사로 강화. 개발 브랜치 72-case CI 통과 후 main 반영 예정. docs/v13/aiya-rescue 참조.

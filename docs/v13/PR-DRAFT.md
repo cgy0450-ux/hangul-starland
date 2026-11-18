@@ -1,9 +1,7 @@
-# Use two-stroke ㅈ, replace malformed bear scene and explain updates
+# Change the rescue narration hero to Hangul Hero Aiya
 
-Both handwriting engines now guide a continuous top-bar-to-left-down stroke followed by the right branch for ㅈ. Initials/finals and related ㅉ/ㅊ geometry stay consistent. Strict evaluators are unchanged and hash-guarded; partial/reverse/corner-cut paths still fail. The honey bear is a new reviewed complete scene instead of the malformed atlas crop, with a fresh asset URL and legacy URL compatibility.
+Replaces only the newer rescue book at stable index26: title, hero metadata, ten chapters and ten actual local M4 recordings. The new creative story uses Hangul word cards for rescue, rather than retaining Spider-Man/web descriptions. Keeps the original illustrated Spider-Man book, all other books, daily one-character-plus-two-classics, saved controls and legacy audio URLs.
 
-Update progress explains saved/total file counts and percent. Dismissing leaves preparation in the background while the app stays open; completion is announced, and Apply performs the reload without interrupting play. Real worker migration, progress, dismissal, offline and both actual handwriting engines were tested.
+Accurate Aiya illustration references are not available: official-source requests returned proxy403. No new character image generation has been attempted; the book remains explicitly labeled as narration. No incorrect guessed appearance or renamed previous art supplied.
 
-Local broad browser checks hit environment process exhaustion after targeted tests passed. The same 72-case QA now also runs on the development branch and requires an explicit PASS, before production merge. Evidence docs/v13/jieut-bear. Image-tool output moderation still blocks the previously rejected character illustrations; no reason beyond output/other or policy-change information was supplied.
-
-Verified: development-branch QA #374 (mandatory explicit 72-case PASS) completed before main update. Production main 6dcade5: QA #375 and Pages #407 SUCCESS, both run titles match. Evidence docs/v13/jieut-bear/branch-ci.json and deployment.json.
+Static checks and full decode/hash of ten recordings pass. Local native Chrome is blocked by environment thread exhaustion. The 72-case development CI includes a stronger story integration probe: actual stories.html in mobile/tablet iframes, ten page transitions, matching hero text, comprehension, daily restriction and native metadata for all new recordings. Production update follows only after CI success. Evidence docs/v13/aiya-rescue.

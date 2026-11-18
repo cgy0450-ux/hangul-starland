@@ -1,0 +1,57 @@
+{
+  "model": "Supertonic 3 int8 CPU local, M4 speaker8",
+  "clips": [
+    {
+      "path": "assets/story-rescue/aiya-river-01.mp3",
+      "duration": 22.296,
+      "sha256": "0b9948086b7a34529e58d5624767433ee640a8e3f752aa5f19654a6ad844bf50"
+    },
+    {
+      "path": "assets/story-rescue/aiya-river-02.mp3",
+      "duration": 24.816,
+      "sha256": "531c0d6a228e4345ed9a47b458909d8f1b451d3d3804d5b02e0a190c27c989f1"
+    },
+    {
+      "path": "assets/story-rescue/aiya-river-03.mp3",
+      "duration": 22.584,
+      "sha256": "1cab090c828588a9713476c65c114c76c76ed295cb0cb7608e465b16a26602ee"
+    },
+    {
+      "path": "assets/story-rescue/aiya-river-04.mp3",
+      "duration": 21.6,
+      "sha256": "d95cdbab4add3fa38260e8332a964e69c2f47b288df1746da58d45a639adc331"
+    },
+    {
+      "path": "assets/story-rescue/aiya-river-05.mp3",
+      "duration": 23.256,
+      "sha256": "af96648aa49fc48e8a2b3c6f2b9e0fc3852b9a694117d55e65953cb92b848110"
+    },
+    {
+      "path": "assets/story-rescue/aiya-river-06.mp3",
+      "duration": 23.064,
+      "sha256": "750b0f4df9ccd50dca2b7eb3c67720d12616690b8d41e2be2aa7ad58c5cf5ada"
+    },
+    {
+      "path": "assets/story-rescue/aiya-river-07.mp3",
+      "duration": 23.28,
+      "sha256": "13d76eccdac780b10ccfd3444cbf34e160764769c641817cf7ef9f58d532cac9"
+    },
+    {
+      "path": "assets/story-rescue/aiya-river-08.mp3",
+      "duration": 23.04,
+      "sha256": "878db633f8394f8017c310409067f39781318e0c751388375181e598bebe2e41"
+    },
+    {
+      "path": "assets/story-rescue/aiya-river-09.mp3",
+      "duration": 23.88,
+      "sha256": "fb420b3ebbc41cb721002519a074821bd7c6d801f164c9034eadce55050d121e"
+    },
+    {
+      "path": "assets/story-rescue/aiya-river-10.mp3",
+      "duration": 23.664,
+      "sha256": "a8f03cba52e8b556895a6bd9637927830c7e1db81c564e151716acf013076c93"
+    }
+  ],
+  "totalSeconds": 231.48,
+  "humanListeningApproval": false
+}

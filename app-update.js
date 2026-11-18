@@ -1,6 +1,6 @@
 (()=>{'use strict';
 const button=document.getElementById('refresh');if(!button)return;
-const BUILD='hangul-starland-v14-11-jieut-bear-update-20261118';
+const BUILD='hangul-starland-v14-12-aiya-rescue-20261118';
 const status=document.createElement('p');status.setAttribute('role','status');status.style.cssText='text-align:center;color:#604497;font-weight:bold';button.closest('header').after(status);
 const overlay=document.createElement('div');overlay.hidden=true;overlay.style.cssText='position:fixed;inset:0;z-index:10000;background:#fff9f0f5;place-content:center;text-align:center;padding:24px;font-size:22px;font-weight:bold;color:#604497';
 const message=document.createElement('p');message.setAttribute('role','status');const cancel=document.createElement('button');cancel.textContent='닫고 배경에서 준비하기';cancel.style.cssText='padding:14px 22px;border-radius:18px;background:white;color:#604497;font:inherit';const detail=document.createElement('p');detail.style.cssText='font-size:15px;line-height:1.6;max-width:520px;margin:0 auto 18px';detail.textContent='숫자는 저장한 파일 수예요. 닫아도 앱을 켜 둔 동안 준비는 계속돼요. 완료 후 업데이트하기를 눌러 적용해 주세요.';const meter=document.createElement('progress');meter.hidden=true;meter.style.cssText='width:min(85vw,400px);margin:0 auto 16px';meter.setAttribute('aria-label','새 버전 파일 저장 진행');overlay.append(message,meter,detail,cancel);document.body.append(overlay);
