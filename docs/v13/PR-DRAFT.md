@@ -5,3 +5,5 @@ Replaces only the newer rescue book at stable index26: title, hero metadata, ten
 Accurate Aiya illustration references are not available: official-source requests returned proxy403. No new character image generation has been attempted; the book remains explicitly labeled as narration. No incorrect guessed appearance or renamed previous art supplied.
 
 Static checks and full decode/hash of ten recordings pass. Local native Chrome is blocked by environment thread exhaustion. The 72-case development CI includes a stronger story integration probe: actual stories.html in mobile/tablet iframes, ten page transitions, matching hero text, comprehension, daily restriction and native metadata for all new recordings. Production update follows only after CI success. Evidence docs/v13/aiya-rescue.
+
+Verified: development QA #377 before production; main 779e056 with QA #378 and Pages #408 SUCCESS, matching run titles/remote SHA. No newly generated or approved character illustrations claimed. Candidate third-party appearance reference awaits user confirmation.

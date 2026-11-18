@@ -1,1 +1,14 @@
-{"requestedHero":"한글용사 아이야","appearanceVerified":false,"officialReferenceLookup":"Proxy CONNECT 403 at home.ebs.co.kr and www.ebs.co.kr","newHeroImageGenerationAttempted":false,"needed":"User-provided character reference image or working official source","priorSpiderManRefusalBypassed":false}
+{
+  "requestedHero": "한글용사 아이야",
+  "appearanceVerified": false,
+  "officialReferenceLookup": "Proxy CONNECT 403 at home.ebs.co.kr and www.ebs.co.kr",
+  "newHeroImageGenerationAttempted": false,
+  "needed": "User-provided character reference image or working official source",
+  "priorSpiderManRefusalBypassed": false,
+  "unconfirmedCandidate": {
+    "source": "https://github.com/ian939/hangul-hero-quiz",
+    "field": "MAIN_B64",
+    "description": "Third-party quiz reference depicting red K, blue T and yellow heroes; not verified as canonical EBS appearance",
+    "userConfirmationPending": true
+  }
+}

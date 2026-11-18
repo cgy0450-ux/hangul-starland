@@ -16,3 +16,5 @@
 - qa/v13/aiya_story.py: 이전 native playback/auto/pause/replay/offline regression을 새 영웅에 적용한 실행 스크립트. 로컬 Chrome은 pthread_create Resource temporarily unavailable 및 BrowserThread:IO 시작 실패로 실행되지 않아 PASS로 보고하지 않는다. 이전 환경의 누적 프로세스 문제 지속. 실제 72-case browser 검사는 개발 브랜치 GitHub CI에서 main 전에 통과를 확인한다.
 
 외형 미확인·미제작 삽화, 로컬 native 검사 실행 실패, 물리 기기 검수는 완료로 표시하지 않는다. CI 통합 검사와 파일 디코드 결과를 실제 기기 청취/직접 시각 검사로 확대하지 않는다.
+
+최종 반영: `779e056`, 개발 QA #377 및 운영 QA #378·Pages #408 SUCCESS. 두 viewport의 실제 reader DOM/각장본문/이해활동·음원 metadata를 포함한72개 검사 통과. 직접 로컬 시각 검사/실기기 청취 승인으로 보고하지 않음. 공개 한글 퀴즈의 빨간K/파란T/노란 용사 그림도 찾았으나 공식 외형은 확인하지 못해 사용자에게 모습 확인을 요청했다. 이미지 생성 요청은 아직 하지 않았고 참고 그림을 앱 삽화로 복사하지 않았다.
