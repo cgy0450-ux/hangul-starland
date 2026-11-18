@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen edit",
+  "reference": "previous malformed reading honey scene",
+  "source": "exec-68a589ef-b3d5-4832-bd85-34284e9aad77.png",
+  "output": "assets/v13/lesson.reading-0.1-bear.webp",
+  "review": "Single coherent forest, complete ears/hands/feet/honey pot; no adjacent vegetable panel or white divider.",
+  "characterArtRejections": [
+    {
+      "request": "0dd57cd2-f806-47d7-859d-07acc9116239",
+      "stage": "output",
+      "code": "moderation_blocked",
+      "category": "other",
+      "detail": "No detailed cause or policy-change information supplied."
+    }
+  ],
+  "blockedCharacterContentRetried": false
+}

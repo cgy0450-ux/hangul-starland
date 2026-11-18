@@ -1696,7 +1696,7 @@
     "question": "곰이 달콤한 음식을 발견했어요. 무엇일까요?",
     "answer": "꿀",
     "visual": "🐻🍯",
-    "path": "./assets/v13/lesson.reading-0.1.webp",
+    "path": "./assets/v13/lesson.reading-0.1-bear.webp",
     "decision": "new contextual scene"
   },
   {

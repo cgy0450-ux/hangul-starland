@@ -1,0 +1,24 @@
+[
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "initialJieutTwoStrokes": true,
+    "partialCornerCutRejected": true,
+    "vowelStillRequired": true,
+    "stageGateTwoStrokes": true,
+    "newBearDecodedAndHoneyCorrect": true
+  },
+  {
+    "viewport": [
+      1280,
+      800
+    ],
+    "initialJieutTwoStrokes": true,
+    "partialCornerCutRejected": true,
+    "vowelStillRequired": true,
+    "stageGateTwoStrokes": true,
+    "newBearDecodedAndHoneyCorrect": true
+  }
+]

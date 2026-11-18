@@ -82,7 +82,7 @@ const pathStart=gate.indexOf(' const CHO='),pathEnd=gate.indexOf(' function path
 assert(pathStart>0&&pathEnd>pathStart,'cannot extract pure Hangul glyph geometry');
 const getGlyph=new Function('window',gate.slice(pathStart,pathEnd)+';return window.JoyiHangulGuide.pathsForHangul');
 const glyph=getGlyph({});
-const expectedStrokeCounts={'소':4,'방':7,'차':6,'자':5,'동':5,'알':6,'별':10};
+const expectedStrokeCounts={'소':4,'방':7,'차':5,'자':4,'동':5,'알':6,'별':10};
 for(const [character,n] of Object.entries(expectedStrokeCounts)){
  const strokes=glyph(character);assert(strokes&&strokes.length===n,character+' must have correct jamo and stroke count');
 }
@@ -139,8 +139,8 @@ assert(index.includes("./finance.html")&&index.includes("./requests.html"),'subj
 assert(index.includes('🔊 소리 듣기')&&!index.includes('🔊 글자 소리 듣기')&&!index.includes("우주선에 타자! '${item[0]}'"),'sound quiz must not reveal correct syllable in prompt');
 assert(index.includes('joy-playing')&&academy.includes('body.playing{height:100dvh'),'game-only page scroll lock missing');
 assert(index.includes('dayShuffle(mode,WORDS)'),'daily Hangul decks missing');
-assert(index.includes("'ㅈ':[[[16,23],[84,23]],[[51,23],[18,83]],[[51,23],[83,83]]]"),'ㅈ stroke geometry must have one horizontal and two separate diagonal strokes');
-assert(index.includes("'ㅊ':[[[32,12],[68,12]],[[17,35],[83,35]],[[51,35],[19,84]],[[51,35],[81,84]]]"),'ㅊ stroke geometry must have correct four strokes');
+assert(index.includes("'ㅈ':[[[16,23],[84,23],[18,83]],[[51,53],[83,83]]]"),'ㅈ must use continuous horizontal-to-left-down stroke, followed by the right branch');
+assert(index.includes("'ㅊ':[[[32,12],[68,12]],[[17,35],[83,35],[19,84]],[[51,59.5],[81,84]]]"),'ㅊ must add its top stroke to the two-stroke ㅈ structure');
 assert(index.includes('body.joy-playing:has(.trace-layout) .mainpanel'),'handwriting screen must allow independent mobile scrolling');
 assert(index.includes('overflow-y:auto!important'),'handwriting area must scroll instead of clipping buttons');
 assert(index.includes('position:relative!important;bottom:auto!important'),'trace navigation must not overlap bottom instructions');
@@ -330,3 +330,4 @@ new vm.Script(fs.readFileSync('whole-word-writing.js','utf8'));
 
 const friends={window:{JOY_STORIES:[]}};vm.runInNewContext(fs.readFileSync('stories-friends.js','utf8'),friends);assert.equal(friends.window.JOY_STORIES.length,2);for(const b of friends.window.JOY_STORIES){assert.equal(b.pages.length,10);for(const p of b.pages){assert(fs.existsSync(p.art.replace('./','')));assert(fs.existsSync(p.audio.replace('./','')))}}
 require('./v13/rescue_daily.cjs');
+require('./v13/jieut.cjs');

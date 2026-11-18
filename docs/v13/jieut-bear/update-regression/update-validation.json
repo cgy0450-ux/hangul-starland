@@ -1,0 +1,14 @@
+{
+  "realWorkerUpgrade": true,
+  "legacyAppliedFlagVerifiedAgainstRealWorker": true,
+  "alreadyChangedControllerReload": true,
+  "latestPhoneTablet": true,
+  "offlineClearsOverlay": true,
+  "newProcedureRecordedAudioPlaysOffline": true,
+  "fileCountAndPercentExplained": true,
+  "backgroundCompletionNotice": true,
+  "noForcedBackgroundReload": true,
+  "stalledUpdateCanDismiss": true,
+  "stalledUpdateTimesOutAndClearsOverlay": true,
+  "previousHashedAudioReusedWithNetworkBlocked": true
+}

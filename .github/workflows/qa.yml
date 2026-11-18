@@ -2,7 +2,7 @@ name: Joiland JavaScript QA
 
 on:
   push:
-    branches: [main]
+    branches: [main, v13/02-offline-query-navigation]
   pull_request:
     branches: [main]
 
@@ -20,4 +20,7 @@ jobs:
       - name: Check HTML scripts and app features
         run: node qa/smoke.cjs
       - name: Browser rendered learning hall smoke test
-        run: node qa/browser-smoke.cjs
+        run: |
+          set -o pipefail
+          node qa/browser-smoke.cjs | tee browser-smoke.log
+          node -e "if(!require('fs').readFileSync('browser-smoke.log','utf8').includes('PASS: Chromium rendered 72 live-style pages')) process.exit(1)"

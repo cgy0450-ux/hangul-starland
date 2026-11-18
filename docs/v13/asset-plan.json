@@ -10937,17 +10937,17 @@
     },
     {
       "id": "lesson.reading-0.1",
-      "path": "assets/v13/lesson.reading-0.1.webp",
+      "path": "assets/v13/lesson.reading-0.1-bear.webp",
       "alt": "쪼이 이야기의 답은 꿀예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
       "status": "approved",
       "reviewed": true,
       "dimensions": [
-        498,
-        498
+        768,
+        768
       ],
-      "sha256": "de73d7fce483b6212337b8ba8a1a647bd7c0455ea2cadcc05fc4fb42fe1d09fe",
-      "provenance": "Built-in image_gen source exec-78b965a5-af7a-4882-bf98-33db658ba74e.png",
-      "reviewNote": "Viewed actual atlas and compared six source questions: subject identity, depicted action, ordering/counts, material facts and screen composition. Original JoYi goggles/scarf preserved. Spending jar and child booster/belt panels corrected after review; flag trigrams and Hangul inspected enlarged."
+      "sha256": "cbf1961528142514c01073afa59a2ceaf0412341acbfd654d660ccf6539098e8",
+      "provenance": "Built-in image_gen edit exec-68a589ef-b3d5-4832-bd85-34284e9aad77.png",
+      "reviewNote": "Complete bear body, ears, feet and honey pot; unrelated vegetable strip and panel divider removed. Original same bear identity; coherent single forest scene."
     },
     {
       "id": "lesson.reading-0.2",
@@ -11270,6 +11270,20 @@
       "sha256": "42f53e0d262a4730290c67ec6513cafef03b7a019bd1d8c5d0a67a00fc39a764",
       "provenance": "Built-in image_gen exec-5179b875-2ba3-48c3-933b-e5cf979d7f55.png",
       "reviewNote": "Original generated orthographic maple tile with correctly oriented teal arrow; no emoji. Technical quadrant export."
+    },
+    {
+      "id": "legacy.reading-honey-crop",
+      "path": "assets/v13/lesson.reading-0.1.webp",
+      "alt": "쪼이 이야기의 답은 꿀예요. 누가 무엇을 했는지 그림을 다시 살펴봐요.",
+      "status": "approved",
+      "reviewed": true,
+      "dimensions": [
+        498,
+        498
+      ],
+      "sha256": "de73d7fce483b6212337b8ba8a1a647bd7c0455ea2cadcc05fc4fb42fe1d09fe",
+      "provenance": "Built-in image_gen source exec-78b965a5-af7a-4882-bf98-33db658ba74e.png",
+      "reviewNote": "Legacy URL compatibility only for already-open older clients. Known atlas divider/crop issue, retired from current learning-scenes mapping; current lesson uses the newly generated complete bear. Not a newly completed scene."
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"

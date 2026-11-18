@@ -341,3 +341,10 @@ Continuing branch `v13/02-offline-query-navigation`; previous graphical checkpoi
 - 전용 책장도 동일 공통 선택과 대조, 키/암호화 데이터/개인 정보 변경 없음. pageshow 날짜 갱신 보강. 기기 음성 API 없이도 녹음판은 재생 가능하도록 리더 분리. 증거 docs/v13/spider-rescue 및 qa/v13/rescue_daily.cjs/rescue_story.py/private_daily.py. 최종 검사/배포 결과는 후속 기록.
 - 최종 PASS: 42일 선택/균등 노출/KST/과목 순환 불변, 실제 폰·태블릿 브라우저 신규 전10장 재생·auto-end/pause/replay/manual/discussion 및 기존 캐릭터5편 삽화, 실제 worker offline 녹음 재생. 공개/전용 책장 24일 일치, 읽는 중 KST 자정 책장 복귀, 낭독판 이미지 예약 공백 제거·텍스트 넘침 없음. 구 worker→새 worker 업데이트/legacy 완료 표식/timeout·닫기/offline 회귀도 통과. smoke/72 browser cases PASS. 물리 기기·사람 청취/새 삽화 완료로 보고하지 않음.
 - 운영 반영 확인: main `52aa42af5ec4b2e72f621d595330ed21ebfa1eff`, JavaScript QA #373 (44280488408) 및 Pages #406 (44280487403) SUCCESS. 두 실행 제목의 커밋 일치 확인. docs/v13/spider-rescue/deployment.json. 새 책은 낭독판이며 장면 삽화는 계속 미완료. 로컬 브라우저 검증/배포 자동검사 결과이며 실기기 및 운영 화면 직접 시각 검증으로 보고하지 않음.
+
+## v14.11 — ㅈ 2획·잘린 곰 재제작·업데이트 숫자/완료 안내 (2026-11-18 KST)
+- 최신 원격 backlog/지침 및 완료 기록을 대조. ㅈ을 가로→왼쪽 아래 연결 1획 + 오른쪽 아래 1획으로 두 엔진에 통일. 초성·종성 및 ㅉ/ㅊ 구성도 일관화. 자4획/차5획, 기존 획 판정 함수 및 음성·전체 완료·5분 규칙은 유지. evaluator SHA 기준값과 역방향/모서리 생략/누락 거부 검사 추가.
+- 잘못 잘린 곰은 옆 장면·흰 경계가 원본 파일에 포함됨을 확인. 실제 image_gen 편집으로 양 귀/손/발/꿀단지가 온전한 단일 숲 장면 재제작, 검토·새 경로·오프라인 연결. 옛 URL은 이미 열린 구버전 호환용으로 보존, 현재 수업은 새 장면 사용.
+- 파일 저장 완료 수/전체 수와 퍼센트/설명/progress 표시. 닫아도 앱을 켜 둔 동안 배경 준비; 완료 시 홈 안내. 적용 버튼을 누를 때 새로고침하여 놀이 중 강제 재시작 방지. 실제 worker/legacy flag/배경 완료/진행 수치/timeout/offline 회귀 PASS.
+- 스파이더맨 삽화의 실제 거절 응답은 output/other, 상세 이유·정책 변경 조회 수단 없음. 과거 성공/현재 곰 편집 성공을 확인했으며 계정·결제·사용자 승인 부족으로 단정하지 않음. 거절 우회/재시도 없음; 미완료 유지.
+- 정상 브라우저에서 두 엔진 실제 입력·부분 미통과·새 곰/정답, 240개 그림 연결 및 static smoke PASS. 전체 로컬 browser smoke는 환경의 약27,000 누적 종료 프로세스로 Chrome renderer 생성 실패. 전체 통과로 보고하지 않음. 기존 QA workflow를 개발 브랜치에도 실행하여 72개 실제 PASS 후 main 반영 예정. docs/v13/jieut-bear 참조.

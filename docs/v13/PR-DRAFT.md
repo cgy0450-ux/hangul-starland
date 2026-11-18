@@ -1,9 +1,7 @@
-# Guarantee one character story daily and add rescue narration
+# Use two-stroke ㅈ, replace malformed bear scene and explain updates
 
-Daily story selection now gives one rotating character book plus two classics, with exactly three unique books per KST day. All six character books and 21 classics rotate fairly; subject scheduling and existing book indices/settings stay intact. The legacy private shelf follows the same public selection and refreshes on pageshow.
+Both handwriting engines now guide a continuous top-bar-to-left-down stroke followed by the right branch for ㅈ. Initials/finals and related ㅉ/ㅊ geometry stay consistent. Strict evaluators are unchanged and hash-guarded; partial/reverse/corner-cut paths still fail. The honey bear is a new reviewed complete scene instead of the malformed atlas crop, with a fresh asset URL and legacy URL compatibility.
 
-Adds a ten-chapter Spider-Man river-car rescue narration with ten actual locally generated M4 recordings, chapter text and comprehension. New scene generation was rejected by the image tool; the book is explicitly labeled as an audio edition with scene illustrations pending. No unrelated art, emoji or stock substituted. Recorded editions can play without device speech APIs.
+Update progress explains saved/total file counts and percent. Dismissing leaves preparation in the background while the app stays open; completion is announced, and Apply performs the reload without interrupting play. Real worker migration, progress, dismissal, offline and both actual handwriting engines were tested.
 
-Validation: 42-day selection/fairness/KST tests, real phone/tablet media controls and all pages, existing illustrated characters, offline recorded playback and 24-day public/private selection comparison. Evidence docs/v13/spider-rescue. No human/device listening approval or completed new illustrations claimed.
-
-Production main 52aa42a verified: QA #373 and Pages #406 SUCCESS, both run titles match the release SHA. Evidence docs/v13/spider-rescue/deployment.json. New scene illustrations remain incomplete; narration edition is explicitly labeled.
+Local broad browser checks hit environment process exhaustion after targeted tests passed. The same 72-case QA now also runs on the development branch and requires an explicit PASS, before production merge. Evidence docs/v13/jieut-bear. Image-tool output moderation still blocks the previously rejected character illustrations; no reason beyond output/other or policy-change information was supplied.
