@@ -33,13 +33,13 @@ with sync_playwright() as p:
       assert len(metrics['images'])>0,(label,w,'missing image')
       assert max(r['h'] for r in metrics['images'])>=h*.25,(label,w,'picture too small')
       page.locator('#ready').click();assert page.locator('#answers').is_visible();assert page.locator('#question').is_visible()
-    c.close()
+    (OUT/'metrics.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n');c.close()
  # Survey all remaining real routes, retain evidence; no blanket CSS changes to working games.
  for w,h in [(390,844),(1280,800)]:
   for i,route in enumerate(others):
    c=browser.new_context(viewport={'width':w,'height':h});c.add_init_script("localStorage.setItem('hangul-starland-v1',JSON.stringify({sound:false}));Date.now=()=>1794934800000")
    page=c.new_page();response=page.goto('http://127.0.0.1:8021/'+route);assert response.status==200,route
-   page.wait_for_timeout(350);page.screenshot(path=str(OUT/f'survey-{i:02}-{w}.png'));rows.append(dict(route=route,viewport=[w,h],phase='survey',scroll=page.evaluate('({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,height:innerHeight,scrollHeight:document.documentElement.scrollHeight})'))
+   page.wait_for_timeout(350);page.screenshot(path=str(OUT/f'survey-{i:02}-{w}.png'));rows.append(dict(route=route,viewport=[w,h],phase='survey',scroll=page.evaluate('({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,height:innerHeight,scrollHeight:document.documentElement.scrollHeight})')))
    if route=='stories.html':
     page.locator('[data-book="26"]').click();page.evaluate('document.querySelector("#scene img").decode()');page.screenshot(path=str(OUT/f'aiya-reader-{w}.png'),full_page=True)
     for n in range(10):

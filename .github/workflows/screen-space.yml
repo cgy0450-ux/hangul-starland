@@ -14,7 +14,10 @@ jobs:
           fetch-depth: 0
       - run: pip install playwright
       - name: Capture and check actual Chrome viewports
-        run: python qa/v13/screen_space.py
+        run: |
+          mkdir -p /tmp/joy-space-results
+          set -o pipefail
+          python qa/v13/screen_space.py 2>&1 | tee /tmp/joy-space-results/run.log
       - uses: actions/upload-artifact@v4
         if: always()
         with:
