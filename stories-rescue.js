@@ -1,81 +1,81 @@
-/* User-requested hero replacement. Narration edition; accurate character illustration reference is pending. */
+/* User-requested hero replacement. Ten illustrated pages; original storybook interpretation, not a verified official TV character design. */
 window.JOY_STORIES.push({
   "id": "aiya-river-rescue",
   "title": "한글용사 아이야 — 노란 자동차와 글자 구조대",
   "category": "character",
   "franchise": "hangul-hero-aiya",
-  "format": "audio",
+  "format": "illustrated",
   "color": "#fff4d9",
   "pages": [
     {
       "chapter": "노란 자동차의 나들이",
       "text": "비가 그친 아침, 노란 자동차가 강가 공원으로 향했어요. 엄마와 아빠는 도시락을 챙겨 천천히 달리고 있었지요. 길가에는 작은 물웅덩이가 반짝였어요. 저 다리를 지나면 공원이야. 그런데 자동차가 강가 굽이에 다다랐을 때, 비에 젖은 길 가장자리가 사르르 무너졌어요. 자동차의 앞바퀴가 옆으로 미끄러지기 시작했어요.",
       "audio": "./assets/story-rescue/aiya-river-01.mp3",
-      "art": null,
-      "alt": "아이야 캐릭터 참고자료 확인 중"
+      "art": "./assets/v13/story.aiya-rescue.00.webp",
+      "alt": "비가 그친 강가 길을 달리는 노란 자동차와 엄마 아빠"
     },
     {
       "chapter": "강가에서 들린 목소리",
       "text": "첨벙! 노란 자동차가 강가의 얕은 물에 빠졌어요. 물결이 바퀴와 문 아래에서 찰랑거렸지요. 엄마와 아빠의 얼굴은 물 위로 보였지만, 자동차는 비스듬히 기울어 있었어요. 여기 도와주세요! 산책하던 어른이 그 목소리를 듣고 구조대에 전화를 걸었어요. 사람들은 강둑의 안전한 곳으로 물러나 구조대가 들어올 길을 비워 주었어요.",
       "audio": "./assets/story-rescue/aiya-river-02.mp3",
-      "art": null,
-      "alt": "아이야 캐릭터 참고자료 확인 중"
+      "art": "./assets/v13/story.aiya-rescue.01.webp",
+      "alt": "얕은 강물에 기운 노란 자동차와 구조를 요청하는 어른"
     },
     {
       "chapter": "한글용사 아이야 출동!",
       "text": "도움을 청하는 목소리를 듣고 한글용사 아이야가 강가에 도착했어요. 용사들이 자동차를 향해 손을 흔들었지요. 우리가 여기 있어요. 구조대와 함께 도와드릴게요! 엄마와 아빠가 고개를 끄덕였어요. 용사들은 글자 카드를 펼쳤어요. 지금 필요한 것을 한글로 생각해 보자. 사람들을 안전하게 옮길 수 있는 것은 무엇일까?",
       "audio": "./assets/story-rescue/aiya-river-03.mp3",
-      "art": null,
-      "alt": "아이야 캐릭터 참고자료 확인 중"
+      "art": "./assets/v13/story.aiya-rescue.02.webp",
+      "alt": "글자 카드를 들고 도착한 두 한글 용사"
     },
     {
       "chapter": "사람을 태우는 배",
       "text": "용사들이 그림 카드를 살폈어요. 물 위에 둥실 떠서 사람을 태우는 배! 배라는 글자를 소리 내어 읽자 카드가 반짝였어요. 이것은 한글용사들의 상상 속 글자 도구였지요. 배 카드가 구조대에게 갈 길을 가리켰어요. 마침 도착한 구조대가 작은 구조 보트를 준비했어요. 사람을 태우는 배가 필요한 순간이었어요.",
       "audio": "./assets/story-rescue/aiya-river-04.mp3",
-      "art": null,
-      "alt": "아이야 캐릭터 참고자료 확인 중"
+      "art": "./assets/v13/story.aiya-rescue.03.webp",
+      "alt": "구조 보트와 배 그림 카드를 준비하는 용사와 구조대"
     },
     {
       "chapter": "흔들리지 않게 잡아 주는 줄",
       "text": "이번에는 자동차가 더 기울지 않도록 받쳐 줄 것이 필요했어요. 용사들이 줄 카드를 꺼냈어요. 줄! 글자가 반짝이자 상상 속의 튼튼한 글자 줄이 길게 펼쳐졌어요. 용사들은 구조대와 힘을 모아 자동차를 받쳤어요. 덜컥거리던 자동차가 잠잠해졌지요. 엄마와 아빠가 조금 안심했어요. 이제 보트가 가까이 다가올 수 있었어요.",
       "audio": "./assets/story-rescue/aiya-river-05.mp3",
-      "art": null,
-      "alt": "아이야 캐릭터 참고자료 확인 중"
+      "art": "./assets/v13/story.aiya-rescue.04.webp",
+      "alt": "노란 자동차를 튼튼한 빛의 줄로 받치는 용사들"
     },
     {
       "chapter": "첫 번째 약속, 사람부터",
       "text": "구조대원이 구명조끼를 챙겨 보트에 올랐어요. 한글용사 아이야가 서로 약속했어요. 먼저 사람, 그다음 자동차! 용사들은 사람이라는 글자 카드를 나란히 놓았어요. 가장 소중한 사람부터 도와야 한다는 뜻이었지요. 보트가 천천히 자동차 옆에 멈췄어요. 구조대원이 따뜻하게 말했어요. 안내해 드릴 테니 한 분씩 함께 이동할게요.",
       "audio": "./assets/story-rescue/aiya-river-06.mp3",
-      "art": null,
-      "alt": "아이야 캐릭터 참고자료 확인 중"
+      "art": "./assets/v13/story.aiya-rescue.05.webp",
+      "alt": "자동차의 사람들에게 다가가는 구명조끼 구조대원"
     },
     {
       "chapter": "두 사람이 안전한 곳으로",
       "text": "엄마와 아빠는 구조대원의 도움을 받아 한 명씩 보트에 옮겨 탔어요. 한글용사 아이야는 마지막 사람이 나올 때까지 글자 줄을 단단히 붙들었어요. 두 분 모두 안전해요! 보트가 강둑으로 돌아왔어요. 용사들이 기쁘게 손을 흔들었지요. 배가 사람을 태우고, 줄이 자동차를 받쳤어. 필요한 낱말들이 각자의 역할을 해낸 거야.",
       "audio": "./assets/story-rescue/aiya-river-07.mp3",
-      "art": null,
-      "alt": "아이야 캐릭터 참고자료 확인 중"
+      "art": "./assets/v13/story.aiya-rescue.06.webp",
+      "alt": "구명조끼를 입고 구조 보트로 옮겨 탄 엄마와 아빠"
     },
     {
       "chapter": "차를 꺼낼 차례",
       "text": "이제 자동차 안은 비어 있었어요. 용사들이 차 카드를 들어 보였어요. 다음에는 차를 도와주자! 구조대가 튼튼한 자리를 확인하자 용사들은 글자 줄을 천천히 당겼어요. 노란 자동차가 물 위로 조금씩 올라왔지요. 주르르, 바퀴에서 물방울이 떨어졌어요. 모두가 힘을 맞추자 자동차가 강둑의 단단한 땅 위에 살며시 놓였어요.",
       "audio": "./assets/story-rescue/aiya-river-08.mp3",
-      "art": null,
-      "alt": "아이야 캐릭터 참고자료 확인 중"
+      "art": "./assets/v13/story.aiya-rescue.07.webp",
+      "alt": "사람들이 내린 빈 노란 자동차를 강둑으로 옮기는 구조대"
     },
     {
       "chapter": "고맙다는 말의 힘",
       "text": "엄마와 아빠는 따뜻한 담요를 두르고 구조대원에게 몸 상태를 확인받았어요. 자동차는 견인차가 맡아 주었지요. 정말 고맙습니다! 엄마와 아빠가 인사했어요. 한글용사 아이야도 구조대와 신고해 준 어른들에게 고개를 숙였어요. 혼자 해낸 일이 아니야. 함께 도왔기에 구할 수 있었어. 고마워라는 말이 강가에 따뜻하게 퍼졌어요.",
       "audio": "./assets/story-rescue/aiya-river-09.mp3",
-      "art": null,
-      "alt": "아이야 캐릭터 참고자료 확인 중"
+      "art": "./assets/v13/story.aiya-rescue.08.webp",
+      "alt": "담요를 두른 엄마 아빠를 살펴보는 구급대원과 용사"
     },
     {
       "chapter": "배, 줄, 차, 그리고 함께",
       "text": "강물 위로 햇살이 반짝였어요. 한글용사 아이야가 오늘 사용한 글자 카드를 모았어요. 배, 줄, 차! 어떤 것이 먼저 필요했는지 기억나나요? 용사들은 활짝 웃었어요. 진짜 도움이 필요할 때는 안전한 곳에서 어른과 구조대에 알리는 거야. 모두가 함께하면 큰 힘이 되지! 노란 자동차를 구한 글자 구조대의 이야기가 바람을 따라 퍼졌어요.",
       "audio": "./assets/story-rescue/aiya-river-10.mp3",
-      "art": null,
-      "alt": "아이야 캐릭터 참고자료 확인 중"
+      "art": "./assets/v13/story.aiya-rescue.09.webp",
+      "alt": "배와 줄과 차 그림 카드를 들고 함께 웃는 글자 구조대"
     }
   ],
   "question": {
@@ -88,6 +88,7 @@ window.JOY_STORIES.push({
     "answer": 0,
     "explanation": "맞아요. 사람들을 먼저 안전한 보트로 옮긴 뒤 빈 자동차를 꺼냈어요. 배와 줄, 그리고 함께 돕는 마음이 필요했지요."
   },
-  "cover": null,
-  "illustrationStatus": "awaiting-character-reference"
+  "cover": "./assets/v13/story.aiya-rescue.02.webp",
+  "illustrationStatus": "original-storybook-interpretation",
+  "illustrationNote": "이 동화의 한글 용사는 새롭게 그린 독자적인 그림책 해석입니다."
 });

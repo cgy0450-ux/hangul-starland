@@ -1,0 +1,37 @@
+name: JOY-005 visual evidence
+on:
+  push:
+    branches: [v13/02-offline-query-navigation]
+    paths: ['screen-space.css', 'journey-app-v10.js', 'journey.html', 'qa/v13/screen_space.py', '.github/workflows/screen-space.yml', 'stories-rescue.js']
+jobs:
+  captures:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: pip install playwright
+      - name: Capture and check actual Chrome viewports
+        run: python qa/v13/screen_space.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: joy005-screens
+          path: /tmp/joy-space-results
+      - name: Save reviewable evidence on isolated branch
+        if: always()
+        run: |
+          git config user.name 'Joiland visual QA'
+          git config user.email 'visual-qa@users.noreply.github.com'
+          if git show-ref --verify --quiet refs/remotes/origin/v13/joy005-visual-evidence; then
+            git worktree add /tmp/joy-evidence origin/v13/joy005-visual-evidence
+          else
+            git worktree add --detach /tmp/joy-evidence HEAD
+          fi
+          mkdir -p /tmp/joy-evidence/docs/v13/screen-space/captures
+          cp /tmp/joy-space-results/* /tmp/joy-evidence/docs/v13/screen-space/captures/
+          git -C /tmp/joy-evidence add docs/v13/screen-space/captures
+          git -C /tmp/joy-evidence commit -m 'qa: actual JOY-005 viewport captures for ${{ github.sha }}' || true
+          git -C /tmp/joy-evidence push origin HEAD:refs/heads/v13/joy005-visual-evidence

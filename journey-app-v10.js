@@ -133,7 +133,7 @@ function specialRender(q,mode){
    optionsRender(quizOptions(q));$("answers").classList.add("hidden");
    $("answerTitle").textContent="📖 "+q.explain;$("answerTitle").classList.remove("hidden");
    $("ready").classList.remove("hidden");$("ready").textContent="이야기 듣고 퀴즈!";
-   interaction={type:mode,step:0};phase="intro";speak(q.explain+" "+(q.question||"이 이야기에서 무엇을 배웠을까요?"),"ko-KR");
+   interaction={type:mode,step:0};$("play").dataset.phase="intro";phase="intro";speak(q.explain+" "+(q.question||"이 이야기에서 무엇을 배웠을까요?"),"ko-KR");
  }
 }
 function processAnswer(chosen){
@@ -176,7 +176,7 @@ function render(){
  clearVoice();document.getElementById('joyi-finish-actions')?.remove();$("voicePractice").classList.add("hidden");answered=false;saveResume();phase="quiz";pictureOptions=null;interaction=null;$("interaction").replaceChildren();$("interaction").classList.add("hidden");$("feedback").textContent="";$("explain").classList.add("hidden");$("answers").classList.remove("hidden");$("next").classList.add("hidden");$("ready").classList.add("hidden");$("repeat").classList.add("hidden");$("answerTitle").classList.add("hidden");$("visual").classList.remove("hidden");$("hear").textContent="🔊 소리 듣기";
  $("count").textContent=(index+1)+" / "+run.questions.length;$("stars").textContent="⭐ "+score;$("bar").style.width=(100*index/run.questions.length)+"%";
  const q=current(),mode=run.type==="diagnostic"?"choose":run.lesson.mode;
- $("play").dataset.mode=mode;
+ $("play").dataset.mode=mode;$("play").dataset.phase="quiz";
  if(!q)return;
  $("visual").dataset.sceneSource=window.JoyiSceneCatalog?.find(subject.id,q.answer,q.visual)||'';$("visual").dataset.historyAnswer=subject.id==='history'?q.answer:'';$("visual").textContent=q.visual;$("question").textContent=q.question||q.hint||"어떤 것일까요?";
  $("hint").textContent="차근차근 생각하고 골라봐요";
@@ -195,7 +195,7 @@ function render(){
    $("question").textContent=mode==="remember"?"쪼이와 함께 기억해요":"먼저 그림과 뜻을 알아봐요";
    $("hint").textContent=mode==="remember"?"그림과 이름을 보고 머릿속에 기억해요":"쪼이 설명을 들은 뒤 골라 봐요";
    if(mode==="explore"){$("explain").textContent=q.explain;$("explain").classList.remove("hidden")}
-   phase="intro";speak(mode==="remember"?"이름을 기억해 봐요. "+q.answer:q.explain,"ko-KR");
+   $("play").dataset.phase="intro";phase="intro";speak(mode==="remember"?"이름을 기억해 봐요. "+q.answer:q.explain,"ko-KR");
  }else if(mode==="listen"){
    $("visual").classList.add("hidden");$("question").textContent="소리를 듣고 알맞은 답을 골라요";$("hint").textContent="정답은 소리로만 알려줘요";speak(q.answer,locale());
  }else if(mode==="speak"){
@@ -206,7 +206,7 @@ function render(){
  }else if(!["tap","drag","pair","order","story"].includes(mode))speak($("question").textContent);
  shownAt=performance.now();
 }
-$("ready").onclick=()=>{if(phase!=="intro")return;let q=current(),mode=run.lesson.mode;phase="quiz";
+$("ready").onclick=()=>{if(phase!=="intro")return;let q=current(),mode=run.lesson.mode;phase="quiz";$("play").dataset.phase="quiz";
  $("answers").classList.remove("hidden");$("ready").classList.add("hidden");$("explain").classList.add("hidden");$("answerTitle").classList.add("hidden");
  if(mode==="remember"){$("visual").textContent="❔";$("question").textContent="아까 본 그림의 이름은?"}
  else if(mode==="story"){$("question").textContent=q.question||"이야기를 잘 들었나요?";$("hint").textContent="이야기에 나왔던 답을 찾아요"}

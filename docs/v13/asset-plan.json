@@ -11284,6 +11284,156 @@
       "sha256": "de73d7fce483b6212337b8ba8a1a647bd7c0455ea2cadcc05fc4fb42fe1d09fe",
       "provenance": "Built-in image_gen source exec-78b965a5-af7a-4882-bf98-33db658ba74e.png",
       "reviewNote": "Legacy URL compatibility only for already-open older clients. Known atlas divider/crop issue, retired from current learning-scenes mapping; current lesson uses the newly generated complete bear. Not a newly completed scene."
+    },
+    {
+      "id": "story.aiya-rescue.00",
+      "alt": "비가 그친 강가 길을 달리는 노란 자동차와 엄마 아빠",
+      "status": "approved",
+      "path": "assets/v13/story.aiya-rescue.00.webp",
+      "provenance": "Built-in image_gen, 2026-11-19. Source exec-b9119179-8f6d-4794-9f19-817e12a425c9.png; original storybook interpretation, not verified official TV costume.",
+      "reviewed": true,
+      "dimensions": [
+        768,
+        341
+      ],
+      "reviewNote": "Reviewed generated sheets: consistent yellow car and two guardians, matching rescue sequence, full scene crops, no unrelated stock/emoji.",
+      "sha256": "7d91e8ee437e9855aaa711b390c290633d9b4890d5f105bfa000456932aae845",
+      "export": "Exact panel crop; WebP q90, original PNG retained."
+    },
+    {
+      "id": "story.aiya-rescue.01",
+      "alt": "얕은 강물에 기운 노란 자동차와 구조를 요청하는 어른",
+      "status": "approved",
+      "path": "assets/v13/story.aiya-rescue.01.webp",
+      "provenance": "Built-in image_gen, 2026-11-19. Source exec-b9119179-8f6d-4794-9f19-817e12a425c9.png; original storybook interpretation, not verified official TV costume.",
+      "reviewed": true,
+      "dimensions": [
+        768,
+        341
+      ],
+      "reviewNote": "Reviewed generated sheets: consistent yellow car and two guardians, matching rescue sequence, full scene crops, no unrelated stock/emoji.",
+      "sha256": "d26b5b97637fa3113a7b0f691a9147fbd67797f7ce201696e6d9f40227bf5dca",
+      "export": "Exact panel crop; WebP q90, original PNG retained."
+    },
+    {
+      "id": "story.aiya-rescue.02",
+      "alt": "글자 카드를 들고 도착한 두 한글 용사",
+      "status": "approved",
+      "path": "assets/v13/story.aiya-rescue.02.webp",
+      "provenance": "Built-in image_gen, 2026-11-19. Source exec-b9119179-8f6d-4794-9f19-817e12a425c9.png; original storybook interpretation, not verified official TV costume.",
+      "reviewed": true,
+      "dimensions": [
+        768,
+        341
+      ],
+      "reviewNote": "Reviewed generated sheets: consistent yellow car and two guardians, matching rescue sequence, full scene crops, no unrelated stock/emoji.",
+      "sha256": "138e4b5fba387a604171f0f60263ca257f7ceeb411dc2d691b7ba4bdbbb533ab",
+      "export": "Exact panel crop; WebP q90, original PNG retained."
+    },
+    {
+      "id": "story.aiya-rescue.03",
+      "alt": "구조 보트와 배 그림 카드를 준비하는 용사와 구조대",
+      "status": "approved",
+      "path": "assets/v13/story.aiya-rescue.03.webp",
+      "provenance": "Built-in image_gen, 2026-11-19. Source exec-b9119179-8f6d-4794-9f19-817e12a425c9.png; original storybook interpretation, not verified official TV costume.",
+      "reviewed": true,
+      "dimensions": [
+        768,
+        341
+      ],
+      "reviewNote": "Reviewed generated sheets: consistent yellow car and two guardians, matching rescue sequence, full scene crops, no unrelated stock/emoji.",
+      "sha256": "7487962c0c0426d0bd07f2726f613e0ba07d8eb8ce2daef232f7ced2d6982bc2",
+      "export": "Exact panel crop; WebP q90, original PNG retained."
+    },
+    {
+      "id": "story.aiya-rescue.04",
+      "alt": "노란 자동차를 튼튼한 빛의 줄로 받치는 용사들",
+      "status": "approved",
+      "path": "assets/v13/story.aiya-rescue.04.webp",
+      "provenance": "Built-in image_gen, 2026-11-19. Source exec-b9119179-8f6d-4794-9f19-817e12a425c9.png; original storybook interpretation, not verified official TV costume.",
+      "reviewed": true,
+      "dimensions": [
+        768,
+        342
+      ],
+      "reviewNote": "Reviewed generated sheets: consistent yellow car and two guardians, matching rescue sequence, full scene crops, no unrelated stock/emoji.",
+      "sha256": "84667c151ea03d0393820cbd84d688c043ffb175df713ab8dc081c75b6b6f820",
+      "export": "Exact panel crop; WebP q90, original PNG retained."
+    },
+    {
+      "id": "story.aiya-rescue.05",
+      "alt": "자동차의 사람들에게 다가가는 구명조끼 구조대원",
+      "status": "approved",
+      "path": "assets/v13/story.aiya-rescue.05.webp",
+      "provenance": "Built-in image_gen, 2026-11-19. Source exec-b9119179-8f6d-4794-9f19-817e12a425c9.png; original storybook interpretation, not verified official TV costume.",
+      "reviewed": true,
+      "dimensions": [
+        768,
+        342
+      ],
+      "reviewNote": "Reviewed generated sheets: consistent yellow car and two guardians, matching rescue sequence, full scene crops, no unrelated stock/emoji.",
+      "sha256": "c71f27f81d9cd7239dbde57ffcc3f587f59316922c1637c623a4049e36a8e452",
+      "export": "Exact panel crop; WebP q90, original PNG retained."
+    },
+    {
+      "id": "story.aiya-rescue.06",
+      "alt": "구명조끼를 입고 구조 보트로 옮겨 탄 엄마와 아빠",
+      "status": "approved",
+      "path": "assets/v13/story.aiya-rescue.06.webp",
+      "provenance": "Built-in image_gen, 2026-11-19. Source exec-62e6480e-8aca-4870-bc7f-6993e4da2064.png; original storybook interpretation, not verified official TV costume.",
+      "reviewed": true,
+      "dimensions": [
+        768,
+        512
+      ],
+      "reviewNote": "Reviewed generated sheets: consistent yellow car and two guardians, matching rescue sequence, full scene crops, no unrelated stock/emoji.",
+      "sha256": "62cf5c3a8661576a4694833939faf65b415936202e067f6b5fab6e05262d095e",
+      "export": "Exact panel crop; WebP q90, original PNG retained."
+    },
+    {
+      "id": "story.aiya-rescue.07",
+      "alt": "사람들이 내린 빈 노란 자동차를 강둑으로 옮기는 구조대",
+      "status": "approved",
+      "path": "assets/v13/story.aiya-rescue.07.webp",
+      "provenance": "Built-in image_gen, 2026-11-19. Source exec-62e6480e-8aca-4870-bc7f-6993e4da2064.png; original storybook interpretation, not verified official TV costume.",
+      "reviewed": true,
+      "dimensions": [
+        768,
+        512
+      ],
+      "reviewNote": "Reviewed generated sheets: consistent yellow car and two guardians, matching rescue sequence, full scene crops, no unrelated stock/emoji.",
+      "sha256": "d57ad3ff6dc4aede6f3026aaab0345a7c7e56823349fbeb24cbaf5ee11c3bfd5",
+      "export": "Exact panel crop; WebP q90, original PNG retained."
+    },
+    {
+      "id": "story.aiya-rescue.08",
+      "alt": "담요를 두른 엄마 아빠를 살펴보는 구급대원과 용사",
+      "status": "approved",
+      "path": "assets/v13/story.aiya-rescue.08.webp",
+      "provenance": "Built-in image_gen, 2026-11-19. Source exec-62e6480e-8aca-4870-bc7f-6993e4da2064.png; original storybook interpretation, not verified official TV costume.",
+      "reviewed": true,
+      "dimensions": [
+        768,
+        512
+      ],
+      "reviewNote": "Reviewed generated sheets: consistent yellow car and two guardians, matching rescue sequence, full scene crops, no unrelated stock/emoji.",
+      "sha256": "4bcd8582759c8b2604037417f58723234680e409386dcaef2ad4afff722e5c2d",
+      "export": "Exact panel crop; WebP q90, original PNG retained."
+    },
+    {
+      "id": "story.aiya-rescue.09",
+      "alt": "배와 줄과 차 그림 카드를 들고 함께 웃는 글자 구조대",
+      "status": "approved",
+      "path": "assets/v13/story.aiya-rescue.09.webp",
+      "provenance": "Built-in image_gen, 2026-11-19. Source exec-62e6480e-8aca-4870-bc7f-6993e4da2064.png; original storybook interpretation, not verified official TV costume.",
+      "reviewed": true,
+      "dimensions": [
+        768,
+        512
+      ],
+      "reviewNote": "Reviewed generated sheets: consistent yellow car and two guardians, matching rescue sequence, full scene crops, no unrelated stock/emoji.",
+      "sha256": "a7cc68d110a37dd6d44b49f2702ef629363fc5d28cb404a886cb7bfa6cd6b852",
+      "export": "Exact panel crop; WebP q90, original PNG retained."
     }
   ],
   "deploymentExport": "v13 q84 scenes / q86 sprites; original sources retained; exported once"
